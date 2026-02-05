@@ -1,0 +1,18 @@
+
+{
+  "name": "LinguoPlayer",
+  "short_name": "Linguo",
+  "description": "Аудио-плеер для изучения английского с двойными субтитрами",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2903/2903544.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
