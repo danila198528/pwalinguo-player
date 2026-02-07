@@ -1,0 +1,22 @@
+
+[
+  {
+    "id": "deck-8",
+    "deck_name": "Колода №8 - Legendary, Mislead, Turnover...",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/audio.mp3",
+    "total_duration": 1695.44,
+    "total_sentences": 90,
+    "sentences": [
+      { "id": 1, "english": "He admired the legendary hero for his bravery.", "russian": "Он восхищался легендарным героем за его храбрость.", "start": 3.62, "end": 21.7 },
+      { "id": 2, "english": "He didn't want to mislead anyone with false information.", "russian": "Он не хотел вводить кого-либо в заблуждение ложной информацией.", "start": 21.7, "end": 40.419 },
+      { "id": 3, "english": "He was concerned about the high turnover rate in the company.", "russian": "Он был обеспокоен высоким уровнем текучести кадров в компании.", "start": 40.419, "end": 59.54 },
+      { "id": 4, "english": "He paid the admission fee to enter the museum.", "russian": "Он заплатил вступительный взнос, чтобы войти в музей.", "start": 59.54, "end": 77.46 },
+      { "id": 5, "english": "He decided to apply for a patent for his invention.", "russian": "Он решил подать заявку на патент на своё изобретение.", "start": 77.46, "end": 96.1 },
+      { "id": 6, "english": "He was discharged from the hospital after recovering.", "russian": "Его выписали из больницы после выздоровления.", "start": 96.1, "end": 114.22 },
+      { "id": 7, "english": "He won the lottery by sheer luck.", "russian": "Он выиграл в лотерею благодаря чистой удаче.", "start": 114.22, "end": 131.14 },
+      { "id": 8, "english": "He listened to music to elevate his mood.", "russian": "Он слушал музыку, чтобы поднять настроение.", "start": 131.14, "end": 148.78 },
+      { "id": 9, "english": "He subscribed to the email newsletter for updates.", "russian": "Он подписался на email-рассылку для получения обновлений.", "start": 148.78, "end": 167.5 },
+      { "id": 10, "english": "He blasted music to dance and have fun.", "russian": "Он включил музыку на полную громкость, чтобы потанцевать и повеселиться.", "start": 167.5, "end": 185.34 }
+    ]
+  }
+]

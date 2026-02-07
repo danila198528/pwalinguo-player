@@ -1,0 +1,24 @@
+{
+  "id": "deck-9",
+  "deck_name": "КОЛОДА-9-НАЗВАНИЕ",
+  "audio_url": "https://ваш-аудио-урл/audio-9.mp3",
+  "total_duration": 1800,
+  "total_sentences": 100,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "FIRST ENGLISH SENTENCE",
+      "russian": "ПЕРВОЕ РУССКОЕ ПРЕДЛОЖЕНИЕ",
+      "start": 0.0,
+      "end": 5.0
+    },
+    {
+      "id": 2,
+      "english": "SECOND ENGLISH SENTENCE",
+      "russian": "ВТОРОЕ РУССКОЕ ПРЕДЛОЖЕНИЕ",
+      "start": 5.0,
+      "end": 10.0
+    }
+    // ... остальные 98 предложений
+  ]
+}

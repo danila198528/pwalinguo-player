@@ -1,0 +1,703 @@
+{
+  "id": "deck-1",
+  "deck_name": "collocation_1",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/colloc_1.mp3",
+  "group": "collocation",
+  "total_duration": 1422.1,
+  "total_sentences": 99,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I need to · make a decision.",
+      "russian": "Мне нужно · принять решение.",
+      "start": 0.0,
+      "end": 14.559
+    },
+    {
+      "id": 2,
+      "english": "Let’s · take a break.",
+      "russian": "Давай · сделаем перерыв.",
+      "start": 14.559,
+      "end": 28.544
+    },
+    {
+      "id": 3,
+      "english": "Did you · have a good time?",
+      "russian": "Ты · хорошо провёл время?",
+      "start": 28.544,
+      "end": 43.055
+    },
+    {
+      "id": 4,
+      "english": "I have to · do homework.",
+      "russian": "Мне нужно · сделать домашнее задание.",
+      "start": 43.055,
+      "end": 57.615
+    },
+    {
+      "id": 5,
+      "english": "He wants to · make money.",
+      "russian": "Он хочет · зарабатывать деньги.",
+      "start": 57.615,
+      "end": 71.888
+    },
+    {
+      "id": 6,
+      "english": "Take responsibility for your actions.",
+      "russian": "Неси ответственность за свои поступки.",
+      "start": 71.888,
+      "end": 87.984
+    },
+    {
+      "id": 7,
+      "english": "Pay attention, please.",
+      "russian": "Пожалуйста, будь внимателен.",
+      "start": 87.984,
+      "end": 103.168
+    },
+    {
+      "id": 8,
+      "english": "Let’s · keep in touch.",
+      "russian": "Давай · останемся на связи.",
+      "start": 103.168,
+      "end": 117.439
+    },
+    {
+      "id": 9,
+      "english": "I think I · caught a cold.",
+      "russian": "Кажется, я · простудился.",
+      "start": 117.439,
+      "end": 132.096
+    },
+    {
+      "id": 10,
+      "english": "You’re · making good progress.",
+      "russian": "Ты · делаешь хорошие успехи.",
+      "start": 132.096,
+      "end": 146.944
+    },
+    {
+      "id": 11,
+      "english": "I don’t want to · take a risk.",
+      "russian": "Я не хочу · рисковать.",
+      "start": 146.944,
+      "end": 161.552
+    },
+    {
+      "id": 12,
+      "english": "Have fun tonight.",
+      "russian": "Хорошо повеселись сегодня.",
+      "start": 161.552,
+      "end": 175.584
+    },
+    {
+      "id": 13,
+      "english": "Just · do your best.",
+      "russian": "Просто · сделай всё, что в твоих силах.",
+      "start": 175.584,
+      "end": 189.759
+    },
+    {
+      "id": 14,
+      "english": "That doesn’t · make sense.",
+      "russian": "В этом нет · смысла.",
+      "start": 189.759,
+      "end": 204.271
+    },
+    {
+      "id": 15,
+      "english": "I usually · take notes.",
+      "russian": "Я обычно · делаю заметки.",
+      "start": 204.271,
+      "end": 219.024
+    },
+    {
+      "id": 16,
+      "english": "I · have experience in sales.",
+      "russian": "У меня есть · опыт в продажах.",
+      "start": 219.024,
+      "end": 234.495
+    },
+    {
+      "id": 17,
+      "english": "They · do business together.",
+      "russian": "Они · ведут дела вместе.",
+      "start": 234.495,
+      "end": 248.959
+    },
+    {
+      "id": 18,
+      "english": "Make an effort next time.",
+      "russian": "Постарайся в следующий раз.",
+      "start": 248.959,
+      "end": 263.951
+    },
+    {
+      "id": 19,
+      "english": "We need to · take action.",
+      "russian": "Нам нужно · принять меры.",
+      "start": 263.951,
+      "end": 278.463
+    },
+    {
+      "id": 20,
+      "english": "Have a look at this.",
+      "russian": "Взгляни на это.",
+      "start": 278.463,
+      "end": 292.543
+    },
+    {
+      "id": 21,
+      "english": "I’ll · do the dishes.",
+      "russian": "Я · помою посуду.",
+      "start": 292.543,
+      "end": 306.576
+    },
+    {
+      "id": 22,
+      "english": "Everyone · makes a mistake sometimes.",
+      "russian": "Каждый иногда · ошибается.",
+      "start": 306.576,
+      "end": 322.72
+    },
+    {
+      "id": 23,
+      "english": "I want to · take part.",
+      "russian": "Я хочу · принять участие.",
+      "start": 322.72,
+      "end": 337.088
+    },
+    {
+      "id": 24,
+      "english": "We · have a problem.",
+      "russian": "У нас · есть проблема.",
+      "start": 337.088,
+      "end": 351.024
+    },
+    {
+      "id": 25,
+      "english": "They · do research online.",
+      "russian": "Они · проводят исследования онлайн.",
+      "start": 351.024,
+      "end": 366.064
+    },
+    {
+      "id": 26,
+      "english": "We’re · making plans now.",
+      "russian": "Сейчас мы · строим планы.",
+      "start": 366.064,
+      "end": 380.912
+    },
+    {
+      "id": 27,
+      "english": "The meeting · takes place tomorrow.",
+      "russian": "Встреча · состоится завтра.",
+      "start": 380.912,
+      "end": 396.096
+    },
+    {
+      "id": 28,
+      "english": "I · have a strange feeling.",
+      "russian": "У меня · странное предчувствие.",
+      "start": 396.096,
+      "end": 410.847
+    },
+    {
+      "id": 29,
+      "english": "I don’t · do much exercise.",
+      "russian": "Я не · делаю много упражнений.",
+      "start": 410.847,
+      "end": 425.887
+    },
+    {
+      "id": 30,
+      "english": "It · makes a big difference.",
+      "russian": "Это · имеет большое значение.",
+      "start": 425.887,
+      "end": 440.591
+    },
+    {
+      "id": 31,
+      "english": "Take advantage of this chance.",
+      "russian": "Воспользуйся этим шансом.",
+      "start": 440.591,
+      "end": 455.967
+    },
+    {
+      "id": 32,
+      "english": "I · have an idea.",
+      "russian": "У меня есть · идея.",
+      "start": 455.967,
+      "end": 469.999
+    },
+    {
+      "id": 33,
+      "english": "He · did a great job.",
+      "russian": "Он · проделал отличную работу.",
+      "start": 469.999,
+      "end": 484.223
+    },
+    {
+      "id": 34,
+      "english": "I can’t · make a promise.",
+      "russian": "Я не могу · дать обещание.",
+      "start": 484.223,
+      "end": 498.591
+    },
+    {
+      "id": 35,
+      "english": "This will · take time.",
+      "russian": "Это · займёт время.",
+      "start": 498.591,
+      "end": 513.008
+    },
+    {
+      "id": 36,
+      "english": "You · have a good chance.",
+      "russian": "У тебя · хороший шанс.",
+      "start": 513.008,
+      "end": 527.327
+    },
+    {
+      "id": 37,
+      "english": "You · did really well.",
+      "russian": "Ты · справился действительно хорошо.",
+      "start": 527.327,
+      "end": 541.599
+    },
+    {
+      "id": 38,
+      "english": "It’s time to · make a change.",
+      "russian": "Пора · внести изменения.",
+      "start": 541.599,
+      "end": 556.687
+    },
+    {
+      "id": 39,
+      "english": "Take care of yourself.",
+      "russian": "Позаботься о себе.",
+      "start": 556.687,
+      "end": 571.439
+    },
+    {
+      "id": 40,
+      "english": "Can I · ask a question?",
+      "russian": "Можно · задать вопрос?",
+      "start": 571.439,
+      "end": 585.807
+    },
+    {
+      "id": 41,
+      "english": "It won’t · do harm.",
+      "russian": "Это не · навредит.",
+      "start": 585.807,
+      "end": 599.935
+    },
+    {
+      "id": 42,
+      "english": "You must · make a choice.",
+      "russian": "Ты должен · сделать выбор.",
+      "start": 599.935,
+      "end": 614.495
+    },
+    {
+      "id": 43,
+      "english": "Take control of the situation.",
+      "russian": "Возьми ситуацию под контроль.",
+      "start": 614.495,
+      "end": 629.919
+    },
+    {
+      "id": 44,
+      "english": "We · have a meeting today.",
+      "russian": "У нас сегодня · встреча.",
+      "start": 629.919,
+      "end": 644.671
+    },
+    {
+      "id": 45,
+      "english": "She’s · doing her hair.",
+      "russian": "Она · делает причёску.",
+      "start": 644.671,
+      "end": 659.135
+    },
+    {
+      "id": 46,
+      "english": "Let’s · make a deal.",
+      "russian": "Давай · заключим сделку.",
+      "start": 659.135,
+      "end": 673.167
+    },
+    {
+      "id": 47,
+      "english": "Please · take a seat.",
+      "russian": "Пожалуйста, · присаживайся.",
+      "start": 673.167,
+      "end": 687.247
+    },
+    {
+      "id": 48,
+      "english": "We need to · have a talk.",
+      "russian": "Нам нужно · поговорить.",
+      "start": 687.247,
+      "end": 701.759
+    },
+    {
+      "id": 49,
+      "english": "I’ll · do the shopping.",
+      "russian": "Я · схожу за покупками.",
+      "start": 701.759,
+      "end": 715.647
+    },
+    {
+      "id": 50,
+      "english": "You need to · make an appointment.",
+      "russian": "Тебе нужно · записаться на приём.",
+      "start": 715.647,
+      "end": 730.495
+    },
+    {
+      "id": 51,
+      "english": "Let’s · have a break.",
+      "russian": "Давай · отдохнём.",
+      "start": 730.495,
+      "end": 744.431
+    },
+    {
+      "id": 52,
+      "english": "I need to · do the laundry.",
+      "russian": "Мне нужно · постирать вещи.",
+      "start": 744.431,
+      "end": 758.895
+    },
+    {
+      "id": 53,
+      "english": "Can I · make a suggestion?",
+      "russian": "Можно · внести предложение?",
+      "start": 758.895,
+      "end": 773.503
+    },
+    {
+      "id": 54,
+      "english": "I have to · take a test.",
+      "russian": "Мне нужно · пройти тест.",
+      "start": 773.503,
+      "end": 788.015
+    },
+    {
+      "id": 55,
+      "english": "He · has confidence now.",
+      "russian": "Теперь он · уверен в себе.",
+      "start": 788.015,
+      "end": 802.671
+    },
+    {
+      "id": 56,
+      "english": "Do your duty properly.",
+      "russian": "Надлежащим образом исполняй свой долг.",
+      "start": 802.671,
+      "end": 817.135
+    },
+    {
+      "id": 57,
+      "english": "I want to · make a complaint.",
+      "russian": "Я хочу · подать жалобу.",
+      "start": 817.135,
+      "end": 831.743
+    },
+    {
+      "id": 58,
+      "english": "Let’s · take a walk.",
+      "russian": "Давай · прогуляемся.",
+      "start": 831.743,
+      "end": 845.775
+    },
+    {
+      "id": 59,
+      "english": "Have patience with him.",
+      "russian": "Прояви к нему терпение.",
+      "start": 845.775,
+      "end": 860.143
+    },
+    {
+      "id": 60,
+      "english": "Can you · do me a favor?",
+      "russian": "Можешь · оказать мне услугу?",
+      "start": 860.143,
+      "end": 874.511
+    },
+    {
+      "id": 61,
+      "english": "Stop · making excuses.",
+      "russian": "Хватит · придумывать оправдания.",
+      "start": 874.511,
+      "end": 889.599
+    },
+    {
+      "id": 62,
+      "english": "I’m going to · take a shower.",
+      "russian": "Я собираюсь · принять душ.",
+      "start": 889.599,
+      "end": 904.207
+    },
+    {
+      "id": 63,
+      "english": "The team · had success.",
+      "russian": "Команда · добилась успеха.",
+      "start": 904.207,
+      "end": 918.911
+    },
+    {
+      "id": 64,
+      "english": "Just · do nothing.",
+      "russian": "Просто · ничего не делай.",
+      "start": 918.911,
+      "end": 932.703
+    },
+    {
+      "id": 65,
+      "english": "I need to · make a phone call.",
+      "russian": "Мне нужно · позвонить.",
+      "start": 932.703,
+      "end": 947.503
+    },
+    {
+      "id": 66,
+      "english": "Take a deep breath.",
+      "russian": "Сделай глубокий вдох.",
+      "start": 947.503,
+      "end": 961.583
+    },
+    {
+      "id": 67,
+      "english": "Do you · have access?",
+      "russian": "У тебя есть · доступ?",
+      "start": 961.583,
+      "end": 975.663
+    },
+    {
+      "id": 68,
+      "english": "I need to · do some work.",
+      "russian": "Мне нужно · поработать.",
+      "start": 975.663,
+      "end": 990.271
+    },
+    {
+      "id": 69,
+      "english": "He · made a comment.",
+      "russian": "Он · сделал комментарий.",
+      "start": 990.271,
+      "end": 1004.207
+    },
+    {
+      "id": 70,
+      "english": "Take a step back.",
+      "russian": "Сделай шаг назад.",
+      "start": 1004.207,
+      "end": 1018.239
+    },
+    {
+      "id": 71,
+      "english": "She · has control now.",
+      "russian": "Теперь она · контролирует ситуацию.",
+      "start": 1018.239,
+      "end": 1032.847
+    },
+    {
+      "id": 72,
+      "english": "She’s · doing the cleaning.",
+      "russian": "Она · делает уборку.",
+      "start": 1032.847,
+      "end": 1047.215
+    },
+    {
+      "id": 73,
+      "english": "They · made an offer.",
+      "russian": "Они · сделали предложение.",
+      "start": 1047.215,
+      "end": 1061.103
+    },
+    {
+      "id": 74,
+      "english": "Take a chance.",
+      "russian": "Используй шанс.",
+      "start": 1061.103,
+      "end": 1074.991
+    },
+    {
+      "id": 75,
+      "english": "Have respect for others.",
+      "russian": "Относись к другим с уважением.",
+      "start": 1074.991,
+      "end": 1089.455
+    },
+    {
+      "id": 76,
+      "english": "Just · do your job.",
+      "russian": "Просто · делай свою работу.",
+      "start": 1089.455,
+      "end": 1103.583
+    },
+    {
+      "id": 77,
+      "english": "I’d like to · make a request.",
+      "russian": "Я хотел бы · сделать запрос.",
+      "start": 1103.583,
+      "end": 1118.383
+    },
+    {
+      "id": 78,
+      "english": "I need to · take a break from work.",
+      "russian": "Мне нужно · сделать перерыв в работе.",
+      "start": 1118.383,
+      "end": 1133.663
+    },
+    {
+      "id": 79,
+      "english": "I · have sympathy for her.",
+      "russian": "Я · сочувствую ей.",
+      "start": 1133.663,
+      "end": 1148.175
+    },
+    {
+      "id": 80,
+      "english": "Do the right thing.",
+      "russian": "Поступи правильно.",
+      "start": 1148.175,
+      "end": 1162.063
+    },
+    {
+      "id": 81,
+      "english": "He · made a prediction.",
+      "russian": "Он · сделал предсказание.",
+      "start": 1162.063,
+      "end": 1176.287
+    },
+    {
+      "id": 82,
+      "english": "I’ll · take a nap.",
+      "russian": "Я · вздремну.",
+      "start": 1176.287,
+      "end": 1190.031
+    },
+    {
+      "id": 83,
+      "english": "Do I · have permission?",
+      "russian": "У меня есть · разрешение?",
+      "start": 1190.031,
+      "end": 1203.967
+    },
+    {
+      "id": 84,
+      "english": "Do your part.",
+      "russian": "Сделай свою часть.",
+      "start": 1203.967,
+      "end": 1217.759
+    },
+    {
+      "id": 85,
+      "english": "He · made an attempt.",
+      "russian": "Он · предпринял попытку.",
+      "start": 1217.759,
+      "end": 1231.839
+    },
+    {
+      "id": 86,
+      "english": "Can you · take a photo?",
+      "russian": "Можешь · сфотографировать?",
+      "start": 1231.839,
+      "end": 1246.063
+    },
+    {
+      "id": 87,
+      "english": "I · have trust in you.",
+      "russian": "Я · доверяю тебе.",
+      "start": 1246.063,
+      "end": 1260.191
+    },
+    {
+      "id": 88,
+      "english": "He · does the talking.",
+      "russian": "Он · ведёт переговоры.",
+      "start": 1260.191,
+      "end": 1274.175
+    },
+    {
+      "id": 89,
+      "english": "I · made a reservation.",
+      "russian": "Я · забронировал(а) столик.",
+      "start": 1274.175,
+      "end": 1288.591
+    },
+    {
+      "id": 90,
+      "english": "Let’s · take a bus.",
+      "russian": "Давай · поедем на автобусе.",
+      "start": 1288.591,
+      "end": 1302.671
+    },
+    {
+      "id": 91,
+      "english": "I · have a headache.",
+      "russian": "У меня · болит голова.",
+      "start": 1302.671,
+      "end": 1316.607
+    },
+    {
+      "id": 92,
+      "english": "Let’s · do the work.",
+      "russian": "Давай · сделаем эту работу.",
+      "start": 1316.607,
+      "end": 1330.687
+    },
+    {
+      "id": 93,
+      "english": "Let’s · make a bet.",
+      "russian": "Давай · заключим пари.",
+      "start": 1330.687,
+      "end": 1344.623
+    },
+    {
+      "id": 94,
+      "english": "I’m · taking a class.",
+      "russian": "Я · посещаю курс.",
+      "start": 1344.623,
+      "end": 1358.991
+    },
+    {
+      "id": 95,
+      "english": "They · had an argument.",
+      "russian": "У них · была ссора.",
+      "start": 1358.991,
+      "end": 1373.167
+    },
+    {
+      "id": 96,
+      "english": "Do the math.",
+      "russian": "Посчитай.",
+      "start": 1373.167,
+      "end": 1386.671
+    },
+    {
+      "id": 97,
+      "english": "Make a list.",
+      "russian": "Составь список.",
+      "start": 1386.671,
+      "end": 1400.319
+    },
+    {
+      "id": 98,
+      "english": "I need to · take a call.",
+      "russian": "Мне нужно · ответить на звонок.",
+      "start": 1400.319,
+      "end": 1414.495
+    },
+    {
+      "id": 99,
+      "english": "I · had breakfast already.",
+      "russian": "Я уже · позавтракал(а).",
+      "start": 1414.495,
+      "end": 1422.103
+    }
+  ]
+}
