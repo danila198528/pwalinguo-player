@@ -8,13 +8,39 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="theme-color" content="#020617">
+    <meta name="theme-color" content="#ffffff">
     
     <link rel="manifest" href="./manifest.json">
     <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/2903/2903544.png">
 
     <!-- Наши стили -->
     <link rel="stylesheet" href="./styles.css">
+    
+    <style>
+        /* Дополнительные стили для предотвращения выделения и улучшения PWA */
+        * {
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        html {
+            background: #ffffff;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            overflow: hidden;
+        }
+        
+        /* Для полноэкранного режима PWA */
+        @media (display-mode: standalone) {
+            body {
+                padding-top: env(safe-area-inset-top);
+                padding-bottom: env(safe-area-inset-bottom);
+            }
+        }
+    </style>
 </head>
 <body>
     <div id="root"></div>
@@ -27,10 +53,35 @@
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('./sw.js')
-                    .then(reg => console.log('SW зарегистрирован'))
-                    .catch(err => console.log('SW ошибка:', err.message));
+                    .then(reg => console.log('Service Worker зарегистрирован:', reg.scope))
+                    .catch(err => console.log('Service Worker ошибка:', err.message));
             });
         }
+        
+        // Предотвращаем контекстное меню
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+        
+        // Предотвращаем масштабирование жестами
+        document.addEventListener('gesturestart', function(e) {
+            e.preventDefault();
+        });
+        
+        // Предотвращаем выделение текста
+        document.addEventListener('selectstart', function(e) {
+            e.preventDefault();
+        });
+        
+        // Принудительный перезапуск аудио при проблемах
+        window.fixAudio = function() {
+            const audio = document.querySelector('audio');
+            if (audio) {
+                audio.load();
+                console.log('Аудио перезагружено');
+            }
+        };
     </script>
 </body>
 </html>
