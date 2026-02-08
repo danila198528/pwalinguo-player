@@ -240,10 +240,6 @@ const Player = ({ deck, audioBlob, onBack }) => {
         return deck.sentences?.find(s => currentTime >= s.start && currentTime <= s.end);
     }, [currentTime, deck.sentences]);
 
-    const currentSentenceIndex = useMemo(() => {
-        return deck.sentences?.findIndex(s => currentTime >= s.start && currentTime <= s.end);
-    }, [currentTime, deck.sentences]);
-
     // Обработчики аудио
     const handleTimeUpdate = () => {
         if (audioRef.current) setCurrentTime(audioRef.current.currentTime);
@@ -272,22 +268,28 @@ const Player = ({ deck, audioBlob, onBack }) => {
     };
 
     const handlePrevious = () => {
-        if (!audioRef.current || !deck.sentences || currentSentenceIndex === -1) return;
+        if (!audioRef.current || !deck.sentences) return;
         
-        if (currentTime - deck.sentences[currentSentenceIndex]?.start > 2) {
-            audioRef.current.currentTime = deck.sentences[currentSentenceIndex].start;
-        } else if (currentSentenceIndex > 0) {
-            audioRef.current.currentTime = deck.sentences[currentSentenceIndex - 1].start;
+        const currentIndex = deck.sentences.findIndex(s => currentTime >= s.start && currentTime <= s.end);
+        
+        if (currentIndex === -1) return;
+        
+        if (currentTime - deck.sentences[currentIndex]?.start > 2) {
+            audioRef.current.currentTime = deck.sentences[currentIndex].start;
+        } else if (currentIndex > 0) {
+            audioRef.current.currentTime = deck.sentences[currentIndex - 1].start;
         }
     };
 
     // Полноэкранный режим
     const toggleFullscreen = () => {
         if (!document.fullscreenElement) {
+            // Вход в полноэкранный режим
             document.documentElement.requestFullscreen().catch(err => {
                 console.log('Fullscreen error:', err);
             });
         } else {
+            // Выход из полноэкранного режима
             document.exitFullscreen();
         }
     };
@@ -299,7 +301,12 @@ const Player = ({ deck, audioBlob, onBack }) => {
         };
 
         document.addEventListener('fullscreenchange', handleFullscreenChange);
-        return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
+        document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+        
+        return () => {
+            document.removeEventListener('fullscreenchange', handleFullscreenChange);
+            document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
+        };
     }, []);
 
     // Управление контролами
@@ -325,14 +332,17 @@ const Player = ({ deck, audioBlob, onBack }) => {
             if (e.key === 'ArrowLeft') handlePrevious();
             if (e.key === 'f' || e.key === 'F') toggleFullscreen();
             if (e.key === 'Escape') {
-                if (document.fullscreenElement) document.exitFullscreen();
-                else if (showControls) setShowControls(false);
+                if (document.fullscreenElement) {
+                    document.exitFullscreen();
+                } else if (showControls) {
+                    setShowControls(false);
+                }
             }
         };
 
         document.addEventListener('keydown', handleKeyPress);
         return () => document.removeEventListener('keydown', handleKeyPress);
-    }, [isPlaying]);
+    }, [isPlaying, showControls]);
 
     // Очистка таймеров
     useEffect(() => {
@@ -359,16 +369,16 @@ const Player = ({ deck, audioBlob, onBack }) => {
             autoPlay: true
         }),
 
-        // Основной контент - английский текст по центру
+        // Основной контент
         React.createElement("div", { className: "flex-1 flex flex-col items-center justify-center p-8 text-center" },
-            // Английский текст (по центру экрана)
+            // Английский текст
             React.createElement("div", { 
                 className: "text-5xl md:text-6xl font-normal leading-tight text-black mb-4"
             }, 
                 currentSentence?.english || deck.deck_name
             ),
             
-            // Русский текст (значительно ниже)
+            // Русский текст
             React.createElement("div", { 
                 className: "text-2xl md:text-3xl text-gray-600 font-normal leading-relaxed mt-32"
             }, 
@@ -376,13 +386,21 @@ const Player = ({ deck, audioBlob, onBack }) => {
             )
         ),
 
-        // Контролы плеера (появляются снизу при касании)
+        // Контролы плеера (появляются при касании)
         showControls && React.createElement("div", { 
-            className: "fixed bottom-0 left-0 right-0 p-6 pt-8 z-50"
+            className: "fixed inset-0 z-50"
         },
-            // Основные контролы и кнопка полноэкранного режима
-            React.createElement("div", { className: "flex items-center justify-center gap-12" },
-                // Кнопка назад
+            // Верхняя панель (кнопка назад в меню)
+            React.createElement("div", { className: "absolute top-6 left-6" },
+                React.createElement("button", {
+                    onClick: onBack,
+                    className: "w-12 h-12 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
+                }, "←")
+            ),
+            
+            // Центральные контролы
+            React.createElement("div", { className: "absolute bottom-6 left-0 right-0 flex items-center justify-center gap-12" },
+                // Кнопка назад на предыдущий субтитр
                 React.createElement("button", {
                     onClick: handlePrevious,
                     className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
