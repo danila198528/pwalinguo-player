@@ -1,0 +1,836 @@
+{
+  "id": "deck-10",
+  "deck_name": "Blok A_en",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/Blok%20A_grammar.mp3",
+  "group": "grammar",
+  "total_duration": 1998.65,
+  "total_sentences": 118,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "BLOCK A: Subject without -s (Plural)",
+      "russian": "БЛОК А: Подлежащее без -s (множественное число)",
+      "start": 0.0,
+      "end": 17.391
+    },
+    {
+      "id": 2,
+      "english": "1.1 — These/Those + noun",
+      "russian": "1.1 — Эти/Те + существительное",
+      "start": 17.391,
+      "end": 34.111
+    },
+    {
+      "id": 3,
+      "english": "[These students] work hard every day.",
+      "russian": "[Эти студенты] усердно работают каждый день.",
+      "start": 34.111,
+      "end": 50.399
+    },
+    {
+      "id": 4,
+      "english": "[Those people] live in the city center.",
+      "russian": "[Те люди] живут в центре города.",
+      "start": 50.399,
+      "end": 66.399
+    },
+    {
+      "id": 5,
+      "english": "[These books] cost too much money.",
+      "russian": "[Эти книги] стоят слишком дорого.",
+      "start": 66.399,
+      "end": 82.255
+    },
+    {
+      "id": 6,
+      "english": "[Those children] play in the park.",
+      "russian": "[Те дети] играют в парке.",
+      "start": 82.255,
+      "end": 98.015
+    },
+    {
+      "id": 7,
+      "english": "[These doctors] save lives daily.",
+      "russian": "[Эти врачи] ежедневно спасают жизни.",
+      "start": 98.015,
+      "end": 114.207
+    },
+    {
+      "id": 8,
+      "english": "[Those teachers] inspire their students.",
+      "russian": "[Те учителя] вдохновляют своих учеников.",
+      "start": 114.207,
+      "end": 130.879
+    },
+    {
+      "id": 9,
+      "english": "[These problems] require immediate attention.",
+      "russian": "[Эти проблемы] требуют немедленного внимания.",
+      "start": 130.879,
+      "end": 148.223
+    },
+    {
+      "id": 10,
+      "english": "[Those buildings] need renovation soon.",
+      "russian": "[Те здания] скоро нуждаются в ремонте.",
+      "start": 148.223,
+      "end": 164.991
+    },
+    {
+      "id": 11,
+      "english": "[These ideas] seem very interesting.",
+      "russian": "[Эти идеи] кажутся очень интересными.",
+      "start": 164.991,
+      "end": 181.615
+    },
+    {
+      "id": 12,
+      "english": "[Those methods] work extremely well.",
+      "russian": "[Те методы] работают чрезвычайно хорошо.",
+      "start": 181.615,
+      "end": 198.383
+    },
+    {
+      "id": 13,
+      "english": "[These questions] remain unanswered still.",
+      "russian": "[Эти вопросы] всё ещё остаются без ответа.",
+      "start": 198.383,
+      "end": 215.247
+    },
+    {
+      "id": 14,
+      "english": "[Those cars] belong to employees.",
+      "russian": "[Те автомобили] принадлежат сотрудникам.",
+      "start": 215.247,
+      "end": 231.919
+    },
+    {
+      "id": 15,
+      "english": "1.2 — These/Those + adjective + noun",
+      "russian": "1.2 — Эти/Те + прилагательное + существительное",
+      "start": 231.919,
+      "end": 250.367
+    },
+    {
+      "id": 16,
+      "english": "[These young students] work part-time jobs.",
+      "russian": "[Эти молодые студенты] работают неполный рабочий день.",
+      "start": 250.367,
+      "end": 267.663
+    },
+    {
+      "id": 17,
+      "english": "[Those old houses] need major repairs.",
+      "russian": "[Те старые дома] нуждаются в капитальном ремонте.",
+      "start": 267.663,
+      "end": 284.528
+    },
+    {
+      "id": 18,
+      "english": "[These important questions] remain open today.",
+      "russian": "[Эти важные вопросы] остаются открытыми сегодня.",
+      "start": 284.528,
+      "end": 301.92
+    },
+    {
+      "id": 19,
+      "english": "[Those talented musicians] perform every weekend.",
+      "russian": "[Те талантливые музыканты] выступают каждые выходные.",
+      "start": 301.92,
+      "end": 319.504
+    },
+    {
+      "id": 20,
+      "english": "[These skilled workers] earn good salaries.",
+      "russian": "[Эти квалифицированные работники] получают хорошую зарплату.",
+      "start": 319.504,
+      "end": 336.416
+    },
+    {
+      "id": 21,
+      "english": "[Those ancient traditions] survive in villages.",
+      "russian": "[Те древние традиции] сохраняются в деревнях.",
+      "start": 336.416,
+      "end": 353.568
+    },
+    {
+      "id": 22,
+      "english": "[These modern technologies] change our lives.",
+      "russian": "[Эти современные технологии] меняют нашу жизнь.",
+      "start": 353.568,
+      "end": 370.864
+    },
+    {
+      "id": 23,
+      "english": "[Those experienced doctors] recommend rest regularly.",
+      "russian": "[Те опытные врачи] регулярно рекомендуют отдых.",
+      "start": 370.864,
+      "end": 388.832
+    },
+    {
+      "id": 24,
+      "english": "[These creative solutions] solve difficult problems.",
+      "russian": "[Эти творческие решения] решают сложные проблемы.",
+      "start": 388.832,
+      "end": 406.848
+    },
+    {
+      "id": 25,
+      "english": "[Those beautiful paintings] attract many visitors.",
+      "russian": "[Те красивые картины] привлекают многих посетителей.",
+      "start": 406.848,
+      "end": 424.624
+    },
+    {
+      "id": 26,
+      "english": "[These simple rules] help everyone succeed.",
+      "russian": "[Эти простые правила] помогают всем добиться успеха.",
+      "start": 424.624,
+      "end": 441.824
+    },
+    {
+      "id": 27,
+      "english": "[Those serious issues] concern the government.",
+      "russian": "[Те серьёзные вопросы] волнуют правительство.",
+      "start": 441.824,
+      "end": 459.024
+    },
+    {
+      "id": 28,
+      "english": "1.3 — Some/Many/All + noun",
+      "russian": "1.3 — Некоторые/Многие/Все + существительное",
+      "start": 459.024,
+      "end": 476.992
+    },
+    {
+      "id": 29,
+      "english": "[Some students] work remotely from home.",
+      "russian": "[Некоторые студенты] работают удалённо из дома.",
+      "start": 476.992,
+      "end": 493.904
+    },
+    {
+      "id": 30,
+      "english": "[Many people] think the same way.",
+      "russian": "[Многие люди] думают одинаково.",
+      "start": 493.904,
+      "end": 509.808
+    },
+    {
+      "id": 31,
+      "english": "[All children] deserve quality education.",
+      "russian": "[Все дети] заслуживают качественного образования.",
+      "start": 509.808,
+      "end": 527.008
+    },
+    {
+      "id": 32,
+      "english": "[Some doctors] recommend daily exercise.",
+      "russian": "[Некоторые врачи] рекомендуют ежедневные упражнения.",
+      "start": 527.008,
+      "end": 544.4
+    },
+    {
+      "id": 33,
+      "english": "[Many companies] hire recent graduates.",
+      "russian": "[Многие компании] нанимают недавних выпускников.",
+      "start": 544.4,
+      "end": 561.264
+    },
+    {
+      "id": 34,
+      "english": "[All workers] need proper training.",
+      "russian": "[Все работники] нуждаются в надлежащем обучении.",
+      "start": 561.264,
+      "end": 577.312
+    },
+    {
+      "id": 35,
+      "english": "[Some ideas] require further development.",
+      "russian": "[Некоторые идеи] требуют дальнейшей разработки.",
+      "start": 577.312,
+      "end": 594.416
+    },
+    {
+      "id": 36,
+      "english": "[Many countries] face similar challenges.",
+      "russian": "[Многие страны] сталкиваются с похожими проблемами.",
+      "start": 594.416,
+      "end": 611.088
+    },
+    {
+      "id": 37,
+      "english": "[All citizens] have equal rights.",
+      "russian": "[Все граждане] имеют равные права.",
+      "start": 611.088,
+      "end": 627.328
+    },
+    {
+      "id": 38,
+      "english": "[Some problems] disappear over time.",
+      "russian": "[Некоторые проблемы] со временем исчезают.",
+      "start": 627.328,
+      "end": 644.144
+    },
+    {
+      "id": 39,
+      "english": "[Many cities] struggle with traffic.",
+      "russian": "[Многие города] борются с пробками.",
+      "start": 644.144,
+      "end": 660.432
+    },
+    {
+      "id": 40,
+      "english": "[All systems] need regular maintenance.",
+      "russian": "[Все системы] нуждаются в регулярном обслуживании.",
+      "start": 660.432,
+      "end": 677.344
+    },
+    {
+      "id": 41,
+      "english": "1.4 — Some/Many/All + adjective + noun",
+      "russian": "1.4 — Некоторые/Многие/Все + прилагательное + существительное",
+      "start": 677.344,
+      "end": 696.224
+    },
+    {
+      "id": 42,
+      "english": "[Some young professionals] move abroad annually.",
+      "russian": "[Некоторые молодые специалисты] ежегодно переезжают за границу.",
+      "start": 696.224,
+      "end": 713.616
+    },
+    {
+      "id": 43,
+      "english": "[Many experienced doctors] recommend this treatment.",
+      "russian": "[Многие опытные врачи] рекомендуют это лечение.",
+      "start": 713.616,
+      "end": 731.44
+    },
+    {
+      "id": 44,
+      "english": "[All skilled workers] earn competitive salaries.",
+      "russian": "[Все квалифицированные работники] получают конкурентоспособную зарплату.",
+      "start": 731.44,
+      "end": 749.072
+    },
+    {
+      "id": 45,
+      "english": "[Some important details] remain unclear now.",
+      "russian": "[Некоторые важные детали] остаются неясными сейчас.",
+      "start": 749.072,
+      "end": 766.56
+    },
+    {
+      "id": 46,
+      "english": "[Many successful companies] invest in research.",
+      "russian": "[Многие успешные компании] инвестируют в исследования.",
+      "start": 766.56,
+      "end": 784.816
+    },
+    {
+      "id": 47,
+      "english": "[All responsible citizens] pay their taxes.",
+      "russian": "[Все ответственные граждане] платят налоги.",
+      "start": 784.816,
+      "end": 802.448
+    },
+    {
+      "id": 48,
+      "english": "[Some difficult questions] need honest answers.",
+      "russian": "[Некоторые сложные вопросы] требуют честных ответов.",
+      "start": 802.448,
+      "end": 819.888
+    },
+    {
+      "id": 49,
+      "english": "[Many talented artists] struggle financially initially.",
+      "russian": "[Многие талантливые художники] изначально сталкиваются с финансовыми трудностями.",
+      "start": 819.888,
+      "end": 837.952
+    },
+    {
+      "id": 50,
+      "english": "[All modern smartphones] include similar features.",
+      "russian": "[Все современные смартфоны] включают похожие функции.",
+      "start": 837.952,
+      "end": 856.064
+    },
+    {
+      "id": 51,
+      "english": "[Some elderly people] live alone unfortunately.",
+      "russian": "[Некоторые пожилые люди] живут одни, к сожалению.",
+      "start": 856.064,
+      "end": 873.312
+    },
+    {
+      "id": 52,
+      "english": "[Many private schools] charge high fees.",
+      "russian": "[Многие частные школы] берут высокую плату.",
+      "start": 873.312,
+      "end": 890.56
+    },
+    {
+      "id": 53,
+      "english": "[All new employees] receive comprehensive training.",
+      "russian": "[Все новые сотрудники] проходят комплексное обучение.",
+      "start": 890.56,
+      "end": 909.056
+    },
+    {
+      "id": 54,
+      "english": "1.5 — Some/Many/Most of the + noun",
+      "russian": "1.5 — Некоторые/Многие/Большинство из (этих) + существительное",
+      "start": 909.056,
+      "end": 927.216
+    },
+    {
+      "id": 55,
+      "english": "[Some of the students] work full-time.",
+      "russian": "[Некоторые из студентов] работают полный рабочий день.",
+      "start": 927.216,
+      "end": 943.696
+    },
+    {
+      "id": 56,
+      "english": "[Many of them] agree with this.",
+      "russian": "[Многие из них] согласны с этим.",
+      "start": 943.696,
+      "end": 959.072
+    },
+    {
+      "id": 57,
+      "english": "[Most of the people] support the idea.",
+      "russian": "[Большинство людей] поддерживают эту идею.",
+      "start": 959.072,
+      "end": 975.6
+    },
+    {
+      "id": 58,
+      "english": "[Some of the doctors] specialize in surgery.",
+      "russian": "[Некоторые из врачей] специализируются на хирургии.",
+      "start": 975.6,
+      "end": 992.896
+    },
+    {
+      "id": 59,
+      "english": "[Many of the teachers] use technology.",
+      "russian": "[Многие из учителей] используют технологии.",
+      "start": 992.896,
+      "end": 1009.184
+    },
+    {
+      "id": 60,
+      "english": "[Most of the workers] commute by train.",
+      "russian": "[Большинство работников] ездят на работу поездом.",
+      "start": 1009.184,
+      "end": 1025.712
+    },
+    {
+      "id": 61,
+      "english": "[Some of the books] contain useful information.",
+      "russian": "[Некоторые из книг] содержат полезную информацию.",
+      "start": 1025.712,
+      "end": 1043.104
+    },
+    {
+      "id": 62,
+      "english": "[Many of the problems] solve themselves.",
+      "russian": "[Многие из проблем] решаются сами собой.",
+      "start": 1043.104,
+      "end": 1059.632
+    },
+    {
+      "id": 63,
+      "english": "[Most of the companies] offer benefits.",
+      "russian": "[Большинство компаний] предоставляют льготы.",
+      "start": 1059.632,
+      "end": 1076.112
+    },
+    {
+      "id": 64,
+      "english": "[Some of the cities] have excellent infrastructure.",
+      "russian": "[Некоторые из городов] имеют отличную инфраструктуру.",
+      "start": 1076.112,
+      "end": 1093.216
+    },
+    {
+      "id": 65,
+      "english": "[Many of the children] enjoy outdoor activities.",
+      "russian": "[Многие из детей] наслаждаются активным отдыхом на природе.",
+      "start": 1093.216,
+      "end": 1110.848
+    },
+    {
+      "id": 66,
+      "english": "[Most of the participants] understand the rules.",
+      "russian": "[Большинство участников] понимают правила.",
+      "start": 1110.848,
+      "end": 1128.144
+    },
+    {
+      "id": 67,
+      "english": "1.6 — The + adjective (substantivization!)",
+      "russian": "1.6 — The + прилагательное (субстантивация!)",
+      "start": 1128.144,
+      "end": 1147.504
+    },
+    {
+      "id": 68,
+      "english": "[The rich] get richer every year.",
+      "russian": "[Богатые] становятся ещё богаче с каждым годом.",
+      "start": 1147.504,
+      "end": 1163.552
+    },
+    {
+      "id": 69,
+      "english": "[The young] rebel against old traditions.",
+      "russian": "[Молодые] бунтуют против старых традиций.",
+      "start": 1163.552,
+      "end": 1179.84
+    },
+    {
+      "id": 70,
+      "english": "[The unemployed] struggle to find jobs.",
+      "russian": "[Безработные] с трудом находят работу.",
+      "start": 1179.84,
+      "end": 1196.752
+    },
+    {
+      "id": 71,
+      "english": "[The elderly] need special medical care.",
+      "russian": "[Пожилые] нуждаются в особом медицинском уходе.",
+      "start": 1196.752,
+      "end": 1213.04
+    },
+    {
+      "id": 72,
+      "english": "[The poor] deserve better living conditions.",
+      "russian": "[Бедные] заслуживают лучших условий жизни.",
+      "start": 1213.04,
+      "end": 1229.856
+    },
+    {
+      "id": 73,
+      "english": "[The homeless] sleep on city streets.",
+      "russian": "[Бездомные] спят на городских улицах.",
+      "start": 1229.856,
+      "end": 1246.144
+    },
+    {
+      "id": 74,
+      "english": "[The educated] earn higher average salaries.",
+      "russian": "[Образованные] получают более высокую среднюю зарплату.",
+      "start": 1246.144,
+      "end": 1263.536
+    },
+    {
+      "id": 75,
+      "english": "[The sick] receive treatment at hospitals.",
+      "russian": "[Больные] получают лечение в больницах.",
+      "start": 1263.536,
+      "end": 1280.159
+    },
+    {
+      "id": 76,
+      "english": "[The wealthy] invest in real estate.",
+      "russian": "[Состоятельные] инвестируют в недвижимость.",
+      "start": 1280.159,
+      "end": 1296.495
+    },
+    {
+      "id": 77,
+      "english": "[The disabled] face many daily challenges.",
+      "russian": "[Люди с ограниченными возможностями] сталкиваются со многими ежедневными трудностями.",
+      "start": 1296.495,
+      "end": 1313.647
+    },
+    {
+      "id": 78,
+      "english": "[The injured] recover in rehabilitation centers.",
+      "russian": "[Пострадавшие] восстанавливаются в реабилитационных центрах.",
+      "start": 1313.647,
+      "end": 1331.375
+    },
+    {
+      "id": 79,
+      "english": "[The fortunate] help those in need.",
+      "russian": "[Удачливые] помогают нуждающимся.",
+      "start": 1331.375,
+      "end": 1347.327
+    },
+    {
+      "id": 80,
+      "english": "1.7 — Number + noun",
+      "russian": "1.7 — Число + существительное",
+      "start": 1347.327,
+      "end": 1363.855
+    },
+    {
+      "id": 81,
+      "english": "[Three students] arrive late every morning.",
+      "russian": "[Три студента] опаздывают каждое утро.",
+      "start": 1363.855,
+      "end": 1380.623
+    },
+    {
+      "id": 82,
+      "english": "[Five people] wait outside the office.",
+      "russian": "[Пять человек] ждут снаружи офиса.",
+      "start": 1380.623,
+      "end": 1397.535
+    },
+    {
+      "id": 83,
+      "english": "[Ten workers] protest against wage cuts.",
+      "russian": "[Десять рабочих] протестуют против сокращения зарплат.",
+      "start": 1397.535,
+      "end": 1414.879
+    },
+    {
+      "id": 84,
+      "english": "[Seven countries] participate in the program.",
+      "russian": "[Семь стран] участвуют в программе.",
+      "start": 1414.879,
+      "end": 1432.175
+    },
+    {
+      "id": 85,
+      "english": "[Four teachers] share one small classroom.",
+      "russian": "[Четыре учителя] делят один маленький класс.",
+      "start": 1432.175,
+      "end": 1449.135
+    },
+    {
+      "id": 86,
+      "english": "[Twenty candidates] apply for the position.",
+      "russian": "[Двадцать кандидатов] претендуют на должность.",
+      "start": 1449.135,
+      "end": 1465.471
+    },
+    {
+      "id": 87,
+      "english": "[Eight doctors] work night shifts regularly.",
+      "russian": "[Восемь врачей] регулярно работают в ночные смены.",
+      "start": 1465.471,
+      "end": 1482.575
+    },
+    {
+      "id": 88,
+      "english": "[Fifteen children] attend the summer camp.",
+      "russian": "[Пятнадцать детей] посещают летний лагерь.",
+      "start": 1482.575,
+      "end": 1499.343
+    },
+    {
+      "id": 89,
+      "english": "[Six companies] compete for the contract.",
+      "russian": "[Шесть компаний] конкурируют за контракт.",
+      "start": 1499.343,
+      "end": 1516.303
+    },
+    {
+      "id": 90,
+      "english": "[Nine musicians] perform in the orchestra.",
+      "russian": "[Девять музыкантов] выступают в оркестре.",
+      "start": 1516.303,
+      "end": 1532.975
+    },
+    {
+      "id": 91,
+      "english": "[Twelve participants] complete the course successfully.",
+      "russian": "[Двенадцать участников] успешно проходят курс.",
+      "start": 1532.975,
+      "end": 1550.655
+    },
+    {
+      "id": 92,
+      "english": "[Two systems] operate simultaneously without problems.",
+      "russian": "[Две системы] работают одновременно без проблем.",
+      "start": 1550.655,
+      "end": 1569.247
+    },
+    {
+      "id": 93,
+      "english": "1.8 — Both + noun",
+      "russian": "1.8 — Оба + существительное",
+      "start": 1569.247,
+      "end": 1585.583
+    },
+    {
+      "id": 94,
+      "english": "[Both students] work together on projects.",
+      "russian": "[Оба студента] работают вместе над проектами.",
+      "start": 1585.583,
+      "end": 1602.591
+    },
+    {
+      "id": 95,
+      "english": "[Both options] have clear advantages here.",
+      "russian": "[Оба варианта] имеют явные преимущества здесь.",
+      "start": 1602.591,
+      "end": 1619.359
+    },
+    {
+      "id": 96,
+      "english": "[Both methods] produce excellent results consistently.",
+      "russian": "[Оба метода] неизменно дают отличные результаты.",
+      "start": 1619.359,
+      "end": 1637.375
+    },
+    {
+      "id": 97,
+      "english": "[Both teachers] explain concepts very clearly.",
+      "russian": "[Оба учителя] очень чётко объясняют концепции.",
+      "start": 1637.375,
+      "end": 1654.863
+    },
+    {
+      "id": 98,
+      "english": "[Both systems] require regular updates always.",
+      "russian": "[Обе системы] всегда требуют регулярных обновлений.",
+      "start": 1654.863,
+      "end": 1672.879
+    },
+    {
+      "id": 99,
+      "english": "[Both countries] share a common border.",
+      "russian": "[Обе страны] имеют общую границу.",
+      "start": 1672.879,
+      "end": 1689.263
+    },
+    {
+      "id": 100,
+      "english": "[Both ideas] deserve serious consideration now.",
+      "russian": "[Обе идеи] заслуживают серьёзного рассмотрения сейчас.",
+      "start": 1689.263,
+      "end": 1707.231
+    },
+    {
+      "id": 101,
+      "english": "[Both approaches] solve the problem effectively.",
+      "russian": "[Оба подхода] эффективно решают проблему.",
+      "start": 1707.231,
+      "end": 1724.047
+    },
+    {
+      "id": 102,
+      "english": "[Both candidates] possess strong qualifications equally.",
+      "russian": "[Оба кандидата] в равной степени обладают сильной квалификацией.",
+      "start": 1724.047,
+      "end": 1742.351
+    },
+    {
+      "id": 103,
+      "english": "[Both programs] offer similar benefits basically.",
+      "russian": "[Обе программы] в основном предлагают схожие преимущества.",
+      "start": 1742.351,
+      "end": 1759.983
+    },
+    {
+      "id": 104,
+      "english": "[Both teams] compete for the championship.",
+      "russian": "[Обе команды] соревнуются за чемпионство.",
+      "start": 1759.983,
+      "end": 1776.511
+    },
+    {
+      "id": 105,
+      "english": "[Both solutions] cost approximately the same.",
+      "russian": "[Оба решения] стоят примерно одинаково.",
+      "start": 1776.511,
+      "end": 1793.567
+    },
+    {
+      "id": 106,
+      "english": "1.9 — Both of + noun/pronoun",
+      "russian": "1.9 — Оба из + существительное/местоимение",
+      "start": 1793.567,
+      "end": 1811.151
+    },
+    {
+      "id": 107,
+      "english": "[Both of them] agree completely now.",
+      "russian": "[Оба из них] сейчас полностью согласны.",
+      "start": 1811.151,
+      "end": 1827.199
+    },
+    {
+      "id": 108,
+      "english": "[Both of the students] work very hard.",
+      "russian": "[Оба из студентов] очень усердно работают.",
+      "start": 1827.199,
+      "end": 1843.823
+    },
+    {
+      "id": 109,
+      "english": "[Both of us] understand the problem.",
+      "russian": "[Оба из нас] понимают проблему.",
+      "start": 1843.823,
+      "end": 1859.535
+    },
+    {
+      "id": 110,
+      "english": "[Both of the doctors] recommend surgery.",
+      "russian": "[Оба из врачей] рекомендуют операцию.",
+      "start": 1859.535,
+      "end": 1875.967
+    },
+    {
+      "id": 111,
+      "english": "[Both of these methods] work well.",
+      "russian": "[Оба из этих методов] хорошо работают.",
+      "start": 1875.967,
+      "end": 1892.207
+    },
+    {
+      "id": 112,
+      "english": "[Both of the options] seem reasonable.",
+      "russian": "[Оба из вариантов] кажутся разумными.",
+      "start": 1892.207,
+      "end": 1908.399
+    },
+    {
+      "id": 113,
+      "english": "[Both of the teachers] give homework.",
+      "russian": "[Оба из учителей] задают домашнее задание.",
+      "start": 1908.399,
+      "end": 1924.351
+    },
+    {
+      "id": 114,
+      "english": "[Both of those ideas] sound interesting.",
+      "russian": "[Оба из тех идей] звучат интересно.",
+      "start": 1924.351,
+      "end": 1940.975
+    },
+    {
+      "id": 115,
+      "english": "[Both of the systems] need improvement.",
+      "russian": "[Обе из систем] нуждаются в улучшении.",
+      "start": 1940.975,
+      "end": 1957.311
+    },
+    {
+      "id": 116,
+      "english": "[Both of the candidates] have experience.",
+      "russian": "[Оба из кандидатов] имеют опыт.",
+      "start": 1957.311,
+      "end": 1973.743
+    },
+    {
+      "id": 117,
+      "english": "[Both of us] live in the city.",
+      "russian": "[Оба из нас] живут в городе.",
+      "start": 1973.743,
+      "end": 1988.831
+    },
+    {
+      "id": 118,
+      "english": "[Both of the companies] operate internationally.",
+      "russian": "[Обе из компаний] работают на международном уровне.",
+      "start": 1988.831,
+      "end": 1998.647
+    }
+  ]
+}
