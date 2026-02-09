@@ -60,42 +60,22 @@ const getAllStoredIds = async () => {
 const loadDeckData = async (deckMeta) => {
     if (deckMeta.deck_url) {
         try {
-            console.log('Загружаем полную колоду:', deckMeta.deck_url);
-            const response = await fetch(deckMeta.deck_url + '?t=' + Date.now());
+            const response = await fetch(deckMeta.deck_url);
             if (!response.ok) {
                 throw new Error(`Ошибка загрузки: ${response.status}`);
             }
             const fullDeck = await response.json();
-            
-            // Проверяем структуру
-            if (!fullDeck.id || !fullDeck.deck_name) {
-                throw new Error('Некорректная структура колоды');
-            }
-            
-            // Гарантируем наличие массива sentences
-            if (!fullDeck.sentences || !Array.isArray(fullDeck.sentences)) {
-                fullDeck.sentences = [];
-            }
-            
             return fullDeck;
         } catch (err) {
             console.error('Ошибка загрузки полной колоды:', err);
-            // Возвращаем meta как fallback
-            return {
-                ...deckMeta,
-                sentences: deckMeta.sentences || []
-            };
+            return deckMeta;
         }
     }
-    // Старый формат
-    return {
-        ...deckMeta,
-        sentences: deckMeta.sentences || []
-    };
+    return deckMeta;
 };
 
 // --- UI Components ---
-const { useState, useEffect, useRef, useMemo, useCallback } = React;
+const { useState, useEffect, useRef, useMemo } = React;
 
 const App = () => {
     const [catalog, setCatalog] = useState([]);
@@ -105,90 +85,42 @@ const App = () => {
     const [isDownloading, setIsDownloading] = useState(false);
     const [isOffline, setIsOffline] = useState(!navigator.onLine);
     const [isLoading, setIsLoading] = useState(true);
-    const [loadError, setLoadError] = useState(null);
-    const [isSelectingDeck, setIsSelectingDeck] = useState(false);
 
     useEffect(() => {
         const loadData = async () => {
             setIsLoading(true);
-            setLoadError(null);
             try {
-                console.log('Загружаем catalog.json...');
-                const response = await fetch('./catalog.json?t=' + Date.now());
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}`);
+                const response = await fetch('./catalog.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    setCatalog(Array.isArray(data) ? data : []);
                 }
-                
-                const text = await response.text();
-                console.log('Raw catalog response:', text.substring(0, 200));
-                
-                const data = JSON.parse(text);
-                console.log('Каталог загружен, колод:', data.length);
-                
-                if (!Array.isArray(data)) {
-                    throw new Error('Каталог должен быть массивом');
-                }
-                
-                // Проверяем каждую колоду
-                const validDecks = data.filter(deck => {
-                    if (!deck || typeof deck !== 'object') return false;
-                    if (!deck.id || !deck.deck_name) {
-                        console.warn('Колода без id или имени пропущена:', deck);
-                        return false;
-                    }
-                    return true;
-                });
-                
-                console.log('Валидных колод:', validDecks.length);
-                setCatalog(validDecks);
-                
             } catch (e) {
-                console.error("Ошибка загрузки каталога:", e);
-                setLoadError(`Не удалось загрузить каталог: ${e.message}`);
+                console.error("Catalog load failed", e);
                 setCatalog([]);
             } finally {
                 setIsLoading(false);
             }
-            
-            try {
-                const ids = await getAllStoredIds();
-                setDownloadedIds(ids);
-            } catch (e) {
-                console.error('Ошибка загрузки ID:', e);
-            }
+            const ids = await getAllStoredIds();
+            setDownloadedIds(ids);
         };
 
         loadData();
-        
         const updateOnlineStatus = () => setIsOffline(!navigator.onLine);
         window.addEventListener('online', updateOnlineStatus);
         window.addEventListener('offline', updateOnlineStatus);
-        
         return () => {
             window.removeEventListener('online', updateOnlineStatus);
             window.removeEventListener('offline', updateOnlineStatus);
         };
     }, []);
 
-    // Функция скачивания
     const handleDownload = async (deckMeta) => {
-        if (isDownloading || isSelectingDeck) return;
-        
         setIsDownloading(true);
         
         try {
-            console.log('Начинаем скачивание:', deckMeta.deck_name);
-            
-            // Загружаем полные данные
             const fullDeck = await loadDeckData(deckMeta);
-            
-            if (!fullDeck.audio_url) {
-                throw new Error("Нет ссылки на аудио");
-            }
-            
-            console.log('Скачиваем аудио:', fullDeck.audio_url);
-            const audioResponse = await fetch(fullDeck.audio_url + '?t=' + Date.now());
+            const audioResponse = await fetch(fullDeck.audio_url);
             
             if (!audioResponse.ok) {
                 throw new Error(`Ошибка аудио: ${audioResponse.status}`);
@@ -200,7 +132,6 @@ const App = () => {
                 throw new Error("Пустой аудиофайл");
             }
             
-            // Сохраняем в базу
             await saveDeckToDB({
                 id: fullDeck.id,
                 metadata: fullDeck,
@@ -219,47 +150,29 @@ const App = () => {
     };
 
     const handleDelete = async (id) => {
-        if (isDownloading || isSelectingDeck) return;
-        
         if (confirm("Удалить из памяти устройства?")) {
             await deleteDeckFromDB(id);
             setDownloadedIds(prev => prev.filter(i => i !== id));
         }
     };
 
-    // Функция выбора колоды (исправленная - без зацикливания)
     const handleSelectDeck = async (deckMeta) => {
-        if (isDownloading || isSelectingDeck) return;
+        const stored = await getDeckFromDB(deckMeta.id);
         
-        console.log('Выбираем колоду:', deckMeta.id);
-        setIsSelectingDeck(true);
-        
-        try {
-            // Проверяем базовые поля
-            if (!deckMeta.id || !deckMeta.deck_name) {
-                throw new Error('Некорректные данные колоды');
-            }
-            
-            // Проверяем, есть ли в IndexedDB
-            const stored = await getDeckFromDB(deckMeta.id);
-            
-            if (stored) {
-                console.log('Используем сохранённую колоду');
-                setActiveAudioBlob(stored.audioBlob);
-                setSelectedDeck(stored.metadata);
-            } else if (!isOffline) {
-                console.log('Загружаем для онлайн-воспроизведения');
+        if (stored) {
+            setActiveAudioBlob(stored.audioBlob);
+            setSelectedDeck(stored.metadata);
+        } else if (!isOffline) {
+            try {
                 const fullDeck = await loadDeckData(deckMeta);
                 setActiveAudioBlob(null);
                 setSelectedDeck(fullDeck);
-            } else {
-                alert("Нет подключения к сети");
+            } catch (err) {
+                console.error('Ошибка загрузки колоды:', err);
+                alert('Не удалось загрузить колоду');
             }
-        } catch (err) {
-            console.error('Ошибка загрузки колоды:', err);
-            alert(`Не удалось загрузить колоду: ${err.message}`);
-        } finally {
-            setIsSelectingDeck(false);
+        } else {
+            alert("Нет подключения к сети");
         }
     };
 
@@ -272,77 +185,199 @@ const App = () => {
                 React.createElement("p", { className: "font-black text-xl tracking-tight" }, "ЗАГРУЖАЕМ КАТАЛОГ"),
                 React.createElement("p", { className: "text-slate-500 text-sm mt-1" }, "Подождите немного...")
             )
-        ) : loadError ? React.createElement("div", { className: "flex-1 flex items-center justify-center p-8" },
-            React.createElement("div", { className: "text-center" },
-                React.createElement("div", { className: "text-red-500 text-4xl mb-4" }, "⚠️"),
-                React.createElement("p", { className: "font-bold text-xl mb-2" }, "Ошибка загрузки"),
-                React.createElement("p", { className: "text-slate-400 mb-6" }, loadError),
-                React.createElement("button", {
-                    onClick: () => window.location.reload(),
-                    className: "bg-blue-600 px-6 py-3 rounded-xl font-bold hover:bg-blue-500 transition-all"
-                }, "Обновить страницу")
-            )
         ) : !selectedDeck ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
                 React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v1.0.0 Stable")
             ),
-            
-            catalog.length === 0 ? React.createElement("div", { className: "text-center py-12" },
-                React.createElement("p", { className: "text-slate-400 mb-4" }, "Нет доступных колод"),
-                React.createElement("button", {
-                    onClick: () => window.location.reload(),
-                    className: "bg-slate-800 px-6 py-2 rounded-lg hover:bg-slate-700 transition-all"
-                }, "Обновить")
-            ) : React.createElement("div", { className: "grid gap-3" }, catalog.map(deckMeta =>
-                React.createElement("div", { 
-                    key: deckMeta.id, 
-                    className: "bg-slate-900/50 border border-slate-800 p-4 rounded-2xl flex justify-between items-center"
-                },
-                    React.createElement("div", { 
-                        className: "flex-1 cursor-pointer", 
-                        onClick: () => !isSelectingDeck && handleSelectDeck(deckMeta) 
-                    },
+            React.createElement("div", { className: "grid gap-3" }, catalog.map(deckMeta =>
+                React.createElement("div", { key: deckMeta.id, className: "bg-slate-900/50 border border-slate-800 p-4 rounded-2xl flex justify-between items-center" },
+                    React.createElement("div", { className: "flex-1 cursor-pointer", onClick: () => handleSelectDeck(deckMeta) },
                         React.createElement("h3", { className: "font-bold text-slate-200" }, deckMeta.deck_name),
                         React.createElement("div", { className: "flex gap-3 mt-2" },
-                            React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, (deckMeta.total_sentences || 0) + " фразы"),
-                            React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, "~" + (Math.floor(deckMeta.total_duration / 60) || 0) + " мин")
+                            React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, deckMeta.total_sentences + " фразы"),
+                            React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, "~" + (deckMeta.total_duration / 60).toFixed(0) + " мин")
                         )
                     ),
                     React.createElement("div", { className: "ml-4" },
                         downloadedIds.includes(deckMeta.id) ?
-                            React.createElement("button", { 
-                                onClick: () => !isSelectingDeck && handleDelete(deckMeta.id), 
-                                className: "w-10 h-10 flex items-center justify-center bg-slate-800 rounded-full text-lg active:scale-90 transition-transform disabled:opacity-50",
-                                disabled: isSelectingDeck
-                            }, "🗑️") :
+                            React.createElement("button", { onClick: () => handleDelete(deckMeta.id), className: "w-10 h-10 flex items-center justify-center bg-slate-800 rounded-full text-lg active:scale-90 transition-transform" }, "🗑️") :
                             React.createElement("button", {
-                                disabled: isDownloading || isOffline || isSelectingDeck,
+                                disabled: isDownloading || isOffline,
                                 onClick: () => handleDownload(deckMeta),
-                                className: "bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-xl text-10 font-black uppercase tracking-wider disabled:opacity-30 active:scale-95 transition-all"
+                                className: "bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-xl text-10 font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
                             }, isDownloading ? '...' : 'Скачать')
                     )
                 )
             ))
-        ) : React.createElement(Player, { 
-            deck: selectedDeck, 
-            audioBlob: activeAudioBlob, 
-            onBack: () => {
-                setSelectedDeck(null);
-                setActiveAudioBlob(null);
-            } 
-        }),
+        ) : React.createElement(Player, { deck: selectedDeck, audioBlob: activeAudioBlob, onBack: () => setSelectedDeck(null) }),
         
-        (isDownloading || isSelectingDeck) && React.createElement("div", { className: "fixed inset-0 bg-slate-950/90 flex flex-col items-center justify-center z-100 backdrop-blur-md" },
+        isDownloading && React.createElement("div", { className: "fixed inset-0 bg-slate-950/90 flex flex-col items-center justify-center z-100 backdrop-blur-md" },
             React.createElement("div", { className: "w-14 h-14 border-t-4 border-blue-500 rounded-full animate-spin mb-6" }),
-            React.createElement("p", { className: "font-black text-xl tracking-tight" }, isSelectingDeck ? "ЗАГРУЖАЕМ КОЛОДУ" : "СОХРАНЯЕМ КОЛОДУ"),
-            React.createElement("p", { className: "text-slate-500 text-sm mt-1" }, "Подождите немного...")
+            React.createElement("p", { className: "font-black text-xl tracking-tight" }, "СОХРАНЯЕМ КОЛОДУ"),
+            React.createElement("p", { className: "text-slate-500 text-sm mt-1" }, "Осталось совсем немного...")
         )
     );
 };
 
-// Player компонент остается БЕЗ изменений
-// [Вставьте сюда ваш существующий компонент Player без изменений]
+// Player компонент с последними изменениями полноэкранного режима
+const Player = ({ deck, audioBlob, onBack }) => {
+    const [currentTime, setCurrentTime] = useState(0);
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [showControls, setShowControls] = useState(false);
+    const [isFullscreen, setIsFullscreen] = useState(false);
+    const audioRef = useRef(null);
+    const [audioUrl, setAudioUrl] = useState('');
+    const controlsTimeout = useRef(null);
+
+    useEffect(() => {
+        const url = audioBlob ? URL.createObjectURL(audioBlob) : deck.audio_url;
+        setAudioUrl(url);
+        return () => { if (audioBlob) URL.revokeObjectURL(url); };
+    }, [deck.id, audioBlob]);
+
+    const currentSentence = useMemo(() => {
+        return deck.sentences?.find(s => currentTime >= s.start && currentTime <= s.end);
+    }, [currentTime, deck.sentences]);
+
+    const currentSentenceIndex = useMemo(() => {
+        return deck.sentences?.findIndex(s => currentTime >= s.start && currentTime <= s.end);
+    }, [currentTime, deck.sentences]);
+
+    const handleTimeUpdate = () => {
+        if (audioRef.current) setCurrentTime(audioRef.current.currentTime);
+    };
+
+    const togglePlay = () => {
+        if (isPlaying) audioRef.current?.pause();
+        else audioRef.current?.play();
+    };
+
+    const handlePrevious = () => {
+        if (!audioRef.current || !deck.sentences || currentSentenceIndex === -1) return;
+        
+        if (currentTime - deck.sentences[currentSentenceIndex]?.start > 2) {
+            audioRef.current.currentTime = deck.sentences[currentSentenceIndex].start;
+        } else if (currentSentenceIndex > 0) {
+            audioRef.current.currentTime = deck.sentences[currentSentenceIndex - 1].start;
+        }
+    };
+
+    const toggleFullscreen = () => {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen().catch(err => {
+                console.log('Fullscreen error:', err);
+            });
+        } else {
+            document.exitFullscreen();
+        }
+    };
+
+    useEffect(() => {
+        const handleFullscreenChange = () => {
+            setIsFullscreen(!!document.fullscreenElement);
+        };
+
+        document.addEventListener('fullscreenchange', handleFullscreenChange);
+        return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
+    }, []);
+
+    const handleScreenTouch = () => {
+        setShowControls(true);
+        
+        if (controlsTimeout.current) {
+            clearTimeout(controlsTimeout.current);
+        }
+        
+        controlsTimeout.current = setTimeout(() => {
+            setShowControls(false);
+        }, 3000);
+    };
+
+    useEffect(() => {
+        const handleKeyPress = (e) => {
+            if (e.key === ' ' || e.key === 'Spacebar') {
+                e.preventDefault();
+                togglePlay();
+            }
+            if (e.key === 'ArrowLeft') handlePrevious();
+            if (e.key === 'f' || e.key === 'F') toggleFullscreen();
+            if (e.key === 'Escape') {
+                if (document.fullscreenElement) document.exitFullscreen();
+                else if (showControls) setShowControls(false);
+            }
+        };
+
+        document.addEventListener('keydown', handleKeyPress);
+        return () => document.removeEventListener('keydown', handleKeyPress);
+    }, [isPlaying]);
+
+    useEffect(() => {
+        return () => {
+            if (controlsTimeout.current) {
+                clearTimeout(controlsTimeout.current);
+            }
+        };
+    }, []);
+
+    return React.createElement("div", { 
+        className: "fixed inset-0 bg-white flex flex-col z-60 overflow-hidden",
+        onClick: handleScreenTouch
+    },
+        React.createElement("audio", {
+            ref: audioRef,
+            src: audioUrl,
+            onTimeUpdate: handleTimeUpdate,
+            onPlay: () => setIsPlaying(true),
+            onPause: () => setIsPlaying(false),
+            onError: (e) => console.error('Audio error:', e),
+            preload: "auto",
+            autoPlay: true
+        }),
+
+        React.createElement("div", { className: "flex-1 flex flex-col items-center justify-center p-8 text-center" },
+            React.createElement("div", { 
+                className: "text-5xl md:text-6xl font-normal leading-tight text-black mb-4"
+            }, 
+                currentSentence?.english || deck.deck_name
+            ),
+            
+            React.createElement("div", { 
+                className: "text-2xl md:text-3xl text-gray-600 font-normal leading-relaxed mt-32"
+            }, 
+                currentSentence?.russian || ""
+            )
+        ),
+
+        showControls && React.createElement("div", { 
+            className: "fixed inset-0 z-50"
+        },
+            React.createElement("div", { className: "absolute top-6 left-6" },
+                React.createElement("button", {
+                    onClick: onBack,
+                    className: "w-12 h-12 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
+                }, "←")
+            ),
+            
+            React.createElement("div", { className: "absolute bottom-6 left-0 right-0 flex items-center justify-center gap-12" },
+                React.createElement("button", {
+                    onClick: handlePrevious,
+                    className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
+                }, "⏮"),
+                
+                React.createElement("button", {
+                    onClick: togglePlay,
+                    className: "w-20 h-20 bg-black rounded-full flex items-center justify-center text-3xl text-white shadow-lg hover:scale-105 active:scale-95 transition-all"
+                }, isPlaying ? '⏸' : '▶'),
+                
+                React.createElement("button", {
+                    onClick: toggleFullscreen,
+                    className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
+                }, isFullscreen ? '⤢' : '⤡')
+            )
+        )
+    );
+};
 
 // Инициализация приложения
 const rootElement = document.getElementById('root');
