@@ -8,21 +8,21 @@
     "deck_url": "./decks/deck-8.json"
   },
   {
-  "id": "deck-1",
-  "deck_name": "collocation_1",
-  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/colloc_1.mp3",
-  "group": "collocation",
-  "total_duration": 1422.1,
-  "total_sentences": 99,
-  "deck_url": "./decks/deck-1.json"
-}
+    "id": "deck-1",
+    "deck_name": "collocation_1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/colloc_1.mp3",
+    "group": "collocation",
+    "total_duration": 1422.1,
+    "total_sentences": 99,
+    "deck_url": "./decks/deck-1.json"
+  },
   {
-  "id": "deck-10",
-  "deck_name": "Blok A_en",
-  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/Blok A_grammar.mp3",
-  "group": "grammar",
-  "total_duration": 1998.65,
-  "total_sentences": 118,
-  "deck_url": "./decks/deck-10.json"
-}
+    "id": "deck-10",
+    "deck_name": "Blok A_en",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/Blok A_grammar.mp3",
+    "group": "grammar",
+    "total_duration": 1998.65,
+    "total_sentences": 118,
+    "deck_url": "./decks/deck-10.json"
+  }
 ]
