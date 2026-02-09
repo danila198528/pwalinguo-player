@@ -1,215 +1,249 @@
-// =====================
-// IMPORT REACT
-// =====================
+// ИМПОРТИРУЕМ REACT
 import React from 'https://esm.sh/react@18.2.0';
 import ReactDOM from 'https://esm.sh/react-dom@18.2.0';
 
-const { useState, useEffect, useRef, useMemo, useCallback } = React;
-
-// =====================
-// INDEXED DB
-// =====================
-const openDB = () =>
-    new Promise((resolve, reject) => {
+// --- IndexedDB функции ---
+const openDB = () => {
+    return new Promise((resolve, reject) => {
         const request = indexedDB.open('LinguoDB_v3', 1);
-
-        request.onupgradeneeded = e => {
-            const db = e.target.result;
+        request.onupgradeneeded = (event) => {
+            const db = event.target.result;
             if (!db.objectStoreNames.contains('decks')) {
                 db.createObjectStore('decks', { keyPath: 'id' });
             }
         };
-
         request.onsuccess = () => resolve(request.result);
         request.onerror = () => reject(request.error);
     });
+};
 
-const saveDeckToDB = async deck => {
+const saveDeckToDB = async (deck) => {
     const db = await openDB();
     return new Promise((resolve, reject) => {
-        const tx = db.transaction('decks', 'readwrite');
-        tx.objectStore('decks').put(deck);
-        tx.oncomplete = resolve;
-        tx.onerror = () => reject(tx.error);
+        const transaction = db.transaction('decks', 'readwrite');
+        transaction.objectStore('decks').put(deck);
+        transaction.oncomplete = () => resolve();
+        transaction.onerror = () => reject(transaction.error);
     });
 };
 
-const deleteDeckFromDB = async id => {
+const deleteDeckFromDB = async (id) => {
     const db = await openDB();
-    return new Promise(resolve => {
-        const tx = db.transaction('decks', 'readwrite');
-        tx.objectStore('decks').delete(id);
-        tx.oncomplete = resolve;
+    return new Promise((resolve, reject) => {
+        const transaction = db.transaction('decks', 'readwrite');
+        transaction.objectStore('decks').delete(id);
+        transaction.oncomplete = () => resolve();
+        transaction.onerror = () => reject(transaction.error);
     });
 };
 
-const getDeckFromDB = async id => {
+const getDeckFromDB = async (id) => {
     const db = await openDB();
-    return new Promise(resolve => {
-        const tx = db.transaction('decks', 'readonly');
-        const req = tx.objectStore('decks').get(id);
-        req.onsuccess = () => resolve(req.result);
-        req.onerror = () => resolve(null);
+    return new Promise((resolve, reject) => {
+        const transaction = db.transaction('decks', 'readonly');
+        const request = transaction.objectStore('decks').get(id);
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
     });
 };
 
 const getAllStoredIds = async () => {
     const db = await openDB();
-    return new Promise(resolve => {
-        const tx = db.transaction('decks', 'readonly');
-        const req = tx.objectStore('decks').getAllKeys();
-        req.onsuccess = () => resolve(req.result);
-        req.onerror = () => resolve([]);
+    return new Promise((resolve) => {
+        const transaction = db.transaction('decks', 'readonly');
+        const request = transaction.objectStore('decks').getAllKeys();
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => resolve([]);
     });
 };
 
-const loadDeckData = async meta => {
-    if (!meta.deck_url) return meta;
-    try {
-        const res = await fetch(meta.deck_url);
-        if (!res.ok) throw new Error();
-        return await res.json();
-    } catch {
-        return meta;
+const loadDeckData = async (deckMeta) => {
+    if (deckMeta.deck_url) {
+        try {
+            const response = await fetch(deckMeta.deck_url);
+            if (!response.ok) {
+                throw new Error(`Ошибка загрузки: ${response.status}`);
+            }
+            const fullDeck = await response.json();
+            return fullDeck;
+        } catch (err) {
+            console.error('Ошибка загрузки полной колоды:', err);
+            return deckMeta;
+        }
     }
+    return deckMeta;
 };
 
-// =====================
-// APP
-// =====================
+// --- UI Components ---
+const { useState, useEffect, useRef, useMemo, useCallback } = React;
+
+// ============================
+// APP — НЕ МЕНЯЛСЯ
+// ============================
 const App = () => {
     const [catalog, setCatalog] = useState([]);
     const [selectedDeck, setSelectedDeck] = useState(null);
-    const [audioBlob, setAudioBlob] = useState(null);
+    const [activeAudioBlob, setActiveAudioBlob] = useState(null);
     const [downloadedIds, setDownloadedIds] = useState([]);
     const [isDownloading, setIsDownloading] = useState(false);
     const [isOffline, setIsOffline] = useState(!navigator.onLine);
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        const load = async () => {
+        const loadData = async () => {
             setIsLoading(true);
             try {
-                const res = await fetch('./catalog.json');
-                const data = await res.json();
-                setCatalog(Array.isArray(data) ? data : [data]);
-            } catch {}
-            setDownloadedIds(await getAllStoredIds());
-            setIsLoading(false);
+                const response = await fetch('./catalog.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    setCatalog(Array.isArray(data) ? data : [data]);
+                }
+            } catch (e) {
+                console.error("Catalog load failed", e);
+            } finally {
+                setIsLoading(false);
+            }
+            const ids = await getAllStoredIds();
+            setDownloadedIds(ids);
         };
 
-        load();
-
-        const online = () => setIsOffline(!navigator.onLine);
-        window.addEventListener('online', online);
-        window.addEventListener('offline', online);
+        loadData();
+        const updateOnlineStatus = () => setIsOffline(!navigator.onLine);
+        window.addEventListener('online', updateOnlineStatus);
+        window.addEventListener('offline', updateOnlineStatus);
         return () => {
-            window.removeEventListener('online', online);
-            window.removeEventListener('offline', online);
+            window.removeEventListener('online', updateOnlineStatus);
+            window.removeEventListener('offline', updateOnlineStatus);
         };
     }, []);
 
-    const handleDownload = async meta => {
+    const handleDownload = async (deckMeta) => {
         setIsDownloading(true);
         try {
-            const deck = await loadDeckData(meta);
-            const audio = await fetch(deck.audio_url);
-            const blob = await audio.blob();
-
+            const fullDeck = await loadDeckData(deckMeta);
+            const audioResponse = await fetch(fullDeck.audio_url);
+            const blob = await audioResponse.blob();
             await saveDeckToDB({
-                id: deck.id,
-                metadata: deck,
-                audioBlob: blob,
+                id: fullDeck.id,
+                metadata: fullDeck,
+                audioBlob: blob
             });
-
-            setDownloadedIds(p => [...p, deck.id]);
+            setDownloadedIds(prev => [...prev, fullDeck.id]);
         } finally {
             setIsDownloading(false);
         }
     };
 
-    const handleSelectDeck = async meta => {
-        const stored = await getDeckFromDB(meta.id);
+    const handleDelete = async (id) => {
+        if (confirm("Удалить из памяти устройства?")) {
+            await deleteDeckFromDB(id);
+            setDownloadedIds(prev => prev.filter(i => i !== id));
+        }
+    };
+
+    const handleSelectDeck = async (deckMeta) => {
+        const stored = await getDeckFromDB(deckMeta.id);
         if (stored) {
-            setAudioBlob(stored.audioBlob);
+            setActiveAudioBlob(stored.audioBlob);
             setSelectedDeck(stored.metadata);
         } else if (!isOffline) {
-            setAudioBlob(null);
-            setSelectedDeck(await loadDeckData(meta));
+            const fullDeck = await loadDeckData(deckMeta);
+            setActiveAudioBlob(null);
+            setSelectedDeck(fullDeck);
         }
     };
 
     return React.createElement(
-        'div',
-        { className: 'h-full w-full bg-slate-950 text-slate-100' },
-
+        "div",
+        { className: "h-full w-full bg-slate-950 text-slate-100 flex flex-col" },
         isLoading
-            ? React.createElement('div', null, 'Загрузка…')
+            ? React.createElement("div", null, "Загрузка…")
             : !selectedDeck
-            ? catalog.map(d =>
-                  React.createElement(
-                      'div',
-                      { key: d.id },
-                      React.createElement(
-                          'button',
-                          { onClick: () => handleSelectDeck(d) },
-                          d.deck_name
-                      ),
-                      downloadedIds.includes(d.id)
-                          ? '✓'
-                          : React.createElement(
-                                'button',
-                                { onClick: () => handleDownload(d) },
-                                'Скачать'
-                            )
-                  )
-              )
+            ? catalog.map(deckMeta =>
+                React.createElement("div", { key: deckMeta.id },
+                    deckMeta.deck_name,
+                    downloadedIds.includes(deckMeta.id)
+                        ? React.createElement("button", { onClick: () => handleDelete(deckMeta.id) }, "🗑️")
+                        : React.createElement("button", { onClick: () => handleDownload(deckMeta) }, "Скачать"),
+                    React.createElement("button", { onClick: () => handleSelectDeck(deckMeta) }, "▶")
+                )
+            )
             : React.createElement(Player, {
-                  deck: selectedDeck,
-                  audioBlob,
-                  onBack: () => setSelectedDeck(null),
-              })
+                deck: selectedDeck,
+                audioBlob: activeAudioBlob,
+                onBack: () => setSelectedDeck(null)
+            })
     );
 };
 
-// =====================
-// PLAYER (STABLE)
-// =====================
+// ============================
+// PLAYER — ИСПРАВЛЕН
+// ============================
 const Player = ({ deck, audioBlob, onBack }) => {
     const [currentTime, setCurrentTime] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
     const [showControls, setShowControls] = useState(false);
     const [isFullscreen, setIsFullscreen] = useState(false);
-    const [orientation, setOrientation] = useState('portrait');
 
     const audioRef = useRef(null);
     const containerRef = useRef(null);
-    const controlsTimer = useRef(null);
-    const [audioUrl, setAudioUrl] = useState('');
+    const controlsTimeout = useRef(null);
+    const hasStartedRef = useRef(false);
 
-    // audio init
-    useEffect(() => {
-        const url = audioBlob
+    // ---------- AUDIO INIT (БЕЗ autoPlay-петли) ----------
+    const audioUrl = useMemo(() => {
+        return audioBlob
             ? URL.createObjectURL(audioBlob)
             : deck.audio_url;
-        setAudioUrl(url);
-        return () => audioBlob && URL.revokeObjectURL(url);
-    }, [audioBlob]);
+    }, [audioBlob, deck.audio_url]);
 
-    // orientation (layout only)
     useEffect(() => {
-        const update = () =>
-            setOrientation(
-                window.innerWidth > window.innerHeight
-                    ? 'landscape'
-                    : 'portrait'
-            );
-        update();
-        window.addEventListener('resize', update);
-        return () => window.removeEventListener('resize', update);
+        return () => {
+            if (audioBlob) URL.revokeObjectURL(audioUrl);
+        };
+    }, [audioBlob, audioUrl]);
+
+    // ---------- ОДНОРАЗОВЫЙ СТАРТ ----------
+    useEffect(() => {
+        if (!audioRef.current || hasStartedRef.current) return;
+
+        hasStartedRef.current = true;
+        audioRef.current.play().catch(() => {});
     }, []);
 
-    // fullscreen (button only)
+    // ---------- AUDIO EVENTS ----------
+    const handleTimeUpdate = () => {
+        if (audioRef.current) {
+            setCurrentTime(audioRef.current.currentTime);
+        }
+    };
+
+    const togglePlay = useCallback(() => {
+        if (!audioRef.current) return;
+
+        if (audioRef.current.paused) {
+            audioRef.current.play().catch(() => {});
+        } else {
+            audioRef.current.pause();
+        }
+    }, []);
+
+    const handlePrevious = useCallback(() => {
+        if (!deck.sentences || !audioRef.current) return;
+
+        const idx = deck.sentences.findIndex(
+            s => currentTime >= s.start && currentTime <= s.end
+        );
+
+        if (idx === -1) return;
+
+        audioRef.current.currentTime =
+            currentTime - deck.sentences[idx].start > 2
+                ? deck.sentences[idx].start
+                : deck.sentences[Math.max(0, idx - 1)].start;
+    }, [currentTime, deck.sentences]);
+
+    // ---------- FULLSCREEN (ТОЛЬКО КНОПКА) ----------
     const toggleFullscreen = async () => {
         try {
             if (!document.fullscreenElement) {
@@ -221,89 +255,74 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 screen.orientation?.unlock?.();
                 await document.exitFullscreen();
             }
-        } catch {}
+        } catch (e) {
+            console.error(e);
+        }
     };
 
     useEffect(() => {
-        const fs = () => setIsFullscreen(!!document.fullscreenElement);
-        document.addEventListener('fullscreenchange', fs);
-        return () =>
-            document.removeEventListener('fullscreenchange', fs);
+        const handler = () => {
+            setIsFullscreen(!!document.fullscreenElement);
+        };
+        document.addEventListener('fullscreenchange', handler);
+        return () => document.removeEventListener('fullscreenchange', handler);
     }, []);
 
-    const currentSentence = useMemo(
-        () =>
-            deck.sentences?.find(
-                s => currentTime >= s.start && currentTime <= s.end
-            ),
-        [currentTime, deck.sentences]
-    );
-
-    const show = () => {
-        setShowControls(true);
-        clearTimeout(controlsTimer.current);
-        controlsTimer.current = setTimeout(
-            () => setShowControls(false),
-            3000
+    // ---------- UI ----------
+    const currentSentence = useMemo(() => {
+        return deck.sentences?.find(
+            s => currentTime >= s.start && currentTime <= s.end
         );
+    }, [currentTime, deck.sentences]);
+
+    const handleScreenTouch = () => {
+        setShowControls(true);
+        clearTimeout(controlsTimeout.current);
+        controlsTimeout.current = setTimeout(() => {
+            setShowControls(false);
+        }, 3000);
     };
 
     return React.createElement(
-        'div',
+        "div",
         {
             ref: containerRef,
-            className: `fixed inset-0 bg-white ${
-                orientation === 'landscape'
-                    ? 'player-landscape'
-                    : 'player-portrait'
-            }`,
-            onClick: show,
+            className: "fixed inset-0 bg-white flex flex-col z-60 overflow-hidden",
+            onClick: handleScreenTouch
         },
 
-        React.createElement('audio', {
+        React.createElement("audio", {
             ref: audioRef,
             src: audioUrl,
-            autoPlay: true,
-            preload: 'auto',
-            onTimeUpdate: e => setCurrentTime(e.target.currentTime),
+            preload: "auto",
+            onTimeUpdate: handleTimeUpdate,
             onPlay: () => setIsPlaying(true),
-            onPause: () => setIsPlaying(false),
+            onPause: () => setIsPlaying(false)
         }),
 
-        React.createElement(
-            'div',
-            null,
-            currentSentence?.english || deck.deck_name,
-            React.createElement('br'),
-            currentSentence?.russian || ''
+        React.createElement("div", { className: "flex-1 flex flex-col items-center justify-center p-8 text-center" },
+            React.createElement("div", { className: "english-text text-black mb-4" },
+                currentSentence?.english || deck.deck_name
+            ),
+            React.createElement("div", { className: "russian-text text-gray-600" },
+                currentSentence?.russian || ""
+            )
         ),
 
-        showControls &&
-            React.createElement(
-                'div',
-                null,
-                React.createElement('button', { onClick: onBack }, '←'),
-                React.createElement(
-                    'button',
-                    {
-                        onClick: () =>
-                            isPlaying
-                                ? audioRef.current.pause()
-                                : audioRef.current.play(),
-                    },
-                    isPlaying ? '⏸' : '▶'
-                ),
-                React.createElement(
-                    'button',
-                    { onClick: toggleFullscreen },
-                    isFullscreen ? '⤢' : '⤡'
-                )
-            )
+        showControls && React.createElement("div", { className: "fixed inset-0 z-50" },
+            React.createElement("button", { onClick: onBack }, "←"),
+            React.createElement("button", { onClick: handlePrevious }, "⏮"),
+            React.createElement("button", { onClick: togglePlay }, isPlaying ? "⏸" : "▶"),
+            React.createElement("button", { onClick: toggleFullscreen }, isFullscreen ? "⤢" : "⤡")
+        )
     );
 };
 
-// =====================
+// ============================
 // INIT
-// =====================
-const root = document.getElementById('root');
-ReactDOM.createRoot(root).render(React.createElement(App));
+// ============================
+const rootElement = document.getElementById('root');
+if (rootElement) {
+    const root = ReactDOM.createRoot(rootElement);
+    root.render(React.createElement(App));
+}
