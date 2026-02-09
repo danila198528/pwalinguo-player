@@ -75,7 +75,7 @@ const loadDeckData = async (deckMeta) => {
 };
 
 // --- UI Components ---
-const { useState, useEffect, useRef, useMemo } = React;
+const { useState, useEffect, useRef, useMemo, useCallback } = React;
 
 const App = () => {
     const [catalog, setCatalog] = useState([]);
@@ -93,11 +93,10 @@ const App = () => {
                 const response = await fetch('./catalog.json');
                 if (response.ok) {
                     const data = await response.json();
-                    setCatalog(Array.isArray(data) ? data : []);
+                    setCatalog(Array.isArray(data) ? data : [data]);
                 }
             } catch (e) {
                 console.error("Catalog load failed", e);
-                setCatalog([]);
             } finally {
                 setIsLoading(false);
             }
@@ -220,69 +219,190 @@ const App = () => {
     );
 };
 
-// Player компонент с последними изменениями полноэкранного режима
 const Player = ({ deck, audioBlob, onBack }) => {
     const [currentTime, setCurrentTime] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
     const [showControls, setShowControls] = useState(false);
     const [isFullscreen, setIsFullscreen] = useState(false);
+    const [isLandscapeForced, setIsLandscapeForced] = useState(false);
+    const [currentOrientation, setCurrentOrientation] = useState('portrait');
     const audioRef = useRef(null);
     const [audioUrl, setAudioUrl] = useState('');
     const controlsTimeout = useRef(null);
+    const containerRef = useRef(null);
 
+    // Инициализация аудио
     useEffect(() => {
         const url = audioBlob ? URL.createObjectURL(audioBlob) : deck.audio_url;
         setAudioUrl(url);
         return () => { if (audioBlob) URL.revokeObjectURL(url); };
     }, [deck.id, audioBlob]);
 
+    // Определяем текущую ориентацию
+    const detectOrientation = useCallback(() => {
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        const orientation = width > height ? 'landscape' : 'portrait';
+        setCurrentOrientation(orientation);
+        return orientation;
+    }, []);
+
+    // Текущее предложение
     const currentSentence = useMemo(() => {
         return deck.sentences?.find(s => currentTime >= s.start && currentTime <= s.end);
     }, [currentTime, deck.sentences]);
 
-    const currentSentenceIndex = useMemo(() => {
-        return deck.sentences?.findIndex(s => currentTime >= s.start && currentTime <= s.end);
-    }, [currentTime, deck.sentences]);
-
+    // Обработчики аудио
     const handleTimeUpdate = () => {
         if (audioRef.current) setCurrentTime(audioRef.current.currentTime);
     };
 
-    const togglePlay = () => {
-        if (isPlaying) audioRef.current?.pause();
-        else audioRef.current?.play();
-    };
-
-    const handlePrevious = () => {
-        if (!audioRef.current || !deck.sentences || currentSentenceIndex === -1) return;
+    const togglePlay = useCallback(() => {
+        if (!audioRef.current) return;
         
-        if (currentTime - deck.sentences[currentSentenceIndex]?.start > 2) {
-            audioRef.current.currentTime = deck.sentences[currentSentenceIndex].start;
-        } else if (currentSentenceIndex > 0) {
-            audioRef.current.currentTime = deck.sentences[currentSentenceIndex - 1].start;
-        }
-    };
-
-    const toggleFullscreen = () => {
-        if (!document.fullscreenElement) {
-            document.documentElement.requestFullscreen().catch(err => {
-                console.log('Fullscreen error:', err);
-            });
+        if (isPlaying) {
+            audioRef.current.pause();
         } else {
-            document.exitFullscreen();
+            if (audioRef.current.readyState >= 2) {
+                audioRef.current.play().catch(err => {
+                    console.error('Play error:', err);
+                    setIsPlaying(false);
+                });
+            } else {
+                audioRef.current.oncanplay = () => {
+                    audioRef.current.play().catch(err => {
+                        console.error('Play error:', err);
+                        setIsPlaying(false);
+                    });
+                };
+            }
         }
-    };
+    }, [isPlaying]);
 
+    const handlePrevious = useCallback(() => {
+        if (!audioRef.current || !deck.sentences) return;
+        
+        const currentIndex = deck.sentences.findIndex(s => currentTime >= s.start && currentTime <= s.end);
+        
+        if (currentIndex === -1) return;
+        
+        if (currentTime - deck.sentences[currentIndex]?.start > 2) {
+            audioRef.current.currentTime = deck.sentences[currentIndex].start;
+        } else if (currentIndex > 0) {
+            audioRef.current.currentTime = deck.sentences[currentIndex - 1].start;
+        }
+    }, [currentTime, deck.sentences]);
+
+    // Переключение полноэкранного режима (логика YouTube)
+    const toggleFullscreen = useCallback(async () => {
+        if (!isFullscreen) {
+            // ВХОД в полноэкранный (горизонтальный) режим
+            try {
+                // 1. Войти в полноэкранный режим
+                await document.documentElement.requestFullscreen();
+                
+                // 2. Попытаться заблокировать ориентацию в горизонтальную
+                if (screen.orientation && screen.orientation.lock) {
+                    try {
+                        await screen.orientation.lock('landscape');
+                        setIsLandscapeForced(true);
+                    } catch (lockError) {
+                        console.log('Orientation lock not supported, using CSS fallback');
+                        // CSS fallback будет применен через класс
+                    }
+                }
+                
+                setIsFullscreen(true);
+                
+                // 3. Если телефон вертикальный, применяем CSS трансформацию
+                if (currentOrientation === 'portrait') {
+                    containerRef.current?.classList.add('landscape-forced');
+                }
+                
+            } catch (error) {
+                console.error('Failed to enter fullscreen:', error);
+                // Fallback: просто применяем CSS трансформацию
+                containerRef.current?.classList.add('landscape-forced');
+                setIsFullscreen(true);
+            }
+        } else {
+            // ВЫХОД из полноэкранного режима
+            try {
+                // 1. Разблокировать ориентацию если была заблокирована
+                if (screen.orientation && screen.orientation.unlock) {
+                    await screen.orientation.unlock();
+                }
+                
+                // 2. Выйти из полноэкранного режима
+                if (document.exitFullscreen) {
+                    await document.exitFullscreen();
+                }
+                
+                // 3. Убрать CSS трансформацию
+                containerRef.current?.classList.remove('landscape-forced');
+                
+                setIsFullscreen(false);
+                setIsLandscapeForced(false);
+                
+            } catch (error) {
+                console.error('Failed to exit fullscreen:', error);
+                // Fallback: просто убираем CSS трансформацию
+                containerRef.current?.classList.remove('landscape-forced');
+                setIsFullscreen(false);
+                setIsLandscapeForced(false);
+            }
+        }
+    }, [isFullscreen, currentOrientation]);
+
+    // Автоматический вход/выход при повороте телефона
+    useEffect(() => {
+        const handleOrientationChange = () => {
+            const orientation = detectOrientation();
+            
+            if (orientation === 'landscape' && !isFullscreen) {
+                // Телефон повернули горизонтально - автоматически в полноэкранный
+                toggleFullscreen();
+            } else if (orientation === 'portrait' && isFullscreen && !isLandscapeForced) {
+                // Телефон повернули вертикально И ориентация не была принудительной
+                toggleFullscreen();
+            }
+        };
+
+        detectOrientation(); // начальное определение
+        
+        window.addEventListener('resize', handleOrientationChange);
+        window.addEventListener('orientationchange', handleOrientationChange);
+        
+        return () => {
+            window.removeEventListener('resize', handleOrientationChange);
+            window.removeEventListener('orientationchange', handleOrientationChange);
+        };
+    }, [detectOrientation, isFullscreen, isLandscapeForced, toggleFullscreen]);
+
+    // Слушатель полноэкранного режима
     useEffect(() => {
         const handleFullscreenChange = () => {
-            setIsFullscreen(!!document.fullscreenElement);
+            const fullscreen = !!document.fullscreenElement;
+            setIsFullscreen(fullscreen);
+            
+            if (!fullscreen) {
+                // Выйдя из полноэкранного режима, убираем CSS трансформацию
+                containerRef.current?.classList.remove('landscape-forced');
+                setIsLandscapeForced(false);
+            }
         };
 
         document.addEventListener('fullscreenchange', handleFullscreenChange);
-        return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
+        document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+        
+        return () => {
+            document.removeEventListener('fullscreenchange', handleFullscreenChange);
+            document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
+        };
     }, []);
 
-    const handleScreenTouch = () => {
+    // Управление контролами
+    const handleScreenTouch = useCallback(() => {
         setShowControls(true);
         
         if (controlsTimeout.current) {
@@ -292,8 +412,9 @@ const Player = ({ deck, audioBlob, onBack }) => {
         controlsTimeout.current = setTimeout(() => {
             setShowControls(false);
         }, 3000);
-    };
+    }, []);
 
+    // Горячие клавиши
     useEffect(() => {
         const handleKeyPress = (e) => {
             if (e.key === ' ' || e.key === 'Spacebar') {
@@ -302,16 +423,16 @@ const Player = ({ deck, audioBlob, onBack }) => {
             }
             if (e.key === 'ArrowLeft') handlePrevious();
             if (e.key === 'f' || e.key === 'F') toggleFullscreen();
-            if (e.key === 'Escape') {
-                if (document.fullscreenElement) document.exitFullscreen();
-                else if (showControls) setShowControls(false);
+            if (e.key === 'Escape' && isFullscreen) {
+                toggleFullscreen();
             }
         };
 
         document.addEventListener('keydown', handleKeyPress);
         return () => document.removeEventListener('keydown', handleKeyPress);
-    }, [isPlaying]);
+    }, [togglePlay, handlePrevious, toggleFullscreen, isFullscreen]);
 
+    // Очистка таймеров
     useEffect(() => {
         return () => {
             if (controlsTimeout.current) {
@@ -320,10 +441,15 @@ const Player = ({ deck, audioBlob, onBack }) => {
         };
     }, []);
 
+    // Определяем, нужно ли применять горизонтальную ориентацию
+    const shouldBeLandscape = isFullscreen || (currentOrientation === 'landscape' && !isFullscreen);
+
     return React.createElement("div", { 
-        className: "fixed inset-0 bg-white flex flex-col z-60 overflow-hidden",
+        ref: containerRef,
+        className: `fixed inset-0 bg-white flex flex-col z-60 overflow-hidden ${shouldBeLandscape ? 'player-landscape' : 'player-portrait'}`,
         onClick: handleScreenTouch
     },
+        // Аудио элемент
         React.createElement("audio", {
             ref: audioRef,
             src: audioUrl,
@@ -335,23 +461,28 @@ const Player = ({ deck, audioBlob, onBack }) => {
             autoPlay: true
         }),
 
+        // Основной контент
         React.createElement("div", { className: "flex-1 flex flex-col items-center justify-center p-8 text-center" },
+            // Английский текст
             React.createElement("div", { 
-                className: "text-5xl md:text-6xl font-normal leading-tight text-black mb-4"
+                className: "english-text font-normal leading-tight text-black mb-4"
             }, 
                 currentSentence?.english || deck.deck_name
             ),
             
+            // Русский текст
             React.createElement("div", { 
-                className: "text-2xl md:text-3xl text-gray-600 font-normal leading-relaxed mt-32"
+                className: "russian-text font-normal leading-relaxed text-gray-600"
             }, 
                 currentSentence?.russian || ""
             )
         ),
 
+        // Контролы плеера (появляются при касании)
         showControls && React.createElement("div", { 
             className: "fixed inset-0 z-50"
         },
+            // Верхняя панель (кнопка назад в меню)
             React.createElement("div", { className: "absolute top-6 left-6" },
                 React.createElement("button", {
                     onClick: onBack,
@@ -359,17 +490,21 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←")
             ),
             
+            // Центральные контролы
             React.createElement("div", { className: "absolute bottom-6 left-0 right-0 flex items-center justify-center gap-12" },
+                // Кнопка назад на предыдущий субтитр
                 React.createElement("button", {
                     onClick: handlePrevious,
                     className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
                 }, "⏮"),
                 
+                // Кнопка паузы/воспроизведения
                 React.createElement("button", {
                     onClick: togglePlay,
                     className: "w-20 h-20 bg-black rounded-full flex items-center justify-center text-3xl text-white shadow-lg hover:scale-105 active:scale-95 transition-all"
                 }, isPlaying ? '⏸' : '▶'),
                 
+                // Кнопка полноэкранного режима
                 React.createElement("button", {
                     onClick: toggleFullscreen,
                     className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
