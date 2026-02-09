@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug LinguoPlayer</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .ok { color: green; }
+        .error { color: red; }
+        button { padding: 10px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Отладка LinguoPlayer</h1>
+    
+    <div id="status"></div>
+    
+    <button onclick="clearAll()">🗑️ Очистить ВСЕ кэши</button>
+    <button onclick="testApp()">🔄 Проверить приложение</button>
+    <button onclick="location.href='index.html?force='+Date.now()">▶ Открыть LinguoPlayer</button>
+    
+    <script>
+        const status = document.getElementById('status');
+        
+        async function clearAll() {
+            status.innerHTML = 'Очистка...';
+            
+            // Очищаем ВСЁ
+            if ('serviceWorker' in navigator) {
+                const regs = await navigator.serviceWorker.getRegistrations();
+                regs.forEach(r => r.unregister());
+                status.innerHTML += '<br>✅ Service Workers удалены';
+            }
+            
+            if ('caches' in window) {
+                const keys = await caches.keys();
+                await Promise.all(keys.map(k => caches.delete(k)));
+                status.innerHTML += '<br>✅ Кэши очищены';
+            }
+            
+            localStorage.clear();
+            sessionStorage.clear();
+            status.innerHTML += '<br>✅ LocalStorage очищен';
+            
+            setTimeout(() => location.reload(true), 1000);
+        }
+        
+        async function testApp() {
+            status.innerHTML = '';
+            
+            const tests = [
+                { name: 'IndexedDB', test: () => 'indexedDB' in window },
+                { name: 'Fetch API', test: () => 'fetch' in window },
+                { name: 'CSS загружен', test: async () => {
+                    try {
+                        const res = await fetch('./styles.css?_=' + Date.now());
+                        return res.ok;
+                    } catch { return false; }
+                }},
+                { name: 'JS загружен', test: async () => {
+                    try {
+                        const res = await fetch('./index.js?_=' + Date.now());
+                        return res.ok;
+                    } catch { return false; }
+                }},
+                { name: 'Manifest загружен', test: async () => {
+                    try {
+                        const res = await fetch('./manifest.json?_=' + Date.now());
+                        return res.ok;
+                    } catch { return false; }
+                }}
+            ];
+            
+            for (const test of tests) {
+                const passed = await (typeof test.test === 'function' ? test.test() : test.test);
+                status.innerHTML += `${passed ? '✅' : '❌'} ${test.name}<br>`;
+            }
+        }
+        
+        // Автопроверка при загрузке
+        window.onload = testApp;
+    </script>
+</body>
+</html>
