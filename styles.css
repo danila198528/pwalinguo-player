@@ -871,3 +871,291 @@ button:focus {
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
 }
+/* === СТИЛИ ДЛЯ ПЛЕЕРА С ЛОГИКОЙ YOUTUBE === */
+
+/* Безопасные зоны для PWA - УБИРАЕМ АВТО-ПОЛНЫЙ ЭКРАН */
+body, #root {
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    padding-left: env(safe-area-inset-left, 0px);
+    padding-right: env(safe-area-inset-right, 0px);
+    background: #ffffff;
+}
+
+/* Вертикальный режим (по умолчанию) */
+.player-portrait {
+    background: #ffffff;
+}
+
+.player-portrait .english-text {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.player-portrait .russian-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 6rem;
+    color: #4b5563;
+}
+
+/* Горизонтальный/полноэкранный режим */
+.player-landscape {
+    background: #ffffff;
+}
+
+.player-landscape .english-text {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.player-landscape .russian-text {
+    font-size: 1.75rem;
+    line-height: 1.4;
+    margin-top: 2rem;
+    color: #4b5563;
+}
+
+/* Принудительный горизонтальный режим через CSS (fallback) */
+.landscape-forced {
+    transform: rotate(90deg);
+    transform-origin: center center;
+    width: 100vh;
+    height: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50vw;
+    margin-left: -50vh;
+    overflow: hidden;
+}
+
+.landscape-forced .english-text {
+    font-size: 2.5rem !important;
+}
+
+.landscape-forced .russian-text {
+    font-size: 1.5rem !important;
+}
+
+/* Абсолютно прозрачный фон для контролов */
+.fixed.inset-0.z-50 {
+    background: transparent !important;
+    backdrop-filter: none !important;
+}
+
+/* Позиционирование верхней панели */
+.absolute.top-6.left-6 {
+    top: 1.5rem;
+    left: 1.5rem;
+}
+
+/* Позиционирование нижних контролов */
+.absolute.bottom-6 {
+    bottom: 1.5rem;
+}
+
+/* Стили для кнопок */
+.w-12 {
+    width: 3rem;
+    height: 3rem;
+}
+
+.w-14 {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.w-20 {
+    width: 5rem;
+    height: 5rem;
+}
+
+/* Тень для кнопок */
+.shadow-lg {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15),
+                0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* Граница для белых кнопок */
+.border-gray-200 {
+    border-color: #e5e7eb;
+    border-width: 1px;
+}
+
+/* Черная кнопка паузы */
+.bg-black {
+    background-color: #000000;
+}
+
+/* Эффекты наведения */
+.hover\:bg-gray-100:hover {
+    background-color: #f3f4f6;
+}
+
+.hover\:scale-105:hover {
+    transform: scale(1.05);
+}
+
+/* Расстояние между кнопками */
+.gap-12 {
+    gap: 3rem;
+}
+
+/* Адаптация для мобильных */
+@media (max-width: 640px) {
+    .player-portrait .english-text {
+        font-size: 2rem;
+    }
+    
+    .player-portrait .russian-text {
+        font-size: 1.25rem;
+        margin-top: 4rem;
+    }
+    
+    .player-landscape .english-text {
+        font-size: 2.5rem;
+    }
+    
+    .player-landscape .russian-text {
+        font-size: 1.5rem;
+    }
+    
+    .absolute.top-6.left-6 {
+        top: 1rem;
+        left: 1rem;
+    }
+    
+    .absolute.bottom-6 {
+        bottom: 1rem;
+    }
+    
+    .gap-12 {
+        gap: 2rem;
+    }
+    
+    .w-12 {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .w-14 {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .w-20 {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+/* Для очень маленьких экранов */
+@media (max-width: 375px) {
+    .player-portrait .english-text {
+        font-size: 1.75rem;
+    }
+    
+    .player-portrait .russian-text {
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+    
+    .player-landscape .english-text {
+        font-size: 2rem;
+    }
+    
+    .player-landscape .russian-text {
+        font-size: 1.25rem;
+    }
+    
+    .gap-12 {
+        gap: 1.5rem;
+    }
+    
+    .w-12 {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+    
+    .w-14 {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    
+    .w-20 {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}
+
+/* Анимация появления контролов */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fixed.inset-0.z-50 {
+    animation: fadeIn 0.2s ease-out;
+}
+
+/* В полноэкранном режиме добавляем безопасные зоны */
+:fullscreen .fixed.inset-0 {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+}
+
+/* Предотвращаем выделение текста */
+.english-text, .russian-text {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Плавные переходы */
+.transition-all {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active\:scale-90:active {
+    transform: scale(0.9);
+}
+
+.active\:scale-95:active {
+    transform: scale(0.95);
+}
+
+/* Убираем outline */
+button:focus {
+    outline: none;
+}
+
+/* Центрирование */
+.text-center {
+    text-align: center;
+}
+
+.flex.items-center.justify-center {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Убираем курсив */
+.font-normal {
+    font-style: normal;
+}
+
+/* Для iOS safe areas */
+@supports (padding-top: env(safe-area-inset-top)) {
+    body {
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+}
