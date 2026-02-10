@@ -4,10 +4,10 @@
   "description": "Аудио-плеер для изучения английского с двойными субтитрами",
   "start_url": "./index.html",
   "display": "standalone",
-  "display_override": ["fullscreen", "standalone"],
+  "display_override": ["standalone"],
   "background_color": "#000000",
   "theme_color": "#000000",
-  "orientation": "portrait",
+  "orientation": "any",
   "scope": "/",
   "id": "/",
   "icons": [

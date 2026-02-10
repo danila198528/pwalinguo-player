@@ -285,7 +285,14 @@ const Player = ({ deck, audioBlob, onBack }) => {
     const toggleFullscreen = () => {
         if (!document.fullscreenElement) {
             // Вход в полноэкранный режим
-            document.documentElement.requestFullscreen().catch(err => {
+            document.documentElement.requestFullscreen().then(() => {
+                // Блокируем ориентацию на landscape
+                if (screen.orientation && screen.orientation.lock) {
+                    screen.orientation.lock('landscape').catch(err => {
+                        console.log('Orientation lock error:', err);
+                    });
+                }
+            }).catch(err => {
                 console.log('Fullscreen error:', err);
             });
         } else {
@@ -298,6 +305,11 @@ const Player = ({ deck, audioBlob, onBack }) => {
     useEffect(() => {
         const handleFullscreenChange = () => {
             setIsFullscreen(!!document.fullscreenElement);
+            
+            // Разблокируем ориентацию при выходе из fullscreen
+            if (!document.fullscreenElement && screen.orientation && screen.orientation.unlock) {
+                screen.orientation.unlock();
+            }
         };
 
         document.addEventListener('fullscreenchange', handleFullscreenChange);
