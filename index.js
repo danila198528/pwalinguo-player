@@ -261,6 +261,23 @@ const Player = ({ deck, audioBlob, onBack }) => {
         };
     }, []);
 
+    // Жёсткий cleanup при размонтировании Player
+    useEffect(() => {
+        return () => {
+            // Выход из fullscreen
+            if (document.fullscreenElement) {
+                document.exitFullscreen().catch(() => {});
+            }
+
+            // Разблокировка ориентации
+            if (screen.orientation?.unlock) {
+                try {
+                    screen.orientation.unlock();
+                } catch (e) {}
+            }
+        };
+    }, []);
+
     // Текущее предложение
     const currentSentence = useMemo(() => {
         return deck.sentences?.find(s => currentTime >= s.start && currentTime <= s.end);
@@ -332,6 +349,21 @@ const Player = ({ deck, audioBlob, onBack }) => {
         }
     };
 
+    // Корректный выход при нажатии кнопки "Назад"
+    const handleBack = async () => {
+        if (document.fullscreenElement) {
+            await document.exitFullscreen().catch(() => {});
+        }
+
+        if (screen.orientation?.unlock) {
+            try {
+                screen.orientation.unlock();
+            } catch (e) {}
+        }
+
+        onBack();
+    };
+
     // Слушатель полноэкранного режима
     useEffect(() => {
         const handleFullscreenChange = () => {
@@ -343,26 +375,27 @@ const Player = ({ deck, audioBlob, onBack }) => {
             }
         };
 
-        // Обработчик кнопки "Назад" на Android
-        const handleBackButton = (e) => {
+        // Обработчик системной кнопки "Назад" для PWA
+        const handlePopState = () => {
             if (document.fullscreenElement) {
-                e.preventDefault();
-                document.exitFullscreen().then(() => {
-                    if (screen.orientation && screen.orientation.unlock) {
-                        screen.orientation.unlock();
-                    }
-                });
+                document.exitFullscreen().catch(() => {});
+            }
+
+            if (screen.orientation?.unlock) {
+                try {
+                    screen.orientation.unlock();
+                } catch (e) {}
             }
         };
 
         document.addEventListener('fullscreenchange', handleFullscreenChange);
         document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
-        document.addEventListener('backbutton', handleBackButton);
+        window.addEventListener('popstate', handlePopState);
         
         return () => {
             document.removeEventListener('fullscreenchange', handleFullscreenChange);
             document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
-            document.removeEventListener('backbutton', handleBackButton);
+            window.removeEventListener('popstate', handlePopState);
         };
     }, []);
 
@@ -450,12 +483,12 @@ const Player = ({ deck, audioBlob, onBack }) => {
             // Верхняя панель (кнопка назад в меню)
             React.createElement("div", { className: "absolute top-6 left-6 flex items-center gap-3" },
                 React.createElement("button", {
-                    onClick: onBack,
+                    onClick: handleBack,
                     className: "w-12 h-12 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v2.1 + WakeLock")
+                }, "v2.2 + Orientation Fix")
             ),
             
             // Центральные контролы
