@@ -772,11 +772,7 @@ button:focus {
     animation: fadeIn 0.2s ease-out;
 }
 
-/* Скрываем контролы в полноэкранном режиме */
-:fullscreen .absolute.top-6.left-6,
-:fullscreen .absolute.bottom-6 {
-    display: none !important;
-}
+/* Контролы в полноэкранном режиме работают нормально */
 
 /* Для полноэкранного режима показываем контролы только при касании */
 :fullscreen .fixed.inset-0.z-50 {
