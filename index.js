@@ -235,6 +235,32 @@ const Player = ({ deck, audioBlob, onBack }) => {
         return () => { if (audioBlob) URL.revokeObjectURL(url); };
     }, [deck.id, audioBlob]);
 
+    // Wake Lock для предотвращения блокировки экрана
+    useEffect(() => {
+        let wakeLock = null;
+
+        const requestWakeLock = async () => {
+            try {
+                if ('wakeLock' in navigator) {
+                    wakeLock = await navigator.wakeLock.request('screen');
+                    console.log('Wake Lock активирован');
+                }
+            } catch (err) {
+                console.log('Wake Lock ошибка:', err);
+            }
+        };
+
+        requestWakeLock();
+
+        return () => {
+            if (wakeLock) {
+                wakeLock.release().then(() => {
+                    console.log('Wake Lock отключен');
+                });
+            }
+        };
+    }, []);
+
     // Текущее предложение
     const currentSentence = useMemo(() => {
         return deck.sentences?.find(s => currentTime >= s.start && currentTime <= s.end);
