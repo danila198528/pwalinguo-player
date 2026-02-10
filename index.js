@@ -297,7 +297,12 @@ const Player = ({ deck, audioBlob, onBack }) => {
             });
         } else {
             // Выход из полноэкранного режима
-            document.exitFullscreen();
+            document.exitFullscreen().then(() => {
+                // Принудительно разблокируем ориентацию
+                if (screen.orientation && screen.orientation.unlock) {
+                    screen.orientation.unlock();
+                }
+            });
         }
     };
 
