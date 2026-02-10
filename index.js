@@ -448,11 +448,14 @@ const Player = ({ deck, audioBlob, onBack }) => {
             className: "fixed inset-0 z-50"
         },
             // Верхняя панель (кнопка назад в меню)
-            React.createElement("div", { className: "absolute top-6 left-6" },
+            React.createElement("div", { className: "absolute top-6 left-6 flex items-center gap-3" },
                 React.createElement("button", {
                     onClick: onBack,
                     className: "w-12 h-12 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
-                }, "←")
+                }, "←"),
+                React.createElement("div", { 
+                    className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
+                }, "v2.1 + WakeLock")
             ),
             
             // Центральные контролы

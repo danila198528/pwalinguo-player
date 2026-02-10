@@ -1,4 +1,4 @@
-const CACHE_NAME = 'linguo-v10'; // Увеличиваем версию
+const CACHE_NAME = 'linguo-v13'; // Увеличиваем версию
 const ASSETS = [
   './',
   './index.html',
