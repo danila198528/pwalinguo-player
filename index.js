@@ -317,12 +317,26 @@ const Player = ({ deck, audioBlob, onBack }) => {
             }
         };
 
+        // Обработчик кнопки "Назад" на Android
+        const handleBackButton = (e) => {
+            if (document.fullscreenElement) {
+                e.preventDefault();
+                document.exitFullscreen().then(() => {
+                    if (screen.orientation && screen.orientation.unlock) {
+                        screen.orientation.unlock();
+                    }
+                });
+            }
+        };
+
         document.addEventListener('fullscreenchange', handleFullscreenChange);
         document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+        document.addEventListener('backbutton', handleBackButton);
         
         return () => {
             document.removeEventListener('fullscreenchange', handleFullscreenChange);
             document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
+            document.removeEventListener('backbutton', handleBackButton);
         };
     }, []);
 
