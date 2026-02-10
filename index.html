@@ -2,131 +2,86 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>LinguoPlayer</title>
     
-    <!-- Критические meta-теги для обновления -->
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    
-    <title>LinguoPlayer v1.1</title>
-    
-    <!-- PWA мета-теги -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#ffffff">
     
-    <!-- Manifest с версией -->
-    <link rel="manifest" href="./manifest.json?v=1.1">
-    
-    <!-- Иконка -->
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2903/2903544.png">
+    <link rel="manifest" href="./manifest.json">
     <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/2903/2903544.png">
 
-    <!-- Стили с версией -->
-    <link rel="stylesheet" href="./styles.css?v=1.1">
+    <!-- Наши стили -->
+    <link rel="stylesheet" href="./styles.css">
     
     <style>
-        /* Критические инлайн-стили */
+        /* Дополнительные стили для предотвращения выделения и улучшения PWA */
         * {
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        html {
+            background: #ffffff;
+        }
+        
+        body {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            -webkit-tap-highlight-color: transparent;
-            -webkit-user-select: none;
-            user-select: none;
-        }
-        
-        html, body {
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
             background: #ffffff;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            overflow: hidden;
         }
         
-        #root {
-            width: 100%;
-            height: 100%;
-        }
-        
-        /* Принудительный белый фон */
-        body {
-            background-color: #ffffff !important;
+        /* Для полноэкранного режима PWA */
+        @media (display-mode: standalone) {
+            body {
+                padding-top: env(safe-area-inset-top);
+                padding-bottom: env(safe-area-inset-bottom);
+            }
         }
     </style>
 </head>
 <body>
     <div id="root"></div>
     
-    <!-- JavaScript с версией -->
-    <script type="module" src="./index.js?v=1.1"></script>
+    <!-- Загрузка приложения -->
+    <script type="module" src="./index.js"></script>
 
     <script>
-        // ЯВНАЯ ОЧИСТКА ВСЕХ КЭШЕЙ
-        (function() {
-            console.log('🔄 Начинаем принудительное обновление...');
-            
-            // 1. Удаляем ВСЕ Service Workers
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.getRegistrations().then(function(registrations) {
-                    for(let registration of registrations) {
-                        console.log('🗑️ Удаляем SW:', registration.scope);
-                        registration.unregister();
-                    }
-                });
-            }
-            
-            // 2. Очищаем ВСЕ кэши
-            if ('caches' in window) {
-                caches.keys().then(function(cacheNames) {
-                    cacheNames.forEach(function(cacheName) {
-                        console.log('🗑️ Удаляем кэш:', cacheName);
-                        caches.delete(cacheName);
-                    });
-                });
-            }
-            
-            // 3. Очищаем localStorage и sessionStorage
-            localStorage.clear();
-            sessionStorage.clear();
-            
-            console.log('✅ Все кэши очищены');
-            
-            // 4. Перезагружаем через 1 секунду
-            setTimeout(function() {
-                console.log('🔄 Перезагружаем страницу...');
-                window.location.reload(true); // true = игнорировать кэш
-            }, 1000);
-            
-        })();
-        
-        // Регистрация нового Service Worker ПОСЛЕ очистки
-        setTimeout(function() {
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('./sw.js?v=' + Date.now())
-                    .then(function(registration) {
-                        console.log('✅ Новый SW зарегистрирован:', registration.scope);
-                    })
-                    .catch(function(error) {
-                        console.log('❌ Ошибка SW:', error);
-                    });
-            }
-        }, 2000);
-        
-        // Предотвращаем кэширование fetch запросов
-        if (window.fetch) {
-            const originalFetch = window.fetch;
-            window.fetch = function(...args) {
-                const url = args[0];
-                if (typeof url === 'string' && 
-                    (url.includes('.css') || url.includes('.js') || url.includes('.json'))) {
-                    args[0] = url + (url.includes('?') ? '&' : '?') + '_=' + Date.now();
-                }
-                return originalFetch.apply(this, args);
-            };
+        // Регистрация Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('Service Worker зарегистрирован:', reg.scope))
+                    .catch(err => console.log('Service Worker ошибка:', err.message));
+            });
         }
+        
+        // Предотвращаем контекстное меню
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+        
+        // Предотвращаем масштабирование жестами
+        document.addEventListener('gesturestart', function(e) {
+            e.preventDefault();
+        });
+        
+        // Предотвращаем выделение текста
+        document.addEventListener('selectstart', function(e) {
+            e.preventDefault();
+        });
+        
+        // Принудительный перезапуск аудио при проблемах
+        window.fixAudio = function() {
+            const audio = document.querySelector('audio');
+            if (audio) {
+                audio.load();
+                console.log('Аудио перезагружено');
+            }
+        };
     </script>
 </body>
 </html>

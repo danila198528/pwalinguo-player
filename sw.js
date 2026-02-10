@@ -1,84 +1,90 @@
-const CACHE_NAME = 'linguo-v' + Date.now(); // Уникальное имя КАЖДЫЙ раз
+const CACHE_NAME = 'linguo-v10'; // Увеличиваем версию
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './catalog.json',
+  './catalog.json',      // Новый каталог
   './index.js',
-  './styles.css'
+  './styles.css',
+  // Колоды (добавляйте новые сюда)
+  './decks/deck-8.json',
+  './decks/deck-9.json'
 ];
 
-// ЯВНАЯ очистка старых кэшей
+// Установка
 self.addEventListener('install', (event) => {
-  console.log('🆕 Установка НОВОЙ версии SW:', CACHE_NAME);
-  
-  // 1. Пропускаем ожидание - сразу активируем
-  event.waitUntil(self.skipWaiting());
-  
-  // 2. Удаляем ВСЕ старые кэши
   event.waitUntil(
-    caches.keys().then(cacheNames => {
-      return Promise.all(
-        cacheNames.map(cacheName => {
-          console.log('🗑️ Удаляем старый кэш:', cacheName);
-          return caches.delete(cacheName);
+    caches.open(CACHE_NAME).then((cache) => {
+      console.log('Кэшируем файлы для офлайн-работы');
+      return Promise.allSettled(
+        ASSETS.map(url => {
+          return cache.add(url).catch(err => {
+            console.log('Не удалось закэшировать:', url, err);
+          });
         })
       );
     })
   );
+  self.skipWaiting();
 });
 
-// Немедленная активация
+// Активация
 self.addEventListener('activate', (event) => {
-  console.log('✅ Активация новой версии SW');
   event.waitUntil(
-    Promise.all([
-      // Удаляем ВСЕ старые кэши еще раз (на всякий случай)
-      caches.keys().then(cacheNames => {
-        return Promise.all(
-          cacheNames.map(cacheName => {
-            return caches.delete(cacheName);
+    caches.keys().then((keys) => {
+      return Promise.all(
+        keys.filter(key => key !== CACHE_NAME)
+          .map(key => {
+            console.log('Удаляем старый кэш:', key);
+            return caches.delete(key);
           })
-        );
-      }),
-      // Немедленно берем контроль
-      self.clients.claim()
-    ])
+      );
+    }).then(() => self.clients.claim())
   );
 });
 
-// ВСЕГДА загружаем свежие файлы, НИЧЕГО не кэшируем
+// Перехват запросов
 self.addEventListener('fetch', (event) => {
-  const url = new URL(event.request.url);
-  
-  // Если это наш сайт и не аудиофайл
-  if (url.origin === self.location.origin && 
-      !event.request.url.includes('.mp3') &&
-      !event.request.url.includes('.opus')) {
-    
-    // Создаем запрос с timestamp для предотвращения кэша
-    const freshUrl = event.request.url + 
-      (url.search ? '&' : '?') + 
-      '_nocache=' + Date.now();
-    
-    const freshRequest = new Request(freshUrl, event.request);
-    
-    event.respondWith(
-      fetch(freshRequest)
-        .then(response => {
-          // НИЧЕГО не кэшируем!
-          return response;
-        })
-        .catch(() => {
-          // Только для HTML - минимальный fallback
-          if (event.request.destination === 'document') {
-            return new Response(
-              '<html><body><h1>LinguoPlayer</h1><p>Загрузка...</p></body></html>',
-              { headers: { 'Content-Type': 'text/html' } }
-            );
-          }
-          return null;
-        })
-    );
+  // Пропускаем не-GET запросы и внешние ресурсы
+  if (event.request.method !== 'GET' || 
+      !event.request.url.startsWith(self.location.origin)) {
+    return;
   }
+
+  event.respondWith(
+    caches.match(event.request).then((cachedResponse) => {
+      // Если есть в кэше - возвращаем
+      if (cachedResponse) {
+        return cachedResponse;
+      }
+
+      // Если нет в кэше - загружаем из сети
+      return fetch(event.request).then((networkResponse) => {
+        // Не кэшируем аудио (оно хранится в IndexedDB)
+        if (event.request.url.includes('.mp3') || 
+            event.request.url.includes('.opus') ||
+            event.request.url.includes('audio')) {
+          return networkResponse;
+        }
+
+        // Клонируем для кэширования
+        const responseToCache = networkResponse.clone();
+        
+        // Кэшируем успешные ответы
+        if (networkResponse.status === 200) {
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
+        }
+        
+        return networkResponse;
+      }).catch(() => {
+        // Если сеть недоступна и это HTML - показываем закэшированную страницу
+        if (event.request.destination === 'document') {
+          return caches.match('./index.html');
+        }
+        return null;
+      });
+    })
+  );
 });

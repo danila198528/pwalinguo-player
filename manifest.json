@@ -4,15 +4,35 @@
   "description": "Аудио-плеер для изучения английского с двойными субтитрами",
   "start_url": "./index.html",
   "display": "standalone",
-  "orientation": "any",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "display_override": ["fullscreen", "standalone"],
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "scope": "/",
+  "id": "/",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/2903/2903544.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/540x720/0f172a/3b82f6?text=LinguoPlayer",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["education", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Открыть плеер",
+      "short_name": "Плеер",
+      "description": "Открыть плеер для изучения",
+      "url": "./index.html?player=1"
     }
   ]
 }
