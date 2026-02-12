@@ -24,5 +24,14 @@
     "total_duration": 1998.65,
     "total_sentences": 118,
     "deck_url": "./decks/deck-10.json"
-  }
+  },
+{
+  "id": "deck-13",
+  "deck_name": "collocation2",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation2.mp3",
+  "group": "collocation",
+  "total_duration": 584.86,
+  "total_sentences": 40,
+  "deck_url": "./decks/deck-13.json"
+}
 ]
