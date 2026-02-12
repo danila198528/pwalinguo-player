@@ -238,12 +238,32 @@ const Player = ({ deck, audioBlob, onBack }) => {
     // Wake Lock для предотвращения блокировки экрана
     useEffect(() => {
         let wakeLock = null;
+        let noSleepVideo = null;
 
         const requestWakeLock = async () => {
             try {
                 if ('wakeLock' in navigator) {
                     wakeLock = await navigator.wakeLock.request('screen');
                     console.log('Wake Lock активирован');
+                } else {
+                    // Фоллбек для iOS/Safari - невидимое видео
+                    noSleepVideo = document.createElement('video');
+                    noSleepVideo.setAttribute('muted', '');
+                    noSleepVideo.setAttribute('playsinline', '');
+                    noSleepVideo.setAttribute('loop', '');
+                    noSleepVideo.style.cssText = 'position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none;';
+                    
+                    // Минимальное base64 видео (1 секунда черного экрана)
+                    noSleepVideo.src = 'data:video/mp4;base64,AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAAAIZnJlZQAAAr1tZGF0AAACrgYF//+q3EXpvebZSLeWLNgg2SPu73gyNjQgLSBjb3JlIDE0OCByMjc0MyA1Yzg1ZTBhIC0gSC4yNjQvTVBFRy00IEFWQyBjb2RlYyAtIENvcHlsZWZ0IDIwMDMtMjAxNSAtIGh0dHA6Ly93d3cudmlkZW9sYW4ub3JnL3gyNjQuaHRtbCAtIG9wdGlvbnM6IGNhYmFjPTEgcmVmPTMgZGVibG9jaz0xOjA6MCBhbmFseXNlPTB4MzoweDExMyBtZT1oZXggc3VibWU9NyBwc3k9MSBwc3lfcmQ9MS4wMDowLjAwIG1peGVkX3JlZj0xIG1lX3JhbmdlPTE2IGNocm9tYV9tZT0xIHRyZWxsaXM9MSA4eDhkY3Q9MSBjcW09MCBkZWFkem9uZT0yMSwxMSBmYXN0X3Bza2lwPTEgY2hyb21hX3FwX29mZnNldD0tMiB0aHJlYWRzPTMgbG9va2FoZWFkX3RocmVhZHM9MSBzbGljZWRfdGhyZWFkcz0wIG5yPTAgZGVjaW1hdGU9MSBpbnRlcmxhY2VkPTAgYmx1cmF5X2NvbXBhdD0wIGNvbnN0cmFpbmVkX2ludHJhPTAgYmZyYW1lcz0zIGJfcHlyYW1pZD0yIGJfYWRhcHQ9MSBiX2JpYXM9MCBkaXJlY3Q9MSB3ZWlnaHRiPTEgb3Blbl9nb3A9MCB3ZWlnaHRwPTIga2V5aW50PTI1MCBrZXlpbnRfbWluPTI1IHNjZW5lY3V0PTQwIGludHJhX3JlZnJlc2g9MCByY19sb29rYWhlYWQ9NDAgcmM9Y3JmIG1idHJlZT0xIGNyZj0yMy4wIHFjb21wPTAuNjAgcXBtaW49MCBxcG1heD02OSBxcHN0ZXA9NCBpcF9yYXRpbz0xLjQwIGFxPTE6MS4wMACAAAAA/mWIhAAV//72rvzLK0cLlS4dWXuzUfLoSXL9iDB9aAAAAwAAAwAAFgn0I7DkqgN3QAAAHGAFBCwCAAJbwAB8JhEAAAADAAADAAMAXCEA';
+                    
+                    document.body.appendChild(noSleepVideo);
+                    
+                    try {
+                        await noSleepVideo.play();
+                        console.log('NoSleep видео запущено (iOS фоллбек)');
+                    } catch (err) {
+                        console.log('NoSleep видео ошибка:', err);
+                    }
                 }
             } catch (err) {
                 console.log('Wake Lock ошибка:', err);
@@ -257,6 +277,11 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 wakeLock.release().then(() => {
                     console.log('Wake Lock отключен');
                 });
+            }
+            if (noSleepVideo) {
+                noSleepVideo.pause();
+                noSleepVideo.remove();
+                console.log('NoSleep видео остановлено');
             }
         };
     }, []);
@@ -488,7 +513,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v2.2 + Orientation Fix")
+                }, "v2.3 + iOS NoSleep")
             ),
             
             // Центральные контролы
