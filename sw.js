@@ -1,4 +1,4 @@
-const CACHE_NAME = 'linguo-v13'; // Увеличиваем версию
+const CACHE_NAME = 'linguo-v10'; // Увеличиваем версию
 const ASSETS = [
   './',
   './index.html',
@@ -48,6 +48,36 @@ self.addEventListener('fetch', (event) => {
   // Пропускаем не-GET запросы и внешние ресурсы
   if (event.request.method !== 'GET' || 
       !event.request.url.startsWith(self.location.origin)) {
+    return;
+  }
+
+  // Файлы которые всегда должны обновляться из сети (Network First)
+  const ALWAYS_FRESH = [
+    'catalog.json',   // Список колод
+    'index.js',       // Логика приложения
+    'styles.css',     // Стили
+    'index.html',     // HTML структура
+    '.json'           // Все JSON файлы (включая колоды)
+  ];
+
+  // Network First для критичных файлов - всегда пытаемся получить свежую версию
+  if (ALWAYS_FRESH.some(file => event.request.url.includes(file))) {
+    event.respondWith(
+      fetch(event.request)
+        .then((networkResponse) => {
+          // Обновляем кэш свежей версией
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, networkResponse.clone());
+          });
+          console.log(event.request.url.split('/').pop() + ' обновлен из сети');
+          return networkResponse;
+        })
+        .catch(() => {
+          // Фоллбек на кэш если оффлайн
+          console.log(event.request.url.split('/').pop() + ' загружен из кэша (оффлайн)');
+          return caches.match(event.request);
+        })
+    );
     return;
   }
 

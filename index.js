@@ -87,24 +87,25 @@ const App = () => {
     const [isOffline, setIsOffline] = useState(!navigator.onLine);
     const [isLoading, setIsLoading] = useState(true);
 
-    useEffect(() => {
-        const loadData = async () => {
-            setIsLoading(true);
-            try {
-                const response = await fetch('./catalog.json');
-                if (response.ok) {
-                    const data = await response.json();
-                    setCatalog(Array.isArray(data) ? data : [data]);
-                }
-            } catch (e) {
-                console.error("Catalog load failed", e);
-            } finally {
-                setIsLoading(false);
+    const loadData = async () => {
+        setIsLoading(true);
+        try {
+            // Добавляем cache-busting параметр для принудительного обновления
+            const response = await fetch('./catalog.json?t=' + Date.now());
+            if (response.ok) {
+                const data = await response.json();
+                setCatalog(Array.isArray(data) ? data : [data]);
             }
-            const ids = await getAllStoredIds();
-            setDownloadedIds(ids);
-        };
+        } catch (e) {
+            console.error("Catalog load failed", e);
+        } finally {
+            setIsLoading(false);
+        }
+        const ids = await getAllStoredIds();
+        setDownloadedIds(ids);
+    };
 
+    useEffect(() => {
         loadData();
         const updateOnlineStatus = () => setIsOffline(!navigator.onLine);
         window.addEventListener('online', updateOnlineStatus);
@@ -190,6 +191,11 @@ const App = () => {
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
                 React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v1.0.0 Stable")
             ),
+            React.createElement("button", {
+                onClick: loadData,
+                disabled: isLoading,
+                className: "w-full bg-blue-600 hover:bg-blue-500 px-4 py-3 rounded-xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all mb-4"
+            }, isLoading ? "Обновляем..." : "🔄 Обновить колоды"),
             React.createElement("div", { className: "grid gap-3" }, catalog.map(deckMeta =>
                 React.createElement("div", { key: deckMeta.id, className: "bg-slate-900/50 border border-slate-800 p-4 rounded-2xl flex justify-between items-center" },
                     React.createElement("div", { className: "flex-1 cursor-pointer", onClick: () => handleSelectDeck(deckMeta) },
@@ -225,9 +231,11 @@ const Player = ({ deck, audioBlob, onBack }) => {
     const [isPlaying, setIsPlaying] = useState(false);
     const [showControls, setShowControls] = useState(false);
     const [isFullscreen, setIsFullscreen] = useState(false);
+    const [isStarted, setIsStarted] = useState(false);
     const audioRef = useRef(null);
     const [audioUrl, setAudioUrl] = useState('');
     const controlsTimeout = useRef(null);
+    const noSleepRef = useRef(null);
 
     // Инициализация аудио
     useEffect(() => {
@@ -238,35 +246,15 @@ const Player = ({ deck, audioBlob, onBack }) => {
 
     // Wake Lock для предотвращения блокировки экрана
     useEffect(() => {
-        let wakeLock = null;
-        let noSleep = null;
-
-        const requestWakeLock = async () => {
-            try {
-                if ('wakeLock' in navigator) {
-                    wakeLock = await navigator.wakeLock.request('screen');
-                    console.log('Wake Lock активирован');
-                } else {
-                    // Фоллбек для iOS/Safari - NoSleep.js
-                    noSleep = new NoSleep();
-                    noSleep.enable();
-                    console.log('NoSleep.js активирован (iOS/Safari)');
-                }
-            } catch (err) {
-                console.log('Wake Lock ошибка:', err);
-            }
-        };
-
-        requestWakeLock();
+        // Создаём NoSleep instance для использования позже
+        if (!('wakeLock' in navigator)) {
+            noSleepRef.current = new NoSleep();
+            console.log('NoSleep.js инициализирован (будет активирован при play)');
+        }
 
         return () => {
-            if (wakeLock) {
-                wakeLock.release().then(() => {
-                    console.log('Wake Lock отключен');
-                });
-            }
-            if (noSleep) {
-                noSleep.disable();
+            if (noSleepRef.current) {
+                noSleepRef.current.disable();
                 console.log('NoSleep.js отключен');
             }
         };
@@ -297,6 +285,30 @@ const Player = ({ deck, audioBlob, onBack }) => {
     // Обработчики аудио
     const handleTimeUpdate = () => {
         if (audioRef.current) setCurrentTime(audioRef.current.currentTime);
+    };
+
+    // Функция для кнопки "Начать прослушивание"
+    const handleStart = async () => {
+        // Активируем Wake Lock или NoSleep
+        try {
+            if ('wakeLock' in navigator) {
+                await navigator.wakeLock.request('screen');
+                console.log('Wake Lock активирован');
+            } else if (noSleepRef.current) {
+                noSleepRef.current.enable();
+                console.log('NoSleep.js активирован');
+            }
+        } catch (err) {
+            console.log('Wake Lock ошибка:', err);
+        }
+
+        // Запускаем аудио
+        setIsStarted(true);
+        if (audioRef.current) {
+            audioRef.current.play().catch(err => {
+                console.error('Play error:', err);
+            });
+        }
     };
 
     const togglePlay = () => {
@@ -466,25 +478,34 @@ const Player = ({ deck, audioBlob, onBack }) => {
             onPlay: () => setIsPlaying(true),
             onPause: () => setIsPlaying(false),
             onError: (e) => console.error('Audio error:', e),
-            preload: "auto",
-            autoPlay: true
+            preload: "auto"
         }),
 
         // Основной контент
         React.createElement("div", { className: "flex-1 flex flex-col items-center justify-center p-8 text-center" },
-            // Английский текст
-            React.createElement("div", { 
-                className: "text-5xl md:text-6xl font-normal leading-tight text-black mb-4"
-            }, 
-                currentSentence?.english || deck.deck_name
-            ),
-            
-            // Русский текст
-            React.createElement("div", { 
-                className: "text-2xl md:text-3xl text-gray-600 font-normal leading-relaxed mt-32"
-            }, 
-                currentSentence?.russian || ""
-            )
+            !isStarted ? 
+                // Кнопка "Начать прослушивание"
+                React.createElement("button", {
+                    onClick: handleStart,
+                    className: "w-32 h-32 bg-black text-white rounded-full flex items-center justify-center text-5xl shadow-lg hover:scale-105 active:scale-95 transition-all"
+                }, "▶")
+            :
+                // Субтитры
+                React.createElement(React.Fragment, null,
+                    // Английский текст
+                    React.createElement("div", { 
+                        className: "text-5xl md:text-6xl font-normal leading-tight text-black mb-4"
+                    }, 
+                        currentSentence?.english || deck.deck_name
+                    ),
+                    
+                    // Русский текст
+                    React.createElement("div", { 
+                        className: "text-2xl md:text-3xl text-gray-600 font-normal leading-relaxed mt-32"
+                    }, 
+                        currentSentence?.russian || ""
+                    )
+                )
         ),
 
         // Контролы плеера (появляются при касании)
@@ -499,7 +520,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v2.4 + NoSleep.js")
+                }, "v2.5 + Start Button")
             ),
             
             // Центральные контролы
