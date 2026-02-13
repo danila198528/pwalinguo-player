@@ -86,7 +86,6 @@ const App = () => {
     const [isDownloading, setIsDownloading] = useState(false);
     const [isOffline, setIsOffline] = useState(!navigator.onLine);
     const [isLoading, setIsLoading] = useState(true);
-    const [loadingType, setLoadingType] = useState('catalog'); // 'catalog' или 'app'
     const [expandedGroups, setExpandedGroups] = useState({});
 
     const loadData = async () => {
@@ -108,7 +107,6 @@ const App = () => {
     };
 
     const updateApp = async () => {
-        setLoadingType('app');
         setIsLoading(true);
         try {
             // Очищаем кэш
@@ -222,9 +220,7 @@ const App = () => {
         isLoading ? React.createElement("div", { className: "flex-1 flex items-center justify-center" },
             React.createElement("div", { className: "text-center" },
                 React.createElement("div", { className: "w-14 h-14 border-t-4 border-blue-500 rounded-full animate-spin mb-6 mx-auto" }),
-                React.createElement("p", { className: "font-black text-xl tracking-tight" }, 
-                    loadingType === 'app' ? "ОБНОВЛЯЕМ ПРИЛОЖЕНИЕ" : "ЗАГРУЖАЕМ КАТАЛОГ"
-                ),
+                React.createElement("p", { className: "font-black text-xl tracking-tight" }, "ОБНОВЛЯЕМ"),
                 React.createElement("p", { className: "text-slate-500 text-sm mt-1" }, "Подождите немного...")
             )
         ) : !selectedDeck ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
@@ -298,6 +294,9 @@ const Player = ({ deck, audioBlob, onBack }) => {
     const [showControls, setShowControls] = useState(false);
     const [isFullscreen, setIsFullscreen] = useState(false);
     const [isStarted, setIsStarted] = useState(false);
+    const [showCompletion, setShowCompletion] = useState(false);
+    const [completedFully, setCompletedFully] = useState(true);
+    const [postponeOption, setPostponeOption] = useState('14days');
     const audioRef = useRef(null);
     const [audioUrl, setAudioUrl] = useState('');
     const controlsTimeout = useRef(null);
@@ -453,6 +452,38 @@ const Player = ({ deck, audioBlob, onBack }) => {
         onBack();
     };
 
+    // Обработка завершения просмотра
+    const handleCompletion = async () => {
+        if (completedFully) {
+            // Увеличиваем счётчик просмотров
+            // TODO: Сохранить в IndexedDB view_count + 1
+            
+            // Устанавливаем дату откладывания
+            let postponeDate = null;
+            const now = new Date();
+            
+            if (postponeOption === '14days') {
+                postponeDate = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
+            } else if (postponeOption === 'none') {
+                postponeDate = null;
+            } else if (postponeOption === '2months') {
+                postponeDate = new Date(now.setMonth(now.getMonth() + 2));
+            } else if (postponeOption === '3months') {
+                postponeDate = new Date(now.setMonth(now.getMonth() + 3));
+            }
+            
+            // TODO: Сохранить в IndexedDB postponed_until = postponeDate
+            console.log('Просмотр завершён:', {
+                deckId: deck.id,
+                viewCount: '+1',
+                postponedUntil: postponeDate
+            });
+        }
+        
+        // Возврат на главную
+        onBack();
+    };
+
     // Слушатель полноэкранного режима
     useEffect(() => {
         const handleFullscreenChange = () => {
@@ -543,6 +574,20 @@ const Player = ({ deck, audioBlob, onBack }) => {
             onTimeUpdate: handleTimeUpdate,
             onPlay: () => setIsPlaying(true),
             onPause: () => setIsPlaying(false),
+            onEnded: () => {
+                // Выход из fullscreen
+                if (document.fullscreenElement) {
+                    document.exitFullscreen().catch(() => {});
+                }
+                // Разблокировка ориентации
+                if (screen.orientation?.unlock) {
+                    try {
+                        screen.orientation.unlock();
+                    } catch (e) {}
+                }
+                // Показываем экран завершения
+                setShowCompletion(true);
+            },
             onError: (e) => console.error('Audio error:', e),
             preload: "auto"
         }),
@@ -578,8 +623,36 @@ const Player = ({ deck, audioBlob, onBack }) => {
         showControls && React.createElement("div", { 
             className: "fixed inset-0 z-50"
         },
+            // Прогресс-бар вверху + время
+            React.createElement("div", { className: "absolute top-0 left-0 right-0" },
+                // Прогресс-бар
+                React.createElement("div", {
+                    className: "w-full h-1 bg-white/30 cursor-pointer",
+                    onClick: (e) => {
+                        if (!audioRef.current) return;
+                        const rect = e.currentTarget.getBoundingClientRect();
+                        const pos = (e.clientX - rect.left) / rect.width;
+                        audioRef.current.currentTime = pos * audioRef.current.duration;
+                    }
+                },
+                    React.createElement("div", {
+                        className: "h-full bg-blue-500 transition-all duration-100",
+                        style: { width: `${(currentTime / (audioRef.current?.duration || 1)) * 100}%` }
+                    })
+                ),
+                // Время
+                React.createElement("div", { className: "flex justify-between px-4 py-2 text-white text-sm font-bold bg-gradient-to-b from-black/50 to-transparent" },
+                    React.createElement("span", null, 
+                        Math.floor(currentTime / 60) + ":" + String(Math.floor(currentTime % 60)).padStart(2, '0')
+                    ),
+                    React.createElement("span", null,
+                        Math.floor((audioRef.current?.duration || 0) / 60) + ":" + String(Math.floor((audioRef.current?.duration || 0) % 60)).padStart(2, '0')
+                    )
+                )
+            ),
+
             // Верхняя панель (кнопка назад в меню)
-            React.createElement("div", { className: "absolute top-6 left-6 flex items-center gap-3" },
+            React.createElement("div", { className: "absolute top-14 left-6 flex items-center gap-3" },
                 React.createElement("button", {
                     onClick: handleBack,
                     className: "w-12 h-12 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
@@ -608,6 +681,91 @@ const Player = ({ deck, audioBlob, onBack }) => {
                     onClick: toggleFullscreen,
                     className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
                 }, isFullscreen ? '⤢' : '⤡')
+            )
+        ),
+
+        // Экран завершения просмотра
+        showCompletion && React.createElement("div", {
+            className: "fixed inset-0 bg-white z-[100] flex items-center justify-center p-6"
+        },
+            React.createElement("div", { className: "w-full max-w-md" },
+                React.createElement("h2", { className: "text-3xl font-black text-center mb-8" }, "🎉 Колода завершена!"),
+                
+                // Просмотрена полностью?
+                React.createElement("div", { className: "mb-6" },
+                    React.createElement("p", { className: "text-lg font-bold mb-3 text-black" }, "Просмотрена полностью?"),
+                    React.createElement("div", { className: "flex gap-4" },
+                        React.createElement("button", {
+                            onClick: () => setCompletedFully(true),
+                            className: `flex-1 py-3 px-4 rounded-xl font-bold transition-all ${
+                                completedFully 
+                                    ? 'bg-blue-600 text-white' 
+                                    : 'bg-slate-200 text-slate-700'
+                            }`
+                        }, "Да"),
+                        React.createElement("button", {
+                            onClick: () => setCompletedFully(false),
+                            className: `flex-1 py-3 px-4 rounded-xl font-bold transition-all ${
+                                !completedFully 
+                                    ? 'bg-blue-600 text-white' 
+                                    : 'bg-slate-200 text-slate-700'
+                            }`
+                        }, "Нет")
+                    )
+                ),
+
+                // Отложить на
+                React.createElement("div", { className: "mb-6" },
+                    React.createElement("p", { className: "text-lg font-bold mb-3 text-black" }, "Отложить на:"),
+                    React.createElement("div", { className: "grid gap-2" },
+                        React.createElement("button", {
+                            onClick: () => setPostponeOption('14days'),
+                            className: `py-3 px-4 rounded-xl font-bold text-left transition-all ${
+                                postponeOption === '14days'
+                                    ? 'bg-blue-600 text-white'
+                                    : 'bg-slate-200 text-slate-700'
+                            }`
+                        }, "14 дней ★ (рекомендуем)"),
+                        React.createElement("button", {
+                            onClick: () => setPostponeOption('none'),
+                            className: `py-3 px-4 rounded-xl font-bold text-left transition-all ${
+                                postponeOption === 'none'
+                                    ? 'bg-blue-600 text-white'
+                                    : 'bg-slate-200 text-slate-700'
+                            }`
+                        }, "Без даты"),
+                        React.createElement("button", {
+                            onClick: () => setPostponeOption('2months'),
+                            className: `py-3 px-4 rounded-xl font-bold text-left transition-all ${
+                                postponeOption === '2months'
+                                    ? 'bg-blue-600 text-white'
+                                    : 'bg-slate-200 text-slate-700'
+                            }`
+                        }, "2 месяца"),
+                        React.createElement("button", {
+                            onClick: () => setPostponeOption('3months'),
+                            className: `py-3 px-4 rounded-xl font-bold text-left transition-all ${
+                                postponeOption === '3months'
+                                    ? 'bg-blue-600 text-white'
+                                    : 'bg-slate-200 text-slate-700'
+                            }`
+                        }, "3 месяца"),
+                        React.createElement("button", {
+                            onClick: () => setPostponeOption('custom'),
+                            className: `py-3 px-4 rounded-xl font-bold text-left transition-all ${
+                                postponeOption === 'custom'
+                                    ? 'bg-blue-600 text-white'
+                                    : 'bg-slate-200 text-slate-700'
+                            }`
+                        }, "📅 Точная дата")
+                    )
+                ),
+
+                // Кнопка ГОТОВО
+                React.createElement("button", {
+                    onClick: handleCompletion,
+                    className: "w-full bg-black text-white py-4 px-6 rounded-xl font-black text-lg active:scale-95 transition-all"
+                }, "ГОТОВО")
             )
         )
     );
