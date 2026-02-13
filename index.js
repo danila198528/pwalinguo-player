@@ -659,7 +659,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v2.5 + Start Button")
+                }, "v2.6 + Progress Bar")
             ),
             
             // Центральные контролы
