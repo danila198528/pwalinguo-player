@@ -86,6 +86,7 @@ const App = () => {
     const [isDownloading, setIsDownloading] = useState(false);
     const [isOffline, setIsOffline] = useState(!navigator.onLine);
     const [isLoading, setIsLoading] = useState(true);
+    const [loadingType, setLoadingType] = useState('catalog'); // 'catalog' или 'app'
     const [expandedGroups, setExpandedGroups] = useState({});
 
     const loadData = async () => {
@@ -107,6 +108,7 @@ const App = () => {
     };
 
     const updateApp = async () => {
+        setLoadingType('app');
         setIsLoading(true);
         try {
             // Очищаем кэш
@@ -115,7 +117,7 @@ const App = () => {
             console.log('Кэш очищен');
             
             // Перезагружаем страницу для получения свежих файлов
-            window.location.reload();
+            window.location.reload(true);
         } catch (e) {
             console.error("App update failed", e);
             setIsLoading(false);
@@ -220,7 +222,9 @@ const App = () => {
         isLoading ? React.createElement("div", { className: "flex-1 flex items-center justify-center" },
             React.createElement("div", { className: "text-center" },
                 React.createElement("div", { className: "w-14 h-14 border-t-4 border-blue-500 rounded-full animate-spin mb-6 mx-auto" }),
-                React.createElement("p", { className: "font-black text-xl tracking-tight" }, "ЗАГРУЖАЕМ КАТАЛОГ"),
+                React.createElement("p", { className: "font-black text-xl tracking-tight" }, 
+                    loadingType === 'app' ? "ОБНОВЛЯЕМ ПРИЛОЖЕНИЕ" : "ЗАГРУЖАЕМ КАТАЛОГ"
+                ),
                 React.createElement("p", { className: "text-slate-500 text-sm mt-1" }, "Подождите немного...")
             )
         ) : !selectedDeck ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
