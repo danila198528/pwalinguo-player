@@ -86,6 +86,7 @@ const App = () => {
     const [isDownloading, setIsDownloading] = useState(false);
     const [isOffline, setIsOffline] = useState(!navigator.onLine);
     const [isLoading, setIsLoading] = useState(true);
+    const [expandedGroups, setExpandedGroups] = useState({});
 
     const loadData = async () => {
         setIsLoading(true);
@@ -193,6 +194,26 @@ const App = () => {
         }
     };
 
+    // Группировка колод
+    const groupedDecks = useMemo(() => {
+        const groups = {};
+        catalog.forEach(deck => {
+            const groupName = deck.group || 'Без группы';
+            if (!groups[groupName]) {
+                groups[groupName] = [];
+            }
+            groups[groupName].push(deck);
+        });
+        return groups;
+    }, [catalog]);
+
+    const toggleGroup = (groupName) => {
+        setExpandedGroups(prev => ({
+            ...prev,
+            [groupName]: !prev[groupName]
+        }));
+    };
+
     return React.createElement("div", { className: "h-full w-full bg-slate-950 text-slate-100 flex flex-col" },
         isOffline && React.createElement("div", { className: "bg-red-900/80 text-10 text-center py-1 font-black uppercase z-50" }, "Офлайн"),
         
@@ -217,26 +238,46 @@ const App = () => {
                 disabled: isLoading,
                 className: "w-full bg-slate-700 hover:bg-slate-600 px-4 py-3 rounded-xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all mb-4"
             }, "🔄 Обновить приложение"),
-            React.createElement("div", { className: "grid gap-3" }, catalog.map(deckMeta =>
-                React.createElement("div", { key: deckMeta.id, className: "bg-slate-900/50 border border-slate-800 p-4 rounded-2xl flex justify-between items-center" },
-                    React.createElement("div", { className: "flex-1 cursor-pointer", onClick: () => handleSelectDeck(deckMeta) },
-                        React.createElement("h3", { className: "font-bold text-slate-200" }, deckMeta.deck_name),
-                        React.createElement("div", { className: "flex gap-3 mt-2" },
-                            React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, deckMeta.total_sentences + " фразы"),
-                            React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, "~" + (deckMeta.total_duration / 60).toFixed(0) + " мин")
+            React.createElement("div", { className: "grid gap-3" }, 
+                Object.keys(groupedDecks).map(groupName =>
+                    React.createElement("div", { key: groupName, className: "bg-slate-900/30 border border-slate-800 rounded-2xl overflow-hidden" },
+                        // Заголовок группы
+                        React.createElement("button", {
+                            onClick: () => toggleGroup(groupName),
+                            className: "w-full flex items-center justify-between p-4 bg-slate-900/50 hover:bg-slate-900/70 active:scale-[0.99] transition-all"
+                        },
+                            React.createElement("div", { className: "flex items-center gap-3" },
+                                React.createElement("span", { className: "text-2xl" }, expandedGroups[groupName] ? "▼" : "▶"),
+                                React.createElement("span", { className: "font-black text-slate-200 uppercase tracking-tight" }, groupName),
+                                React.createElement("span", { className: "text-xs text-slate-500 bg-slate-800 px-2 py-0.5 rounded font-bold" }, groupedDecks[groupName].length)
+                            )
+                        ),
+                        // Список колод в группе
+                        expandedGroups[groupName] && React.createElement("div", { className: "grid gap-2 p-2" },
+                            groupedDecks[groupName].map(deckMeta =>
+                                React.createElement("div", { key: deckMeta.id, className: "bg-slate-900/50 border border-slate-800 p-4 rounded-xl flex justify-between items-center" },
+                                    React.createElement("div", { className: "flex-1 cursor-pointer", onClick: () => handleSelectDeck(deckMeta) },
+                                        React.createElement("h3", { className: "font-bold text-slate-200" }, deckMeta.deck_name),
+                                        React.createElement("div", { className: "flex gap-3 mt-2" },
+                                            React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, deckMeta.total_sentences + " фразы"),
+                                            React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, "~" + (deckMeta.total_duration / 60).toFixed(0) + " мин")
+                                        )
+                                    ),
+                                    React.createElement("div", { className: "ml-4" },
+                                        downloadedIds.includes(deckMeta.id) ?
+                                            React.createElement("button", { onClick: () => handleDelete(deckMeta.id), className: "w-10 h-10 flex items-center justify-center bg-slate-800 rounded-full text-lg active:scale-90 transition-transform" }, "🗑️") :
+                                            React.createElement("button", {
+                                                disabled: isDownloading || isOffline,
+                                                onClick: () => handleDownload(deckMeta),
+                                                className: "bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-xl text-10 font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
+                                            }, isDownloading ? '...' : 'Скачать')
+                                    )
+                                )
+                            )
                         )
-                    ),
-                    React.createElement("div", { className: "ml-4" },
-                        downloadedIds.includes(deckMeta.id) ?
-                            React.createElement("button", { onClick: () => handleDelete(deckMeta.id), className: "w-10 h-10 flex items-center justify-center bg-slate-800 rounded-full text-lg active:scale-90 transition-transform" }, "🗑️") :
-                            React.createElement("button", {
-                                disabled: isDownloading || isOffline,
-                                onClick: () => handleDownload(deckMeta),
-                                className: "bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-xl text-10 font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
-                            }, isDownloading ? '...' : 'Скачать')
                     )
                 )
-            ))
+            )
         ) : React.createElement(Player, { deck: selectedDeck, audioBlob: activeAudioBlob, onBack: () => setSelectedDeck(null) }),
         
         isDownloading && React.createElement("div", { className: "fixed inset-0 bg-slate-950/90 flex flex-col items-center justify-center z-100 backdrop-blur-md" },
