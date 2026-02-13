@@ -105,6 +105,22 @@ const App = () => {
         setDownloadedIds(ids);
     };
 
+    const updateApp = async () => {
+        setIsLoading(true);
+        try {
+            // Очищаем кэш
+            const cacheNames = await caches.keys();
+            await Promise.all(cacheNames.map(name => caches.delete(name)));
+            console.log('Кэш очищен');
+            
+            // Перезагружаем страницу для получения свежих файлов
+            window.location.reload();
+        } catch (e) {
+            console.error("App update failed", e);
+            setIsLoading(false);
+        }
+    };
+
     useEffect(() => {
         loadData();
         const updateOnlineStatus = () => setIsOffline(!navigator.onLine);
@@ -194,8 +210,13 @@ const App = () => {
             React.createElement("button", {
                 onClick: loadData,
                 disabled: isLoading,
-                className: "w-full bg-blue-600 hover:bg-blue-500 px-4 py-3 rounded-xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all mb-4"
+                className: "w-full bg-blue-600 hover:bg-blue-500 px-4 py-3 rounded-xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all mb-2"
             }, isLoading ? "Обновляем..." : "🔄 Обновить колоды"),
+            React.createElement("button", {
+                onClick: updateApp,
+                disabled: isLoading,
+                className: "w-full bg-slate-700 hover:bg-slate-600 px-4 py-3 rounded-xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all mb-4"
+            }, "🔄 Обновить приложение"),
             React.createElement("div", { className: "grid gap-3" }, catalog.map(deckMeta =>
                 React.createElement("div", { key: deckMeta.id, className: "bg-slate-900/50 border border-slate-800 p-4 rounded-2xl flex justify-between items-center" },
                     React.createElement("div", { className: "flex-1 cursor-pointer", onClick: () => handleSelectDeck(deckMeta) },
