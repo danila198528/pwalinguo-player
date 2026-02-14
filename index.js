@@ -6,11 +6,14 @@ import NoSleep from 'https://esm.sh/nosleep.js@0.12.0';
 // --- IndexedDB функции ---
 const openDB = () => {
     return new Promise((resolve, reject) => {
-        const request = indexedDB.open('LinguoDB_v3', 1);
+        const request = indexedDB.open('LinguoDB_v4', 1); // Увеличиваем версию
         request.onupgradeneeded = (event) => {
             const db = event.target.result;
             if (!db.objectStoreNames.contains('decks')) {
                 db.createObjectStore('decks', { keyPath: 'id' });
+            }
+            if (!db.objectStoreNames.contains('deck_meta')) {
+                db.createObjectStore('deck_meta', { keyPath: 'deckId' });
             }
         };
         request.onsuccess = () => resolve(request.result);
@@ -55,6 +58,49 @@ const getAllStoredIds = async () => {
         const request = transaction.objectStore('decks').getAllKeys();
         request.onsuccess = () => resolve(request.result);
         request.onerror = () => resolve([]);
+    });
+};
+
+// --- Функции для метаданных колод ---
+const saveDeckMeta = async (deckId, metaData) => {
+    const db = await openDB();
+    return new Promise((resolve, reject) => {
+        const transaction = db.transaction('deck_meta', 'readwrite');
+        const data = {
+            deckId: deckId,
+            view_count: metaData.view_count || 0,
+            postponed_until: metaData.postponed_until || null,
+            last_viewed: metaData.last_viewed || null
+        };
+        transaction.objectStore('deck_meta').put(data);
+        transaction.oncomplete = () => {
+            console.log('Метаданные сохранены:', data);
+            resolve(data);
+        };
+        transaction.onerror = () => reject(transaction.error);
+    });
+};
+
+const getDeckMeta = async (deckId) => {
+    const db = await openDB();
+    return new Promise((resolve) => {
+        const transaction = db.transaction('deck_meta', 'readonly');
+        const request = transaction.objectStore('deck_meta').get(deckId);
+        request.onsuccess = () => {
+            const result = request.result || {
+                deckId: deckId,
+                view_count: 0,
+                postponed_until: null,
+                last_viewed: null
+            };
+            resolve(result);
+        };
+        request.onerror = () => resolve({
+            deckId: deckId,
+            view_count: 0,
+            postponed_until: null,
+            last_viewed: null
+        });
     });
 };
 
@@ -305,11 +351,72 @@ const App = () => {
 
 // Страница колоды
 const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostponeOption }) => {
-    const handleChangeDate = () => {
-        // TODO: Сохранить дату откладывания в IndexedDB
-        console.log('Изменить дату:', { deckId: deckMeta.id, postponeOption });
-        alert('Дата изменена! (TODO: сохранение в IndexedDB)');
+    const [meta, setMeta] = useState(null);
+
+    // Загружаем метаданные при открытии страницы
+    useEffect(() => {
+        const loadMeta = async () => {
+            const data = await getDeckMeta(deckMeta.id);
+            setMeta(data);
+        };
+        loadMeta();
+    }, [deckMeta.id]);
+
+    const handleChangeDate = async () => {
+        // Рассчитываем новую дату
+        let postponeDate = null;
+        const now = new Date();
+        
+        if (postponeOption === '14days') {
+            postponeDate = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000).toISOString();
+        } else if (postponeOption === 'none') {
+            postponeDate = null;
+        } else if (postponeOption === '2months') {
+            const newDate = new Date(now);
+            newDate.setMonth(newDate.getMonth() + 2);
+            postponeDate = newDate.toISOString();
+        } else if (postponeOption === '3months') {
+            const newDate = new Date(now);
+            newDate.setMonth(newDate.getMonth() + 3);
+            postponeDate = newDate.toISOString();
+        }
+        
+        // Сохраняем (не меняем view_count)
+        await saveDeckMeta(deckMeta.id, {
+            view_count: meta?.view_count || 0,
+            postponed_until: postponeDate,
+            last_viewed: meta?.last_viewed
+        });
+        
+        // Обновляем отображение
+        const updatedMeta = await getDeckMeta(deckMeta.id);
+        setMeta(updatedMeta);
     };
+
+    // Функция для форматирования даты
+    const formatDate = (isoString) => {
+        if (!isoString) return '—';
+        const date = new Date(isoString);
+        const months = ['янв', 'фев', 'мар', 'апр', 'мая', 'июн', 'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'];
+        return `${date.getDate()} ${months[date.getMonth()]}`;
+    };
+
+    // Функция для расчёта оставшихся дней
+    const getDaysLeft = (isoString) => {
+        if (!isoString) return null;
+        const target = new Date(isoString);
+        const now = new Date();
+        const diff = Math.ceil((target - now) / (1000 * 60 * 60 * 24));
+        return diff;
+    };
+
+    if (!meta) {
+        return React.createElement("div", { className: "fixed inset-0 bg-white flex items-center justify-center" },
+            React.createElement("p", null, "Загрузка...")
+        );
+    }
+
+    const daysLeft = getDaysLeft(meta.postponed_until);
 
     return React.createElement("div", { className: "fixed inset-0 bg-white flex flex-col z-60 overflow-y-auto" },
         // Хедер с кнопкой назад
@@ -336,9 +443,16 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
             React.createElement("div", null,
                 React.createElement("h2", { className: "text-lg font-black mb-3 text-black" }, "📊 Статистика"),
                 React.createElement("div", { className: "space-y-2 text-sm text-black" },
-                    React.createElement("div", null, "👁️ Просмотров: ", React.createElement("span", { className: "font-bold" }, "0")),
-                    React.createElement("div", null, "📅 Дата след. просмотра: ", React.createElement("span", { className: "font-bold" }, "—")),
-                    React.createElement("div", null, "⏰ Не отложена")
+                    React.createElement("div", null, "👁️ Просмотров: ", React.createElement("span", { className: "font-bold" }, meta.view_count)),
+                    React.createElement("div", null, "📅 Дата след. просмотра: ", React.createElement("span", { className: "font-bold" }, formatDate(meta.postponed_until))),
+                    React.createElement("div", null, 
+                        daysLeft !== null 
+                            ? (daysLeft > 0 
+                                ? `⏰ Осталось: ${daysLeft} ${daysLeft === 1 ? 'день' : daysLeft < 5 ? 'дня' : 'дней'}`
+                                : "⏰ Уже доступна"
+                              )
+                            : "⏰ Не отложена"
+                    )
                 )
             ),
 
@@ -562,29 +676,35 @@ const Player = ({ deck, audioBlob, onBack }) => {
     // Обработка завершения просмотра
     const handleCompletion = async () => {
         if (completedFully) {
-            // Увеличиваем счётчик просмотров
-            // TODO: Сохранить в IndexedDB view_count + 1
+            // Получаем текущие метаданные
+            const currentMeta = await getDeckMeta(deck.id);
             
             // Устанавливаем дату откладывания
             let postponeDate = null;
             const now = new Date();
             
             if (postponeOption === '14days') {
-                postponeDate = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
+                postponeDate = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000).toISOString();
             } else if (postponeOption === 'none') {
                 postponeDate = null;
             } else if (postponeOption === '2months') {
-                postponeDate = new Date(now.setMonth(now.getMonth() + 2));
+                const newDate = new Date(now);
+                newDate.setMonth(newDate.getMonth() + 2);
+                postponeDate = newDate.toISOString();
             } else if (postponeOption === '3months') {
-                postponeDate = new Date(now.setMonth(now.getMonth() + 3));
+                const newDate = new Date(now);
+                newDate.setMonth(newDate.getMonth() + 3);
+                postponeDate = newDate.toISOString();
             }
             
-            // TODO: Сохранить в IndexedDB postponed_until = postponeDate
-            console.log('Просмотр завершён:', {
-                deckId: deck.id,
-                viewCount: '+1',
-                postponedUntil: postponeDate
+            // Сохраняем обновлённые метаданные
+            await saveDeckMeta(deck.id, {
+                view_count: currentMeta.view_count + 1,
+                postponed_until: postponeDate,
+                last_viewed: new Date().toISOString()
             });
+            
+            console.log('Просмотр завершён и сохранён');
         }
         
         // Возврат на главную
@@ -743,7 +863,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v4.4 + NoSleep Fix")
+                }, "v5.0 + Storage")
             ),
             
             // Центральные контролы с прогресс-баром
