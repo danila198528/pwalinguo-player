@@ -632,16 +632,16 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v3.1 + Unified")
+                }, "v3.2 + TEST MODE")
             ),
             
             // Центральные контролы с прогресс-баром
             React.createElement("div", { className: "absolute bottom-6 left-0 right-0 flex flex-col items-center gap-4 px-4" },
                 // Прогресс-бар + время
                 React.createElement("div", { className: "w-full flex flex-col gap-2" },
-                    // Прогресс-бар
+                    // Прогресс-бар - ТЕСТОВЫЙ РЕЖИМ
                     React.createElement("div", {
-                        className: "w-full h-1 bg-white/30 rounded-full cursor-pointer",
+                        className: "w-full h-8 bg-red-500 rounded-lg cursor-pointer",
                         onClick: (e) => {
                             e.stopPropagation();
                             if (!audioRef.current) return;
@@ -651,16 +651,12 @@ const Player = ({ deck, audioBlob, onBack }) => {
                         }
                     },
                         React.createElement("div", {
-                            className: "h-full bg-white rounded-full",
-                            style: { 
-                                width: `${
-                                    (currentTime / (Number.isFinite(audioRef.current?.duration) ? audioRef.current.duration : 1)) * 100
-                                }%` 
-                            }
+                            className: "h-full bg-yellow-500 rounded-lg",
+                            style: { width: '50%' }  // ФИКСИРОВАННЫЙ 50% ДЛЯ ТЕСТА
                         })
                     ),
                     // Время
-                    React.createElement("div", { className: "flex justify-between text-white text-xs font-bold" },
+                    React.createElement("div", { className: "flex justify-between text-white text-sm font-bold" },
                         React.createElement("span", null, 
                             Math.floor(currentTime / 60) + ":" + String(Math.floor(currentTime % 60)).padStart(2, '0')
                         ),
