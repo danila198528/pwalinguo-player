@@ -340,12 +340,8 @@ const App = () => {
             }
         });
         
-        // Добавляем группу "Out of date" в начало если есть истёкшие
-        if (outOfDate.length > 0) {
-            return { 'Out of date': outOfDate, ...groups };
-        }
-        
-        return groups;
+        // Всегда добавляем группу "Out of date" первой (даже если пустая)
+        return { 'Out of date': outOfDate, ...groups };
     }, [catalog, allMeta]);
 
     const toggleGroup = (groupName) => {
@@ -430,6 +426,7 @@ const App = () => {
 // Страница колоды
 const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostponeOption }) => {
     const [meta, setMeta] = useState(null);
+    const [customDate, setCustomDate] = useState('');
 
     // Загружаем метаданные при открытии страницы
     useEffect(() => {
@@ -457,6 +454,8 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
             const newDate = new Date(now);
             newDate.setMonth(newDate.getMonth() + 3);
             postponeDate = newDate.toISOString();
+        } else if (postponeOption === 'custom' && customDate) {
+            postponeDate = new Date(customDate).toISOString();
         }
         
         // Сохраняем (не меняем view_count)
@@ -580,7 +579,16 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
                                 ? 'bg-blue-600 text-white'
                                 : 'bg-gray-100 text-black'
                         }`
-                    }, "📅 Точная дата")
+                    }, "📅 Точная дата"),
+                    
+                    // Date picker если выбрана точная дата
+                    postponeOption === 'custom' && React.createElement("input", {
+                        type: "date",
+                        value: customDate,
+                        onChange: (e) => setCustomDate(e.target.value),
+                        min: new Date().toISOString().split('T')[0],
+                        className: "py-3 px-4 rounded-xl border-2 border-blue-600 font-bold"
+                    })
                 )
             ),
 
@@ -605,6 +613,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
     const [showCompletion, setShowCompletion] = useState(false);
     const [completedFully, setCompletedFully] = useState(true);
     const [postponeOption, setPostponeOption] = useState('14days');
+    const [customDate, setCustomDate] = useState('');
     const audioRef = useRef(null);
     const [audioUrl, setAudioUrl] = useState('');
     const controlsTimeout = useRef(null);
@@ -773,6 +782,8 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 const newDate = new Date(now);
                 newDate.setMonth(newDate.getMonth() + 3);
                 postponeDate = newDate.toISOString();
+            } else if (postponeOption === 'custom' && customDate) {
+                postponeDate = new Date(customDate).toISOString();
             }
             
             // Сохраняем обновлённые метаданные
@@ -941,7 +952,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v5.1 + Out of Date")
+                }, "v5.2 + DatePicker")
             ),
             
             // Центральные контролы с прогресс-баром
@@ -1073,7 +1084,16 @@ const Player = ({ deck, audioBlob, onBack }) => {
                                     ? 'bg-blue-600 text-white'
                                     : 'bg-slate-200 text-slate-700'
                             }`
-                        }, "📅 Точная дата")
+                        }, "📅 Точная дата"),
+                        
+                        // Date picker если выбрана точная дата
+                        postponeOption === 'custom' && React.createElement("input", {
+                            type: "date",
+                            value: customDate,
+                            onChange: (e) => setCustomDate(e.target.value),
+                            min: new Date().toISOString().split('T')[0],
+                            className: "py-3 px-4 rounded-xl border-2 border-blue-600 font-bold"
+                        })
                     )
                 ),
 
