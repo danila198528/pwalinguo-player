@@ -624,10 +624,10 @@ const Player = ({ deck, audioBlob, onBack }) => {
             className: "fixed inset-0 z-50"
         },
             // Прогресс-бар вверху + время
-            React.createElement("div", { className: "absolute top-0 left-0 right-0 bg-black/50" },
+            React.createElement("div", { className: "absolute top-0 left-0 right-0 bg-black" },
                 // Прогресс-бар
                 React.createElement("div", {
-                    className: "w-full h-2 bg-gray-600 cursor-pointer",
+                    className: "w-full h-8 bg-red-900 cursor-pointer",
                     onClick: (e) => {
                         if (!audioRef.current) return;
                         const rect = e.currentTarget.getBoundingClientRect();
@@ -636,8 +636,12 @@ const Player = ({ deck, audioBlob, onBack }) => {
                     }
                 },
                     React.createElement("div", {
-                        className: "h-full bg-blue-500",
-                        style: { width: `${(currentTime / (audioRef.current?.duration || 1)) * 100}%` }
+                        className: "h-full bg-green-500",
+                        style: { 
+                            width: `${
+                                (currentTime / (Number.isFinite(audioRef.current?.duration) ? audioRef.current.duration : 1)) * 100
+                            }%` 
+                        }
                     })
                 ),
                 // Время
@@ -659,7 +663,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v2.8 + Fixed Bar")
+                }, "v2.9 + Debug Bar")
             ),
             
             // Центральные контролы
