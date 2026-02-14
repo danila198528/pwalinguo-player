@@ -334,8 +334,8 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
 
             // Статистика
             React.createElement("div", null,
-                React.createElement("h2", { className: "text-lg font-black mb-3" }, "📊 Статистика"),
-                React.createElement("div", { className: "space-y-2 text-sm" },
+                React.createElement("h2", { className: "text-lg font-black mb-3 text-black" }, "📊 Статистика"),
+                React.createElement("div", { className: "space-y-2 text-sm text-black" },
                     React.createElement("div", null, "👁️ Просмотров: ", React.createElement("span", { className: "font-bold" }, "0")),
                     React.createElement("div", null, "📅 Дата след. просмотра: ", React.createElement("span", { className: "font-bold" }, "—")),
                     React.createElement("div", null, "⏰ Не отложена")
@@ -347,7 +347,7 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
 
             // Отложить на
             React.createElement("div", null,
-                React.createElement("h2", { className: "text-lg font-black mb-3" }, "Отложить на:"),
+                React.createElement("h2", { className: "text-lg font-black mb-3 text-black" }, "Отложить на:"),
                 React.createElement("div", { className: "grid gap-2" },
                     React.createElement("button", {
                         onClick: () => setPostponeOption('14days'),
@@ -745,7 +745,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v4.1 + Fixed Click")
+                }, "v4.2 + Text Fix")
             ),
             
             // Центральные контролы с прогресс-баром
