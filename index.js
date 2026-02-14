@@ -621,7 +621,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
 
         // Контролы плеера (появляются при касании)
         showControls && React.createElement("div", {
-            className: "fixed inset-0 z-50"
+            className: "fixed inset-0 z-[70]"
         },
 
             // Верхняя панель (кнопка назад в меню)
@@ -632,7 +632,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v3.2 + TEST MODE")
+                }, "v3.3 + Z-FIX")
             ),
             
             // Центральные контролы с прогресс-баром
