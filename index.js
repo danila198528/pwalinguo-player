@@ -620,14 +620,14 @@ const Player = ({ deck, audioBlob, onBack }) => {
         ),
 
         // Контролы плеера (появляются при касании)
-        showControls && React.createElement("div", { 
+        showControls && React.createElement("div", {
             className: "fixed inset-0 z-50"
         },
             // Прогресс-бар вверху + время
-            React.createElement("div", { className: "absolute top-0 left-0 right-0" },
+            React.createElement("div", { className: "absolute top-0 left-0 right-0 bg-black/50" },
                 // Прогресс-бар
                 React.createElement("div", {
-                    className: "w-full h-1 bg-white/30 cursor-pointer",
+                    className: "w-full h-2 bg-gray-600 cursor-pointer",
                     onClick: (e) => {
                         if (!audioRef.current) return;
                         const rect = e.currentTarget.getBoundingClientRect();
@@ -636,12 +636,12 @@ const Player = ({ deck, audioBlob, onBack }) => {
                     }
                 },
                     React.createElement("div", {
-                        className: "h-full bg-blue-500 transition-all duration-100",
+                        className: "h-full bg-blue-500",
                         style: { width: `${(currentTime / (audioRef.current?.duration || 1)) * 100}%` }
                     })
                 ),
                 // Время
-                React.createElement("div", { className: "flex justify-between px-4 py-2 text-white text-sm font-bold bg-gradient-to-b from-black/50 to-transparent" },
+                React.createElement("div", { className: "flex justify-between px-4 py-2 text-white text-sm font-bold" },
                     React.createElement("span", null, 
                         Math.floor(currentTime / 60) + ":" + String(Math.floor(currentTime % 60)).padStart(2, '0')
                     ),
@@ -659,7 +659,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v2.6 + Progress Bar")
+                }, "v2.8 + Fixed Bar")
             ),
             
             // Центральные контролы
