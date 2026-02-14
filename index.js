@@ -632,63 +632,66 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v3.0 + YouTube Style")
+                }, "v3.1 + Unified")
             ),
             
-            // Прогресс-бар над кнопками (как в YouTube)
-            React.createElement("div", { className: "absolute bottom-24 left-4 right-4 flex flex-col gap-2" },
-                // Прогресс-бар
-                React.createElement("div", {
-                    className: "w-full h-1 bg-white/30 rounded-full cursor-pointer",
-                    onClick: (e) => {
-                        e.stopPropagation();
-                        if (!audioRef.current) return;
-                        const rect = e.currentTarget.getBoundingClientRect();
-                        const pos = (e.clientX - rect.left) / rect.width;
-                        audioRef.current.currentTime = pos * (Number.isFinite(audioRef.current.duration) ? audioRef.current.duration : 1);
-                    }
-                },
+            // Центральные контролы с прогресс-баром
+            React.createElement("div", { className: "absolute bottom-6 left-0 right-0 flex flex-col items-center gap-4 px-4" },
+                // Прогресс-бар + время
+                React.createElement("div", { className: "w-full flex flex-col gap-2" },
+                    // Прогресс-бар
                     React.createElement("div", {
-                        className: "h-full bg-white rounded-full",
-                        style: { 
-                            width: `${
-                                (currentTime / (Number.isFinite(audioRef.current?.duration) ? audioRef.current.duration : 1)) * 100
-                            }%` 
+                        className: "w-full h-1 bg-white/30 rounded-full cursor-pointer",
+                        onClick: (e) => {
+                            e.stopPropagation();
+                            if (!audioRef.current) return;
+                            const rect = e.currentTarget.getBoundingClientRect();
+                            const pos = (e.clientX - rect.left) / rect.width;
+                            audioRef.current.currentTime = pos * (Number.isFinite(audioRef.current.duration) ? audioRef.current.duration : 1);
                         }
-                    })
-                ),
-                // Время под прогресс-баром
-                React.createElement("div", { className: "flex justify-between text-white text-xs font-bold" },
-                    React.createElement("span", null, 
-                        Math.floor(currentTime / 60) + ":" + String(Math.floor(currentTime % 60)).padStart(2, '0')
+                    },
+                        React.createElement("div", {
+                            className: "h-full bg-white rounded-full",
+                            style: { 
+                                width: `${
+                                    (currentTime / (Number.isFinite(audioRef.current?.duration) ? audioRef.current.duration : 1)) * 100
+                                }%` 
+                            }
+                        })
                     ),
-                    React.createElement("span", null,
-                        Number.isFinite(audioRef.current?.duration) 
-                            ? Math.floor(audioRef.current.duration / 60) + ":" + String(Math.floor(audioRef.current.duration % 60)).padStart(2, '0')
-                            : "0:00"
+                    // Время
+                    React.createElement("div", { className: "flex justify-between text-white text-xs font-bold" },
+                        React.createElement("span", null, 
+                            Math.floor(currentTime / 60) + ":" + String(Math.floor(currentTime % 60)).padStart(2, '0')
+                        ),
+                        React.createElement("span", null,
+                            Number.isFinite(audioRef.current?.duration) 
+                                ? Math.floor(audioRef.current.duration / 60) + ":" + String(Math.floor(audioRef.current.duration % 60)).padStart(2, '0')
+                                : "0:00"
+                        )
                     )
+                ),
+                
+                // Кнопки управления
+                React.createElement("div", { className: "flex items-center justify-center gap-12" },
+                    // Кнопка назад на предыдущий субтитр
+                    React.createElement("button", {
+                        onClick: handlePrevious,
+                        className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
+                    }, "⏮"),
+                    
+                    // Кнопка паузы/воспроизведения
+                    React.createElement("button", {
+                        onClick: togglePlay,
+                        className: "w-20 h-20 bg-black rounded-full flex items-center justify-center text-3xl text-white shadow-lg hover:scale-105 active:scale-95 transition-all"
+                    }, isPlaying ? '⏸' : '▶'),
+                    
+                    // Кнопка полноэкранного режима
+                    React.createElement("button", {
+                        onClick: toggleFullscreen,
+                        className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
+                    }, isFullscreen ? '⤢' : '⤡')
                 )
-            ),
-            
-            // Центральные контролы
-            React.createElement("div", { className: "absolute bottom-6 left-0 right-0 flex items-center justify-center gap-12" },
-                // Кнопка назад на предыдущий субтитр
-                React.createElement("button", {
-                    onClick: handlePrevious,
-                    className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
-                }, "⏮"),
-                
-                // Кнопка паузы/воспроизведения
-                React.createElement("button", {
-                    onClick: togglePlay,
-                    className: "w-20 h-20 bg-black rounded-full flex items-center justify-center text-3xl text-white shadow-lg hover:scale-105 active:scale-95 transition-all"
-                }, isPlaying ? '⏸' : '▶'),
-                
-                // Кнопка полноэкранного режима
-                React.createElement("button", {
-                    onClick: toggleFullscreen,
-                    className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
-                }, isFullscreen ? '⤢' : '⤡')
             )
         ),
 
