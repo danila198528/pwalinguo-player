@@ -623,37 +623,6 @@ const Player = ({ deck, audioBlob, onBack }) => {
         showControls && React.createElement("div", {
             className: "fixed inset-0 z-50"
         },
-            // Прогресс-бар вверху + время
-            React.createElement("div", { className: "absolute top-0 left-0 right-0 bg-black" },
-                // Прогресс-бар
-                React.createElement("div", {
-                    className: "w-full h-8 bg-red-900 cursor-pointer",
-                    onClick: (e) => {
-                        if (!audioRef.current) return;
-                        const rect = e.currentTarget.getBoundingClientRect();
-                        const pos = (e.clientX - rect.left) / rect.width;
-                        audioRef.current.currentTime = pos * audioRef.current.duration;
-                    }
-                },
-                    React.createElement("div", {
-                        className: "h-full bg-green-500",
-                        style: { 
-                            width: `${
-                                (currentTime / (Number.isFinite(audioRef.current?.duration) ? audioRef.current.duration : 1)) * 100
-                            }%` 
-                        }
-                    })
-                ),
-                // Время
-                React.createElement("div", { className: "flex justify-between px-4 py-2 text-white text-sm font-bold" },
-                    React.createElement("span", null, 
-                        Math.floor(currentTime / 60) + ":" + String(Math.floor(currentTime % 60)).padStart(2, '0')
-                    ),
-                    React.createElement("span", null,
-                        Math.floor((audioRef.current?.duration || 0) / 60) + ":" + String(Math.floor((audioRef.current?.duration || 0) % 60)).padStart(2, '0')
-                    )
-                )
-            ),
 
             // Верхняя панель (кнопка назад в меню)
             React.createElement("div", { className: "absolute top-14 left-6 flex items-center gap-3" },
@@ -663,7 +632,42 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v2.9 + Debug Bar")
+                }, "v3.0 + YouTube Style")
+            ),
+            
+            // Прогресс-бар над кнопками (как в YouTube)
+            React.createElement("div", { className: "absolute bottom-24 left-4 right-4 flex flex-col gap-2" },
+                // Прогресс-бар
+                React.createElement("div", {
+                    className: "w-full h-1 bg-white/30 rounded-full cursor-pointer",
+                    onClick: (e) => {
+                        e.stopPropagation();
+                        if (!audioRef.current) return;
+                        const rect = e.currentTarget.getBoundingClientRect();
+                        const pos = (e.clientX - rect.left) / rect.width;
+                        audioRef.current.currentTime = pos * (Number.isFinite(audioRef.current.duration) ? audioRef.current.duration : 1);
+                    }
+                },
+                    React.createElement("div", {
+                        className: "h-full bg-white rounded-full",
+                        style: { 
+                            width: `${
+                                (currentTime / (Number.isFinite(audioRef.current?.duration) ? audioRef.current.duration : 1)) * 100
+                            }%` 
+                        }
+                    })
+                ),
+                // Время под прогресс-баром
+                React.createElement("div", { className: "flex justify-between text-white text-xs font-bold" },
+                    React.createElement("span", null, 
+                        Math.floor(currentTime / 60) + ":" + String(Math.floor(currentTime % 60)).padStart(2, '0')
+                    ),
+                    React.createElement("span", null,
+                        Number.isFinite(audioRef.current?.duration) 
+                            ? Math.floor(audioRef.current.duration / 60) + ":" + String(Math.floor(audioRef.current.duration % 60)).padStart(2, '0')
+                            : "0:00"
+                    )
+                )
             ),
             
             // Центральные контролы
