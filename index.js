@@ -87,6 +87,8 @@ const App = () => {
     const [isOffline, setIsOffline] = useState(!navigator.onLine);
     const [isLoading, setIsLoading] = useState(true);
     const [expandedGroups, setExpandedGroups] = useState({});
+    const [viewingDeckPage, setViewingDeckPage] = useState(null); // Страница колоды
+    const [postponeOption, setPostponeOption] = useState('14days');
 
     const loadData = async () => {
         setIsLoading(true);
@@ -175,6 +177,12 @@ const App = () => {
     };
 
     const handleSelectDeck = async (deckMeta) => {
+        // Показываем страницу колоды
+        setViewingDeckPage(deckMeta);
+    };
+
+    const startPlayback = async (deckMeta) => {
+        // Запускаем плеер
         const stored = await getDeckFromDB(deckMeta.id);
         
         if (stored) {
@@ -192,6 +200,7 @@ const App = () => {
         } else {
             alert("Нет подключения к сети");
         }
+        setViewingDeckPage(null);
     };
 
     // Группировка колод
@@ -278,12 +287,116 @@ const App = () => {
                     )
                 )
             )
-        ) : React.createElement(Player, { deck: selectedDeck, audioBlob: activeAudioBlob, onBack: () => setSelectedDeck(null) }),
+        ) : viewingDeckPage ? React.createElement(DeckPage, {
+            deckMeta: viewingDeckPage,
+            onBack: () => setViewingDeckPage(null),
+            onStartPlayback: startPlayback,
+            postponeOption: postponeOption,
+            setPostponeOption: setPostponeOption
+        }) : React.createElement(Player, { deck: selectedDeck, audioBlob: activeAudioBlob, onBack: () => setSelectedDeck(null) }),
         
         isDownloading && React.createElement("div", { className: "fixed inset-0 bg-slate-950/90 flex flex-col items-center justify-center z-100 backdrop-blur-md" },
             React.createElement("div", { className: "w-14 h-14 border-t-4 border-blue-500 rounded-full animate-spin mb-6" }),
             React.createElement("p", { className: "font-black text-xl tracking-tight" }, "СОХРАНЯЕМ КОЛОДУ"),
             React.createElement("p", { className: "text-slate-500 text-sm mt-1" }, "Осталось совсем немного...")
+        )
+    );
+};
+
+// Страница колоды
+const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostponeOption }) => {
+    const handleChangeDate = () => {
+        // TODO: Сохранить дату откладывания в IndexedDB
+        console.log('Изменить дату:', { deckId: deckMeta.id, postponeOption });
+        alert('Дата изменена! (TODO: сохранение в IndexedDB)');
+    };
+
+    return React.createElement("div", { className: "fixed inset-0 bg-white flex flex-col z-60 overflow-y-auto" },
+        // Хедер с кнопкой назад
+        React.createElement("div", { className: "flex items-center gap-4 p-6 border-b border-gray-200" },
+            React.createElement("button", {
+                onClick: onBack,
+                className: "w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 active:scale-90 transition-all"
+            }, "←"),
+            React.createElement("h1", { className: "text-xl font-black text-black" }, deckMeta.deck_name)
+        ),
+
+        // Контент
+        React.createElement("div", { className: "flex-1 p-6 flex flex-col gap-6" },
+            // Кнопка начать просмотр
+            React.createElement("button", {
+                onClick: () => onStartPlayback(deckMeta),
+                className: "w-full bg-black text-white py-4 px-6 rounded-xl font-black text-lg active:scale-95 transition-all"
+            }, "▶ НАЧАТЬ ПРОСМОТР"),
+
+            // Разделитель
+            React.createElement("div", { className: "border-t border-gray-200" }),
+
+            // Статистика
+            React.createElement("div", null,
+                React.createElement("h2", { className: "text-lg font-black mb-3" }, "📊 Статистика"),
+                React.createElement("div", { className: "space-y-2 text-sm" },
+                    React.createElement("div", null, "👁️ Просмотров: ", React.createElement("span", { className: "font-bold" }, "0")),
+                    React.createElement("div", null, "📅 Дата след. просмотра: ", React.createElement("span", { className: "font-bold" }, "—")),
+                    React.createElement("div", null, "⏰ Не отложена")
+                )
+            ),
+
+            // Разделитель
+            React.createElement("div", { className: "border-t border-gray-200" }),
+
+            // Отложить на
+            React.createElement("div", null,
+                React.createElement("h2", { className: "text-lg font-black mb-3" }, "Отложить на:"),
+                React.createElement("div", { className: "grid gap-2" },
+                    React.createElement("button", {
+                        onClick: () => setPostponeOption('14days'),
+                        className: `py-3 px-4 rounded-xl font-bold text-left transition-all ${
+                            postponeOption === '14days'
+                                ? 'bg-blue-600 text-white'
+                                : 'bg-gray-100 text-black'
+                        }`
+                    }, "14 дней ★ (рекомендуем)"),
+                    React.createElement("button", {
+                        onClick: () => setPostponeOption('none'),
+                        className: `py-3 px-4 rounded-xl font-bold text-left transition-all ${
+                            postponeOption === 'none'
+                                ? 'bg-blue-600 text-white'
+                                : 'bg-gray-100 text-black'
+                        }`
+                    }, "Без даты"),
+                    React.createElement("button", {
+                        onClick: () => setPostponeOption('2months'),
+                        className: `py-3 px-4 rounded-xl font-bold text-left transition-all ${
+                            postponeOption === '2months'
+                                ? 'bg-blue-600 text-white'
+                                : 'bg-gray-100 text-black'
+                        }`
+                    }, "2 месяца"),
+                    React.createElement("button", {
+                        onClick: () => setPostponeOption('3months'),
+                        className: `py-3 px-4 rounded-xl font-bold text-left transition-all ${
+                            postponeOption === '3months'
+                                ? 'bg-blue-600 text-white'
+                                : 'bg-gray-100 text-black'
+                        }`
+                    }, "3 месяца"),
+                    React.createElement("button", {
+                        onClick: () => setPostponeOption('custom'),
+                        className: `py-3 px-4 rounded-xl font-bold text-left transition-all ${
+                            postponeOption === 'custom'
+                                ? 'bg-blue-600 text-white'
+                                : 'bg-gray-100 text-black'
+                        }`
+                    }, "📅 Точная дата")
+                )
+            ),
+
+            // Кнопка изменить дату
+            React.createElement("button", {
+                onClick: handleChangeDate,
+                className: "w-full bg-gray-800 text-white py-3 px-6 rounded-xl font-black active:scale-95 transition-all"
+            }, "ИЗМЕНИТЬ ДАТУ")
         )
     );
 };
@@ -632,7 +745,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v3.3 + Z-FIX")
+                }, "v4.0 + Deck Page")
             ),
             
             // Центральные контролы с прогресс-баром
