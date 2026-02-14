@@ -392,10 +392,13 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
                 )
             ),
 
+            // Разделитель
+            React.createElement("div", { className: "border-t border-gray-200 mt-4" }),
+
             // Кнопка изменить дату
             React.createElement("button", {
                 onClick: handleChangeDate,
-                className: "w-full bg-gray-800 text-white py-3 px-6 rounded-xl font-black active:scale-95 transition-all"
+                className: "w-full bg-black text-white py-4 px-6 rounded-xl font-black text-lg active:scale-95 transition-all mt-4"
             }, "ИЗМЕНИТЬ ДАТУ")
         )
     );
@@ -406,7 +409,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
     const [isPlaying, setIsPlaying] = useState(false);
     const [showControls, setShowControls] = useState(false);
     const [isFullscreen, setIsFullscreen] = useState(false);
-    const [isStarted, setIsStarted] = useState(false);
+    const [isStarted, setIsStarted] = useState(true); // Сразу показываем плеер
     const [showCompletion, setShowCompletion] = useState(false);
     const [completedFully, setCompletedFully] = useState(true);
     const [postponeOption, setPostponeOption] = useState('14days');
@@ -465,9 +468,8 @@ const Player = ({ deck, audioBlob, onBack }) => {
         if (audioRef.current) setCurrentTime(audioRef.current.currentTime);
     };
 
-    // Функция для кнопки "Начать прослушивание"
-    const handleStart = async () => {
-        // Активируем Wake Lock или NoSleep
+    // Функция активации NoSleep (вызывается при первом play)
+    const activateNoSleep = async () => {
         try {
             if ('wakeLock' in navigator) {
                 await navigator.wakeLock.request('screen');
@@ -478,14 +480,6 @@ const Player = ({ deck, audioBlob, onBack }) => {
             }
         } catch (err) {
             console.log('Wake Lock ошибка:', err);
-        }
-
-        // Запускаем аудио
-        setIsStarted(true);
-        if (audioRef.current) {
-            audioRef.current.play().catch(err => {
-                console.error('Play error:', err);
-            });
         }
     };
 
@@ -685,7 +679,10 @@ const Player = ({ deck, audioBlob, onBack }) => {
             ref: audioRef,
             src: audioUrl,
             onTimeUpdate: handleTimeUpdate,
-            onPlay: () => setIsPlaying(true),
+            onPlay: () => {
+                setIsPlaying(true);
+                activateNoSleep();
+            },
             onPause: () => setIsPlaying(false),
             onEnded: () => {
                 // Выход из fullscreen
@@ -702,7 +699,8 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 setShowCompletion(true);
             },
             onError: (e) => console.error('Audio error:', e),
-            preload: "auto"
+            preload: "auto",
+            autoPlay: true
         }),
 
         // Основной контент
@@ -745,7 +743,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v4.2 + Text Fix")
+                }, "v4.4 + NoSleep Fix")
             ),
             
             // Центральные контролы с прогресс-баром
