@@ -124,6 +124,64 @@ const loadDeckData = async (deckMeta) => {
 // --- UI Components ---
 const { useState, useEffect, useRef, useMemo } = React;
 
+// Компонент карточки колоды с метаданными
+const DeckCard = ({ deckMeta, onSelect, onDownload, onDelete, isDownloading, isOffline, isDownloaded }) => {
+    const [meta, setMeta] = useState(null);
+
+    useEffect(() => {
+        const loadMeta = async () => {
+            const data = await getDeckMeta(deckMeta.id);
+            setMeta(data);
+        };
+        loadMeta();
+    }, [deckMeta.id]);
+
+    const formatDate = (isoString) => {
+        if (!isoString) return '—';
+        const date = new Date(isoString);
+        const months = ['янв', 'фев', 'мар', 'апр', 'мая', 'июн', 'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'];
+        return `${date.getDate()} ${months[date.getMonth()]}`;
+    };
+
+    const isExpired = (isoString) => {
+        if (!isoString) return false;
+        return new Date(isoString) < new Date();
+    };
+
+    const dateExpired = meta?.postponed_until ? isExpired(meta.postponed_until) : false;
+
+    return React.createElement("div", { className: "bg-slate-900/50 border border-slate-800 p-4 rounded-xl flex justify-between items-center" },
+        React.createElement("div", { className: "flex-1 cursor-pointer", onClick: onSelect },
+            React.createElement("h3", { className: "font-bold text-slate-200" }, deckMeta.deck_name),
+            React.createElement("div", { className: "flex gap-3 mt-2" },
+                // Длительность
+                React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, 
+                    "~" + (deckMeta.total_duration / 60).toFixed(0) + " мин"
+                ),
+                // Дата откладывания
+                React.createElement("span", { 
+                    className: `text-10 px-2 py-0.5 rounded uppercase font-bold ${dateExpired ? 'text-red-400 bg-red-900/30' : 'text-slate-500 bg-slate-800'}`
+                }, 
+                    meta ? formatDate(meta.postponed_until) : '—'
+                ),
+                // Просмотры
+                React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, 
+                    "👁️ " + (meta?.view_count || 0)
+                )
+            )
+        ),
+        React.createElement("div", { className: "ml-4" },
+            isDownloaded ?
+                React.createElement("button", { onClick: onDelete, className: "w-10 h-10 flex items-center justify-center bg-slate-800 rounded-full text-lg active:scale-90 transition-transform" }, "🗑️") :
+                React.createElement("button", {
+                    disabled: isDownloading || isOffline,
+                    onClick: onDownload,
+                    className: "bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-xl text-10 font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
+                }, isDownloading ? '...' : 'Скачать')
+        )
+    );
+};
+
 const App = () => {
     const [catalog, setCatalog] = useState([]);
     const [selectedDeck, setSelectedDeck] = useState(null);
@@ -135,6 +193,7 @@ const App = () => {
     const [expandedGroups, setExpandedGroups] = useState({});
     const [viewingDeckPage, setViewingDeckPage] = useState(null); // Страница колоды
     const [postponeOption, setPostponeOption] = useState('14days');
+    const [allMeta, setAllMeta] = useState({}); // Все метаданные колод
 
     const loadData = async () => {
         setIsLoading(true);
@@ -143,7 +202,17 @@ const App = () => {
             const response = await fetch('./catalog.json?t=' + Date.now());
             if (response.ok) {
                 const data = await response.json();
-                setCatalog(Array.isArray(data) ? data : [data]);
+                const catalogData = Array.isArray(data) ? data : [data];
+                setCatalog(catalogData);
+                
+                // Загружаем метаданные для всех колод
+                const metaPromises = catalogData.map(deck => getDeckMeta(deck.id));
+                const metaResults = await Promise.all(metaPromises);
+                const metaMap = {};
+                metaResults.forEach(meta => {
+                    metaMap[meta.deckId] = meta;
+                });
+                setAllMeta(metaMap);
             }
         } catch (e) {
             console.error("Catalog load failed", e);
@@ -252,15 +321,32 @@ const App = () => {
     // Группировка колод
     const groupedDecks = useMemo(() => {
         const groups = {};
+        const outOfDate = [];
+        
         catalog.forEach(deck => {
             const groupName = deck.group || 'Без группы';
             if (!groups[groupName]) {
                 groups[groupName] = [];
             }
             groups[groupName].push(deck);
+            
+            // Проверяем истекла ли дата
+            const meta = allMeta[deck.id];
+            if (meta?.postponed_until) {
+                const isExpired = new Date(meta.postponed_until) < new Date();
+                if (isExpired) {
+                    outOfDate.push(deck);
+                }
+            }
         });
+        
+        // Добавляем группу "Out of date" в начало если есть истёкшие
+        if (outOfDate.length > 0) {
+            return { 'Out of date': outOfDate, ...groups };
+        }
+        
         return groups;
-    }, [catalog]);
+    }, [catalog, allMeta]);
 
     const toggleGroup = (groupName) => {
         setExpandedGroups(prev => ({
@@ -310,24 +396,16 @@ const App = () => {
                         // Список колод в группе
                         expandedGroups[groupName] && React.createElement("div", { className: "grid gap-2 p-2" },
                             groupedDecks[groupName].map(deckMeta =>
-                                React.createElement("div", { key: deckMeta.id, className: "bg-slate-900/50 border border-slate-800 p-4 rounded-xl flex justify-between items-center" },
-                                    React.createElement("div", { className: "flex-1 cursor-pointer", onClick: () => handleSelectDeck(deckMeta) },
-                                        React.createElement("h3", { className: "font-bold text-slate-200" }, deckMeta.deck_name),
-                                        React.createElement("div", { className: "flex gap-3 mt-2" },
-                                            React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, deckMeta.total_sentences + " фразы"),
-                                            React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, "~" + (deckMeta.total_duration / 60).toFixed(0) + " мин")
-                                        )
-                                    ),
-                                    React.createElement("div", { className: "ml-4" },
-                                        downloadedIds.includes(deckMeta.id) ?
-                                            React.createElement("button", { onClick: () => handleDelete(deckMeta.id), className: "w-10 h-10 flex items-center justify-center bg-slate-800 rounded-full text-lg active:scale-90 transition-transform" }, "🗑️") :
-                                            React.createElement("button", {
-                                                disabled: isDownloading || isOffline,
-                                                onClick: () => handleDownload(deckMeta),
-                                                className: "bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-xl text-10 font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
-                                            }, isDownloading ? '...' : 'Скачать')
-                                    )
-                                )
+                                React.createElement(DeckCard, {
+                                    key: deckMeta.id,
+                                    deckMeta: deckMeta,
+                                    onSelect: () => handleSelectDeck(deckMeta),
+                                    onDownload: () => handleDownload(deckMeta),
+                                    onDelete: () => handleDelete(deckMeta.id),
+                                    isDownloading: isDownloading,
+                                    isOffline: isOffline,
+                                    isDownloaded: downloadedIds.includes(deckMeta.id)
+                                })
                             )
                         )
                     )
@@ -863,7 +941,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 }, "←"),
                 React.createElement("div", { 
                     className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v5.0 + Storage")
+                }, "v5.1 + Out of Date")
             ),
             
             // Центральные контролы с прогресс-баром
