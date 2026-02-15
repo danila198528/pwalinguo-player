@@ -367,17 +367,7 @@ const syncWithCloud = async (localData) => {
 const { useState, useEffect, useRef, useMemo } = React;
 
 // Компонент карточки колоды с метаданными
-const DeckCard = ({ deckMeta, onSelect, onDownload, onDelete, isDownloading, isOffline, isDownloaded }) => {
-    const [meta, setMeta] = useState(null);
-
-    useEffect(() => {
-        const loadMeta = async () => {
-            const data = await getDeckMeta(deckMeta.id);
-            setMeta(data);
-        };
-        loadMeta();
-    }, [deckMeta.id]);
-
+const DeckCard = ({ deckMeta, meta, onSelect, onDownload, onDelete, isDownloading, isOffline, isDownloaded }) => {
     const formatDate = (isoString) => {
         if (!isoString) return '—';
         const date = new Date(isoString);
@@ -674,7 +664,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.1 Sync Fix"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.2 UI Fix"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -736,6 +726,7 @@ const App = () => {
                                 React.createElement(DeckCard, {
                                     key: deckMeta.id,
                                     deckMeta: deckMeta,
+                                    meta: allMeta[deckMeta.id],
                                     onSelect: () => handleSelectDeck(deckMeta),
                                     onDownload: () => handleDownload(deckMeta),
                                     onDelete: () => handleDelete(deckMeta.id),
