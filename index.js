@@ -428,6 +428,7 @@ const App = () => {
     const [allMeta, setAllMeta] = useState({}); // Все метаданные колод
     const [isGoogleAuthorized, setIsGoogleAuthorized] = useState(false);
     const [syncStatus, setSyncStatus] = useState('idle'); // idle, syncing, synced, offline, error
+    const [syncKey, setSyncKey] = useState(0); // Счётчик для принудительного обновления UI
 
     const loadData = async () => {
         setIsLoading(true);
@@ -540,6 +541,7 @@ const App = () => {
             
             // Обновляем state
             setAllMeta(mergedData);
+            setSyncKey(prev => prev + 1); // Увеличиваем счётчик для обновления UI
             setSyncStatus('synced');
             
             // Через 3 секунды скрываем индикатор
@@ -664,7 +666,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.2 UI Fix"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.3 Sync Key"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -724,7 +726,7 @@ const App = () => {
                         expandedGroups[groupName] && React.createElement("div", { className: "grid gap-2 p-2" },
                             groupedDecks[groupName].map(deckMeta =>
                                 React.createElement(DeckCard, {
-                                    key: deckMeta.id,
+                                    key: `${deckMeta.id}-${syncKey}`,
                                     deckMeta: deckMeta,
                                     meta: allMeta[deckMeta.id],
                                     onSelect: () => handleSelectDeck(deckMeta),
