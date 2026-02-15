@@ -66,10 +66,14 @@ const saveDeckMeta = async (deckId, metaData) => {
     const db = await openDB();
     return new Promise((resolve, reject) => {
         const transaction = db.transaction('deck_meta', 'readwrite');
+        const now = new Date().toISOString();
+        
         const data = {
             deckId: deckId,
             view_count: metaData.view_count || 0,
+            view_count_updated: metaData.view_count_updated || now,
             postponed_until: metaData.postponed_until || null,
+            postponed_until_updated: metaData.postponed_until_updated || now,
             last_viewed: metaData.last_viewed || null
         };
         transaction.objectStore('deck_meta').put(data);
@@ -119,6 +123,244 @@ const loadDeckData = async (deckMeta) => {
         }
     }
     return deckMeta;
+};
+
+// --- Google Drive Sync ---
+const GOOGLE_CLIENT_ID = '994729101080-3pn19r2h35s0ammjpdgso3uf4slm5kvr.apps.googleusercontent.com';
+const GOOGLE_SCOPES = 'https://www.googleapis.com/auth/drive.file';
+const SYNC_FOLDER_NAME = 'LinguoPlayer';
+const SYNC_FILE_NAME = 'linguo-sync.json';
+
+let googleAccessToken = null;
+let gapiInitialized = false;
+
+// Инициализация Google API
+const initGoogleAPI = () => {
+    return new Promise((resolve) => {
+        if (gapiInitialized) {
+            resolve();
+            return;
+        }
+        
+        const script = document.createElement('script');
+        script.src = 'https://accounts.google.com/gsi/client';
+        script.onload = () => {
+            gapiInitialized = true;
+            resolve();
+        };
+        document.head.appendChild(script);
+    });
+};
+
+// Авторизация Google
+const authorizeGoogle = async () => {
+    await initGoogleAPI();
+    
+    return new Promise((resolve, reject) => {
+        const client = google.accounts.oauth2.initTokenClient({
+            client_id: GOOGLE_CLIENT_ID,
+            scope: GOOGLE_SCOPES,
+            callback: (response) => {
+                if (response.access_token) {
+                    googleAccessToken = response.access_token;
+                    localStorage.setItem('google_access_token', response.access_token);
+                    resolve(response.access_token);
+                } else {
+                    reject(new Error('No access token'));
+                }
+            },
+        });
+        client.requestAccessToken();
+    });
+};
+
+// Проверка авторизации
+const checkGoogleAuth = () => {
+    const token = localStorage.getItem('google_access_token');
+    if (token) {
+        googleAccessToken = token;
+        return true;
+    }
+    return false;
+};
+
+// Выход из Google
+const signOutGoogle = () => {
+    googleAccessToken = null;
+    localStorage.removeItem('google_access_token');
+    localStorage.removeItem('google_folder_id');
+};
+
+// Создать папку в Drive
+const createDriveFolder = async () => {
+    const metadata = {
+        name: SYNC_FOLDER_NAME,
+        mimeType: 'application/vnd.google-apps.folder'
+    };
+    
+    const response = await fetch('https://www.googleapis.com/drive/v3/files', {
+        method: 'POST',
+        headers: {
+            'Authorization': `Bearer ${googleAccessToken}`,
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(metadata)
+    });
+    
+    if (!response.ok) throw new Error('Failed to create folder');
+    const data = await response.json();
+    localStorage.setItem('google_folder_id', data.id);
+    return data.id;
+};
+
+// Найти папку в Drive
+const findDriveFolder = async () => {
+    const cachedId = localStorage.getItem('google_folder_id');
+    if (cachedId) return cachedId;
+    
+    const query = `name='${SYNC_FOLDER_NAME}' and mimeType='application/vnd.google-apps.folder' and trashed=false`;
+    const response = await fetch(`https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(query)}`, {
+        headers: { 'Authorization': `Bearer ${googleAccessToken}` }
+    });
+    
+    if (!response.ok) throw new Error('Failed to find folder');
+    const data = await response.json();
+    
+    if (data.files && data.files.length > 0) {
+        localStorage.setItem('google_folder_id', data.files[0].id);
+        return data.files[0].id;
+    }
+    
+    return await createDriveFolder();
+};
+
+// Найти файл синхронизации
+const findSyncFile = async (folderId) => {
+    const query = `name='${SYNC_FILE_NAME}' and '${folderId}' in parents and trashed=false`;
+    const response = await fetch(`https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(query)}`, {
+        headers: { 'Authorization': `Bearer ${googleAccessToken}` }
+    });
+    
+    if (!response.ok) throw new Error('Failed to find file');
+    const data = await response.json();
+    return data.files && data.files.length > 0 ? data.files[0].id : null;
+};
+
+// Загрузить данные из Drive
+const loadFromDrive = async () => {
+    try {
+        if (!googleAccessToken) return null;
+        
+        const folderId = await findDriveFolder();
+        const fileId = await findSyncFile(folderId);
+        
+        if (!fileId) {
+            // Файл не существует, вернуть пустую структуру
+            return { decks: {}, last_sync: new Date().toISOString() };
+        }
+        
+        const response = await fetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`, {
+            headers: { 'Authorization': `Bearer ${googleAccessToken}` }
+        });
+        
+        if (!response.ok) throw new Error('Failed to load file');
+        return await response.json();
+    } catch (err) {
+        console.error('Load from Drive error:', err);
+        return null;
+    }
+};
+
+// Сохранить данные в Drive
+const saveToDrive = async (data) => {
+    try {
+        if (!googleAccessToken) return false;
+        
+        const folderId = await findDriveFolder();
+        let fileId = await findSyncFile(folderId);
+        
+        data.last_sync = new Date().toISOString();
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        
+        if (fileId) {
+            // Обновить существующий файл
+            const response = await fetch(`https://www.googleapis.com/upload/drive/v3/files/${fileId}?uploadType=media`, {
+                method: 'PATCH',
+                headers: {
+                    'Authorization': `Bearer ${googleAccessToken}`,
+                    'Content-Type': 'application/json',
+                },
+                body: blob
+            });
+            return response.ok;
+        } else {
+            // Создать новый файл
+            const metadata = {
+                name: SYNC_FILE_NAME,
+                parents: [folderId]
+            };
+            
+            const form = new FormData();
+            form.append('metadata', new Blob([JSON.stringify(metadata)], { type: 'application/json' }));
+            form.append('file', blob);
+            
+            const response = await fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart', {
+                method: 'POST',
+                headers: { 'Authorization': `Bearer ${googleAccessToken}` },
+                body: form
+            });
+            return response.ok;
+        }
+    } catch (err) {
+        console.error('Save to Drive error:', err);
+        return false;
+    }
+};
+
+// Синхронизация с облаком
+const syncWithCloud = async (localData) => {
+    try {
+        const cloudData = await loadFromDrive();
+        if (!cloudData) return localData;
+        
+        // Merge логика
+        const merged = { decks: {} };
+        const allDeckIds = new Set([
+            ...Object.keys(localData),
+            ...Object.keys(cloudData.decks || {})
+        ]);
+        
+        allDeckIds.forEach(deckId => {
+            const local = localData[deckId] || {};
+            const cloud = cloudData.decks[deckId] || {};
+            
+            merged.decks[deckId] = {
+                view_count: Math.max(local.view_count || 0, cloud.view_count || 0),
+                view_count_updated: (local.view_count_updated || '') > (cloud.view_count_updated || '') 
+                    ? local.view_count_updated 
+                    : cloud.view_count_updated,
+                    
+                postponed_until: (local.postponed_until_updated || '') > (cloud.postponed_until_updated || '')
+                    ? local.postponed_until
+                    : cloud.postponed_until,
+                postponed_until_updated: (local.postponed_until_updated || '') > (cloud.postponed_until_updated || '')
+                    ? local.postponed_until_updated
+                    : cloud.postponed_until_updated,
+                    
+                last_viewed: (local.last_viewed || '') > (cloud.last_viewed || '')
+                    ? local.last_viewed
+                    : cloud.last_viewed
+            };
+        });
+        
+        // Сохраняем обратно в облако
+        await saveToDrive(merged);
+        
+        return merged.decks;
+    } catch (err) {
+        console.error('Sync error:', err);
+        return localData;
+    }
 };
 
 // --- UI Components ---
@@ -194,6 +436,8 @@ const App = () => {
     const [viewingDeckPage, setViewingDeckPage] = useState(null); // Страница колоды
     const [postponeOption, setPostponeOption] = useState('14days');
     const [allMeta, setAllMeta] = useState({}); // Все метаданные колод
+    const [isGoogleAuthorized, setIsGoogleAuthorized] = useState(false);
+    const [syncStatus, setSyncStatus] = useState('idle'); // idle, syncing, synced, offline, error
 
     const loadData = async () => {
         setIsLoading(true);
@@ -213,6 +457,11 @@ const App = () => {
                     metaMap[meta.deckId] = meta;
                 });
                 setAllMeta(metaMap);
+                
+                // Синхронизация с облаком если авторизован
+                if (isGoogleAuthorized) {
+                    performSync();
+                }
             }
         } catch (e) {
             console.error("Catalog load failed", e);
@@ -240,6 +489,11 @@ const App = () => {
     };
 
     useEffect(() => {
+        // Проверяем Google авторизацию
+        if (checkGoogleAuth()) {
+            setIsGoogleAuthorized(true);
+        }
+        
         loadData();
         const updateOnlineStatus = () => setIsOffline(!navigator.onLine);
         window.addEventListener('online', updateOnlineStatus);
@@ -249,6 +503,60 @@ const App = () => {
             window.removeEventListener('offline', updateOnlineStatus);
         };
     }, []);
+
+    // Авторизация Google
+    const handleGoogleSignIn = async () => {
+        try {
+            await authorizeGoogle();
+            setIsGoogleAuthorized(true);
+            // Синхронизация после авторизации
+            await performSync();
+        } catch (err) {
+            console.error('Google sign-in error:', err);
+            setSyncStatus('error');
+        }
+    };
+
+    // Выход из Google
+    const handleGoogleSignOut = () => {
+        signOutGoogle();
+        setIsGoogleAuthorized(false);
+        setSyncStatus('idle');
+    };
+
+    // Выполнить синхронизацию
+    const performSync = async () => {
+        if (!isGoogleAuthorized || !googleAccessToken) return;
+        
+        try {
+            setSyncStatus('syncing');
+            
+            // Собираем локальные данные
+            const localData = {};
+            for (const deckId in allMeta) {
+                localData[deckId] = allMeta[deckId];
+            }
+            
+            // Синхронизируем
+            const mergedData = await syncWithCloud(localData);
+            
+            // Обновляем локальное хранилище
+            for (const deckId in mergedData) {
+                await saveDeckMeta(deckId, mergedData[deckId]);
+            }
+            
+            // Обновляем state
+            setAllMeta(mergedData);
+            setSyncStatus('synced');
+            
+            // Через 3 секунды скрываем индикатор
+            setTimeout(() => setSyncStatus('idle'), 3000);
+        } catch (err) {
+            console.error('Sync error:', err);
+            setSyncStatus('error');
+            setTimeout(() => setSyncStatus('idle'), 5000);
+        }
+    };
 
     const handleDownload = async (deckMeta) => {
         setIsDownloading(true);
@@ -361,10 +669,40 @@ const App = () => {
                 React.createElement("p", { className: "text-slate-500 text-sm mt-1" }, "Подождите немного...")
             )
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
-            React.createElement("header", { className: "my-8 text-center" },
+            React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v1.0.0 Stable")
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.0 Google Sync"),
+                
+                // Индикатор синхронизации
+                React.createElement("div", { className: "absolute top-0 right-0" },
+                    syncStatus === 'syncing' && React.createElement("div", { className: "flex items-center gap-2 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold" },
+                        React.createElement("div", { className: "w-3 h-3 border-2 border-white border-t-transparent rounded-full animate-spin" }),
+                        "Sync"
+                    ),
+                    syncStatus === 'synced' && React.createElement("div", { className: "flex items-center gap-2 bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold" },
+                        "✓ Synced"
+                    ),
+                    syncStatus === 'error' && React.createElement("div", { className: "flex items-center gap-2 bg-red-600 text-white px-3 py-1 rounded-full text-xs font-bold" },
+                        "⚠️ Error"
+                    ),
+                    syncStatus === 'idle' && isGoogleAuthorized && React.createElement("div", { className: "flex items-center gap-2 bg-slate-700 text-white px-3 py-1 rounded-full text-xs font-bold" },
+                        "☁️"
+                    )
+                )
             ),
+            
+            // Google Sign In / Sign Out
+            !isGoogleAuthorized ? React.createElement("button", {
+                onClick: handleGoogleSignIn,
+                className: "w-full bg-white text-black px-4 py-3 rounded-xl text-sm font-black uppercase tracking-wider active:scale-95 transition-all mb-4 border-2 border-slate-800 flex items-center justify-center gap-2"
+            }, 
+                React.createElement("span", null, "🔐"),
+                "Войти через Google для синхронизации"
+            ) : React.createElement("button", {
+                onClick: handleGoogleSignOut,
+                className: "w-full bg-slate-800 text-white px-4 py-3 rounded-xl text-xs font-bold active:scale-95 transition-all mb-2"
+            }, "Выйти из Google"),
+            
             React.createElement("button", {
                 onClick: loadData,
                 disabled: isLoading,
@@ -409,11 +747,17 @@ const App = () => {
             )
         ) : viewingDeckPage ? React.createElement(DeckPage, {
             deckMeta: viewingDeckPage,
-            onBack: () => setViewingDeckPage(null),
+            onBack: () => {
+                setViewingDeckPage(null);
+                if (isGoogleAuthorized) performSync();
+            },
             onStartPlayback: startPlayback,
             postponeOption: postponeOption,
             setPostponeOption: setPostponeOption
-        }) : React.createElement(Player, { deck: selectedDeck, audioBlob: activeAudioBlob, onBack: () => setSelectedDeck(null) }),
+        }) : React.createElement(Player, { deck: selectedDeck, audioBlob: activeAudioBlob, onBack: () => {
+            setSelectedDeck(null);
+            if (isGoogleAuthorized) performSync();
+        } }),
         
         isDownloading && React.createElement("div", { className: "fixed inset-0 bg-slate-950/90 flex flex-col items-center justify-center z-100 backdrop-blur-md" },
             React.createElement("div", { className: "w-14 h-14 border-t-4 border-blue-500 rounded-full animate-spin mb-6" }),
