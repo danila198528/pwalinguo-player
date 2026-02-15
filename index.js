@@ -6,7 +6,7 @@ import NoSleep from 'https://esm.sh/nosleep.js@0.12.0';
 // --- IndexedDB функции ---
 const openDB = () => {
     return new Promise((resolve, reject) => {
-        const request = indexedDB.open('LinguoDB_v4', 1); // Увеличиваем версию
+        const request = indexedDB.open('LinguoDB_v5', 1); // Увеличиваем версию
         request.onupgradeneeded = (event) => {
             const db = event.target.result;
             if (!db.objectStoreNames.contains('decks')) {
@@ -14,6 +14,9 @@ const openDB = () => {
             }
             if (!db.objectStoreNames.contains('deck_meta')) {
                 db.createObjectStore('deck_meta', { keyPath: 'deckId' });
+            }
+            if (!db.objectStoreNames.contains('catalog')) {
+                db.createObjectStore('catalog', { keyPath: 'key' }); // Для хранения каталога
             }
         };
         request.onsuccess = () => resolve(request.result);
@@ -108,6 +111,28 @@ const getDeckMeta = async (deckId) => {
     });
 };
 
+// Сохранить каталог в IndexedDB
+const saveCatalogToDB = async (catalog) => {
+    const db = await openDB();
+    return new Promise((resolve, reject) => {
+        const transaction = db.transaction('catalog', 'readwrite');
+        transaction.objectStore('catalog').put({ key: 'main', data: catalog });
+        transaction.oncomplete = () => resolve();
+        transaction.onerror = () => reject(transaction.error);
+    });
+};
+
+// Загрузить каталог из IndexedDB
+const getCatalogFromDB = async () => {
+    const db = await openDB();
+    return new Promise((resolve) => {
+        const transaction = db.transaction('catalog', 'readonly');
+        const request = transaction.objectStore('catalog').get('main');
+        request.onsuccess = () => resolve(request.result?.data || null);
+        request.onerror = () => resolve(null);
+    });
+};
+
 const loadDeckData = async (deckMeta) => {
     if (deckMeta.deck_url) {
         try {
@@ -152,7 +177,7 @@ const initGoogleAPI = () => {
     });
 };
 
-// Авторизация Google
+// Авторизация Google - запрос нового токена
 const authorizeGoogle = async () => {
     await initGoogleAPI();
     
@@ -163,7 +188,7 @@ const authorizeGoogle = async () => {
             callback: (response) => {
                 if (response.access_token) {
                     googleAccessToken = response.access_token;
-                    localStorage.setItem('google_access_token', response.access_token);
+                    // НЕ сохраняем в localStorage - будем запрашивать свежий каждый раз
                     resolve(response.access_token);
                 } else {
                     reject(new Error('No access token'));
@@ -174,20 +199,15 @@ const authorizeGoogle = async () => {
     });
 };
 
-// Проверка авторизации
+// Проверка авторизации - проверяем только факт входа, не токен
 const checkGoogleAuth = () => {
-    const token = localStorage.getItem('google_access_token');
-    if (token) {
-        googleAccessToken = token;
-        return true;
-    }
-    return false;
+    return localStorage.getItem('google_authorized') === 'true';
 };
 
 // Выход из Google
 const signOutGoogle = () => {
     googleAccessToken = null;
-    localStorage.removeItem('google_access_token');
+    localStorage.removeItem('google_authorized');
     localStorage.removeItem('google_folder_id');
 };
 
@@ -246,9 +266,25 @@ const findSyncFile = async (folderId) => {
     return data.files && data.files.length > 0 ? data.files[0].id : null;
 };
 
+// Получить свежий токен перед операциями
+const ensureFreshToken = async () => {
+    if (!checkGoogleAuth()) {
+        throw new Error('Not authorized');
+    }
+    // Всегда запрашиваем новый токен перед операциями
+    try {
+        await authorizeGoogle();
+    } catch (err) {
+        console.error('Failed to get fresh token:', err);
+        throw err;
+    }
+};
+
 // Загрузить данные из Drive
 const loadFromDrive = async () => {
     try {
+        await ensureFreshToken(); // Получаем свежий токен
+        
         if (!googleAccessToken) return null;
         
         const folderId = await findDriveFolder();
@@ -274,6 +310,8 @@ const loadFromDrive = async () => {
 // Сохранить данные в Drive
 const saveToDrive = async (data) => {
     try {
+        await ensureFreshToken(); // Получаем свежий токен
+        
         if (!googleAccessToken) return false;
         
         const folderId = await findDriveFolder();
@@ -433,30 +471,52 @@ const App = () => {
 
     const loadData = async () => {
         setIsLoading(true);
+        let catalogData = null;
+        
         try {
-            // Добавляем cache-busting параметр для принудительного обновления
+            // Пробуем загрузить с сервера
             const response = await fetch('./catalog.json?t=' + Date.now());
             if (response.ok) {
                 const data = await response.json();
-                const catalogData = Array.isArray(data) ? data : [data];
-                setCatalog(catalogData);
-                
-                // Загружаем метаданные для всех колод
-                const metaPromises = catalogData.map(deck => getDeckMeta(deck.id));
-                const metaResults = await Promise.all(metaPromises);
-                const metaMap = {};
-                metaResults.forEach(meta => {
-                    metaMap[meta.deckId] = meta;
-                });
-                setAllMeta(metaMap);
-                
-                // Синхронизация с облаком если авторизован
-                if (isGoogleAuthorized) {
-                    await performSync(); // Ждём завершения синхронизации
-                }
+                catalogData = Array.isArray(data) ? data : [data];
+                // Сохраняем в IndexedDB для оффлайн использования
+                await saveCatalogToDB(catalogData);
+                console.log('Каталог загружен с сервера и сохранён');
             }
         } catch (e) {
-            console.error("Catalog load failed", e);
+            console.error("Не удалось загрузить каталог с сервера:", e);
+        }
+        
+        // Если не удалось загрузить с сервера - берём из IndexedDB
+        if (!catalogData) {
+            catalogData = await getCatalogFromDB();
+            if (catalogData) {
+                console.log('Каталог загружен из локального хранилища (оффлайн)');
+            } else {
+                console.error('Нет сохранённого каталога');
+                setIsLoading(false);
+                return;
+            }
+        }
+        
+        try {
+            setCatalog(catalogData);
+            
+            // Загружаем метаданные для всех колод
+            const metaPromises = catalogData.map(deck => getDeckMeta(deck.id));
+            const metaResults = await Promise.all(metaPromises);
+            const metaMap = {};
+            metaResults.forEach(meta => {
+                metaMap[meta.deckId] = meta;
+            });
+            setAllMeta(metaMap);
+            
+            // Синхронизация с облаком если авторизован
+            if (isGoogleAuthorized) {
+                await performSync(); // Ждём завершения синхронизации
+            }
+        } catch (e) {
+            console.error("Ошибка обработки каталога:", e);
         } finally {
             setIsLoading(false);
         }
@@ -510,6 +570,7 @@ const App = () => {
     const handleGoogleSignIn = async () => {
         try {
             await authorizeGoogle();
+            localStorage.setItem('google_authorized', 'true'); // Сохраняем флаг
             setIsGoogleAuthorized(true);
             // Синхронизация после авторизации
             await performSync();
@@ -678,7 +739,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.5 Sync Time"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.7 Offline Catalog"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
