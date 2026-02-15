@@ -531,10 +531,13 @@ const App = () => {
         try {
             setSyncStatus('syncing');
             
-            // Собираем локальные данные
+            // Собираем локальные данные из IndexedDB (не из state!)
             const localData = {};
-            for (const deckId in allMeta) {
-                localData[deckId] = allMeta[deckId];
+            const allDeckIds = catalog.map(d => d.id);
+            
+            for (const deckId of allDeckIds) {
+                const meta = await getDeckMeta(deckId);
+                localData[deckId] = meta;
             }
             
             // Синхронизируем
@@ -671,7 +674,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.0 Google Sync"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.1 Sync Fix"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -785,6 +788,7 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
         // Рассчитываем новую дату
         let postponeDate = null;
         const now = new Date();
+        const nowISO = now.toISOString();
         
         if (postponeOption === '14days') {
             postponeDate = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000).toISOString();
@@ -802,10 +806,12 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
             postponeDate = new Date(customDate).toISOString();
         }
         
-        // Сохраняем (не меняем view_count)
+        // Сохраняем с timestamps (не меняем view_count)
         await saveDeckMeta(deckMeta.id, {
             view_count: meta?.view_count || 0,
+            view_count_updated: meta?.view_count_updated || nowISO,
             postponed_until: postponeDate,
+            postponed_until_updated: nowISO,
             last_viewed: meta?.last_viewed
         });
         
@@ -1113,6 +1119,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
             // Устанавливаем дату откладывания
             let postponeDate = null;
             const now = new Date();
+            const nowISO = now.toISOString();
             
             if (postponeOption === '14days') {
                 postponeDate = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000).toISOString();
@@ -1130,11 +1137,13 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 postponeDate = new Date(customDate).toISOString();
             }
             
-            // Сохраняем обновлённые метаданные
+            // Сохраняем обновлённые метаданные с timestamps
             await saveDeckMeta(deck.id, {
                 view_count: currentMeta.view_count + 1,
+                view_count_updated: nowISO,
                 postponed_until: postponeDate,
-                last_viewed: new Date().toISOString()
+                postponed_until_updated: nowISO,
+                last_viewed: nowISO
             });
             
             console.log('Просмотр завершён и сохранён');
