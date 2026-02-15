@@ -429,6 +429,7 @@ const App = () => {
     const [isGoogleAuthorized, setIsGoogleAuthorized] = useState(false);
     const [syncStatus, setSyncStatus] = useState('idle'); // idle, syncing, synced, offline, error
     const [syncKey, setSyncKey] = useState(0); // Счётчик для принудительного обновления UI
+    const [lastSyncTime, setLastSyncTime] = useState(null); // Время последней синхронизации
 
     const loadData = async () => {
         setIsLoading(true);
@@ -552,6 +553,7 @@ const App = () => {
             // Обновляем state
             setAllMeta(mergedData);
             setSyncKey(prev => prev + 1); // Увеличиваем счётчик для обновления UI
+            setLastSyncTime(Date.now()); // Сохраняем время синхронизации
             setSyncStatus('synced');
             
             // Через 3 секунды скрываем индикатор
@@ -676,7 +678,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.4 Auto Sync"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.5 Sync Time"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -712,7 +714,15 @@ const App = () => {
                 onClick: loadData,
                 disabled: isLoading,
                 className: "w-full bg-blue-600 hover:bg-blue-500 px-4 py-3 rounded-xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all mb-2"
-            }, isLoading ? "Обновляем..." : "🔄 Обновить колоды"),
+            }, isLoading ? "Обновляем..." : (() => {
+                if (!lastSyncTime) return "🔄 Обновить колоды";
+                const minutes = Math.floor((Date.now() - lastSyncTime) / 60000);
+                if (minutes === 0) return "🔄 Обновить колоды (только что)";
+                if (minutes === 1) return "🔄 Обновить колоды (1 мин назад)";
+                if (minutes < 60) return `🔄 Обновить колоды (${minutes} мин назад)`;
+                const hours = Math.floor(minutes / 60);
+                return `🔄 Обновить колоды (${hours}ч назад)`;
+            })()),
             React.createElement("button", {
                 onClick: updateApp,
                 disabled: isLoading,
