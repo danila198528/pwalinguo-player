@@ -6,7 +6,7 @@ import NoSleep from 'https://esm.sh/nosleep.js@0.12.0';
 // --- IndexedDB функции ---
 const openDB = () => {
     return new Promise((resolve, reject) => {
-        const request = indexedDB.open('LinguoDB_v5', 1); // Увеличиваем версию
+        const request = indexedDB.open('LinguoDB_v6_Firebase', 1);
         request.onupgradeneeded = (event) => {
             const db = event.target.result;
             if (!db.objectStoreNames.contains('decks')) {
@@ -16,7 +16,7 @@ const openDB = () => {
                 db.createObjectStore('deck_meta', { keyPath: 'deckId' });
             }
             if (!db.objectStoreNames.contains('catalog')) {
-                db.createObjectStore('catalog', { keyPath: 'key' }); // Для хранения каталога
+                db.createObjectStore('catalog', { keyPath: 'key' });
             }
         };
         request.onsuccess = () => resolve(request.result);
@@ -111,7 +111,7 @@ const getDeckMeta = async (deckId) => {
     });
 };
 
-// Сохранить каталог в IndexedDB
+// Сохранить каталог
 const saveCatalogToDB = async (catalog) => {
     const db = await openDB();
     return new Promise((resolve, reject) => {
@@ -122,7 +122,7 @@ const saveCatalogToDB = async (catalog) => {
     });
 };
 
-// Загрузить каталог из IndexedDB
+// Загрузить каталог
 const getCatalogFromDB = async () => {
     const db = await openDB();
     return new Promise((resolve) => {
@@ -150,229 +150,125 @@ const loadDeckData = async (deckMeta) => {
     return deckMeta;
 };
 
-// --- Google Drive Sync ---
-const GOOGLE_CLIENT_ID = '994729101080-3pn19r2h35s0ammjpdgso3uf4slm5kvr.apps.googleusercontent.com';
-const GOOGLE_SCOPES = 'https://www.googleapis.com/auth/drive.file';
-const SYNC_FOLDER_NAME = 'LinguoPlayer';
-const SYNC_FILE_NAME = 'linguo-sync.json';
+// --- Firebase Sync ---
+// Firebase Configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCADM3ja8_Ra-P05fdak9wnWeFbSwXTAiY",
+  authDomain: "linguoplayer-345e3.firebaseapp.com",
+  projectId: "linguoplayer-345e3",
+  storageBucket: "linguoplayer-345e3.firebasestorage.app",
+  messagingSenderId: "134979640166",
+  appId: "1:134979640166:web:dc96807fe45058979506a7"
+};
 
-let googleAccessToken = null;
-let gapiInitialized = false;
-
-// Инициализация Google API
-const initGoogleAPI = () => {
-    return new Promise((resolve) => {
-        if (gapiInitialized) {
-            resolve();
-            return;
-        }
-        
+// Импорт Firebase (используем CDN)
+const loadFirebase = async () => {
+    if (window.firebase) return;
+    
+    // Загружаем Firebase SDK
+    await new Promise((resolve) => {
         const script = document.createElement('script');
-        script.src = 'https://accounts.google.com/gsi/client';
-        script.onload = () => {
-            gapiInitialized = true;
-            resolve();
-        };
+        script.src = 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js';
+        script.onload = resolve;
         document.head.appendChild(script);
     });
-};
-
-// Авторизация Google - запрос нового токена
-const authorizeGoogle = async () => {
-    await initGoogleAPI();
     
-    return new Promise((resolve, reject) => {
-        const client = google.accounts.oauth2.initTokenClient({
-            client_id: GOOGLE_CLIENT_ID,
-            scope: GOOGLE_SCOPES,
-            callback: (response) => {
-                if (response.access_token) {
-                    googleAccessToken = response.access_token;
-                    // НЕ сохраняем в localStorage - будем запрашивать свежий каждый раз
-                    resolve(response.access_token);
-                } else {
-                    reject(new Error('No access token'));
-                }
-            },
-        });
-        client.requestAccessToken();
-    });
-};
-
-// Проверка авторизации - проверяем только факт входа, не токен
-const checkGoogleAuth = () => {
-    return localStorage.getItem('google_authorized') === 'true';
-};
-
-// Выход из Google
-const signOutGoogle = () => {
-    googleAccessToken = null;
-    localStorage.removeItem('google_authorized');
-    localStorage.removeItem('google_folder_id');
-};
-
-// Создать папку в Drive
-const createDriveFolder = async () => {
-    const metadata = {
-        name: SYNC_FOLDER_NAME,
-        mimeType: 'application/vnd.google-apps.folder'
-    };
-    
-    const response = await fetch('https://www.googleapis.com/drive/v3/files', {
-        method: 'POST',
-        headers: {
-            'Authorization': `Bearer ${googleAccessToken}`,
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(metadata)
+    await new Promise((resolve) => {
+        const script = document.createElement('script');
+        script.src = 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js';
+        script.onload = resolve;
+        document.head.appendChild(script);
     });
     
-    if (!response.ok) throw new Error('Failed to create folder');
-    const data = await response.json();
-    localStorage.setItem('google_folder_id', data.id);
-    return data.id;
-};
-
-// Найти папку в Drive
-const findDriveFolder = async () => {
-    const cachedId = localStorage.getItem('google_folder_id');
-    if (cachedId) return cachedId;
-    
-    const query = `name='${SYNC_FOLDER_NAME}' and mimeType='application/vnd.google-apps.folder' and trashed=false`;
-    const response = await fetch(`https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(query)}`, {
-        headers: { 'Authorization': `Bearer ${googleAccessToken}` }
+    await new Promise((resolve) => {
+        const script = document.createElement('script');
+        script.src = 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js';
+        script.onload = resolve;
+        document.head.appendChild(script);
     });
     
-    if (!response.ok) throw new Error('Failed to find folder');
-    const data = await response.json();
-    
-    if (data.files && data.files.length > 0) {
-        localStorage.setItem('google_folder_id', data.files[0].id);
-        return data.files[0].id;
-    }
-    
-    return await createDriveFolder();
+    // Инициализация Firebase
+    firebase.initializeApp(firebaseConfig);
 };
 
-// Найти файл синхронизации
-const findSyncFile = async (folderId) => {
-    const query = `name='${SYNC_FILE_NAME}' and '${folderId}' in parents and trashed=false`;
-    const response = await fetch(`https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(query)}`, {
-        headers: { 'Authorization': `Bearer ${googleAccessToken}` }
-    });
-    
-    if (!response.ok) throw new Error('Failed to find file');
-    const data = await response.json();
-    return data.files && data.files.length > 0 ? data.files[0].id : null;
+// Получить Firebase Auth
+const getAuth = () => firebase.auth();
+
+// Получить Firestore
+const getFirestore = () => firebase.firestore();
+
+// Проверка авторизации
+const checkFirebaseAuth = () => {
+    const user = getAuth().currentUser;
+    return user !== null;
 };
 
-// Получить свежий токен перед операциями
-const ensureFreshToken = async () => {
-    if (!checkGoogleAuth()) {
-        throw new Error('Not authorized');
-    }
-    // Всегда запрашиваем новый токен перед операциями
+// Авторизация через Google
+const signInWithGoogle = async () => {
+    await loadFirebase();
+    const provider = new firebase.auth.GoogleAuthProvider();
+    await getAuth().signInWithPopup(provider);
+};
+
+// Выход
+const signOutFirebase = async () => {
+    await getAuth().signOut();
+};
+
+// Загрузить данные из Firestore
+const loadFromFirestore = async () => {
     try {
-        await authorizeGoogle();
-    } catch (err) {
-        console.error('Failed to get fresh token:', err);
-        throw err;
-    }
-};
-
-// Загрузить данные из Drive
-const loadFromDrive = async () => {
-    try {
-        await ensureFreshToken(); // Получаем свежий токен
+        const user = getAuth().currentUser;
+        if (!user) return {};
         
-        if (!googleAccessToken) return null;
+        const db = getFirestore();
+        const docRef = db.collection('users').doc(user.uid).collection('decks');
+        const snapshot = await docRef.get();
         
-        const folderId = await findDriveFolder();
-        const fileId = await findSyncFile(folderId);
-        
-        if (!fileId) {
-            // Файл не существует, вернуть пустую структуру
-            return { decks: {}, last_sync: new Date().toISOString() };
-        }
-        
-        const response = await fetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`, {
-            headers: { 'Authorization': `Bearer ${googleAccessToken}` }
+        const data = {};
+        snapshot.forEach(doc => {
+            data[doc.id] = doc.data();
         });
         
-        if (!response.ok) throw new Error('Failed to load file');
-        return await response.json();
+        return data;
     } catch (err) {
-        console.error('Load from Drive error:', err);
-        return null;
+        console.error('Load from Firestore error:', err);
+        return {};
     }
 };
 
-// Сохранить данные в Drive
-const saveToDrive = async (data) => {
+// Сохранить данные в Firestore
+const saveToFirestore = async (deckId, metaData) => {
     try {
-        await ensureFreshToken(); // Получаем свежий токен
+        const user = getAuth().currentUser;
+        if (!user) return false;
         
-        if (!googleAccessToken) return false;
-        
-        const folderId = await findDriveFolder();
-        let fileId = await findSyncFile(folderId);
-        
-        data.last_sync = new Date().toISOString();
-        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-        
-        if (fileId) {
-            // Обновить существующий файл
-            const response = await fetch(`https://www.googleapis.com/upload/drive/v3/files/${fileId}?uploadType=media`, {
-                method: 'PATCH',
-                headers: {
-                    'Authorization': `Bearer ${googleAccessToken}`,
-                    'Content-Type': 'application/json',
-                },
-                body: blob
-            });
-            return response.ok;
-        } else {
-            // Создать новый файл
-            const metadata = {
-                name: SYNC_FILE_NAME,
-                parents: [folderId]
-            };
-            
-            const form = new FormData();
-            form.append('metadata', new Blob([JSON.stringify(metadata)], { type: 'application/json' }));
-            form.append('file', blob);
-            
-            const response = await fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart', {
-                method: 'POST',
-                headers: { 'Authorization': `Bearer ${googleAccessToken}` },
-                body: form
-            });
-            return response.ok;
-        }
+        const db = getFirestore();
+        await db.collection('users').doc(user.uid).collection('decks').doc(deckId).set(metaData, { merge: true });
+        return true;
     } catch (err) {
-        console.error('Save to Drive error:', err);
+        console.error('Save to Firestore error:', err);
         return false;
     }
 };
 
 // Синхронизация с облаком
-const syncWithCloud = async (localData) => {
+const syncWithFirestore = async (localData) => {
     try {
-        const cloudData = await loadFromDrive();
-        if (!cloudData) return localData;
+        const cloudData = await loadFromFirestore();
         
         // Merge логика
-        const merged = { decks: {} };
+        const merged = {};
         const allDeckIds = new Set([
             ...Object.keys(localData),
-            ...Object.keys(cloudData.decks || {})
+            ...Object.keys(cloudData)
         ]);
         
         allDeckIds.forEach(deckId => {
             const local = localData[deckId] || {};
-            const cloud = cloudData.decks[deckId] || {};
+            const cloud = cloudData[deckId] || {};
             
-            merged.decks[deckId] = {
+            merged[deckId] = {
                 view_count: Math.max(local.view_count || 0, cloud.view_count || 0),
                 view_count_updated: (local.view_count_updated || '') > (cloud.view_count_updated || '') 
                     ? local.view_count_updated 
@@ -391,16 +287,19 @@ const syncWithCloud = async (localData) => {
             };
         });
         
-        // Сохраняем обратно в облако
-        await saveToDrive(merged);
+        // Сохраняем обратно в Firestore
+        for (const deckId in merged) {
+            await saveToFirestore(deckId, merged[deckId]);
+        }
         
-        return merged.decks;
+        return merged;
     } catch (err) {
         console.error('Sync error:', err);
         return localData;
     }
 };
 
+// --- UI Components ---
 // --- UI Components ---
 const { useState, useEffect, useRef, useMemo } = React;
 
@@ -479,19 +378,19 @@ const App = () => {
             if (response.ok) {
                 const data = await response.json();
                 catalogData = Array.isArray(data) ? data : [data];
-                // Сохраняем в IndexedDB для оффлайн использования
+                // Сохраняем в IndexedDB
                 await saveCatalogToDB(catalogData);
-                console.log('Каталог загружен с сервера и сохранён');
+                console.log('Каталог загружен с сервера');
             }
         } catch (e) {
             console.error("Не удалось загрузить каталог с сервера:", e);
         }
         
-        // Если не удалось загрузить с сервера - берём из IndexedDB
+        // Если не удалось - берём из IndexedDB
         if (!catalogData) {
             catalogData = await getCatalogFromDB();
             if (catalogData) {
-                console.log('Каталог загружен из локального хранилища (оффлайн)');
+                console.log('Каталог загружен из IndexedDB (оффлайн)');
             } else {
                 console.error('Нет сохранённого каталога');
                 setIsLoading(false);
@@ -511,9 +410,9 @@ const App = () => {
             });
             setAllMeta(metaMap);
             
-            // Синхронизация с облаком если авторизован
+            // Синхронизация с Firebase если авторизован
             if (isGoogleAuthorized) {
-                await performSync(); // Ждём завершения синхронизации
+                await performSync();
             }
         } catch (e) {
             console.error("Ошибка обработки каталога:", e);
@@ -541,10 +440,18 @@ const App = () => {
     };
 
     useEffect(() => {
-        // Проверяем Google авторизацию
-        if (checkGoogleAuth()) {
-            setIsGoogleAuthorized(true);
-        }
+        // Загружаем Firebase и проверяем авторизацию
+        const initAuth = async () => {
+            await loadFirebase();
+            getAuth().onAuthStateChanged((user) => {
+                if (user) {
+                    setIsGoogleAuthorized(true);
+                } else {
+                    setIsGoogleAuthorized(false);
+                }
+            });
+        };
+        initAuth();
         
         loadData();
         
@@ -569,27 +476,26 @@ const App = () => {
     // Авторизация Google
     const handleGoogleSignIn = async () => {
         try {
-            await authorizeGoogle();
-            localStorage.setItem('google_authorized', 'true'); // Сохраняем флаг
+            await signInWithGoogle();
             setIsGoogleAuthorized(true);
             // Синхронизация после авторизации
             await performSync();
         } catch (err) {
-            console.error('Google sign-in error:', err);
+            console.error('Firebase sign-in error:', err);
             setSyncStatus('error');
         }
     };
 
     // Выход из Google
-    const handleGoogleSignOut = () => {
-        signOutGoogle();
+    const handleGoogleSignOut = async () => {
+        await signOutFirebase();
         setIsGoogleAuthorized(false);
         setSyncStatus('idle');
     };
 
     // Выполнить синхронизацию
     const performSync = async () => {
-        if (!isGoogleAuthorized || !googleAccessToken) return;
+        if (!isGoogleAuthorized) return;
         
         try {
             setSyncStatus('syncing');
@@ -603,8 +509,8 @@ const App = () => {
                 localData[deckId] = meta;
             }
             
-            // Синхронизируем
-            const mergedData = await syncWithCloud(localData);
+            // Синхронизируем с Firestore
+            const mergedData = await syncWithFirestore(localData);
             
             // Обновляем локальное хранилище
             for (const deckId in mergedData) {
@@ -739,7 +645,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v6.7 Offline Catalog"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.0 Firebase"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
