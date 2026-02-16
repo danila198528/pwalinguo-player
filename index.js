@@ -501,6 +501,17 @@ const App = () => {
         setSyncStatus('idle');
     };
 
+    // Перезагрузить метаданные из IndexedDB (для оффлайн обновления UI)
+    const reloadMetaFromDB = async () => {
+        const metaMap = {};
+        for (const deck of catalog) {
+            const meta = await getDeckMeta(deck.id);
+            metaMap[deck.id] = meta;
+        }
+        setAllMeta(metaMap);
+        setSyncKey(prev => prev + 1); // Обновляем UI
+    };
+
     // Выполнить синхронизацию
     const performSync = async () => {
         if (!isGoogleAuthorized) return;
@@ -653,7 +664,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.1 Firebase Fix"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.2 Offline UI"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -738,15 +749,21 @@ const App = () => {
             )
         ) : viewingDeckPage ? React.createElement(DeckPage, {
             deckMeta: viewingDeckPage,
-            onBack: () => {
+            onBack: async () => {
                 setViewingDeckPage(null);
+                // Всегда перезагружаем метаданные из IndexedDB (оффлайн + онлайн)
+                await reloadMetaFromDB();
+                // Синхронизация с облаком если авторизован
                 if (isGoogleAuthorized) performSync();
             },
             onStartPlayback: startPlayback,
             postponeOption: postponeOption,
             setPostponeOption: setPostponeOption
-        }) : React.createElement(Player, { deck: selectedDeck, audioBlob: activeAudioBlob, onBack: () => {
+        }) : React.createElement(Player, { deck: selectedDeck, audioBlob: activeAudioBlob, onBack: async () => {
             setSelectedDeck(null);
+            // Всегда перезагружаем метаданные из IndexedDB
+            await reloadMetaFromDB();
+            // Синхронизация с облаком если авторизован
             if (isGoogleAuthorized) performSync();
         } }),
         
