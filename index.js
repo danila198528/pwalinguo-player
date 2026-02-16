@@ -243,8 +243,16 @@ const saveToFirestore = async (deckId, metaData) => {
         const user = getAuth().currentUser;
         if (!user) return false;
         
+        // Удаляем undefined значения (Firestore их не принимает)
+        const cleanData = {};
+        for (const key in metaData) {
+            if (metaData[key] !== undefined) {
+                cleanData[key] = metaData[key];
+            }
+        }
+        
         const db = getFirestore();
-        await db.collection('users').doc(user.uid).collection('decks').doc(deckId).set(metaData, { merge: true });
+        await db.collection('users').doc(user.uid).collection('decks').doc(deckId).set(cleanData, { merge: true });
         return true;
     } catch (err) {
         console.error('Save to Firestore error:', err);
@@ -645,7 +653,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.0 Firebase"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.1 Firebase Fix"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
