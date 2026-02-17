@@ -664,7 +664,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.3 Old Key Restored"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.4 Progress Bar"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -1317,9 +1317,10 @@ const Player = ({ deck, audioBlob, onBack }) => {
             React.createElement("div", { className: "absolute bottom-6 left-0 right-0 flex flex-col items-center gap-4 px-4" },
                 // Прогресс-бар + время
                 React.createElement("div", { className: "w-full flex flex-col gap-2" },
-                    // Прогресс-бар - ТЕСТОВЫЙ РЕЖИМ
+                    // Прогресс-бар
                     React.createElement("div", {
-                        className: "w-full h-8 bg-red-500 rounded-lg cursor-pointer",
+                        className: "w-full rounded-lg cursor-pointer",
+                        style: { height: '32px', backgroundColor: '#ef4444' },
                         onClick: (e) => {
                             e.stopPropagation();
                             if (!audioRef.current) return;
@@ -1329,8 +1330,14 @@ const Player = ({ deck, audioBlob, onBack }) => {
                         }
                     },
                         React.createElement("div", {
-                            className: "h-full bg-yellow-500 rounded-lg",
-                            style: { width: '50%' }  // ФИКСИРОВАННЫЙ 50% ДЛЯ ТЕСТА
+                            className: "rounded-lg",
+                            style: { 
+                                width: Number.isFinite(audioRef.current?.duration) && audioRef.current?.duration > 0
+                                    ? `${(currentTime / audioRef.current.duration) * 100}%`
+                                    : '0%',
+                                height: '100%',
+                                backgroundColor: '#eab308'
+                            }
                         })
                     ),
                     // Время
