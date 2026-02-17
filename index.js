@@ -153,7 +153,7 @@ const loadDeckData = async (deckMeta) => {
 // --- Firebase Sync ---
 // Firebase Configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBpSauEJrvx_yaVKIcW_UTeUnmhkYIGMao",
+  apiKey: "AIzaSyCADM3ja8_Ra-P05fdak9wnWeFbSwXTAiY",
   authDomain: "linguoplayer-345e3.firebaseapp.com",
   projectId: "linguoplayer-345e3",
   storageBucket: "linguoplayer-345e3.firebasestorage.app",
@@ -664,7 +664,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.3 New API Key"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.3 Old Key Restored"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
