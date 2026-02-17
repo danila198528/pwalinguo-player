@@ -664,7 +664,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.4 Progress Bar"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.5 Progress Bar UI"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -1314,13 +1314,13 @@ const Player = ({ deck, audioBlob, onBack }) => {
             ),
             
             // Центральные контролы с прогресс-баром
-            React.createElement("div", { className: "absolute bottom-6 left-0 right-0 flex flex-col items-center gap-4 px-4" },
+            React.createElement("div", { className: "absolute bottom-6 left-0 right-0 flex flex-col items-center gap-4 px-6" },
                 // Прогресс-бар + время
-                React.createElement("div", { className: "w-full flex flex-col gap-2" },
+                React.createElement("div", { className: "w-full flex flex-col gap-1" },
                     // Прогресс-бар
                     React.createElement("div", {
-                        className: "w-full rounded-lg cursor-pointer",
-                        style: { height: '32px', backgroundColor: '#ef4444' },
+                        className: "w-full rounded-full cursor-pointer relative",
+                        style: { height: '6px', backgroundColor: 'rgba(255,255,255,0.25)' },
                         onClick: (e) => {
                             e.stopPropagation();
                             if (!audioRef.current) return;
@@ -1329,19 +1329,36 @@ const Player = ({ deck, audioBlob, onBack }) => {
                             audioRef.current.currentTime = pos * (Number.isFinite(audioRef.current.duration) ? audioRef.current.duration : 1);
                         }
                     },
+                        // Заполненная часть
                         React.createElement("div", {
-                            className: "rounded-lg",
+                            className: "rounded-full",
                             style: { 
                                 width: Number.isFinite(audioRef.current?.duration) && audioRef.current?.duration > 0
                                     ? `${(currentTime / audioRef.current.duration) * 100}%`
                                     : '0%',
                                 height: '100%',
-                                backgroundColor: '#eab308'
+                                backgroundColor: '#ffffff'
+                            }
+                        }),
+                        // Ручка (кружок)
+                        React.createElement("div", {
+                            style: {
+                                position: 'absolute',
+                                top: '50%',
+                                left: Number.isFinite(audioRef.current?.duration) && audioRef.current?.duration > 0
+                                    ? `${(currentTime / audioRef.current.duration) * 100}%`
+                                    : '0%',
+                                transform: 'translate(-50%, -50%)',
+                                width: '14px',
+                                height: '14px',
+                                borderRadius: '50%',
+                                backgroundColor: '#ffffff',
+                                boxShadow: '0 0 4px rgba(0,0,0,0.3)'
                             }
                         })
                     ),
                     // Время
-                    React.createElement("div", { className: "flex justify-between text-white text-sm font-bold" },
+                    React.createElement("div", { className: "flex justify-between text-sm font-medium", style: { color: 'rgba(255,255,255,0.7)' } },
                         React.createElement("span", null, 
                             Math.floor(currentTime / 60) + ":" + String(Math.floor(currentTime % 60)).padStart(2, '0')
                         ),
