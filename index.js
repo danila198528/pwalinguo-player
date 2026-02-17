@@ -664,7 +664,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.5 Progress Bar UI"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.6 Progress Fix"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -1320,7 +1320,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                     // Прогресс-бар
                     React.createElement("div", {
                         className: "w-full rounded-full cursor-pointer relative",
-                        style: { height: '6px', backgroundColor: 'rgba(255,255,255,0.25)' },
+                        style: { height: '6px', backgroundColor: '#3b82f6' },
                         onClick: (e) => {
                             e.stopPropagation();
                             if (!audioRef.current) return;
@@ -1336,8 +1336,8 @@ const Player = ({ deck, audioBlob, onBack }) => {
                                 width: Number.isFinite(audioRef.current?.duration) && audioRef.current?.duration > 0
                                     ? `${(currentTime / audioRef.current.duration) * 100}%`
                                     : '0%',
-                                height: '100%',
-                                backgroundColor: '#ffffff'
+                                height: '6px',
+                                backgroundColor: '#22c55e'
                             }
                         }),
                         // Ручка (кружок)
@@ -1352,7 +1352,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                                 width: '14px',
                                 height: '14px',
                                 borderRadius: '50%',
-                                backgroundColor: '#ffffff',
+                                backgroundColor: '#22c55e',
                                 boxShadow: '0 0 4px rgba(0,0,0,0.3)'
                             }
                         })
