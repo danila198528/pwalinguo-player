@@ -337,7 +337,10 @@ const DeckCard = ({ deckMeta, meta, onSelect, onDownload, onDelete, isDownloadin
                 ),
                 // Дата откладывания
                 React.createElement("span", { 
-                    className: `text-10 px-2 py-0.5 rounded uppercase font-bold ${dateExpired ? 'text-red-400 bg-red-900/30' : 'text-slate-500 bg-slate-800'}`
+                    className: "text-10 px-2 py-0.5 rounded uppercase font-bold",
+                    style: dateExpired 
+                        ? { color: '#f87171', backgroundColor: 'rgba(153,27,27,0.3)' }
+                        : { color: '#64748b', backgroundColor: '#1e293b' }
                 }, 
                     meta ? formatDate(meta.postponed_until) : '—'
                 ),
@@ -664,7 +667,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.7 Progress Final"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.8 UI Updates"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -687,19 +690,19 @@ const App = () => {
             // Google Sign In / Sign Out
             !isGoogleAuthorized ? React.createElement("button", {
                 onClick: handleGoogleSignIn,
-                className: "w-full bg-white text-black px-4 py-3 rounded-xl text-sm font-black uppercase tracking-wider active:scale-95 transition-all mb-4 border-2 border-slate-800 flex items-center justify-center gap-2"
+                className: "w-full bg-white text-black px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider active:scale-95 transition-all mb-2 border-2 border-slate-700 flex items-center justify-center gap-2"
             }, 
                 React.createElement("span", null, "🔐"),
-                "Войти через Google для синхронизации"
+                "Войти через Google"
             ) : React.createElement("button", {
                 onClick: handleGoogleSignOut,
-                className: "w-full bg-slate-800 text-white px-4 py-3 rounded-xl text-xs font-bold active:scale-95 transition-all mb-2"
-            }, "Выйти из Google"),
+                className: "w-full bg-slate-800 text-white px-5 py-4 rounded-2xl text-xs font-bold active:scale-95 transition-all mb-2"
+            }, "☁️ Выйти из Google"),
             
             React.createElement("button", {
                 onClick: loadData,
                 disabled: isLoading,
-                className: "w-full bg-blue-600 hover:bg-blue-500 px-4 py-3 rounded-xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all mb-2"
+                className: "w-full bg-blue-600 hover:bg-blue-500 px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all mb-6"
             }, isLoading ? "Обновляем..." : (() => {
                 if (!lastSyncTime) return "🔄 Обновить колоды";
                 const minutes = Math.floor((Date.now() - lastSyncTime) / 60000);
@@ -709,11 +712,8 @@ const App = () => {
                 const hours = Math.floor(minutes / 60);
                 return `🔄 Обновить колоды (${hours}ч назад)`;
             })()),
-            React.createElement("button", {
-                onClick: updateApp,
-                disabled: isLoading,
-                className: "w-full bg-slate-700 hover:bg-slate-600 px-4 py-3 rounded-xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all mb-4"
-            }, "🔄 Обновить приложение"),
+
+            // Список колод
             React.createElement("div", { className: "grid gap-3" }, 
                 Object.keys(groupedDecks).map(groupName =>
                     React.createElement("div", { key: groupName, className: "bg-slate-900/30 border border-slate-800 rounded-2xl overflow-hidden" },
@@ -725,7 +725,9 @@ const App = () => {
                             React.createElement("div", { className: "flex items-center gap-3" },
                                 React.createElement("span", { className: "text-2xl" }, expandedGroups[groupName] ? "▼" : "▶"),
                                 React.createElement("span", { className: "font-black text-slate-200 uppercase tracking-tight" }, groupName),
-                                React.createElement("span", { className: "text-xs text-slate-500 bg-slate-800 px-2 py-0.5 rounded font-bold" }, groupedDecks[groupName].length)
+                                React.createElement("span", { 
+                                    className: `text-xs px-2 py-0.5 rounded font-bold ${groupName === 'Out of date' && groupedDecks[groupName].length > 0 ? 'text-red-400 bg-red-900/40' : 'text-slate-500 bg-slate-800'}`
+                                }, groupedDecks[groupName].length)
                             )
                         ),
                         // Список колод в группе
@@ -746,6 +748,15 @@ const App = () => {
                         )
                     )
                 )
+            ),
+
+            // Кнопка обновления приложения внизу
+            React.createElement("div", { className: "mt-6 pt-4 border-t border-slate-800" },
+                React.createElement("button", {
+                    onClick: updateApp,
+                    disabled: isLoading,
+                    className: "w-full bg-slate-800/50 text-slate-500 px-4 py-3 rounded-xl text-xs font-bold disabled:opacity-20 active:scale-95 transition-all"
+                }, "🔄 Обновить приложение")
             )
         ) : viewingDeckPage ? React.createElement(DeckPage, {
             deckMeta: viewingDeckPage,
