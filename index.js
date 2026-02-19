@@ -329,7 +329,10 @@ const DeckCard = ({ deckMeta, meta, onSelect, onDownload, onDelete, isDownloadin
 
     return React.createElement("div", { className: "bg-slate-900/50 border border-slate-800 p-4 rounded-xl flex justify-between items-center" },
         React.createElement("div", { className: "flex-1 cursor-pointer", onClick: onSelect },
-            React.createElement("h3", { className: "font-bold text-slate-200" }, deckMeta.deck_name),
+            React.createElement("h3", { 
+                className: "font-bold",
+                style: { color: dateExpired ? '#f87171' : '#e2e8f0' }
+            }, deckMeta.deck_name),
             React.createElement("div", { className: "flex gap-3 mt-2" },
                 // Длительность
                 React.createElement("span", { className: "text-10 text-slate-500 bg-slate-800 px-2 py-0.5 rounded uppercase font-bold" }, 
@@ -626,13 +629,20 @@ const App = () => {
     const groupedDecks = useMemo(() => {
         const groups = {};
         const outOfDate = [];
+        let withoutGroup = [];
         
         catalog.forEach(deck => {
             const groupName = deck.group || 'Без группы';
-            if (!groups[groupName]) {
-                groups[groupName] = [];
+            
+            // Отдельно собираем "Без группы"
+            if (groupName === 'Без группы') {
+                withoutGroup.push(deck);
+            } else {
+                if (!groups[groupName]) {
+                    groups[groupName] = [];
+                }
+                groups[groupName].push(deck);
             }
-            groups[groupName].push(deck);
             
             // Проверяем истекла ли дата
             const meta = allMeta[deck.id];
@@ -644,8 +654,12 @@ const App = () => {
             }
         });
         
-        // Всегда добавляем группу "Out of date" первой (даже если пустая)
-        return { 'Out of date': outOfDate, ...groups };
+        // Порядок: Out of date первая, потом остальные группы, Без группы последняя
+        return { 
+            'Out of date': outOfDate, 
+            ...groups, 
+            ...(withoutGroup.length > 0 ? { 'Без группы': withoutGroup } : {})
+        };
     }, [catalog, allMeta]);
 
     const toggleGroup = (groupName) => {
@@ -667,7 +681,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.8 UI Updates"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.9 UI Polish"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -690,14 +704,17 @@ const App = () => {
             // Google Sign In / Sign Out
             !isGoogleAuthorized ? React.createElement("button", {
                 onClick: handleGoogleSignIn,
-                className: "w-full bg-white text-black px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider active:scale-95 transition-all mb-2 border-2 border-slate-700 flex items-center justify-center gap-2"
+                className: "w-full bg-white text-black px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider active:scale-95 transition-all mb-3 border-2 border-slate-700 flex items-center justify-center gap-2"
             }, 
                 React.createElement("span", null, "🔐"),
                 "Войти через Google"
             ) : React.createElement("button", {
                 onClick: handleGoogleSignOut,
-                className: "w-full bg-slate-800 text-white px-5 py-4 rounded-2xl text-xs font-bold active:scale-95 transition-all mb-2"
+                className: "w-full bg-slate-800 text-white px-5 py-4 rounded-2xl text-xs font-bold active:scale-95 transition-all mb-3"
             }, "☁️ Выйти из Google"),
+            
+            // Разделитель
+            React.createElement("div", { className: "w-full border-t my-2", style: { borderColor: 'rgba(100, 116, 139, 0.2)' } }),
             
             React.createElement("button", {
                 onClick: loadData,
@@ -726,7 +743,10 @@ const App = () => {
                                 React.createElement("span", { className: "text-2xl" }, expandedGroups[groupName] ? "▼" : "▶"),
                                 React.createElement("span", { className: "font-black text-slate-200 uppercase tracking-tight" }, groupName),
                                 React.createElement("span", { 
-                                    className: `text-xs px-2 py-0.5 rounded font-bold ${groupName === 'Out of date' && groupedDecks[groupName].length > 0 ? 'text-red-400 bg-red-900/40' : 'text-slate-500 bg-slate-800'}`
+                                    className: "text-xs px-2 py-0.5 rounded font-bold",
+                                    style: groupName === 'Out of date' && groupedDecks[groupName].length > 0 
+                                        ? { color: '#f87171', backgroundColor: 'rgba(153,27,27,0.4)' }
+                                        : { color: '#64748b', backgroundColor: '#1e293b' }
                                 }, groupedDecks[groupName].length)
                             )
                         ),
@@ -755,7 +775,7 @@ const App = () => {
                 React.createElement("button", {
                     onClick: updateApp,
                     disabled: isLoading,
-                    className: "w-full bg-slate-800/50 text-slate-500 px-4 py-3 rounded-xl text-xs font-bold disabled:opacity-20 active:scale-95 transition-all"
+                    className: "w-full bg-slate-800/50 text-slate-500 px-5 py-4 rounded-2xl text-sm font-bold disabled:opacity-20 active:scale-95 transition-all"
                 }, "🔄 Обновить приложение")
             )
         ) : viewingDeckPage ? React.createElement(DeckPage, {
