@@ -681,7 +681,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v8.0 Final Polish"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v8.4 Player Center"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -1407,7 +1407,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
             ),
             
             // Центральные контролы с прогресс-баром
-            React.createElement("div", { className: "absolute bottom-0 left-0 right-0 flex flex-col items-center justify-end px-6", style: { height: '180px' } },
+            React.createElement("div", { className: "absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center px-6", style: { height: '180px' } },
                 // Прогресс-бар + время
                 React.createElement("div", { className: "w-full flex flex-col gap-1" },
                     // Прогресс-бар
@@ -1478,7 +1478,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 ),
                 
                 // Кнопки управления
-                React.createElement("div", { className: "flex items-center justify-center gap-12 mb-6" },
+                React.createElement("div", { className: "flex items-center justify-center gap-12" },
                     // Кнопка назад на предыдущий субтитр
                     React.createElement("button", {
                         onClick: handlePrevious,
