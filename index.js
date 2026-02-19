@@ -770,13 +770,31 @@ const App = () => {
                 )
             ),
 
-            // Кнопка обновления приложения внизу
-            React.createElement("div", { className: "mt-6 pt-4 border-t border-slate-800" },
+            // Кнопки внизу
+            React.createElement("div", { className: "mt-6 pt-4 border-t border-slate-800 space-y-2" },
                 React.createElement("button", {
                     onClick: updateApp,
                     disabled: isLoading,
-                    className: "w-full bg-slate-800/50 text-slate-500 px-5 py-4 rounded-2xl text-sm font-bold disabled:opacity-20 active:scale-95 transition-all"
-                }, "🔄 Обновить приложение")
+                    className: "w-full bg-slate-800/50 text-slate-500 px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
+                }, "🔄 ОБНОВИТЬ ПРИЛОЖЕНИЕ"),
+                
+                React.createElement("button", {
+                    onClick: async () => {
+                        if (isDownloading) return;
+                        // Скачиваем только ещё не скачанные колоды
+                        const toDownload = catalog.filter(deck => !downloadedIds.includes(deck.id));
+                        if (toDownload.length === 0) {
+                            alert('Все колоды уже скачаны!');
+                            return;
+                        }
+                        // Скачиваем по очереди
+                        for (const deck of toDownload) {
+                            await handleDownload(deck);
+                        }
+                    },
+                    disabled: isDownloading || isOffline,
+                    className: "w-full bg-blue-600/50 text-blue-200 px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
+                }, "⬇️ СКАЧАТЬ ВСЕ АУДИО")
             )
         ) : viewingDeckPage ? React.createElement(DeckPage, {
             deckMeta: viewingDeckPage,
