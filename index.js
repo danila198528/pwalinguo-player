@@ -775,7 +775,7 @@ const App = () => {
                 React.createElement("button", {
                     onClick: updateApp,
                     disabled: isLoading,
-                    className: "w-full bg-slate-800/50 text-slate-500 px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
+                    className: "w-full bg-blue-600 hover:bg-blue-500 px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
                 }, "🔄 ОБНОВИТЬ ПРИЛОЖЕНИЕ"),
                 
                 React.createElement("button", {
@@ -787,14 +787,50 @@ const App = () => {
                             alert('Все колоды уже скачаны!');
                             return;
                         }
+                        
+                        const failed = [];
                         // Скачиваем по очереди
                         for (const deck of toDownload) {
-                            await handleDownload(deck);
+                            try {
+                                setIsDownloading(true);
+                                const fullDeck = await loadDeckData(deck);
+                                const audioResponse = await fetch(fullDeck.audio_url);
+                                
+                                if (!audioResponse.ok) {
+                                    throw new Error(`Ошибка аудио: ${audioResponse.status}`);
+                                }
+                                
+                                const blob = await audioResponse.blob();
+                                
+                                if (blob.size === 0) {
+                                    throw new Error("Пустой аудиофайл");
+                                }
+                                
+                                await saveDeckToDB({
+                                    id: fullDeck.id,
+                                    metadata: fullDeck,
+                                    audioBlob: blob
+                                });
+                                
+                                setDownloadedIds(prev => [...prev, fullDeck.id]);
+                            } catch (err) {
+                                console.error(`Ошибка скачивания ${deck.deck_name}:`, err);
+                                failed.push(deck.deck_name);
+                            }
+                        }
+                        
+                        setIsDownloading(false);
+                        
+                        // Финальный отчёт
+                        if (failed.length === 0) {
+                            alert(`✅ Все колоды успешно скачаны! (${toDownload.length} шт.)`);
+                        } else {
+                            alert(`⚠️ Скачано: ${toDownload.length - failed.length}\nНе удалось: ${failed.join(', ')}`);
                         }
                     },
                     disabled: isDownloading || isOffline,
-                    className: "w-full bg-blue-600/50 text-blue-200 px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
-                }, "⬇️ СКАЧАТЬ ВСЕ АУДИО")
+                    className: "w-full bg-blue-600 hover:bg-blue-500 px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all"
+                }, isDownloading ? "СКАЧИВАЕМ..." : "⬇️ СКАЧАТЬ ВСЕ АУДИО")
             )
         ) : viewingDeckPage ? React.createElement(DeckPage, {
             deckMeta: viewingDeckPage,
@@ -1010,6 +1046,7 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
 
 const Player = ({ deck, audioBlob, onBack }) => {
     const [currentTime, setCurrentTime] = useState(0);
+    const [isSeeking, setIsSeeking] = useState(false);
     const [isPlaying, setIsPlaying] = useState(false);
     const [showControls, setShowControls] = useState(false);
     const [isFullscreen, setIsFullscreen] = useState(false);
@@ -1070,7 +1107,16 @@ const Player = ({ deck, audioBlob, onBack }) => {
 
     // Обработчики аудио
     const handleTimeUpdate = () => {
-        if (audioRef.current) setCurrentTime(audioRef.current.currentTime);
+        if (audioRef.current && !isSeeking) {
+            setCurrentTime(audioRef.current.currentTime);
+        }
+    };
+
+    const handleSeeked = () => {
+        setIsSeeking(false);
+        if (audioRef.current) {
+            setCurrentTime(audioRef.current.currentTime);
+        }
     };
 
     // Функция активации NoSleep (вызывается при первом play)
@@ -1295,6 +1341,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
             ref: audioRef,
             src: audioUrl,
             onTimeUpdate: handleTimeUpdate,
+            onSeeked: handleSeeked,
             onPlay: () => {
                 setIsPlaying(true);
                 activateNoSleep();
@@ -1352,7 +1399,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
         },
 
             // Верхняя панель (кнопка назад в меню)
-            React.createElement("div", { className: "absolute top-14 left-6 flex items-center gap-3" },
+            React.createElement("div", { className: "absolute", style: { top: '24px', left: '24px' } },
                 React.createElement("button", {
                     onClick: handleBack,
                     className: "w-12 h-12 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
@@ -1360,7 +1407,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
             ),
             
             // Центральные контролы с прогресс-баром
-            React.createElement("div", { className: "absolute bottom-6 left-0 right-0 flex flex-col items-center gap-4 px-6" },
+            React.createElement("div", { className: "absolute bottom-0 left-0 right-0 flex flex-col items-center justify-end px-6", style: { height: '180px' } },
                 // Прогресс-бар + время
                 React.createElement("div", { className: "w-full flex flex-col gap-1" },
                     // Прогресс-бар
@@ -1370,6 +1417,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                         onClick: (e) => {
                             e.stopPropagation();
                             if (!audioRef.current || !deck.sentences) return;
+                            setIsSeeking(true);
                             const rect = e.currentTarget.getBoundingClientRect();
                             const pos = (e.clientX - rect.left) / rect.width;
                             const targetTime = pos * (Number.isFinite(audioRef.current.duration) ? audioRef.current.duration : 1);
@@ -1430,23 +1478,26 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 ),
                 
                 // Кнопки управления
-                React.createElement("div", { className: "flex items-center justify-center gap-12" },
+                React.createElement("div", { className: "flex items-center justify-center gap-12 mb-6" },
                     // Кнопка назад на предыдущий субтитр
                     React.createElement("button", {
                         onClick: handlePrevious,
-                        className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
+                        className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200",
+                        style: { fontSize: '22px' }
                     }, "⏮"),
                     
                     // Кнопка паузы/воспроизведения
                     React.createElement("button", {
                         onClick: togglePlay,
-                        className: "w-20 h-20 bg-black rounded-full flex items-center justify-center text-3xl text-white shadow-lg hover:scale-105 active:scale-95 transition-all"
+                        className: "w-20 h-20 bg-black rounded-full flex items-center justify-center text-white shadow-lg hover:scale-105 active:scale-95 transition-all",
+                        style: { fontSize: '32px' }
                     }, isPlaying ? '⏸' : '▶'),
                     
                     // Кнопка полноэкранного режима
                     React.createElement("button", {
                         onClick: toggleFullscreen,
-                        className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
+                        className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200",
+                        style: { fontSize: '22px', fontWeight: '900' }
                     }, isFullscreen ? '⤢' : '⤡')
                 )
             )
