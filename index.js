@@ -6,7 +6,7 @@ import NoSleep from 'https://esm.sh/nosleep.js@0.12.0';
 // --- IndexedDB функции ---
 const openDB = () => {
     return new Promise((resolve, reject) => {
-        const request = indexedDB.open('LinguoDB_v6_Firebase', 1);
+        const request = indexedDB.open('LinguoDB_v6_Firebase', 2);
         request.onupgradeneeded = (event) => {
             const db = event.target.result;
             if (!db.objectStoreNames.contains('decks')) {
