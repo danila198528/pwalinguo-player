@@ -681,7 +681,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v7.9 UI Polish"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v8.0 Final Polish"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -707,14 +707,14 @@ const App = () => {
                 className: "w-full bg-white text-black px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider active:scale-95 transition-all mb-3 border-2 border-slate-700 flex items-center justify-center gap-2"
             }, 
                 React.createElement("span", null, "🔐"),
-                "Войти через Google"
+                "ВОЙТИ ЧЕРЕЗ GOOGLE"
             ) : React.createElement("button", {
                 onClick: handleGoogleSignOut,
-                className: "w-full bg-slate-800 text-white px-5 py-4 rounded-2xl text-xs font-bold active:scale-95 transition-all mb-3"
-            }, "☁️ Выйти из Google"),
+                className: "w-full bg-slate-800 text-white px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider active:scale-95 transition-all mb-3"
+            }, "☁️ ВЫЙТИ ИЗ GOOGLE"),
             
             // Разделитель
-            React.createElement("div", { className: "w-full border-t my-2", style: { borderColor: 'rgba(100, 116, 139, 0.2)' } }),
+            React.createElement("div", { className: "w-full my-4", style: { height: '1px', backgroundColor: 'rgba(100, 116, 139, 0.3)' } }),
             
             React.createElement("button", {
                 onClick: loadData,
@@ -1338,10 +1338,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 React.createElement("button", {
                     onClick: handleBack,
                     className: "w-12 h-12 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200"
-                }, "←"),
-                React.createElement("div", { 
-                    className: "bg-white text-black px-3 py-1 rounded-full text-xs font-bold shadow-lg border border-gray-200"
-                }, "v5.2 + DatePicker")
+                }, "←")
             ),
             
             // Центральные контролы с прогресс-баром
@@ -1393,16 +1390,24 @@ const Player = ({ deck, audioBlob, onBack }) => {
                             }
                         })
                     ),
-                    // Время
-                    React.createElement("div", { className: "flex justify-between text-xs font-medium", style: { color: 'rgba(0,0,0,0.4)' } },
-                        React.createElement("span", null, 
-                            Math.floor(currentTime / 60) + ":" + String(Math.floor(currentTime % 60)).padStart(2, '0')
-                        ),
-                        React.createElement("span", null,
-                            Number.isFinite(audioRef.current?.duration) 
-                                ? Math.floor(audioRef.current.duration / 60) + ":" + String(Math.floor(audioRef.current.duration % 60)).padStart(2, '0')
-                                : "0:00"
-                        )
+                    // Время в стиле YouTube (слева сверху над прогресс-баром)
+                    React.createElement("div", { 
+                        className: "absolute",
+                        style: { 
+                            left: '6px', 
+                            top: '-28px',
+                            backgroundColor: 'rgba(0,0,0,0.65)',
+                            color: '#ffffff',
+                            padding: '4px 8px',
+                            borderRadius: '4px',
+                            fontSize: '11px',
+                            fontWeight: '500'
+                        }
+                    }, 
+                        Math.floor(currentTime / 60) + ":" + String(Math.floor(currentTime % 60)).padStart(2, '0') + " / " +
+                        (Number.isFinite(audioRef.current?.duration) 
+                            ? Math.floor(audioRef.current.duration / 60) + ":" + String(Math.floor(audioRef.current.duration % 60)).padStart(2, '0')
+                            : "0:00")
                     )
                 ),
                 
