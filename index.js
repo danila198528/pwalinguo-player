@@ -681,7 +681,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v8.5 Layout Fix"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v8.6 Center Fix"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -1407,9 +1407,9 @@ const Player = ({ deck, audioBlob, onBack }) => {
             ),
             
             // Центральные контролы с прогресс-баром
-            React.createElement("div", { className: "absolute bottom-0 left-0 right-0 flex flex-col px-6", style: { height: '180px' } },
-                // Зона прогресс-бара (фиксированная высота сверху)
-                React.createElement("div", { className: "w-full flex flex-col gap-1", style: { height: '40px' } },
+            React.createElement("div", { className: "absolute left-0 right-0 px-6", style: { bottom: '0', height: '140px', position: 'relative' } },
+                // Прогресс-бар сверху
+                React.createElement("div", { className: "w-full flex flex-col gap-1", style: { paddingTop: '10px' } },
                     // Прогресс-бар
                     React.createElement("div", {
                         className: "w-full rounded-full cursor-pointer relative",
@@ -1477,13 +1477,20 @@ const Player = ({ deck, audioBlob, onBack }) => {
                     )
                 ),
                 
-                // Зона кнопок (занимает оставшееся пространство и центрирует кнопки)
-                React.createElement("div", { className: "flex items-center justify-center", style: { flex: 1 } },
-                    React.createElement("div", { className: "flex items-center justify-center gap-12" },
-                        // Кнопка назад на предыдущий субтитр
-                        React.createElement("button", {
-                            onClick: handlePrevious,
-                            className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200",
+                // Кнопки управления (absolute по центру всего блока)
+                React.createElement("div", { 
+                    className: "flex items-center justify-center gap-12",
+                    style: { 
+                        position: 'absolute',
+                        top: '50%',
+                        left: '50%',
+                        transform: 'translate(-50%, -50%)'
+                    }
+                },
+                    // Кнопка назад на предыдущий субтитр
+                    React.createElement("button", {
+                        onClick: handlePrevious,
+                        className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200",
                         style: { fontSize: '22px' }
                     }, "⏮"),
                     
@@ -1500,7 +1507,6 @@ const Player = ({ deck, audioBlob, onBack }) => {
                         className: "w-14 h-14 rounded-full flex items-center justify-center text-black bg-white shadow-lg hover:bg-gray-100 active:scale-90 transition-all border border-gray-200",
                         style: { fontSize: '22px', fontWeight: '900' }
                     }, isFullscreen ? '⤢' : '⤡')
-                    )
                 )
             )
         ),
