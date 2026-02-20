@@ -681,7 +681,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v8.6 Center Fix"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v8.7 Position Fix"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -1407,7 +1407,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
             ),
             
             // Центральные контролы с прогресс-баром
-            React.createElement("div", { className: "absolute left-0 right-0 px-6", style: { bottom: '0', height: '140px', position: 'relative' } },
+            React.createElement("div", { className: "absolute left-0 right-0 bottom-0 px-6", style: { height: '140px' } },
                 // Прогресс-бар сверху
                 React.createElement("div", { className: "w-full flex flex-col gap-1", style: { paddingTop: '10px' } },
                     // Прогресс-бар
