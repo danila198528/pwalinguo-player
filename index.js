@@ -681,7 +681,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v9.2 Spacing Fix"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v9.3 NoSleep + Spacing"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -771,7 +771,7 @@ const App = () => {
             ),
 
             // Кнопки внизу
-            React.createElement("div", { className: "mt-10 pt-4 border-t border-slate-800 space-y-2" },
+            React.createElement("div", { className: "mt-6 space-y-2" },
                 React.createElement("button", {
                     onClick: updateApp,
                     disabled: isLoading,
@@ -1069,11 +1069,9 @@ const Player = ({ deck, audioBlob, onBack }) => {
 
     // Wake Lock для предотвращения блокировки экрана
     useEffect(() => {
-        // Создаём NoSleep instance для использования позже
-        if (!('wakeLock' in navigator)) {
-            noSleepRef.current = new NoSleep();
-            console.log('NoSleep.js инициализирован (будет активирован при play)');
-        }
+        // Всегда создаём NoSleep для fallback на iOS
+        noSleepRef.current = new NoSleep();
+        console.log('NoSleep.js инициализирован');
 
         return () => {
             if (noSleepRef.current) {
@@ -1123,14 +1121,23 @@ const Player = ({ deck, audioBlob, onBack }) => {
     const activateNoSleep = async () => {
         try {
             if ('wakeLock' in navigator) {
-                await navigator.wakeLock.request('screen');
-                console.log('Wake Lock активирован');
+                try {
+                    await navigator.wakeLock.request('screen');
+                    console.log('Wake Lock активирован');
+                } catch (wakeLockErr) {
+                    // Fallback на NoSleep если wakeLock не сработал
+                    console.log('Wake Lock не сработал, используем NoSleep:', wakeLockErr);
+                    if (noSleepRef.current) {
+                        noSleepRef.current.enable();
+                        console.log('NoSleep.js активирован (fallback)');
+                    }
+                }
             } else if (noSleepRef.current) {
                 noSleepRef.current.enable();
                 console.log('NoSleep.js активирован');
             }
         } catch (err) {
-            console.log('Wake Lock ошибка:', err);
+            console.log('Ошибка активации Wake Lock:', err);
         }
     };
 
