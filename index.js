@@ -681,7 +681,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v8.9 Arrow Center"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v9.0 Wake Lock Fix"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -770,8 +770,12 @@ const App = () => {
                 )
             ),
 
+            
+            // Разделитель
+            React.createElement("div", { className: "w-full my-4", style: { height: '1px', backgroundColor: 'rgba(100, 116, 139, 0.3)' } }),
+            
             // Кнопки внизу
-            React.createElement("div", { className: "mt-6 pt-4 border-t border-slate-800 space-y-2" },
+            React.createElement("div", { className: "space-y-2" },
                 React.createElement("button", {
                     onClick: updateApp,
                     disabled: isLoading,
@@ -1140,6 +1144,9 @@ const Player = ({ deck, audioBlob, onBack }) => {
         if (isPlaying) {
             audioRef.current.pause();
         } else {
+            // Активируем Wake Lock при клике пользователя
+            activateNoSleep();
+            
             if (audioRef.current.readyState >= 2) {
                 audioRef.current.play().catch(err => {
                     console.error('Play error:', err);
