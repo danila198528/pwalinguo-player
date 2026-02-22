@@ -681,7 +681,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v9.3 NoSleep + Spacing"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v9.4 Final NoSleep"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -770,8 +770,11 @@ const App = () => {
                 )
             ),
 
+            // Spacer перед нижними кнопками (гарантированный отступ)
+            React.createElement("div", { style: { height: '24px' } }),
+
             // Кнопки внизу
-            React.createElement("div", { className: "mt-6 space-y-2" },
+            React.createElement("div", { className: "space-y-2" },
                 React.createElement("button", {
                     onClick: updateApp,
                     disabled: isLoading,
@@ -1117,27 +1120,15 @@ const Player = ({ deck, audioBlob, onBack }) => {
         }
     };
 
-    // Функция активации NoSleep (вызывается при первом play)
-    const activateNoSleep = async () => {
-        try {
-            if ('wakeLock' in navigator) {
-                try {
-                    await navigator.wakeLock.request('screen');
-                    console.log('Wake Lock активирован');
-                } catch (wakeLockErr) {
-                    // Fallback на NoSleep если wakeLock не сработал
-                    console.log('Wake Lock не сработал, используем NoSleep:', wakeLockErr);
-                    if (noSleepRef.current) {
-                        noSleepRef.current.enable();
-                        console.log('NoSleep.js активирован (fallback)');
-                    }
-                }
-            } else if (noSleepRef.current) {
-                noSleepRef.current.enable();
-                console.log('NoSleep.js активирован');
+    // Функция активации Wake Lock (async, только для Android/новых iOS)
+    const activateWakeLock = async () => {
+        if ('wakeLock' in navigator) {
+            try {
+                await navigator.wakeLock.request('screen');
+                console.log('Wake Lock активирован');
+            } catch (err) {
+                console.log('Wake Lock не сработал:', err);
             }
-        } catch (err) {
-            console.log('Ошибка активации Wake Lock:', err);
         }
     };
 
@@ -1147,6 +1138,19 @@ const Player = ({ deck, audioBlob, onBack }) => {
         if (isPlaying) {
             audioRef.current.pause();
         } else {
+            // СИНХРОННО активируем NoSleep для старого iOS (до любых async/setState)
+            if (noSleepRef.current) {
+                try {
+                    noSleepRef.current.enable();
+                    console.log('NoSleep.js активирован синхронно');
+                } catch (err) {
+                    console.log('NoSleep ошибка:', err);
+                }
+            }
+            
+            // Async Wake Lock для Android/новых iOS (не блокирует)
+            activateWakeLock();
+            
             if (audioRef.current.readyState >= 2) {
                 audioRef.current.play().catch(err => {
                     console.error('Play error:', err);
@@ -1351,7 +1355,6 @@ const Player = ({ deck, audioBlob, onBack }) => {
             onSeeked: handleSeeked,
             onPlay: () => {
                 setIsPlaying(true);
-                activateNoSleep();
             },
             onPause: () => setIsPlaying(false),
             onEnded: () => {
