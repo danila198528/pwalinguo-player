@@ -1,0 +1,367 @@
+{
+  "id": "deck-25",
+  "deck_name": "collocation 1",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation1.mp3",
+  "group": "collocation",
+  "total_duration": 779.69,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Can you · tell me the time?",
+      "russian": "Можешь · сказать, который час?",
+      "start": 0.0,
+      "end": 14.929
+    },
+    {
+      "id": 2,
+      "english": "I'll be back · in a moment.",
+      "russian": "Я вернусь · через минуту.",
+      "start": 14.929,
+      "end": 29.451
+    },
+    {
+      "id": 3,
+      "english": "I'm living with my parents · for the time being.",
+      "russian": "Я пока · живу с родителями.",
+      "start": 29.451,
+      "end": 45.862
+    },
+    {
+      "id": 4,
+      "english": "We · made a loss last year.",
+      "russian": "В прошлом году мы · были в убытке.",
+      "start": 45.862,
+      "end": 61.142
+    },
+    {
+      "id": 5,
+      "english": "The meeting · takes place on Friday.",
+      "russian": "Встреча · состоится в пятницу.",
+      "start": 61.142,
+      "end": 77.044
+    },
+    {
+      "id": 6,
+      "english": "I think I'm · falling in love with you.",
+      "russian": "Кажется, я · влюбляюсь в тебя.",
+      "start": 77.044,
+      "end": 92.568
+    },
+    {
+      "id": 7,
+      "english": "I'm · doing some research for my project.",
+      "russian": "Я · провожу небольшое исследование для своего проекта.",
+      "start": 92.568,
+      "end": 108.826
+    },
+    {
+      "id": 8,
+      "english": "This is just the · first draft.",
+      "russian": "Это только · первый черновик.",
+      "start": 108.826,
+      "end": 124.224
+    },
+    {
+      "id": 9,
+      "english": "The traffic was really · heavy this morning.",
+      "russian": "Сегодня утром было очень · интенсивное движение.",
+      "start": 124.224,
+      "end": 140.454
+    },
+    {
+      "id": 10,
+      "english": "I · spend too much money on clothes.",
+      "russian": "Я · трачу слишком много денег на одежду.",
+      "start": 140.454,
+      "end": 156.761
+    },
+    {
+      "id": 11,
+      "english": "Don't · waste your money on that.",
+      "russian": "Не · трать деньги на это зря.",
+      "start": 156.761,
+      "end": 171.993
+    },
+    {
+      "id": 12,
+      "english": "Please · make an effort.",
+      "russian": "Пожалуйста, · постарайся.",
+      "start": 171.993,
+      "end": 186.199
+    },
+    {
+      "id": 13,
+      "english": "He · told me a funny story.",
+      "russian": "Он · рассказал мне забавную историю.",
+      "start": 186.199,
+      "end": 201.245
+    },
+    {
+      "id": 14,
+      "english": "He · earns a good salary.",
+      "russian": "Он · получает хорошую зарплату.",
+      "start": 201.245,
+      "end": 215.847
+    },
+    {
+      "id": 15,
+      "english": "The price is too · high.",
+      "russian": "Цена слишком · высокая.",
+      "start": 215.847,
+      "end": 230.697
+    },
+    {
+      "id": 16,
+      "english": "I hope the weather · changes for the better.",
+      "russian": "Надеюсь, погода · изменится к лучшему.",
+      "start": 230.697,
+      "end": 246.513
+    },
+    {
+      "id": 17,
+      "english": "I want to · play a part in this project.",
+      "russian": "Я хочу · участвовать в этом проекте.",
+      "start": 246.513,
+      "end": 262.577
+    },
+    {
+      "id": 18,
+      "english": "This medicine may · cause side effects.",
+      "russian": "Это лекарство может · вызывать побочные эффекты.",
+      "start": 262.577,
+      "end": 278.913
+    },
+    {
+      "id": 19,
+      "english": "I think I · failed the exam.",
+      "russian": "Кажется, я · провалил экзамен.",
+      "start": 278.913,
+      "end": 294.311
+    },
+    {
+      "id": 20,
+      "english": "We · do business with them.",
+      "russian": "Мы · ведем с ними дела.",
+      "start": 294.311,
+      "end": 308.834
+    },
+    {
+      "id": 21,
+      "english": "· On one hand... but on the other hand...",
+      "russian": "С одной стороны... но с другой стороны...",
+      "start": 308.834,
+      "end": 325.302
+    },
+    {
+      "id": 22,
+      "english": "I have a · large amount of work.",
+      "russian": "У меня · большой объем работы.",
+      "start": 325.302,
+      "end": 340.697
+    },
+    {
+      "id": 23,
+      "english": "You're · making good progress.",
+      "russian": "У тебя · хороший прогресс.",
+      "start": 340.697,
+      "end": 355.694
+    },
+    {
+      "id": 24,
+      "english": "I have to · take an exam tomorrow.",
+      "russian": "Завтра мне нужно · сдавать экзамен.",
+      "start": 355.694,
+      "end": 371.317
+    },
+    {
+      "id": 25,
+      "english": "I took the wrong bag · by mistake.",
+      "russian": "Я по ошибке взял не ту сумку.",
+      "start": 371.317,
+      "end": 387.036
+    },
+    {
+      "id": 26,
+      "english": "Don't · tell lies.",
+      "russian": "Не · ври.",
+      "start": 387.036,
+      "end": 401.193
+    },
+    {
+      "id": 27,
+      "english": "What do you do in your · free time?",
+      "russian": "Чем ты занимаешься в · свободное время?",
+      "start": 401.193,
+      "end": 416.737
+    },
+    {
+      "id": 28,
+      "english": "This is · causing problems at work.",
+      "russian": "Это · вызывает проблемы на работе.",
+      "start": 416.737,
+      "end": 432.605
+    },
+    {
+      "id": 29,
+      "english": "I'll · give you a call tomorrow.",
+      "russian": "Я · позвоню тебе завтра.",
+      "start": 432.605,
+      "end": 447.521
+    },
+    {
+      "id": 30,
+      "english": "Hard work · results in success.",
+      "russian": "Усердная работа · приводит к успеху.",
+      "start": 447.521,
+      "end": 463.478
+    },
+    {
+      "id": 31,
+      "english": "This is a · major problem for us.",
+      "russian": "Это для нас · серьезная проблема.",
+      "start": 463.478,
+      "end": 479.096
+    },
+    {
+      "id": 32,
+      "english": "I'm · saving money for a trip.",
+      "russian": "Я · коплю деньги на поездку.",
+      "start": 479.096,
+      "end": 494.295
+    },
+    {
+      "id": 33,
+      "english": "The party was a · great success.",
+      "russian": "Вечеринка прошла с · большим успехом.",
+      "start": 494.295,
+      "end": 510.177
+    },
+    {
+      "id": 34,
+      "english": "He was driving · under the influence.",
+      "russian": "Он вел машину · в нетрезвом виде.",
+      "start": 510.177,
+      "end": 525.93
+    },
+    {
+      "id": 35,
+      "english": "She · runs her own business.",
+      "russian": "Она · управляет собственным бизнесом.",
+      "start": 525.93,
+      "end": 541.314
+    },
+    {
+      "id": 36,
+      "english": "Please · board the plane now.",
+      "russian": "Пожалуйста, · садитесь на самолет сейчас.",
+      "start": 541.314,
+      "end": 556.183
+    },
+    {
+      "id": 37,
+      "english": "That building is so · tall.",
+      "russian": "То здание такое · высокое.",
+      "start": 556.183,
+      "end": 571.207
+    },
+    {
+      "id": 38,
+      "english": "A · strong wind blew the roof off.",
+      "russian": "· Сильный ветер сорвал крышу.",
+      "start": 571.207,
+      "end": 587.19
+    },
+    {
+      "id": 39,
+      "english": "You need to · tell the truth.",
+      "russian": "Ты должен · сказать правду.",
+      "start": 587.19,
+      "end": 602.023
+    },
+    {
+      "id": 40,
+      "english": "I need to · take a pill for my headache.",
+      "russian": "Мне нужно · принять таблетку от головной боли.",
+      "start": 602.023,
+      "end": 617.755
+    },
+    {
+      "id": 41,
+      "english": "That would be a · fatal mistake.",
+      "russian": "Это была бы · фатальная ошибка.",
+      "start": 617.755,
+      "end": 632.852
+    },
+    {
+      "id": 42,
+      "english": "You · meet all the requirements.",
+      "russian": "Ты · соответствуешь всем требованиям.",
+      "start": 632.852,
+      "end": 648.09
+    },
+    {
+      "id": 43,
+      "english": "He's always · telling jokes.",
+      "russian": "Он все время · шутит.",
+      "start": 648.09,
+      "end": 663.314
+    },
+    {
+      "id": 44,
+      "english": "I try to avoid the · rush hour.",
+      "russian": "Я стараюсь избегать · часа пик.",
+      "start": 663.314,
+      "end": 678.705
+    },
+    {
+      "id": 45,
+      "english": "I have to · give a presentation at work.",
+      "russian": "Мне нужно · провести презентацию на работе.",
+      "start": 678.705,
+      "end": 694.812
+    },
+    {
+      "id": 46,
+      "english": "Sorry to · cause any trouble.",
+      "russian": "Извини за · беспокойство.",
+      "start": 694.812,
+      "end": 710.045
+    },
+    {
+      "id": 47,
+      "english": "Education · plays an important role.",
+      "russian": "Образование · играет важную роль.",
+      "start": 710.045,
+      "end": 726.2
+    },
+    {
+      "id": 48,
+      "english": "I'm busy · at the moment.",
+      "russian": "Я сейчас · занят.",
+      "start": 726.2,
+      "end": 740.825
+    },
+    {
+      "id": 49,
+      "english": "· Take care of yourself.",
+      "russian": "Береги себя.",
+      "start": 740.825,
+      "end": 755.761
+    },
+    {
+      "id": 50,
+      "english": "I don't · feel very well.",
+      "russian": "Я не очень · хорошо себя чувствую.",
+      "start": 755.761,
+      "end": 770.636
+    },
+    {
+      "id": 51,
+      "english": "· As far as I know, she's single.",
+      "russian": "Насколько я знаю, она не замужем.",
+      "start": 770.636,
+      "end": 779.687
+    }
+  ]
+}

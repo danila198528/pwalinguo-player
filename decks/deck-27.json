@@ -1,0 +1,367 @@
+{
+  "id": "deck-27",
+  "deck_name": "collocation 3",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation3.mp3",
+  "group": "collocation",
+  "total_duration": 784.63,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I nearly · missed my flight.",
+      "russian": "Я чуть не · опоздал на свой рейс.",
+      "start": 0.0,
+      "end": 15.32
+    },
+    {
+      "id": 2,
+      "english": "A · large number of people came.",
+      "russian": "Пришло · большое количество людей.",
+      "start": 15.32,
+      "end": 30.935
+    },
+    {
+      "id": 3,
+      "english": "There was a · fatal accident on the highway.",
+      "russian": "На трассе произошла · смертельная авария.",
+      "start": 30.935,
+      "end": 47.282
+    },
+    {
+      "id": 4,
+      "english": "I need to get my · driving licence renewed.",
+      "russian": "Мне нужно продлить · водительские права.",
+      "start": 47.282,
+      "end": 63.938
+    },
+    {
+      "id": 5,
+      "english": "We had a huge · argument last night.",
+      "russian": "Вчера вечером у нас была огромная · ссора.",
+      "start": 63.938,
+      "end": 80.09
+    },
+    {
+      "id": 6,
+      "english": "Let's · have a chat sometime.",
+      "russian": "Давай как-нибудь · поболтаем.",
+      "start": 80.09,
+      "end": 95.087
+    },
+    {
+      "id": 7,
+      "english": "They're very much · in love.",
+      "russian": "Они очень · любят друг друга.",
+      "start": 95.087,
+      "end": 110.025
+    },
+    {
+      "id": 8,
+      "english": "I · broke my arm when I was ten.",
+      "russian": "Я · сломал руку, когда мне было десять.",
+      "start": 110.025,
+      "end": 125.523
+    },
+    {
+      "id": 9,
+      "english": "It's · important to be on time.",
+      "russian": "Важно · приходить вовремя.",
+      "start": 125.523,
+      "end": 140.985
+    },
+    {
+      "id": 10,
+      "english": "I'm working on the · final draft now.",
+      "russian": "Сейчас я работаю над · окончательным вариантом.",
+      "start": 140.985,
+      "end": 157.049
+    },
+    {
+      "id": 11,
+      "english": "It's absolutely · freezing cold today.",
+      "russian": "Сегодня просто · ледяной холод.",
+      "start": 157.049,
+      "end": 173.39
+    },
+    {
+      "id": 12,
+      "english": "I have to · write an essay this weekend.",
+      "russian": "Мне нужно · написать эссе на этих выходных.",
+      "start": 173.39,
+      "end": 189.391
+    },
+    {
+      "id": 13,
+      "english": "That's a · bright idea!",
+      "russian": "Это · отличная идея!",
+      "start": 189.391,
+      "end": 203.913
+    },
+    {
+      "id": 14,
+      "english": "I left my phone · in the car.",
+      "russian": "Я оставил телефон · в машине.",
+      "start": 203.913,
+      "end": 219.16
+    },
+    {
+      "id": 15,
+      "english": "The wind is really · strong today.",
+      "russian": "Сегодня очень · сильный ветер.",
+      "start": 219.16,
+      "end": 235.074
+    },
+    {
+      "id": 16,
+      "english": "That's the · key issue here.",
+      "russian": "Это · ключевой вопрос здесь.",
+      "start": 235.074,
+      "end": 250.113
+    },
+    {
+      "id": 17,
+      "english": "Did you · take your medicine?",
+      "russian": "Ты · принял лекарство?",
+      "start": 250.113,
+      "end": 264.627
+    },
+    {
+      "id": 18,
+      "english": "Have you · done your homework?",
+      "russian": "Ты · сделал уроки?",
+      "start": 264.627,
+      "end": 279.241
+    },
+    {
+      "id": 19,
+      "english": "I · get on really well with my sister.",
+      "russian": "Я очень хорошо · лажу со своей сестрой.",
+      "start": 279.241,
+      "end": 295.057
+    },
+    {
+      "id": 20,
+      "english": "I don't want to · raise that subject now.",
+      "russian": "Я не хочу · поднимать эту тему сейчас.",
+      "start": 295.057,
+      "end": 310.944
+    },
+    {
+      "id": 21,
+      "english": "The mountains are so · high here.",
+      "russian": "Здесь горы такие · высокие.",
+      "start": 310.944,
+      "end": 326.7
+    },
+    {
+      "id": 22,
+      "english": "Go · make your bed.",
+      "russian": "Иди · заправь постель.",
+      "start": 326.7,
+      "end": 340.977
+    },
+    {
+      "id": 23,
+      "english": "I try not to eat too much · fast food.",
+      "russian": "Я стараюсь не есть много · фастфуда.",
+      "start": 340.977,
+      "end": 357.698
+    },
+    {
+      "id": 24,
+      "english": "I couldn't see because of the · thick fog.",
+      "russian": "Я ничего не видел из-за · густого тумана.",
+      "start": 357.698,
+      "end": 373.577
+    },
+    {
+      "id": 25,
+      "english": "Can I · pay by credit card?",
+      "russian": "Могу я · заплатить кредитной картой?",
+      "start": 373.577,
+      "end": 388.876
+    },
+    {
+      "id": 26,
+      "english": "You should · go to the doctor.",
+      "russian": "Тебе стоит · сходить к врачу.",
+      "start": 388.876,
+      "end": 403.388
+    },
+    {
+      "id": 27,
+      "english": "They argued but then · made up.",
+      "russian": "Они поссорились, но потом · помирились.",
+      "start": 403.388,
+      "end": 418.563
+    },
+    {
+      "id": 28,
+      "english": "Can you · set the table, please?",
+      "russian": "Можешь · накрыть на стол, пожалуйста?",
+      "start": 418.563,
+      "end": 434.247
+    },
+    {
+      "id": 29,
+      "english": "Don't · break the law.",
+      "russian": "Не · нарушай закон.",
+      "start": 434.247,
+      "end": 448.339
+    },
+    {
+      "id": 30,
+      "english": "We're · going on holiday next week.",
+      "russian": "Мы · уезжаем в отпуск на следующей неделе.",
+      "start": 448.339,
+      "end": 463.955
+    },
+    {
+      "id": 31,
+      "english": "We · booked a hotel room online.",
+      "russian": "Мы · забронировали номер в отеле онлайн.",
+      "start": 463.955,
+      "end": 479.574
+    },
+    {
+      "id": 32,
+      "english": "I had · great difficulty understanding him.",
+      "russian": "Мне было · очень трудно его понять.",
+      "start": 479.574,
+      "end": 496.209
+    },
+    {
+      "id": 33,
+      "english": "How many languages do you · speak?",
+      "russian": "На скольких языках ты · говоришь?",
+      "start": 496.209,
+      "end": 511.874
+    },
+    {
+      "id": 34,
+      "english": "I need to · make a presentation to the team.",
+      "russian": "Мне нужно · сделать презентацию для команды.",
+      "start": 511.874,
+      "end": 528.076
+    },
+    {
+      "id": 35,
+      "english": "I can · lend you some money.",
+      "russian": "Я могу · одолжить тебе немного денег.",
+      "start": 528.076,
+      "end": 542.454
+    },
+    {
+      "id": 36,
+      "english": "I got a really · cheap rate for the hotel.",
+      "russian": "Я получил очень · дешевый тариф за отель.",
+      "start": 542.454,
+      "end": 558.862
+    },
+    {
+      "id": 37,
+      "english": "The movie had a big · impact on her.",
+      "russian": "Фильм оказал на нее большое · воздействие.",
+      "start": 558.862,
+      "end": 574.709
+    },
+    {
+      "id": 38,
+      "english": "I · feel a sharp pain in my back.",
+      "russian": "Я · чувствую острую боль в спине.",
+      "start": 574.709,
+      "end": 590.339
+    },
+    {
+      "id": 39,
+      "english": "· High winds are expected tomorrow.",
+      "russian": "· Сильный ветер ожидается завтра.",
+      "start": 590.339,
+      "end": 606.15
+    },
+    {
+      "id": 40,
+      "english": "I · took a picture of the sunset.",
+      "russian": "Я · сфотографировал закат.",
+      "start": 606.15,
+      "end": 621.58
+    },
+    {
+      "id": 41,
+      "english": "I made a · serious mistake.",
+      "russian": "Я совершил · серьезную ошибку.",
+      "start": 621.58,
+      "end": 636.835
+    },
+    {
+      "id": 42,
+      "english": "That bag · costs a fortune.",
+      "russian": "Эта сумка · стоит целое состояние.",
+      "start": 636.835,
+      "end": 652.31
+    },
+    {
+      "id": 43,
+      "english": "I've · lost touch with most of my school friends.",
+      "russian": "Я · потерял связь с большинством школьных друзей.",
+      "start": 652.31,
+      "end": 669.128
+    },
+    {
+      "id": 44,
+      "english": "I got there just · in time.",
+      "russian": "Я добрался туда как раз · вовремя.",
+      "start": 669.128,
+      "end": 684.192
+    },
+    {
+      "id": 45,
+      "english": "It's · necessary to have a passport.",
+      "russian": "Необходимо · иметь паспорт.",
+      "start": 684.192,
+      "end": 700.391
+    },
+    {
+      "id": 46,
+      "english": "They're · getting married in the summer.",
+      "russian": "Они · женятся летом.",
+      "start": 700.391,
+      "end": 715.622
+    },
+    {
+      "id": 47,
+      "english": "My parents · got divorced when I was young.",
+      "russian": "Мои родители · развелись, когда я был маленьким.",
+      "start": 715.622,
+      "end": 731.817
+    },
+    {
+      "id": 48,
+      "english": "I need to · study hard for it.",
+      "russian": "Мне нужно · усердно к нему готовиться.",
+      "start": 731.817,
+      "end": 746.869
+    },
+    {
+      "id": 49,
+      "english": "The nurse · took my temperature.",
+      "russian": "Медсестра · измерила мне температуру.",
+      "start": 746.869,
+      "end": 762.06
+    },
+    {
+      "id": 50,
+      "english": "I · have a bad cold.",
+      "russian": "Я · сильно простужен.",
+      "start": 762.06,
+      "end": 776.86
+    },
+    {
+      "id": 51,
+      "english": "I · work for a big company.",
+      "russian": "Я · работаю на большую компанию.",
+      "start": 776.86,
+      "end": 784.631
+    }
+  ]
+}

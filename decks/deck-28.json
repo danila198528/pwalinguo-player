@@ -1,0 +1,367 @@
+{
+  "id": "deck-28",
+  "deck_name": "collocation 4",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation4.mp3",
+  "group": "collocation",
+  "total_duration": 776.23,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "We need to · carry out more research.",
+      "russian": "Нам нужно · провести больше исследований.",
+      "start": 0.0,
+      "end": 16.224
+    },
+    {
+      "id": 2,
+      "english": "Don't be afraid to · ask for help.",
+      "russian": "Не бойся · просить о помощи.",
+      "start": 16.224,
+      "end": 31.738
+    },
+    {
+      "id": 3,
+      "english": "My grandfather is a · heavy smoker.",
+      "russian": "Мой дедушка · много курит.",
+      "start": 31.738,
+      "end": 47.969
+    },
+    {
+      "id": 4,
+      "english": "There's a · high probability of rain.",
+      "russian": "· Высокая вероятность дождя.",
+      "start": 47.969,
+      "end": 63.743
+    },
+    {
+      "id": 5,
+      "english": "· Make yourself at home.",
+      "russian": "Чувствуйте себя как дома.",
+      "start": 63.743,
+      "end": 78.603
+    },
+    {
+      "id": 6,
+      "english": "It's pouring with · heavy rain.",
+      "russian": "Льет · сильный дождь.",
+      "start": 78.603,
+      "end": 93.785
+    },
+    {
+      "id": 7,
+      "english": "The storm · did a lot of damage.",
+      "russian": "Шторм · нанес большой ущерб.",
+      "start": 93.785,
+      "end": 109.023
+    },
+    {
+      "id": 8,
+      "english": "Don't forget to · hand in your homework.",
+      "russian": "Не забудь · сдать домашнюю работу.",
+      "start": 109.023,
+      "end": 124.828
+    },
+    {
+      "id": 9,
+      "english": "I love · spending time with you.",
+      "russian": "Я люблю · проводить с тобой время.",
+      "start": 124.828,
+      "end": 140.134
+    },
+    {
+      "id": 10,
+      "english": "Let's · keep in touch.",
+      "russian": "Давай · оставаться на связи.",
+      "start": 140.134,
+      "end": 154.6
+    },
+    {
+      "id": 11,
+      "english": "You have to · ask for permission first.",
+      "russian": "Сначала нужно · спросить разрешения.",
+      "start": 154.6,
+      "end": 170.353
+    },
+    {
+      "id": 12,
+      "english": "I think I'm · catching a cold.",
+      "russian": "Кажется, я · простужаюсь.",
+      "start": 170.353,
+      "end": 185.547
+    },
+    {
+      "id": 13,
+      "english": "· Pay attention to what I'm saying.",
+      "russian": "Обрати внимание на то, что я говорю.",
+      "start": 185.547,
+      "end": 201.09
+    },
+    {
+      "id": 14,
+      "english": "She · has a temperature.",
+      "russian": "У нее · температура.",
+      "start": 201.09,
+      "end": 215.497
+    },
+    {
+      "id": 15,
+      "english": "I completely · lost my temper.",
+      "russian": "Я полностью · вышел из себя.",
+      "start": 215.497,
+      "end": 230.853
+    },
+    {
+      "id": 16,
+      "english": "Just · say sorry.",
+      "russian": "Просто · извинись.",
+      "start": 230.853,
+      "end": 244.878
+    },
+    {
+      "id": 17,
+      "english": "I have to · make a quick phone call.",
+      "russian": "Мне нужно · быстро позвонить.",
+      "start": 244.878,
+      "end": 260.529
+    },
+    {
+      "id": 18,
+      "english": "This will · save us a lot of time.",
+      "russian": "Это · сэкономит нам много времени.",
+      "start": 260.529,
+      "end": 276.279
+    },
+    {
+      "id": 19,
+      "english": "The sky is · clear today.",
+      "russian": "Сегодня небо · ясное.",
+      "start": 276.279,
+      "end": 291.523
+    },
+    {
+      "id": 20,
+      "english": "We need to discuss this · major issue.",
+      "russian": "Нам нужно обсудить этот · важный вопрос.",
+      "start": 291.523,
+      "end": 307.65
+    },
+    {
+      "id": 21,
+      "english": "He had to · go to hospital.",
+      "russian": "Ему пришлось · лечь в больницу.",
+      "start": 307.65,
+      "end": 322.562
+    },
+    {
+      "id": 22,
+      "english": "· According to the news, it will rain.",
+      "russian": "По новостям, будет дождь.",
+      "start": 322.562,
+      "end": 338.718
+    },
+    {
+      "id": 23,
+      "english": "I hope I · pass the exam.",
+      "russian": "Надеюсь, я · сдам экзамен.",
+      "start": 338.718,
+      "end": 354.021
+    },
+    {
+      "id": 24,
+      "english": "It will · take some time to finish.",
+      "russian": "· Потребуется время, чтобы закончить.",
+      "start": 354.021,
+      "end": 369.476
+    },
+    {
+      "id": 25,
+      "english": "He · had an accident on the way.",
+      "russian": "С ним · произошла авария по дороге.",
+      "start": 369.476,
+      "end": 384.73
+    },
+    {
+      "id": 26,
+      "english": "Can you · take a photo of us?",
+      "russian": "Можешь · нас сфотографировать?",
+      "start": 384.73,
+      "end": 399.732
+    },
+    {
+      "id": 27,
+      "english": "A · return ticket is cheaper.",
+      "russian": "· Обратный билет дешевле.",
+      "start": 399.732,
+      "end": 414.889
+    },
+    {
+      "id": 28,
+      "english": "· In my opinion, it's better to wait.",
+      "russian": "По-моему, лучше подождать.",
+      "start": 414.889,
+      "end": 431.177
+    },
+    {
+      "id": 29,
+      "english": "There's a · strong possibility he'll come.",
+      "russian": "· Высока вероятность, что он придет.",
+      "start": 431.177,
+      "end": 447.221
+    },
+    {
+      "id": 30,
+      "english": "Do you · pay in cash?",
+      "russian": "Вы · платите наличными?",
+      "start": 447.221,
+      "end": 461.66
+    },
+    {
+      "id": 31,
+      "english": "Do you have any · experience in this?",
+      "russian": "У тебя есть · опыт в этом?",
+      "start": 461.66,
+      "end": 477.226
+    },
+    {
+      "id": 32,
+      "english": "Be careful or you'll · break a leg.",
+      "russian": "Будь осторожен, а то · сломаешь ногу.",
+      "start": 477.226,
+      "end": 492.666
+    },
+    {
+      "id": 33,
+      "english": "She · resigned from her job yesterday.",
+      "russian": "Она · уволилась с работы вчера.",
+      "start": 492.666,
+      "end": 508.756
+    },
+    {
+      "id": 34,
+      "english": "This can · lead to serious problems.",
+      "russian": "Это может · привести к серьезным проблемам.",
+      "start": 508.756,
+      "end": 524.86
+    },
+    {
+      "id": 35,
+      "english": "Do you · have time for a coffee?",
+      "russian": "У тебя · есть время выпить кофе?",
+      "start": 524.86,
+      "end": 539.621
+    },
+    {
+      "id": 36,
+      "english": "I · got on the wrong bus.",
+      "russian": "Я · сел не в тот автобус.",
+      "start": 539.621,
+      "end": 554.513
+    },
+    {
+      "id": 37,
+      "english": "His condition is · getting worse.",
+      "russian": "Его состояние · ухудшается.",
+      "start": 554.513,
+      "end": 570.359
+    },
+    {
+      "id": 38,
+      "english": "· In my opinion, he's wrong.",
+      "russian": "По-моему, он неправ.",
+      "start": 570.359,
+      "end": 586.218
+    },
+    {
+      "id": 39,
+      "english": "Are you · going out with anyone?",
+      "russian": "Ты с кем-нибудь · встречаешься?",
+      "start": 586.218,
+      "end": 600.875
+    },
+    {
+      "id": 40,
+      "english": "I need to · make a decision.",
+      "russian": "Мне нужно · принять решение.",
+      "start": 600.875,
+      "end": 615.639
+    },
+    {
+      "id": 41,
+      "english": "Don't · waste my time.",
+      "russian": "Не · трать мое время попусту.",
+      "start": 615.639,
+      "end": 630.2
+    },
+    {
+      "id": 42,
+      "english": "I need to · change some money into euros.",
+      "russian": "Мне нужно · обменять немного денег на евро.",
+      "start": 630.2,
+      "end": 646.492
+    },
+    {
+      "id": 43,
+      "english": "Can I · borrow some money from you?",
+      "russian": "Могу я · одолжить у тебя немного денег?",
+      "start": 646.492,
+      "end": 661.558
+    },
+    {
+      "id": 44,
+      "english": "It's · pouring with rain outside.",
+      "russian": "На улице · льет как из ведра.",
+      "start": 661.558,
+      "end": 677.162
+    },
+    {
+      "id": 45,
+      "english": "I'd like to · raise a question.",
+      "russian": "Я хотел бы · поднять один вопрос.",
+      "start": 677.162,
+      "end": 692.115
+    },
+    {
+      "id": 46,
+      "english": "Can I · ask you a question?",
+      "russian": "Могу я · задать тебе вопрос?",
+      "start": 692.115,
+      "end": 706.923
+    },
+    {
+      "id": 47,
+      "english": "I need some · fresh air.",
+      "russian": "Мне нужен · свежий воздух.",
+      "start": 706.923,
+      "end": 721.558
+    },
+    {
+      "id": 48,
+      "english": "The · heavy rain caused flooding.",
+      "russian": "· Сильный дождь вызвал наводнение.",
+      "start": 721.558,
+      "end": 736.798
+    },
+    {
+      "id": 49,
+      "english": "It was · scorching hot all week.",
+      "russian": "Всю неделю была · невыносимая жара.",
+      "start": 736.798,
+      "end": 752.357
+    },
+    {
+      "id": 50,
+      "english": "I'd like to · book a ticket to London.",
+      "russian": "Я хотел бы · забронировать билет в Лондон.",
+      "start": 752.357,
+      "end": 767.881
+    },
+    {
+      "id": 51,
+      "english": "I · attend a lecture every Monday.",
+      "russian": "Я · посещаю лекцию каждый понедельник.",
+      "start": 767.881,
+      "end": 776.231
+    }
+  ]
+}

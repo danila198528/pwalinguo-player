@@ -1,58 +1,5 @@
 [
-  {
-    "id": "deck-8",
-    "deck_name": "Колода №8 - Legendary, Mislead, Turnover...",
-    "audio_url": "https://ваш-аудио-урл/audio.mp3",
-    "total_duration": 1695.44,
-    "total_sentences": 90,
-    "deck_url": "./decks/deck-8.json"
-  },
-  {
-    "id": "deck-1",
-    "deck_name": "collocation_1",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/colloc_1.mp3",
-    "group": "collocation",
-    "total_duration": 1422.1,
-    "total_sentences": 99,
-    "deck_url": "./decks/deck-1.json"
-  },
-  {
-    "id": "deck-10",
-    "deck_name": "Blok A_en",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/Blok A_grammar.mp3",
-    "group": "grammar",
-    "total_duration": 1998.65,
-    "total_sentences": 118,
-    "deck_url": "./decks/deck-10.json"
-  },
-{
-  "id": "deck-13",
-  "deck_name": "collocation2",
-  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation2.mp3",
-  "group": "collocation",
-  "total_duration": 584.86,
-  "total_sentences": 40,
-  "deck_url": "./decks/deck-13.json"
-},
- {
-    "id": "deck-15",
-    "deck_name": "collocation 13",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation13.mp3",
-    "group": "collocation",
-    "total_duration": 36.46,
-    "total_sentences": 3,
-    "deck_url": "./decks/deck-15.json"
-  },
-  {
-    "id": "deck-16",
-    "deck_name": "collocation 14",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation14.mp3",
-    "group": "collocation",
-    "total_duration": 37.22,
-    "total_sentences": 3,
-    "deck_url": "./decks/deck-16.json"
-  },
-  {
+    {
     "id": "deck-20",
     "deck_name": "phrase 1",
     "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase1.mp3",
@@ -96,6 +43,43 @@
     "total_duration": 682.37,
     "total_sentences": 50,
     "deck_url": "./decks/deck-24.json"
+  },
+  {
+    "id": "deck-25",
+    "deck_name": "collocation 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation1.mp3",
+    "group": "collocation",
+    "total_duration": 779.69,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-25.json"
+  },
+  {
+    "id": "deck-26",
+    "deck_name": "collocation 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation2.mp3",
+    "group": "collocation",
+    "total_duration": 777.24,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-26.json"
+  },
+  {
+    "id": "deck-27",
+    "deck_name": "collocation 3",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation3.mp3",
+    "group": "collocation",
+    "total_duration": 784.63,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-27.json"
+  },
+  {
+    "id": "deck-28",
+    "deck_name": "collocation 4",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation4.mp3",
+    "group": "collocation",
+    "total_duration": 776.23,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-28.json"
   }
 ]
+
 

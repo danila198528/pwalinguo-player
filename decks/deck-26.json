@@ -1,0 +1,367 @@
+{
+  "id": "deck-26",
+  "deck_name": "collocation 2",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation2.mp3",
+  "group": "collocation",
+  "total_duration": 777.24,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "He's a really · tall guy.",
+      "russian": "Он очень · высокий парень.",
+      "start": 0.0,
+      "end": 15.34
+    },
+    {
+      "id": 2,
+      "english": "Go and · say hello to your grandmother.",
+      "russian": "Пойди · поздоровайся с бабушкой.",
+      "start": 15.34,
+      "end": 31.197
+    },
+    {
+      "id": 3,
+      "english": "No one is · answering the phone.",
+      "russian": "Никто не · берет трубку.",
+      "start": 31.197,
+      "end": 46.662
+    },
+    {
+      "id": 4,
+      "english": "I met her purely · by accident.",
+      "russian": "Я встретил ее совершенно · случайно.",
+      "start": 46.662,
+      "end": 62.282
+    },
+    {
+      "id": 5,
+      "english": "I go to work · by bus.",
+      "russian": "Я езжу на работу · на автобусе.",
+      "start": 62.282,
+      "end": 77.541
+    },
+    {
+      "id": 6,
+      "english": "It's a · great pleasure to meet you.",
+      "russian": "Очень · приятно познакомиться.",
+      "start": 77.541,
+      "end": 92.871
+    },
+    {
+      "id": 7,
+      "english": "The professor · gives a lecture on history.",
+      "russian": "Профессор · читает лекцию по истории.",
+      "start": 92.871,
+      "end": 109.01
+    },
+    {
+      "id": 8,
+      "english": "I came to · say goodbye.",
+      "russian": "Я пришел · попрощаться.",
+      "start": 109.01,
+      "end": 123.877
+    },
+    {
+      "id": 9,
+      "english": "I'll · pay for dinner.",
+      "russian": "Я · заплачу за ужин.",
+      "start": 123.877,
+      "end": 137.911
+    },
+    {
+      "id": 10,
+      "english": "Cost is the · key factor.",
+      "russian": "Стоимость — · ключевой фактор.",
+      "start": 137.911,
+      "end": 152.734
+    },
+    {
+      "id": 11,
+      "english": "She's · having a baby in June.",
+      "russian": "У нее · будет ребенок в июне.",
+      "start": 152.734,
+      "end": 168.399
+    },
+    {
+      "id": 12,
+      "english": "The business is · making a profit now.",
+      "russian": "Бизнес сейчас · приносит прибыль.",
+      "start": 168.399,
+      "end": 184.444
+    },
+    {
+      "id": 13,
+      "english": "You need to · pay more attention in class.",
+      "russian": "Тебе нужно быть · внимательнее на уроке.",
+      "start": 184.444,
+      "end": 200.621
+    },
+    {
+      "id": 14,
+      "english": "She · works as a waitress.",
+      "russian": "Она · работает официанткой.",
+      "start": 200.621,
+      "end": 215.741
+    },
+    {
+      "id": 15,
+      "english": "I · applied for a job at the cafe.",
+      "russian": "Я · подал заявку на работу в кафе.",
+      "start": 215.741,
+      "end": 231.274
+    },
+    {
+      "id": 16,
+      "english": "I had an interesting · conversation with him.",
+      "russian": "У меня был с ним интересный · разговор.",
+      "start": 231.274,
+      "end": 247.755
+    },
+    {
+      "id": 17,
+      "english": "I bought a · one-way ticket to Berlin.",
+      "russian": "Я купил · билет в один конец до Берлина.",
+      "start": 247.755,
+      "end": 263.813
+    },
+    {
+      "id": 18,
+      "english": "We went to Paris · by plane.",
+      "russian": "Мы летали в Париж · самолетом.",
+      "start": 263.813,
+      "end": 279.204
+    },
+    {
+      "id": 19,
+      "english": "This had a huge · effect on me.",
+      "russian": "Это оказало на меня огромное · влияние.",
+      "start": 279.204,
+      "end": 294.556
+    },
+    {
+      "id": 20,
+      "english": "They · robbed a bank downtown.",
+      "russian": "Они · ограбили банк в центре.",
+      "start": 294.556,
+      "end": 309.677
+    },
+    {
+      "id": 21,
+      "english": "I need to · earn some money.",
+      "russian": "Мне нужно · заработать немного денег.",
+      "start": 309.677,
+      "end": 324.19
+    },
+    {
+      "id": 22,
+      "english": "Can you · keep a secret?",
+      "russian": "Ты умеешь · хранить секреты?",
+      "start": 324.19,
+      "end": 338.773
+    },
+    {
+      "id": 23,
+      "english": "Learning a language · takes time.",
+      "russian": "Изучение языка · требует времени.",
+      "start": 338.773,
+      "end": 354.34
+    },
+    {
+      "id": 24,
+      "english": "I'd like to · get to know you better.",
+      "russian": "Я хотел бы · узнать тебя лучше.",
+      "start": 354.34,
+      "end": 369.58
+    },
+    {
+      "id": 25,
+      "english": "You have a · bright future ahead.",
+      "russian": "У тебя · светлое будущее впереди.",
+      "start": 369.58,
+      "end": 384.978
+    },
+    {
+      "id": 26,
+      "english": "Did you · attend the lecture?",
+      "russian": "Ты · посещал лекцию?",
+      "start": 384.978,
+      "end": 399.498
+    },
+    {
+      "id": 27,
+      "english": "· From my point of view, it's simple.",
+      "russian": "С моей точки зрения, это просто.",
+      "start": 399.498,
+      "end": 415.778
+    },
+    {
+      "id": 28,
+      "english": "I have a plane to · catch.",
+      "russian": "Мне нужно · успеть на самолет.",
+      "start": 415.778,
+      "end": 430.601
+    },
+    {
+      "id": 29,
+      "english": "We · get off the train at the next stop.",
+      "russian": "Мы · выходим из поезда на следующей остановке.",
+      "start": 430.601,
+      "end": 446.401
+    },
+    {
+      "id": 30,
+      "english": "I hope you · get better soon.",
+      "russian": "Надеюсь, ты · скоро поправишься.",
+      "start": 446.401,
+      "end": 461.42
+    },
+    {
+      "id": 31,
+      "english": "If you · commit a crime, you go to jail.",
+      "russian": "Если · совершишь преступление, сядешь в тюрьму.",
+      "start": 461.42,
+      "end": 478.086
+    },
+    {
+      "id": 32,
+      "english": "I · feel sick.",
+      "russian": "Меня · тошнит.",
+      "start": 478.086,
+      "end": 492.104
+    },
+    {
+      "id": 33,
+      "english": "Many companies · go bankrupt every year.",
+      "russian": "Многие компании каждый год · банкротятся.",
+      "start": 492.104,
+      "end": 508.922
+    },
+    {
+      "id": 34,
+      "english": "She has a · serious illness.",
+      "russian": "У нее · серьезное заболевание.",
+      "start": 508.922,
+      "end": 524.247
+    },
+    {
+      "id": 35,
+      "english": "The movie was a · big disappointment.",
+      "russian": "Фильм был · большим разочарованием.",
+      "start": 524.247,
+      "end": 540.017
+    },
+    {
+      "id": 36,
+      "english": "Have a drink.",
+      "russian": "Выпей что-нибудь.",
+      "start": 540.017,
+      "end": 553.71
+    },
+    {
+      "id": 37,
+      "english": "I · handed in my essay this morning.",
+      "russian": "Я · сдал свое эссе сегодня утром.",
+      "start": 553.71,
+      "end": 569.485
+    },
+    {
+      "id": 38,
+      "english": "Don't worry, everyone · makes mistakes.",
+      "russian": "Не волнуйся, все · ошибаются.",
+      "start": 569.485,
+      "end": 586.109
+    },
+    {
+      "id": 39,
+      "english": "I met her · on the train.",
+      "russian": "Я встретил ее · в поезде.",
+      "start": 586.109,
+      "end": 600.805
+    },
+    {
+      "id": 40,
+      "english": "We · had a really good time.",
+      "russian": "Мы · отлично провели время.",
+      "start": 600.805,
+      "end": 616.118
+    },
+    {
+      "id": 41,
+      "english": "I read in my · spare time.",
+      "russian": "Я читаю в · свободное время.",
+      "start": 616.118,
+      "end": 631.261
+    },
+    {
+      "id": 42,
+      "english": "I see them · from time to time.",
+      "russian": "Я вижу их · время от времени.",
+      "start": 631.261,
+      "end": 646.685
+    },
+    {
+      "id": 43,
+      "english": "I need to · take a shower.",
+      "russian": "Мне нужно · принять душ.",
+      "start": 646.685,
+      "end": 661.206
+    },
+    {
+      "id": 44,
+      "english": "I want to · set up my own business.",
+      "russian": "Я хочу · открыть свой бизнес.",
+      "start": 661.206,
+      "end": 676.889
+    },
+    {
+      "id": 45,
+      "english": "It doesn't · make any difference to me.",
+      "russian": "Для меня это не · имеет значения.",
+      "start": 676.889,
+      "end": 692.569
+    },
+    {
+      "id": 46,
+      "english": "What's the · weather forecast for today?",
+      "russian": "Какой · прогноз погоды на сегодня?",
+      "start": 692.569,
+      "end": 708.375
+    },
+    {
+      "id": 47,
+      "english": "The boss might · fire him.",
+      "russian": "Босс может · его уволить.",
+      "start": 708.375,
+      "end": 723.22
+    },
+    {
+      "id": 48,
+      "english": "I prefer to · travel by car.",
+      "russian": "Я предпочитаю · путешествовать на машине.",
+      "start": 723.22,
+      "end": 738.693
+    },
+    {
+      "id": 49,
+      "english": "This is a · golden opportunity.",
+      "russian": "Это · уникальная возможность.",
+      "start": 738.693,
+      "end": 753.921
+    },
+    {
+      "id": 50,
+      "english": "We should buy · fresh food.",
+      "russian": "Нам стоит купить · свежих продуктов.",
+      "start": 753.921,
+      "end": 768.804
+    },
+    {
+      "id": 51,
+      "english": "The train arrived right · on time.",
+      "russian": "Поезд прибыл точно · по расписанию.",
+      "start": 768.804,
+      "end": 777.24
+    }
+  ]
+}
