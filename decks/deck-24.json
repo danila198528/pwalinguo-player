@@ -1,0 +1,360 @@
+{
+  "id": "deck-24",
+  "deck_name": "phrase 5",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase5.mp3",
+  "group": "phrase",
+  "total_duration": 682.37,
+  "total_sentences": 50,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "My name is…",
+      "russian": "Меня зовут…",
+      "start": 0.0,
+      "end": 14.037
+    },
+    {
+      "id": 2,
+      "english": "Probably.",
+      "russian": "Вероятно.",
+      "start": 14.037,
+      "end": 27.394
+    },
+    {
+      "id": 3,
+      "english": "Because.",
+      "russian": "Потому что.",
+      "start": 27.394,
+      "end": 40.814
+    },
+    {
+      "id": 4,
+      "english": "That’s enough.",
+      "russian": "Хватит.",
+      "start": 40.814,
+      "end": 54.537
+    },
+    {
+      "id": 5,
+      "english": "How much is it?",
+      "russian": "Сколько это стоит?",
+      "start": 54.537,
+      "end": 68.469
+    },
+    {
+      "id": 6,
+      "english": "Good evening!",
+      "russian": "Добрый вечер!",
+      "start": 68.469,
+      "end": 82.062
+    },
+    {
+      "id": 7,
+      "english": "Try again.",
+      "russian": "Попробуй снова.",
+      "start": 82.062,
+      "end": 95.814
+    },
+    {
+      "id": 8,
+      "english": "That’s life.",
+      "russian": "Такова жизнь.",
+      "start": 95.814,
+      "end": 109.529
+    },
+    {
+      "id": 9,
+      "english": "For example.",
+      "russian": "Например.",
+      "start": 109.529,
+      "end": 123.363
+    },
+    {
+      "id": 10,
+      "english": "Let’s see.",
+      "russian": "Посмотрим.",
+      "start": 123.363,
+      "end": 136.929
+    },
+    {
+      "id": 11,
+      "english": "Here you go.",
+      "russian": "Вот, пожалуйста.",
+      "start": 136.929,
+      "end": 150.63
+    },
+    {
+      "id": 12,
+      "english": "After you.",
+      "russian": "После вас.",
+      "start": 150.63,
+      "end": 164.148
+    },
+    {
+      "id": 13,
+      "english": "That’s awesome.",
+      "russian": "Это круто.",
+      "start": 164.148,
+      "end": 177.865
+    },
+    {
+      "id": 14,
+      "english": "No problem.",
+      "russian": "Без проблем.",
+      "start": 177.865,
+      "end": 191.657
+    },
+    {
+      "id": 15,
+      "english": "I’m busy.",
+      "russian": "Я занят.",
+      "start": 191.657,
+      "end": 205.016
+    },
+    {
+      "id": 16,
+      "english": "I’m ready.",
+      "russian": "Я готов.",
+      "start": 205.016,
+      "end": 218.317
+    },
+    {
+      "id": 17,
+      "english": "Really?",
+      "russian": "Правда?",
+      "start": 218.317,
+      "end": 231.382
+    },
+    {
+      "id": 18,
+      "english": "Why?",
+      "russian": "Почему?",
+      "start": 231.382,
+      "end": 244.66
+    },
+    {
+      "id": 19,
+      "english": "I’m not sure about that.",
+      "russian": "Я не уверен в этом.",
+      "start": 244.66,
+      "end": 259.261
+    },
+    {
+      "id": 20,
+      "english": "No chance.",
+      "russian": "Ни за что.",
+      "start": 259.261,
+      "end": 273.339
+    },
+    {
+      "id": 21,
+      "english": "Text me.",
+      "russian": "Напиши мне.",
+      "start": 273.339,
+      "end": 286.722
+    },
+    {
+      "id": 22,
+      "english": "I’m looking for…",
+      "russian": "Я ищу…",
+      "start": 286.722,
+      "end": 300.475
+    },
+    {
+      "id": 23,
+      "english": "Good night!",
+      "russian": "Спокойной ночи!",
+      "start": 300.475,
+      "end": 314.017
+    },
+    {
+      "id": 24,
+      "english": "I don’t agree.",
+      "russian": "Я не согласен.",
+      "start": 314.017,
+      "end": 327.934
+    },
+    {
+      "id": 25,
+      "english": "I’m fine, thanks.",
+      "russian": "Я в порядке, спасибо.",
+      "start": 327.934,
+      "end": 343.049
+    },
+    {
+      "id": 26,
+      "english": "It doesn’t matter.",
+      "russian": "Это не важно.",
+      "start": 343.049,
+      "end": 357.008
+    },
+    {
+      "id": 27,
+      "english": "I love it.",
+      "russian": "Я это обожаю.",
+      "start": 357.008,
+      "end": 370.572
+    },
+    {
+      "id": 28,
+      "english": "At the moment.",
+      "russian": "В данный момент.",
+      "start": 370.572,
+      "end": 384.317
+    },
+    {
+      "id": 29,
+      "english": "Let’s go.",
+      "russian": "Пойдём.",
+      "start": 384.317,
+      "end": 397.836
+    },
+    {
+      "id": 30,
+      "english": "It’s too late.",
+      "russian": "Слишком поздно.",
+      "start": 397.836,
+      "end": 411.927
+    },
+    {
+      "id": 31,
+      "english": "Nice to meet you.",
+      "russian": "Приятно познакомиться.",
+      "start": 411.927,
+      "end": 426.111
+    },
+    {
+      "id": 32,
+      "english": "Are you serious?",
+      "russian": "Ты серьёзно?",
+      "start": 426.111,
+      "end": 440.138
+    },
+    {
+      "id": 33,
+      "english": "I totally disagree.",
+      "russian": "Я полностью не согласен.",
+      "start": 440.138,
+      "end": 454.809
+    },
+    {
+      "id": 34,
+      "english": "That’s true.",
+      "russian": "Это правда.",
+      "start": 454.809,
+      "end": 468.331
+    },
+    {
+      "id": 35,
+      "english": "Relax.",
+      "russian": "Расслабься.",
+      "start": 468.331,
+      "end": 482.09
+    },
+    {
+      "id": 36,
+      "english": "Listen to me.",
+      "russian": "Послушай меня.",
+      "start": 482.09,
+      "end": 495.835
+    },
+    {
+      "id": 37,
+      "english": "Thanks anyway.",
+      "russian": "Всё равно спасибо.",
+      "start": 495.835,
+      "end": 509.83
+    },
+    {
+      "id": 38,
+      "english": "What’s your plan?",
+      "russian": "Какой у тебя план?",
+      "start": 509.83,
+      "end": 523.726
+    },
+    {
+      "id": 39,
+      "english": "Remember that.",
+      "russian": "Помни это.",
+      "start": 523.726,
+      "end": 537.618
+    },
+    {
+      "id": 40,
+      "english": "Show me.",
+      "russian": "Покажи мне.",
+      "start": 537.618,
+      "end": 550.889
+    },
+    {
+      "id": 41,
+      "english": "Why are you here?",
+      "russian": "Почему ты здесь?",
+      "start": 550.889,
+      "end": 564.974
+    },
+    {
+      "id": 42,
+      "english": "I have no idea.",
+      "russian": "Понятия не имею.",
+      "start": 564.974,
+      "end": 579.486
+    },
+    {
+      "id": 43,
+      "english": "I miss you.",
+      "russian": "Я скучаю по тебе.",
+      "start": 579.486,
+      "end": 593.056
+    },
+    {
+      "id": 44,
+      "english": "Do you speak English?",
+      "russian": "Ты говоришь по-английски?",
+      "start": 593.056,
+      "end": 607.374
+    },
+    {
+      "id": 45,
+      "english": "Have fun.",
+      "russian": "Повеселись.",
+      "start": 607.374,
+      "end": 620.894
+    },
+    {
+      "id": 46,
+      "english": "Maybe.",
+      "russian": "Может быть.",
+      "start": 620.894,
+      "end": 634.123
+    },
+    {
+      "id": 47,
+      "english": "Your turn.",
+      "russian": "Твоя очередь.",
+      "start": 634.123,
+      "end": 647.638
+    },
+    {
+      "id": 48,
+      "english": "My mistake.",
+      "russian": "Моя ошибка.",
+      "start": 647.638,
+      "end": 661.541
+    },
+    {
+      "id": 49,
+      "english": "It’s impossible.",
+      "russian": "Это невозможно.",
+      "start": 661.541,
+      "end": 675.548
+    },
+    {
+      "id": 50,
+      "english": "That sounds good.",
+      "russian": "Звучит хорошо.",
+      "start": 675.548,
+      "end": 682.368
+    }
+  ]
+}

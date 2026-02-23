@@ -1,0 +1,360 @@
+{
+  "id": "deck-20",
+  "deck_name": "phrase 1",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase1.mp3",
+  "group": "phrase",
+  "total_duration": 685.63,
+  "total_sentences": 50,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Don’t mention it.",
+      "russian": "Не стоит благодарности.",
+      "start": 0.0,
+      "end": 14.119
+    },
+    {
+      "id": 2,
+      "english": "Good luck!",
+      "russian": "Удачи!",
+      "start": 14.119,
+      "end": 27.599
+    },
+    {
+      "id": 3,
+      "english": "In my opinion.",
+      "russian": "По моему мнению.",
+      "start": 27.599,
+      "end": 41.67
+    },
+    {
+      "id": 4,
+      "english": "Take care.",
+      "russian": "Береги себя.",
+      "start": 41.67,
+      "end": 55.197
+    },
+    {
+      "id": 5,
+      "english": "What’s wrong?",
+      "russian": "Что не так?",
+      "start": 55.197,
+      "end": 68.889
+    },
+    {
+      "id": 6,
+      "english": "Excuse me.",
+      "russian": "Извините.",
+      "start": 68.889,
+      "end": 82.698
+    },
+    {
+      "id": 7,
+      "english": "Trust me.",
+      "russian": "Поверь мне.",
+      "start": 82.698,
+      "end": 96.254
+    },
+    {
+      "id": 8,
+      "english": "I’m bored.",
+      "russian": "Мне скучно.",
+      "start": 96.254,
+      "end": 109.957
+    },
+    {
+      "id": 9,
+      "english": "You’re wrong.",
+      "russian": "Ты ошибаешься.",
+      "start": 109.957,
+      "end": 123.564
+    },
+    {
+      "id": 10,
+      "english": "What are you doing?",
+      "russian": "Что ты делаешь?",
+      "start": 123.564,
+      "end": 137.598
+    },
+    {
+      "id": 11,
+      "english": "I’m kidding.",
+      "russian": "Я шучу.",
+      "start": 137.598,
+      "end": 151.077
+    },
+    {
+      "id": 12,
+      "english": "How old are you?",
+      "russian": "Сколько тебе лет?",
+      "start": 151.077,
+      "end": 164.861
+    },
+    {
+      "id": 13,
+      "english": "Can I help you?",
+      "russian": "Могу я помочь?",
+      "start": 164.861,
+      "end": 178.532
+    },
+    {
+      "id": 14,
+      "english": "Wait a minute.",
+      "russian": "Подожди минуту.",
+      "start": 178.532,
+      "end": 192.292
+    },
+    {
+      "id": 15,
+      "english": "See you tomorrow.",
+      "russian": "Увидимся завтра.",
+      "start": 192.292,
+      "end": 206.461
+    },
+    {
+      "id": 16,
+      "english": "I’m sorry.",
+      "russian": "Мне жаль.",
+      "start": 206.461,
+      "end": 219.966
+    },
+    {
+      "id": 17,
+      "english": "Can you help me?",
+      "russian": "Ты можешь мне помочь?",
+      "start": 219.966,
+      "end": 233.691
+    },
+    {
+      "id": 18,
+      "english": "What do you do?",
+      "russian": "Чем ты занимаешься?",
+      "start": 233.691,
+      "end": 247.571
+    },
+    {
+      "id": 19,
+      "english": "I’ll call you back.",
+      "russian": "Я перезвоню тебе.",
+      "start": 247.571,
+      "end": 261.699
+    },
+    {
+      "id": 20,
+      "english": "Could be better.",
+      "russian": "Бывало и лучше.",
+      "start": 261.699,
+      "end": 275.363
+    },
+    {
+      "id": 21,
+      "english": "That’s fine.",
+      "russian": "Это нормально.",
+      "start": 275.363,
+      "end": 288.973
+    },
+    {
+      "id": 22,
+      "english": "I’m not sure.",
+      "russian": "Я не уверен.",
+      "start": 288.973,
+      "end": 302.786
+    },
+    {
+      "id": 23,
+      "english": "No worries.",
+      "russian": "Не переживай.",
+      "start": 302.786,
+      "end": 316.773
+    },
+    {
+      "id": 24,
+      "english": "See you around.",
+      "russian": "Увидимся.",
+      "start": 316.773,
+      "end": 331.104
+    },
+    {
+      "id": 25,
+      "english": "What’s the matter?",
+      "russian": "В чём дело?",
+      "start": 331.104,
+      "end": 344.954
+    },
+    {
+      "id": 26,
+      "english": "Don’t worry.",
+      "russian": "Не переживай.",
+      "start": 344.954,
+      "end": 358.312
+    },
+    {
+      "id": 27,
+      "english": "Let’s do it.",
+      "russian": "Давай сделаем это.",
+      "start": 358.312,
+      "end": 371.969
+    },
+    {
+      "id": 28,
+      "english": "Do your best.",
+      "russian": "Старайся изо всех сил.",
+      "start": 371.969,
+      "end": 385.853
+    },
+    {
+      "id": 29,
+      "english": "I’m from Russia.",
+      "russian": "Я из России.",
+      "start": 385.853,
+      "end": 399.795
+    },
+    {
+      "id": 30,
+      "english": "I feel good.",
+      "russian": "Я чувствую себя хорошо.",
+      "start": 399.795,
+      "end": 413.705
+    },
+    {
+      "id": 31,
+      "english": "I’m hungry.",
+      "russian": "Я голоден.",
+      "start": 413.705,
+      "end": 427.298
+    },
+    {
+      "id": 32,
+      "english": "I need help.",
+      "russian": "Мне нужна помощь.",
+      "start": 427.298,
+      "end": 441.021
+    },
+    {
+      "id": 33,
+      "english": "How do you say this in English?",
+      "russian": "Как это сказать по-английски?",
+      "start": 441.021,
+      "end": 456.313
+    },
+    {
+      "id": 34,
+      "english": "Look at this.",
+      "russian": "Посмотри на это.",
+      "start": 456.313,
+      "end": 470.1
+    },
+    {
+      "id": 35,
+      "english": "It’s not fair.",
+      "russian": "Это несправедливо.",
+      "start": 470.1,
+      "end": 483.946
+    },
+    {
+      "id": 36,
+      "english": "That sounds great.",
+      "russian": "Звучит отлично.",
+      "start": 483.946,
+      "end": 498.22
+    },
+    {
+      "id": 37,
+      "english": "I hate it.",
+      "russian": "Я это ненавижу.",
+      "start": 498.22,
+      "end": 511.828
+    },
+    {
+      "id": 38,
+      "english": "Can I ask you something?",
+      "russian": "Можно тебя спросить?",
+      "start": 511.828,
+      "end": 526.356
+    },
+    {
+      "id": 39,
+      "english": "No comment.",
+      "russian": "Без комментариев.",
+      "start": 526.356,
+      "end": 540.116
+    },
+    {
+      "id": 40,
+      "english": "It’s up to you.",
+      "russian": "Тебе решать.",
+      "start": 540.116,
+      "end": 553.974
+    },
+    {
+      "id": 41,
+      "english": "On the other hand.",
+      "russian": "С другой стороны.",
+      "start": 553.974,
+      "end": 568.273
+    },
+    {
+      "id": 42,
+      "english": "I think so.",
+      "russian": "Я так думаю.",
+      "start": 568.273,
+      "end": 582.074
+    },
+    {
+      "id": 43,
+      "english": "I doubt it.",
+      "russian": "Сомневаюсь.",
+      "start": 582.074,
+      "end": 595.736
+    },
+    {
+      "id": 44,
+      "english": "Come in.",
+      "russian": "Входи.",
+      "start": 595.736,
+      "end": 608.954
+    },
+    {
+      "id": 45,
+      "english": "I can’t believe it.",
+      "russian": "Не могу поверить.",
+      "start": 608.954,
+      "end": 623.142
+    },
+    {
+      "id": 46,
+      "english": "It’s my pleasure.",
+      "russian": "С удовольствием.",
+      "start": 623.142,
+      "end": 637.338
+    },
+    {
+      "id": 47,
+      "english": "That’s not true.",
+      "russian": "Это неправда.",
+      "start": 637.338,
+      "end": 651.27
+    },
+    {
+      "id": 48,
+      "english": "I’m not ready.",
+      "russian": "Я не готов.",
+      "start": 651.27,
+      "end": 665.07
+    },
+    {
+      "id": 49,
+      "english": "Of course.",
+      "russian": "Конечно.",
+      "start": 665.07,
+      "end": 678.831
+    },
+    {
+      "id": 50,
+      "english": "It’s my fault.",
+      "russian": "Это моя вина.",
+      "start": 678.831,
+      "end": 685.631
+    }
+  ]
+}

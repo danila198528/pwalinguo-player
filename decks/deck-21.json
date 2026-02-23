@@ -1,0 +1,360 @@
+{
+  "id": "deck-21",
+  "deck_name": "phrase 2",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase2.mp3",
+  "group": "phrase",
+  "total_duration": 689.13,
+  "total_sentences": 50,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "As you wish.",
+      "russian": "Как хочешь.",
+      "start": 0.0,
+      "end": 14.036
+    },
+    {
+      "id": 2,
+      "english": "Good afternoon!",
+      "russian": "Добрый день!",
+      "start": 14.036,
+      "end": 28.014
+    },
+    {
+      "id": 3,
+      "english": "I don’t think so.",
+      "russian": "Я так не думаю.",
+      "start": 28.014,
+      "end": 42.159
+    },
+    {
+      "id": 4,
+      "english": "Take your time.",
+      "russian": "Не спеши.",
+      "start": 42.159,
+      "end": 56.348
+    },
+    {
+      "id": 5,
+      "english": "Sit down.",
+      "russian": "Садись.",
+      "start": 56.348,
+      "end": 70.06
+    },
+    {
+      "id": 6,
+      "english": "Be right back.",
+      "russian": "Сейчас вернусь.",
+      "start": 70.06,
+      "end": 83.984
+    },
+    {
+      "id": 7,
+      "english": "I feel bad.",
+      "russian": "Мне плохо.",
+      "start": 83.984,
+      "end": 97.833
+    },
+    {
+      "id": 8,
+      "english": "I’m thirsty.",
+      "russian": "Я хочу пить.",
+      "start": 97.833,
+      "end": 111.582
+    },
+    {
+      "id": 9,
+      "english": "Forget it.",
+      "russian": "Забудь.",
+      "start": 111.582,
+      "end": 125.062
+    },
+    {
+      "id": 10,
+      "english": "It’s nothing.",
+      "russian": "Ничего страшного.",
+      "start": 125.062,
+      "end": 138.724
+    },
+    {
+      "id": 11,
+      "english": "It’s early.",
+      "russian": "Рано.",
+      "start": 138.724,
+      "end": 152.182
+    },
+    {
+      "id": 12,
+      "english": "See you soon.",
+      "russian": "До скорого.",
+      "start": 152.182,
+      "end": 166.266
+    },
+    {
+      "id": 13,
+      "english": "See you later.",
+      "russian": "Увидимся позже.",
+      "start": 166.266,
+      "end": 180.267
+    },
+    {
+      "id": 14,
+      "english": "What a surprise!",
+      "russian": "Какой сюрприз!",
+      "start": 180.267,
+      "end": 194.538
+    },
+    {
+      "id": 15,
+      "english": "You’re welcome anytime.",
+      "russian": "Всегда пожалуйста.",
+      "start": 194.538,
+      "end": 209.24
+    },
+    {
+      "id": 16,
+      "english": "I swear.",
+      "russian": "Клянусь.",
+      "start": 209.24,
+      "end": 222.711
+    },
+    {
+      "id": 17,
+      "english": "It’s my turn.",
+      "russian": "Моя очередь.",
+      "start": 222.711,
+      "end": 236.746
+    },
+    {
+      "id": 18,
+      "english": "How are you?",
+      "russian": "Как ты?",
+      "start": 236.746,
+      "end": 250.221
+    },
+    {
+      "id": 19,
+      "english": "Stand up.",
+      "russian": "Встань.",
+      "start": 250.221,
+      "end": 263.978
+    },
+    {
+      "id": 20,
+      "english": "Enjoy your meal.",
+      "russian": "Приятного аппетита.",
+      "start": 263.978,
+      "end": 278.476
+    },
+    {
+      "id": 21,
+      "english": "Congratulations!",
+      "russian": "Поздравляю!",
+      "start": 278.476,
+      "end": 293.149
+    },
+    {
+      "id": 22,
+      "english": "Are you okay?",
+      "russian": "Ты в порядке?",
+      "start": 293.149,
+      "end": 307.146
+    },
+    {
+      "id": 23,
+      "english": "I’m sure.",
+      "russian": "Я уверен.",
+      "start": 307.146,
+      "end": 320.764
+    },
+    {
+      "id": 24,
+      "english": "That’s a bad idea.",
+      "russian": "Это плохая идея.",
+      "start": 320.764,
+      "end": 335.166
+    },
+    {
+      "id": 25,
+      "english": "I’m not tired.",
+      "russian": "Я не устал.",
+      "start": 335.166,
+      "end": 349.305
+    },
+    {
+      "id": 26,
+      "english": "Exactly.",
+      "russian": "Точно.",
+      "start": 349.305,
+      "end": 362.909
+    },
+    {
+      "id": 27,
+      "english": "I don’t care.",
+      "russian": "Мне всё равно.",
+      "start": 362.909,
+      "end": 376.534
+    },
+    {
+      "id": 28,
+      "english": "Long time no see.",
+      "russian": "Давно не виделись.",
+      "start": 376.534,
+      "end": 391.285
+    },
+    {
+      "id": 29,
+      "english": "Why not?",
+      "russian": "Почему бы и нет?",
+      "start": 391.285,
+      "end": 404.84
+    },
+    {
+      "id": 30,
+      "english": "That’s funny.",
+      "russian": "Это смешно.",
+      "start": 404.84,
+      "end": 418.253
+    },
+    {
+      "id": 31,
+      "english": "Don’t forget.",
+      "russian": "Не забудь.",
+      "start": 418.253,
+      "end": 431.906
+    },
+    {
+      "id": 32,
+      "english": "That’s it.",
+      "russian": "Вот и всё.",
+      "start": 431.906,
+      "end": 445.05
+    },
+    {
+      "id": 33,
+      "english": "Welcome back.",
+      "russian": "С возвращением.",
+      "start": 445.05,
+      "end": 459.038
+    },
+    {
+      "id": 34,
+      "english": "Leave me alone.",
+      "russian": "Оставь меня в покое.",
+      "start": 459.038,
+      "end": 473.067
+    },
+    {
+      "id": 35,
+      "english": "Let’s talk later.",
+      "russian": "Поговорим позже.",
+      "start": 473.067,
+      "end": 487.314
+    },
+    {
+      "id": 36,
+      "english": "Calm down.",
+      "russian": "Успокойся.",
+      "start": 487.314,
+      "end": 501.118
+    },
+    {
+      "id": 37,
+      "english": "How’s it going?",
+      "russian": "Как дела?",
+      "start": 501.118,
+      "end": 514.916
+    },
+    {
+      "id": 38,
+      "english": "Finally.",
+      "russian": "Наконец.",
+      "start": 514.916,
+      "end": 528.369
+    },
+    {
+      "id": 39,
+      "english": "I’m tired.",
+      "russian": "Я устал.",
+      "start": 528.369,
+      "end": 542.178
+    },
+    {
+      "id": 40,
+      "english": "Sounds good.",
+      "russian": "Звучит неплохо.",
+      "start": 542.178,
+      "end": 556.075
+    },
+    {
+      "id": 41,
+      "english": "Get well soon.",
+      "russian": "Поправляйся скорее.",
+      "start": 556.075,
+      "end": 570.163
+    },
+    {
+      "id": 42,
+      "english": "That’s why.",
+      "russian": "Вот почему.",
+      "start": 570.163,
+      "end": 583.899
+    },
+    {
+      "id": 43,
+      "english": "How much time do we have?",
+      "russian": "Сколько у нас времени?",
+      "start": 583.899,
+      "end": 598.967
+    },
+    {
+      "id": 44,
+      "english": "Make yourself at home.",
+      "russian": "Чувствуй себя как дома.",
+      "start": 598.967,
+      "end": 613.806
+    },
+    {
+      "id": 45,
+      "english": "Keep going.",
+      "russian": "Продолжай.",
+      "start": 613.806,
+      "end": 627.453
+    },
+    {
+      "id": 46,
+      "english": "What’s going on?",
+      "russian": "Что происходит?",
+      "start": 627.453,
+      "end": 641.267
+    },
+    {
+      "id": 47,
+      "english": "Go ahead.",
+      "russian": "Продолжай / Действуй.",
+      "start": 641.267,
+      "end": 654.866
+    },
+    {
+      "id": 48,
+      "english": "I’ll try.",
+      "russian": "Я попробую.",
+      "start": 654.866,
+      "end": 668.476
+    },
+    {
+      "id": 49,
+      "english": "I agree.",
+      "russian": "Я согласен.",
+      "start": 668.476,
+      "end": 682.193
+    },
+    {
+      "id": 50,
+      "english": "Better late than never.",
+      "russian": "Лучше поздно, чем никогда.",
+      "start": 682.193,
+      "end": 689.135
+    }
+  ]
+}
