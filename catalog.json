@@ -41,7 +41,7 @@
     "group": "collocation",
     "total_duration": 36.46,
     "total_sentences": 3,
-    "deck_url": "./json/deck-15.json"
+    "deck_url": "./decks/deck-15.json"
   },
   {
     "id": "deck-16",
@@ -50,6 +50,6 @@
     "group": "collocation",
     "total_duration": 37.22,
     "total_sentences": 3,
-    "deck_url": "./json/deck-16.json"
+    "deck_url": "./decks/deck-16.json"
   }
 ]
