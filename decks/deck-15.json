@@ -1,0 +1,31 @@
+{
+  "id": "deck-15",
+  "deck_name": "collocation 13",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation13.mp3",
+  "group": "collocation",
+  "total_duration": 36.46,
+  "total_sentences": 3,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "That’s a · good idea.",
+      "russian": "Это хорошая идея.",
+      "start": 0.0,
+      "end": 14.529
+    },
+    {
+      "id": 2,
+      "english": "I have a · strong opinion.",
+      "russian": "У меня твёрдое мнение.",
+      "start": 14.529,
+      "end": 29.403
+    },
+    {
+      "id": 3,
+      "english": "This is a · big problem.",
+      "russian": "Это большая проблема.",
+      "start": 29.403,
+      "end": 36.456
+    }
+  ]
+}

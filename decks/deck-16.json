@@ -1,0 +1,31 @@
+{
+  "id": "deck-16",
+  "deck_name": "collocation 14",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation14.mp3",
+  "group": "collocation",
+  "total_duration": 37.22,
+  "total_sentences": 3,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "He plays an · important role.",
+      "russian": "Он играет важную роль.",
+      "start": 0.0,
+      "end": 15.468
+    },
+    {
+      "id": 2,
+      "english": "You have a · real chance.",
+      "russian": "У тебя реальный шанс.",
+      "start": 15.468,
+      "end": 30.469
+    },
+    {
+      "id": 3,
+      "english": "It’s · hard work.",
+      "russian": "Это тяжёлая работа.",
+      "start": 30.469,
+      "end": 37.223
+    }
+  ]
+}

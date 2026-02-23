@@ -33,5 +33,23 @@
   "total_duration": 584.86,
   "total_sentences": 40,
   "deck_url": "./decks/deck-13.json"
-}
+},
+ {
+    "id": "deck-15",
+    "deck_name": "collocation 13",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation13.mp3",
+    "group": "collocation",
+    "total_duration": 36.46,
+    "total_sentences": 3,
+    "deck_url": "./json/deck-15.json"
+  },
+  {
+    "id": "deck-16",
+    "deck_name": "collocation 14",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation14.mp3",
+    "group": "collocation",
+    "total_duration": 37.22,
+    "total_sentences": 3,
+    "deck_url": "./json/deck-16.json"
+  }
 ]
