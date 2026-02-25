@@ -1,0 +1,367 @@
+{
+  "id": "deck-35",
+  "deck_name": "collocation 11",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation11.mp3",
+  "group": "collocation",
+  "total_duration": 797.21,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "He almost · went blind from the disease.",
+      "russian": "Он почти · ослеп от этой болезни.",
+      "start": 0.0,
+      "end": 16.63
+    },
+    {
+      "id": 2,
+      "english": "An · enormous number of people attended.",
+      "russian": "· Огромное количество людей присутствовало.",
+      "start": 16.63,
+      "end": 32.802
+    },
+    {
+      "id": 3,
+      "english": "His behaviour · left a bad taste in my mouth.",
+      "russian": "Его поведение · оставило неприятный осадок.",
+      "start": 32.802,
+      "end": 50.074
+    },
+    {
+      "id": 4,
+      "english": "I · tend to agree with you.",
+      "russian": "Я · склонен согласиться с тобой.",
+      "start": 50.074,
+      "end": 64.938
+    },
+    {
+      "id": 5,
+      "english": "She · gave a laugh when she saw him.",
+      "russian": "Она · рассмеялась, когда увидела его.",
+      "start": 64.938,
+      "end": 80.406
+    },
+    {
+      "id": 6,
+      "english": "I have very · sensitive skin.",
+      "russian": "У меня очень · чувствительная кожа.",
+      "start": 80.406,
+      "end": 95.853
+    },
+    {
+      "id": 7,
+      "english": "They threatened to · go to war.",
+      "russian": "Они угрожали · начать войну.",
+      "start": 95.853,
+      "end": 110.855
+    },
+    {
+      "id": 8,
+      "english": "The rebels · seized control of the city.",
+      "russian": "Повстанцы · захватили контроль над городом.",
+      "start": 110.855,
+      "end": 126.872
+    },
+    {
+      "id": 9,
+      "english": "Whether it's good or bad is a · matter of opinion.",
+      "russian": "Хорошо это или плохо — это · вопрос мнения.",
+      "start": 126.872,
+      "end": 143.92
+    },
+    {
+      "id": 10,
+      "english": "He has a · criminal record.",
+      "russian": "У него · судимость.",
+      "start": 143.92,
+      "end": 159.106
+    },
+    {
+      "id": 11,
+      "english": "Add just a · tiny amount of salt.",
+      "russian": "Добавь всего лишь · крошечное количество соли.",
+      "start": 159.106,
+      "end": 174.887
+    },
+    {
+      "id": 12,
+      "english": "The · ice melts in the spring.",
+      "russian": "· Лед тает весной.",
+      "start": 174.887,
+      "end": 189.818
+    },
+    {
+      "id": 13,
+      "english": "Only · small numbers of people attended.",
+      "russian": "Присутствовало только · небольшое количество людей.",
+      "start": 189.818,
+      "end": 206.16
+    },
+    {
+      "id": 14,
+      "english": "He had to · serve a sentence of five years.",
+      "russian": "Ему пришлось · отбыть пятилетний срок.",
+      "start": 206.16,
+      "end": 223.01
+    },
+    {
+      "id": 15,
+      "english": "She has a very · slim figure.",
+      "russian": "У нее очень · стройная фигура.",
+      "start": 223.01,
+      "end": 238.329
+    },
+    {
+      "id": 16,
+      "english": "This novel is · beautifully written.",
+      "russian": "Этот роман · прекрасно написан.",
+      "start": 238.329,
+      "end": 254.09
+    },
+    {
+      "id": 17,
+      "english": "I'd like to · raise an important question.",
+      "russian": "Я хотел бы · поднять важный вопрос.",
+      "start": 254.09,
+      "end": 270.139
+    },
+    {
+      "id": 18,
+      "english": "He felt a great · sense of pride.",
+      "russian": "Он испытывал огромное · чувство гордости.",
+      "start": 270.139,
+      "end": 285.919
+    },
+    {
+      "id": 19,
+      "english": "I · vaguely remember that day.",
+      "russian": "Я · смутно помню тот день.",
+      "start": 285.919,
+      "end": 301.11
+    },
+    {
+      "id": 20,
+      "english": "I · suffer from backache sometimes.",
+      "russian": "Я иногда · страдаю от боли в спине.",
+      "start": 301.11,
+      "end": 317.225
+    },
+    {
+      "id": 21,
+      "english": "This fact is · widely acknowledged.",
+      "russian": "Этот факт · широко признан.",
+      "start": 317.225,
+      "end": 333.225
+    },
+    {
+      "id": 22,
+      "english": "· Asylum seekers need our help.",
+      "russian": "· Просители убежища нуждаются в нашей помощи.",
+      "start": 333.225,
+      "end": 349.017
+    },
+    {
+      "id": 23,
+      "english": "He might · develop diabetes later in life.",
+      "russian": "У него может · развиться диабет в более позднем возрасте.",
+      "start": 349.017,
+      "end": 366.116
+    },
+    {
+      "id": 24,
+      "english": "The hotel is · fully booked for August.",
+      "russian": "Отель · полностью забронирован на август.",
+      "start": 366.116,
+      "end": 382.491
+    },
+    {
+      "id": 25,
+      "english": "I prefer to · take the train.",
+      "russian": "Я предпочитаю · ездить на поезде.",
+      "start": 382.491,
+      "end": 397.554
+    },
+    {
+      "id": 26,
+      "english": "· Child labour is a serious problem.",
+      "russian": "· Детский труд — серьезная проблема.",
+      "start": 397.554,
+      "end": 413.793
+    },
+    {
+      "id": 27,
+      "english": "I have a · clear preference for tea.",
+      "russian": "У меня есть · четкое предпочтение чая.",
+      "start": 413.793,
+      "end": 429.667
+    },
+    {
+      "id": 28,
+      "english": "They threatened to · declare war.",
+      "russian": "Они угрожали · объявить войну.",
+      "start": 429.667,
+      "end": 444.858
+    },
+    {
+      "id": 29,
+      "english": "It was a · unanimous decision.",
+      "russian": "Это было · единогласное решение.",
+      "start": 444.858,
+      "end": 460.101
+    },
+    {
+      "id": 30,
+      "english": "The police are there to · enforce the law.",
+      "russian": "Полиция здесь, чтобы · обеспечивать соблюдение закона.",
+      "start": 460.101,
+      "end": 476.356
+    },
+    {
+      "id": 31,
+      "english": "You have to · make a choice.",
+      "russian": "Ты должен · сделать выбор.",
+      "start": 476.356,
+      "end": 491.05
+    },
+    {
+      "id": 32,
+      "english": "I love to · take photos.",
+      "russian": "Я люблю · фотографировать.",
+      "start": 491.05,
+      "end": 506.145
+    },
+    {
+      "id": 33,
+      "english": "I hope I don't · fail my exams.",
+      "russian": "Надеюсь, я не · провалю экзамены.",
+      "start": 506.145,
+      "end": 522.291
+    },
+    {
+      "id": 34,
+      "english": "I have a · strong preference for dogs over cats.",
+      "russian": "Я · явно предпочитаю собак кошкам.",
+      "start": 522.291,
+      "end": 539.517
+    },
+    {
+      "id": 35,
+      "english": "We need to · take action immediately.",
+      "russian": "Нам нужно · действовать немедленно.",
+      "start": 539.517,
+      "end": 555.321
+    },
+    {
+      "id": 36,
+      "english": "I'm · deeply concerned about this.",
+      "russian": "Я · глубоко обеспокоен этим.",
+      "start": 555.321,
+      "end": 570.924
+    },
+    {
+      "id": 37,
+      "english": "It's easy to · make friends there.",
+      "russian": "Там легко · заводить друзей.",
+      "start": 570.924,
+      "end": 586.141
+    },
+    {
+      "id": 38,
+      "english": "I have to · do some work now.",
+      "russian": "Мне нужно · поработать сейчас.",
+      "start": 586.141,
+      "end": 601.422
+    },
+    {
+      "id": 39,
+      "english": "Our team · lost the match.",
+      "russian": "Наша команда · проиграла матч.",
+      "start": 601.422,
+      "end": 616.43
+    },
+    {
+      "id": 40,
+      "english": "You can walk there at · high tide.",
+      "russian": "Туда можно дойти во время · прилива.",
+      "start": 616.43,
+      "end": 632.098
+    },
+    {
+      "id": 41,
+      "english": "UN troops are there to · keep the peace.",
+      "russian": "Войска ООН там для · поддержания мира.",
+      "start": 632.098,
+      "end": 648.343
+    },
+    {
+      "id": 42,
+      "english": "· Petty crime is common in big cities.",
+      "russian": "· Мелкая преступность обычна в больших городах.",
+      "start": 648.343,
+      "end": 664.685
+    },
+    {
+      "id": 43,
+      "english": "I enjoy it · big time.",
+      "russian": "Мне это · очень нравится.",
+      "start": 664.685,
+      "end": 679.804
+    },
+    {
+      "id": 44,
+      "english": "It's hard to · hold their attention.",
+      "russian": "Трудно · удерживать их внимание.",
+      "start": 679.804,
+      "end": 695.262
+    },
+    {
+      "id": 45,
+      "english": "I prefer to · live alone.",
+      "russian": "Я предпочитаю · жить один.",
+      "start": 695.262,
+      "end": 710.173
+    },
+    {
+      "id": 46,
+      "english": "The bill · comes to a total of fifty euros.",
+      "russian": "Счет · составляет в сумме пятьдесят евро.",
+      "start": 710.173,
+      "end": 726.897
+    },
+    {
+      "id": 47,
+      "english": "I'm going to · do a course in marketing.",
+      "russian": "Я собираюсь · пройти курс по маркетингу.",
+      "start": 726.897,
+      "end": 742.764
+    },
+    {
+      "id": 48,
+      "english": "I'll · keep you informed.",
+      "russian": "Я буду · держать тебя в курсе.",
+      "start": 742.764,
+      "end": 757.677
+    },
+    {
+      "id": 49,
+      "english": "Be careful with that · sharp knife.",
+      "russian": "Будь осторожен с этим · острым ножом.",
+      "start": 757.677,
+      "end": 773.391
+    },
+    {
+      "id": 50,
+      "english": "We stayed at a · luxury hotel.",
+      "russian": "Мы остановились в · роскошном отеле.",
+      "start": 773.391,
+      "end": 789.172
+    },
+    {
+      "id": 51,
+      "english": "He comes from a · stable home.",
+      "russian": "Он из · благополучной семьи.",
+      "start": 789.172,
+      "end": 797.207
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "id": "deck-33",
+  "deck_name": "collocation 9",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation9.mp3",
+  "group": "collocation",
+  "total_duration": 787.32,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I want to · donate money to charity.",
+      "russian": "Я хочу · пожертвовать деньги на благотворительность.",
+      "start": 0.0,
+      "end": 15.865
+    },
+    {
+      "id": 2,
+      "english": "The referee had to · blow the whistle.",
+      "russian": "Судье пришлось · дать свисток.",
+      "start": 15.865,
+      "end": 31.309
+    },
+    {
+      "id": 3,
+      "english": "They will · hold talks tomorrow.",
+      "russian": "Завтра они · проведут переговоры.",
+      "start": 31.309,
+      "end": 46.485
+    },
+    {
+      "id": 4,
+      "english": "We got caught in · torrential rain.",
+      "russian": "Мы попали под · проливной дождь.",
+      "start": 46.485,
+      "end": 62.259
+    },
+    {
+      "id": 5,
+      "english": "It's only a · minor difference.",
+      "russian": "Это всего лишь · небольшое различие.",
+      "start": 62.259,
+      "end": 77.534
+    },
+    {
+      "id": 6,
+      "english": "The government will · pass a law.",
+      "russian": "Правительство · примет закон.",
+      "start": 77.534,
+      "end": 92.803
+    },
+    {
+      "id": 7,
+      "english": "He · sustained serious injuries.",
+      "russian": "Он · получил серьезные травмы.",
+      "start": 92.803,
+      "end": 108.868
+    },
+    {
+      "id": 8,
+      "english": "I'm going to · take a course in French.",
+      "russian": "Я собираюсь · пройти курс французского.",
+      "start": 108.868,
+      "end": 124.746
+    },
+    {
+      "id": 9,
+      "english": "Everyone · speaks well of her.",
+      "russian": "Все · хорошо о ней отзываются.",
+      "start": 124.746,
+      "end": 139.829
+    },
+    {
+      "id": 10,
+      "english": "I need to · make arrangements for the trip.",
+      "russian": "Мне нужно · организовать поездку.",
+      "start": 139.829,
+      "end": 155.551
+    },
+    {
+      "id": 11,
+      "english": "Watch it in · slow motion.",
+      "russian": "Смотри это в · замедленной съемке.",
+      "start": 155.551,
+      "end": 170.336
+    },
+    {
+      "id": 12,
+      "english": "We need to · make some modifications.",
+      "russian": "Нам нужно · внести некоторые изменения.",
+      "start": 170.336,
+      "end": 186.578
+    },
+    {
+      "id": 13,
+      "english": "· Market forces determine the price.",
+      "russian": "· Рыночные силы определяют цену.",
+      "start": 186.578,
+      "end": 202.994
+    },
+    {
+      "id": 14,
+      "english": "I · strongly recommend this book.",
+      "russian": "Я · настоятельно рекомендую эту книгу.",
+      "start": 202.994,
+      "end": 218.599
+    },
+    {
+      "id": 15,
+      "english": "The movie got · rave reviews.",
+      "russian": "Фильм получил · восторженные отзывы.",
+      "start": 218.599,
+      "end": 234.451
+    },
+    {
+      "id": 16,
+      "english": "We need to stop using · fossil fuels.",
+      "russian": "Нам нужно перестать использовать · ископаемое топливо.",
+      "start": 234.451,
+      "end": 250.986
+    },
+    {
+      "id": 17,
+      "english": "He decided to · change jobs.",
+      "russian": "Он решил · сменить работу.",
+      "start": 250.986,
+      "end": 266.646
+    },
+    {
+      "id": 18,
+      "english": "Fresh water is · in short supply here.",
+      "russian": "Пресная вода здесь · в дефиците.",
+      "start": 266.646,
+      "end": 283.342
+    },
+    {
+      "id": 19,
+      "english": "She has a · life-threatening illness.",
+      "russian": "У нее · опасное для жизни заболевание.",
+      "start": 283.342,
+      "end": 299.083
+    },
+    {
+      "id": 20,
+      "english": "He was · made redundant last month.",
+      "russian": "Его · сократили в прошлом месяце.",
+      "start": 299.083,
+      "end": 314.884
+    },
+    {
+      "id": 21,
+      "english": "She's a · blood relative of mine.",
+      "russian": "Она моя · кровная родственница.",
+      "start": 314.884,
+      "end": 330.262
+    },
+    {
+      "id": 22,
+      "english": "My · long-term memory is fine.",
+      "russian": "С · долговременной памятью у меня все в порядке.",
+      "start": 330.262,
+      "end": 345.995
+    },
+    {
+      "id": 23,
+      "english": "You should · have a try.",
+      "russian": "Тебе стоит · попробовать.",
+      "start": 345.995,
+      "end": 360.308
+    },
+    {
+      "id": 24,
+      "english": "This news will · cause concern.",
+      "russian": "Эти новости · вызовут беспокойство.",
+      "start": 360.308,
+      "end": 375.732
+    },
+    {
+      "id": 25,
+      "english": "She loves wearing · bright colours.",
+      "russian": "Она любит носить · яркие цвета.",
+      "start": 375.732,
+      "end": 391.492
+    },
+    {
+      "id": 26,
+      "english": "I need a · swift response.",
+      "russian": "Мне нужен · быстрый ответ.",
+      "start": 391.492,
+      "end": 406.694
+    },
+    {
+      "id": 27,
+      "english": "There was · fierce fighting in the city.",
+      "russian": "В городе шли · ожесточенные бои.",
+      "start": 406.694,
+      "end": 422.222
+    },
+    {
+      "id": 28,
+      "english": "We walked along the · sandy beach.",
+      "russian": "Мы гуляли по · песчаному пляжу.",
+      "start": 422.222,
+      "end": 437.983
+    },
+    {
+      "id": 29,
+      "english": "This is my · absolute favourite song.",
+      "russian": "Это моя · самая любимая песня.",
+      "start": 437.983,
+      "end": 454.25
+    },
+    {
+      "id": 30,
+      "english": "We · have a good relationship with them.",
+      "russian": "У нас с ними · хорошие отношения.",
+      "start": 454.25,
+      "end": 469.71
+    },
+    {
+      "id": 31,
+      "english": "I only buy · organic food.",
+      "russian": "Я покупаю только · органические продукты.",
+      "start": 469.71,
+      "end": 485.145
+    },
+    {
+      "id": 32,
+      "english": "I have a · splitting headache.",
+      "russian": "У меня · ужасно болит голова.",
+      "start": 485.145,
+      "end": 500.154
+    },
+    {
+      "id": 33,
+      "english": "The driver · lost control of the car.",
+      "russian": "Водитель · потерял управление автомобилем.",
+      "start": 500.154,
+      "end": 516.106
+    },
+    {
+      "id": 34,
+      "english": "Cost was a · major factor.",
+      "russian": "Стоимость была · важным фактором.",
+      "start": 516.106,
+      "end": 531.052
+    },
+    {
+      "id": 35,
+      "english": "I don't · have access to that information.",
+      "russian": "У меня нет · доступа к этой информации.",
+      "start": 531.052,
+      "end": 546.972
+    },
+    {
+      "id": 36,
+      "english": "I suddenly · caught sight of her.",
+      "russian": "Я вдруг · увидел ее.",
+      "start": 546.972,
+      "end": 562.303
+    },
+    {
+      "id": 37,
+      "english": "The government promised · swift action.",
+      "russian": "Правительство пообещало · быстрые действия.",
+      "start": 562.303,
+      "end": 578.029
+    },
+    {
+      "id": 38,
+      "english": "My · immediate family is small.",
+      "russian": "Моя · ближайшая семья небольшая.",
+      "start": 578.029,
+      "end": 593.793
+    },
+    {
+      "id": 39,
+      "english": "I want to · make a contribution to the project.",
+      "russian": "Я хочу · внести вклад в проект.",
+      "start": 593.793,
+      "end": 610.253
+    },
+    {
+      "id": 40,
+      "english": "His theory · came under attack.",
+      "russian": "Его теория · подверглась критике.",
+      "start": 610.253,
+      "end": 625.755
+    },
+    {
+      "id": 41,
+      "english": "· Time passes so quickly.",
+      "russian": "· Время проходит так быстро.",
+      "start": 625.755,
+      "end": 640.776
+    },
+    {
+      "id": 42,
+      "english": "She has · shoulder-length hair.",
+      "russian": "У нее волосы · до плеч.",
+      "start": 640.776,
+      "end": 655.708
+    },
+    {
+      "id": 43,
+      "english": "Our team · beat their team.",
+      "russian": "Наша команда · победила их команду.",
+      "start": 655.708,
+      "end": 670.91
+    },
+    {
+      "id": 44,
+      "english": "We took a · day trip to the coast.",
+      "russian": "Мы съездили на · однодневную экскурсию на побережье.",
+      "start": 670.91,
+      "end": 686.481
+    },
+    {
+      "id": 45,
+      "english": "I need to · make some appointments.",
+      "russian": "Мне нужно · назначить встречи.",
+      "start": 686.481,
+      "end": 701.827
+    },
+    {
+      "id": 46,
+      "english": "We love walking in the · high mountains.",
+      "russian": "Мы любим гулять в · высоких горах.",
+      "start": 701.827,
+      "end": 718.058
+    },
+    {
+      "id": 47,
+      "english": "I need to · do my hair before we go.",
+      "russian": "Мне нужно · сделать прическу перед выходом.",
+      "start": 718.058,
+      "end": 734.162
+    },
+    {
+      "id": 48,
+      "english": "I'm in a · sticky situation.",
+      "russian": "Я в · затруднительном положении.",
+      "start": 734.162,
+      "end": 749.426
+    },
+    {
+      "id": 49,
+      "english": "We need to · reach a compromise.",
+      "russian": "Нам нужно · достичь компромисса.",
+      "start": 749.426,
+      "end": 764.886
+    },
+    {
+      "id": 50,
+      "english": "I · remember it well.",
+      "russian": "Я · хорошо это помню.",
+      "start": 764.886,
+      "end": 779.263
+    },
+    {
+      "id": 51,
+      "english": "· War breaks out unexpectedly.",
+      "russian": "· Война начинается неожиданно.",
+      "start": 779.263,
+      "end": 787.32
+    }
+  ]
+}

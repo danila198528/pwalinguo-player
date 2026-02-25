@@ -1,0 +1,367 @@
+{
+  "id": "deck-38",
+  "deck_name": "collocation 14",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation14.mp3",
+  "group": "collocation",
+  "total_duration": 806.47,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "He's very tall and · well-built.",
+      "russian": "Он очень высокий и · хорошо сложен.",
+      "start": 0.0,
+      "end": 15.591
+    },
+    {
+      "id": 2,
+      "english": "They produce everything · on a small scale.",
+      "russian": "Они производят все · в небольших масштабах.",
+      "start": 15.591,
+      "end": 32.242
+    },
+    {
+      "id": 3,
+      "english": "Remember to · back up your files regularly.",
+      "russian": "Не забывай регулярно · делать резервные копии файлов.",
+      "start": 32.242,
+      "end": 48.782
+    },
+    {
+      "id": 4,
+      "english": "This is a beautiful · piece of music.",
+      "russian": "Это красивое · музыкальное произведение.",
+      "start": 48.782,
+      "end": 64.84
+    },
+    {
+      "id": 5,
+      "english": "The committee · rejected our suggestion.",
+      "russian": "Комитет · отклонил наше предложение.",
+      "start": 64.84,
+      "end": 80.989
+    },
+    {
+      "id": 6,
+      "english": "This restaurant is · highly recommended.",
+      "russian": "Этот ресторан · очень рекомендован.",
+      "start": 80.989,
+      "end": 97.233
+    },
+    {
+      "id": 7,
+      "english": "I love movies with a · happy ending.",
+      "russian": "Я люблю фильмы со · счастливым концом.",
+      "start": 97.233,
+      "end": 113.235
+    },
+    {
+      "id": 8,
+      "english": "I'm trying to · break the habit of smoking.",
+      "russian": "Я пытаюсь · бросить привычку курить.",
+      "start": 113.235,
+      "end": 129.317
+    },
+    {
+      "id": 9,
+      "english": "She's a former · world record holder.",
+      "russian": "Она бывшая · рекордсменка мира.",
+      "start": 129.317,
+      "end": 145.411
+    },
+    {
+      "id": 10,
+      "english": "The city has many · tall buildings.",
+      "russian": "В городе много · высоких зданий.",
+      "start": 145.411,
+      "end": 161.448
+    },
+    {
+      "id": 11,
+      "english": "I · hold the view that education is important.",
+      "russian": "Я · придерживаюсь мнения, что образование важно.",
+      "start": 161.448,
+      "end": 178.329
+    },
+    {
+      "id": 12,
+      "english": "I'm away on a · business trip.",
+      "russian": "Я в · командировке.",
+      "start": 178.329,
+      "end": 193.53
+    },
+    {
+      "id": 13,
+      "english": "The summer · came to an end.",
+      "russian": "Лето · подошло к концу.",
+      "start": 193.53,
+      "end": 208.519
+    },
+    {
+      "id": 14,
+      "english": "The company · provides training for staff.",
+      "russian": "Компания · предоставляет обучение для сотрудников.",
+      "start": 208.519,
+      "end": 225.029
+    },
+    {
+      "id": 15,
+      "english": "We have no · reason to believe him.",
+      "russian": "У нас нет · оснований верить ему.",
+      "start": 225.029,
+      "end": 240.585
+    },
+    {
+      "id": 16,
+      "english": "I almost · lost my balance on the ice.",
+      "russian": "Я чуть не · потерял равновесие на льду.",
+      "start": 240.585,
+      "end": 257.03
+    },
+    {
+      "id": 17,
+      "english": "The band has a · huge following.",
+      "russian": "У группы · огромное количество поклонников.",
+      "start": 257.03,
+      "end": 272.406
+    },
+    {
+      "id": 18,
+      "english": "I met an · old friend yesterday.",
+      "russian": "Вчера я встретил · старого друга.",
+      "start": 272.406,
+      "end": 287.941
+    },
+    {
+      "id": 19,
+      "english": "These items · fall into different categories.",
+      "russian": "Эти предметы · попадают в разные категории.",
+      "start": 287.941,
+      "end": 305.05
+    },
+    {
+      "id": 20,
+      "english": "If you break the rules, you must · suffer the consequences.",
+      "russian": "Если нарушаешь правила, должен · нести последствия.",
+      "start": 305.05,
+      "end": 323.223
+    },
+    {
+      "id": 21,
+      "english": "My · short-term memory is getting worse.",
+      "russian": "Моя · кратковременная память ухудшается.",
+      "start": 323.223,
+      "end": 339.817
+    },
+    {
+      "id": 22,
+      "english": "She's a · single parent with two kids.",
+      "russian": "Она · мать-одиночка с двумя детьми.",
+      "start": 339.817,
+      "end": 356.264
+    },
+    {
+      "id": 23,
+      "english": "He was · pacing up and down nervously.",
+      "russian": "Он нервно · ходил взад-вперед.",
+      "start": 356.264,
+      "end": 372.22
+    },
+    {
+      "id": 24,
+      "english": "She's a very · sensible person.",
+      "russian": "Она очень · здравомыслящий человек.",
+      "start": 372.22,
+      "end": 387.894
+    },
+    {
+      "id": 25,
+      "english": "The court deals with · young offenders.",
+      "russian": "Суд занимается · несовершеннолетними правонарушителями.",
+      "start": 387.894,
+      "end": 403.507
+    },
+    {
+      "id": 26,
+      "english": "We had a · heated argument about politics.",
+      "russian": "У нас был · жаркий спор о политике.",
+      "start": 403.507,
+      "end": 420.313
+    },
+    {
+      "id": 27,
+      "english": "I hope he · becomes successful one day.",
+      "russian": "Надеюсь, однажды он · добьется успеха.",
+      "start": 420.313,
+      "end": 436.911
+    },
+    {
+      "id": 28,
+      "english": "We stayed in · budget accommodation.",
+      "russian": "Мы остановились в · бюджетном жилье.",
+      "start": 436.911,
+      "end": 452.768
+    },
+    {
+      "id": 29,
+      "english": "That was a · wise decision.",
+      "russian": "Это было · мудрое решение.",
+      "start": 452.768,
+      "end": 467.673
+    },
+    {
+      "id": 30,
+      "english": "I need time to · weigh up the options.",
+      "russian": "Мне нужно время, чтобы · взвесить варианты.",
+      "start": 467.673,
+      "end": 483.528
+    },
+    {
+      "id": 31,
+      "english": "I don't want to · take a risk.",
+      "russian": "Я не хочу · рисковать.",
+      "start": 483.528,
+      "end": 498.342
+    },
+    {
+      "id": 32,
+      "english": "I got a · prompt response to my email.",
+      "russian": "Я получил · быстрый ответ на свое письмо.",
+      "start": 498.342,
+      "end": 514.501
+    },
+    {
+      "id": 33,
+      "english": "I have · no option but to agree.",
+      "russian": "У меня · нет выбора, кроме как согласиться.",
+      "start": 514.501,
+      "end": 530.096
+    },
+    {
+      "id": 34,
+      "english": "He wants to · become famous.",
+      "russian": "Он хочет · стать знаменитым.",
+      "start": 530.096,
+      "end": 545.374
+    },
+    {
+      "id": 35,
+      "english": "They're going to · get a divorce.",
+      "russian": "Они собираются · развестись.",
+      "start": 545.374,
+      "end": 560.493
+    },
+    {
+      "id": 36,
+      "english": "We had · heavy snow last night.",
+      "russian": "Прошлой ночью был · сильный снегопад.",
+      "start": 560.493,
+      "end": 576.267
+    },
+    {
+      "id": 37,
+      "english": "I sometimes buy · ready meals.",
+      "russian": "Я иногда покупаю · готовые блюда.",
+      "start": 576.267,
+      "end": 592.05
+    },
+    {
+      "id": 38,
+      "english": "The song was a · massive hit.",
+      "russian": "Песня была · огромным хитом.",
+      "start": 592.05,
+      "end": 606.943
+    },
+    {
+      "id": 39,
+      "english": "You need a · substantial amount of flour.",
+      "russian": "Тебе нужно · значительное количество муки.",
+      "start": 606.943,
+      "end": 622.971
+    },
+    {
+      "id": 40,
+      "english": "You deserve a · pat on the back.",
+      "russian": "Ты заслуживаешь · похвалы.",
+      "start": 622.971,
+      "end": 638.203
+    },
+    {
+      "id": 41,
+      "english": "We love to · go skiing in winter.",
+      "russian": "Мы любим · кататься на лыжах зимой.",
+      "start": 638.203,
+      "end": 653.72
+    },
+    {
+      "id": 42,
+      "english": "I hope you · have a great time.",
+      "russian": "Надеюсь, ты · отлично проведешь время.",
+      "start": 653.72,
+      "end": 669.158
+    },
+    {
+      "id": 43,
+      "english": "It was · pitch dark outside.",
+      "russian": "На улице было · кромешно темно.",
+      "start": 669.158,
+      "end": 684.644
+    },
+    {
+      "id": 44,
+      "english": "The police are · keeping a close watch.",
+      "russian": "Полиция · внимательно следит.",
+      "start": 684.644,
+      "end": 700.685
+    },
+    {
+      "id": 45,
+      "english": "I need to · make a list of things to do.",
+      "russian": "Мне нужно · составить список дел.",
+      "start": 700.685,
+      "end": 716.447
+    },
+    {
+      "id": 46,
+      "english": "I have some · distant relatives in Australia.",
+      "russian": "У меня есть · дальние родственники в Австралии.",
+      "start": 716.447,
+      "end": 732.702
+    },
+    {
+      "id": 47,
+      "english": "There's been an · increase in the number of accidents.",
+      "russian": "Наблюдается · увеличение числа аварий.",
+      "start": 732.702,
+      "end": 749.251
+    },
+    {
+      "id": 48,
+      "english": "They · played a football match yesterday.",
+      "russian": "Вчера они · играли в футбольный матч.",
+      "start": 749.251,
+      "end": 765.221
+    },
+    {
+      "id": 49,
+      "english": "He · strongly denied the allegations.",
+      "russian": "Он · категорически отрицал обвинения.",
+      "start": 765.221,
+      "end": 781.501
+    },
+    {
+      "id": 50,
+      "english": "An · elderly person needs our help.",
+      "russian": "· Пожилому человеку нужна наша помощь.",
+      "start": 781.501,
+      "end": 797.369
+    },
+    {
+      "id": 51,
+      "english": "This is a · direct result of his actions.",
+      "russian": "Это · прямой результат его действий.",
+      "start": 797.369,
+      "end": 806.471
+    }
+  ]
+}

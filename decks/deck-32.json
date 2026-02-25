@@ -1,0 +1,367 @@
+{
+  "id": "deck-32",
+  "deck_name": "collocation 8",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation8.mp3",
+  "group": "collocation",
+  "total_duration": 776.57,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I was · bitterly disappointed.",
+      "russian": "Я был · горько разочарован.",
+      "start": 0.0,
+      "end": 15.333
+    },
+    {
+      "id": 2,
+      "english": "He · denied doing it.",
+      "russian": "Он · отрицал, что делал это.",
+      "start": 15.333,
+      "end": 29.805
+    },
+    {
+      "id": 3,
+      "english": "She's good at · high jump.",
+      "russian": "Она хороша в · прыжках в высоту.",
+      "start": 29.805,
+      "end": 44.516
+    },
+    {
+      "id": 4,
+      "english": "You need to · access reliable information.",
+      "russian": "Тебе нужно · получить доступ к надежной информации.",
+      "start": 44.516,
+      "end": 61.052
+    },
+    {
+      "id": 5,
+      "english": "We are · close friends.",
+      "russian": "Мы · близкие друзья.",
+      "start": 61.052,
+      "end": 75.555
+    },
+    {
+      "id": 6,
+      "english": "He drives a · fast car.",
+      "russian": "Он водит · быструю машину.",
+      "start": 75.555,
+      "end": 90.525
+    },
+    {
+      "id": 7,
+      "english": "What was the · end result?",
+      "russian": "Каков был · конечный результат?",
+      "start": 90.525,
+      "end": 105.188
+    },
+    {
+      "id": 8,
+      "english": "The kids have to · change schools.",
+      "russian": "Детям нужно · сменить школу.",
+      "start": 105.188,
+      "end": 120.772
+    },
+    {
+      "id": 9,
+      "english": "He wants to · gain an advantage.",
+      "russian": "Он хочет · получить преимущество.",
+      "start": 120.772,
+      "end": 136.105
+    },
+    {
+      "id": 10,
+      "english": "We live a · short distance from the beach.",
+      "russian": "Мы живем на · небольшом расстоянии от пляжа.",
+      "start": 136.105,
+      "end": 151.854
+    },
+    {
+      "id": 11,
+      "english": "I have a · considerable amount of work.",
+      "russian": "У меня · значительный объем работы.",
+      "start": 151.854,
+      "end": 167.863
+    },
+    {
+      "id": 12,
+      "english": "It seemed like the · inevitable outcome.",
+      "russian": "Это казалось · неизбежным исходом.",
+      "start": 167.863,
+      "end": 183.871
+    },
+    {
+      "id": 13,
+      "english": "I had to · learn the hard way.",
+      "russian": "Мне пришлось · учиться на своих ошибках.",
+      "start": 183.871,
+      "end": 199.17
+    },
+    {
+      "id": 14,
+      "english": "Please · fasten your seatbelt.",
+      "russian": "Пожалуйста, · пристегните ремень.",
+      "start": 199.17,
+      "end": 214.449
+    },
+    {
+      "id": 15,
+      "english": "This is an · opportunity of a lifetime.",
+      "russian": "Это · шанс всей жизни.",
+      "start": 214.449,
+      "end": 230.614
+    },
+    {
+      "id": 16,
+      "english": "She has a · sharp tongue.",
+      "russian": "У нее · острый язык.",
+      "start": 230.614,
+      "end": 245.298
+    },
+    {
+      "id": 17,
+      "english": "He suddenly · fell ill.",
+      "russian": "Он внезапно · заболел.",
+      "start": 245.298,
+      "end": 259.781
+    },
+    {
+      "id": 18,
+      "english": "That's · absolutely stupid.",
+      "russian": "Это · абсолютно глупо.",
+      "start": 259.781,
+      "end": 275.189
+    },
+    {
+      "id": 19,
+      "english": "The hotel is · within walking distance.",
+      "russian": "Отель находится в · пешей доступности.",
+      "start": 275.189,
+      "end": 291.558
+    },
+    {
+      "id": 20,
+      "english": "I wanted to · pay her a compliment.",
+      "russian": "Я хотел · сделать ей комплимент.",
+      "start": 291.558,
+      "end": 307.281
+    },
+    {
+      "id": 21,
+      "english": "The team · trains hard.",
+      "russian": "Команда · усердно тренируется.",
+      "start": 307.281,
+      "end": 322.138
+    },
+    {
+      "id": 22,
+      "english": "It was a · huge pleasure to meet you.",
+      "russian": "Было · огромным удовольствием познакомиться с тобой.",
+      "start": 322.138,
+      "end": 337.768
+    },
+    {
+      "id": 23,
+      "english": "There is a · strong tendency to forget that.",
+      "russian": "Есть · сильная тенденция забывать об этом.",
+      "start": 337.768,
+      "end": 354.219
+    },
+    {
+      "id": 24,
+      "english": "They decided to · put up a fight.",
+      "russian": "Они решили · оказать сопротивление.",
+      "start": 354.219,
+      "end": 369.604
+    },
+    {
+      "id": 25,
+      "english": "She · was awarded a degree.",
+      "russian": "Ей · присудили степень.",
+      "start": 369.604,
+      "end": 384.545
+    },
+    {
+      "id": 26,
+      "english": "She · has a vivid imagination.",
+      "russian": "У нее · богатое воображение.",
+      "start": 384.545,
+      "end": 399.929
+    },
+    {
+      "id": 27,
+      "english": "We need a · decent meal.",
+      "russian": "Нам нужна · нормальная еда.",
+      "start": 399.929,
+      "end": 414.83
+    },
+    {
+      "id": 28,
+      "english": "I have to · do the washing.",
+      "russian": "Мне нужно · постирать.",
+      "start": 414.83,
+      "end": 429.564
+    },
+    {
+      "id": 29,
+      "english": "The court · rejected his claim.",
+      "russian": "Суд · отклонил его иск.",
+      "start": 429.564,
+      "end": 445.116
+    },
+    {
+      "id": 30,
+      "english": "· Public speaking terrifies me.",
+      "russian": "· Публичные выступления меня пугают.",
+      "start": 445.116,
+      "end": 460.467
+    },
+    {
+      "id": 31,
+      "english": "We want to · take a trip to the beach.",
+      "russian": "Мы хотим · съездить на море.",
+      "start": 460.467,
+      "end": 475.929
+    },
+    {
+      "id": 32,
+      "english": "I missed my · connecting flight.",
+      "russian": "Я опоздал на свой · стыковочный рейс.",
+      "start": 475.929,
+      "end": 491.429
+    },
+    {
+      "id": 33,
+      "english": "We need to · minimise the impact.",
+      "russian": "Нам нужно · минимизировать воздействие.",
+      "start": 491.429,
+      "end": 507.14
+    },
+    {
+      "id": 34,
+      "english": "You can · search by keyword.",
+      "russian": "Вы можете · искать по ключевому слову.",
+      "start": 507.14,
+      "end": 522.373
+    },
+    {
+      "id": 35,
+      "english": "The · past few weeks have been hard.",
+      "russian": "· Последние несколько недель были тяжелыми.",
+      "start": 522.373,
+      "end": 538.086
+    },
+    {
+      "id": 36,
+      "english": "I · care about healthy eating.",
+      "russian": "Я · забочусь о здоровом питании.",
+      "start": 538.086,
+      "end": 553.471
+    },
+    {
+      "id": 37,
+      "english": "A · considerable number of people agreed.",
+      "russian": "· Значительное количество людей согласилось.",
+      "start": 553.471,
+      "end": 569.879
+    },
+    {
+      "id": 38,
+      "english": "Let's · go swimming.",
+      "russian": "Давай · пойдем поплаваем.",
+      "start": 569.879,
+      "end": 583.966
+    },
+    {
+      "id": 39,
+      "english": "The · global economy is uncertain.",
+      "russian": "· Мировая экономика нестабильна.",
+      "start": 583.966,
+      "end": 599.764
+    },
+    {
+      "id": 40,
+      "english": "I prefer a · domestic flight.",
+      "russian": "Я предпочитаю · внутренний рейс.",
+      "start": 599.764,
+      "end": 615.161
+    },
+    {
+      "id": 41,
+      "english": "We decided to · put in a bid.",
+      "russian": "Мы решили · подать заявку.",
+      "start": 615.161,
+      "end": 630.413
+    },
+    {
+      "id": 42,
+      "english": "He had to · take a free kick.",
+      "russian": "Ему пришлось · пробить штрафной удар.",
+      "start": 630.413,
+      "end": 645.388
+    },
+    {
+      "id": 43,
+      "english": "· Juvenile crime is increasing.",
+      "russian": "· Преступность среди несовершеннолетних растет.",
+      "start": 645.388,
+      "end": 660.986
+    },
+    {
+      "id": 44,
+      "english": "He was · wrongly accused.",
+      "russian": "Его · ложно обвинили.",
+      "start": 660.986,
+      "end": 676.009
+    },
+    {
+      "id": 45,
+      "english": "I always · do my best.",
+      "russian": "Я всегда · делаю все возможное.",
+      "start": 676.009,
+      "end": 691.16
+    },
+    {
+      "id": 46,
+      "english": "He might · develop cancer.",
+      "russian": "У него может · развиться рак.",
+      "start": 691.16,
+      "end": 706.012
+    },
+    {
+      "id": 47,
+      "english": "You must · comply with the regulations.",
+      "russian": "Вы должны · соблюдать правила.",
+      "start": 706.012,
+      "end": 722.126
+    },
+    {
+      "id": 48,
+      "english": "Let's · go sailing this weekend.",
+      "russian": "Давай · сходим под парусом в эти выходные.",
+      "start": 722.126,
+      "end": 737.626
+    },
+    {
+      "id": 49,
+      "english": "The newspaper · ran a story about it.",
+      "russian": "Газета · опубликовала статью об этом.",
+      "start": 737.626,
+      "end": 753.868
+    },
+    {
+      "id": 50,
+      "english": "It's faster if we · go on foot.",
+      "russian": "Так быстрее, если мы · пойдем пешком.",
+      "start": 753.868,
+      "end": 769.528
+    },
+    {
+      "id": 51,
+      "english": "Let's · get started.",
+      "russian": "Давай · начнем.",
+      "start": 769.528,
+      "end": 776.567
+    }
+  ]
+}

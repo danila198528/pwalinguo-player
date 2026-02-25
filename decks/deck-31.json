@@ -1,0 +1,367 @@
+{
+  "id": "deck-31",
+  "deck_name": "collocation 7",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation7.mp3",
+  "group": "collocation",
+  "total_duration": 779.16,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The number is · increasing steadily.",
+      "russian": "Число · неуклонно растет.",
+      "start": 0.0,
+      "end": 15.857
+    },
+    {
+      "id": 2,
+      "english": "They are a · happy couple.",
+      "russian": "Они · счастливая пара.",
+      "start": 15.857,
+      "end": 30.309
+    },
+    {
+      "id": 3,
+      "english": "This restaurant offers · good value.",
+      "russian": "Этот ресторан предлагает · хорошее соотношение цены и качества.",
+      "start": 30.309,
+      "end": 45.945
+    },
+    {
+      "id": 4,
+      "english": "I don't · have time for that now.",
+      "russian": "У меня сейчас · нет времени на это.",
+      "start": 45.945,
+      "end": 61.017
+    },
+    {
+      "id": 5,
+      "english": "We had a · home-cooked meal.",
+      "russian": "У нас была · домашняя еда.",
+      "start": 61.017,
+      "end": 76.004
+    },
+    {
+      "id": 6,
+      "english": "The party wants to · gain power.",
+      "russian": "Партия хочет · получить власть.",
+      "start": 76.004,
+      "end": 91.37
+    },
+    {
+      "id": 7,
+      "english": "I · suffer from hay fever.",
+      "russian": "Я · страдаю от сенной лихорадки.",
+      "start": 91.37,
+      "end": 106.377
+    },
+    {
+      "id": 8,
+      "english": "This role · brings out the best in him.",
+      "russian": "Эта роль · раскрывает в нем лучшее.",
+      "start": 106.377,
+      "end": 122.193
+    },
+    {
+      "id": 9,
+      "english": "The · traffic is building up.",
+      "russian": "· Образуется пробка.",
+      "start": 122.193,
+      "end": 137.096
+    },
+    {
+      "id": 10,
+      "english": "· Large numbers of people attended.",
+      "russian": "· Большое количество людей присутствовало.",
+      "start": 137.096,
+      "end": 152.873
+    },
+    {
+      "id": 11,
+      "english": "We need to · reduce the impact.",
+      "russian": "Нам нужно · уменьшить воздействие.",
+      "start": 152.873,
+      "end": 168.346
+    },
+    {
+      "id": 12,
+      "english": "I love the · in-flight entertainment.",
+      "russian": "Мне нравится · развлечения на борту.",
+      "start": 168.346,
+      "end": 184.123
+    },
+    {
+      "id": 13,
+      "english": "He managed to · score a goal.",
+      "russian": "Ему удалось · забить гол.",
+      "start": 184.123,
+      "end": 199.218
+    },
+    {
+      "id": 14,
+      "english": "She's making · rapid progress.",
+      "russian": "Она делает · быстрые успехи.",
+      "start": 199.218,
+      "end": 214.799
+    },
+    {
+      "id": 15,
+      "english": "She didn't know she was · pregnant.",
+      "russian": "Она не знала, что · беременна.",
+      "start": 214.799,
+      "end": 230.119
+    },
+    {
+      "id": 16,
+      "english": "I · think the world of her.",
+      "russian": "Я · очень высокого мнения о ней.",
+      "start": 230.119,
+      "end": 244.626
+    },
+    {
+      "id": 17,
+      "english": "His work · makes a significant contribution to science.",
+      "russian": "Его работа · вносит значительный вклад в науку.",
+      "start": 244.626,
+      "end": 262.948
+    },
+    {
+      "id": 18,
+      "english": "We bought it in · large quantities.",
+      "russian": "Мы купили это в · больших количествах.",
+      "start": 262.948,
+      "end": 278.946
+    },
+    {
+      "id": 19,
+      "english": "He has a · healthy appetite.",
+      "russian": "У него · здоровый аппетит.",
+      "start": 278.946,
+      "end": 294.154
+    },
+    {
+      "id": 20,
+      "english": "It was an · unexpected outcome.",
+      "russian": "Это был · неожиданный результат.",
+      "start": 294.154,
+      "end": 309.634
+    },
+    {
+      "id": 21,
+      "english": "She was · diagnosed with breast cancer.",
+      "russian": "У нее · диагностировали рак груди.",
+      "start": 309.634,
+      "end": 326.033
+    },
+    {
+      "id": 22,
+      "english": "We are a · close family.",
+      "russian": "Мы · дружная семья.",
+      "start": 326.033,
+      "end": 340.517
+    },
+    {
+      "id": 23,
+      "english": "He wants to · attract attention.",
+      "russian": "Он хочет · привлечь внимание.",
+      "start": 340.517,
+      "end": 355.89
+    },
+    {
+      "id": 24,
+      "english": "They were · taken hostage.",
+      "russian": "Их · взяли в заложники.",
+      "start": 355.89,
+      "end": 370.593
+    },
+    {
+      "id": 25,
+      "english": "There's a · degree of uncertainty.",
+      "russian": "Есть · некоторая неопределенность.",
+      "start": 370.593,
+      "end": 385.847
+    },
+    {
+      "id": 26,
+      "english": "She · played a central role in this.",
+      "russian": "Она · сыграла центральную роль в этом.",
+      "start": 385.847,
+      "end": 401.519
+    },
+    {
+      "id": 27,
+      "english": "The soldiers · opened fire.",
+      "russian": "Солдаты · открыли огонь.",
+      "start": 401.519,
+      "end": 416.414
+    },
+    {
+      "id": 28,
+      "english": "We are · in complete agreement.",
+      "russian": "Мы · полностью согласны.",
+      "start": 416.414,
+      "end": 431.623
+    },
+    {
+      "id": 29,
+      "english": "The news was · bitterly disappointing.",
+      "russian": "Новости были · горьким разочарованием.",
+      "start": 431.623,
+      "end": 447.525
+    },
+    {
+      "id": 30,
+      "english": "We need to · carry out market research.",
+      "russian": "Нам нужно · провести исследование рынка.",
+      "start": 447.525,
+      "end": 463.922
+    },
+    {
+      "id": 31,
+      "english": "If you know the answer, · raise your hand.",
+      "russian": "Если знаешь ответ, · подними руку.",
+      "start": 463.922,
+      "end": 480.315
+    },
+    {
+      "id": 32,
+      "english": "It has some · beneficial effects.",
+      "russian": "Это имеет некоторые · полезные эффекты.",
+      "start": 480.315,
+      "end": 496.063
+    },
+    {
+      "id": 33,
+      "english": "We can · take a shortcut.",
+      "russian": "Мы можем · срезать путь.",
+      "start": 496.063,
+      "end": 510.842
+    },
+    {
+      "id": 34,
+      "english": "This is their · debut album.",
+      "russian": "Это их · дебютный альбом.",
+      "start": 510.842,
+      "end": 526.053
+    },
+    {
+      "id": 35,
+      "english": "I just want a · light meal.",
+      "russian": "Я просто хочу · легкий ужин.",
+      "start": 526.053,
+      "end": 541.027
+    },
+    {
+      "id": 36,
+      "english": "That had a · major effect on me.",
+      "russian": "Это оказало на меня · большое влияние.",
+      "start": 541.027,
+      "end": 556.413
+    },
+    {
+      "id": 37,
+      "english": "The apartment is · fully furnished.",
+      "russian": "Квартира · полностью меблирована.",
+      "start": 556.413,
+      "end": 572.016
+    },
+    {
+      "id": 38,
+      "english": "They will · launch a new product.",
+      "russian": "Они · запустят новый продукт.",
+      "start": 572.016,
+      "end": 587.33
+    },
+    {
+      "id": 39,
+      "english": "You need to know your · target audience.",
+      "russian": "Тебе нужно знать свою · целевую аудиторию.",
+      "start": 587.33,
+      "end": 603.313
+    },
+    {
+      "id": 40,
+      "english": "I booked it through a · travel agent.",
+      "russian": "Я забронировал это через · турагента.",
+      "start": 603.313,
+      "end": 618.8
+    },
+    {
+      "id": 41,
+      "english": "I have a · steady income.",
+      "russian": "У меня · стабильный доход.",
+      "start": 618.8,
+      "end": 633.558
+    },
+    {
+      "id": 42,
+      "english": "I never pay · high prices.",
+      "russian": "Я никогда не плачу · высокие цены.",
+      "start": 633.558,
+      "end": 648.986
+    },
+    {
+      "id": 43,
+      "english": "I need to · make an adjustment.",
+      "russian": "Мне нужно · внести корректировку.",
+      "start": 648.986,
+      "end": 663.914
+    },
+    {
+      "id": 44,
+      "english": "My grandfather · went deaf.",
+      "russian": "Мой дедушка · оглох.",
+      "start": 663.914,
+      "end": 679.281
+    },
+    {
+      "id": 45,
+      "english": "Please · state clearly what you want.",
+      "russian": "Пожалуйста, · четко скажи, чего ты хочешь.",
+      "start": 679.281,
+      "end": 694.71
+    },
+    {
+      "id": 46,
+      "english": "I have · greasy hair.",
+      "russian": "У меня · жирные волосы.",
+      "start": 694.71,
+      "end": 709.178
+    },
+    {
+      "id": 47,
+      "english": "I come from a · loving family.",
+      "russian": "Я из · любящей семьи.",
+      "start": 709.178,
+      "end": 724.284
+    },
+    {
+      "id": 48,
+      "english": "The police are trying to · tackle crime.",
+      "russian": "Полиция пытается · бороться с преступностью.",
+      "start": 724.284,
+      "end": 740.498
+    },
+    {
+      "id": 49,
+      "english": "When will they · release the album?",
+      "russian": "Когда они · выпустят альбом?",
+      "start": 740.498,
+      "end": 755.511
+    },
+    {
+      "id": 50,
+      "english": "It will be · worth your while.",
+      "russian": "Это будет · стоить твоего времени.",
+      "start": 755.511,
+      "end": 770.618
+    },
+    {
+      "id": 51,
+      "english": "I get a lot of · job satisfaction.",
+      "russian": "Я получаю большое · удовлетворение от работы.",
+      "start": 770.618,
+      "end": 779.159
+    }
+  ]
+}

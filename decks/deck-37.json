@@ -1,0 +1,367 @@
+{
+  "id": "deck-37",
+  "deck_name": "collocation 13",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation13.mp3",
+  "group": "collocation",
+  "total_duration": 811.99,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The new model will · become available in June.",
+      "russian": "Новая модель · появится в продаже в июне.",
+      "start": 0.0,
+      "end": 17.068
+    },
+    {
+      "id": 2,
+      "english": "It takes a · great deal of energy.",
+      "russian": "Это требует · большого количества энергии.",
+      "start": 17.068,
+      "end": 32.437
+    },
+    {
+      "id": 3,
+      "english": "The · volume of traffic has increased.",
+      "russian": "· Объем движения увеличился.",
+      "start": 32.437,
+      "end": 48.357
+    },
+    {
+      "id": 4,
+      "english": "The committee · rejected the idea.",
+      "russian": "Комитет · отклонил эту идею.",
+      "start": 48.357,
+      "end": 64.196
+    },
+    {
+      "id": 5,
+      "english": "He's · facing accusations of fraud.",
+      "russian": "Он · сталкивается с обвинениями в мошенничестве.",
+      "start": 64.196,
+      "end": 80.348
+    },
+    {
+      "id": 6,
+      "english": "· Greenhouse gases are causing global warming.",
+      "russian": "· Парниковые газы вызывают глобальное потепление.",
+      "start": 80.348,
+      "end": 97.462
+    },
+    {
+      "id": 7,
+      "english": "The car has a · top speed of 200 km/h.",
+      "russian": "У машины · максимальная скорость 200 км/ч.",
+      "start": 97.462,
+      "end": 115.786
+    },
+    {
+      "id": 8,
+      "english": "We want to · pay tribute to his work.",
+      "russian": "Мы хотим · отдать дань уважения его работе.",
+      "start": 115.786,
+      "end": 131.757
+    },
+    {
+      "id": 9,
+      "english": "The kids decided to · play a trick on me.",
+      "russian": "Дети решили · подшутить надо мной.",
+      "start": 131.757,
+      "end": 148.199
+    },
+    {
+      "id": 10,
+      "english": "The rules are a bit of a · grey area.",
+      "russian": "Правила — это немного · серая зона.",
+      "start": 148.199,
+      "end": 164.138
+    },
+    {
+      "id": 11,
+      "english": "I just need a · quick snack.",
+      "russian": "Мне просто нужен · быстрый перекус.",
+      "start": 164.138,
+      "end": 179.058
+    },
+    {
+      "id": 12,
+      "english": "The · immediate cause of the fire was electrical.",
+      "russian": "· Непосредственной причиной пожара было электричество.",
+      "start": 179.058,
+      "end": 195.825
+    },
+    {
+      "id": 13,
+      "english": "I'd like to · make a point about this.",
+      "russian": "Я хотел бы · отметить один момент по этому поводу.",
+      "start": 195.825,
+      "end": 211.434
+    },
+    {
+      "id": 14,
+      "english": "He's an · outspoken critic of the government.",
+      "russian": "Он · ярый критик правительства.",
+      "start": 211.434,
+      "end": 227.718
+    },
+    {
+      "id": 15,
+      "english": "In · ancient times, this was a temple.",
+      "russian": "В · древние времена здесь был храм.",
+      "start": 227.718,
+      "end": 244.178
+    },
+    {
+      "id": 16,
+      "english": "We woke up to · fresh snow on the ground.",
+      "russian": "Мы проснулись, а на земле · свежий снег.",
+      "start": 244.178,
+      "end": 260.491
+    },
+    {
+      "id": 17,
+      "english": "Don't make a · hasty decision.",
+      "russian": "Не принимай · поспешного решения.",
+      "start": 260.491,
+      "end": 275.759
+    },
+    {
+      "id": 18,
+      "english": "· Take your time, there's no rush.",
+      "russian": "· Не спеши, никуда не надо торопиться.",
+      "start": 275.759,
+      "end": 291.873
+    },
+    {
+      "id": 19,
+      "english": "I need a · significant amount of money.",
+      "russian": "Мне нужно · значительное количество денег.",
+      "start": 291.873,
+      "end": 307.411
+    },
+    {
+      "id": 20,
+      "english": "He comes from a · dysfunctional family.",
+      "russian": "Он из · неблагополучной семьи.",
+      "start": 307.411,
+      "end": 323.276
+    },
+    {
+      "id": 21,
+      "english": "The company will · launch a new product next month.",
+      "russian": "Компания · запустит новый продукт в следующем месяце.",
+      "start": 323.276,
+      "end": 340.422
+    },
+    {
+      "id": 22,
+      "english": "I hope you can · come to my party.",
+      "russian": "Я надеюсь, ты сможешь · прийти на мою вечеринку.",
+      "start": 340.422,
+      "end": 356.004
+    },
+    {
+      "id": 23,
+      "english": "Don't forget to · set your alarm.",
+      "russian": "Не забудь · поставить будильник.",
+      "start": 356.004,
+      "end": 371.334
+    },
+    {
+      "id": 24,
+      "english": "I saw a deer · at close range.",
+      "russian": "Я видел оленя · с близкого расстояния.",
+      "start": 371.334,
+      "end": 387.063
+    },
+    {
+      "id": 25,
+      "english": "· Give me a phone call when you're free.",
+      "russian": "· Позвони мне, когда будешь свободен.",
+      "start": 387.063,
+      "end": 402.871
+    },
+    {
+      "id": 26,
+      "english": "We're planning to · move house next month.",
+      "russian": "Мы планируем · переехать в другой дом в следующем месяце.",
+      "start": 402.871,
+      "end": 419.116
+    },
+    {
+      "id": 27,
+      "english": "This will · make an impact on our lives.",
+      "russian": "Это · окажет влияние на нашу жизнь.",
+      "start": 419.116,
+      "end": 435.412
+    },
+    {
+      "id": 28,
+      "english": "I think I'm · catching the flu.",
+      "russian": "Кажется, я · заболеваю гриппом.",
+      "start": 435.412,
+      "end": 450.38
+    },
+    {
+      "id": 29,
+      "english": "They · took the lead in the second half.",
+      "russian": "Они · вышли вперед во втором тайме.",
+      "start": 450.38,
+      "end": 466.041
+    },
+    {
+      "id": 30,
+      "english": "This is a · perfect example of his work.",
+      "russian": "Это · прекрасный пример его работы.",
+      "start": 466.041,
+      "end": 482.522
+    },
+    {
+      "id": 31,
+      "english": "· Opinions are divided on this matter.",
+      "russian": "· Мнения по этому вопросу разделились.",
+      "start": 482.522,
+      "end": 498.457
+    },
+    {
+      "id": 32,
+      "english": "We need to look at the · significant trends.",
+      "russian": "Нам нужно посмотреть на · важные тенденции.",
+      "start": 498.457,
+      "end": 514.879
+    },
+    {
+      "id": 33,
+      "english": "We like to · do activities together.",
+      "russian": "Мы любим · заниматься делами вместе.",
+      "start": 514.879,
+      "end": 530.518
+    },
+    {
+      "id": 34,
+      "english": "The police are · gathering evidence.",
+      "russian": "Полиция · собирает доказательства.",
+      "start": 530.518,
+      "end": 545.992
+    },
+    {
+      "id": 35,
+      "english": "You should · install anti-virus software.",
+      "russian": "Тебе стоит · установить антивирусное программное обеспечение.",
+      "start": 545.992,
+      "end": 562.172
+    },
+    {
+      "id": 36,
+      "english": "The idea generated · widespread interest.",
+      "russian": "Идея вызвала · широкий интерес.",
+      "start": 562.172,
+      "end": 579.069
+    },
+    {
+      "id": 37,
+      "english": "They want to · start a family soon.",
+      "russian": "Они хотят · завести семью скоро.",
+      "start": 579.069,
+      "end": 594.676
+    },
+    {
+      "id": 38,
+      "english": "I need a · fast computer for gaming.",
+      "russian": "Мне нужен · быстрый компьютер для игр.",
+      "start": 594.676,
+      "end": 610.564
+    },
+    {
+      "id": 39,
+      "english": "It's hard to · raise children alone.",
+      "russian": "Трудно · растить детей одной.",
+      "start": 610.564,
+      "end": 626.418
+    },
+    {
+      "id": 40,
+      "english": "She wants to continue with · further education.",
+      "russian": "Она хочет продолжить · дальнейшее образование.",
+      "start": 626.418,
+      "end": 643.246
+    },
+    {
+      "id": 41,
+      "english": "We're going to · move into a new house.",
+      "russian": "Мы собираемся · въехать в новый дом.",
+      "start": 643.246,
+      "end": 659.437
+    },
+    {
+      "id": 42,
+      "english": "The song was a · big hit in the nineties.",
+      "russian": "Песня была · большим хитом в девяностые.",
+      "start": 659.437,
+      "end": 675.437
+    },
+    {
+      "id": 43,
+      "english": "He's in hospital · fighting for his life.",
+      "russian": "Он в больнице, · борется за жизнь.",
+      "start": 675.437,
+      "end": 691.73
+    },
+    {
+      "id": 44,
+      "english": "I am · strongly opposed to this idea.",
+      "russian": "Я · категорически против этой идеи.",
+      "start": 691.73,
+      "end": 707.883
+    },
+    {
+      "id": 45,
+      "english": "He can't handle · constant criticism.",
+      "russian": "Он не выносит · постоянной критики.",
+      "start": 707.883,
+      "end": 724.086
+    },
+    {
+      "id": 46,
+      "english": "I've · developed a taste for olives.",
+      "russian": "Я · полюбил оливки.",
+      "start": 724.086,
+      "end": 739.617
+    },
+    {
+      "id": 47,
+      "english": "I · have difficulty understanding him.",
+      "russian": "Мне · трудно его понимать.",
+      "start": 739.617,
+      "end": 755.773
+    },
+    {
+      "id": 48,
+      "english": "My · extended family is very large.",
+      "russian": "Моя · большая семья очень велика.",
+      "start": 755.773,
+      "end": 772.362
+    },
+    {
+      "id": 49,
+      "english": "A · significant number of people voted.",
+      "russian": "· Значительное количество людей проголосовало.",
+      "start": 772.362,
+      "end": 788.47
+    },
+    {
+      "id": 50,
+      "english": "Let's · have a break for coffee.",
+      "russian": "Давай · сделаем перерыв на кофе.",
+      "start": 788.47,
+      "end": 803.221
+    },
+    {
+      "id": 51,
+      "english": "There was a · dramatic fall in prices.",
+      "russian": "Было · резкое падение цен.",
+      "start": 803.221,
+      "end": 811.991
+    }
+  ]
+}

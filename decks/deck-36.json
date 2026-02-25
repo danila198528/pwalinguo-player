@@ -1,0 +1,367 @@
+{
+  "id": "deck-36",
+  "deck_name": "collocation 12",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation12.mp3",
+  "group": "collocation",
+  "total_duration": 801.34,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "She has a lot of · musical talent.",
+      "russian": "У нее большой · музыкальный талант.",
+      "start": 0.0,
+      "end": 16.053
+    },
+    {
+      "id": 2,
+      "english": "They tried to · settle the dispute.",
+      "russian": "Они пытались · уладить спор.",
+      "start": 16.053,
+      "end": 31.437
+    },
+    {
+      "id": 3,
+      "english": "This is perfect for · easy listening.",
+      "russian": "Это идеально подходит для · легкого прослушивания.",
+      "start": 31.437,
+      "end": 47.59
+    },
+    {
+      "id": 4,
+      "english": "My son · suffers from asthma.",
+      "russian": "Мой сын · страдает астмой.",
+      "start": 47.59,
+      "end": 62.779
+    },
+    {
+      "id": 5,
+      "english": "The two countries will · sign a peace treaty.",
+      "russian": "Две страны · подпишут мирный договор.",
+      "start": 62.779,
+      "end": 79.066
+    },
+    {
+      "id": 6,
+      "english": "We saw a · dramatic rise in sales.",
+      "russian": "Мы увидели · резкий рост продаж.",
+      "start": 79.066,
+      "end": 95.481
+    },
+    {
+      "id": 7,
+      "english": "He suffered · major injuries in the accident.",
+      "russian": "Он получил · серьезные травмы в аварии.",
+      "start": 95.481,
+      "end": 112.132
+    },
+    {
+      "id": 8,
+      "english": "There are many · online resources available.",
+      "russian": "Доступно множество · онлайн-ресурсов.",
+      "start": 112.132,
+      "end": 128.62
+    },
+    {
+      "id": 9,
+      "english": "I · have doubts about his honesty.",
+      "russian": "У меня · есть сомнения в его честности.",
+      "start": 128.62,
+      "end": 143.87
+    },
+    {
+      "id": 10,
+      "english": "Our army · lost the battle.",
+      "russian": "Наша армия · проиграла битву.",
+      "start": 143.87,
+      "end": 158.837
+    },
+    {
+      "id": 11,
+      "english": "He · earns a good salary.",
+      "russian": "Он · получает хорошую зарплату.",
+      "start": 158.837,
+      "end": 173.46
+    },
+    {
+      "id": 12,
+      "english": "Thousands · took to the streets to protest.",
+      "russian": "Тысячи · вышли на улицы протестовать.",
+      "start": 173.46,
+      "end": 189.893
+    },
+    {
+      "id": 13,
+      "english": "We need to · come to a compromise.",
+      "russian": "Нам нужно · прийти к компромиссу.",
+      "start": 189.893,
+      "end": 205.47
+    },
+    {
+      "id": 14,
+      "english": "The temperature · remained constant.",
+      "russian": "Температура · оставалась постоянной.",
+      "start": 205.47,
+      "end": 221.126
+    },
+    {
+      "id": 15,
+      "english": "Let me · summarize the key points.",
+      "russian": "Позволь мне · резюмировать ключевые моменты.",
+      "start": 221.126,
+      "end": 236.841
+    },
+    {
+      "id": 16,
+      "english": "I think that's a · sensible decision.",
+      "russian": "Я думаю, это · разумное решение.",
+      "start": 236.841,
+      "end": 252.394
+    },
+    {
+      "id": 17,
+      "english": "They sent in · peacekeeping forces.",
+      "russian": "Они ввели · миротворческие силы.",
+      "start": 252.394,
+      "end": 268.569
+    },
+    {
+      "id": 18,
+      "english": "Have you heard the · latest news?",
+      "russian": "Ты слышал · последние новости?",
+      "start": 268.569,
+      "end": 283.809
+    },
+    {
+      "id": 19,
+      "english": "· Prices go down in the sales.",
+      "russian": "· Цены падают во время распродаж.",
+      "start": 283.809,
+      "end": 299.526
+    },
+    {
+      "id": 20,
+      "english": "I travel a lot on · business travel.",
+      "russian": "Я много путешествую в · командировки.",
+      "start": 299.526,
+      "end": 315.464
+    },
+    {
+      "id": 21,
+      "english": "She · suffers from chronic pain.",
+      "russian": "Она · страдает от хронической боли.",
+      "start": 315.464,
+      "end": 331.029
+    },
+    {
+      "id": 22,
+      "english": "The movie is · based on a true story.",
+      "russian": "Фильм · основан на реальных событиях.",
+      "start": 331.029,
+      "end": 347.07
+    },
+    {
+      "id": 23,
+      "english": "I · had a strange experience last night.",
+      "russian": "· У меня был странный опыт прошлой ночью.",
+      "start": 347.07,
+      "end": 363.713
+    },
+    {
+      "id": 24,
+      "english": "We got a very · warm welcome.",
+      "russian": "Нам оказали очень · теплый прием.",
+      "start": 363.713,
+      "end": 378.936
+    },
+    {
+      "id": 25,
+      "english": "I hope everything · goes smoothly.",
+      "russian": "Надеюсь, все · пройдет гладко.",
+      "start": 378.936,
+      "end": 394.4
+    },
+    {
+      "id": 26,
+      "english": "We have some · minor issues to discuss.",
+      "russian": "У нас есть несколько · мелких вопросов для обсуждения.",
+      "start": 394.4,
+      "end": 410.892
+    },
+    {
+      "id": 27,
+      "english": "He · went red when he saw her.",
+      "russian": "Он · покраснел, когда увидел ее.",
+      "start": 410.892,
+      "end": 426.057
+    },
+    {
+      "id": 28,
+      "english": "I · feel homesick sometimes.",
+      "russian": "Я иногда · скучаю по дому.",
+      "start": 426.057,
+      "end": 441.647
+    },
+    {
+      "id": 29,
+      "english": "She's a very · sensitive person.",
+      "russian": "Она очень · чувствительный человек.",
+      "start": 441.647,
+      "end": 457.331
+    },
+    {
+      "id": 30,
+      "english": "He needs to · back up his argument with facts.",
+      "russian": "Ему нужно · подкрепить свой аргумент фактами.",
+      "start": 457.331,
+      "end": 474.334
+    },
+    {
+      "id": 31,
+      "english": "She · gives the impression of being shy.",
+      "russian": "Она · производит впечатление застенчивой.",
+      "start": 474.334,
+      "end": 490.379
+    },
+    {
+      "id": 32,
+      "english": "The story · hit the headlines.",
+      "russian": "История · попала в заголовки газет.",
+      "start": 490.379,
+      "end": 505.862
+    },
+    {
+      "id": 33,
+      "english": "· Drug abuse destroys lives.",
+      "russian": "· Злоупотребление наркотиками разрушает жизни.",
+      "start": 505.862,
+      "end": 521.836
+    },
+    {
+      "id": 34,
+      "english": "The situation · remained stable.",
+      "russian": "Ситуация · оставалась стабильной.",
+      "start": 521.836,
+      "end": 537.454
+    },
+    {
+      "id": 35,
+      "english": "It's · pouring with rain outside.",
+      "russian": "На улице · льет дождь.",
+      "start": 537.454,
+      "end": 553.074
+    },
+    {
+      "id": 36,
+      "english": "There's not much · major difference between them.",
+      "russian": "Между ними нет большой · принципиальной разницы.",
+      "start": 553.074,
+      "end": 569.551
+    },
+    {
+      "id": 37,
+      "english": "The movie has a strong · female lead.",
+      "russian": "В фильме сильная · главная женская роль.",
+      "start": 569.551,
+      "end": 585.941
+    },
+    {
+      "id": 38,
+      "english": "I didn't like his · tone of voice.",
+      "russian": "Мне не понравился его · тон голоса.",
+      "start": 585.941,
+      "end": 601.329
+    },
+    {
+      "id": 39,
+      "english": "I wish you a · speedy recovery.",
+      "russian": "Желаю тебе · скорейшего выздоровления.",
+      "start": 601.329,
+      "end": 616.622
+    },
+    {
+      "id": 40,
+      "english": "You should · put others first sometimes.",
+      "russian": "Иногда нужно · ставить других на первое место.",
+      "start": 616.622,
+      "end": 632.571
+    },
+    {
+      "id": 41,
+      "english": "I need to · make reservations for dinner.",
+      "russian": "Мне нужно · забронировать столик на ужин.",
+      "start": 632.571,
+      "end": 648.35
+    },
+    {
+      "id": 42,
+      "english": "· Safe journey! Text me when you get home.",
+      "russian": "· Счастливого пути! Напиши мне, когда приедешь.",
+      "start": 648.35,
+      "end": 666.866
+    },
+    {
+      "id": 43,
+      "english": "There's been a · rise in the number of tourists.",
+      "russian": "Наблюдается · рост числа туристов.",
+      "start": 666.866,
+      "end": 683.241
+    },
+    {
+      "id": 44,
+      "english": "I've got a · heavy cold.",
+      "russian": "Я · сильно простудился.",
+      "start": 683.241,
+      "end": 698.126
+    },
+    {
+      "id": 45,
+      "english": "He's the · male lead in the movie.",
+      "russian": "Он исполняет · главную мужскую роль в фильме.",
+      "start": 698.126,
+      "end": 713.446
+    },
+    {
+      "id": 46,
+      "english": "The storm · caused havoc.",
+      "russian": "Шторм · вызвал хаос.",
+      "start": 713.446,
+      "end": 728.207
+    },
+    {
+      "id": 47,
+      "english": "They share a · passionate love for music.",
+      "russian": "Их объединяет · страстная любовь к музыке.",
+      "start": 728.207,
+      "end": 744.153
+    },
+    {
+      "id": 48,
+      "english": "My neighbours are driving me · mad.",
+      "russian": "Мои соседи сводят меня с · ума.",
+      "start": 744.153,
+      "end": 759.989
+    },
+    {
+      "id": 49,
+      "english": "He · put forward an interesting theory.",
+      "russian": "Он · выдвинул интересную теорию.",
+      "start": 759.989,
+      "end": 775.966
+    },
+    {
+      "id": 50,
+      "english": "There's no · affordable housing in the city centre.",
+      "russian": "В центре города нет · доступного жилья.",
+      "start": 775.966,
+      "end": 792.826
+    },
+    {
+      "id": 51,
+      "english": "We finally · arrived at a decision.",
+      "russian": "Мы наконец · пришли к решению.",
+      "start": 792.826,
+      "end": 801.336
+    }
+  ]
+}

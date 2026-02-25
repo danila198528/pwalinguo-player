@@ -1,0 +1,367 @@
+{
+  "id": "deck-46",
+  "deck_name": "collocation 22",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation22.mp3",
+  "group": "collocation",
+  "total_duration": 799.42,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "This bird is a · rare species.",
+      "russian": "Эта птица — · редкий вид.",
+      "start": 0.0,
+      "end": 16.278
+    },
+    {
+      "id": 2,
+      "english": "It was an · unforgettable experience.",
+      "russian": "Это был · незабываемый опыт.",
+      "start": 16.278,
+      "end": 32.137
+    },
+    {
+      "id": 3,
+      "english": "I want to · study a subject I love.",
+      "russian": "Я хочу · изучать предмет, который люблю.",
+      "start": 32.137,
+      "end": 48.224
+    },
+    {
+      "id": 4,
+      "english": "He told us about the · horrors of war.",
+      "russian": "Он рассказал нам об · ужасах войны.",
+      "start": 48.224,
+      "end": 63.969
+    },
+    {
+      "id": 5,
+      "english": "I need to · make a withdrawal from my account.",
+      "russian": "Мне нужно · снять деньги со счета.",
+      "start": 63.969,
+      "end": 80.312
+    },
+    {
+      "id": 6,
+      "english": "The hotel was · reasonably priced.",
+      "russian": "Отель был · с разумной ценой.",
+      "start": 80.312,
+      "end": 96.365
+    },
+    {
+      "id": 7,
+      "english": "I have some · painful memories of school.",
+      "russian": "У меня есть · болезненные воспоминания о школе.",
+      "start": 96.365,
+      "end": 112.613
+    },
+    {
+      "id": 8,
+      "english": "Only a · tiny number of people came.",
+      "russian": "Пришло всего лишь · крошечное количество людей.",
+      "start": 112.613,
+      "end": 128.674
+    },
+    {
+      "id": 9,
+      "english": "This song · became popular quickly.",
+      "russian": "Эта песня · быстро стала популярной.",
+      "start": 128.674,
+      "end": 144.256
+    },
+    {
+      "id": 10,
+      "english": "The view from the top is · breathtaking.",
+      "russian": "Вид сверху · захватывает дух.",
+      "start": 144.256,
+      "end": 160.328
+    },
+    {
+      "id": 11,
+      "english": "He managed to · take possession of the ball.",
+      "russian": "Ему удалось · завладеть мячом.",
+      "start": 160.328,
+      "end": 176.343
+    },
+    {
+      "id": 12,
+      "english": "We have some · mutual friends.",
+      "russian": "У нас есть · общие друзья.",
+      "start": 176.343,
+      "end": 191.797
+    },
+    {
+      "id": 13,
+      "english": "Don't · make assumptions.",
+      "russian": "Не · делай предположений.",
+      "start": 191.797,
+      "end": 206.466
+    },
+    {
+      "id": 14,
+      "english": "Let's · go for a walk.",
+      "russian": "Давай · пойдем гулять.",
+      "start": 206.466,
+      "end": 221.038
+    },
+    {
+      "id": 15,
+      "english": "The police are working to · fight crime.",
+      "russian": "Полиция работает, чтобы · бороться с преступностью.",
+      "start": 221.038,
+      "end": 237.139
+    },
+    {
+      "id": 16,
+      "english": "He was · having an affair with his secretary.",
+      "russian": "У него был · роман с секретаршей.",
+      "start": 237.139,
+      "end": 253.431
+    },
+    {
+      "id": 17,
+      "english": "I'm going to · spend a month in Spain.",
+      "russian": "Я собираюсь · провести месяц в Испании.",
+      "start": 253.431,
+      "end": 269.294
+    },
+    {
+      "id": 18,
+      "english": "If you · run into problems, call me.",
+      "russian": "Если · столкнешься с проблемами, звони.",
+      "start": 269.294,
+      "end": 285.589
+    },
+    {
+      "id": 19,
+      "english": "The teacher will · give feedback next week.",
+      "russian": "Учитель · даст обратную связь на следующей неделе.",
+      "start": 285.589,
+      "end": 301.802
+    },
+    {
+      "id": 20,
+      "english": "It was · love at first sight.",
+      "russian": "Это была · любовь с первого взгляда.",
+      "start": 301.802,
+      "end": 317.172
+    },
+    {
+      "id": 21,
+      "english": "The process is · painfully slow.",
+      "russian": "Процесс · мучительно медленный.",
+      "start": 317.172,
+      "end": 332.828
+    },
+    {
+      "id": 22,
+      "english": "He is the · love of her life.",
+      "russian": "Он — · любовь всей ее жизни.",
+      "start": 332.828,
+      "end": 347.899
+    },
+    {
+      "id": 23,
+      "english": "They had a · bitter divorce.",
+      "russian": "У них был · горький развод.",
+      "start": 347.899,
+      "end": 362.845
+    },
+    {
+      "id": 24,
+      "english": "It's · bitterly cold outside.",
+      "russian": "На улице · ужасно холодно.",
+      "start": 362.845,
+      "end": 378.319
+    },
+    {
+      "id": 25,
+      "english": "He didn't know how to · respond to the criticism.",
+      "russian": "Он не знал, как · ответить на критику.",
+      "start": 378.319,
+      "end": 394.966
+    },
+    {
+      "id": 26,
+      "english": "They · formed a friendship at college.",
+      "russian": "Они · подружились в колледже.",
+      "start": 394.966,
+      "end": 410.48
+    },
+    {
+      "id": 27,
+      "english": "The movie received · harsh criticism.",
+      "russian": "Фильм подвергся · жесткой критике.",
+      "start": 410.48,
+      "end": 426.897
+    },
+    {
+      "id": 28,
+      "english": "You should · keep a record of everything.",
+      "russian": "Тебе стоит · вести запись всего.",
+      "start": 426.897,
+      "end": 442.449
+    },
+    {
+      "id": 29,
+      "english": "I · had a nightmare last night.",
+      "russian": "Мне · приснился кошмар прошлой ночью.",
+      "start": 442.449,
+      "end": 457.894
+    },
+    {
+      "id": 30,
+      "english": "We need to make a · major change.",
+      "russian": "Нам нужно внести · серьезное изменение.",
+      "start": 457.894,
+      "end": 473.774
+    },
+    {
+      "id": 31,
+      "english": "He wants to · go into business.",
+      "russian": "Он хочет · заняться бизнесом.",
+      "start": 473.774,
+      "end": 489.164
+    },
+    {
+      "id": 32,
+      "english": "He was held as a · political prisoner.",
+      "russian": "Его держали как · политического заключенного.",
+      "start": 489.164,
+      "end": 505.05
+    },
+    {
+      "id": 33,
+      "english": "They · developed a close friendship.",
+      "russian": "У них · завязалась тесная дружба.",
+      "start": 505.05,
+      "end": 520.297
+    },
+    {
+      "id": 34,
+      "english": "We have a · second home in the mountains.",
+      "russian": "У нас есть · второй дом в горах.",
+      "start": 520.297,
+      "end": 536.284
+    },
+    {
+      "id": 35,
+      "english": "I · take pleasure in the simple things.",
+      "russian": "Я · нахожу удовольствие в простых вещах.",
+      "start": 536.284,
+      "end": 552.163
+    },
+    {
+      "id": 36,
+      "english": "We had a · heated discussion about politics.",
+      "russian": "У нас была · жаркая дискуссия о политике.",
+      "start": 552.163,
+      "end": 569.085
+    },
+    {
+      "id": 37,
+      "english": "We are a · nuclear family.",
+      "russian": "Мы — · нуклеарная семья.",
+      "start": 569.085,
+      "end": 584.156
+    },
+    {
+      "id": 38,
+      "english": "He suffered · serious injuries.",
+      "russian": "Он получил · серьезные травмы.",
+      "start": 584.156,
+      "end": 599.937
+    },
+    {
+      "id": 39,
+      "english": "I want to · take a degree in history.",
+      "russian": "Я хочу · получить степень по истории.",
+      "start": 599.937,
+      "end": 615.63
+    },
+    {
+      "id": 40,
+      "english": "When spring comes, the · snow melts.",
+      "russian": "Когда приходит весна, · снег тает.",
+      "start": 615.63,
+      "end": 632.141
+    },
+    {
+      "id": 41,
+      "english": "I don't want to · get in your way.",
+      "russian": "Я не хочу · мешать тебе.",
+      "start": 632.141,
+      "end": 647.198
+    },
+    {
+      "id": 42,
+      "english": "The company will · issue a statement tomorrow.",
+      "russian": "Завтра компания · выпустит заявление.",
+      "start": 647.198,
+      "end": 663.482
+    },
+    {
+      "id": 43,
+      "english": "I have to · sit an exam next week.",
+      "russian": "На следующей неделе мне нужно · сдавать экзамен.",
+      "start": 663.482,
+      "end": 679.488
+    },
+    {
+      "id": 44,
+      "english": "I love eating · international food.",
+      "russian": "Я люблю есть · интернациональную еду.",
+      "start": 679.488,
+      "end": 695.593
+    },
+    {
+      "id": 45,
+      "english": "I always · use a laptop for work.",
+      "russian": "Я всегда · использую ноутбук для работы.",
+      "start": 695.593,
+      "end": 711.538
+    },
+    {
+      "id": 46,
+      "english": "He managed to · kick the habit.",
+      "russian": "Ему удалось · бросить эту привычку.",
+      "start": 711.538,
+      "end": 726.474
+    },
+    {
+      "id": 47,
+      "english": "She's very · highly critical of the plan.",
+      "russian": "Она · очень критично относится к плану.",
+      "start": 726.474,
+      "end": 742.68
+    },
+    {
+      "id": 48,
+      "english": "She · made great strides in her career.",
+      "russian": "Она · добилась больших успехов в карьере.",
+      "start": 742.68,
+      "end": 758.943
+    },
+    {
+      "id": 49,
+      "english": "There's been a · dramatic improvement.",
+      "russian": "Произошло · резкое улучшение.",
+      "start": 758.943,
+      "end": 774.444
+    },
+    {
+      "id": 50,
+      "english": "Don't forget to · back up your files.",
+      "russian": "Не забудь · сделать резервную копию файлов.",
+      "start": 774.444,
+      "end": 790.454
+    },
+    {
+      "id": 51,
+      "english": "We saw a · large increase in sales.",
+      "russian": "Мы увидели · большой рост продаж.",
+      "start": 790.454,
+      "end": 799.416
+    }
+  ]
+}

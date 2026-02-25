@@ -1,0 +1,367 @@
+{
+  "id": "deck-44",
+  "deck_name": "collocation 20",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation20.mp3",
+  "group": "collocation",
+  "total_duration": 792.46,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "We'll just have to · agree to differ.",
+      "russian": "Нам просто придется · согласиться с тем, что мнения расходятся.",
+      "start": 0.0,
+      "end": 15.64
+    },
+    {
+      "id": 2,
+      "english": "We heard a · loud bang.",
+      "russian": "Мы услышали · громкий хлопок.",
+      "start": 15.64,
+      "end": 30.198
+    },
+    {
+      "id": 3,
+      "english": "They · had a row about money.",
+      "russian": "Они · поссорились из-за денег.",
+      "start": 30.198,
+      "end": 44.974
+    },
+    {
+      "id": 4,
+      "english": "This class is for · absolute beginners.",
+      "russian": "Этот класс для · полных новичков.",
+      "start": 44.974,
+      "end": 61.245
+    },
+    {
+      "id": 5,
+      "english": "New evidence · casts doubt on his story.",
+      "russian": "Новые доказательства · ставят под сомнение его историю.",
+      "start": 61.245,
+      "end": 77.869
+    },
+    {
+      "id": 6,
+      "english": "We were stuck in · slow-moving traffic.",
+      "russian": "Мы застряли в · медленно движущемся потоке.",
+      "start": 77.869,
+      "end": 93.87
+    },
+    {
+      "id": 7,
+      "english": "I · see your point, but I disagree.",
+      "russian": "Я · понимаю твою точку зрения, но не согласен.",
+      "start": 93.87,
+      "end": 110.302
+    },
+    {
+      "id": 8,
+      "english": "Can you · throw some light on this?",
+      "russian": "Можешь · пролить свет на это?",
+      "start": 110.302,
+      "end": 125.502
+    },
+    {
+      "id": 9,
+      "english": "I read a · film review before watching it.",
+      "russian": "Я прочитал · рецензию на фильм перед просмотром.",
+      "start": 125.502,
+      "end": 141.753
+    },
+    {
+      "id": 10,
+      "english": "Add · small quantities of salt.",
+      "russian": "Добавляй · небольшое количество соли.",
+      "start": 141.753,
+      "end": 157.433
+    },
+    {
+      "id": 11,
+      "english": "It · looks like rain today.",
+      "russian": "Сегодня · похоже, будет дождь.",
+      "start": 157.433,
+      "end": 172.396
+    },
+    {
+      "id": 12,
+      "english": "She was wearing · high heels.",
+      "russian": "На ней были · высокие каблуки.",
+      "start": 172.396,
+      "end": 187.922
+    },
+    {
+      "id": 13,
+      "english": "We went for a · brisk walk.",
+      "russian": "Мы сходили на · быструю прогулку.",
+      "start": 187.922,
+      "end": 203.007
+    },
+    {
+      "id": 14,
+      "english": "Can I · have a look?",
+      "russian": "Можно · взглянуть?",
+      "start": 203.007,
+      "end": 217.089
+    },
+    {
+      "id": 15,
+      "english": "He wants to · make big money.",
+      "russian": "Он хочет · зарабатывать большие деньги.",
+      "start": 217.089,
+      "end": 232.052
+    },
+    {
+      "id": 16,
+      "english": "That will · make a bad impression.",
+      "russian": "Это · произведет плохое впечатление.",
+      "start": 232.052,
+      "end": 247.136
+    },
+    {
+      "id": 17,
+      "english": "I'll · take a chance and apply.",
+      "russian": "Я · рискну и подам заявку.",
+      "start": 247.136,
+      "end": 262.098
+    },
+    {
+      "id": 18,
+      "english": "She knows how to · run a successful business.",
+      "russian": "Она умеет · управлять успешным бизнесом.",
+      "start": 262.098,
+      "end": 278.872
+    },
+    {
+      "id": 19,
+      "english": "The rebels hope to · gain control.",
+      "russian": "Повстанцы надеются · получить контроль.",
+      "start": 278.872,
+      "end": 294.726
+    },
+    {
+      "id": 20,
+      "english": "She gave me a · quick glance.",
+      "russian": "Она · быстро взглянула на меня.",
+      "start": 294.726,
+      "end": 309.924
+    },
+    {
+      "id": 21,
+      "english": "2, 4, 6 are · even numbers.",
+      "russian": "2, 4, 6 — · четные числа.",
+      "start": 309.924,
+      "end": 327.513
+    },
+    {
+      "id": 22,
+      "english": "Everyone must · obey the law.",
+      "russian": "Все должны · соблюдать закон.",
+      "start": 327.513,
+      "end": 342.772
+    },
+    {
+      "id": 23,
+      "english": "He will · star in a new film.",
+      "russian": "Он · сыграет главную роль в новом фильме.",
+      "start": 342.772,
+      "end": 358.341
+    },
+    {
+      "id": 24,
+      "english": "We need to · set targets for next year.",
+      "russian": "Нам нужно · установить цели на следующий год.",
+      "start": 358.341,
+      "end": 374.626
+    },
+    {
+      "id": 25,
+      "english": "The · wind is blowing hard.",
+      "russian": "· Ветер сильно дует.",
+      "start": 374.626,
+      "end": 389.622
+    },
+    {
+      "id": 26,
+      "english": "I love to · go fishing.",
+      "russian": "Я люблю · ходить на рыбалку.",
+      "start": 389.622,
+      "end": 404.244
+    },
+    {
+      "id": 27,
+      "english": "I'd like to · make a reservation.",
+      "russian": "Я хотел бы · сделать заказ.",
+      "start": 404.244,
+      "end": 419.477
+    },
+    {
+      "id": 28,
+      "english": "This software will · protect your computer from viruses.",
+      "russian": "Это ПО · защитит твой компьютер от вирусов.",
+      "start": 419.477,
+      "end": 437.517
+    },
+    {
+      "id": 29,
+      "english": "It · took me ages to find you.",
+      "russian": "· Мне потребовалась вечность, чтобы найти тебя.",
+      "start": 437.517,
+      "end": 452.705
+    },
+    {
+      "id": 30,
+      "english": "The table has a · smooth surface.",
+      "russian": "У стола · гладкая поверхность.",
+      "start": 452.705,
+      "end": 468.676
+    },
+    {
+      "id": 31,
+      "english": "Banks charge · high interest rates.",
+      "russian": "Банки берут · высокие проценты.",
+      "start": 468.676,
+      "end": 484.855
+    },
+    {
+      "id": 32,
+      "english": "I managed to · catch a glimpse of her.",
+      "russian": "Мне удалось · мельком увидеть ее.",
+      "start": 484.855,
+      "end": 500.379
+    },
+    {
+      "id": 33,
+      "english": "I · got off on the wrong foot with my boss.",
+      "russian": "У меня · с самого начала не заладилось с начальником.",
+      "start": 500.379,
+      "end": 516.838
+    },
+    {
+      "id": 34,
+      "english": "You have to · observe the law.",
+      "russian": "Ты должен · соблюдать закон.",
+      "start": 516.838,
+      "end": 531.773
+    },
+    {
+      "id": 35,
+      "english": "I love buying · fresh produce at the market.",
+      "russian": "Я люблю покупать · свежие продукты на рынке.",
+      "start": 531.773,
+      "end": 548.594
+    },
+    {
+      "id": 36,
+      "english": "I made a · snap decision.",
+      "russian": "Я принял · поспешное решение.",
+      "start": 548.594,
+      "end": 563.533
+    },
+    {
+      "id": 37,
+      "english": "They · took advantage of us.",
+      "russian": "Они · воспользовались нами.",
+      "start": 563.533,
+      "end": 578.472
+    },
+    {
+      "id": 38,
+      "english": "He tried to · rob an old lady.",
+      "russian": "Он пытался · ограбить пожилую женщину.",
+      "start": 578.472,
+      "end": 593.848
+    },
+    {
+      "id": 39,
+      "english": "The teacher sometimes · bends the rules.",
+      "russian": "Учитель иногда · нарушает правила.",
+      "start": 593.848,
+      "end": 610.048
+    },
+    {
+      "id": 40,
+      "english": "I have a · sneaking suspicion he's lying.",
+      "russian": "У меня · есть подозрение, что он врет.",
+      "start": 610.048,
+      "end": 626.341
+    },
+    {
+      "id": 41,
+      "english": "We need to · carry out a research project.",
+      "russian": "Нам нужно · провести исследовательский проект.",
+      "start": 626.341,
+      "end": 643.105
+    },
+    {
+      "id": 42,
+      "english": "I just had a · quick lunch.",
+      "russian": "Я просто быстро · пообедал.",
+      "start": 643.105,
+      "end": 658.014
+    },
+    {
+      "id": 43,
+      "english": "I can't eat ice cream, I have · sensitive teeth.",
+      "russian": "Я не могу есть мороженое, у меня · чувствительные зубы.",
+      "start": 658.014,
+      "end": 675.683
+    },
+    {
+      "id": 44,
+      "english": "He will · go on trial next month.",
+      "russian": "В следующем месяце он · предстанет перед судом.",
+      "start": 675.683,
+      "end": 691.484
+    },
+    {
+      "id": 45,
+      "english": "This book is an · easy read.",
+      "russian": "Эта книга · легко читается.",
+      "start": 691.484,
+      "end": 706.914
+    },
+    {
+      "id": 46,
+      "english": "She wants to · set a new world record.",
+      "russian": "Она хочет · установить новый мировой рекорд.",
+      "start": 706.914,
+      "end": 723.352
+    },
+    {
+      "id": 47,
+      "english": "The child · threw a tantrum in the store.",
+      "russian": "Ребенок · устроил истерику в магазине.",
+      "start": 723.352,
+      "end": 739.391
+    },
+    {
+      "id": 48,
+      "english": "We need to · make an improvement here.",
+      "russian": "Нам нужно · сделать здесь улучшение.",
+      "start": 739.391,
+      "end": 755.163
+    },
+    {
+      "id": 49,
+      "english": "He · denies the claim.",
+      "russian": "Он · отрицает это утверждение.",
+      "start": 755.163,
+      "end": 769.844
+    },
+    {
+      "id": 50,
+      "english": "I have a · dull ache in my back.",
+      "russian": "У меня · тупая боль в спине.",
+      "start": 769.844,
+      "end": 785.179
+    },
+    {
+      "id": 51,
+      "english": "They live in the · inner city.",
+      "russian": "Они живут в · центре города.",
+      "start": 785.179,
+      "end": 792.456
+    }
+  ]
+}

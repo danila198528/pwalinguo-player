@@ -1,0 +1,367 @@
+{
+  "id": "deck-43",
+  "deck_name": "collocation 19",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation19.mp3",
+  "group": "collocation",
+  "total_duration": 789.24,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I need to · arrange meetings for next week.",
+      "russian": "Мне нужно · организовать встречи на следующую неделю.",
+      "start": 0.0,
+      "end": 16.493
+    },
+    {
+      "id": 2,
+      "english": "He has strong · body odour.",
+      "russian": "У него сильный · запах тела.",
+      "start": 16.493,
+      "end": 31.556
+    },
+    {
+      "id": 3,
+      "english": "He · suffered serious injuries.",
+      "russian": "Он · получил серьезные травмы.",
+      "start": 31.556,
+      "end": 47.395
+    },
+    {
+      "id": 4,
+      "english": "It was a · front-page headline.",
+      "russian": "Это был · заголовок на первой полосе.",
+      "start": 47.395,
+      "end": 62.786
+    },
+    {
+      "id": 5,
+      "english": "She has an · outgoing personality.",
+      "russian": "У нее · открытый характер.",
+      "start": 62.786,
+      "end": 78.543
+    },
+    {
+      "id": 6,
+      "english": "My father · has a lot of influence on me.",
+      "russian": "Мой отец · имеет на меня большое влияние.",
+      "start": 78.543,
+      "end": 95.085
+    },
+    {
+      "id": 7,
+      "english": "They want to · raise a family here.",
+      "russian": "Они хотят · растить здесь семью.",
+      "start": 95.085,
+      "end": 110.546
+    },
+    {
+      "id": 8,
+      "english": "I need to · balance the budget.",
+      "russian": "Мне нужно · сбалансировать бюджет.",
+      "start": 110.546,
+      "end": 125.648
+    },
+    {
+      "id": 9,
+      "english": "They produce goods · on a large scale.",
+      "russian": "Они производят товары · в больших масштабах.",
+      "start": 125.648,
+      "end": 141.665
+    },
+    {
+      "id": 10,
+      "english": "The mountains · came into view.",
+      "russian": "Горы · показались вдали.",
+      "start": 141.665,
+      "end": 157.241
+    },
+    {
+      "id": 11,
+      "english": "You're · making good progress.",
+      "russian": "Ты · делаешь хорошие успехи.",
+      "start": 157.241,
+      "end": 172.215
+    },
+    {
+      "id": 12,
+      "english": "They expect · prompt payment.",
+      "russian": "Они ожидают · своевременной оплаты.",
+      "start": 172.215,
+      "end": 187.388
+    },
+    {
+      "id": 13,
+      "english": "The news · brought the celebrations to an end.",
+      "russian": "Новость · положила конец празднованиям.",
+      "start": 187.388,
+      "end": 203.859
+    },
+    {
+      "id": 14,
+      "english": "I · get the impression he's busy.",
+      "russian": "У меня · такое впечатление, что он занят.",
+      "start": 203.859,
+      "end": 218.952
+    },
+    {
+      "id": 15,
+      "english": "I need a · quick answer.",
+      "russian": "Мне нужен · быстрый ответ.",
+      "start": 218.952,
+      "end": 233.429
+    },
+    {
+      "id": 16,
+      "english": "I have · dry hair, so I use conditioner.",
+      "russian": "У меня · сухие волосы, поэтому я использую кондиционер.",
+      "start": 233.429,
+      "end": 250.398
+    },
+    {
+      "id": 17,
+      "english": "I · have a good memory for faces.",
+      "russian": "У меня · хорошая память на лица.",
+      "start": 250.398,
+      "end": 266.07
+    },
+    {
+      "id": 18,
+      "english": "Our team managed to · defeat the opponent.",
+      "russian": "Нашей команде удалось · победить соперника.",
+      "start": 266.07,
+      "end": 282.332
+    },
+    {
+      "id": 19,
+      "english": "You can · gain access to the files online.",
+      "russian": "Ты можешь · получить доступ к файлам онлайн.",
+      "start": 282.332,
+      "end": 298.809
+    },
+    {
+      "id": 20,
+      "english": "I felt a sudden · sharp pain.",
+      "russian": "Я почувствовал внезапную · острую боль.",
+      "start": 298.809,
+      "end": 314.466
+    },
+    {
+      "id": 21,
+      "english": "He's · going bald.",
+      "russian": "Он · лысеет.",
+      "start": 314.466,
+      "end": 328.772
+    },
+    {
+      "id": 22,
+      "english": "We · are in agreement on this.",
+      "russian": "Мы · согласны в этом.",
+      "start": 328.772,
+      "end": 343.957
+    },
+    {
+      "id": 23,
+      "english": "No one knows what the · future holds.",
+      "russian": "Никто не знает, что · ждет в будущем.",
+      "start": 343.957,
+      "end": 360.398
+    },
+    {
+      "id": 24,
+      "english": "My · computer crashed and I lost my work.",
+      "russian": "Мой · компьютер завис, и я потерял работу.",
+      "start": 360.398,
+      "end": 377.001
+    },
+    {
+      "id": 25,
+      "english": "The · wind is picking up.",
+      "russian": "· Ветер усиливается.",
+      "start": 377.001,
+      "end": 391.583
+    },
+    {
+      "id": 26,
+      "english": "I · firmly believe in justice.",
+      "russian": "Я · твердо верю в справедливость.",
+      "start": 391.583,
+      "end": 407.274
+    },
+    {
+      "id": 27,
+      "english": "Do you want to · have a go?",
+      "russian": "Хочешь · попробовать?",
+      "start": 407.274,
+      "end": 421.748
+    },
+    {
+      "id": 28,
+      "english": "This will · make a big impact.",
+      "russian": "Это · окажет большое влияние.",
+      "start": 421.748,
+      "end": 436.861
+    },
+    {
+      "id": 29,
+      "english": "The army is ready to · go into action.",
+      "russian": "Армия готова · вступить в дело.",
+      "start": 436.861,
+      "end": 453.136
+    },
+    {
+      "id": 30,
+      "english": "He loves to · play jokes on people.",
+      "russian": "Он любит · разыгрывать людей.",
+      "start": 453.136,
+      "end": 468.892
+    },
+    {
+      "id": 31,
+      "english": "I always · use a memory stick for backups.",
+      "russian": "Я всегда · использую флешку для резервного копирования.",
+      "start": 468.892,
+      "end": 485.444
+    },
+    {
+      "id": 32,
+      "english": "I need to · take a holiday.",
+      "russian": "Мне нужно · взять отпуск.",
+      "start": 485.444,
+      "end": 500.248
+    },
+    {
+      "id": 33,
+      "english": "Here, · have a smell of this perfume.",
+      "russian": "Вот, · понюхай эти духи.",
+      "start": 500.248,
+      "end": 516.546
+    },
+    {
+      "id": 34,
+      "english": "She decided to · wear a dress.",
+      "russian": "Она решила · надеть платье.",
+      "start": 516.546,
+      "end": 532.216
+    },
+    {
+      "id": 35,
+      "english": "The storm · caused a lot of damage.",
+      "russian": "Шторм · нанес большой ущерб.",
+      "start": 532.216,
+      "end": 547.834
+    },
+    {
+      "id": 36,
+      "english": "People are in · desperate need of help.",
+      "russian": "Люди · остро нуждаются в помощи.",
+      "start": 547.834,
+      "end": 563.595
+    },
+    {
+      "id": 37,
+      "english": "Our plans · went badly wrong.",
+      "russian": "Наши планы · пошли наперекосяк.",
+      "start": 563.595,
+      "end": 579.433
+    },
+    {
+      "id": 38,
+      "english": "They launched an · all-out war.",
+      "russian": "Они начали · тотальную войну.",
+      "start": 579.433,
+      "end": 594.469
+    },
+    {
+      "id": 39,
+      "english": "We need · large amounts of data.",
+      "russian": "Нам нужны · большие объемы данных.",
+      "start": 594.469,
+      "end": 609.796
+    },
+    {
+      "id": 40,
+      "english": "I try to avoid · processed foods.",
+      "russian": "Я стараюсь избегать · обработанных продуктов.",
+      "start": 609.796,
+      "end": 625.966
+    },
+    {
+      "id": 41,
+      "english": "It was a · decisive battle.",
+      "russian": "Это было · решающее сражение.",
+      "start": 625.966,
+      "end": 640.912
+    },
+    {
+      "id": 42,
+      "english": "The city is full of · exhaust fumes.",
+      "russian": "Город полон · выхлопных газов.",
+      "start": 640.912,
+      "end": 657.115
+    },
+    {
+      "id": 43,
+      "english": "The country is facing a · crime wave.",
+      "russian": "Страна столкнулась с · волной преступности.",
+      "start": 657.115,
+      "end": 673.421
+    },
+    {
+      "id": 44,
+      "english": "She is · deeply committed to her job.",
+      "russian": "Она · глубоко предана своей работе.",
+      "start": 673.421,
+      "end": 689.26
+    },
+    {
+      "id": 45,
+      "english": "Can we · change seats?",
+      "russian": "Мы можем · поменяться местами?",
+      "start": 689.26,
+      "end": 703.652
+    },
+    {
+      "id": 46,
+      "english": "Many soldiers were · taken prisoner.",
+      "russian": "Многие солдаты были · взяты в плен.",
+      "start": 703.652,
+      "end": 719.329
+    },
+    {
+      "id": 47,
+      "english": "The number is · increasing gradually.",
+      "russian": "Число · постепенно увеличивается.",
+      "start": 719.329,
+      "end": 734.969
+    },
+    {
+      "id": 48,
+      "english": "He's a famous · pop idol.",
+      "russian": "Он известный · поп-идол.",
+      "start": 734.969,
+      "end": 749.844
+    },
+    {
+      "id": 49,
+      "english": "They want to · have children someday.",
+      "russian": "Они хотят · завести детей когда-нибудь.",
+      "start": 749.844,
+      "end": 765.432
+    },
+    {
+      "id": 50,
+      "english": "She hopes to · win an award.",
+      "russian": "Она надеется · выиграть награду.",
+      "start": 765.432,
+      "end": 780.731
+    },
+    {
+      "id": 51,
+      "english": "He has a · burning desire to travel.",
+      "russian": "У него · жгучее желание путешествовать.",
+      "start": 780.731,
+      "end": 789.24
+    }
+  ]
+}

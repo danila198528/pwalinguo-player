@@ -1,0 +1,367 @@
+{
+  "id": "deck-40",
+  "deck_name": "collocation 16",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation16.mp3",
+  "group": "collocation",
+  "total_duration": 794.9,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The · sales figures are looking good.",
+      "russian": "· Показатели продаж выглядят хорошо.",
+      "start": 0.0,
+      "end": 15.989
+    },
+    {
+      "id": 2,
+      "english": "During a crisis, · prices soar.",
+      "russian": "Во время кризиса · цены взлетают.",
+      "start": 15.989,
+      "end": 32.585
+    },
+    {
+      "id": 3,
+      "english": "The table has a · rough surface.",
+      "russian": "У стола · шероховатая поверхность.",
+      "start": 32.585,
+      "end": 48.33
+    },
+    {
+      "id": 4,
+      "english": "He suffered only · minor injuries.",
+      "russian": "Он получил только · легкие травмы.",
+      "start": 48.33,
+      "end": 64.352
+    },
+    {
+      "id": 5,
+      "english": "The police were called to · restore order.",
+      "russian": "Полицию вызвали, чтобы · восстановить порядок.",
+      "start": 64.352,
+      "end": 80.479
+    },
+    {
+      "id": 6,
+      "english": "The damage is · irreversible.",
+      "russian": "Ущерб · необратим.",
+      "start": 80.479,
+      "end": 95.557
+    },
+    {
+      "id": 7,
+      "english": "Let me take a · quick look.",
+      "russian": "Дай я · быстро взгляну.",
+      "start": 95.557,
+      "end": 110.279
+    },
+    {
+      "id": 8,
+      "english": "They had a · bitter dispute over money.",
+      "russian": "У них был · горький спор из-за денег.",
+      "start": 110.279,
+      "end": 125.846
+    },
+    {
+      "id": 9,
+      "english": "Many · economic migrants come here for work.",
+      "russian": "Много · экономических мигрантов приезжают сюда на работу.",
+      "start": 125.846,
+      "end": 142.878
+    },
+    {
+      "id": 10,
+      "english": "She's in · constant pain.",
+      "russian": "Она испытывает · постоянную боль.",
+      "start": 142.878,
+      "end": 157.669
+    },
+    {
+      "id": 11,
+      "english": "He completely · missed the point of the joke.",
+      "russian": "Он полностью · не понял смысла шутки.",
+      "start": 157.669,
+      "end": 173.814
+    },
+    {
+      "id": 12,
+      "english": "I just need to · put the finishing touches to this.",
+      "russian": "Мне просто нужно · добавить последние штрихи к этому.",
+      "start": 173.814,
+      "end": 190.591
+    },
+    {
+      "id": 13,
+      "english": "Can we · change places?",
+      "russian": "Мы можем · поменяться местами?",
+      "start": 190.591,
+      "end": 205.303
+    },
+    {
+      "id": 14,
+      "english": "I'll try to · make time for you tomorrow.",
+      "russian": "Я постараюсь · найти для тебя время завтра.",
+      "start": 205.303,
+      "end": 221.292
+    },
+    {
+      "id": 15,
+      "english": "We arrived early, so we had to · kill some time.",
+      "russian": "Мы приехали рано, пришлось · убить время.",
+      "start": 221.292,
+      "end": 238.665
+    },
+    {
+      "id": 16,
+      "english": "I have · aches and pains all over.",
+      "russian": "У меня все · болит и ноет.",
+      "start": 238.665,
+      "end": 254.358
+    },
+    {
+      "id": 17,
+      "english": "The new factory will · create jobs.",
+      "russian": "Новый завод · создаст рабочие места.",
+      "start": 254.358,
+      "end": 270.737
+    },
+    {
+      "id": 18,
+      "english": "This is a quiet · residential area.",
+      "russian": "Это тихий · жилой район.",
+      "start": 270.737,
+      "end": 286.798
+    },
+    {
+      "id": 19,
+      "english": "This building is in a · conservation area.",
+      "russian": "Это здание находится в · охранной зоне.",
+      "start": 286.798,
+      "end": 303.218
+    },
+    {
+      "id": 20,
+      "english": "I received a · prompt reply to my email.",
+      "russian": "Я получил · быстрый ответ на свое письмо.",
+      "start": 303.218,
+      "end": 319.713
+    },
+    {
+      "id": 21,
+      "english": "I have · oily skin, so I wash my face often.",
+      "russian": "У меня · жирная кожа, поэтому я часто умываюсь.",
+      "start": 319.713,
+      "end": 337.108
+    },
+    {
+      "id": 22,
+      "english": "We always · have fun together.",
+      "russian": "Мы всегда · веселимся вместе.",
+      "start": 337.108,
+      "end": 352.113
+    },
+    {
+      "id": 23,
+      "english": "I love to · go cycling in the countryside.",
+      "russian": "Я люблю · кататься на велосипеде за городом.",
+      "start": 352.113,
+      "end": 368.729
+    },
+    {
+      "id": 24,
+      "english": "His speech · attracted a lot of interest.",
+      "russian": "Его речь · вызвала большой интерес.",
+      "start": 368.729,
+      "end": 385.161
+    },
+    {
+      "id": 25,
+      "english": "They are · making preparations for the wedding.",
+      "russian": "Они · готовятся к свадьбе.",
+      "start": 385.161,
+      "end": 401.14
+    },
+    {
+      "id": 26,
+      "english": "I need to · change my clothes before dinner.",
+      "russian": "Мне нужно · переодеться перед ужином.",
+      "start": 401.14,
+      "end": 417.601
+    },
+    {
+      "id": 27,
+      "english": "He had to · make a speech at the event.",
+      "russian": "Ему пришлось · произнести речь на мероприятии.",
+      "start": 417.601,
+      "end": 433.361
+    },
+    {
+      "id": 28,
+      "english": "Use · bullet points to keep it clear.",
+      "russian": "Используй · маркированные списки для ясности.",
+      "start": 433.361,
+      "end": 449.311
+    },
+    {
+      "id": 29,
+      "english": "They want to · set up home together.",
+      "russian": "Они хотят · создать свой дом вместе.",
+      "start": 449.311,
+      "end": 464.497
+    },
+    {
+      "id": 30,
+      "english": "I didn't mean to · hurt your feelings.",
+      "russian": "Я не хотел · задеть твои чувства.",
+      "start": 464.497,
+      "end": 480.325
+    },
+    {
+      "id": 31,
+      "english": "He has a strong · sense of responsibility.",
+      "russian": "У него сильное · чувство ответственности.",
+      "start": 480.325,
+      "end": 496.994
+    },
+    {
+      "id": 32,
+      "english": "This is a · highly effective method.",
+      "russian": "Это · очень эффективный метод.",
+      "start": 496.994,
+      "end": 512.625
+    },
+    {
+      "id": 33,
+      "english": "I need to · complete the course by June.",
+      "russian": "Мне нужно · закончить курс к июню.",
+      "start": 512.625,
+      "end": 528.729
+    },
+    {
+      "id": 34,
+      "english": "I · ran out of time during the test.",
+      "russian": "У меня · закончилось время во время теста.",
+      "start": 528.729,
+      "end": 544.55
+    },
+    {
+      "id": 35,
+      "english": "Be careful where you · download free applications.",
+      "russian": "Будь осторожен, где ты · скачиваешь бесплатные приложения.",
+      "start": 544.55,
+      "end": 561.993
+    },
+    {
+      "id": 36,
+      "english": "This is strictly · off the record.",
+      "russian": "Это строго · не для записи.",
+      "start": 561.993,
+      "end": 577.622
+    },
+    {
+      "id": 37,
+      "english": "It's only a · minor change, nothing major.",
+      "russian": "Это всего лишь · небольшое изменение, ничего серьезного.",
+      "start": 577.622,
+      "end": 594.884
+    },
+    {
+      "id": 38,
+      "english": "Did you · steal my pen?",
+      "russian": "Ты · украл мою ручку?",
+      "start": 594.884,
+      "end": 609.546
+    },
+    {
+      "id": 39,
+      "english": "It's a · big decision.",
+      "russian": "Это · важное решение.",
+      "start": 609.546,
+      "end": 623.834
+    },
+    {
+      "id": 40,
+      "english": "Suddenly the sky · went dark.",
+      "russian": "Вдруг небо · потемнело.",
+      "start": 623.834,
+      "end": 639.339
+    },
+    {
+      "id": 41,
+      "english": "Can I · make a comment?",
+      "russian": "Можно мне · высказаться?",
+      "start": 639.339,
+      "end": 653.618
+    },
+    {
+      "id": 42,
+      "english": "I want to · become involved.",
+      "russian": "Я хочу · участвовать в этом.",
+      "start": 653.618,
+      "end": 668.387
+    },
+    {
+      "id": 43,
+      "english": "Don't · make excuses.",
+      "russian": "Не · придумывай отговорки.",
+      "start": 668.387,
+      "end": 683.101
+    },
+    {
+      "id": 44,
+      "english": "My mind · went blank.",
+      "russian": "Я · впал в ступор.",
+      "start": 683.101,
+      "end": 697.782
+    },
+    {
+      "id": 45,
+      "english": "He tried to · make a fool out of me.",
+      "russian": "Он пытался · выставить меня дураком.",
+      "start": 697.782,
+      "end": 713.198
+    },
+    {
+      "id": 46,
+      "english": "Stay out of the · fast lane.",
+      "russian": "Держись подальше от · скоростной полосы.",
+      "start": 713.198,
+      "end": 728.341
+    },
+    {
+      "id": 47,
+      "english": "We need to · produce results.",
+      "russian": "Нам нужно · добиться результатов.",
+      "start": 728.341,
+      "end": 743.6
+    },
+    {
+      "id": 48,
+      "english": "She has · fair hair.",
+      "russian": "У нее · светлые волосы.",
+      "start": 743.6,
+      "end": 757.95
+    },
+    {
+      "id": 49,
+      "english": "· Time goes by so fast.",
+      "russian": "· Время летит так быстро.",
+      "start": 757.95,
+      "end": 773.247
+    },
+    {
+      "id": 50,
+      "english": "Don't · click on that link.",
+      "russian": "Не · нажимай на эту ссылку.",
+      "start": 773.247,
+      "end": 787.66
+    },
+    {
+      "id": 51,
+      "english": "I'm an · only child.",
+      "russian": "Я · единственный ребенок в семье.",
+      "start": 787.66,
+      "end": 794.903
+    }
+  ]
+}

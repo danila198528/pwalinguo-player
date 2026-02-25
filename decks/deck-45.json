@@ -1,0 +1,367 @@
+{
+  "id": "deck-45",
+  "deck_name": "collocation 21",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation21.mp3",
+  "group": "collocation",
+  "total_duration": 787.8,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "She wore a · bright yellow coat.",
+      "russian": "На ней было · ярко-желтое пальто.",
+      "start": 0.0,
+      "end": 15.567
+    },
+    {
+      "id": 2,
+      "english": "Let me · make it clear.",
+      "russian": "Позволь мне · прояснить это.",
+      "start": 15.567,
+      "end": 29.934
+    },
+    {
+      "id": 3,
+      "english": "The traffic · came to a standstill.",
+      "russian": "Движение · остановилось.",
+      "start": 29.934,
+      "end": 45.469
+    },
+    {
+      "id": 4,
+      "english": "You have to · trust your intuition.",
+      "russian": "Ты должен · доверять своей интуиции.",
+      "start": 45.469,
+      "end": 60.879
+    },
+    {
+      "id": 5,
+      "english": "I don't · have time to talk now.",
+      "russian": "У меня сейчас нет · времени говорить.",
+      "start": 60.879,
+      "end": 76.134
+    },
+    {
+      "id": 6,
+      "english": "I like to · go for a run in the morning.",
+      "russian": "Я люблю · бегать по утрам.",
+      "start": 76.134,
+      "end": 92.061
+    },
+    {
+      "id": 7,
+      "english": "The company announced · job losses.",
+      "russian": "Компания объявила о · сокращениях.",
+      "start": 92.061,
+      "end": 107.869
+    },
+    {
+      "id": 8,
+      "english": "Let's · change the subject.",
+      "russian": "Давай · сменим тему.",
+      "start": 107.869,
+      "end": 122.721
+    },
+    {
+      "id": 9,
+      "english": "They hope to · strike a deal.",
+      "russian": "Они надеются · заключить сделку.",
+      "start": 122.721,
+      "end": 137.683
+    },
+    {
+      "id": 10,
+      "english": "There's been a · decline in the number of visitors.",
+      "russian": "Наблюдается · снижение числа посетителей.",
+      "start": 137.683,
+      "end": 153.882
+    },
+    {
+      "id": 11,
+      "english": "She's a · highly successful businesswoman.",
+      "russian": "Она · очень успешная бизнес-леди.",
+      "start": 153.882,
+      "end": 170.34
+    },
+    {
+      "id": 12,
+      "english": "He's a · convicted criminal.",
+      "russian": "Он · осужденный преступник.",
+      "start": 170.34,
+      "end": 185.406
+    },
+    {
+      "id": 13,
+      "english": "I can · appreciate your point of view.",
+      "russian": "Я могу · понять твою точку зрения.",
+      "start": 185.406,
+      "end": 201.338
+    },
+    {
+      "id": 14,
+      "english": "They will · launch a campaign next week.",
+      "russian": "На следующей неделе они · начнут кампанию.",
+      "start": 201.338,
+      "end": 217.3
+    },
+    {
+      "id": 15,
+      "english": "You · have a choice.",
+      "russian": "У тебя · есть выбор.",
+      "start": 217.3,
+      "end": 231.469
+    },
+    {
+      "id": 16,
+      "english": "We live a · long distance from the city.",
+      "russian": "Мы живем на · большом расстоянии от города.",
+      "start": 231.469,
+      "end": 247.086
+    },
+    {
+      "id": 17,
+      "english": "I prefer a · window seat.",
+      "russian": "Я предпочитаю · место у окна.",
+      "start": 247.086,
+      "end": 262.292
+    },
+    {
+      "id": 18,
+      "english": "She can't · keep secrets.",
+      "russian": "Она не умеет · хранить секреты.",
+      "start": 262.292,
+      "end": 277.271
+    },
+    {
+      "id": 19,
+      "english": "I want to · enter a competition.",
+      "russian": "Я хочу · участвовать в конкурсе.",
+      "start": 277.271,
+      "end": 292.521
+    },
+    {
+      "id": 20,
+      "english": "This may · cause anxiety.",
+      "russian": "Это может · вызвать беспокойство.",
+      "start": 292.521,
+      "end": 307.612
+    },
+    {
+      "id": 21,
+      "english": "I didn't want to · raise the subject.",
+      "russian": "Я не хотел · поднимать эту тему.",
+      "start": 307.612,
+      "end": 323.096
+    },
+    {
+      "id": 22,
+      "english": "My · ex-wife lives in London.",
+      "russian": "Моя · бывшая жена живет в Лондоне.",
+      "start": 323.096,
+      "end": 338.472
+    },
+    {
+      "id": 23,
+      "english": "Don't forget to · submit your application.",
+      "russian": "Не забудь · подать заявление.",
+      "start": 338.472,
+      "end": 354.393
+    },
+    {
+      "id": 24,
+      "english": "I love their · live performances.",
+      "russian": "Я люблю их · живые выступления.",
+      "start": 354.393,
+      "end": 370.125
+    },
+    {
+      "id": 25,
+      "english": "The building · caught fire last night.",
+      "russian": "Здание · загорелось прошлой ночью.",
+      "start": 370.125,
+      "end": 386.126
+    },
+    {
+      "id": 26,
+      "english": "We have an advantage playing at our · home ground.",
+      "russian": "У нас преимущество игры на своем · поле.",
+      "start": 386.126,
+      "end": 403.438
+    },
+    {
+      "id": 27,
+      "english": "That's a · highly unusual situation.",
+      "russian": "Это · крайне необычная ситуация.",
+      "start": 403.438,
+      "end": 419.817
+    },
+    {
+      "id": 28,
+      "english": "The movie has amazing · special effects.",
+      "russian": "У фильма потрясающие · спецэффекты.",
+      "start": 419.817,
+      "end": 436.556
+    },
+    {
+      "id": 29,
+      "english": "She · sets high standards for herself.",
+      "russian": "Она · ставит перед собой высокие стандарты.",
+      "start": 436.556,
+      "end": 452.883
+    },
+    {
+      "id": 30,
+      "english": "I need to · make a change in my life.",
+      "russian": "Мне нужно · что-то изменить в жизни.",
+      "start": 452.883,
+      "end": 468.868
+    },
+    {
+      "id": 31,
+      "english": "Just · get to the point.",
+      "russian": "Просто · переходи к делу.",
+      "start": 468.868,
+      "end": 483.31
+    },
+    {
+      "id": 32,
+      "english": "He had to · take a penalty.",
+      "russian": "Ему пришлось · пробить пенальти.",
+      "start": 483.31,
+      "end": 498.031
+    },
+    {
+      "id": 33,
+      "english": "Please · speak clearly.",
+      "russian": "Пожалуйста, · говори четко.",
+      "start": 498.031,
+      "end": 512.385
+    },
+    {
+      "id": 34,
+      "english": "Many shops · go out of business.",
+      "russian": "Многие магазины · закрываются.",
+      "start": 512.385,
+      "end": 528.04
+    },
+    {
+      "id": 35,
+      "english": "Scientists · made a breakthrough.",
+      "russian": "Ученые · совершили прорыв.",
+      "start": 528.04,
+      "end": 543.631
+    },
+    {
+      "id": 36,
+      "english": "She was your neighbour, · if I remember rightly.",
+      "russian": "Она была твоей соседкой, · если я правильно помню.",
+      "start": 543.631,
+      "end": 560.549
+    },
+    {
+      "id": 37,
+      "english": "The idea has · widespread support.",
+      "russian": "Идея пользуется · широкой поддержкой.",
+      "start": 560.549,
+      "end": 576.728
+    },
+    {
+      "id": 38,
+      "english": "The film was a · box-office hit.",
+      "russian": "Фильм был · кассовым хитом.",
+      "start": 576.728,
+      "end": 592.154
+    },
+    {
+      "id": 39,
+      "english": "Can you · shed some light on this?",
+      "russian": "Можешь · пролить свет на это?",
+      "start": 592.154,
+      "end": 607.257
+    },
+    {
+      "id": 40,
+      "english": "I had a · hearty breakfast.",
+      "russian": "У меня был · плотный завтрак.",
+      "start": 607.257,
+      "end": 622.369
+    },
+    {
+      "id": 41,
+      "english": "You need to · think hard about this.",
+      "russian": "Тебе нужно · серьезно подумать об этом.",
+      "start": 622.369,
+      "end": 637.799
+    },
+    {
+      "id": 42,
+      "english": "They · struck up a friendship at work.",
+      "russian": "Они · подружились на работе.",
+      "start": 637.799,
+      "end": 653.654
+    },
+    {
+      "id": 43,
+      "english": "We have a · big problem.",
+      "russian": "У нас · большая проблема.",
+      "start": 653.654,
+      "end": 668.21
+    },
+    {
+      "id": 44,
+      "english": "Everyone hopes for · lasting peace.",
+      "russian": "Все надеются на · прочный мир.",
+      "start": 668.21,
+      "end": 684.045
+    },
+    {
+      "id": 45,
+      "english": "There have been some · positive effects.",
+      "russian": "Были некоторые · положительные эффекты.",
+      "start": 684.045,
+      "end": 699.748
+    },
+    {
+      "id": 46,
+      "english": "It was a · remarkable achievement.",
+      "russian": "Это было · выдающееся достижение.",
+      "start": 699.748,
+      "end": 715.273
+    },
+    {
+      "id": 47,
+      "english": "The project got off to a · promising start.",
+      "russian": "Проект · многообещающе начался.",
+      "start": 715.273,
+      "end": 731.741
+    },
+    {
+      "id": 48,
+      "english": "He had a · cameo role in the movie.",
+      "russian": "У него была · эпизодическая роль в фильме.",
+      "start": 731.741,
+      "end": 747.507
+    },
+    {
+      "id": 49,
+      "english": "My neighbour is · going crazy.",
+      "russian": "Мой сосед · сходит с ума.",
+      "start": 747.507,
+      "end": 762.884
+    },
+    {
+      "id": 50,
+      "english": "The company has a high · annual turnover.",
+      "russian": "У компании большой · годовой оборот.",
+      "start": 762.884,
+      "end": 779.469
+    },
+    {
+      "id": 51,
+      "english": "We need to · adopt a new approach.",
+      "russian": "Нам нужно · принять новый подход.",
+      "start": 779.469,
+      "end": 787.799
+    }
+  ]
+}

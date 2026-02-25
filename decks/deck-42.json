@@ -1,0 +1,367 @@
+{
+  "id": "deck-42",
+  "deck_name": "collocation 18",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation18.mp3",
+  "group": "collocation",
+  "total_duration": 786.6,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I prefer an · aisle seat.",
+      "russian": "Я предпочитаю · место у прохода.",
+      "start": 0.0,
+      "end": 14.94
+    },
+    {
+      "id": 2,
+      "english": "The scandal will · make headlines.",
+      "russian": "Скандал · попадет в заголовки.",
+      "start": 14.94,
+      "end": 30.46
+    },
+    {
+      "id": 3,
+      "english": "I want to · achieve my goals.",
+      "russian": "Я хочу · достичь своих целей.",
+      "start": 30.46,
+      "end": 45.948
+    },
+    {
+      "id": 4,
+      "english": "You're being a bit · over-sensitive.",
+      "russian": "Ты слишком · чувствительный.",
+      "start": 45.948,
+      "end": 61.602
+    },
+    {
+      "id": 5,
+      "english": "He has a great · sense of humour.",
+      "russian": "У него отличное · чувство юмора.",
+      "start": 61.602,
+      "end": 77.246
+    },
+    {
+      "id": 6,
+      "english": "We ordered from the · set menu.",
+      "russian": "Мы заказали по · комплексному меню.",
+      "start": 77.246,
+      "end": 92.475
+    },
+    {
+      "id": 7,
+      "english": "She wants to · break the world record.",
+      "russian": "Она хочет · побить мировой рекорд.",
+      "start": 92.475,
+      "end": 108.34
+    },
+    {
+      "id": 8,
+      "english": "I only have a few · close relatives.",
+      "russian": "У меня мало · близких родственников.",
+      "start": 108.34,
+      "end": 124.404
+    },
+    {
+      "id": 9,
+      "english": "The police are trying to · combat crime.",
+      "russian": "Полиция пытается · бороться с преступностью.",
+      "start": 124.404,
+      "end": 140.533
+    },
+    {
+      "id": 10,
+      "english": "There was a · small increase in sales.",
+      "russian": "Был · небольшой рост продаж.",
+      "start": 140.533,
+      "end": 156.998
+    },
+    {
+      "id": 11,
+      "english": "Luckily, he can · take a joke.",
+      "russian": "К счастью, он умеет · воспринимать шутку.",
+      "start": 156.998,
+      "end": 172.774
+    },
+    {
+      "id": 12,
+      "english": "We need to · fight against crime.",
+      "russian": "Нам нужно · бороться с преступностью.",
+      "start": 172.774,
+      "end": 188.205
+    },
+    {
+      "id": 13,
+      "english": "The · underlying cause is stress.",
+      "russian": "· Основная причина — стресс.",
+      "start": 188.205,
+      "end": 204.007
+    },
+    {
+      "id": 14,
+      "english": "There's been a · rapid increase in prices.",
+      "russian": "Наблюдается · быстрый рост цен.",
+      "start": 204.007,
+      "end": 220.305
+    },
+    {
+      "id": 15,
+      "english": "I'm ready to · make a commitment.",
+      "russian": "Я готов · взять на себя обязательства.",
+      "start": 220.305,
+      "end": 235.313
+    },
+    {
+      "id": 16,
+      "english": "I'll · find a way to help you.",
+      "russian": "Я · найду способ помочь тебе.",
+      "start": 235.313,
+      "end": 250.301
+    },
+    {
+      "id": 17,
+      "english": "The forest has very · tall trees.",
+      "russian": "В лесу очень · высокие деревья.",
+      "start": 250.301,
+      "end": 266.177
+    },
+    {
+      "id": 18,
+      "english": "We are a · close-knit family.",
+      "russian": "Мы · сплоченная семья.",
+      "start": 266.177,
+      "end": 281.033
+    },
+    {
+      "id": 19,
+      "english": "There are some · adverse effects.",
+      "russian": "Есть некоторые · побочные эффекты.",
+      "start": 281.033,
+      "end": 296.404
+    },
+    {
+      "id": 20,
+      "english": "I'll · give you a ring later.",
+      "russian": "Я · позвоню тебе позже.",
+      "start": 296.404,
+      "end": 311.174
+    },
+    {
+      "id": 21,
+      "english": "If you panic, you'll · fail miserably.",
+      "russian": "Если запаникуешь, · провалишься с треском.",
+      "start": 311.174,
+      "end": 327.41
+    },
+    {
+      "id": 22,
+      "english": "I · strongly object to that.",
+      "russian": "Я · решительно возражаю против этого.",
+      "start": 327.41,
+      "end": 342.651
+    },
+    {
+      "id": 23,
+      "english": "The storm · caused chaos.",
+      "russian": "Шторм · вызвал хаос.",
+      "start": 342.651,
+      "end": 357.662
+    },
+    {
+      "id": 24,
+      "english": "There were only · minor incidents.",
+      "russian": "Были только · мелкие инциденты.",
+      "start": 357.662,
+      "end": 373.146
+    },
+    {
+      "id": 25,
+      "english": "He · came in for a lot of criticism.",
+      "russian": "Он · подвергся большой критике.",
+      "start": 373.146,
+      "end": 389.051
+    },
+    {
+      "id": 26,
+      "english": "The festival · got off to a good start.",
+      "russian": "Фестиваль · хорошо начался.",
+      "start": 389.051,
+      "end": 404.877
+    },
+    {
+      "id": 27,
+      "english": "Let's give them a · round of applause.",
+      "russian": "Давайте поаплодируем им.",
+      "start": 404.877,
+      "end": 420.458
+    },
+    {
+      "id": 28,
+      "english": "He has very · thick hair.",
+      "russian": "У него очень · густые волосы.",
+      "start": 420.458,
+      "end": 435.268
+    },
+    {
+      "id": 29,
+      "english": "The company decided to · go public.",
+      "russian": "Компания решила · стать публичной.",
+      "start": 435.268,
+      "end": 451.321
+    },
+    {
+      "id": 30,
+      "english": "The police will · carry out an investigation.",
+      "russian": "Полиция · проведет расследование.",
+      "start": 451.321,
+      "end": 467.838
+    },
+    {
+      "id": 31,
+      "english": "A · ray of sunlight woke me up.",
+      "russian": "· Луч солнца разбудил меня.",
+      "start": 467.838,
+      "end": 483.422
+    },
+    {
+      "id": 32,
+      "english": "She wore a · pale blue dress.",
+      "russian": "На ней было · бледно-голубое платье.",
+      "start": 483.422,
+      "end": 498.892
+    },
+    {
+      "id": 33,
+      "english": "I try not to eat · junk food.",
+      "russian": "Я стараюсь не есть · вредную еду.",
+      "start": 498.892,
+      "end": 514.59
+    },
+    {
+      "id": 34,
+      "english": "They hope to · do a deal with them.",
+      "russian": "Они надеются · заключить с ними сделку.",
+      "start": 514.59,
+      "end": 529.629
+    },
+    {
+      "id": 35,
+      "english": "· Prices rise every year.",
+      "russian": "· Цены растут каждый год.",
+      "start": 529.629,
+      "end": 544.928
+    },
+    {
+      "id": 36,
+      "english": "He has a · great love for music.",
+      "russian": "У него · большая любовь к музыке.",
+      "start": 544.928,
+      "end": 560.391
+    },
+    {
+      "id": 37,
+      "english": "· Natural disasters are unpredictable.",
+      "russian": "· Стихийные бедствия непредсказуемы.",
+      "start": 560.391,
+      "end": 576.981
+    },
+    {
+      "id": 38,
+      "english": "We must · give credit to the team.",
+      "russian": "Мы должны · отдать должное команде.",
+      "start": 576.981,
+      "end": 592.526
+    },
+    {
+      "id": 39,
+      "english": "We need to make a · quick decision.",
+      "russian": "Нам нужно принять · быстрое решение.",
+      "start": 592.526,
+      "end": 608.073
+    },
+    {
+      "id": 40,
+      "english": "Take the · fast train, it's quicker.",
+      "russian": "Садись на · скоростной поезд, так быстрее.",
+      "start": 608.073,
+      "end": 623.942
+    },
+    {
+      "id": 41,
+      "english": "I already · feel at home here.",
+      "russian": "Я уже · чувствую себя здесь как дома.",
+      "start": 623.942,
+      "end": 639.318
+    },
+    {
+      "id": 42,
+      "english": "The · crime rate is falling.",
+      "russian": "· Уровень преступности падает.",
+      "start": 639.318,
+      "end": 654.234
+    },
+    {
+      "id": 43,
+      "english": "Let's · keep in contact.",
+      "russian": "Давай · оставаться на связи.",
+      "start": 654.234,
+      "end": 669.054
+    },
+    {
+      "id": 44,
+      "english": "They had to · refuse his offer.",
+      "russian": "Им пришлось · отказаться от его предложения.",
+      "start": 669.054,
+      "end": 684.125
+    },
+    {
+      "id": 45,
+      "english": "I need to · spend money on repairs.",
+      "russian": "Мне нужно · потратить деньги на ремонт.",
+      "start": 684.125,
+      "end": 700.083
+    },
+    {
+      "id": 46,
+      "english": "My · ex-husband lives abroad.",
+      "russian": "Мой · бывший муж живет за границей.",
+      "start": 700.083,
+      "end": 715.723
+    },
+    {
+      "id": 47,
+      "english": "We had a · heated debate about politics.",
+      "russian": "У нас были · жаркие дебаты о политике.",
+      "start": 715.723,
+      "end": 732.254
+    },
+    {
+      "id": 48,
+      "english": "Olives are an · acquired taste.",
+      "russian": "Оливки — это · дело привычки.",
+      "start": 732.254,
+      "end": 747.698
+    },
+    {
+      "id": 49,
+      "english": "She has very · strong opinions.",
+      "russian": "У нее очень · твердые убеждения.",
+      "start": 747.698,
+      "end": 763.473
+    },
+    {
+      "id": 50,
+      "english": "We need to · do an experiment.",
+      "russian": "Нам нужно · провести эксперимент.",
+      "start": 763.473,
+      "end": 778.659
+    },
+    {
+      "id": 51,
+      "english": "He · gave me some good advice.",
+      "russian": "Он · дал мне хороший совет.",
+      "start": 778.659,
+      "end": 786.6
+    }
+  ]
+}

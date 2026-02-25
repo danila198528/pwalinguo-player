@@ -1,0 +1,367 @@
+{
+  "id": "deck-41",
+  "deck_name": "collocation 17",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation17.mp3",
+  "group": "collocation",
+  "total_duration": 788.42,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I'm · fully aware of the risks.",
+      "russian": "Я · полностью осознаю риски.",
+      "start": 0.0,
+      "end": 15.631
+    },
+    {
+      "id": 2,
+      "english": "He still · bears a grudge.",
+      "russian": "Он до сих пор · таит обиду.",
+      "start": 15.631,
+      "end": 30.458
+    },
+    {
+      "id": 3,
+      "english": "I hate · doing the ironing.",
+      "russian": "Ненавижу · гладить.",
+      "start": 30.458,
+      "end": 45.33
+    },
+    {
+      "id": 4,
+      "english": "She gave an · outstanding performance.",
+      "russian": "Она дала · выдающееся представление.",
+      "start": 45.33,
+      "end": 61.352
+    },
+    {
+      "id": 5,
+      "english": "The neighbours complained about · excessive noise.",
+      "russian": "Соседи жаловались на · чрезмерный шум.",
+      "start": 61.352,
+      "end": 78.294
+    },
+    {
+      "id": 6,
+      "english": "I · trust your judgement.",
+      "russian": "Я · доверяю твоему суждению.",
+      "start": 78.294,
+      "end": 93.021
+    },
+    {
+      "id": 7,
+      "english": "This will · relieve the pain.",
+      "russian": "Это · облегчит боль.",
+      "start": 93.021,
+      "end": 107.961
+    },
+    {
+      "id": 8,
+      "english": "I · have the impression he's lying.",
+      "russian": "У меня · такое впечатление, что он врет.",
+      "start": 107.961,
+      "end": 123.499
+    },
+    {
+      "id": 9,
+      "english": "That's · ancient history.",
+      "russian": "Это · дела давно минувших дней.",
+      "start": 123.499,
+      "end": 137.876
+    },
+    {
+      "id": 10,
+      "english": "We love to · go climbing.",
+      "russian": "Мы любим · ходить в горы.",
+      "start": 137.876,
+      "end": 152.585
+    },
+    {
+      "id": 11,
+      "english": "They will · sign a treaty tomorrow.",
+      "russian": "Завтра они · подпишут договор.",
+      "start": 152.585,
+      "end": 168.057
+    },
+    {
+      "id": 12,
+      "english": "I want to · make a case for reform.",
+      "russian": "Я хочу · аргументировать необходимость реформ.",
+      "start": 168.057,
+      "end": 183.749
+    },
+    {
+      "id": 13,
+      "english": "The president decided to · send troops.",
+      "russian": "Президент решил · отправить войска.",
+      "start": 183.749,
+      "end": 199.99
+    },
+    {
+      "id": 14,
+      "english": "The · city skyline is beautiful at night.",
+      "russian": "· Горизонт города красив ночью.",
+      "start": 199.99,
+      "end": 216.756
+    },
+    {
+      "id": 15,
+      "english": "This news will · cause alarm.",
+      "russian": "Эта новость · вызовет тревогу.",
+      "start": 216.756,
+      "end": 232.116
+    },
+    {
+      "id": 16,
+      "english": "You have to · keep your word.",
+      "russian": "Ты должен · сдержать слово.",
+      "start": 232.116,
+      "end": 246.938
+    },
+    {
+      "id": 17,
+      "english": "My · alarm goes off at seven.",
+      "russian": "Мой · будильник звонит в семь.",
+      "start": 246.938,
+      "end": 262.249
+    },
+    {
+      "id": 18,
+      "english": "We have a · home match this weekend.",
+      "russian": "У нас · домашний матч в эти выходные.",
+      "start": 262.249,
+      "end": 277.962
+    },
+    {
+      "id": 19,
+      "english": "The steak was very · tender.",
+      "russian": "Стейк был очень · мягким.",
+      "start": 277.962,
+      "end": 293.052
+    },
+    {
+      "id": 20,
+      "english": "It was an · inevitable result.",
+      "russian": "Это был · неизбежный результат.",
+      "start": 293.052,
+      "end": 308.244
+    },
+    {
+      "id": 21,
+      "english": "She · became depressed after losing her job.",
+      "russian": "Она · впала в депрессию после потери работы.",
+      "start": 308.244,
+      "end": 324.936
+    },
+    {
+      "id": 22,
+      "english": "Let's · play a game of football.",
+      "russian": "Давай · сыграем в футбол.",
+      "start": 324.936,
+      "end": 339.918
+    },
+    {
+      "id": 23,
+      "english": "I always look for · low prices.",
+      "russian": "Я всегда ищу · низкие цены.",
+      "start": 339.918,
+      "end": 355.564
+    },
+    {
+      "id": 24,
+      "english": "She hopes to · win a prize.",
+      "russian": "Она надеется · выиграть приз.",
+      "start": 355.564,
+      "end": 370.882
+    },
+    {
+      "id": 25,
+      "english": "His comments will · attract criticism.",
+      "russian": "Его комментарии · привлекут критику.",
+      "start": 370.882,
+      "end": 386.847
+    },
+    {
+      "id": 26,
+      "english": "It's the job of the police to · uphold the law.",
+      "russian": "Работа полиции — · поддерживать закон.",
+      "start": 386.847,
+      "end": 403.24
+    },
+    {
+      "id": 27,
+      "english": "Smoking can · do harm to your health.",
+      "russian": "Курение может · нанести вред здоровью.",
+      "start": 403.24,
+      "end": 419.351
+    },
+    {
+      "id": 28,
+      "english": "The band will · go on tour next year.",
+      "russian": "Группа · отправится в тур в следующем году.",
+      "start": 419.351,
+      "end": 435.551
+    },
+    {
+      "id": 29,
+      "english": "1, 3, 5 are · odd numbers.",
+      "russian": "1, 3, 5 — · нечетные числа.",
+      "start": 435.551,
+      "end": 452.655
+    },
+    {
+      "id": 30,
+      "english": "It was a very · close finish.",
+      "russian": "Финиш был очень · близким.",
+      "start": 452.655,
+      "end": 467.838
+    },
+    {
+      "id": 31,
+      "english": "I like to · go jogging in the morning.",
+      "russian": "Я люблю · бегать по утрам.",
+      "start": 467.838,
+      "end": 483.371
+    },
+    {
+      "id": 32,
+      "english": "Let's · make a start on this project.",
+      "russian": "Давай · приступим к этому проекту.",
+      "start": 483.371,
+      "end": 499.13
+    },
+    {
+      "id": 33,
+      "english": "A · beam of light came through the window.",
+      "russian": "· Луч света проник через окно.",
+      "start": 499.13,
+      "end": 515.162
+    },
+    {
+      "id": 34,
+      "english": "He tried to · steal a car.",
+      "russian": "Он пытался · угнать машину.",
+      "start": 515.162,
+      "end": 530.114
+    },
+    {
+      "id": 35,
+      "english": "We need to · raise money for charity.",
+      "russian": "Нам нужно · собрать деньги на благотворительность.",
+      "start": 530.114,
+      "end": 545.763
+    },
+    {
+      "id": 36,
+      "english": "Our · business is booming.",
+      "russian": "Наш · бизнес процветает.",
+      "start": 545.763,
+      "end": 560.621
+    },
+    {
+      "id": 37,
+      "english": "I'm going to · hand in my notice.",
+      "russian": "Я собираюсь · подать заявление об уходе.",
+      "start": 560.621,
+      "end": 576.22
+    },
+    {
+      "id": 38,
+      "english": "Let's · play a game of cards.",
+      "russian": "Давай · сыграем в карты.",
+      "start": 576.22,
+      "end": 591.453
+    },
+    {
+      "id": 39,
+      "english": "They decided to · go into partnership.",
+      "russian": "Они решили · вступить в партнерство.",
+      "start": 591.453,
+      "end": 607.563
+    },
+    {
+      "id": 40,
+      "english": "There is · widespread poverty in the region.",
+      "russian": "В регионе · широко распространена бедность.",
+      "start": 607.563,
+      "end": 624.018
+    },
+    {
+      "id": 41,
+      "english": "He's always · singing your praises.",
+      "russian": "Он всегда · поет тебе дифирамбы.",
+      "start": 624.018,
+      "end": 639.787
+    },
+    {
+      "id": 42,
+      "english": "The industry is in · rapid decline.",
+      "russian": "Отрасль переживает · быстрый спад.",
+      "start": 639.787,
+      "end": 655.814
+    },
+    {
+      "id": 43,
+      "english": "Can you · recommend a good book?",
+      "russian": "Можешь · посоветовать хорошую книгу?",
+      "start": 655.814,
+      "end": 670.672
+    },
+    {
+      "id": 44,
+      "english": "She painted the room · dark green.",
+      "russian": "Она покрасила комнату в · темно-зеленый цвет.",
+      "start": 670.672,
+      "end": 686.452
+    },
+    {
+      "id": 45,
+      "english": "Who · took the decision?",
+      "russian": "Кто · принял решение?",
+      "start": 686.452,
+      "end": 700.752
+    },
+    {
+      "id": 46,
+      "english": "He suffered serious · head injuries.",
+      "russian": "Он получил серьезные · травмы головы.",
+      "start": 700.752,
+      "end": 716.882
+    },
+    {
+      "id": 47,
+      "english": "We have · low levels of pollution here.",
+      "russian": "У нас здесь · низкий уровень загрязнения.",
+      "start": 716.882,
+      "end": 733.016
+    },
+    {
+      "id": 48,
+      "english": "I have the · highest regard for her.",
+      "russian": "Я · высокого мнения о ней.",
+      "start": 733.016,
+      "end": 748.552
+    },
+    {
+      "id": 49,
+      "english": "He's a famous · film critic.",
+      "russian": "Он известный · кинокритик.",
+      "start": 748.552,
+      "end": 763.797
+    },
+    {
+      "id": 50,
+      "english": "The company will · take on new staff.",
+      "russian": "Компания · наймет новых сотрудников.",
+      "start": 763.797,
+      "end": 779.841
+    },
+    {
+      "id": 51,
+      "english": "This is · groundbreaking research.",
+      "russian": "Это · новаторское исследование.",
+      "start": 779.841,
+      "end": 788.423
+    }
+  ]
+}

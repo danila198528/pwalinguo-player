@@ -1,0 +1,367 @@
+{
+  "id": "deck-34",
+  "deck_name": "collocation 10",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation10.mp3",
+  "group": "collocation",
+  "total_duration": 799.46,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "She · takes pride in her work.",
+      "russian": "Она · гордится своей работой.",
+      "start": 0.0,
+      "end": 15.656
+    },
+    {
+      "id": 2,
+      "english": "This will · create problems for us.",
+      "russian": "Это · создаст нам проблемы.",
+      "start": 15.656,
+      "end": 31.32
+    },
+    {
+      "id": 3,
+      "english": "I want to · study for a degree.",
+      "russian": "Я хочу · учиться на степень.",
+      "start": 31.32,
+      "end": 46.627
+    },
+    {
+      "id": 4,
+      "english": "They're playing an · away match tonight.",
+      "russian": "Сегодня вечером они играют · выездной матч.",
+      "start": 46.627,
+      "end": 62.478
+    },
+    {
+      "id": 5,
+      "english": "I read a · book review online.",
+      "russian": "Я прочитал · рецензию на книгу в интернете.",
+      "start": 62.478,
+      "end": 77.822
+    },
+    {
+      "id": 6,
+      "english": "We · lost contact years ago.",
+      "russian": "Мы · потеряли связь много лет назад.",
+      "start": 77.822,
+      "end": 92.96
+    },
+    {
+      "id": 7,
+      "english": "The flat is · available to rent now.",
+      "russian": "Квартиру · можно снять сейчас.",
+      "start": 92.96,
+      "end": 108.726
+    },
+    {
+      "id": 8,
+      "english": "He gave me some · constructive criticism.",
+      "russian": "Он дал мне · конструктивную критику.",
+      "start": 108.726,
+      "end": 124.986
+    },
+    {
+      "id": 9,
+      "english": "Try to · keep your temper.",
+      "russian": "Постарайся · сдержать свой гнев.",
+      "start": 124.986,
+      "end": 139.746
+    },
+    {
+      "id": 10,
+      "english": "Someone tried to · break into our house.",
+      "russian": "Кто-то пытался · вломиться в наш дом.",
+      "start": 139.746,
+      "end": 156.223
+    },
+    {
+      "id": 11,
+      "english": "I prefer to run on · firm ground.",
+      "russian": "Я предпочитаю бегать по · твердой земле.",
+      "start": 156.223,
+      "end": 172.438
+    },
+    {
+      "id": 12,
+      "english": "The jury will · reach a verdict tomorrow.",
+      "russian": "Присяжные · вынесут вердикт завтра.",
+      "start": 172.438,
+      "end": 188.632
+    },
+    {
+      "id": 13,
+      "english": "She · took the minutes at the meeting.",
+      "russian": "Она · вела протокол собрания.",
+      "start": 188.632,
+      "end": 203.822
+    },
+    {
+      "id": 14,
+      "english": "I had to · refuse the invitation.",
+      "russian": "Мне пришлось · отказаться от приглашения.",
+      "start": 203.822,
+      "end": 219.64
+    },
+    {
+      "id": 15,
+      "english": "She always · carries a big bag.",
+      "russian": "Она всегда · носит большую сумку.",
+      "start": 219.64,
+      "end": 235.249
+    },
+    {
+      "id": 16,
+      "english": "· Tall people often have back problems.",
+      "russian": "У · высоких людей часто бывают проблемы со спиной.",
+      "start": 235.249,
+      "end": 251.459
+    },
+    {
+      "id": 17,
+      "english": "We live in a time of · rapid change.",
+      "russian": "Мы живем во времена · быстрых перемен.",
+      "start": 251.459,
+      "end": 267.587
+    },
+    {
+      "id": 18,
+      "english": "We need to · draw a distinction between them.",
+      "russian": "Нам нужно · провести различие между ними.",
+      "start": 267.587,
+      "end": 283.912
+    },
+    {
+      "id": 19,
+      "english": "Add the · finely chopped herbs.",
+      "russian": "Добавьте · мелко нарезанную зелень.",
+      "start": 283.912,
+      "end": 299.353
+    },
+    {
+      "id": 20,
+      "english": "She wants to · leave home at eighteen.",
+      "russian": "Она хочет · уйти из дома в восемнадцать.",
+      "start": 299.353,
+      "end": 315.393
+    },
+    {
+      "id": 21,
+      "english": "A · substantial number of people agree.",
+      "russian": "· Значительное количество людей согласно.",
+      "start": 315.393,
+      "end": 331.542
+    },
+    {
+      "id": 22,
+      "english": "It always · gives me pleasure.",
+      "russian": "Это всегда · доставляет мне удовольствие.",
+      "start": 331.542,
+      "end": 346.598
+    },
+    {
+      "id": 23,
+      "english": "We need some · visual aids for the presentation.",
+      "russian": "Нам нужны · наглядные пособия для презентации.",
+      "start": 346.598,
+      "end": 363.365
+    },
+    {
+      "id": 24,
+      "english": "I can't hear you over the · background noise.",
+      "russian": "Я не слышу тебя из-за · фонового шума.",
+      "start": 363.365,
+      "end": 379.966
+    },
+    {
+      "id": 25,
+      "english": "I need to · do the shopping.",
+      "russian": "Мне нужно · сходить за покупками.",
+      "start": 379.966,
+      "end": 394.647
+    },
+    {
+      "id": 26,
+      "english": "We decided to · follow a path through the forest.",
+      "russian": "Мы решили · идти по тропинке через лес.",
+      "start": 394.647,
+      "end": 411.794
+    },
+    {
+      "id": 27,
+      "english": "He · gave a sigh of relief.",
+      "russian": "Он · вздохнул с облегчением.",
+      "start": 411.794,
+      "end": 426.842
+    },
+    {
+      "id": 28,
+      "english": "It's · highly unlikely that he'll come.",
+      "russian": "· Крайне маловероятно, что он придет.",
+      "start": 426.842,
+      "end": 442.743
+    },
+    {
+      "id": 29,
+      "english": "Don't · give up hope.",
+      "russian": "Не · теряй надежду.",
+      "start": 442.743,
+      "end": 456.781
+    },
+    {
+      "id": 30,
+      "english": "The internet has · created new opportunities.",
+      "russian": "Интернет · создал новые возможности.",
+      "start": 456.781,
+      "end": 473.816
+    },
+    {
+      "id": 31,
+      "english": "We had some · major difficulty with this.",
+      "russian": "У нас с этим были · серьезные трудности.",
+      "start": 473.816,
+      "end": 490.004
+    },
+    {
+      "id": 32,
+      "english": "She has beautiful · smooth skin.",
+      "russian": "У нее красивая · гладкая кожа.",
+      "start": 490.004,
+      "end": 505.669
+    },
+    {
+      "id": 33,
+      "english": "We're going to · move into a new flat.",
+      "russian": "Мы собираемся · въехать в новую квартиру.",
+      "start": 505.669,
+      "end": 521.861
+    },
+    {
+      "id": 34,
+      "english": "He found it hard to · come to terms with it.",
+      "russian": "Ему было трудно · смириться с этим.",
+      "start": 521.861,
+      "end": 538.013
+    },
+    {
+      "id": 35,
+      "english": "We went to a · gourmet restaurant.",
+      "russian": "Мы ходили в · гурман-ресторан.",
+      "start": 538.013,
+      "end": 553.459
+    },
+    {
+      "id": 36,
+      "english": "He · refused to do what I asked.",
+      "russian": "Он · отказался делать то, что я просил.",
+      "start": 553.459,
+      "end": 568.986
+    },
+    {
+      "id": 37,
+      "english": "She's new to the · rock music scene.",
+      "russian": "Она новичок на · сцене рок-музыки.",
+      "start": 568.986,
+      "end": 584.922
+    },
+    {
+      "id": 38,
+      "english": "He wants to · gain a reputation as a writer.",
+      "russian": "Он хочет · получить репутацию писателя.",
+      "start": 584.922,
+      "end": 601.632
+    },
+    {
+      "id": 39,
+      "english": "She wants to go on to · higher education.",
+      "russian": "Она хочет продолжить · высшее образование.",
+      "start": 601.632,
+      "end": 617.974
+    },
+    {
+      "id": 40,
+      "english": "This cream will · ease the pain.",
+      "russian": "Этот крем · облегчит боль.",
+      "start": 617.974,
+      "end": 633.198
+    },
+    {
+      "id": 41,
+      "english": "I can't go out tonight, · money is tight.",
+      "russian": "Я не могу пойти сегодня вечером, · деньги на исходе.",
+      "start": 633.198,
+      "end": 650.021
+    },
+    {
+      "id": 42,
+      "english": "I have an · enormous amount of work to do.",
+      "russian": "У меня · огромный объем работы.",
+      "start": 650.021,
+      "end": 666.267
+    },
+    {
+      "id": 43,
+      "english": "Everyone · fell silent.",
+      "russian": "Все · замолчали.",
+      "start": 666.267,
+      "end": 681.121
+    },
+    {
+      "id": 44,
+      "english": "This will · come in useful later.",
+      "russian": "Это · пригодится позже.",
+      "start": 681.121,
+      "end": 696.518
+    },
+    {
+      "id": 45,
+      "english": "· Prices go up every year.",
+      "russian": "· Цены растут каждый год.",
+      "start": 696.518,
+      "end": 711.751
+    },
+    {
+      "id": 46,
+      "english": "The campaign aims to · create awareness.",
+      "russian": "Кампания направлена на · повышение осведомленности.",
+      "start": 711.751,
+      "end": 728.155
+    },
+    {
+      "id": 47,
+      "english": "They decided to · remix the track.",
+      "russian": "Они решили · сделать ремикс на этот трек.",
+      "start": 728.155,
+      "end": 744.007
+    },
+    {
+      "id": 48,
+      "english": "I can · go along with that idea.",
+      "russian": "Я могу · согласиться с этой идеей.",
+      "start": 744.007,
+      "end": 759.349
+    },
+    {
+      "id": 49,
+      "english": "My fingers · went numb in the cold.",
+      "russian": "Мои пальцы · онемели на холоде.",
+      "start": 759.349,
+      "end": 775.116
+    },
+    {
+      "id": 50,
+      "english": "She always · keeps her appointments.",
+      "russian": "Она всегда · соблюдает свои встречи.",
+      "start": 775.116,
+      "end": 790.894
+    },
+    {
+      "id": 51,
+      "english": "I'm going to · spend a week in Paris.",
+      "russian": "Я собираюсь · провести неделю в Париже.",
+      "start": 790.894,
+      "end": 799.464
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "id": "deck-29",
+  "deck_name": "collocation 5",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation5.mp3",
+  "group": "collocation",
+  "total_duration": 772.63,
+  "total_sentences": 51,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "He didn't · make eye contact.",
+      "russian": "Он не · смотрел в глаза.",
+      "start": 0.0,
+      "end": 15.266
+    },
+    {
+      "id": 2,
+      "english": "I have to · write an assignment.",
+      "russian": "Мне нужно · написать работу.",
+      "start": 15.266,
+      "end": 30.476
+    },
+    {
+      "id": 3,
+      "english": "This could · pose a problem.",
+      "russian": "Это может · создать проблему.",
+      "start": 30.476,
+      "end": 45.173
+    },
+    {
+      "id": 4,
+      "english": "I hope we · find our way back.",
+      "russian": "Надеюсь, мы · найдем дорогу обратно.",
+      "start": 45.173,
+      "end": 60.854
+    },
+    {
+      "id": 5,
+      "english": "· Rising sea levels are a concern.",
+      "russian": "· Повышение уровня моря вызывает беспокойство.",
+      "start": 60.854,
+      "end": 77.043
+    },
+    {
+      "id": 6,
+      "english": "She dreams of the · big screen.",
+      "russian": "Она мечтает о · большом экране.",
+      "start": 77.043,
+      "end": 92.334
+    },
+    {
+      "id": 7,
+      "english": "I need a · refreshing drink.",
+      "russian": "Мне нужен · освежающий напиток.",
+      "start": 92.334,
+      "end": 107.308
+    },
+    {
+      "id": 8,
+      "english": "It was a · tough choice.",
+      "russian": "Это был · трудный выбор.",
+      "start": 107.308,
+      "end": 122.093
+    },
+    {
+      "id": 9,
+      "english": "Someone tried to · steal personal information.",
+      "russian": "Кто-то пытался · украсть личные данные.",
+      "start": 122.093,
+      "end": 138.973
+    },
+    {
+      "id": 10,
+      "english": "Don't · attach too much importance to it.",
+      "russian": "Не · придавай этому слишком большого значения.",
+      "start": 138.973,
+      "end": 155.277
+    },
+    {
+      "id": 11,
+      "english": "We all · face difficult choices.",
+      "russian": "Мы все · сталкиваемся с трудным выбором.",
+      "start": 155.277,
+      "end": 171.071
+    },
+    {
+      "id": 12,
+      "english": "It takes a · great deal of time.",
+      "russian": "Это занимает · очень много времени.",
+      "start": 171.071,
+      "end": 186.569
+    },
+    {
+      "id": 13,
+      "english": "The · death toll is rising.",
+      "russian": "· Число погибших растет.",
+      "start": 186.569,
+      "end": 201.657
+    },
+    {
+      "id": 14,
+      "english": "Did you · open the attachment?",
+      "russian": "Ты · открыл вложение?",
+      "start": 201.657,
+      "end": 216.657
+    },
+    {
+      "id": 15,
+      "english": "He decided to · take early retirement.",
+      "russian": "Он решил · досрочно выйти на пенсию.",
+      "start": 216.657,
+      "end": 232.869
+    },
+    {
+      "id": 16,
+      "english": "Be careful you don't · get injured.",
+      "russian": "Будь осторожен, чтобы не · травмироваться.",
+      "start": 232.869,
+      "end": 248.145
+    },
+    {
+      "id": 17,
+      "english": "I'm · having second thoughts about it.",
+      "russian": "Я · сомневаюсь по этому поводу.",
+      "start": 248.145,
+      "end": 263.782
+    },
+    {
+      "id": 18,
+      "english": "She · burst into tears.",
+      "russian": "Она · разрыдалась.",
+      "start": 263.782,
+      "end": 278.85
+    },
+    {
+      "id": 19,
+      "english": "He has a · deep hatred for lies.",
+      "russian": "У него · глубокая ненависть ко лжи.",
+      "start": 278.85,
+      "end": 294.692
+    },
+    {
+      "id": 20,
+      "english": "There was no · loss of life.",
+      "russian": "Не было · жертв.",
+      "start": 294.692,
+      "end": 309.789
+    },
+    {
+      "id": 21,
+      "english": "That costs a · great deal of money.",
+      "russian": "Это стоит · очень много денег.",
+      "start": 309.789,
+      "end": 325.256
+    },
+    {
+      "id": 22,
+      "english": "I need to · do some exercises.",
+      "russian": "Мне нужно · сделать упражнения.",
+      "start": 325.256,
+      "end": 340.888
+    },
+    {
+      "id": 23,
+      "english": "They are · happily married.",
+      "russian": "Они · счастливы в браке.",
+      "start": 340.888,
+      "end": 355.444
+    },
+    {
+      "id": 24,
+      "english": "I want to · make money.",
+      "russian": "Я хочу · зарабатывать деньги.",
+      "start": 355.444,
+      "end": 369.632
+    },
+    {
+      "id": 25,
+      "english": "I got it at a · low price.",
+      "russian": "Я купил это по · низкой цене.",
+      "start": 369.632,
+      "end": 384.79
+    },
+    {
+      "id": 26,
+      "english": "That's a · major point.",
+      "russian": "Это · важный момент.",
+      "start": 384.79,
+      "end": 399.282
+    },
+    {
+      "id": 27,
+      "english": "He's · going bald.",
+      "russian": "Он · лысеет.",
+      "start": 399.282,
+      "end": 413.574
+    },
+    {
+      "id": 28,
+      "english": "I hope we · win the case.",
+      "russian": "Надеюсь, мы · выиграем дело.",
+      "start": 413.574,
+      "end": 428.597
+    },
+    {
+      "id": 29,
+      "english": "Let's · have a game of cards.",
+      "russian": "Давай · сыграем партию в карты.",
+      "start": 428.597,
+      "end": 443.682
+    },
+    {
+      "id": 30,
+      "english": "He managed to · beat his opponent.",
+      "russian": "Ему удалось · победить соперника.",
+      "start": 443.682,
+      "end": 459.128
+    },
+    {
+      "id": 31,
+      "english": "We got caught in · driving rain.",
+      "russian": "Мы попали под · проливной дождь.",
+      "start": 459.128,
+      "end": 474.969
+    },
+    {
+      "id": 32,
+      "english": "I want to · draw attention to this.",
+      "russian": "Я хочу · обратить на это внимание.",
+      "start": 474.969,
+      "end": 490.501
+    },
+    {
+      "id": 33,
+      "english": "We have · continuous assessment.",
+      "russian": "У нас · непрерывная оценка знаний.",
+      "start": 490.501,
+      "end": 505.876
+    },
+    {
+      "id": 34,
+      "english": "Can you · recommend a film?",
+      "russian": "Можешь · посоветовать фильм?",
+      "start": 505.876,
+      "end": 520.645
+    },
+    {
+      "id": 35,
+      "english": "My hands have · rough skin.",
+      "russian": "У меня на руках · грубая кожа.",
+      "start": 520.645,
+      "end": 535.909
+    },
+    {
+      "id": 36,
+      "english": "It's a very · rare disease.",
+      "russian": "Это очень · редкое заболевание.",
+      "start": 535.909,
+      "end": 551.118
+    },
+    {
+      "id": 37,
+      "english": "I was · given the chance to travel.",
+      "russian": "Мне · дали шанс путешествовать.",
+      "start": 551.118,
+      "end": 566.538
+    },
+    {
+      "id": 38,
+      "english": "He showed · sound judgement.",
+      "russian": "Он проявил · здравый смысл.",
+      "start": 566.538,
+      "end": 581.418
+    },
+    {
+      "id": 39,
+      "english": "Don't · take offence.",
+      "russian": "Не · обижайся.",
+      "start": 581.418,
+      "end": 595.695
+    },
+    {
+      "id": 40,
+      "english": "We sat in · bumper-to-bumper traffic.",
+      "russian": "Мы стояли в · многокилометровой пробке.",
+      "start": 595.695,
+      "end": 611.7
+    },
+    {
+      "id": 41,
+      "english": "Add it in · small amounts.",
+      "russian": "Добавляй это · небольшими количествами.",
+      "start": 611.7,
+      "end": 626.596
+    },
+    {
+      "id": 42,
+      "english": "I · experience pain in my knee.",
+      "russian": "Я · испытываю боль в колене.",
+      "start": 626.596,
+      "end": 642.315
+    },
+    {
+      "id": 43,
+      "english": "I saw a very · rare bird.",
+      "russian": "Я видел очень · редкую птицу.",
+      "start": 642.315,
+      "end": 657.435
+    },
+    {
+      "id": 44,
+      "english": "It's full of · catchy tunes.",
+      "russian": "Там много · запоминающихся мелодий.",
+      "start": 657.435,
+      "end": 672.644
+    },
+    {
+      "id": 45,
+      "english": "He has · broad shoulders.",
+      "russian": "У него · широкие плечи.",
+      "start": 672.644,
+      "end": 687.413
+    },
+    {
+      "id": 46,
+      "english": "There's a · spectacular view.",
+      "russian": "Там · захватывающий вид.",
+      "start": 687.413,
+      "end": 702.477
+    },
+    {
+      "id": 47,
+      "english": "These animals might · become extinct.",
+      "russian": "Эти животные могут · вымереть.",
+      "start": 702.477,
+      "end": 718.405
+    },
+    {
+      "id": 48,
+      "english": "We need to · take steps.",
+      "russian": "Нам нужно · предпринять шаги.",
+      "start": 718.405,
+      "end": 733.274
+    },
+    {
+      "id": 49,
+      "english": "I · strongly advise you to wait.",
+      "russian": "Я · настоятельно советую тебе подождать.",
+      "start": 733.274,
+      "end": 748.965
+    },
+    {
+      "id": 50,
+      "english": "Let's · settle our differences.",
+      "russian": "Давай · уладим наши разногласия.",
+      "start": 748.965,
+      "end": 764.38
+    },
+    {
+      "id": 51,
+      "english": "This will · have a huge effect on me.",
+      "russian": "Это · окажет на меня огромное влияние.",
+      "start": 764.38,
+      "end": 772.631
+    }
+  ]
+}
