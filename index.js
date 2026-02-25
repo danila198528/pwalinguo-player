@@ -884,7 +884,7 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
         const nowISO = now.toISOString();
         
         if (postponeOption === '14days') {
-            postponeDate = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000).toISOString();
+            postponeDate = new Date(now.getTime() + 15 * 24 * 60 * 60 * 1000).toISOString();
         } else if (postponeOption === 'none') {
             postponeDate = null;
         } else if (postponeOption === '2months') {
@@ -1233,7 +1233,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
             const nowISO = now.toISOString();
             
             if (postponeOption === '14days') {
-                postponeDate = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000).toISOString();
+                postponeDate = new Date(now.getTime() + 15 * 24 * 60 * 60 * 1000).toISOString();
             } else if (postponeOption === 'none') {
                 postponeDate = null;
             } else if (postponeOption === '2months') {
