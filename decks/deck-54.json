@@ -1,0 +1,290 @@
+{
+  "id": "deck-54",
+  "deck_name": "questions 8",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions8.mp3",
+  "group": "questions",
+  "total_duration": 578.16,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Do you have a minute?",
+      "russian": "У тебя есть минутка?",
+      "start": 0.0,
+      "end": 14.278
+    },
+    {
+      "id": 2,
+      "english": "Would you change anything?",
+      "russian": "Ты бы что-нибудь изменил/а?",
+      "start": 14.278,
+      "end": 28.706
+    },
+    {
+      "id": 3,
+      "english": "Is it okay if I...?",
+      "russian": "Нормально, если я...?",
+      "start": 28.706,
+      "end": 43.467
+    },
+    {
+      "id": 4,
+      "english": "Are you optimistic about the future?",
+      "russian": "Ты оптимистичен/а насчёт будущего?",
+      "start": 43.467,
+      "end": 59.118
+    },
+    {
+      "id": 5,
+      "english": "Did you get my message?",
+      "russian": "Ты получил/а моё сообщение?",
+      "start": 59.118,
+      "end": 73.588
+    },
+    {
+      "id": 6,
+      "english": "Do you prefer coffee or tea?",
+      "russian": "Ты предпочитаешь кофе или чай?",
+      "start": 73.588,
+      "end": 89.078
+    },
+    {
+      "id": 7,
+      "english": "Is it ready?",
+      "russian": "Готово?",
+      "start": 89.078,
+      "end": 102.548
+    },
+    {
+      "id": 8,
+      "english": "Did you call them?",
+      "russian": "Ты им позвонил/а?",
+      "start": 102.548,
+      "end": 116.33
+    },
+    {
+      "id": 9,
+      "english": "Are you happy?",
+      "russian": "Ты счастлив/а?",
+      "start": 116.33,
+      "end": 129.607
+    },
+    {
+      "id": 10,
+      "english": "Was it good?",
+      "russian": "Было хорошо?",
+      "start": 129.607,
+      "end": 143.232
+    },
+    {
+      "id": 11,
+      "english": "What are your thoughts?",
+      "russian": "Каковы твои мысли?",
+      "start": 143.232,
+      "end": 157.707
+    },
+    {
+      "id": 12,
+      "english": "Have you spoken to your boss about it?",
+      "russian": "Ты говорил/а с начальником об этом?",
+      "start": 157.707,
+      "end": 173.376
+    },
+    {
+      "id": 13,
+      "english": "What's the most important thing to you?",
+      "russian": "Что для тебя самое важное?",
+      "start": 173.376,
+      "end": 189.175
+    },
+    {
+      "id": 14,
+      "english": "Can you get that done by Friday?",
+      "russian": "Ты сможешь сделать это к пятнице?",
+      "start": 189.175,
+      "end": 204.801
+    },
+    {
+      "id": 15,
+      "english": "Can we start over?",
+      "russian": "Мы можем начать сначала?",
+      "start": 204.801,
+      "end": 219.09
+    },
+    {
+      "id": 16,
+      "english": "Have you seen it?",
+      "russian": "Ты это видел/а?",
+      "start": 219.09,
+      "end": 232.89
+    },
+    {
+      "id": 17,
+      "english": "Are you worried about privacy?",
+      "russian": "Ты беспокоишься о конфиденциальности?",
+      "start": 232.89,
+      "end": 247.827
+    },
+    {
+      "id": 18,
+      "english": "Do you understand?",
+      "russian": "Ты понимаешь?",
+      "start": 247.827,
+      "end": 262.064
+    },
+    {
+      "id": 19,
+      "english": "Are you saying that...?",
+      "russian": "Ты говоришь, что...?",
+      "start": 262.064,
+      "end": 276.292
+    },
+    {
+      "id": 20,
+      "english": "Can I ask you something?",
+      "russian": "Можно тебя кое-что спросить?",
+      "start": 276.292,
+      "end": 290.833
+    },
+    {
+      "id": 21,
+      "english": "What's something most people don't know about you?",
+      "russian": "Что люди обычно не знают о тебе?",
+      "start": 290.833,
+      "end": 307.208
+    },
+    {
+      "id": 22,
+      "english": "Did you sleep well?",
+      "russian": "Ты хорошо спал/а?",
+      "start": 307.208,
+      "end": 321.297
+    },
+    {
+      "id": 23,
+      "english": "Have you been to that place?",
+      "russian": "Ты был/а в том месте?",
+      "start": 321.297,
+      "end": 336.095
+    },
+    {
+      "id": 24,
+      "english": "What do you think of your boss?",
+      "russian": "Что ты думаешь о своём начальнике?",
+      "start": 336.095,
+      "end": 351.053
+    },
+    {
+      "id": 25,
+      "english": "Do you have any training in that?",
+      "russian": "У тебя есть подготовка в этой области?",
+      "start": 351.053,
+      "end": 366.045
+    },
+    {
+      "id": 26,
+      "english": "Are you upset?",
+      "russian": "Ты расстроен/расстроена?",
+      "start": 366.045,
+      "end": 380.032
+    },
+    {
+      "id": 27,
+      "english": "What does your company do?",
+      "russian": "Чем занимается твоя компания?",
+      "start": 380.032,
+      "end": 394.876
+    },
+    {
+      "id": 28,
+      "english": "What's something you've changed your mind about?",
+      "russian": "В чём ты изменил/а своё мнение?",
+      "start": 394.876,
+      "end": 411.103
+    },
+    {
+      "id": 29,
+      "english": "Can you do me a favour?",
+      "russian": "Ты можешь сделать мне одолжение?",
+      "start": 411.103,
+      "end": 425.691
+    },
+    {
+      "id": 30,
+      "english": "Is this about me?",
+      "russian": "Это обо мне?",
+      "start": 425.691,
+      "end": 439.657
+    },
+    {
+      "id": 31,
+      "english": "What were you thinking?",
+      "russian": "О чём ты думал/а?",
+      "start": 439.657,
+      "end": 453.961
+    },
+    {
+      "id": 32,
+      "english": "What's it like there?",
+      "russian": "Как там?",
+      "start": 453.961,
+      "end": 467.946
+    },
+    {
+      "id": 33,
+      "english": "Are you going through something?",
+      "russian": "Ты через что-то проходишь?",
+      "start": 467.946,
+      "end": 482.75
+    },
+    {
+      "id": 34,
+      "english": "What do you value most?",
+      "russian": "Что ты ценишь больше всего?",
+      "start": 482.75,
+      "end": 497.569
+    },
+    {
+      "id": 35,
+      "english": "Would you like to learn more about it?",
+      "russian": "Ты хотел/а бы узнать об этом больше?",
+      "start": 497.569,
+      "end": 512.998
+    },
+    {
+      "id": 36,
+      "english": "How many times?",
+      "russian": "Сколько раз?",
+      "start": 512.998,
+      "end": 527.427
+    },
+    {
+      "id": 37,
+      "english": "What's your experience with that?",
+      "russian": "Каков твой опыт в этом?",
+      "start": 527.427,
+      "end": 542.839
+    },
+    {
+      "id": 38,
+      "english": "Did you finish it?",
+      "russian": "Ты закончил/а?",
+      "start": 542.839,
+      "end": 556.756
+    },
+    {
+      "id": 39,
+      "english": "How did you get into that?",
+      "russian": "Как ты попал/а в эту сферу?",
+      "start": 556.756,
+      "end": 571.577
+    },
+    {
+      "id": 40,
+      "english": "Are you from here?",
+      "russian": "Ты отсюда?",
+      "start": 571.577,
+      "end": 578.159
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "deck-51",
+  "deck_name": "questions 5",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions5.mp3",
+  "group": "questions",
+  "total_duration": 572.54,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Did you like it?",
+      "russian": "Тебе понравилось?",
+      "start": 0.0,
+      "end": 13.973
+    },
+    {
+      "id": 2,
+      "english": "Do you believe that?",
+      "russian": "Ты в это веришь?",
+      "start": 13.973,
+      "end": 28.06
+    },
+    {
+      "id": 3,
+      "english": "Can you help me with this?",
+      "russian": "Ты можешь помочь мне с этим?",
+      "start": 28.06,
+      "end": 42.589
+    },
+    {
+      "id": 4,
+      "english": "What would you tell your younger self?",
+      "russian": "Что бы ты сказал/а своему молодому «я»?",
+      "start": 42.589,
+      "end": 58.11
+    },
+    {
+      "id": 5,
+      "english": "Are you lost?",
+      "russian": "Ты заблудился/заблудилась?",
+      "start": 58.11,
+      "end": 71.862
+    },
+    {
+      "id": 6,
+      "english": "Are you going to be there?",
+      "russian": "Ты там будешь?",
+      "start": 71.862,
+      "end": 86.21
+    },
+    {
+      "id": 7,
+      "english": "How's your family?",
+      "russian": "Как твоя семья?",
+      "start": 86.21,
+      "end": 100.293
+    },
+    {
+      "id": 8,
+      "english": "What kind of music do you like?",
+      "russian": "Какую музыку ты любишь?",
+      "start": 100.293,
+      "end": 115.527
+    },
+    {
+      "id": 9,
+      "english": "Do you need anything?",
+      "russian": "Тебе что-нибудь нужно?",
+      "start": 115.527,
+      "end": 129.667
+    },
+    {
+      "id": 10,
+      "english": "Is that a problem for you?",
+      "russian": "Это проблема для тебя?",
+      "start": 129.667,
+      "end": 144.34
+    },
+    {
+      "id": 11,
+      "english": "What are your plans?",
+      "russian": "Какие у тебя планы?",
+      "start": 144.34,
+      "end": 158.913
+    },
+    {
+      "id": 12,
+      "english": "How does that sound?",
+      "russian": "Как тебе такой вариант?",
+      "start": 158.913,
+      "end": 173.426
+    },
+    {
+      "id": 13,
+      "english": "What's your advice?",
+      "russian": "Какой у тебя совет?",
+      "start": 173.426,
+      "end": 187.7
+    },
+    {
+      "id": 14,
+      "english": "Did you see that?",
+      "russian": "Ты видел/а это?",
+      "start": 187.7,
+      "end": 201.747
+    },
+    {
+      "id": 15,
+      "english": "What's the most important lesson you've learned?",
+      "russian": "Какой самый важный урок ты усвоил/а?",
+      "start": 201.747,
+      "end": 218.268
+    },
+    {
+      "id": 16,
+      "english": "What are you into?",
+      "russian": "Чем ты увлекаешься?",
+      "start": 218.268,
+      "end": 232.309
+    },
+    {
+      "id": 17,
+      "english": "Is it expensive?",
+      "russian": "Это дорого?",
+      "start": 232.309,
+      "end": 246.46
+    },
+    {
+      "id": 18,
+      "english": "How do you deal with that?",
+      "russian": "Как ты с этим справляешься?",
+      "start": 246.46,
+      "end": 261.066
+    },
+    {
+      "id": 19,
+      "english": "Do you know where it is?",
+      "russian": "Ты знаешь, где это?",
+      "start": 261.066,
+      "end": 275.586
+    },
+    {
+      "id": 20,
+      "english": "Did you send it?",
+      "russian": "Ты отправил/а?",
+      "start": 275.586,
+      "end": 289.393
+    },
+    {
+      "id": 21,
+      "english": "Have you done this before?",
+      "russian": "Ты делал/а это раньше?",
+      "start": 289.393,
+      "end": 303.986
+    },
+    {
+      "id": 22,
+      "english": "Can we talk?",
+      "russian": "Можем поговорить?",
+      "start": 303.986,
+      "end": 317.907
+    },
+    {
+      "id": 23,
+      "english": "What do you say?",
+      "russian": "Ну что, согласен/согласна?",
+      "start": 317.907,
+      "end": 331.917
+    },
+    {
+      "id": 24,
+      "english": "What's going on?",
+      "russian": "Что происходит?",
+      "start": 331.917,
+      "end": 345.744
+    },
+    {
+      "id": 25,
+      "english": "What do you think drives inequality?",
+      "russian": "Что, по-твоему, порождает неравенство?",
+      "start": 345.744,
+      "end": 361.515
+    },
+    {
+      "id": 26,
+      "english": "What's your favourite show?",
+      "russian": "Какой у тебя любимый сериал?",
+      "start": 361.515,
+      "end": 376.322
+    },
+    {
+      "id": 27,
+      "english": "Where did you grow up?",
+      "russian": "Где ты вырос/а?",
+      "start": 376.322,
+      "end": 390.465
+    },
+    {
+      "id": 28,
+      "english": "How do you get there?",
+      "russian": "Как туда добраться?",
+      "start": 390.465,
+      "end": 404.547
+    },
+    {
+      "id": 29,
+      "english": "What's your name?",
+      "russian": "Как тебя зовут?",
+      "start": 404.547,
+      "end": 418.579
+    },
+    {
+      "id": 30,
+      "english": "Do you have any hobbies?",
+      "russian": "У тебя есть хобби?",
+      "start": 418.579,
+      "end": 433.06
+    },
+    {
+      "id": 31,
+      "english": "Are you getting enough rest?",
+      "russian": "Ты достаточно отдыхаешь?",
+      "start": 433.06,
+      "end": 447.865
+    },
+    {
+      "id": 32,
+      "english": "What was the hardest decision you've ever made?",
+      "russian": "Какое самое сложное решение ты когда-либо принимал/а?",
+      "start": 447.865,
+      "end": 464.305
+    },
+    {
+      "id": 33,
+      "english": "Is it all right?",
+      "russian": "Всё нормально?",
+      "start": 464.305,
+      "end": 478.28
+    },
+    {
+      "id": 34,
+      "english": "What's the point?",
+      "russian": "В чём смысл?",
+      "start": 478.28,
+      "end": 492.081
+    },
+    {
+      "id": 35,
+      "english": "Are we there yet?",
+      "russian": "Мы уже приехали?",
+      "start": 492.081,
+      "end": 505.991
+    },
+    {
+      "id": 36,
+      "english": "How are you really doing?",
+      "russian": "Как ты на самом деле?",
+      "start": 505.991,
+      "end": 520.601
+    },
+    {
+      "id": 37,
+      "english": "Where did you put it?",
+      "russian": "Куда ты это положил/а?",
+      "start": 520.601,
+      "end": 534.699
+    },
+    {
+      "id": 38,
+      "english": "What phone do you have?",
+      "russian": "Какой у тебя телефон?",
+      "start": 534.699,
+      "end": 549.195
+    },
+    {
+      "id": 39,
+      "english": "Do you think education needs to change?",
+      "russian": "Ты думаешь, образование нуждается в изменениях?",
+      "start": 549.195,
+      "end": 565.493
+    },
+    {
+      "id": 40,
+      "english": "Do you feel stressed?",
+      "russian": "Ты чувствуешь стресс?",
+      "start": 565.493,
+      "end": 572.543
+    }
+  ]
+}

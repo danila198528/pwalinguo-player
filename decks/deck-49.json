@@ -1,0 +1,290 @@
+{
+  "id": "deck-49",
+  "deck_name": "questions 3",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions3.mp3",
+  "group": "questions",
+  "total_duration": 573.36,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Are you done?",
+      "russian": "Ты закончил/а?",
+      "start": 0.0,
+      "end": 13.784
+    },
+    {
+      "id": 2,
+      "english": "How so?",
+      "russian": "Как это?",
+      "start": 13.784,
+      "end": 27.355
+    },
+    {
+      "id": 3,
+      "english": "Did you lock the door?",
+      "russian": "Ты запер/заперла дверь?",
+      "start": 27.355,
+      "end": 41.581
+    },
+    {
+      "id": 4,
+      "english": "Does that make sense to you?",
+      "russian": "Тебе это понятно?",
+      "start": 41.581,
+      "end": 56.312
+    },
+    {
+      "id": 5,
+      "english": "What's your background?",
+      "russian": "Каков твой профессиональный/образовательный бэкграунд?",
+      "start": 56.312,
+      "end": 70.851
+    },
+    {
+      "id": 6,
+      "english": "How long have you worked there?",
+      "russian": "Как долго ты там работаешь?",
+      "start": 70.851,
+      "end": 85.671
+    },
+    {
+      "id": 7,
+      "english": "Do you miss them?",
+      "russian": "Ты скучаешь по ним?",
+      "start": 85.671,
+      "end": 99.407
+    },
+    {
+      "id": 8,
+      "english": "How long have you been doing this?",
+      "russian": "Как давно ты этим занимаешься?",
+      "start": 99.407,
+      "end": 114.753
+    },
+    {
+      "id": 9,
+      "english": "Have you told them how you feel?",
+      "russian": "Ты говорил/а им, что чувствуешь?",
+      "start": 114.753,
+      "end": 129.883
+    },
+    {
+      "id": 10,
+      "english": "Did you enjoy it?",
+      "russian": "Тебе понравилось?",
+      "start": 129.883,
+      "end": 143.955
+    },
+    {
+      "id": 11,
+      "english": "Where are you from?",
+      "russian": "Откуда ты?",
+      "start": 143.955,
+      "end": 157.85
+    },
+    {
+      "id": 12,
+      "english": "Have you forgiven them?",
+      "russian": "Ты простил/а их?",
+      "start": 157.85,
+      "end": 171.975
+    },
+    {
+      "id": 13,
+      "english": "Is it on sale?",
+      "russian": "На это скидка?",
+      "start": 171.975,
+      "end": 186.171
+    },
+    {
+      "id": 14,
+      "english": "What skills do you have?",
+      "russian": "Какими навыками ты обладаешь?",
+      "start": 186.171,
+      "end": 200.979
+    },
+    {
+      "id": 15,
+      "english": "What day is it?",
+      "russian": "Какой сегодня день?",
+      "start": 200.979,
+      "end": 214.875
+    },
+    {
+      "id": 16,
+      "english": "What do you think about how people treat each other?",
+      "russian": "Что ты думаешь о том, как люди относятся друг к другу?",
+      "start": 214.875,
+      "end": 231.291
+    },
+    {
+      "id": 17,
+      "english": "How long did it take you to learn?",
+      "russian": "Сколько времени у тебя ушло на обучение?",
+      "start": 231.291,
+      "end": 246.844
+    },
+    {
+      "id": 18,
+      "english": "What do you mean?",
+      "russian": "Что ты имеешь в виду?",
+      "start": 246.844,
+      "end": 260.878
+    },
+    {
+      "id": 19,
+      "english": "Have you ever been there?",
+      "russian": "Ты там когда-нибудь был/а?",
+      "start": 260.878,
+      "end": 275.113
+    },
+    {
+      "id": 20,
+      "english": "Which way did they go?",
+      "russian": "В какую сторону они пошли?",
+      "start": 275.113,
+      "end": 289.578
+    },
+    {
+      "id": 21,
+      "english": "Do you follow the news?",
+      "russian": "Ты следишь за новостями?",
+      "start": 289.578,
+      "end": 304.194
+    },
+    {
+      "id": 22,
+      "english": "Would you recommend it?",
+      "russian": "Ты бы порекомендовал/а?",
+      "start": 304.194,
+      "end": 318.363
+    },
+    {
+      "id": 23,
+      "english": "What's bothering you?",
+      "russian": "Что тебя беспокоит?",
+      "start": 318.363,
+      "end": 332.514
+    },
+    {
+      "id": 24,
+      "english": "Do you need some space?",
+      "russian": "Тебе нужно пространство?",
+      "start": 332.514,
+      "end": 347.278
+    },
+    {
+      "id": 25,
+      "english": "Is there anything I can do?",
+      "russian": "Есть что-то, что я могу сделать?",
+      "start": 347.278,
+      "end": 362.331
+    },
+    {
+      "id": 26,
+      "english": "Where are you going with this?",
+      "russian": "К чему ты это ведёшь?",
+      "start": 362.331,
+      "end": 377.086
+    },
+    {
+      "id": 27,
+      "english": "What's the biggest news story right now?",
+      "russian": "Какая главная новость прямо сейчас?",
+      "start": 377.086,
+      "end": 393.464
+    },
+    {
+      "id": 28,
+      "english": "How long have you been together?",
+      "russian": "Как долго вы вместе?",
+      "start": 393.464,
+      "end": 408.479
+    },
+    {
+      "id": 29,
+      "english": "What time works for you?",
+      "russian": "Какое время тебе подходит?",
+      "start": 408.479,
+      "end": 423.185
+    },
+    {
+      "id": 30,
+      "english": "Do you like your job?",
+      "russian": "Тебе нравится твоя работа?",
+      "start": 423.185,
+      "end": 437.512
+    },
+    {
+      "id": 31,
+      "english": "Do you travel a lot?",
+      "russian": "Ты много путешествуешь?",
+      "start": 437.512,
+      "end": 451.854
+    },
+    {
+      "id": 32,
+      "english": "What are you most proud of?",
+      "russian": "Чем ты больше всего гордишься?",
+      "start": 451.854,
+      "end": 466.638
+    },
+    {
+      "id": 33,
+      "english": "Are you still in school?",
+      "russian": "Ты ещё учишься?",
+      "start": 466.638,
+      "end": 481.013
+    },
+    {
+      "id": 34,
+      "english": "Do you trust them?",
+      "russian": "Ты им доверяешь?",
+      "start": 481.013,
+      "end": 494.982
+    },
+    {
+      "id": 35,
+      "english": "What time is it?",
+      "russian": "Который час?",
+      "start": 494.982,
+      "end": 508.867
+    },
+    {
+      "id": 36,
+      "english": "When does it start?",
+      "russian": "Когда начинается?",
+      "start": 508.867,
+      "end": 523.167
+    },
+    {
+      "id": 37,
+      "english": "What are you talking about?",
+      "russian": "О чём ты говоришь?",
+      "start": 523.167,
+      "end": 537.769
+    },
+    {
+      "id": 38,
+      "english": "Is there any left?",
+      "russian": "Ещё есть?",
+      "start": 537.769,
+      "end": 551.833
+    },
+    {
+      "id": 39,
+      "english": "Do you want to talk about it?",
+      "russian": "Хочешь поговорить об этом?",
+      "start": 551.833,
+      "end": 566.713
+    },
+    {
+      "id": 40,
+      "english": "What do you need?",
+      "russian": "Что тебе нужно?",
+      "start": 566.713,
+      "end": 573.36
+    }
+  ]
+}

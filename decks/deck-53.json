@@ -1,0 +1,290 @@
+{
+  "id": "deck-53",
+  "deck_name": "questions 7",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions7.mp3",
+  "group": "questions",
+  "total_duration": 585.26,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "What are you planning to do?",
+      "russian": "Что ты планируешь делать?",
+      "start": 0.0,
+      "end": 14.975
+    },
+    {
+      "id": 2,
+      "english": "What do you think your purpose is?",
+      "russian": "В чём, по-твоему, твоё предназначение?",
+      "start": 14.975,
+      "end": 30.39
+    },
+    {
+      "id": 3,
+      "english": "What do you mean exactly?",
+      "russian": "Что конкретно ты имеешь в виду?",
+      "start": 30.39,
+      "end": 44.974
+    },
+    {
+      "id": 4,
+      "english": "What do you think is the reason?",
+      "russian": "Как ты думаешь, в чём причина?",
+      "start": 44.974,
+      "end": 59.807
+    },
+    {
+      "id": 5,
+      "english": "Is there something society gets wrong?",
+      "russian": "Есть ли что-то, в чём общество ошибается?",
+      "start": 59.807,
+      "end": 76.227
+    },
+    {
+      "id": 6,
+      "english": "How long does it take to get there?",
+      "russian": "Сколько времени займёт дорога?",
+      "start": 76.227,
+      "end": 91.569
+    },
+    {
+      "id": 7,
+      "english": "Are you happy where you are?",
+      "russian": "Ты доволен/довольна своим положением?",
+      "start": 91.569,
+      "end": 106.265
+    },
+    {
+      "id": 8,
+      "english": "How do you know them?",
+      "russian": "Как ты их знаешь?",
+      "start": 106.265,
+      "end": 120.282
+    },
+    {
+      "id": 9,
+      "english": "Have you eaten?",
+      "russian": "Ты поел/а?",
+      "start": 120.282,
+      "end": 134.044
+    },
+    {
+      "id": 10,
+      "english": "Would you be able to help?",
+      "russian": "Ты смог/смогла бы помочь?",
+      "start": 134.044,
+      "end": 148.587
+    },
+    {
+      "id": 11,
+      "english": "Can you close the window?",
+      "russian": "Ты можешь закрыть окно?",
+      "start": 148.587,
+      "end": 163.261
+    },
+    {
+      "id": 12,
+      "english": "Do you use that app?",
+      "russian": "Ты пользуешься тем приложением?",
+      "start": 163.261,
+      "end": 177.485
+    },
+    {
+      "id": 13,
+      "english": "Do you think technology is changing everything?",
+      "russian": "Ты думаешь, технологии всё меняют?",
+      "start": 177.485,
+      "end": 193.887
+    },
+    {
+      "id": 14,
+      "english": "If you could change one thing, what would it be?",
+      "russian": "Если бы ты мог/могла изменить одну вещь, что бы это было?",
+      "start": 193.887,
+      "end": 210.618
+    },
+    {
+      "id": 15,
+      "english": "Are you seeing someone?",
+      "russian": "Ты с кем-то встречаешься?",
+      "start": 210.618,
+      "end": 225.009
+    },
+    {
+      "id": 16,
+      "english": "Have you ever been abroad?",
+      "russian": "Ты когда-нибудь был/а за границей?",
+      "start": 225.009,
+      "end": 239.712
+    },
+    {
+      "id": 17,
+      "english": "What time are you coming?",
+      "russian": "В котором часу ты придёшь?",
+      "start": 239.712,
+      "end": 253.99
+    },
+    {
+      "id": 18,
+      "english": "What do you think is the biggest problem we face?",
+      "russian": "Как ты думаешь, какая самая большая проблема стоит перед нами?",
+      "start": 253.99,
+      "end": 270.649
+    },
+    {
+      "id": 19,
+      "english": "Did it work?",
+      "russian": "Это сработало?",
+      "start": 270.649,
+      "end": 284.343
+    },
+    {
+      "id": 20,
+      "english": "What are you most afraid of?",
+      "russian": "Чего ты больше всего боишься?",
+      "start": 284.343,
+      "end": 299.275
+    },
+    {
+      "id": 21,
+      "english": "What do they think?",
+      "russian": "Что они думают?",
+      "start": 299.275,
+      "end": 313.268
+    },
+    {
+      "id": 22,
+      "english": "Did you talk to them?",
+      "russian": "Ты разговаривал/а с ними?",
+      "start": 313.268,
+      "end": 327.316
+    },
+    {
+      "id": 23,
+      "english": "What do you think the future looks like?",
+      "russian": "Как ты видишь будущее?",
+      "start": 327.316,
+      "end": 342.989
+    },
+    {
+      "id": 24,
+      "english": "Where should we meet?",
+      "russian": "Где нам встретиться?",
+      "start": 342.989,
+      "end": 357.068
+    },
+    {
+      "id": 25,
+      "english": "What are you working on?",
+      "russian": "Над чем ты работаешь?",
+      "start": 357.068,
+      "end": 371.538
+    },
+    {
+      "id": 26,
+      "english": "Do you think people are basically good?",
+      "russian": "Ты думаешь, люди в основном добрые?",
+      "start": 371.538,
+      "end": 387.221
+    },
+    {
+      "id": 27,
+      "english": "What do you think the next generation will face?",
+      "russian": "С чем столкнётся следующее поколение?",
+      "start": 387.221,
+      "end": 404.045
+    },
+    {
+      "id": 28,
+      "english": "What's your biggest regret?",
+      "russian": "О чём ты больше всего сожалеешь?",
+      "start": 404.045,
+      "end": 418.948
+    },
+    {
+      "id": 29,
+      "english": "How do you see it?",
+      "russian": "Как ты на это смотришь?",
+      "start": 418.948,
+      "end": 433.113
+    },
+    {
+      "id": 30,
+      "english": "Is it included?",
+      "russian": "Это включено?",
+      "start": 433.113,
+      "end": 447.195
+    },
+    {
+      "id": 31,
+      "english": "What's going on with you two?",
+      "russian": "Что происходит между вами?",
+      "start": 447.195,
+      "end": 462.161
+    },
+    {
+      "id": 32,
+      "english": "Do you love them?",
+      "russian": "Ты их любишь?",
+      "start": 462.161,
+      "end": 475.959
+    },
+    {
+      "id": 33,
+      "english": "Does it matter?",
+      "russian": "Это важно?",
+      "start": 475.959,
+      "end": 489.547
+    },
+    {
+      "id": 34,
+      "english": "Should we go?",
+      "russian": "Нам идти?",
+      "start": 489.547,
+      "end": 503.222
+    },
+    {
+      "id": 35,
+      "english": "Can I do anything for you?",
+      "russian": "Могу я что-нибудь для тебя сделать?",
+      "start": 503.222,
+      "end": 517.844
+    },
+    {
+      "id": 36,
+      "english": "What kind of food do you like?",
+      "russian": "Какую еду ты любишь?",
+      "start": 517.844,
+      "end": 532.841
+    },
+    {
+      "id": 37,
+      "english": "Do you have kids?",
+      "russian": "У тебя есть дети?",
+      "start": 532.841,
+      "end": 547.074
+    },
+    {
+      "id": 38,
+      "english": "Do you think money can buy happiness?",
+      "russian": "Ты думаешь, деньги могут купить счастье?",
+      "start": 547.074,
+      "end": 562.742
+    },
+    {
+      "id": 39,
+      "english": "Are you a morning person?",
+      "russian": "Ты жаворонок?",
+      "start": 562.742,
+      "end": 577.465
+    },
+    {
+      "id": 40,
+      "english": "How did you learn to do that?",
+      "russian": "Как ты научился/а это делать?",
+      "start": 577.465,
+      "end": 585.264
+    }
+  ]
+}

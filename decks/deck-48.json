@@ -1,0 +1,290 @@
+{
+  "id": "deck-48",
+  "deck_name": "questions 2",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions2.mp3",
+  "group": "questions",
+  "total_duration": 570.1,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "What's your opinion on that?",
+      "russian": "Каково твоё мнение об этом?",
+      "start": 0.0,
+      "end": 15.243
+    },
+    {
+      "id": 2,
+      "english": "What did you study?",
+      "russian": "Что ты изучал/а?",
+      "start": 15.243,
+      "end": 29.237
+    },
+    {
+      "id": 3,
+      "english": "Have you called back?",
+      "russian": "Ты перезвонил/а?",
+      "start": 29.237,
+      "end": 43.411
+    },
+    {
+      "id": 4,
+      "english": "What's the last thing you watched?",
+      "russian": "Что ты последнее смотрел/а?",
+      "start": 43.411,
+      "end": 58.754
+    },
+    {
+      "id": 5,
+      "english": "Where is everybody?",
+      "russian": "Где все?",
+      "start": 58.754,
+      "end": 72.87
+    },
+    {
+      "id": 6,
+      "english": "Do you have any plans tonight?",
+      "russian": "У тебя есть планы на вечер?",
+      "start": 72.87,
+      "end": 88.108
+    },
+    {
+      "id": 7,
+      "english": "Do you think it's important to keep learning?",
+      "russian": "Ты думаешь, важно продолжать учиться?",
+      "start": 88.108,
+      "end": 104.029
+    },
+    {
+      "id": 8,
+      "english": "Do you cook?",
+      "russian": "Ты готовишь?",
+      "start": 104.029,
+      "end": 117.55
+    },
+    {
+      "id": 9,
+      "english": "Are you sure?",
+      "russian": "Ты уверен/а?",
+      "start": 117.55,
+      "end": 131.093
+    },
+    {
+      "id": 10,
+      "english": "Are you staying?",
+      "russian": "Ты остаёшься?",
+      "start": 131.093,
+      "end": 144.81
+    },
+    {
+      "id": 11,
+      "english": "How much does it cost?",
+      "russian": "Сколько это стоит?",
+      "start": 144.81,
+      "end": 159.613
+    },
+    {
+      "id": 12,
+      "english": "Can I borrow that?",
+      "russian": "Можно одолжить это?",
+      "start": 159.613,
+      "end": 173.706
+    },
+    {
+      "id": 13,
+      "english": "Are you still in touch?",
+      "russian": "Вы ещё поддерживаете связь?",
+      "start": 173.706,
+      "end": 188.099
+    },
+    {
+      "id": 14,
+      "english": "What do you think about that?",
+      "russian": "Что ты об этом думаешь?",
+      "start": 188.099,
+      "end": 202.86
+    },
+    {
+      "id": 15,
+      "english": "What are you worried about?",
+      "russian": "О чём ты переживаешь?",
+      "start": 202.86,
+      "end": 217.544
+    },
+    {
+      "id": 16,
+      "english": "Have you tried it?",
+      "russian": "Ты пробовал/а?",
+      "start": 217.544,
+      "end": 231.381
+    },
+    {
+      "id": 17,
+      "english": "Can you split the bill?",
+      "russian": "Можно разделить счёт?",
+      "start": 231.381,
+      "end": 245.684
+    },
+    {
+      "id": 18,
+      "english": "What's the deadline?",
+      "russian": "Каков дедлайн?",
+      "start": 245.684,
+      "end": 259.922
+    },
+    {
+      "id": 19,
+      "english": "What makes you say that?",
+      "russian": "Почему ты так говоришь?",
+      "start": 259.922,
+      "end": 274.688
+    },
+    {
+      "id": 20,
+      "english": "Where do you shop?",
+      "russian": "Где ты делаешь покупки?",
+      "start": 274.688,
+      "end": 288.72
+    },
+    {
+      "id": 21,
+      "english": "What do you wish you'd known earlier?",
+      "russian": "Что бы ты хотел/а знать раньше?",
+      "start": 288.72,
+      "end": 303.887
+    },
+    {
+      "id": 22,
+      "english": "Can you give me an example?",
+      "russian": "Можешь привести пример?",
+      "start": 303.887,
+      "end": 318.578
+    },
+    {
+      "id": 23,
+      "english": "Is that all?",
+      "russian": "Это всё?",
+      "start": 318.578,
+      "end": 332.079
+    },
+    {
+      "id": 24,
+      "english": "Are you eating okay?",
+      "russian": "Ты нормально питаешься?",
+      "start": 332.079,
+      "end": 346.61
+    },
+    {
+      "id": 25,
+      "english": "What do you want?",
+      "russian": "Чего ты хочешь?",
+      "start": 346.61,
+      "end": 360.441
+    },
+    {
+      "id": 26,
+      "english": "Could you repeat that?",
+      "russian": "Ты не мог/могла бы повторить?",
+      "start": 360.441,
+      "end": 374.681
+    },
+    {
+      "id": 27,
+      "english": "Would you say that's true?",
+      "russian": "Ты бы сказал/а, что это правда?",
+      "start": 374.681,
+      "end": 389.312
+    },
+    {
+      "id": 28,
+      "english": "Where do you live?",
+      "russian": "Где ты живёшь?",
+      "start": 389.312,
+      "end": 403.297
+    },
+    {
+      "id": 29,
+      "english": "Is everything all right at home?",
+      "russian": "Всё в порядке дома?",
+      "start": 403.297,
+      "end": 418.611
+    },
+    {
+      "id": 30,
+      "english": "Do you want some?",
+      "russian": "Хочешь немного?",
+      "start": 418.611,
+      "end": 432.528
+    },
+    {
+      "id": 31,
+      "english": "What's the matter?",
+      "russian": "В чём дело?",
+      "start": 432.528,
+      "end": 446.371
+    },
+    {
+      "id": 32,
+      "english": "When are you leaving?",
+      "russian": "Когда ты уходишь/уезжаешь?",
+      "start": 446.371,
+      "end": 460.513
+    },
+    {
+      "id": 33,
+      "english": "Have you been sick?",
+      "russian": "Ты болел/а?",
+      "start": 460.513,
+      "end": 474.555
+    },
+    {
+      "id": 34,
+      "english": "What do you think is going to happen?",
+      "russian": "Что ты думаешь, что произойдёт?",
+      "start": 474.555,
+      "end": 489.747
+    },
+    {
+      "id": 35,
+      "english": "Where are you going?",
+      "russian": "Куда ты идёшь/едешь?",
+      "start": 489.747,
+      "end": 503.829
+    },
+    {
+      "id": 36,
+      "english": "Is that what you meant?",
+      "russian": "Ты это имел/а в виду?",
+      "start": 503.829,
+      "end": 518.157
+    },
+    {
+      "id": 37,
+      "english": "How are you feeling?",
+      "russian": "Как ты себя чувствуешь?",
+      "start": 518.157,
+      "end": 532.303
+    },
+    {
+      "id": 38,
+      "english": "What's the hardest thing to learn?",
+      "russian": "Что сложнее всего освоить?",
+      "start": 532.303,
+      "end": 547.661
+    },
+    {
+      "id": 39,
+      "english": "Do you want to grab something to eat?",
+      "russian": "Хочешь что-нибудь поесть?",
+      "start": 547.661,
+      "end": 563.055
+    },
+    {
+      "id": 40,
+      "english": "Did you go to college?",
+      "russian": "Ты учился/а в университете?",
+      "start": 563.055,
+      "end": 570.096
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "deck-47",
+  "deck_name": "questions 1",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions1.mp3",
+  "group": "questions",
+  "total_duration": 574.51,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "What's the biggest challenge at work?",
+      "russian": "Какая самая большая трудность на работе?",
+      "start": 0.0,
+      "end": 15.817
+    },
+    {
+      "id": 2,
+      "english": "Where are you?",
+      "russian": "Где ты?",
+      "start": 15.817,
+      "end": 29.524
+    },
+    {
+      "id": 3,
+      "english": "What's something you're still figuring out?",
+      "russian": "Что ты всё ещё пытаешься понять?",
+      "start": 29.524,
+      "end": 45.508
+    },
+    {
+      "id": 4,
+      "english": "Can I ask you a favour?",
+      "russian": "Могу я попросить тебя об одолжении?",
+      "start": 45.508,
+      "end": 60.242
+    },
+    {
+      "id": 5,
+      "english": "Where did you park?",
+      "russian": "Где ты припарковался/припарковалась?",
+      "start": 60.242,
+      "end": 74.417
+    },
+    {
+      "id": 6,
+      "english": "Do you meditate?",
+      "russian": "Ты медитируешь?",
+      "start": 74.417,
+      "end": 88.479
+    },
+    {
+      "id": 7,
+      "english": "What's the catch?",
+      "russian": "В чём подвох?",
+      "start": 88.479,
+      "end": 102.498
+    },
+    {
+      "id": 8,
+      "english": "Do you have change?",
+      "russian": "У тебя есть сдача?",
+      "start": 102.498,
+      "end": 116.873
+    },
+    {
+      "id": 9,
+      "english": "What are you up to?",
+      "russian": "Чем занимаешься?",
+      "start": 116.873,
+      "end": 131.071
+    },
+    {
+      "id": 10,
+      "english": "What did you think of it?",
+      "russian": "Что ты об этом подумал/а?",
+      "start": 131.071,
+      "end": 145.246
+    },
+    {
+      "id": 11,
+      "english": "What's your biggest concern?",
+      "russian": "Что тебя больше всего беспокоит?",
+      "start": 145.246,
+      "end": 160.2
+    },
+    {
+      "id": 12,
+      "english": "What motivates you?",
+      "russian": "Что тебя мотивирует?",
+      "start": 160.2,
+      "end": 174.607
+    },
+    {
+      "id": 13,
+      "english": "How would you describe it?",
+      "russian": "Как бы ты это описал/а?",
+      "start": 174.607,
+      "end": 189.224
+    },
+    {
+      "id": 14,
+      "english": "Are you ready?",
+      "russian": "Ты готов/готова?",
+      "start": 189.224,
+      "end": 202.702
+    },
+    {
+      "id": 15,
+      "english": "Where did you get that?",
+      "russian": "Где ты это взял/а?",
+      "start": 202.702,
+      "end": 217.058
+    },
+    {
+      "id": 16,
+      "english": "What would make you feel better?",
+      "russian": "Что сделало бы тебе лучше?",
+      "start": 217.058,
+      "end": 231.972
+    },
+    {
+      "id": 17,
+      "english": "What are you doing?",
+      "russian": "Что ты делаешь?",
+      "start": 231.972,
+      "end": 246.003
+    },
+    {
+      "id": 18,
+      "english": "Are you okay with that?",
+      "russian": "Ты в порядке с этим?",
+      "start": 246.003,
+      "end": 260.502
+    },
+    {
+      "id": 19,
+      "english": "What do you mean by that?",
+      "russian": "Что именно ты имеешь в виду?",
+      "start": 260.502,
+      "end": 275.34
+    },
+    {
+      "id": 20,
+      "english": "Can you turn that down?",
+      "russian": "Ты можешь убавить звук?",
+      "start": 275.34,
+      "end": 290.011
+    },
+    {
+      "id": 21,
+      "english": "Would you like to join us?",
+      "russian": "Хочешь присоединиться к нам?",
+      "start": 290.011,
+      "end": 304.654
+    },
+    {
+      "id": 22,
+      "english": "Does it hurt?",
+      "russian": "Это больно?",
+      "start": 304.654,
+      "end": 318.379
+    },
+    {
+      "id": 23,
+      "english": "Do you think there's enough support for mental health?",
+      "russian": "Ты думаешь, ментальному здоровью уделяется достаточно внимания?",
+      "start": 318.379,
+      "end": 334.78
+    },
+    {
+      "id": 24,
+      "english": "What's the best advice you've ever received?",
+      "russian": "Какой лучший совет ты когда-либо получал/а?",
+      "start": 334.78,
+      "end": 351.23
+    },
+    {
+      "id": 25,
+      "english": "What do you make of this?",
+      "russian": "Как ты это расцениваешь?",
+      "start": 351.23,
+      "end": 365.622
+    },
+    {
+      "id": 26,
+      "english": "Did you hear that?",
+      "russian": "Ты слышал/а это?",
+      "start": 365.622,
+      "end": 379.546
+    },
+    {
+      "id": 27,
+      "english": "What do you think about when you can't sleep?",
+      "russian": "О чём ты думаешь, когда не можешь спать?",
+      "start": 379.546,
+      "end": 395.685
+    },
+    {
+      "id": 28,
+      "english": "Would it be okay to...?",
+      "russian": "Можно было бы...?",
+      "start": 395.685,
+      "end": 410.092
+    },
+    {
+      "id": 29,
+      "english": "Do you want to come?",
+      "russian": "Хочешь пойти?",
+      "start": 410.092,
+      "end": 424.155
+    },
+    {
+      "id": 30,
+      "english": "What do you do?",
+      "russian": "Чем ты занимаешься? (профессия)",
+      "start": 424.155,
+      "end": 438.051
+    },
+    {
+      "id": 31,
+      "english": "What's changed for you over the years?",
+      "russian": "Что изменилось для тебя за эти годы?",
+      "start": 438.051,
+      "end": 453.788
+    },
+    {
+      "id": 32,
+      "english": "Is it far from here?",
+      "russian": "Это далеко отсюда?",
+      "start": 453.788,
+      "end": 468.189
+    },
+    {
+      "id": 33,
+      "english": "Is it worth it?",
+      "russian": "Оно того стоит?",
+      "start": 468.189,
+      "end": 481.983
+    },
+    {
+      "id": 34,
+      "english": "Do you mind?",
+      "russian": "Ты не против?",
+      "start": 481.983,
+      "end": 495.699
+    },
+    {
+      "id": 35,
+      "english": "What do you think about social media?",
+      "russian": "Что ты думаешь о социальных сетях?",
+      "start": 495.699,
+      "end": 511.454
+    },
+    {
+      "id": 36,
+      "english": "Are you going?",
+      "russian": "Ты идёшь/едешь?",
+      "start": 511.454,
+      "end": 525.069
+    },
+    {
+      "id": 37,
+      "english": "Did you apologize?",
+      "russian": "Ты извинился/извинилась?",
+      "start": 525.069,
+      "end": 539.617
+    },
+    {
+      "id": 38,
+      "english": "How's work going?",
+      "russian": "Как дела на работе?",
+      "start": 539.617,
+      "end": 553.821
+    },
+    {
+      "id": 39,
+      "english": "What are you watching?",
+      "russian": "Что ты смотришь?",
+      "start": 553.821,
+      "end": 568.038
+    },
+    {
+      "id": 40,
+      "english": "Are you moving?",
+      "russian": "Ты переезжаешь?",
+      "start": 568.038,
+      "end": 574.511
+    }
+  ]
+}

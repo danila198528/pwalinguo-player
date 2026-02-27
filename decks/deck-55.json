@@ -1,0 +1,290 @@
+{
+  "id": "deck-55",
+  "deck_name": "questions 9",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions9.mp3",
+  "group": "questions",
+  "total_duration": 570.86,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Are you getting enough sleep?",
+      "russian": "Ты высыпаешься?",
+      "start": 0.0,
+      "end": 14.956
+    },
+    {
+      "id": 2,
+      "english": "How do you feel about that?",
+      "russian": "Что ты по этому поводу чувствуешь?",
+      "start": 14.956,
+      "end": 29.812
+    },
+    {
+      "id": 3,
+      "english": "How was it?",
+      "russian": "Как оно было?",
+      "start": 29.812,
+      "end": 43.35
+    },
+    {
+      "id": 4,
+      "english": "Are you self-taught?",
+      "russian": "Ты самоучка?",
+      "start": 43.35,
+      "end": 57.45
+    },
+    {
+      "id": 5,
+      "english": "Are you feeling better?",
+      "russian": "Тебе лучше?",
+      "start": 57.45,
+      "end": 71.739
+    },
+    {
+      "id": 6,
+      "english": "What do you like about them?",
+      "russian": "Что тебе в них нравится?",
+      "start": 71.739,
+      "end": 86.188
+    },
+    {
+      "id": 7,
+      "english": "Do you ever wonder about that?",
+      "russian": "Тебе когда-нибудь интересно это?",
+      "start": 86.188,
+      "end": 101.116
+    },
+    {
+      "id": 8,
+      "english": "How far is it?",
+      "russian": "Как далеко это?",
+      "start": 101.116,
+      "end": 115.206
+    },
+    {
+      "id": 9,
+      "english": "What's your gut feeling?",
+      "russian": "Что говорит твоя интуиция?",
+      "start": 115.206,
+      "end": 129.793
+    },
+    {
+      "id": 10,
+      "english": "Do you want to talk about it?",
+      "russian": "Хочешь поговорить об этом?",
+      "start": 129.793,
+      "end": 144.688
+    },
+    {
+      "id": 11,
+      "english": "What do you think about AI?",
+      "russian": "Что ты думаешь об ИИ?",
+      "start": 144.688,
+      "end": 159.366
+    },
+    {
+      "id": 12,
+      "english": "Are you nervous?",
+      "russian": "Ты нервничаешь?",
+      "start": 159.366,
+      "end": 173.286
+    },
+    {
+      "id": 13,
+      "english": "What exactly happened?",
+      "russian": "Что именно произошло?",
+      "start": 173.286,
+      "end": 187.976
+    },
+    {
+      "id": 14,
+      "english": "Are you angry with me?",
+      "russian": "Ты злишься на меня?",
+      "start": 187.976,
+      "end": 202.206
+    },
+    {
+      "id": 15,
+      "english": "Are you listening?",
+      "russian": "Ты слушаешь?",
+      "start": 202.206,
+      "end": 215.87
+    },
+    {
+      "id": 16,
+      "english": "How did it go?",
+      "russian": "Как всё прошло?",
+      "start": 215.87,
+      "end": 229.726
+    },
+    {
+      "id": 17,
+      "english": "What did you do?",
+      "russian": "Что ты сделал/а?",
+      "start": 229.726,
+      "end": 243.709
+    },
+    {
+      "id": 18,
+      "english": "Are you okay?",
+      "russian": "Ты в порядке?",
+      "start": 243.709,
+      "end": 257.694
+    },
+    {
+      "id": 19,
+      "english": "Do you agree?",
+      "russian": "Ты согласен/согласна?",
+      "start": 257.694,
+      "end": 271.395
+    },
+    {
+      "id": 20,
+      "english": "Can you be more specific?",
+      "russian": "Можешь быть конкретнее?",
+      "start": 271.395,
+      "end": 286.218
+    },
+    {
+      "id": 21,
+      "english": "Do you think it's going to get better?",
+      "russian": "Ты думаешь, станет лучше?",
+      "start": 286.218,
+      "end": 301.461
+    },
+    {
+      "id": 22,
+      "english": "How old are you?",
+      "russian": "Сколько тебе лет?",
+      "start": 301.461,
+      "end": 315.249
+    },
+    {
+      "id": 23,
+      "english": "Did you take your medicine?",
+      "russian": "Ты принял/а лекарство?",
+      "start": 315.249,
+      "end": 329.761
+    },
+    {
+      "id": 24,
+      "english": "Have you tried that restaurant?",
+      "russian": "Ты пробовал/а тот ресторан?",
+      "start": 329.761,
+      "end": 344.697
+    },
+    {
+      "id": 25,
+      "english": "What do you do in your free time?",
+      "russian": "Чем ты занимаешься в свободное время?",
+      "start": 344.697,
+      "end": 360.273
+    },
+    {
+      "id": 26,
+      "english": "Have you heard about this?",
+      "russian": "Ты слышал/а об этом?",
+      "start": 360.273,
+      "end": 374.772
+    },
+    {
+      "id": 27,
+      "english": "What would you do differently?",
+      "russian": "Что бы ты сделал/а по-другому?",
+      "start": 374.772,
+      "end": 389.295
+    },
+    {
+      "id": 28,
+      "english": "Can you show me the way?",
+      "russian": "Ты можешь показать мне дорогу?",
+      "start": 389.295,
+      "end": 403.959
+    },
+    {
+      "id": 29,
+      "english": "Are you serious?",
+      "russian": "Ты серьёзно?",
+      "start": 403.959,
+      "end": 418.009
+    },
+    {
+      "id": 30,
+      "english": "Have you seen any good movies lately?",
+      "russian": "Ты смотрел/а что-нибудь хорошее в последнее время?",
+      "start": 418.009,
+      "end": 433.539
+    },
+    {
+      "id": 31,
+      "english": "Do you have a moment?",
+      "russian": "У тебя есть момент?",
+      "start": 433.539,
+      "end": 447.794
+    },
+    {
+      "id": 32,
+      "english": "How long did it take?",
+      "russian": "Сколько это заняло?",
+      "start": 447.794,
+      "end": 462.266
+    },
+    {
+      "id": 33,
+      "english": "Can you make it?",
+      "russian": "Ты сможешь прийти?",
+      "start": 462.266,
+      "end": 476.034
+    },
+    {
+      "id": 34,
+      "english": "How long will it take?",
+      "russian": "Сколько это займёт?",
+      "start": 476.034,
+      "end": 490.442
+    },
+    {
+      "id": 35,
+      "english": "Is everything okay?",
+      "russian": "Всё в порядке?",
+      "start": 490.442,
+      "end": 504.918
+    },
+    {
+      "id": 36,
+      "english": "Are you disappointed?",
+      "russian": "Ты разочарован/а?",
+      "start": 504.918,
+      "end": 519.267
+    },
+    {
+      "id": 37,
+      "english": "What do you expect?",
+      "russian": "Чего ты ожидаешь?",
+      "start": 519.267,
+      "end": 533.451
+    },
+    {
+      "id": 38,
+      "english": "What makes you feel alive?",
+      "russian": "Что заставляет тебя чувствовать себя живым/живой?",
+      "start": 533.451,
+      "end": 548.476
+    },
+    {
+      "id": 39,
+      "english": "Do you have a budget for that?",
+      "russian": "У тебя есть бюджет на это?",
+      "start": 548.476,
+      "end": 563.343
+    },
+    {
+      "id": 40,
+      "english": "Do you play any sports?",
+      "russian": "Ты занимаешься каким-нибудь спортом?",
+      "start": 563.343,
+      "end": 570.864
+    }
+  ]
+}

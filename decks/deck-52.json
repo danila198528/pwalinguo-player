@@ -1,0 +1,290 @@
+{
+  "id": "deck-52",
+  "deck_name": "questions 6",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions6.mp3",
+  "group": "questions",
+  "total_duration": 580.46,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "How do you manage stress?",
+      "russian": "Как ты справляешься со стрессом?",
+      "start": 0.0,
+      "end": 15.13
+    },
+    {
+      "id": 2,
+      "english": "Did you check your email?",
+      "russian": "Ты проверил/а почту?",
+      "start": 15.13,
+      "end": 29.945
+    },
+    {
+      "id": 3,
+      "english": "Do you speak any other languages?",
+      "russian": "Ты говоришь на других языках?",
+      "start": 29.945,
+      "end": 45.326
+    },
+    {
+      "id": 4,
+      "english": "What's your favourite book?",
+      "russian": "Какая у тебя любимая книга?",
+      "start": 45.326,
+      "end": 59.899
+    },
+    {
+      "id": 5,
+      "english": "What helps you relax?",
+      "russian": "Что помогает тебе расслабиться?",
+      "start": 59.899,
+      "end": 74.566
+    },
+    {
+      "id": 6,
+      "english": "Would you mind if I...?",
+      "russian": "Ты не возражаешь, если я...?",
+      "start": 74.566,
+      "end": 88.873
+    },
+    {
+      "id": 7,
+      "english": "Are you in?",
+      "russian": "Ты участвуешь?",
+      "start": 88.873,
+      "end": 102.305
+    },
+    {
+      "id": 8,
+      "english": "Do you read a lot?",
+      "russian": "Ты много читаешь?",
+      "start": 102.305,
+      "end": 116.332
+    },
+    {
+      "id": 9,
+      "english": "Can you say that again?",
+      "russian": "Можешь повторить?",
+      "start": 116.332,
+      "end": 130.731
+    },
+    {
+      "id": 10,
+      "english": "What happened to you?",
+      "russian": "Что с тобой случилось?",
+      "start": 130.731,
+      "end": 144.772
+    },
+    {
+      "id": 11,
+      "english": "What's the best trip you've ever taken?",
+      "russian": "Какое лучшее путешествие в твоей жизни?",
+      "start": 144.772,
+      "end": 160.574
+    },
+    {
+      "id": 12,
+      "english": "What does success mean to you?",
+      "russian": "Что для тебя значит успех?",
+      "start": 160.574,
+      "end": 175.914
+    },
+    {
+      "id": 13,
+      "english": "Do you prefer the city or the countryside?",
+      "russian": "Ты предпочитаешь город или деревню?",
+      "start": 175.914,
+      "end": 192.364
+    },
+    {
+      "id": 14,
+      "english": "Have you taken any courses?",
+      "russian": "Ты проходил/а какие-нибудь курсы?",
+      "start": 192.364,
+      "end": 207.392
+    },
+    {
+      "id": 15,
+      "english": "Do you know a good place around here?",
+      "russian": "Ты знаешь хорошее место здесь поблизости?",
+      "start": 207.392,
+      "end": 222.963
+    },
+    {
+      "id": 16,
+      "english": "Do you think social media does more harm than good?",
+      "russian": "Ты думаешь, соцсети приносят больше вреда, чем пользы?",
+      "start": 222.963,
+      "end": 239.991
+    },
+    {
+      "id": 17,
+      "english": "Are you coming?",
+      "russian": "Ты идёшь?",
+      "start": 239.991,
+      "end": 253.562
+    },
+    {
+      "id": 18,
+      "english": "Is that right?",
+      "russian": "Правда? / Это так?",
+      "start": 253.562,
+      "end": 267.412
+    },
+    {
+      "id": 19,
+      "english": "Are you on social media?",
+      "russian": "Ты в социальных сетях?",
+      "start": 267.412,
+      "end": 282.274
+    },
+    {
+      "id": 20,
+      "english": "What's your take on this?",
+      "russian": "Каково твоё мнение об этом?",
+      "start": 282.274,
+      "end": 297.018
+    },
+    {
+      "id": 21,
+      "english": "Did I get that right?",
+      "russian": "Я правильно понял/а?",
+      "start": 297.018,
+      "end": 311.502
+    },
+    {
+      "id": 22,
+      "english": "What's your role?",
+      "russian": "Какова твоя роль?",
+      "start": 311.502,
+      "end": 325.53
+    },
+    {
+      "id": 23,
+      "english": "Is that a problem?",
+      "russian": "Это проблема?",
+      "start": 325.53,
+      "end": 339.606
+    },
+    {
+      "id": 24,
+      "english": "Are you taking care of yourself?",
+      "russian": "Ты заботишься о себе?",
+      "start": 339.606,
+      "end": 355.046
+    },
+    {
+      "id": 25,
+      "english": "What gets you excited?",
+      "russian": "Что тебя воодушевляет?",
+      "start": 355.046,
+      "end": 369.862
+    },
+    {
+      "id": 26,
+      "english": "What would you change about the world?",
+      "russian": "Что бы ты изменил/а в мире?",
+      "start": 369.862,
+      "end": 385.338
+    },
+    {
+      "id": 27,
+      "english": "How much did you pay for it?",
+      "russian": "Сколько ты за это заплатил/а?",
+      "start": 385.338,
+      "end": 400.328
+    },
+    {
+      "id": 28,
+      "english": "Did you get a good deal?",
+      "russian": "Ты сделал/а выгодную покупку?",
+      "start": 400.328,
+      "end": 414.759
+    },
+    {
+      "id": 29,
+      "english": "What's next?",
+      "russian": "Что дальше?",
+      "start": 414.759,
+      "end": 428.522
+    },
+    {
+      "id": 30,
+      "english": "Where's the nearest...?",
+      "russian": "Где ближайший/ближайшая...?",
+      "start": 428.522,
+      "end": 442.802
+    },
+    {
+      "id": 31,
+      "english": "What keeps you going?",
+      "russian": "Что тебя поддерживает?",
+      "start": 442.802,
+      "end": 457.061
+    },
+    {
+      "id": 32,
+      "english": "Are you sure about that?",
+      "russian": "Ты уверен/а в этом?",
+      "start": 457.061,
+      "end": 471.642
+    },
+    {
+      "id": 33,
+      "english": "Is it serious?",
+      "russian": "Это серьёзно?",
+      "start": 471.642,
+      "end": 485.781
+    },
+    {
+      "id": 34,
+      "english": "Have you thought about that?",
+      "russian": "Ты думал/а об этом?",
+      "start": 485.781,
+      "end": 500.243
+    },
+    {
+      "id": 35,
+      "english": "Have you had a chance to look at it?",
+      "russian": "У тебя была возможность взглянуть на это?",
+      "start": 500.243,
+      "end": 515.494
+    },
+    {
+      "id": 36,
+      "english": "Is there a reason for that?",
+      "russian": "Есть ли этому причина?",
+      "start": 515.494,
+      "end": 530.215
+    },
+    {
+      "id": 37,
+      "english": "What happened?",
+      "russian": "Что случилось?",
+      "start": 530.215,
+      "end": 543.865
+    },
+    {
+      "id": 38,
+      "english": "Have you seen my keys?",
+      "russian": "Ты не видел/а мои ключи?",
+      "start": 543.865,
+      "end": 558.711
+    },
+    {
+      "id": 39,
+      "english": "Can I pay by card?",
+      "russian": "Можно оплатить картой?",
+      "start": 558.711,
+      "end": 573.475
+    },
+    {
+      "id": 40,
+      "english": "Did you two break up?",
+      "russian": "Вы расстались?",
+      "start": 573.475,
+      "end": 580.464
+    }
+  ]
+}

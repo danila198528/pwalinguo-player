@@ -1,0 +1,290 @@
+{
+  "id": "deck-50",
+  "deck_name": "questions 4",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions4.mp3",
+  "group": "questions",
+  "total_duration": 573.98,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Do you exercise?",
+      "russian": "Ты занимаешься спортом?",
+      "start": 0.0,
+      "end": 14.658
+    },
+    {
+      "id": 2,
+      "english": "Do you think things are getting better or worse?",
+      "russian": "Ты думаешь, вещи становятся лучше или хуже?",
+      "start": 14.658,
+      "end": 31.033
+    },
+    {
+      "id": 3,
+      "english": "Can I get a hand with this?",
+      "russian": "Можешь помочь мне с этим?",
+      "start": 31.033,
+      "end": 45.815
+    },
+    {
+      "id": 4,
+      "english": "What are we doing later?",
+      "russian": "Что мы делаем позже?",
+      "start": 45.815,
+      "end": 60.387
+    },
+    {
+      "id": 5,
+      "english": "Do you know what I mean?",
+      "russian": "Ты понимаешь, что я имею в виду?",
+      "start": 60.387,
+      "end": 75.087
+    },
+    {
+      "id": 6,
+      "english": "Is there something on your mind?",
+      "russian": "У тебя что-то на уме?",
+      "start": 75.087,
+      "end": 90.173
+    },
+    {
+      "id": 7,
+      "english": "Can I help you?",
+      "russian": "Могу я тебе помочь?",
+      "start": 90.173,
+      "end": 103.842
+    },
+    {
+      "id": 8,
+      "english": "Do you feel lonely?",
+      "russian": "Ты чувствуешь одиночество?",
+      "start": 103.842,
+      "end": 117.987
+    },
+    {
+      "id": 9,
+      "english": "Have you seen a doctor?",
+      "russian": "Ты был/а у врача?",
+      "start": 117.987,
+      "end": 132.196
+    },
+    {
+      "id": 10,
+      "english": "Do you think that's fair?",
+      "russian": "Ты думаешь, это справедливо?",
+      "start": 132.196,
+      "end": 146.523
+    },
+    {
+      "id": 11,
+      "english": "Can you hear me?",
+      "russian": "Ты меня слышишь?",
+      "start": 146.523,
+      "end": 160.217
+    },
+    {
+      "id": 12,
+      "english": "Are they okay?",
+      "russian": "Они в порядке?",
+      "start": 160.217,
+      "end": 174.045
+    },
+    {
+      "id": 13,
+      "english": "What are you getting at?",
+      "russian": "К чему ты клонишь?",
+      "start": 174.045,
+      "end": 188.299
+    },
+    {
+      "id": 14,
+      "english": "Did you know that?",
+      "russian": "Ты это знал/а?",
+      "start": 188.299,
+      "end": 202.148
+    },
+    {
+      "id": 15,
+      "english": "What do you think?",
+      "russian": "Что ты думаешь?",
+      "start": 202.148,
+      "end": 215.969
+    },
+    {
+      "id": 16,
+      "english": "Do you think people have too much or too little freedom?",
+      "russian": "Ты думаешь, у людей слишком много или слишком мало свободы?",
+      "start": 215.969,
+      "end": 233.381
+    },
+    {
+      "id": 17,
+      "english": "Have you heard about it?",
+      "russian": "Ты слышал/а об этом?",
+      "start": 233.381,
+      "end": 247.657
+    },
+    {
+      "id": 18,
+      "english": "Was it worth it?",
+      "russian": "Оно того стоило?",
+      "start": 247.657,
+      "end": 261.497
+    },
+    {
+      "id": 19,
+      "english": "Are you coming by car?",
+      "russian": "Ты едешь на машине?",
+      "start": 261.497,
+      "end": 276.253
+    },
+    {
+      "id": 20,
+      "english": "Sorry, what did you say?",
+      "russian": "Извини, что ты сказал/а?",
+      "start": 276.253,
+      "end": 291.586
+    },
+    {
+      "id": 21,
+      "english": "How are you?",
+      "russian": "Как дела?",
+      "start": 291.586,
+      "end": 305.048
+    },
+    {
+      "id": 22,
+      "english": "Did you pay for it?",
+      "russian": "Ты за это заплатил/а?",
+      "start": 305.048,
+      "end": 319.135
+    },
+    {
+      "id": 23,
+      "english": "Are you saving money?",
+      "russian": "Ты копишь деньги?",
+      "start": 319.135,
+      "end": 333.138
+    },
+    {
+      "id": 24,
+      "english": "Did you find out?",
+      "russian": "Ты выяснил/а?",
+      "start": 333.138,
+      "end": 347.238
+    },
+    {
+      "id": 25,
+      "english": "What do you do for a living?",
+      "russian": "Кем ты работаешь?",
+      "start": 347.238,
+      "end": 361.938
+    },
+    {
+      "id": 26,
+      "english": "Do you get along with them?",
+      "russian": "Вы ладите?",
+      "start": 361.938,
+      "end": 376.362
+    },
+    {
+      "id": 27,
+      "english": "How are things between you two?",
+      "russian": "Как дела между вами?",
+      "start": 376.362,
+      "end": 391.702
+    },
+    {
+      "id": 28,
+      "english": "Where did you go to school?",
+      "russian": "Где ты учился/а?",
+      "start": 391.702,
+      "end": 406.31
+    },
+    {
+      "id": 29,
+      "english": "Do you work from home?",
+      "russian": "Ты работаешь из дома?",
+      "start": 406.31,
+      "end": 420.885
+    },
+    {
+      "id": 30,
+      "english": "What's wrong?",
+      "russian": "Что случилось? / Что не так?",
+      "start": 420.885,
+      "end": 434.571
+    },
+    {
+      "id": 31,
+      "english": "Can you walk me through it?",
+      "russian": "Можешь объяснить мне шаг за шагом?",
+      "start": 434.571,
+      "end": 449.235
+    },
+    {
+      "id": 32,
+      "english": "Are you free tomorrow?",
+      "russian": "Ты свободен/свободна завтра?",
+      "start": 449.235,
+      "end": 463.571
+    },
+    {
+      "id": 33,
+      "english": "Have you seen the latest news?",
+      "russian": "Ты видел/а последние новости?",
+      "start": 463.571,
+      "end": 478.918
+    },
+    {
+      "id": 34,
+      "english": "Is that normal?",
+      "russian": "Это нормально?",
+      "start": 478.918,
+      "end": 492.654
+    },
+    {
+      "id": 35,
+      "english": "Are you working on anything interesting?",
+      "russian": "Ты работаешь над чем-нибудь интересным?",
+      "start": 492.654,
+      "end": 508.34
+    },
+    {
+      "id": 36,
+      "english": "Do you have any allergies?",
+      "russian": "У тебя есть аллергия?",
+      "start": 508.34,
+      "end": 522.954
+    },
+    {
+      "id": 37,
+      "english": "Have you made up your mind?",
+      "russian": "Ты принял/а решение?",
+      "start": 522.954,
+      "end": 537.767
+    },
+    {
+      "id": 38,
+      "english": "What do you want for dinner?",
+      "russian": "Что ты хочешь на ужин?",
+      "start": 537.767,
+      "end": 552.078
+    },
+    {
+      "id": 39,
+      "english": "Are you looking for a new job?",
+      "russian": "Ты ищешь новую работу?",
+      "start": 552.078,
+      "end": 567.091
+    },
+    {
+      "id": 40,
+      "english": "Did you get the milk?",
+      "russian": "Ты купил/а молоко?",
+      "start": 567.091,
+      "end": 573.984
+    }
+  ]
+}
