@@ -1,0 +1,241 @@
+{
+  "id": "deck-64",
+  "deck_name": "grammar_questions 9",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions9.mp3",
+  "group": "grammar_questions",
+  "total_duration": 480.07,
+  "total_sentences": 33,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Indirect questions",
+      "russian": "название блока",
+      "start": 0.0,
+      "end": 15.051
+    },
+    {
+      "id": 2,
+      "english": "Do you know where she is?",
+      "russian": "Ты знаешь, где она?",
+      "start": 15.051,
+      "end": 29.644
+    },
+    {
+      "id": 3,
+      "english": "Do you know what time it is?",
+      "russian": "Ты знаешь, который час?",
+      "start": 29.644,
+      "end": 44.514
+    },
+    {
+      "id": 4,
+      "english": "Do you know why he left?",
+      "russian": "Ты знаешь, почему он ушёл?",
+      "start": 44.514,
+      "end": 59.206
+    },
+    {
+      "id": 5,
+      "english": "Can you tell me what happened?",
+      "russian": "Ты можешь рассказать, что случилось?",
+      "start": 59.206,
+      "end": 73.974
+    },
+    {
+      "id": 6,
+      "english": "Can you tell me where to go?",
+      "russian": "Ты можешь сказать, куда идти?",
+      "start": 73.974,
+      "end": 88.804
+    },
+    {
+      "id": 7,
+      "english": "Do you know if she's coming?",
+      "russian": "Ты знаешь, придёт ли она?",
+      "start": 88.804,
+      "end": 103.398
+    },
+    {
+      "id": 8,
+      "english": "Do you have any idea what this is?",
+      "russian": "Ты вообще понимаешь, что это?",
+      "start": 103.398,
+      "end": 118.924
+    },
+    {
+      "id": 9,
+      "english": "Do you know how long it takes?",
+      "russian": "Ты знаешь, сколько это займёт?",
+      "start": 118.924,
+      "end": 134.205
+    },
+    {
+      "id": 10,
+      "english": "Can you explain why this happened?",
+      "russian": "Ты можешь объяснить, почему это произошло?",
+      "start": 134.205,
+      "end": 149.74
+    },
+    {
+      "id": 11,
+      "english": "Do you know when it starts?",
+      "russian": "Ты знаешь, когда это начинается?",
+      "start": 149.74,
+      "end": 164.607
+    },
+    {
+      "id": 12,
+      "english": "12.1 — Is / Are + subject + V3 (Present Passive)",
+      "russian": "название блока",
+      "start": 164.607,
+      "end": 185.162
+    },
+    {
+      "id": 13,
+      "english": "Is it done?",
+      "russian": "Это готово?",
+      "start": 185.162,
+      "end": 198.729
+    },
+    {
+      "id": 14,
+      "english": "Is it included?",
+      "russian": "Это включено?",
+      "start": 198.729,
+      "end": 212.827
+    },
+    {
+      "id": 15,
+      "english": "Is it covered?",
+      "russian": "Это покрывается?",
+      "start": 212.827,
+      "end": 226.532
+    },
+    {
+      "id": 16,
+      "english": "Is it allowed?",
+      "russian": "Это разрешено?",
+      "start": 226.532,
+      "end": 240.384
+    },
+    {
+      "id": 17,
+      "english": "Is it taken care of?",
+      "russian": "Об этом позаботились?",
+      "start": 240.384,
+      "end": 255.037
+    },
+    {
+      "id": 18,
+      "english": "Are they informed?",
+      "russian": "Их уведомили?",
+      "start": 255.037,
+      "end": 269.132
+    },
+    {
+      "id": 19,
+      "english": "Are we expected?",
+      "russian": "Нас ждут?",
+      "start": 269.132,
+      "end": 283.271
+    },
+    {
+      "id": 20,
+      "english": "Is it confirmed?",
+      "russian": "Это подтверждено?",
+      "start": 283.271,
+      "end": 297.588
+    },
+    {
+      "id": 21,
+      "english": "Is it fixed?",
+      "russian": "Это исправлено?",
+      "start": 297.588,
+      "end": 311.294
+    },
+    {
+      "id": 22,
+      "english": "Is it ready?",
+      "russian": "Это готово?",
+      "start": 311.294,
+      "end": 324.759
+    },
+    {
+      "id": 23,
+      "english": "12.2 — Was / Were + subject + V3 (Past Passive)",
+      "russian": "название блока",
+      "start": 324.759,
+      "end": 345.6
+    },
+    {
+      "id": 24,
+      "english": "Was it done?",
+      "russian": "Это было сделано?",
+      "start": 345.6,
+      "end": 359.215
+    },
+    {
+      "id": 25,
+      "english": "Was it planned?",
+      "russian": "Это было запланировано?",
+      "start": 359.215,
+      "end": 373.063
+    },
+    {
+      "id": 26,
+      "english": "Was it fixed?",
+      "russian": "Это было исправлено?",
+      "start": 373.063,
+      "end": 386.883
+    },
+    {
+      "id": 27,
+      "english": "Was it supposed to happen?",
+      "russian": "Это должно было произойти?",
+      "start": 386.883,
+      "end": 401.58
+    },
+    {
+      "id": 28,
+      "english": "Was she informed?",
+      "russian": "Её уведомили?",
+      "start": 401.58,
+      "end": 415.79
+    },
+    {
+      "id": 29,
+      "english": "Was he invited?",
+      "russian": "Его пригласили?",
+      "start": 415.79,
+      "end": 429.935
+    },
+    {
+      "id": 30,
+      "english": "Were they warned?",
+      "russian": "Их предупредили?",
+      "start": 429.935,
+      "end": 443.851
+    },
+    {
+      "id": 31,
+      "english": "Were we supposed to be there?",
+      "russian": "Мы должны были там быть?",
+      "start": 443.851,
+      "end": 458.558
+    },
+    {
+      "id": 32,
+      "english": "Was it included?",
+      "russian": "Это было включено?",
+      "start": 458.558,
+      "end": 472.755
+    },
+    {
+      "id": 33,
+      "english": "Was it taken care of?",
+      "russian": "Об этом позаботились?",
+      "start": 472.755,
+      "end": 480.072
+    }
+  ]
+}

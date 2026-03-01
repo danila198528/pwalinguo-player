@@ -1,0 +1,241 @@
+{
+  "id": "deck-61",
+  "deck_name": "grammar_questions 6",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions6.mp3",
+  "group": "grammar_questions",
+  "total_duration": 466.68,
+  "total_sentences": 33,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "8.1 — Can + subject + V ?",
+      "russian": "название блока",
+      "start": 0.0,
+      "end": 17.334
+    },
+    {
+      "id": 2,
+      "english": "Can you help me?",
+      "russian": "Ты можешь мне помочь?",
+      "start": 17.334,
+      "end": 31.035
+    },
+    {
+      "id": 3,
+      "english": "Can you hear me?",
+      "russian": "Ты меня слышишь?",
+      "start": 31.035,
+      "end": 44.743
+    },
+    {
+      "id": 4,
+      "english": "Can you do me a favour?",
+      "russian": "Ты можешь сделать мне одолжение?",
+      "start": 44.743,
+      "end": 59.306
+    },
+    {
+      "id": 5,
+      "english": "Can we talk?",
+      "russian": "Мы можем поговорить?",
+      "start": 59.306,
+      "end": 73.207
+    },
+    {
+      "id": 6,
+      "english": "Can we meet tomorrow?",
+      "russian": "Мы можем встретиться завтра?",
+      "start": 73.207,
+      "end": 87.64
+    },
+    {
+      "id": 7,
+      "english": "Can she join us?",
+      "russian": "Она может к нам присоединиться?",
+      "start": 87.64,
+      "end": 101.776
+    },
+    {
+      "id": 8,
+      "english": "Can he come with us?",
+      "russian": "Он может пойти с нами?",
+      "start": 101.776,
+      "end": 115.994
+    },
+    {
+      "id": 9,
+      "english": "Can it wait?",
+      "russian": "Это может подождать?",
+      "start": 115.994,
+      "end": 129.742
+    },
+    {
+      "id": 10,
+      "english": "Can you give me a second?",
+      "russian": "Дашь мне секунду?",
+      "start": 129.742,
+      "end": 144.364
+    },
+    {
+      "id": 11,
+      "english": "Can you say that again?",
+      "russian": "Можешь повторить?",
+      "start": 144.364,
+      "end": 158.738
+    },
+    {
+      "id": 12,
+      "english": "8.2 — Should + subject + V ?",
+      "russian": "название блока",
+      "start": 158.738,
+      "end": 175.929
+    },
+    {
+      "id": 13,
+      "english": "Should I go?",
+      "russian": "Мне идти?",
+      "start": 175.929,
+      "end": 189.501
+    },
+    {
+      "id": 14,
+      "english": "Should I call him?",
+      "russian": "Мне ему позвонить?",
+      "start": 189.501,
+      "end": 203.509
+    },
+    {
+      "id": 15,
+      "english": "Should I say something?",
+      "russian": "Мне что-нибудь сказать?",
+      "start": 203.509,
+      "end": 217.94
+    },
+    {
+      "id": 16,
+      "english": "Should I be worried?",
+      "russian": "Мне стоит беспокоиться?",
+      "start": 217.94,
+      "end": 232.025
+    },
+    {
+      "id": 17,
+      "english": "Should we wait?",
+      "russian": "Нам подождать?",
+      "start": 232.025,
+      "end": 245.877
+    },
+    {
+      "id": 18,
+      "english": "Should we tell her?",
+      "russian": "Нам сказать ей?",
+      "start": 245.877,
+      "end": 259.818
+    },
+    {
+      "id": 19,
+      "english": "Should he know about this?",
+      "russian": "Он должен знать об этом?",
+      "start": 259.818,
+      "end": 274.445
+    },
+    {
+      "id": 20,
+      "english": "Should she apologize?",
+      "russian": "Ей стоит извиниться?",
+      "start": 274.445,
+      "end": 289.097
+    },
+    {
+      "id": 21,
+      "english": "Should I take it?",
+      "russian": "Мне взять это?",
+      "start": 289.097,
+      "end": 302.994
+    },
+    {
+      "id": 22,
+      "english": "Should we leave?",
+      "russian": "Нам уходить?",
+      "start": 302.994,
+      "end": 316.971
+    },
+    {
+      "id": 23,
+      "english": "8.3 — Will + subject + V ?",
+      "russian": "название блока",
+      "start": 316.971,
+      "end": 334.328
+    },
+    {
+      "id": 24,
+      "english": "Will you come?",
+      "russian": "Ты придёшь?",
+      "start": 334.328,
+      "end": 347.947
+    },
+    {
+      "id": 25,
+      "english": "Will you be there?",
+      "russian": "Ты будешь там?",
+      "start": 347.947,
+      "end": 361.707
+    },
+    {
+      "id": 26,
+      "english": "Will you help me?",
+      "russian": "Ты поможешь мне?",
+      "start": 361.707,
+      "end": 375.303
+    },
+    {
+      "id": 27,
+      "english": "Will it be okay?",
+      "russian": "Всё будет хорошо?",
+      "start": 375.303,
+      "end": 389.487
+    },
+    {
+      "id": 28,
+      "english": "Will it take long?",
+      "russian": "Это займёт много времени?",
+      "start": 389.487,
+      "end": 403.629
+    },
+    {
+      "id": 29,
+      "english": "Will she agree?",
+      "russian": "Она согласится?",
+      "start": 403.629,
+      "end": 417.427
+    },
+    {
+      "id": 30,
+      "english": "Will he be there?",
+      "russian": "Он будет там?",
+      "start": 417.427,
+      "end": 431.205
+    },
+    {
+      "id": 31,
+      "english": "Will they find out?",
+      "russian": "Они узнают?",
+      "start": 431.205,
+      "end": 445.386
+    },
+    {
+      "id": 32,
+      "english": "Will you let me know?",
+      "russian": "Ты дашь мне знать?",
+      "start": 445.386,
+      "end": 459.509
+    },
+    {
+      "id": 33,
+      "english": "Will it make a difference?",
+      "russian": "Это что-то изменит?",
+      "start": 459.509,
+      "end": 466.68
+    }
+  ]
+}

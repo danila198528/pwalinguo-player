@@ -1,0 +1,241 @@
+{
+  "id": "deck-62",
+  "deck_name": "grammar_questions 7",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions7.mp3",
+  "group": "grammar_questions",
+  "total_duration": 471.38,
+  "total_sentences": 33,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "8.4 — Could / Would / Might + subject + V ?",
+      "russian": "название блока",
+      "start": 0.0,
+      "end": 18.441
+    },
+    {
+      "id": 2,
+      "english": "Could you help me?",
+      "russian": "Ты не мог бы мне помочь?",
+      "start": 18.441,
+      "end": 32.047
+    },
+    {
+      "id": 3,
+      "english": "Could you say that again?",
+      "russian": "Ты не мог бы повторить?",
+      "start": 32.047,
+      "end": 46.435
+    },
+    {
+      "id": 4,
+      "english": "Could we meet tomorrow?",
+      "russian": "Мы не могли бы встретиться завтра?",
+      "start": 46.435,
+      "end": 60.844
+    },
+    {
+      "id": 5,
+      "english": "Could it be true?",
+      "russian": "Это может быть правдой?",
+      "start": 60.844,
+      "end": 74.777
+    },
+    {
+      "id": 6,
+      "english": "Would you mind?",
+      "russian": "Ты не против?",
+      "start": 74.777,
+      "end": 88.459
+    },
+    {
+      "id": 7,
+      "english": "Would you like to join us?",
+      "russian": "Ты хотел бы присоединиться к нам?",
+      "start": 88.459,
+      "end": 103.129
+    },
+    {
+      "id": 8,
+      "english": "Would it be okay?",
+      "russian": "Всё было бы хорошо?",
+      "start": 103.129,
+      "end": 117.26
+    },
+    {
+      "id": 9,
+      "english": "Would she agree?",
+      "russian": "Она бы согласилась?",
+      "start": 117.26,
+      "end": 131.055
+    },
+    {
+      "id": 10,
+      "english": "Might it be a problem?",
+      "russian": "Это может стать проблемой?",
+      "start": 131.055,
+      "end": 145.519
+    },
+    {
+      "id": 11,
+      "english": "Might she know about it?",
+      "russian": "Она может знать об этом?",
+      "start": 145.519,
+      "end": 159.986
+    },
+    {
+      "id": 12,
+      "english": "9.1 — What do / does + subject + V ?",
+      "russian": "название блока",
+      "start": 159.986,
+      "end": 178.324
+    },
+    {
+      "id": 13,
+      "english": "What do you mean?",
+      "russian": "Что ты имеешь в виду?",
+      "start": 178.324,
+      "end": 192.38
+    },
+    {
+      "id": 14,
+      "english": "What do you think?",
+      "russian": "Что ты думаешь?",
+      "start": 192.38,
+      "end": 206.211
+    },
+    {
+      "id": 15,
+      "english": "What do you want?",
+      "russian": "Чего ты хочешь?",
+      "start": 206.211,
+      "end": 220.057
+    },
+    {
+      "id": 16,
+      "english": "What do you need?",
+      "russian": "Что тебе нужно?",
+      "start": 220.057,
+      "end": 234.047
+    },
+    {
+      "id": 17,
+      "english": "What do you suggest?",
+      "russian": "Что ты предлагаешь?",
+      "start": 234.047,
+      "end": 248.379
+    },
+    {
+      "id": 18,
+      "english": "What do we do now?",
+      "russian": "Что нам теперь делать?",
+      "start": 248.379,
+      "end": 262.596
+    },
+    {
+      "id": 19,
+      "english": "What do they want?",
+      "russian": "Чего они хотят?",
+      "start": 262.596,
+      "end": 276.619
+    },
+    {
+      "id": 20,
+      "english": "What does she think?",
+      "russian": "Что она думает?",
+      "start": 276.619,
+      "end": 290.643
+    },
+    {
+      "id": 21,
+      "english": "What does he want?",
+      "russian": "Чего он хочет?",
+      "start": 290.643,
+      "end": 304.635
+    },
+    {
+      "id": 22,
+      "english": "What does it mean?",
+      "russian": "Что это значит?",
+      "start": 304.635,
+      "end": 318.703
+    },
+    {
+      "id": 23,
+      "english": "9.2 — What did + subject + V ?",
+      "russian": "название блока",
+      "start": 318.703,
+      "end": 336.935
+    },
+    {
+      "id": 24,
+      "english": "What did you say?",
+      "russian": "Что ты сказал?",
+      "start": 336.935,
+      "end": 351.031
+    },
+    {
+      "id": 25,
+      "english": "What did you mean by that?",
+      "russian": "Что ты имел в виду?",
+      "start": 351.031,
+      "end": 365.926
+    },
+    {
+      "id": 26,
+      "english": "What did you do?",
+      "russian": "Что ты сделал?",
+      "start": 365.926,
+      "end": 379.923
+    },
+    {
+      "id": 27,
+      "english": "What did she say?",
+      "russian": "Что она сказала?",
+      "start": 379.923,
+      "end": 394.059
+    },
+    {
+      "id": 28,
+      "english": "What did he do?",
+      "russian": "Что он сделал?",
+      "start": 394.059,
+      "end": 407.957
+    },
+    {
+      "id": 29,
+      "english": "What did they decide?",
+      "russian": "Что они решили?",
+      "start": 407.957,
+      "end": 422.41
+    },
+    {
+      "id": 30,
+      "english": "What did it say?",
+      "russian": "Что там было написано?",
+      "start": 422.41,
+      "end": 436.471
+    },
+    {
+      "id": 31,
+      "english": "What did you think of it?",
+      "russian": "Что ты об этом думал?",
+      "start": 436.471,
+      "end": 450.654
+    },
+    {
+      "id": 32,
+      "english": "What did he mean?",
+      "russian": "Что он имел в виду?",
+      "start": 450.654,
+      "end": 464.749
+    },
+    {
+      "id": 33,
+      "english": "What did she want?",
+      "russian": "Чего она хотела?",
+      "start": 464.749,
+      "end": 471.384
+    }
+  ]
+}

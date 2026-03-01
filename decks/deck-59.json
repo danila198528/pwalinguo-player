@@ -1,0 +1,241 @@
+{
+  "id": "deck-59",
+  "deck_name": "grammar_questions 4",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions4.mp3",
+  "group": "grammar_questions",
+  "total_duration": 477.24,
+  "total_sentences": 33,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "5.2 — Were you / we / they ... ?",
+      "russian": "название блока",
+      "start": 0.0,
+      "end": 16.919
+    },
+    {
+      "id": 2,
+      "english": "Were you there?",
+      "russian": "Ты там был?",
+      "start": 16.919,
+      "end": 30.43
+    },
+    {
+      "id": 3,
+      "english": "Were you serious?",
+      "russian": "Ты серьёзно?",
+      "start": 30.43,
+      "end": 44.688
+    },
+    {
+      "id": 4,
+      "english": "Were you okay?",
+      "russian": "Ты был в порядке?",
+      "start": 44.688,
+      "end": 58.654
+    },
+    {
+      "id": 5,
+      "english": "Were you waiting long?",
+      "russian": "Ты долго ждал?",
+      "start": 58.654,
+      "end": 73.127
+    },
+    {
+      "id": 6,
+      "english": "Were you surprised?",
+      "russian": "Ты удивился?",
+      "start": 73.127,
+      "end": 87.411
+    },
+    {
+      "id": 7,
+      "english": "Were we supposed to meet?",
+      "russian": "Мы должны были встретиться?",
+      "start": 87.411,
+      "end": 102.168
+    },
+    {
+      "id": 8,
+      "english": "Were they together?",
+      "russian": "Они были вместе?",
+      "start": 102.168,
+      "end": 115.992
+    },
+    {
+      "id": 9,
+      "english": "Were they on time?",
+      "russian": "Они пришли вовремя?",
+      "start": 115.992,
+      "end": 130.272
+    },
+    {
+      "id": 10,
+      "english": "Were they aware of it?",
+      "russian": "Они знали об этом?",
+      "start": 130.272,
+      "end": 144.471
+    },
+    {
+      "id": 11,
+      "english": "Were they expecting this?",
+      "russian": "Они этого ожидали?",
+      "start": 144.471,
+      "end": 159.193
+    },
+    {
+      "id": 12,
+      "english": "6.1 — Am I + Ving ?",
+      "russian": "название блока",
+      "start": 159.193,
+      "end": 175.177
+    },
+    {
+      "id": 13,
+      "english": "Am I interrupting?",
+      "russian": "Я мешаю?",
+      "start": 175.177,
+      "end": 189.458
+    },
+    {
+      "id": 14,
+      "english": "Am I talking too fast?",
+      "russian": "Я говорю слишком быстро?",
+      "start": 189.458,
+      "end": 204.462
+    },
+    {
+      "id": 15,
+      "english": "Am I doing this right?",
+      "russian": "Я правильно это делаю?",
+      "start": 204.462,
+      "end": 219.065
+    },
+    {
+      "id": 16,
+      "english": "Am I going in the right direction?",
+      "russian": "Я иду в правильном направлении?",
+      "start": 219.065,
+      "end": 234.41
+    },
+    {
+      "id": 17,
+      "english": "Am I making this worse?",
+      "russian": "Я только усугубляю ситуацию?",
+      "start": 234.41,
+      "end": 249.321
+    },
+    {
+      "id": 18,
+      "english": "Am I asking too much?",
+      "russian": "Я слишком много прошу?",
+      "start": 249.321,
+      "end": 264.218
+    },
+    {
+      "id": 19,
+      "english": "Am I being too sensitive?",
+      "russian": "Я слишком остро реагирую?",
+      "start": 264.218,
+      "end": 279.173
+    },
+    {
+      "id": 20,
+      "english": "Am I reading this right?",
+      "russian": "Я правильно это понимаю?",
+      "start": 279.173,
+      "end": 293.938
+    },
+    {
+      "id": 21,
+      "english": "Am I wasting your time?",
+      "russian": "Я трачу твоё время впустую?",
+      "start": 293.938,
+      "end": 308.99
+    },
+    {
+      "id": 22,
+      "english": "Am I missing the point?",
+      "russian": "Я не улавливаю суть?",
+      "start": 308.99,
+      "end": 323.51
+    },
+    {
+      "id": 23,
+      "english": "6.2 — Are you / we / they + Ving ?",
+      "russian": "название блока",
+      "start": 323.51,
+      "end": 340.863
+    },
+    {
+      "id": 24,
+      "english": "Are you coming?",
+      "russian": "Ты идёшь?",
+      "start": 340.863,
+      "end": 354.414
+    },
+    {
+      "id": 25,
+      "english": "Are you listening?",
+      "russian": "Ты слушаешь?",
+      "start": 354.414,
+      "end": 368.066
+    },
+    {
+      "id": 26,
+      "english": "Are you kidding me?",
+      "russian": "Ты шутишь?",
+      "start": 368.066,
+      "end": 381.776
+    },
+    {
+      "id": 27,
+      "english": "Are you saying that...?",
+      "russian": "Ты хочешь сказать, что...?",
+      "start": 381.776,
+      "end": 396.003
+    },
+    {
+      "id": 28,
+      "english": "Are you still working on it?",
+      "russian": "Ты ещё работаешь над этим?",
+      "start": 396.003,
+      "end": 410.634
+    },
+    {
+      "id": 29,
+      "english": "Are you waiting for someone?",
+      "russian": "Ты кого-то ждёшь?",
+      "start": 410.634,
+      "end": 425.331
+    },
+    {
+      "id": 30,
+      "english": "Are we talking about the same thing?",
+      "russian": "Мы говорим об одном и том же?",
+      "start": 425.331,
+      "end": 440.755
+    },
+    {
+      "id": 31,
+      "english": "Are we still on for tonight?",
+      "russian": "Мы всё ещё встречаемся сегодня вечером?",
+      "start": 440.755,
+      "end": 455.631
+    },
+    {
+      "id": 32,
+      "english": "Are they joining us?",
+      "russian": "Они присоединятся к нам?",
+      "start": 455.631,
+      "end": 469.812
+    },
+    {
+      "id": 33,
+      "english": "Are they still working on it?",
+      "russian": "Они всё ещё работают над этим?",
+      "start": 469.812,
+      "end": 477.24
+    }
+  ]
+}

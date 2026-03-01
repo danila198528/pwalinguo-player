@@ -1,0 +1,241 @@
+{
+  "id": "deck-63",
+  "deck_name": "grammar_questions 8",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions8.mp3",
+  "group": "grammar_questions",
+  "total_duration": 471.43,
+  "total_sentences": 33,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "9.3 — Where / When / Why / How + am / are / is ?",
+      "russian": "название блока",
+      "start": 0.0,
+      "end": 19.129
+    },
+    {
+      "id": 2,
+      "english": "Where are you?",
+      "russian": "Где ты?",
+      "start": 19.129,
+      "end": 32.831
+    },
+    {
+      "id": 3,
+      "english": "Where are we going?",
+      "russian": "Куда мы идём?",
+      "start": 32.831,
+      "end": 46.928
+    },
+    {
+      "id": 4,
+      "english": "Where is she?",
+      "russian": "Где она?",
+      "start": 46.928,
+      "end": 60.722
+    },
+    {
+      "id": 5,
+      "english": "When are you free?",
+      "russian": "Когда ты свободен?",
+      "start": 60.722,
+      "end": 74.954
+    },
+    {
+      "id": 6,
+      "english": "When is it happening?",
+      "russian": "Когда это происходит?",
+      "start": 74.954,
+      "end": 89.13
+    },
+    {
+      "id": 7,
+      "english": "Why are you upset?",
+      "russian": "Почему ты расстроен?",
+      "start": 89.13,
+      "end": 103.563
+    },
+    {
+      "id": 8,
+      "english": "Why is she crying?",
+      "russian": "Почему она плачет?",
+      "start": 103.563,
+      "end": 118.018
+    },
+    {
+      "id": 9,
+      "english": "How are you?",
+      "russian": "Как ты?",
+      "start": 118.018,
+      "end": 131.495
+    },
+    {
+      "id": 10,
+      "english": "How is it going?",
+      "russian": "Как дела?",
+      "start": 131.495,
+      "end": 145.592
+    },
+    {
+      "id": 11,
+      "english": "How are we supposed to do this?",
+      "russian": "Как нам это делать?",
+      "start": 145.592,
+      "end": 160.862
+    },
+    {
+      "id": 12,
+      "english": "9.4 — What have / has + subject + V3 ?",
+      "russian": "название блока",
+      "start": 160.862,
+      "end": 179.902
+    },
+    {
+      "id": 13,
+      "english": "What have you done?",
+      "russian": "Что ты наделал?",
+      "start": 179.902,
+      "end": 193.804
+    },
+    {
+      "id": 14,
+      "english": "What have you decided?",
+      "russian": "Что ты решил?",
+      "start": 193.804,
+      "end": 208.236
+    },
+    {
+      "id": 15,
+      "english": "What have they found out?",
+      "russian": "Что они узнали?",
+      "start": 208.236,
+      "end": 222.694
+    },
+    {
+      "id": 16,
+      "english": "What has she said?",
+      "russian": "Что она сказала?",
+      "start": 222.694,
+      "end": 236.879
+    },
+    {
+      "id": 17,
+      "english": "What has he done?",
+      "russian": "Что он сделал?",
+      "start": 236.879,
+      "end": 250.923
+    },
+    {
+      "id": 18,
+      "english": "What has changed?",
+      "russian": "Что изменилось?",
+      "start": 250.923,
+      "end": 265.005
+    },
+    {
+      "id": 19,
+      "english": "What have you been up to?",
+      "russian": "Чем ты занимался?",
+      "start": 265.005,
+      "end": 279.344
+    },
+    {
+      "id": 20,
+      "english": "What has happened?",
+      "russian": "Что случилось?",
+      "start": 279.344,
+      "end": 293.329
+    },
+    {
+      "id": 21,
+      "english": "What have we missed?",
+      "russian": "Что мы пропустили?",
+      "start": 293.329,
+      "end": 307.419
+    },
+    {
+      "id": 22,
+      "english": "What has she decided?",
+      "russian": "Что она решила?",
+      "start": 307.419,
+      "end": 321.978
+    },
+    {
+      "id": 23,
+      "english": "Subject questions",
+      "russian": "название блока",
+      "start": 321.978,
+      "end": 336.504
+    },
+    {
+      "id": 24,
+      "english": "Who knows?",
+      "russian": "Кто знает?",
+      "start": 336.504,
+      "end": 350.353
+    },
+    {
+      "id": 25,
+      "english": "Who works here?",
+      "russian": "Кто здесь работает?",
+      "start": 350.353,
+      "end": 364.473
+    },
+    {
+      "id": 26,
+      "english": "Who called?",
+      "russian": "Кто звонил?",
+      "start": 364.473,
+      "end": 378.099
+    },
+    {
+      "id": 27,
+      "english": "Who said that?",
+      "russian": "Кто это сказал?",
+      "start": 378.099,
+      "end": 391.938
+    },
+    {
+      "id": 28,
+      "english": "Who started this?",
+      "russian": "Кто это начал?",
+      "start": 391.938,
+      "end": 406.32
+    },
+    {
+      "id": 29,
+      "english": "Who wants to go first?",
+      "russian": "Кто хочет первым?",
+      "start": 406.32,
+      "end": 421.228
+    },
+    {
+      "id": 30,
+      "english": "Who needs help?",
+      "russian": "Кому нужна помощь?",
+      "start": 421.228,
+      "end": 435.232
+    },
+    {
+      "id": 31,
+      "english": "Who thinks this is a good idea?",
+      "russian": "Кто думает, что это хорошая идея?",
+      "start": 435.232,
+      "end": 450.463
+    },
+    {
+      "id": 32,
+      "english": "What happened?",
+      "russian": "Что случилось?",
+      "start": 450.463,
+      "end": 464.111
+    },
+    {
+      "id": 33,
+      "english": "What made you think that?",
+      "russian": "Что заставило тебя так думать?",
+      "start": 464.111,
+      "end": 471.432
+    }
+  ]
+}

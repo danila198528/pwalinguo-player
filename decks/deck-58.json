@@ -1,0 +1,241 @@
+{
+  "id": "deck-58",
+  "deck_name": "grammar_questions 3",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions3.mp3",
+  "group": "grammar_questions",
+  "total_duration": 467.06,
+  "total_sentences": 33,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "4.1 — Have I / you / we / they + V3 ?",
+      "russian": "название блока",
+      "start": 0.0,
+      "end": 17.97
+    },
+    {
+      "id": 2,
+      "english": "Have you eaten?",
+      "russian": "Ты уже поел?",
+      "start": 17.97,
+      "end": 31.725
+    },
+    {
+      "id": 3,
+      "english": "Have you seen this?",
+      "russian": "Ты это видел?",
+      "start": 31.725,
+      "end": 45.869
+    },
+    {
+      "id": 4,
+      "english": "Have you talked to her?",
+      "russian": "Ты с ней говорил?",
+      "start": 45.869,
+      "end": 59.994
+    },
+    {
+      "id": 5,
+      "english": "Have you made up your mind?",
+      "russian": "Ты уже решил?",
+      "start": 59.994,
+      "end": 74.811
+    },
+    {
+      "id": 6,
+      "english": "Have you heard from him?",
+      "russian": "Ты получал от него весточку?",
+      "start": 74.811,
+      "end": 89.083
+    },
+    {
+      "id": 7,
+      "english": "Have we met before?",
+      "russian": "Мы раньше встречались?",
+      "start": 89.083,
+      "end": 103.292
+    },
+    {
+      "id": 8,
+      "english": "Have they arrived?",
+      "russian": "Они уже приехали?",
+      "start": 103.292,
+      "end": 117.296
+    },
+    {
+      "id": 9,
+      "english": "Have they responded?",
+      "russian": "Они ответили?",
+      "start": 117.296,
+      "end": 131.481
+    },
+    {
+      "id": 10,
+      "english": "Have you been here before?",
+      "russian": "Ты здесь раньше бывал?",
+      "start": 131.481,
+      "end": 146.165
+    },
+    {
+      "id": 11,
+      "english": "Have you finished?",
+      "russian": "Ты закончил?",
+      "start": 146.165,
+      "end": 159.902
+    },
+    {
+      "id": 12,
+      "english": "4.2 — Has he / she / it + V3 ?",
+      "russian": "название блока",
+      "start": 159.902,
+      "end": 177.536
+    },
+    {
+      "id": 13,
+      "english": "Has she called?",
+      "russian": "Она звонила?",
+      "start": 177.536,
+      "end": 191.402
+    },
+    {
+      "id": 14,
+      "english": "Has he seen it?",
+      "russian": "Он это видел?",
+      "start": 191.402,
+      "end": 205.291
+    },
+    {
+      "id": 15,
+      "english": "Has it started?",
+      "russian": "Это уже началось?",
+      "start": 205.291,
+      "end": 219.345
+    },
+    {
+      "id": 16,
+      "english": "Has she responded?",
+      "russian": "Она ответила?",
+      "start": 219.345,
+      "end": 233.567
+    },
+    {
+      "id": 17,
+      "english": "Has he left?",
+      "russian": "Он ушёл?",
+      "start": 233.567,
+      "end": 247.316
+    },
+    {
+      "id": 18,
+      "english": "Has it changed?",
+      "russian": "Это изменилось?",
+      "start": 247.316,
+      "end": 261.225
+    },
+    {
+      "id": 19,
+      "english": "Has she eaten?",
+      "russian": "Она поела?",
+      "start": 261.225,
+      "end": 275.01
+    },
+    {
+      "id": 20,
+      "english": "Has he talked to you?",
+      "russian": "Он с тобой говорил?",
+      "start": 275.01,
+      "end": 289.145
+    },
+    {
+      "id": 21,
+      "english": "Has it worked?",
+      "russian": "Это сработало?",
+      "start": 289.145,
+      "end": 302.957
+    },
+    {
+      "id": 22,
+      "english": "Has she made a decision?",
+      "russian": "Она приняла решение?",
+      "start": 302.957,
+      "end": 317.432
+    },
+    {
+      "id": 23,
+      "english": "5.1 — Was he / she / it ... ?",
+      "russian": "название блока",
+      "start": 317.432,
+      "end": 333.721
+    },
+    {
+      "id": 24,
+      "english": "Was it worth it?",
+      "russian": "Оно того стоило?",
+      "start": 333.721,
+      "end": 347.57
+    },
+    {
+      "id": 25,
+      "english": "Was she there?",
+      "russian": "Она там была?",
+      "start": 347.57,
+      "end": 361.124
+    },
+    {
+      "id": 26,
+      "english": "Was he serious?",
+      "russian": "Он серьёзно?",
+      "start": 361.124,
+      "end": 375.266
+    },
+    {
+      "id": 27,
+      "english": "Was it a big deal?",
+      "russian": "Это было важно?",
+      "start": 375.266,
+      "end": 389.479
+    },
+    {
+      "id": 28,
+      "english": "Was she okay?",
+      "russian": "С ней всё было хорошо?",
+      "start": 389.479,
+      "end": 403.466
+    },
+    {
+      "id": 29,
+      "english": "Was he aware of it?",
+      "russian": "Он знал об этом?",
+      "start": 403.466,
+      "end": 417.626
+    },
+    {
+      "id": 30,
+      "english": "Was it your idea?",
+      "russian": "Это была твоя идея?",
+      "start": 417.626,
+      "end": 431.907
+    },
+    {
+      "id": 31,
+      "english": "Was she upset?",
+      "russian": "Она расстроилась?",
+      "start": 431.907,
+      "end": 446.016
+    },
+    {
+      "id": 32,
+      "english": "Was he on time?",
+      "russian": "Он пришёл вовремя?",
+      "start": 446.016,
+      "end": 460.274
+    },
+    {
+      "id": 33,
+      "english": "Was it that bad?",
+      "russian": "Всё было так плохо?",
+      "start": 460.274,
+      "end": 467.064
+    }
+  ]
+}

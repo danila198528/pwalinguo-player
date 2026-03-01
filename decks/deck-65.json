@@ -1,0 +1,241 @@
+{
+  "id": "deck-65",
+  "deck_name": "grammar_questions 10",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions10.mp3",
+  "group": "grammar_questions",
+  "total_duration": 481.03,
+  "total_sentences": 33,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "12.3 — Has / Have + subject + been + V3 (Perfect Passive)",
+      "russian": "название блока",
+      "start": 0.0,
+      "end": 22.053
+    },
+    {
+      "id": 2,
+      "english": "Has it been done?",
+      "russian": "Это уже сделано?",
+      "start": 22.053,
+      "end": 36.096
+    },
+    {
+      "id": 3,
+      "english": "Has it been fixed?",
+      "russian": "Это уже исправлено?",
+      "start": 36.096,
+      "end": 50.331
+    },
+    {
+      "id": 4,
+      "english": "Has it been confirmed?",
+      "russian": "Это уже подтверждено?",
+      "start": 50.331,
+      "end": 65.052
+    },
+    {
+      "id": 5,
+      "english": "Has she been informed?",
+      "russian": "Её уже уведомили?",
+      "start": 65.052,
+      "end": 79.602
+    },
+    {
+      "id": 6,
+      "english": "Has he been told?",
+      "russian": "Ему уже сказали?",
+      "start": 79.602,
+      "end": 93.885
+    },
+    {
+      "id": 7,
+      "english": "Have they been warned?",
+      "russian": "Их уже предупредили?",
+      "start": 93.885,
+      "end": 108.104
+    },
+    {
+      "id": 8,
+      "english": "Have we been invited?",
+      "russian": "Нас пригласили?",
+      "start": 108.104,
+      "end": 122.493
+    },
+    {
+      "id": 9,
+      "english": "Has it been decided?",
+      "russian": "Это уже решено?",
+      "start": 122.493,
+      "end": 136.876
+    },
+    {
+      "id": 10,
+      "english": "Has it been taken care of?",
+      "russian": "Об этом уже позаботились?",
+      "start": 136.876,
+      "end": 151.929
+    },
+    {
+      "id": 11,
+      "english": "Has everything been arranged?",
+      "russian": "Всё уже организовано?",
+      "start": 151.929,
+      "end": 166.852
+    },
+    {
+      "id": 12,
+      "english": "Tag questions",
+      "russian": "название блока",
+      "start": 166.852,
+      "end": 181.157
+    },
+    {
+      "id": 13,
+      "english": "She's coming, isn't she?",
+      "russian": "Она придёт, правда?",
+      "start": 181.157,
+      "end": 196.081
+    },
+    {
+      "id": 14,
+      "english": "You know him, don't you?",
+      "russian": "Ты его знаешь, правда?",
+      "start": 196.081,
+      "end": 210.915
+    },
+    {
+      "id": 15,
+      "english": "It's not a big deal, is it?",
+      "russian": "Это не так важно, правда?",
+      "start": 210.915,
+      "end": 226.287
+    },
+    {
+      "id": 16,
+      "english": "He didn't mean it, did he?",
+      "russian": "Он не имел этого в виду, правда?",
+      "start": 226.287,
+      "end": 241.129
+    },
+    {
+      "id": 17,
+      "english": "You've done this before, haven't you?",
+      "russian": "Ты это уже делал, правда?",
+      "start": 241.129,
+      "end": 256.756
+    },
+    {
+      "id": 18,
+      "english": "We're on the same page, aren't we?",
+      "russian": "Мы понимаем друг друга, правда?",
+      "start": 256.756,
+      "end": 272.817
+    },
+    {
+      "id": 19,
+      "english": "They won't find out, will they?",
+      "russian": "Они не узнают, правда?",
+      "start": 272.817,
+      "end": 287.871
+    },
+    {
+      "id": 20,
+      "english": "It worked, didn't it?",
+      "russian": "Это сработало, правда?",
+      "start": 287.871,
+      "end": 302.577
+    },
+    {
+      "id": 21,
+      "english": "You'll be there, won't you?",
+      "russian": "Ты будешь там, правда?",
+      "start": 302.577,
+      "end": 317.303
+    },
+    {
+      "id": 22,
+      "english": "She hasn't called, has she?",
+      "russian": "Она не звонила, правда?",
+      "start": 317.303,
+      "end": 332.39
+    },
+    {
+      "id": 23,
+      "english": "Negative questions",
+      "russian": "название блока",
+      "start": 332.39,
+      "end": 347.037
+    },
+    {
+      "id": 24,
+      "english": "Isn't it obvious?",
+      "russian": "Разве это не очевидно?",
+      "start": 347.037,
+      "end": 361.165
+    },
+    {
+      "id": 25,
+      "english": "Aren't you tired?",
+      "russian": "Ты разве не устал?",
+      "start": 361.165,
+      "end": 375.028
+    },
+    {
+      "id": 26,
+      "english": "Wasn't it amazing?",
+      "russian": "Разве это не было потрясающе?",
+      "start": 375.028,
+      "end": 389.319
+    },
+    {
+      "id": 27,
+      "english": "Don't you think so?",
+      "russian": "Ты разве не думаешь так же?",
+      "start": 389.319,
+      "end": 403.421
+    },
+    {
+      "id": 28,
+      "english": "Didn't you know?",
+      "russian": "Ты разве не знал?",
+      "start": 403.421,
+      "end": 417.212
+    },
+    {
+      "id": 29,
+      "english": "Doesn't it bother you?",
+      "russian": "Тебя разве это не беспокоит?",
+      "start": 417.212,
+      "end": 431.398
+    },
+    {
+      "id": 30,
+      "english": "Haven't we met before?",
+      "russian": "Разве мы раньше не встречались?",
+      "start": 431.398,
+      "end": 445.781
+    },
+    {
+      "id": 31,
+      "english": "Hasn't she called yet?",
+      "russian": "Она ещё не позвонила?",
+      "start": 445.781,
+      "end": 460.244
+    },
+    {
+      "id": 32,
+      "english": "Won't you join us?",
+      "russian": "Ты разве не присоединишься к нам?",
+      "start": 460.244,
+      "end": 474.42
+    },
+    {
+      "id": 33,
+      "english": "Can't you see?",
+      "russian": "Ты разве не видишь?",
+      "start": 474.42,
+      "end": 481.031
+    }
+  ]
+}

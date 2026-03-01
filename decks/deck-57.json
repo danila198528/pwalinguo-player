@@ -1,0 +1,241 @@
+{
+  "id": "deck-57",
+  "deck_name": "grammar_questions 2",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions2.mp3",
+  "group": "grammar_questions",
+  "total_duration": 469.42,
+  "total_sentences": 33,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "2.1 — Do I / you / we / they + V ?",
+      "russian": "название блока",
+      "start": 0.0,
+      "end": 17.595
+    },
+    {
+      "id": 2,
+      "english": "Do you know what I mean?",
+      "russian": "Ты понимаешь, что я имею в виду?",
+      "start": 17.595,
+      "end": 32.298
+    },
+    {
+      "id": 3,
+      "english": "Do you have a minute?",
+      "russian": "У тебя есть минутка?",
+      "start": 32.298,
+      "end": 46.337
+    },
+    {
+      "id": 4,
+      "english": "Do you want to grab a coffee?",
+      "russian": "Хочешь выпить кофе?",
+      "start": 46.337,
+      "end": 60.81
+    },
+    {
+      "id": 5,
+      "english": "Do you need help?",
+      "russian": "Тебе нужна помощь?",
+      "start": 60.81,
+      "end": 74.859
+    },
+    {
+      "id": 6,
+      "english": "Do you remember that?",
+      "russian": "Ты это помнишь?",
+      "start": 74.859,
+      "end": 88.986
+    },
+    {
+      "id": 7,
+      "english": "Do you think it's a good idea?",
+      "russian": "Ты думаешь, это хорошая идея?",
+      "start": 88.986,
+      "end": 103.947
+    },
+    {
+      "id": 8,
+      "english": "Do we have a deal?",
+      "russian": "У нас договорённость?",
+      "start": 103.947,
+      "end": 118.074
+    },
+    {
+      "id": 9,
+      "english": "Do we need to talk?",
+      "russian": "Нам нужно поговорить?",
+      "start": 118.074,
+      "end": 132.341
+    },
+    {
+      "id": 10,
+      "english": "Do they know about this?",
+      "russian": "Они знают об этом?",
+      "start": 132.341,
+      "end": 146.923
+    },
+    {
+      "id": 11,
+      "english": "Do they still work there?",
+      "russian": "Они всё ещё там работают?",
+      "start": 146.923,
+      "end": 161.475
+    },
+    {
+      "id": 12,
+      "english": "2.2 — Does he / she / it + V ?",
+      "russian": "название блока",
+      "start": 161.475,
+      "end": 178.489
+    },
+    {
+      "id": 13,
+      "english": "Does it make sense?",
+      "russian": "Это имеет смысл?",
+      "start": 178.489,
+      "end": 192.693
+    },
+    {
+      "id": 14,
+      "english": "Does she know about this?",
+      "russian": "Она знает об этом?",
+      "start": 192.693,
+      "end": 207.259
+    },
+    {
+      "id": 15,
+      "english": "Does he still work there?",
+      "russian": "Он всё ещё там работает?",
+      "start": 207.259,
+      "end": 221.727
+    },
+    {
+      "id": 16,
+      "english": "Does it matter?",
+      "russian": "Это важно?",
+      "start": 221.727,
+      "end": 235.346
+    },
+    {
+      "id": 17,
+      "english": "Does she have a minute?",
+      "russian": "У неё есть минутка?",
+      "start": 235.346,
+      "end": 249.474
+    },
+    {
+      "id": 18,
+      "english": "Does he know what he's doing?",
+      "russian": "Он понимает, что делает?",
+      "start": 249.474,
+      "end": 264.177
+    },
+    {
+      "id": 19,
+      "english": "Does it work?",
+      "russian": "Это работает?",
+      "start": 264.177,
+      "end": 277.826
+    },
+    {
+      "id": 20,
+      "english": "Does she want to come?",
+      "russian": "Она хочет прийти?",
+      "start": 277.826,
+      "end": 291.96
+    },
+    {
+      "id": 21,
+      "english": "Does he agree?",
+      "russian": "Он согласен?",
+      "start": 291.96,
+      "end": 305.662
+    },
+    {
+      "id": 22,
+      "english": "Does it hurt?",
+      "russian": "Это больно?",
+      "start": 305.662,
+      "end": 319.383
+    },
+    {
+      "id": 23,
+      "english": "3 — Did + subject + V ?",
+      "russian": "название блока",
+      "start": 319.383,
+      "end": 335.718
+    },
+    {
+      "id": 24,
+      "english": "Did you get my message?",
+      "russian": "Ты получил моё сообщение?",
+      "start": 335.718,
+      "end": 350.192
+    },
+    {
+      "id": 25,
+      "english": "Did you sleep well?",
+      "russian": "Ты хорошо спал?",
+      "start": 350.192,
+      "end": 364.278
+    },
+    {
+      "id": 26,
+      "english": "Did you hear that?",
+      "russian": "Ты это слышал?",
+      "start": 364.278,
+      "end": 378.188
+    },
+    {
+      "id": 27,
+      "english": "Did you see that?",
+      "russian": "Ты это видел?",
+      "start": 378.188,
+      "end": 392.228
+    },
+    {
+      "id": 28,
+      "english": "Did you talk to him?",
+      "russian": "Ты с ним говорил?",
+      "start": 392.228,
+      "end": 406.4
+    },
+    {
+      "id": 29,
+      "english": "Did you figure it out?",
+      "russian": "Ты разобрался?",
+      "start": 406.4,
+      "end": 420.788
+    },
+    {
+      "id": 30,
+      "english": "Did you eat already?",
+      "russian": "Ты уже поел?",
+      "start": 420.788,
+      "end": 434.905
+    },
+    {
+      "id": 31,
+      "english": "Did it work?",
+      "russian": "Это сработало?",
+      "start": 434.905,
+      "end": 448.593
+    },
+    {
+      "id": 32,
+      "english": "Did she say anything?",
+      "russian": "Она что-нибудь сказала?",
+      "start": 448.593,
+      "end": 462.922
+    },
+    {
+      "id": 33,
+      "english": "Did he show up?",
+      "russian": "Он появился?",
+      "start": 462.922,
+      "end": 469.415
+    }
+  ]
+}

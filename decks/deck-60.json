@@ -1,0 +1,241 @@
+{
+  "id": "deck-60",
+  "deck_name": "grammar_questions 5",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions5.mp3",
+  "group": "grammar_questions",
+  "total_duration": 471.58,
+  "total_sentences": 33,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "6.3 — Is he / she / it + Ving ?",
+      "russian": "название блока",
+      "start": 0.0,
+      "end": 17.518
+    },
+    {
+      "id": 2,
+      "english": "Is she coming?",
+      "russian": "Она идёт?",
+      "start": 17.518,
+      "end": 31.162
+    },
+    {
+      "id": 3,
+      "english": "Is he joking?",
+      "russian": "Он шутит?",
+      "start": 31.162,
+      "end": 45.0
+    },
+    {
+      "id": 4,
+      "english": "Is it raining?",
+      "russian": "Идёт дождь?",
+      "start": 45.0,
+      "end": 58.838
+    },
+    {
+      "id": 5,
+      "english": "Is she still sleeping?",
+      "russian": "Она ещё спит?",
+      "start": 58.838,
+      "end": 73.25
+    },
+    {
+      "id": 6,
+      "english": "Is he working today?",
+      "russian": "Он сегодня работает?",
+      "start": 73.25,
+      "end": 87.747
+    },
+    {
+      "id": 7,
+      "english": "Is it getting better?",
+      "russian": "Становится лучше?",
+      "start": 87.747,
+      "end": 101.859
+    },
+    {
+      "id": 8,
+      "english": "Is she feeling okay?",
+      "russian": "Она нормально себя чувствует?",
+      "start": 101.859,
+      "end": 116.358
+    },
+    {
+      "id": 9,
+      "english": "Is he still talking?",
+      "russian": "Он всё ещё говорит?",
+      "start": 116.358,
+      "end": 130.677
+    },
+    {
+      "id": 10,
+      "english": "Is it working?",
+      "russian": "Это работает?",
+      "start": 130.677,
+      "end": 144.415
+    },
+    {
+      "id": 11,
+      "english": "Is it making sense?",
+      "russian": "Это понятно?",
+      "start": 144.415,
+      "end": 158.858
+    },
+    {
+      "id": 12,
+      "english": "7.1 — Was he / she / it + Ving ?",
+      "russian": "название блока",
+      "start": 158.858,
+      "end": 175.711
+    },
+    {
+      "id": 13,
+      "english": "Was she crying?",
+      "russian": "Она плакала?",
+      "start": 175.711,
+      "end": 189.56
+    },
+    {
+      "id": 14,
+      "english": "Was he joking?",
+      "russian": "Он шутил?",
+      "start": 189.56,
+      "end": 203.415
+    },
+    {
+      "id": 15,
+      "english": "Was it working?",
+      "russian": "Это работало?",
+      "start": 203.415,
+      "end": 217.154
+    },
+    {
+      "id": 16,
+      "english": "Was she waiting for you?",
+      "russian": "Она тебя ждала?",
+      "start": 217.154,
+      "end": 231.542
+    },
+    {
+      "id": 17,
+      "english": "Was he trying to say something?",
+      "russian": "Он пытался что-то сказать?",
+      "start": 231.542,
+      "end": 246.734
+    },
+    {
+      "id": 18,
+      "english": "Was it getting worse?",
+      "russian": "Становилось хуже?",
+      "start": 246.734,
+      "end": 261.153
+    },
+    {
+      "id": 19,
+      "english": "Was she feeling okay?",
+      "russian": "Она нормально себя чувствовала?",
+      "start": 261.153,
+      "end": 275.786
+    },
+    {
+      "id": 20,
+      "english": "Was he listening?",
+      "russian": "Он слушал?",
+      "start": 275.786,
+      "end": 289.436
+    },
+    {
+      "id": 21,
+      "english": "Was it raining?",
+      "russian": "Шёл дождь?",
+      "start": 289.436,
+      "end": 303.273
+    },
+    {
+      "id": 22,
+      "english": "Was she expecting you?",
+      "russian": "Она тебя ждала?",
+      "start": 303.273,
+      "end": 317.655
+    },
+    {
+      "id": 23,
+      "english": "7.2 — Were you / we / they + Ving ?",
+      "russian": "название блока",
+      "start": 317.655,
+      "end": 334.944
+    },
+    {
+      "id": 24,
+      "english": "Were you sleeping?",
+      "russian": "Ты спал?",
+      "start": 334.944,
+      "end": 348.814
+    },
+    {
+      "id": 25,
+      "english": "Were you waiting long?",
+      "russian": "Ты долго ждал?",
+      "start": 348.814,
+      "end": 363.288
+    },
+    {
+      "id": 26,
+      "english": "Were you listening?",
+      "russian": "Ты слушал?",
+      "start": 363.288,
+      "end": 377.033
+    },
+    {
+      "id": 27,
+      "english": "Were you expecting this?",
+      "russian": "Ты этого ожидал?",
+      "start": 377.033,
+      "end": 391.706
+    },
+    {
+      "id": 28,
+      "english": "Were you trying to reach me?",
+      "russian": "Ты пытался до меня дозвониться?",
+      "start": 391.706,
+      "end": 406.512
+    },
+    {
+      "id": 29,
+      "english": "Were we supposed to do that?",
+      "russian": "Мы должны были это делать?",
+      "start": 406.512,
+      "end": 421.502
+    },
+    {
+      "id": 30,
+      "english": "Were they working on it?",
+      "russian": "Они работали над этим?",
+      "start": 421.502,
+      "end": 435.856
+    },
+    {
+      "id": 31,
+      "english": "Were they arguing?",
+      "russian": "Они спорили?",
+      "start": 435.856,
+      "end": 449.784
+    },
+    {
+      "id": 32,
+      "english": "Were they expecting us?",
+      "russian": "Они нас ждали?",
+      "start": 449.784,
+      "end": 464.398
+    },
+    {
+      "id": 33,
+      "english": "Were they trying to help?",
+      "russian": "Они пытались помочь?",
+      "start": 464.398,
+      "end": 471.576
+    }
+  ]
+}

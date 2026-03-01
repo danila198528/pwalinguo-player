@@ -1,0 +1,304 @@
+{
+  "id": "deck-66",
+  "deck_name": "grammar_questions 1.0",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions11.mp3",
+  "group": "grammar_questions",
+  "total_duration": 581.42,
+  "total_sentences": 42,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "0.1 — To Be — Statement → Question",
+      "russian": "название блока",
+      "start": 0.0,
+      "end": 17.934
+    },
+    {
+      "id": 2,
+      "english": "She is home.",
+      "russian": "Она дома.",
+      "start": 17.934,
+      "end": 31.813
+    },
+    {
+      "id": 3,
+      "english": "Is she home?",
+      "russian": "Она дома?",
+      "start": 31.813,
+      "end": 45.533
+    },
+    {
+      "id": 4,
+      "english": "He is ready.",
+      "russian": "Он готов.",
+      "start": 45.533,
+      "end": 59.229
+    },
+    {
+      "id": 5,
+      "english": "Is he ready?",
+      "russian": "Он готов?",
+      "start": 59.229,
+      "end": 72.738
+    },
+    {
+      "id": 6,
+      "english": "They are here.",
+      "russian": "Они здесь.",
+      "start": 72.738,
+      "end": 86.482
+    },
+    {
+      "id": 7,
+      "english": "Are they here?",
+      "russian": "Они здесь?",
+      "start": 86.482,
+      "end": 100.196
+    },
+    {
+      "id": 8,
+      "english": "It is working.",
+      "russian": "Это работает.",
+      "start": 100.196,
+      "end": 114.189
+    },
+    {
+      "id": 9,
+      "english": "Is it working?",
+      "russian": "Это работает?",
+      "start": 114.189,
+      "end": 127.941
+    },
+    {
+      "id": 10,
+      "english": "You are okay.",
+      "russian": "Ты в порядке.",
+      "start": 127.941,
+      "end": 142.117
+    },
+    {
+      "id": 11,
+      "english": "Are you okay?",
+      "russian": "Ты в порядке?",
+      "start": 142.117,
+      "end": 156.11
+    },
+    {
+      "id": 12,
+      "english": "We are late.",
+      "russian": "Мы опаздываем.",
+      "start": 156.11,
+      "end": 169.808
+    },
+    {
+      "id": 13,
+      "english": "Are we late?",
+      "russian": "Мы опаздываем?",
+      "start": 169.808,
+      "end": 183.48
+    },
+    {
+      "id": 14,
+      "english": "She is coming.",
+      "russian": "Она идёт.",
+      "start": 183.48,
+      "end": 197.302
+    },
+    {
+      "id": 15,
+      "english": "Is she coming?",
+      "russian": "Она идёт?",
+      "start": 197.302,
+      "end": 210.932
+    },
+    {
+      "id": 16,
+      "english": "It is done.",
+      "russian": "Это готово.",
+      "start": 210.932,
+      "end": 224.666
+    },
+    {
+      "id": 17,
+      "english": "Is it done?",
+      "russian": "Это готово?",
+      "start": 224.666,
+      "end": 238.248
+    },
+    {
+      "id": 18,
+      "english": "He is serious.",
+      "russian": "Он серьёзно.",
+      "start": 238.248,
+      "end": 252.574
+    },
+    {
+      "id": 19,
+      "english": "Is he serious?",
+      "russian": "Он серьёзно?",
+      "start": 252.574,
+      "end": 266.705
+    },
+    {
+      "id": 20,
+      "english": "You are sure.",
+      "russian": "Ты уверен.",
+      "start": 266.705,
+      "end": 280.222
+    },
+    {
+      "id": 21,
+      "english": "Are you sure?",
+      "russian": "Ты уверен?",
+      "start": 280.222,
+      "end": 293.765
+    },
+    {
+      "id": 22,
+      "english": "0.2 — Modals — Statement → Question",
+      "russian": "название блока",
+      "start": 293.765,
+      "end": 312.57
+    },
+    {
+      "id": 23,
+      "english": "You can do it.",
+      "russian": "Ты можешь это сделать.",
+      "start": 312.57,
+      "end": 326.402
+    },
+    {
+      "id": 24,
+      "english": "Can you do it?",
+      "russian": "Ты можешь это сделать?",
+      "start": 326.402,
+      "end": 340.12
+    },
+    {
+      "id": 25,
+      "english": "She can help.",
+      "russian": "Она может помочь.",
+      "start": 340.12,
+      "end": 353.862
+    },
+    {
+      "id": 26,
+      "english": "Can she help?",
+      "russian": "Она может помочь?",
+      "start": 353.862,
+      "end": 367.628
+    },
+    {
+      "id": 27,
+      "english": "You will come.",
+      "russian": "Ты придёшь.",
+      "start": 367.628,
+      "end": 381.32
+    },
+    {
+      "id": 28,
+      "english": "Will you come?",
+      "russian": "Ты придёшь?",
+      "start": 381.32,
+      "end": 394.938
+    },
+    {
+      "id": 29,
+      "english": "It will work.",
+      "russian": "Это сработает.",
+      "start": 394.938,
+      "end": 408.725
+    },
+    {
+      "id": 30,
+      "english": "Will it work?",
+      "russian": "Это сработает?",
+      "start": 408.725,
+      "end": 422.43
+    },
+    {
+      "id": 31,
+      "english": "I should go.",
+      "russian": "Мне надо идти.",
+      "start": 422.43,
+      "end": 436.017
+    },
+    {
+      "id": 32,
+      "english": "Should I go?",
+      "russian": "Мне надо идти?",
+      "start": 436.017,
+      "end": 449.635
+    },
+    {
+      "id": 33,
+      "english": "He should know.",
+      "russian": "Он должен знать.",
+      "start": 449.635,
+      "end": 463.372
+    },
+    {
+      "id": 34,
+      "english": "Should he know?",
+      "russian": "Он должен знать?",
+      "start": 463.372,
+      "end": 476.958
+    },
+    {
+      "id": 35,
+      "english": "You could try.",
+      "russian": "Ты мог бы попробовать.",
+      "start": 476.958,
+      "end": 490.805
+    },
+    {
+      "id": 36,
+      "english": "Could you try?",
+      "russian": "Ты мог бы попробовать?",
+      "start": 490.805,
+      "end": 504.668
+    },
+    {
+      "id": 37,
+      "english": "We can talk.",
+      "russian": "Мы можем поговорить.",
+      "start": 504.668,
+      "end": 518.642
+    },
+    {
+      "id": 38,
+      "english": "Can we talk?",
+      "russian": "Мы можем поговорить?",
+      "start": 518.642,
+      "end": 532.564
+    },
+    {
+      "id": 39,
+      "english": "You will be okay.",
+      "russian": "Ты будешь в порядке.",
+      "start": 532.564,
+      "end": 546.813
+    },
+    {
+      "id": 40,
+      "english": "Will you be okay?",
+      "russian": "Ты будешь в порядке?",
+      "start": 546.813,
+      "end": 561.067
+    },
+    {
+      "id": 41,
+      "english": "She would mind.",
+      "russian": "Ей было бы важно.",
+      "start": 561.067,
+      "end": 574.957
+    },
+    {
+      "id": 42,
+      "english": "Would she mind?",
+      "russian": "Ей было бы важно?",
+      "start": 574.957,
+      "end": 581.423
+    }
+  ]
+}
