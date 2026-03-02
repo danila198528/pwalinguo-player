@@ -423,8 +423,54 @@
     "total_duration": 581.42,
     "total_sentences": 42,
     "deck_url": "./decks/deck-66.json"
+  },
+{
+    "id": "deck-67",
+    "deck_name": "phrasal_verbs 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs1.mp3",
+    "group": "phrasal verbs",
+    "total_duration": 614.54,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-67.json"
+  },
+  {
+    "id": "deck-68",
+    "deck_name": "phrasal_verbs 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs2.mp3",
+    "group": "phrasal verbs",
+    "total_duration": 615.36,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-68.json"
+  },
+  {
+    "id": "deck-69",
+    "deck_name": "phrasal_verbs 3",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs3.mp3",
+    "group": "phrasal verbs",
+    "total_duration": 619.25,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-69.json"
+  },
+  {
+    "id": "deck-70",
+    "deck_name": "phrasal_verbs 4",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs4.mp3",
+    "group": "phrasal verbs",
+    "total_duration": 620.93,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-70.json"
+  },
+  {
+    "id": "deck-71",
+    "deck_name": "phrasal_verbs 5",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs5.mp3",
+    "group": "phrasal verbs",
+    "total_duration": 623.47,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-71.json"
   }
 ]
+
 
 
 

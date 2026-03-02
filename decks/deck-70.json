@@ -1,0 +1,290 @@
+{
+  "id": "deck-70",
+  "deck_name": "phrasal_verbs 4",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs4.mp3",
+  "group": "phrasal verbs",
+  "total_duration": 620.93,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Time to · dust off your old skills.",
+      "russian": "Пора · стряхнуть пыль со старых навыков.",
+      "start": 0.0,
+      "end": 16.278
+    },
+    {
+      "id": 2,
+      "english": "I can't · figure out what he wants.",
+      "russian": "Я не могу · разобраться, чего он хочет.",
+      "start": 16.278,
+      "end": 31.752
+    },
+    {
+      "id": 3,
+      "english": "I need to · catch up on sleep.",
+      "russian": "Мне нужно · наверстать сон.",
+      "start": 31.752,
+      "end": 46.95
+    },
+    {
+      "id": 4,
+      "english": "She · told him off in front of everyone.",
+      "russian": "Она · отчитала его при всех.",
+      "start": 46.95,
+      "end": 62.917
+    },
+    {
+      "id": 5,
+      "english": "Stop · faffing about and decide already.",
+      "russian": "Хватит · бездельничать — решай уже.",
+      "start": 62.917,
+      "end": 79.352
+    },
+    {
+      "id": 6,
+      "english": "Her positive attitude · rubs off on everyone.",
+      "russian": "Её позитивный настрой · передаётся всем.",
+      "start": 79.352,
+      "end": 95.979
+    },
+    {
+      "id": 7,
+      "english": "Time really · goes by fast.",
+      "russian": "Время · проходит очень быстро.",
+      "start": 95.979,
+      "end": 111.539
+    },
+    {
+      "id": 8,
+      "english": "We had to · cut back on spending.",
+      "russian": "Нам пришлось · сократить расходы.",
+      "start": 111.539,
+      "end": 127.141
+    },
+    {
+      "id": 9,
+      "english": "Don't · let me down this time.",
+      "russian": "На этот раз не · подводи меня.",
+      "start": 127.141,
+      "end": 142.19
+    },
+    {
+      "id": 10,
+      "english": "We need to · sort this out today.",
+      "russian": "Нам нужно · разобраться с этим сегодня.",
+      "start": 142.19,
+      "end": 157.613
+    },
+    {
+      "id": 11,
+      "english": "I · look forward to the weekend.",
+      "russian": "Я · жду выходных с нетерпением.",
+      "start": 157.613,
+      "end": 172.624
+    },
+    {
+      "id": 12,
+      "english": "All that hard work · paid off.",
+      "russian": "Весь этот труд · окупился.",
+      "start": 172.624,
+      "end": 187.972
+    },
+    {
+      "id": 13,
+      "english": "He · turned out to be right.",
+      "russian": "Он · оказался прав.",
+      "start": 187.972,
+      "end": 202.813
+    },
+    {
+      "id": 14,
+      "english": "Something · came up at the last minute.",
+      "russian": "Кое-что · возникло в последний момент.",
+      "start": 202.813,
+      "end": 218.453
+    },
+    {
+      "id": 15,
+      "english": "She · insisted on paying for dinner.",
+      "russian": "Она · настояла на том, чтобы заплатить.",
+      "start": 218.453,
+      "end": 234.002
+    },
+    {
+      "id": 16,
+      "english": "I · take back what I said earlier.",
+      "russian": "Я · беру назад то, что сказал.",
+      "start": 234.002,
+      "end": 249.516
+    },
+    {
+      "id": 17,
+      "english": "She · turned in her assignment on time.",
+      "russian": "Она · сдала задание вовремя.",
+      "start": 249.516,
+      "end": 265.683
+    },
+    {
+      "id": 18,
+      "english": "He just · brushed off all the criticism.",
+      "russian": "Он просто · отмахнулся от всей критики.",
+      "start": 265.683,
+      "end": 281.659
+    },
+    {
+      "id": 19,
+      "english": "· Cheer up — it could be worse.",
+      "russian": "· Приободрись — могло быть хуже.",
+      "start": 281.659,
+      "end": 297.201
+    },
+    {
+      "id": 20,
+      "english": "This song · grows on you over time.",
+      "russian": "Эта песня · начинает нравиться со временем.",
+      "start": 297.201,
+      "end": 313.024
+    },
+    {
+      "id": 21,
+      "english": "He · dusted off his old guitar.",
+      "russian": "Он · стряхнул пыль со своей старой гитары.",
+      "start": 313.024,
+      "end": 328.342
+    },
+    {
+      "id": 22,
+      "english": "We'll · figure it out as we go.",
+      "russian": "Мы · разберёмся по ходу.",
+      "start": 328.342,
+      "end": 343.679
+    },
+    {
+      "id": 23,
+      "english": "She · caught up on all her work.",
+      "russian": "Она · наверстала всю свою работу.",
+      "start": 343.679,
+      "end": 359.212
+    },
+    {
+      "id": 24,
+      "english": "He got · told off by the boss.",
+      "russian": "Его · отчитал начальник.",
+      "start": 359.212,
+      "end": 374.644
+    },
+    {
+      "id": 25,
+      "english": "We · faffed about all morning.",
+      "russian": "Мы · бездельничали всё утро.",
+      "start": 374.644,
+      "end": 390.273
+    },
+    {
+      "id": 26,
+      "english": "His confidence started to · rub off on me.",
+      "russian": "Его уверенность начала · передаваться мне.",
+      "start": 390.273,
+      "end": 406.795
+    },
+    {
+      "id": 27,
+      "english": "Three years · went by without any contact.",
+      "russian": "Три года · прошло без какой-либо связи.",
+      "start": 406.795,
+      "end": 423.716
+    },
+    {
+      "id": 28,
+      "english": "The company · cut back on staff last year.",
+      "russian": "Компания · сократила персонал в прошлом году.",
+      "start": 423.716,
+      "end": 440.432
+    },
+    {
+      "id": 29,
+      "english": "They · let me down completely.",
+      "russian": "Они · полностью подвели меня.",
+      "start": 440.432,
+      "end": 455.328
+    },
+    {
+      "id": 30,
+      "english": "Can you · sort out the schedule?",
+      "russian": "Можешь · разобраться с расписанием?",
+      "start": 455.328,
+      "end": 470.212
+    },
+    {
+      "id": 31,
+      "english": "She's · looking forward to the trip.",
+      "russian": "Она · ждёт поездки с нетерпением.",
+      "start": 470.212,
+      "end": 485.441
+    },
+    {
+      "id": 32,
+      "english": "Did the investment · pay off?",
+      "russian": "Инвестиция · окупилась?",
+      "start": 485.441,
+      "end": 500.493
+    },
+    {
+      "id": 33,
+      "english": "It all · turned out better than expected.",
+      "russian": "Всё · оказалось лучше, чем ожидалось.",
+      "start": 500.493,
+      "end": 516.478
+    },
+    {
+      "id": 34,
+      "english": "A great opportunity · came up yesterday.",
+      "russian": "Вчера · возникла отличная возможность.",
+      "start": 516.478,
+      "end": 533.047
+    },
+    {
+      "id": 35,
+      "english": "He · insists on doing everything himself.",
+      "russian": "Он · настаивает на том, чтобы делать всё сам.",
+      "start": 533.047,
+      "end": 549.82
+    },
+    {
+      "id": 36,
+      "english": "You should · take back that comment.",
+      "russian": "Тебе стоит · взять назад тот комментарий.",
+      "start": 549.82,
+      "end": 564.955
+    },
+    {
+      "id": 37,
+      "english": "Did everyone · turn in their reports?",
+      "russian": "Все · сдали свои отчёты?",
+      "start": 564.955,
+      "end": 580.703
+    },
+    {
+      "id": 38,
+      "english": "She · brushed off my concerns completely.",
+      "russian": "Она полностью · отмахнулась от моих опасений.",
+      "start": 580.703,
+      "end": 596.978
+    },
+    {
+      "id": 39,
+      "english": "She · cheered up after talking to him.",
+      "russian": "Она · приободрилась после разговора с ним.",
+      "start": 596.978,
+      "end": 612.708
+    },
+    {
+      "id": 40,
+      "english": "He · grew on me after a while.",
+      "russian": "Он · начал нравиться мне через некоторое время.",
+      "start": 612.708,
+      "end": 620.927
+    }
+  ]
+}

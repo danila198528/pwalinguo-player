@@ -1,0 +1,290 @@
+{
+  "id": "deck-68",
+  "deck_name": "phrasal_verbs 2",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs2.mp3",
+  "group": "phrasal verbs",
+  "total_duration": 615.36,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I'll · pay you back next week.",
+      "russian": "Я · верну тебе деньги на следующей неделе.",
+      "start": 0.0,
+      "end": 15.222
+    },
+    {
+      "id": 2,
+      "english": "I'm · looking for my keys again.",
+      "russian": "Я снова · ищу свои ключи.",
+      "start": 15.222,
+      "end": 30.228
+    },
+    {
+      "id": 3,
+      "english": "· Drop by whenever you're in the area.",
+      "russian": "· Заскочи, когда будешь рядом.",
+      "start": 30.228,
+      "end": 45.892
+    },
+    {
+      "id": 4,
+      "english": "Can you · drop me off at the station?",
+      "russian": "Можешь · подбросить меня до станции?",
+      "start": 45.892,
+      "end": 61.137
+    },
+    {
+      "id": 5,
+      "english": "I · bumped into her at the supermarket.",
+      "russian": "Я · столкнулся с ней в супермаркете.",
+      "start": 61.137,
+      "end": 77.446
+    },
+    {
+      "id": 6,
+      "english": "My car · broke down on the highway.",
+      "russian": "Моя машина · сломалась на шоссе.",
+      "start": 77.446,
+      "end": 93.49
+    },
+    {
+      "id": 7,
+      "english": "She · came up with a brilliant idea.",
+      "russian": "Она · придумала блестящую идею.",
+      "start": 93.49,
+      "end": 109.46
+    },
+    {
+      "id": 8,
+      "english": "Don't · let him in the house.",
+      "russian": "Не · впускай его в дом.",
+      "start": 109.46,
+      "end": 124.25
+    },
+    {
+      "id": 9,
+      "english": "I can't · get up before 7.",
+      "russian": "Я не могу · вставать раньше 7.",
+      "start": 124.25,
+      "end": 139.455
+    },
+    {
+      "id": 10,
+      "english": "Stop · putting it off and just do it.",
+      "russian": "Хватит · откладывать — просто сделай это.",
+      "start": 139.455,
+      "end": 155.232
+    },
+    {
+      "id": 11,
+      "english": "She · fell down and hurt her knee.",
+      "russian": "Она · упала и ударила колено.",
+      "start": 155.232,
+      "end": 170.841
+    },
+    {
+      "id": 12,
+      "english": "I'll · check on him in an hour.",
+      "russian": "Я · проверю его через час.",
+      "start": 170.841,
+      "end": 185.664
+    },
+    {
+      "id": 13,
+      "english": "· Ease up on him — he's trying.",
+      "russian": "· Полегче с ним — он старается.",
+      "start": 185.664,
+      "end": 201.522
+    },
+    {
+      "id": 14,
+      "english": "She · brought up three kids alone.",
+      "russian": "Она · воспитала троих детей одна.",
+      "start": 201.522,
+      "end": 217.32
+    },
+    {
+      "id": 15,
+      "english": "Can you · look after the dog this weekend?",
+      "russian": "Можешь · присмотреть за собакой на выходных?",
+      "start": 217.32,
+      "end": 232.996
+    },
+    {
+      "id": 16,
+      "english": "· Come in, the door's open.",
+      "russian": "· Войди, дверь открыта.",
+      "start": 232.996,
+      "end": 248.308
+    },
+    {
+      "id": 17,
+      "english": "He · gave away everything he owned.",
+      "russian": "Он · отдал всё, что у него было.",
+      "start": 248.308,
+      "end": 263.933
+    },
+    {
+      "id": 18,
+      "english": "When are you · coming back?",
+      "russian": "Когда ты · вернёшься?",
+      "start": 263.933,
+      "end": 278.476
+    },
+    {
+      "id": 19,
+      "english": "We · get along really well.",
+      "russian": "Мы · очень хорошо ладим.",
+      "start": 278.476,
+      "end": 293.438
+    },
+    {
+      "id": 20,
+      "english": "· Watch out — the floor is wet.",
+      "russian": "· Осторожно — пол мокрый.",
+      "start": 293.438,
+      "end": 309.026
+    },
+    {
+      "id": 21,
+      "english": "He never · pays back what he owes.",
+      "russian": "Он никогда не · возвращает долги.",
+      "start": 309.026,
+      "end": 324.831
+    },
+    {
+      "id": 22,
+      "english": "What exactly are you · looking for?",
+      "russian": "Что именно ты · ищешь?",
+      "start": 324.831,
+      "end": 340.165
+    },
+    {
+      "id": 23,
+      "english": "She · dropped by without calling first.",
+      "russian": "Она · заскочила без предупреждения.",
+      "start": 340.165,
+      "end": 356.077
+    },
+    {
+      "id": 24,
+      "english": "I'll · drop it off on my way.",
+      "russian": "Я · подброшу это по дороге.",
+      "start": 356.077,
+      "end": 371.257
+    },
+    {
+      "id": 25,
+      "english": "You won't guess who I · bumped into.",
+      "russian": "Ты не угадаешь, с кем я · столкнулся.",
+      "start": 371.257,
+      "end": 386.754
+    },
+    {
+      "id": 26,
+      "english": "The system · broke down right before launch.",
+      "russian": "Система · сломалась прямо перед запуском.",
+      "start": 386.754,
+      "end": 403.514
+    },
+    {
+      "id": 27,
+      "english": "Can you · come up with a better plan?",
+      "russian": "Можешь · придумать план получше?",
+      "start": 403.514,
+      "end": 418.674
+    },
+    {
+      "id": 28,
+      "english": "She · let me in through the back door.",
+      "russian": "Она · впустила меня через заднюю дверь.",
+      "start": 418.674,
+      "end": 434.255
+    },
+    {
+      "id": 29,
+      "english": "What time did you · get up today?",
+      "russian": "В котором часу ты сегодня · встал?",
+      "start": 434.255,
+      "end": 449.553
+    },
+    {
+      "id": 30,
+      "english": "The meeting got · put off until Friday.",
+      "russian": "Встречу · отложили до пятницы.",
+      "start": 449.553,
+      "end": 465.705
+    },
+    {
+      "id": 31,
+      "english": "He · fell down the stairs this morning.",
+      "russian": "Он · упал с лестницы этим утром.",
+      "start": 465.705,
+      "end": 481.683
+    },
+    {
+      "id": 32,
+      "english": "Can you · check on the kids?",
+      "russian": "Можешь · проверить детей?",
+      "start": 481.683,
+      "end": 496.464
+    },
+    {
+      "id": 33,
+      "english": "· Ease up on me a little, please.",
+      "russian": "· Полегче со мной, пожалуйста.",
+      "start": 496.464,
+      "end": 512.227
+    },
+    {
+      "id": 34,
+      "english": "He was · brought up in a strict family.",
+      "russian": "Он был · воспитан в строгой семье.",
+      "start": 512.227,
+      "end": 528.048
+    },
+    {
+      "id": 35,
+      "english": "She · looks after her elderly parents.",
+      "russian": "Она · присматривает за пожилыми родителями.",
+      "start": 528.048,
+      "end": 544.5
+    },
+    {
+      "id": 36,
+      "english": "Just · come in and sit down.",
+      "russian": "Просто · войди и садись.",
+      "start": 544.5,
+      "end": 559.525
+    },
+    {
+      "id": 37,
+      "english": "She · gives away clothes she doesn't wear.",
+      "russian": "Она · отдаёт одежду, которую не носит.",
+      "start": 559.525,
+      "end": 575.627
+    },
+    {
+      "id": 38,
+      "english": "Old habits always · come back eventually.",
+      "russian": "Старые привычки всегда · возвращаются.",
+      "start": 575.627,
+      "end": 591.917
+    },
+    {
+      "id": 39,
+      "english": "Do you · get along with your boss?",
+      "russian": "Ты · ладишь со своим боссом?",
+      "start": 591.917,
+      "end": 607.058
+    },
+    {
+      "id": 40,
+      "english": "· Watch out — there's a car coming.",
+      "russian": "· Осторожно — машина едет.",
+      "start": 607.058,
+      "end": 615.36
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "deck-71",
+  "deck_name": "phrasal_verbs 5",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs5.mp3",
+  "group": "phrasal verbs",
+  "total_duration": 623.47,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "It's time to · move on.",
+      "russian": "Пора · двигаться дальше.",
+      "start": 0.0,
+      "end": 14.944
+    },
+    {
+      "id": 2,
+      "english": "She · set out to prove everyone wrong.",
+      "russian": "Она · поставила цель доказать всем неправоту.",
+      "start": 14.944,
+      "end": 31.153
+    },
+    {
+      "id": 3,
+      "english": "The police · ran him in for questioning.",
+      "russian": "Полиция · задержала его для допроса.",
+      "start": 31.153,
+      "end": 46.9
+    },
+    {
+      "id": 4,
+      "english": "I · warmed to her almost immediately.",
+      "russian": "Я · проникся к ней почти сразу.",
+      "start": 46.9,
+      "end": 62.877
+    },
+    {
+      "id": 5,
+      "english": "We got · cut off in the middle of the call.",
+      "russian": "Нас · прервали посередине звонка.",
+      "start": 62.877,
+      "end": 78.82
+    },
+    {
+      "id": 6,
+      "english": "Can I · tag along with you guys?",
+      "russian": "Можно я · увяжусь за вами?",
+      "start": 78.82,
+      "end": 94.108
+    },
+    {
+      "id": 7,
+      "english": "Can you · fill me in on what happened?",
+      "russian": "Можешь · ввести меня в курс произошедшего?",
+      "start": 94.108,
+      "end": 109.508
+    },
+    {
+      "id": 8,
+      "english": "Just · carry on — don't stop.",
+      "russian": "Просто · продолжай — не останавливайся.",
+      "start": 109.508,
+      "end": 124.947
+    },
+    {
+      "id": 9,
+      "english": "It's time to · do away with this rule.",
+      "russian": "Пора · избавиться от этого правила.",
+      "start": 124.947,
+      "end": 140.894
+    },
+    {
+      "id": 10,
+      "english": "They · brought in a specialist for this.",
+      "russian": "Они · привлекли специалиста для этого.",
+      "start": 140.894,
+      "end": 156.508
+    },
+    {
+      "id": 11,
+      "english": "Can you · back me up on this?",
+      "russian": "Можешь · поддержать меня в этом?",
+      "start": 156.508,
+      "end": 171.321
+    },
+    {
+      "id": 12,
+      "english": "This could · bring down the entire company.",
+      "russian": "Это может · обрушить всю компанию.",
+      "start": 171.321,
+      "end": 187.459
+    },
+    {
+      "id": 13,
+      "english": "He finally · asked her out.",
+      "russian": "Он наконец · пригласил её на свидание.",
+      "start": 187.459,
+      "end": 202.626
+    },
+    {
+      "id": 14,
+      "english": "Stress really · brings out the worst in him.",
+      "russian": "Стресс · раскрывает в нём худшее.",
+      "start": 202.626,
+      "end": 219.217
+    },
+    {
+      "id": 15,
+      "english": "What's · going on here?",
+      "russian": "Что здесь · происходит?",
+      "start": 219.217,
+      "end": 233.691
+    },
+    {
+      "id": 16,
+      "english": "· Bring over some food if you can.",
+      "russian": "· Принеси еды, если можешь.",
+      "start": 233.691,
+      "end": 249.006
+    },
+    {
+      "id": 17,
+      "english": "I can't · keep up with all the changes.",
+      "russian": "Я не могу · угнаться за всеми изменениями.",
+      "start": 249.006,
+      "end": 264.798
+    },
+    {
+      "id": 18,
+      "english": "She · takes after her father.",
+      "russian": "Она · похожа на своего отца.",
+      "start": 264.798,
+      "end": 280.22
+    },
+    {
+      "id": 19,
+      "english": "They · broke up after three years.",
+      "russian": "Они · расстались после трёх лет.",
+      "start": 280.22,
+      "end": 295.894
+    },
+    {
+      "id": 20,
+      "english": "What · brought about this change?",
+      "russian": "Что · привело к этому изменению?",
+      "start": 295.894,
+      "end": 311.274
+    },
+    {
+      "id": 21,
+      "english": "She · moved on after the breakup.",
+      "russian": "Она · двинулась дальше после расставания.",
+      "start": 311.274,
+      "end": 326.779
+    },
+    {
+      "id": 22,
+      "english": "He · set out to build something different.",
+      "russian": "Он · поставил цель создать что-то иное.",
+      "start": 326.779,
+      "end": 342.772
+    },
+    {
+      "id": 23,
+      "english": "He got · run in after the incident.",
+      "russian": "Его · задержали после инцидента.",
+      "start": 342.772,
+      "end": 358.446
+    },
+    {
+      "id": 24,
+      "english": "He · warms to people very slowly.",
+      "russian": "Он очень медленно · проникается к людям.",
+      "start": 358.446,
+      "end": 374.12
+    },
+    {
+      "id": 25,
+      "english": "He · cut me off without any warning.",
+      "russian": "Он · прервал меня без предупреждения.",
+      "start": 374.12,
+      "end": 389.889
+    },
+    {
+      "id": 26,
+      "english": "Her little brother · tagged along as usual.",
+      "russian": "Её младший брат · увязался следом, как обычно.",
+      "start": 389.889,
+      "end": 406.155
+    },
+    {
+      "id": 27,
+      "english": "· Fill me in later — I missed the meeting.",
+      "russian": "· Введи меня в курс потом — я пропустил встречу.",
+      "start": 406.155,
+      "end": 422.712
+    },
+    {
+      "id": 28,
+      "english": "She · carried on despite everything.",
+      "russian": "Она · продолжала несмотря ни на что.",
+      "start": 422.712,
+      "end": 438.327
+    },
+    {
+      "id": 29,
+      "english": "They · did away with the old system.",
+      "russian": "Они · избавились от старой системы.",
+      "start": 438.327,
+      "end": 453.574
+    },
+    {
+      "id": 30,
+      "english": "We need to · bring in someone with experience.",
+      "russian": "Нам нужно · привлечь кого-то с опытом.",
+      "start": 453.574,
+      "end": 470.346
+    },
+    {
+      "id": 31,
+      "english": "He always · backs me up in meetings.",
+      "russian": "Он всегда · поддерживает меня на встречах.",
+      "start": 470.346,
+      "end": 486.403
+    },
+    {
+      "id": 32,
+      "english": "The scandal · brought down the government.",
+      "russian": "Скандал · обрушил правительство.",
+      "start": 486.403,
+      "end": 502.197
+    },
+    {
+      "id": 33,
+      "english": "Just · ask him out already.",
+      "russian": "Просто · пригласи его на свидание уже.",
+      "start": 502.197,
+      "end": 517.125
+    },
+    {
+      "id": 34,
+      "english": "She · brings out the best in people.",
+      "russian": "Она · раскрывает в людях лучшее.",
+      "start": 517.125,
+      "end": 532.782
+    },
+    {
+      "id": 35,
+      "english": "Can someone explain what's · going on?",
+      "russian": "Кто-нибудь объяснит, что · происходит?",
+      "start": 532.782,
+      "end": 548.66
+    },
+    {
+      "id": 36,
+      "english": "She · brought over a bottle of wine.",
+      "russian": "Она · принесла бутылку вина.",
+      "start": 548.66,
+      "end": 564.479
+    },
+    {
+      "id": 37,
+      "english": "It's hard to · keep up with the news.",
+      "russian": "Сложно · угнаться за новостями.",
+      "start": 564.479,
+      "end": 580.161
+    },
+    {
+      "id": 38,
+      "english": "He · takes after his mum completely.",
+      "russian": "Он · похож на маму во всём.",
+      "start": 580.161,
+      "end": 596.203
+    },
+    {
+      "id": 39,
+      "english": "Did you hear? They · broke up last week.",
+      "russian": "Ты слышал? Они · расстались на прошлой неделе.",
+      "start": 596.203,
+      "end": 614.36
+    },
+    {
+      "id": 40,
+      "english": "The talks · brought about a peaceful agreement.",
+      "russian": "Переговоры · привели к мирному соглашению.",
+      "start": 614.36,
+      "end": 623.471
+    }
+  ]
+}

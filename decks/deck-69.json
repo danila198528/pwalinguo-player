@@ -1,0 +1,290 @@
+{
+  "id": "deck-69",
+  "deck_name": "phrasal_verbs 3",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs3.mp3",
+  "group": "phrasal verbs",
+  "total_duration": 619.25,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Don't · give in to the pressure.",
+      "russian": "Не · сдавайся давлению.",
+      "start": 0.0,
+      "end": 14.805
+    },
+    {
+      "id": 2,
+      "english": "It takes time to · get over a breakup.",
+      "russian": "Нужно время, чтобы · пережить расставание.",
+      "start": 14.805,
+      "end": 30.801
+    },
+    {
+      "id": 3,
+      "english": "I can't · put up with this anymore.",
+      "russian": "Я больше не могу · терпеть это.",
+      "start": 30.801,
+      "end": 46.145
+    },
+    {
+      "id": 4,
+      "english": "The plane · takes off at six.",
+      "russian": "Самолёт · взлетает в шесть.",
+      "start": 46.145,
+      "end": 61.418
+    },
+    {
+      "id": 5,
+      "english": "I · came across this article by accident.",
+      "russian": "Я · наткнулся на эту статью случайно.",
+      "start": 61.418,
+      "end": 78.013
+    },
+    {
+      "id": 6,
+      "english": "· Put on a jacket — it's cold.",
+      "russian": "· Надень куртку — холодно.",
+      "start": 78.013,
+      "end": 94.011
+    },
+    {
+      "id": 7,
+      "english": "Everything started to · fall apart at once.",
+      "russian": "Всё начало · разваливаться одновременно.",
+      "start": 94.011,
+      "end": 110.823
+    },
+    {
+      "id": 8,
+      "english": "He · got away with it every time.",
+      "russian": "Он каждый раз · выходил сухим из воды.",
+      "start": 110.823,
+      "end": 126.187
+    },
+    {
+      "id": 9,
+      "english": "· Go ahead, I'm listening.",
+      "russian": "· Давай, я слушаю.",
+      "start": 126.187,
+      "end": 141.173
+    },
+    {
+      "id": 10,
+      "english": "· Turn on the light, please.",
+      "russian": "· Включи свет, пожалуйста.",
+      "start": 141.173,
+      "end": 156.622
+    },
+    {
+      "id": 11,
+      "english": "What time do you · get off work?",
+      "russian": "В котором часу ты · заканчиваешь работу?",
+      "start": 156.622,
+      "end": 171.748
+    },
+    {
+      "id": 12,
+      "english": "I have to · shoot off — sorry!",
+      "russian": "Мне нужно · умчаться — извини!",
+      "start": 171.748,
+      "end": 187.421
+    },
+    {
+      "id": 13,
+      "english": "Just · calm down and breathe.",
+      "russian": "Просто · успокойся и дыши.",
+      "start": 187.421,
+      "end": 202.769
+    },
+    {
+      "id": 14,
+      "english": "Just · get on with it already.",
+      "russian": "Просто уже · продолжай это.",
+      "start": 202.769,
+      "end": 217.67
+    },
+    {
+      "id": 15,
+      "english": "He · knocked over his coffee again.",
+      "russian": "Он снова · опрокинул свой кофе.",
+      "start": 217.67,
+      "end": 233.181
+    },
+    {
+      "id": 16,
+      "english": "Can you · set up a meeting for Thursday?",
+      "russian": "Можешь · организовать встречу на четверг?",
+      "start": 233.181,
+      "end": 249.006
+    },
+    {
+      "id": 17,
+      "english": "I can · whip up something quick to eat.",
+      "russian": "Я могу быстро · приготовить что-нибудь поесть.",
+      "start": 249.006,
+      "end": 264.856
+    },
+    {
+      "id": 18,
+      "english": "He · turned down the job offer.",
+      "russian": "Он · отклонил предложение о работе.",
+      "start": 264.856,
+      "end": 279.966
+    },
+    {
+      "id": 19,
+      "english": "I · work out three times a week.",
+      "russian": "Я · тренируюсь три раза в неделю.",
+      "start": 279.966,
+      "end": 295.637
+    },
+    {
+      "id": 20,
+      "english": "She · took on too much at once.",
+      "russian": "Она · взялась за слишком многое сразу.",
+      "start": 295.637,
+      "end": 311.428
+    },
+    {
+      "id": 21,
+      "english": "He finally · gave in and said yes.",
+      "russian": "Он наконец · сдался и согласился.",
+      "start": 311.428,
+      "end": 327.535
+    },
+    {
+      "id": 22,
+      "english": "She never really · got over losing the job.",
+      "russian": "Она так и не · пережила потерю работы.",
+      "start": 327.535,
+      "end": 344.073
+    },
+    {
+      "id": 23,
+      "english": "How do you · put up with him?",
+      "russian": "Как ты · терпишь его?",
+      "start": 344.073,
+      "end": 358.62
+    },
+    {
+      "id": 24,
+      "english": "What time does our flight · take off?",
+      "russian": "В котором часу наш рейс · взлетает?",
+      "start": 358.62,
+      "end": 374.347
+    },
+    {
+      "id": 25,
+      "english": "She · came across some old photos yesterday.",
+      "russian": "Она · наткнулась на старые фото вчера.",
+      "start": 374.347,
+      "end": 391.123
+    },
+    {
+      "id": 26,
+      "english": "· Put on your shoes, we're leaving.",
+      "russian": "· Надевай обувь, мы уходим.",
+      "start": 391.123,
+      "end": 407.037
+    },
+    {
+      "id": 27,
+      "english": "The plan · fell apart before it started.",
+      "russian": "План · развалился до начала.",
+      "start": 407.037,
+      "end": 423.267
+    },
+    {
+      "id": 28,
+      "english": "She always · gets away with being late.",
+      "russian": "Она всегда · выходит сухой из воды за опоздания.",
+      "start": 423.267,
+      "end": 439.481
+    },
+    {
+      "id": 29,
+      "english": "Just · go ahead and do it.",
+      "russian": "Просто · давай и делай.",
+      "start": 439.481,
+      "end": 454.323
+    },
+    {
+      "id": 30,
+      "english": "Can you · turn on the heating?",
+      "russian": "Можешь · включить отопление?",
+      "start": 454.323,
+      "end": 468.942
+    },
+    {
+      "id": 31,
+      "english": "I · get off at five today.",
+      "russian": "Я сегодня · заканчиваю в пять.",
+      "start": 468.942,
+      "end": 484.099
+    },
+    {
+      "id": 32,
+      "english": "She · shot off before we could talk.",
+      "russian": "Она · умчалась раньше, чем мы поговорили.",
+      "start": 484.099,
+      "end": 500.1
+    },
+    {
+      "id": 33,
+      "english": "· Calm down — it's not a big deal.",
+      "russian": "· Успокойся — это не конец света.",
+      "start": 500.1,
+      "end": 516.314
+    },
+    {
+      "id": 34,
+      "english": "Stop talking and · get on with the work.",
+      "russian": "Хватит болтать и · продолжай работу.",
+      "start": 516.314,
+      "end": 532.306
+    },
+    {
+      "id": 35,
+      "english": "The wind · knocked the sign over.",
+      "russian": "Ветер · опрокинул вывеску.",
+      "start": 532.306,
+      "end": 547.421
+    },
+    {
+      "id": 36,
+      "english": "He · set up a call for next week.",
+      "russian": "Он · организовал звонок на следующей неделе.",
+      "start": 547.421,
+      "end": 562.986
+    },
+    {
+      "id": 37,
+      "english": "She · whipped up dinner in twenty minutes.",
+      "russian": "Она · приготовила ужин за двадцать минут.",
+      "start": 562.986,
+      "end": 578.901
+    },
+    {
+      "id": 38,
+      "english": "Why did she · turn down the invitation?",
+      "russian": "Почему она · отклонила приглашение?",
+      "start": 578.901,
+      "end": 594.958
+    },
+    {
+      "id": 39,
+      "english": "She · works out every morning before work.",
+      "russian": "Она · тренируется каждое утро перед работой.",
+      "start": 594.958,
+      "end": 611.58
+    },
+    {
+      "id": 40,
+      "english": "Are you ready to · take on this?",
+      "russian": "Ты готов · взяться за это?",
+      "start": 611.58,
+      "end": 619.248
+    }
+  ]
+}
