@@ -424,6 +424,35 @@ const App = () => {
             });
             setAllMeta(metaMap);
             
+            // Одноразовая миграция: обрезаем время у старых дат
+            const migrationKey = 'postpone_midnight_migrated_v1';
+            const migrated = localStorage.getItem(migrationKey);
+            if (!migrated) {
+                console.log('🔧 Начинается миграция дат до полуночи...');
+                let migratedCount = 0;
+                
+                for (const deck of catalogData) {
+                    const meta = await getDeckMeta(deck.id);
+                    if (meta && meta.postponed_until) {
+                        const postponedDate = new Date(meta.postponed_until);
+                        postponedDate.setHours(0, 0, 0, 0);
+                        const normalizedDate = postponedDate.toISOString();
+                        
+                        // Если дата изменилась — обновляем
+                        if (normalizedDate !== meta.postponed_until) {
+                            await saveDeckMeta(deck.id, {
+                                ...meta,
+                                postponed_until: normalizedDate
+                            });
+                            migratedCount++;
+                        }
+                    }
+                }
+                
+                localStorage.setItem(migrationKey, 'true');
+                console.log(`✅ Миграция завершена. Обновлено колод: ${migratedCount}`);
+            }
+            
             // Синхронизация с Firebase если авторизован
             if (isGoogleAuthorized) {
                 await performSync();
@@ -681,7 +710,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v9.5 Date NoSleep"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v9.7 Migration"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -884,19 +913,26 @@ const DeckPage = ({ deckMeta, onBack, onStartPlayback, postponeOption, setPostpo
         const nowISO = now.toISOString();
         
         if (postponeOption === '14days') {
-            postponeDate = new Date(now.getTime() + 15 * 24 * 60 * 60 * 1000).toISOString();
+            // +15 дней, но время устанавливаем в полночь (00:00:00)
+            const futureDate = new Date(now.getTime() + 15 * 24 * 60 * 60 * 1000);
+            futureDate.setHours(0, 0, 0, 0);
+            postponeDate = futureDate.toISOString();
         } else if (postponeOption === 'none') {
             postponeDate = null;
         } else if (postponeOption === '2months') {
             const newDate = new Date(now);
             newDate.setMonth(newDate.getMonth() + 2);
+            newDate.setHours(0, 0, 0, 0);
             postponeDate = newDate.toISOString();
         } else if (postponeOption === '3months') {
             const newDate = new Date(now);
             newDate.setMonth(newDate.getMonth() + 3);
+            newDate.setHours(0, 0, 0, 0);
             postponeDate = newDate.toISOString();
         } else if (postponeOption === 'custom' && customDate) {
-            postponeDate = new Date(customDate).toISOString();
+            const customDateObj = new Date(customDate);
+            customDateObj.setHours(0, 0, 0, 0);
+            postponeDate = customDateObj.toISOString();
         }
         
         // Сохраняем с timestamps (не меняем view_count)
@@ -1233,18 +1269,26 @@ const Player = ({ deck, audioBlob, onBack }) => {
             const nowISO = now.toISOString();
             
             if (postponeOption === '14days') {
-                postponeDate = new Date(now.getTime() + 15 * 24 * 60 * 60 * 1000).toISOString();
+                const futureDate = new Date(now.getTime() + 15 * 24 * 60 * 60 * 1000);
+                futureDate.setHours(0, 0, 0, 0);
+                postponeDate = futureDate.toISOString();
             } else if (postponeOption === 'none') {
                 postponeDate = null;
             } else if (postponeOption === '2months') {
                 const newDate = new Date(now);
                 newDate.setMonth(newDate.getMonth() + 2);
+                newDate.setHours(0, 0, 0, 0);
                 postponeDate = newDate.toISOString();
             } else if (postponeOption === '3months') {
                 const newDate = new Date(now);
                 newDate.setMonth(newDate.getMonth() + 3);
+                newDate.setHours(0, 0, 0, 0);
                 postponeDate = newDate.toISOString();
             } else if (postponeOption === 'custom' && customDate) {
+                const customDateObj = new Date(customDate);
+                customDateObj.setHours(0, 0, 0, 0);
+                postponeDate = customDateObj.toISOString();
+            }
                 postponeDate = new Date(customDate).toISOString();
             }
             
