@@ -1289,8 +1289,6 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 customDateObj.setHours(0, 0, 0, 0);
                 postponeDate = customDateObj.toISOString();
             }
-                postponeDate = new Date(customDate).toISOString();
-            }
             
             // Сохраняем обновлённые метаданные с timestamps
             await saveDeckMeta(deck.id, {
