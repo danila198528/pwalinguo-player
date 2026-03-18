@@ -1,0 +1,528 @@
+{
+  "id": "deck-73",
+  "deck_name": "questions_pattern 2",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_pattern2.mp3",
+  "group": "questions_pattern",
+  "total_duration": 1022.97,
+  "total_sentences": 74,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Are you?",
+      "russian": "Правда? / Да ну? / Неужели?",
+      "start": 0.0,
+      "end": 13.213
+    },
+    {
+      "id": 2,
+      "english": "Are you okay?",
+      "russian": "Ты в порядке?",
+      "start": 13.213,
+      "end": 27.194
+    },
+    {
+      "id": 3,
+      "english": "Are you hurt?",
+      "russian": "Ты ранен?",
+      "start": 27.194,
+      "end": 40.856
+    },
+    {
+      "id": 4,
+      "english": "Are you sick?",
+      "russian": "Ты плохо себя чувствуешь?",
+      "start": 40.856,
+      "end": 54.457
+    },
+    {
+      "id": 5,
+      "english": "Are you ill?",
+      "russian": "Ты болен?",
+      "start": 54.457,
+      "end": 67.834
+    },
+    {
+      "id": 6,
+      "english": "Are you well?",
+      "russian": "Ты в порядке?",
+      "start": 67.834,
+      "end": 81.402
+    },
+    {
+      "id": 7,
+      "english": "Are you feeling better?",
+      "russian": "Тебе лучше?",
+      "start": 81.402,
+      "end": 95.67
+    },
+    {
+      "id": 8,
+      "english": "Are you guys okay?",
+      "russian": "Вы все в порядке?",
+      "start": 95.67,
+      "end": 110.058
+    },
+    {
+      "id": 9,
+      "english": "Are you gonna be okay?",
+      "russian": "С тобой всё будет хорошо?",
+      "start": 110.058,
+      "end": 124.71
+    },
+    {
+      "id": 10,
+      "english": "Are you crazy?",
+      "russian": "Ты сумасшедший?",
+      "start": 124.71,
+      "end": 138.456
+    },
+    {
+      "id": 11,
+      "english": "Are you nuts?",
+      "russian": "Ты псих?",
+      "start": 138.456,
+      "end": 152.125
+    },
+    {
+      "id": 12,
+      "english": "Are you insane?",
+      "russian": "Ты сумасшедший?",
+      "start": 152.125,
+      "end": 166.155
+    },
+    {
+      "id": 13,
+      "english": "Are you mad?",
+      "russian": "Ты сумасшедший?",
+      "start": 166.155,
+      "end": 179.715
+    },
+    {
+      "id": 14,
+      "english": "Are you out of your mind?",
+      "russian": "Ты в своём уме?",
+      "start": 179.715,
+      "end": 194.19
+    },
+    {
+      "id": 15,
+      "english": "Are you stupid?",
+      "russian": "Ты тупой?",
+      "start": 194.19,
+      "end": 207.99
+    },
+    {
+      "id": 16,
+      "english": "Are you blind?",
+      "russian": "Ты слепой?",
+      "start": 207.99,
+      "end": 221.695
+    },
+    {
+      "id": 17,
+      "english": "Are you deaf?",
+      "russian": "Ты глухой?",
+      "start": 221.695,
+      "end": 235.398
+    },
+    {
+      "id": 18,
+      "english": "Are you fucking kidding me?",
+      "russian": "Ты что, шутишь?",
+      "start": 235.398,
+      "end": 249.783
+    },
+    {
+      "id": 19,
+      "english": "Are you serious?",
+      "russian": "Ты серьёзно?",
+      "start": 249.783,
+      "end": 263.81
+    },
+    {
+      "id": 20,
+      "english": "Are you kidding me?",
+      "russian": "Ты шутишь?",
+      "start": 263.81,
+      "end": 277.511
+    },
+    {
+      "id": 21,
+      "english": "Are you joking?",
+      "russian": "Ты шутишь?",
+      "start": 277.511,
+      "end": 291.367
+    },
+    {
+      "id": 22,
+      "english": "Are you shitting me?",
+      "russian": "Да ладно?",
+      "start": 291.367,
+      "end": 305.129
+    },
+    {
+      "id": 23,
+      "english": "Are you for real?",
+      "russian": "Ты серьёзно?",
+      "start": 305.129,
+      "end": 319.174
+    },
+    {
+      "id": 24,
+      "english": "Are you sure?",
+      "russian": "Ты уверен?",
+      "start": 319.174,
+      "end": 332.715
+    },
+    {
+      "id": 25,
+      "english": "Are you certain?",
+      "russian": "Ты уверен?",
+      "start": 332.715,
+      "end": 346.61
+    },
+    {
+      "id": 26,
+      "english": "Are you happy?",
+      "russian": "Ты счастлив?",
+      "start": 346.61,
+      "end": 359.886
+    },
+    {
+      "id": 27,
+      "english": "Are you scared?",
+      "russian": "Ты напуган?",
+      "start": 359.886,
+      "end": 373.749
+    },
+    {
+      "id": 28,
+      "english": "Are you afraid?",
+      "russian": "Ты боишься?",
+      "start": 373.749,
+      "end": 387.726
+    },
+    {
+      "id": 29,
+      "english": "Are you nervous?",
+      "russian": "Ты нервничаешь?",
+      "start": 387.726,
+      "end": 401.629
+    },
+    {
+      "id": 30,
+      "english": "Are you angry?",
+      "russian": "Ты злишься?",
+      "start": 401.629,
+      "end": 415.326
+    },
+    {
+      "id": 31,
+      "english": "Are you jealous?",
+      "russian": "Ты ревнуешь?",
+      "start": 415.326,
+      "end": 429.117
+    },
+    {
+      "id": 32,
+      "english": "Are you upset?",
+      "russian": "Ты расстроен?",
+      "start": 429.117,
+      "end": 443.078
+    },
+    {
+      "id": 33,
+      "english": "Are you worried?",
+      "russian": "Ты беспокоишься?",
+      "start": 443.078,
+      "end": 456.722
+    },
+    {
+      "id": 34,
+      "english": "Are you excited?",
+      "russian": "Ты взволнован?",
+      "start": 456.722,
+      "end": 470.814
+    },
+    {
+      "id": 35,
+      "english": "Are you surprised?",
+      "russian": "Ты удивлён?",
+      "start": 470.814,
+      "end": 484.962
+    },
+    {
+      "id": 36,
+      "english": "Are you satisfied?",
+      "russian": "Ты доволен?",
+      "start": 484.962,
+      "end": 499.286
+    },
+    {
+      "id": 37,
+      "english": "Are you interested?",
+      "russian": "Тебе интересно?",
+      "start": 499.286,
+      "end": 513.39
+    },
+    {
+      "id": 38,
+      "english": "Are you comfortable?",
+      "russian": "Тебе удобно?",
+      "start": 513.39,
+      "end": 527.45
+    },
+    {
+      "id": 39,
+      "english": "Are you tired?",
+      "russian": "Ты устал?",
+      "start": 527.45,
+      "end": 541.255
+    },
+    {
+      "id": 40,
+      "english": "Are you cold?",
+      "russian": "Тебе холодно?",
+      "start": 541.255,
+      "end": 555.055
+    },
+    {
+      "id": 41,
+      "english": "Are you hungry?",
+      "russian": "Ты голоден?",
+      "start": 555.055,
+      "end": 568.711
+    },
+    {
+      "id": 42,
+      "english": "Are you thirsty?",
+      "russian": "Ты хочешь пить?",
+      "start": 568.711,
+      "end": 582.464
+    },
+    {
+      "id": 43,
+      "english": "Are you ready?",
+      "russian": "Ты готов?",
+      "start": 582.464,
+      "end": 595.922
+    },
+    {
+      "id": 44,
+      "english": "Are you done?",
+      "russian": "Ты закончил?",
+      "start": 595.922,
+      "end": 609.486
+    },
+    {
+      "id": 45,
+      "english": "Are you finished?",
+      "russian": "Ты закончил?",
+      "start": 609.486,
+      "end": 623.185
+    },
+    {
+      "id": 46,
+      "english": "Are you in?",
+      "russian": "Ты участвуешь? (ты в деле?)",
+      "start": 623.185,
+      "end": 636.602
+    },
+    {
+      "id": 47,
+      "english": "Are you with me?",
+      "russian": "Ты со мной? (физически или когда что-то объясняешь)",
+      "start": 636.602,
+      "end": 650.07
+    },
+    {
+      "id": 48,
+      "english": "Are you following me?",
+      "russian": "Ты следишь за мыслью?",
+      "start": 650.07,
+      "end": 663.966
+    },
+    {
+      "id": 49,
+      "english": "Are you thinking what i'm thinking?",
+      "russian": "Ты думаешь то же, что и я?",
+      "start": 663.966,
+      "end": 679.023
+    },
+    {
+      "id": 50,
+      "english": "Are you coming?",
+      "russian": "Ты идёшь?",
+      "start": 679.023,
+      "end": 692.574
+    },
+    {
+      "id": 51,
+      "english": "Are you leaving?",
+      "russian": "Ты уходишь?",
+      "start": 692.574,
+      "end": 706.286
+    },
+    {
+      "id": 52,
+      "english": "Are you going?",
+      "russian": "Ты уходишь?",
+      "start": 706.286,
+      "end": 719.888
+    },
+    {
+      "id": 53,
+      "english": "Are you here?",
+      "russian": "Ты здесь?",
+      "start": 719.888,
+      "end": 733.49
+    },
+    {
+      "id": 54,
+      "english": "Are you there?",
+      "russian": "Ты там?",
+      "start": 733.49,
+      "end": 746.811
+    },
+    {
+      "id": 55,
+      "english": "Are you still there?",
+      "russian": "Ты ещё там?",
+      "start": 746.811,
+      "end": 760.573
+    },
+    {
+      "id": 56,
+      "english": "Are you alone?",
+      "russian": "Ты один?",
+      "start": 760.573,
+      "end": 774.414
+    },
+    {
+      "id": 57,
+      "english": "Are you listening?",
+      "russian": "Ты слушаешь?",
+      "start": 774.414,
+      "end": 788.07
+    },
+    {
+      "id": 58,
+      "english": "Are you awake?",
+      "russian": "Ты проснулся?",
+      "start": 788.07,
+      "end": 801.881
+    },
+    {
+      "id": 59,
+      "english": "Are you asleep?",
+      "russian": "Ты спишь?",
+      "start": 801.881,
+      "end": 815.825
+    },
+    {
+      "id": 60,
+      "english": "Are you sleeping?",
+      "russian": "Ты спишь?",
+      "start": 815.825,
+      "end": 829.57
+    },
+    {
+      "id": 61,
+      "english": "Are you crying?",
+      "russian": "Ты плачешь?",
+      "start": 829.57,
+      "end": 843.27
+    },
+    {
+      "id": 62,
+      "english": "Are you having fun?",
+      "russian": "Ты веселишься?",
+      "start": 843.27,
+      "end": 857.456
+    },
+    {
+      "id": 63,
+      "english": "Are you married?",
+      "russian": "Ты женат / замужем?",
+      "start": 857.456,
+      "end": 871.154
+    },
+    {
+      "id": 64,
+      "english": "Are you a doctor?",
+      "russian": "Ты врач?",
+      "start": 871.154,
+      "end": 885.046
+    },
+    {
+      "id": 65,
+      "english": "Are you gay?",
+      "russian": "Ты гей?",
+      "start": 885.046,
+      "end": 898.704
+    },
+    {
+      "id": 66,
+      "english": "Are you pregnant?",
+      "russian": "Ты беременна?",
+      "start": 898.704,
+      "end": 912.553
+    },
+    {
+      "id": 67,
+      "english": "Are you busy?",
+      "russian": "Ты занят?",
+      "start": 912.553,
+      "end": 925.926
+    },
+    {
+      "id": 68,
+      "english": "Are you lost?",
+      "russian": "Ты заблудился?",
+      "start": 925.926,
+      "end": 939.669
+    },
+    {
+      "id": 69,
+      "english": "Are you high?",
+      "russian": "Ты под кайфом?",
+      "start": 939.669,
+      "end": 953.239
+    },
+    {
+      "id": 70,
+      "english": "Are you drunk?",
+      "russian": "Ты пьян?",
+      "start": 953.239,
+      "end": 966.981
+    },
+    {
+      "id": 71,
+      "english": "Are you good?",
+      "russian": "Ты в порядке?",
+      "start": 966.981,
+      "end": 980.547
+    },
+    {
+      "id": 72,
+      "english": "Are you threatening me?",
+      "russian": "Ты мне угрожаешь?",
+      "start": 980.547,
+      "end": 994.566
+    },
+    {
+      "id": 73,
+      "english": "Are you making fun of me?",
+      "russian": "Ты насмехаешься надо мной?",
+      "start": 994.566,
+      "end": 1009.158
+    },
+    {
+      "id": 74,
+      "english": "Are you talking to me?",
+      "russian": "Ты со мной разговариваешь?",
+      "start": 1009.158,
+      "end": 1022.967
+    }
+  ]
+}

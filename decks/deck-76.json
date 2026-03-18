@@ -1,0 +1,297 @@
+{
+  "id": "deck-76",
+  "deck_name": "questions_top451 3",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4513.mp3",
+  "group": "questions_top451",
+  "total_duration": 577.12,
+  "total_sentences": 41,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "What are you looking at?",
+      "russian": "На что вы смотрите?",
+      "start": 0.0,
+      "end": 14.481
+    },
+    {
+      "id": 2,
+      "english": "How do you know that?",
+      "russian": "Откуда вы это знаете?",
+      "start": 14.481,
+      "end": 28.7
+    },
+    {
+      "id": 3,
+      "english": "Why are you doing this?",
+      "russian": "Зачем вы это делаете?",
+      "start": 28.7,
+      "end": 43.413
+    },
+    {
+      "id": 4,
+      "english": "How old are you?",
+      "russian": "Сколько тебе лет?",
+      "start": 43.413,
+      "end": 57.21
+    },
+    {
+      "id": 5,
+      "english": "What are you?",
+      "russian": "Что ты?",
+      "start": 57.21,
+      "end": 70.782
+    },
+    {
+      "id": 6,
+      "english": "What the hell is that?",
+      "russian": "Что это, чёрт возьми, такое?",
+      "start": 70.782,
+      "end": 85.06
+    },
+    {
+      "id": 7,
+      "english": "What are you waiting for?",
+      "russian": "Чего вы ждёте?",
+      "start": 85.06,
+      "end": 99.772
+    },
+    {
+      "id": 8,
+      "english": "What do you want me to do?",
+      "russian": "Что вы хотите, чтобы я сделал?",
+      "start": 99.772,
+      "end": 114.433
+    },
+    {
+      "id": 9,
+      "english": "What can i do for you?",
+      "russian": "Что я могу сделать для вас?",
+      "start": 114.433,
+      "end": 128.763
+    },
+    {
+      "id": 10,
+      "english": "What are you going to do?",
+      "russian": "Чем ты планируешь заняться?",
+      "start": 128.763,
+      "end": 143.326
+    },
+    {
+      "id": 11,
+      "english": "What have you done?",
+      "russian": "Что вы наделали?",
+      "start": 143.326,
+      "end": 157.215
+    },
+    {
+      "id": 12,
+      "english": "Do you mind?",
+      "russian": "Вы не возражаете?",
+      "start": 157.215,
+      "end": 170.935
+    },
+    {
+      "id": 13,
+      "english": "What the hell is this?",
+      "russian": "Что это, чёрт возьми, такое?",
+      "start": 170.935,
+      "end": 185.142
+    },
+    {
+      "id": 14,
+      "english": "Did you hear that?",
+      "russian": "Вы это слышали?",
+      "start": 185.142,
+      "end": 199.052
+    },
+    {
+      "id": 15,
+      "english": "Did you see that?",
+      "russian": "Вы это видели?",
+      "start": 199.052,
+      "end": 213.1
+    },
+    {
+      "id": 16,
+      "english": "What the hell was that?",
+      "russian": "Что это, чёрт возьми, было?",
+      "start": 213.1,
+      "end": 227.377
+    },
+    {
+      "id": 17,
+      "english": "What do i do?",
+      "russian": "Что мне делать?",
+      "start": 227.377,
+      "end": 241.421
+    },
+    {
+      "id": 18,
+      "english": "Who is she?",
+      "russian": "Кто она?",
+      "start": 241.421,
+      "end": 255.102
+    },
+    {
+      "id": 19,
+      "english": "Are you alright?",
+      "russian": "Ты в порядке?",
+      "start": 255.102,
+      "end": 268.923
+    },
+    {
+      "id": 20,
+      "english": "What do you do?",
+      "russian": "Что вы делаете?",
+      "start": 268.923,
+      "end": 282.813
+    },
+    {
+      "id": 21,
+      "english": "Is that true?",
+      "russian": "Это правда?",
+      "start": 282.813,
+      "end": 296.619
+    },
+    {
+      "id": 22,
+      "english": "What do you want from me?",
+      "russian": "Чего ты хочешь от меня?",
+      "start": 296.619,
+      "end": 310.996
+    },
+    {
+      "id": 23,
+      "english": "What is going on?",
+      "russian": "Что происходит?",
+      "start": 310.996,
+      "end": 325.125
+    },
+    {
+      "id": 24,
+      "english": "How are you feeling?",
+      "russian": "Как вы себя чувствуете?",
+      "start": 325.125,
+      "end": 339.242
+    },
+    {
+      "id": 25,
+      "english": "Is everything okay?",
+      "russian": "Всё в порядке?",
+      "start": 339.242,
+      "end": 353.733
+    },
+    {
+      "id": 26,
+      "english": "How is he?",
+      "russian": "Как он себя чувствует?",
+      "start": 353.733,
+      "end": 367.326
+    },
+    {
+      "id": 27,
+      "english": "What's that supposed to mean?",
+      "russian": "Что это должно означать?",
+      "start": 367.326,
+      "end": 382.44
+    },
+    {
+      "id": 28,
+      "english": "How do you feel?",
+      "russian": "Как вы себя чувствуете?",
+      "start": 382.44,
+      "end": 396.657
+    },
+    {
+      "id": 29,
+      "english": "Who was that?",
+      "russian": "Кто это был?",
+      "start": 396.657,
+      "end": 410.419
+    },
+    {
+      "id": 30,
+      "english": "Is that you?",
+      "russian": "Это ты?",
+      "start": 410.419,
+      "end": 423.879
+    },
+    {
+      "id": 31,
+      "english": "How did you know?",
+      "russian": "Откуда вы это узнали?",
+      "start": 423.879,
+      "end": 437.81
+    },
+    {
+      "id": 32,
+      "english": "Do you like it?",
+      "russian": "Вам это нравится?",
+      "start": 437.81,
+      "end": 451.536
+    },
+    {
+      "id": 33,
+      "english": "What's happened?",
+      "russian": "Что случилось?",
+      "start": 451.536,
+      "end": 465.23
+    },
+    {
+      "id": 34,
+      "english": "What can i say?",
+      "russian": "Что я могу сказать?",
+      "start": 465.23,
+      "end": 479.281
+    },
+    {
+      "id": 35,
+      "english": "What can i do?",
+      "russian": "Что я могу сделать?",
+      "start": 479.281,
+      "end": 493.228
+    },
+    {
+      "id": 36,
+      "english": "Who are they?",
+      "russian": "Кто они?",
+      "start": 493.228,
+      "end": 506.874
+    },
+    {
+      "id": 37,
+      "english": "Why didn't you tell me?",
+      "russian": "Почему ты мне не сказал?",
+      "start": 506.874,
+      "end": 521.16
+    },
+    {
+      "id": 38,
+      "english": "What should i do?",
+      "russian": "Что я должен делать?",
+      "start": 521.16,
+      "end": 535.2
+    },
+    {
+      "id": 39,
+      "english": "What did i do?",
+      "russian": "Что я сделал?",
+      "start": 535.2,
+      "end": 549.189
+    },
+    {
+      "id": 40,
+      "english": "Is something wrong?",
+      "russian": "Что-то не так?",
+      "start": 549.189,
+      "end": 563.572
+    },
+    {
+      "id": 41,
+      "english": "What's he doing?",
+      "russian": "Что он делает?",
+      "start": 563.572,
+      "end": 577.12
+    }
+  ]
+}

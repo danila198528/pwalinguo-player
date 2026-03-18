@@ -1,0 +1,297 @@
+{
+  "id": "deck-83",
+  "deck_name": "questions_top451 10",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top45110.mp3",
+  "group": "questions_top451",
+  "total_duration": 578.8,
+  "total_sentences": 41,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "How do i know?",
+      "russian": "Откуда я это знаю?",
+      "start": 0.0,
+      "end": 14.092
+    },
+    {
+      "id": 2,
+      "english": "What's that for?",
+      "russian": "Зачем это нужно?",
+      "start": 14.092,
+      "end": 28.083
+    },
+    {
+      "id": 3,
+      "english": "What can you do?",
+      "russian": "Что вы можете сделать?",
+      "start": 28.083,
+      "end": 42.068
+    },
+    {
+      "id": 4,
+      "english": "What's the plan?",
+      "russian": "Какой план?",
+      "start": 42.068,
+      "end": 55.897
+    },
+    {
+      "id": 5,
+      "english": "Am i wrong?",
+      "russian": "Я не прав?",
+      "start": 55.897,
+      "end": 69.572
+    },
+    {
+      "id": 6,
+      "english": "Where'd you get that?",
+      "russian": "Где ты это взял?",
+      "start": 69.572,
+      "end": 83.647
+    },
+    {
+      "id": 7,
+      "english": "Are you deaf?",
+      "russian": "Вы глухой?",
+      "start": 83.647,
+      "end": 97.352
+    },
+    {
+      "id": 8,
+      "english": "How bad is it?",
+      "russian": "Насколько всё плохо?",
+      "start": 97.352,
+      "end": 111.263
+    },
+    {
+      "id": 9,
+      "english": "What am i?",
+      "russian": "Кто я?",
+      "start": 111.263,
+      "end": 124.728
+    },
+    {
+      "id": 10,
+      "english": "What would you like?",
+      "russian": "Что бы вы хотели?",
+      "start": 124.728,
+      "end": 138.567
+    },
+    {
+      "id": 11,
+      "english": "Is this a joke?",
+      "russian": "Это что, шутка?",
+      "start": 138.567,
+      "end": 152.693
+    },
+    {
+      "id": 12,
+      "english": "Are you sure about this?",
+      "russian": "Вы уверены в этом?",
+      "start": 152.693,
+      "end": 167.331
+    },
+    {
+      "id": 13,
+      "english": "What do you expect?",
+      "russian": "Чего вы ожидаете?",
+      "start": 167.331,
+      "end": 181.487
+    },
+    {
+      "id": 14,
+      "english": "Are you joking?",
+      "russian": "Вы шутите?",
+      "start": 181.487,
+      "end": 195.357
+    },
+    {
+      "id": 15,
+      "english": "Are you afraid?",
+      "russian": "Ты боишься?",
+      "start": 195.357,
+      "end": 209.347
+    },
+    {
+      "id": 16,
+      "english": "Did you see it?",
+      "russian": "Вы это видели?",
+      "start": 209.347,
+      "end": 223.082
+    },
+    {
+      "id": 17,
+      "english": "Do you know her?",
+      "russian": "Вы её знаете?",
+      "start": 223.082,
+      "end": 236.787
+    },
+    {
+      "id": 18,
+      "english": "Can i get you anything?",
+      "russian": "Могу я вам что-нибудь принести?",
+      "start": 236.787,
+      "end": 251.176
+    },
+    {
+      "id": 19,
+      "english": "Is that understood?",
+      "russian": "Это понятно?",
+      "start": 251.176,
+      "end": 265.367
+    },
+    {
+      "id": 20,
+      "english": "What are we waiting for?",
+      "russian": "Чего мы ждём?",
+      "start": 265.367,
+      "end": 280.026
+    },
+    {
+      "id": 21,
+      "english": "Is this true?",
+      "russian": "Это правда?",
+      "start": 280.026,
+      "end": 293.774
+    },
+    {
+      "id": 22,
+      "english": "Are we clear?",
+      "russian": "Всё понятно?",
+      "start": 293.774,
+      "end": 307.478
+    },
+    {
+      "id": 23,
+      "english": "Why are you telling me this?",
+      "russian": "Зачем ты мне это рассказываешь?",
+      "start": 307.478,
+      "end": 322.437
+    },
+    {
+      "id": 24,
+      "english": "How can i help?",
+      "russian": "Чем я могу помочь?",
+      "start": 322.437,
+      "end": 336.416
+    },
+    {
+      "id": 25,
+      "english": "Did you hear what i said?",
+      "russian": "Вы слышали, что я сказал?",
+      "start": 336.416,
+      "end": 351.1
+    },
+    {
+      "id": 26,
+      "english": "What is the matter?",
+      "russian": "В чем дело?",
+      "start": 351.1,
+      "end": 365.091
+    },
+    {
+      "id": 27,
+      "english": "Where did you come from?",
+      "russian": "Откуда вы приехали?",
+      "start": 365.091,
+      "end": 379.445
+    },
+    {
+      "id": 28,
+      "english": "Are you sure about that?",
+      "russian": "Вы в этом уверены?",
+      "start": 379.445,
+      "end": 394.015
+    },
+    {
+      "id": 29,
+      "english": "Is it good?",
+      "russian": "Это хорошо?",
+      "start": 394.015,
+      "end": 407.595
+    },
+    {
+      "id": 30,
+      "english": "What did you expect?",
+      "russian": "Чего вы ожидали?",
+      "start": 407.595,
+      "end": 421.872
+    },
+    {
+      "id": 31,
+      "english": "Where are you now?",
+      "russian": "Где вы сейчас?",
+      "start": 421.872,
+      "end": 436.002
+    },
+    {
+      "id": 32,
+      "english": "Is that a problem?",
+      "russian": "Это проблема?",
+      "start": 436.002,
+      "end": 450.075
+    },
+    {
+      "id": 33,
+      "english": "How long have you been here?",
+      "russian": "Как давно вы здесь находитесь?",
+      "start": 450.075,
+      "end": 465.082
+    },
+    {
+      "id": 34,
+      "english": "Are you crying?",
+      "russian": "Ты плачешь?",
+      "start": 465.082,
+      "end": 478.803
+    },
+    {
+      "id": 35,
+      "english": "Do you know what i mean?",
+      "russian": "Вы понимаете, о чём я говорю?",
+      "start": 478.803,
+      "end": 493.508
+    },
+    {
+      "id": 36,
+      "english": "What does it look like?",
+      "russian": "Как это выглядит?",
+      "start": 493.508,
+      "end": 507.788
+    },
+    {
+      "id": 37,
+      "english": "How does it feel?",
+      "russian": "Какие ощущения?",
+      "start": 507.788,
+      "end": 522.027
+    },
+    {
+      "id": 38,
+      "english": "Will you help me?",
+      "russian": "Вы мне поможете?",
+      "start": 522.027,
+      "end": 535.612
+    },
+    {
+      "id": 39,
+      "english": "Can i talk to you for a second?",
+      "russian": "Можно с вами поговорить секунду?",
+      "start": 535.612,
+      "end": 550.933
+    },
+    {
+      "id": 40,
+      "english": "What's that noise?",
+      "russian": "Что это за шум?",
+      "start": 550.933,
+      "end": 565.241
+    },
+    {
+      "id": 41,
+      "english": "Do you trust me?",
+      "russian": "Ты мне доверяешь?",
+      "start": 565.241,
+      "end": 578.799
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "id": "deck-72",
+  "deck_name": "questions_pattern 1",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_pattern1.mp3",
+  "group": "questions_pattern",
+  "total_duration": 854.46,
+  "total_sentences": 61,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Do you?",
+      "russian": "Правда? / Да ну? / Неужели? А ты?",
+      "start": 0.0,
+      "end": 13.299
+    },
+    {
+      "id": 2,
+      "english": "Do you understand?",
+      "russian": "Ты понимаешь?",
+      "start": 13.299,
+      "end": 27.534
+    },
+    {
+      "id": 3,
+      "english": "Do you hear me?",
+      "russian": "Ты меня слышишь?",
+      "start": 27.534,
+      "end": 41.238
+    },
+    {
+      "id": 4,
+      "english": "Do you hear that?",
+      "russian": "Ты слышишь это?",
+      "start": 41.238,
+      "end": 55.05
+    },
+    {
+      "id": 5,
+      "english": "Do you copy?",
+      "russian": "Приём, слышишь меня? (рация)",
+      "start": 55.05,
+      "end": 68.562
+    },
+    {
+      "id": 6,
+      "english": "Do you read me?",
+      "russian": "Ты меня слышишь? (связь)",
+      "start": 68.562,
+      "end": 82.217
+    },
+    {
+      "id": 7,
+      "english": "Do you see?",
+      "russian": "Видишь? / Понимаешь?",
+      "start": 82.217,
+      "end": 95.921
+    },
+    {
+      "id": 8,
+      "english": "Do you see it?",
+      "russian": "Ты это видишь?",
+      "start": 95.921,
+      "end": 109.66
+    },
+    {
+      "id": 9,
+      "english": "Do you see him?",
+      "russian": "Ты его видишь?",
+      "start": 109.66,
+      "end": 123.618
+    },
+    {
+      "id": 10,
+      "english": "Do you see anything?",
+      "russian": "Ты что-нибудь видишь?",
+      "start": 123.618,
+      "end": 137.789
+    },
+    {
+      "id": 11,
+      "english": "Do you get it?",
+      "russian": "Ты понял?",
+      "start": 137.789,
+      "end": 151.392
+    },
+    {
+      "id": 12,
+      "english": "Do you know him?",
+      "russian": "Ты его знаешь?",
+      "start": 151.392,
+      "end": 165.287
+    },
+    {
+      "id": 13,
+      "english": "Do you know?",
+      "russian": "Ты знаешь?",
+      "start": 165.287,
+      "end": 178.819
+    },
+    {
+      "id": 14,
+      "english": "Do you know who i am?",
+      "russian": "Ты знаешь, кто я?",
+      "start": 178.819,
+      "end": 193.188
+    },
+    {
+      "id": 15,
+      "english": "Do you know why?",
+      "russian": "Ты знаешь почему?",
+      "start": 193.188,
+      "end": 207.314
+    },
+    {
+      "id": 16,
+      "english": "Do you know that?",
+      "russian": "Ты знаешь об этом?",
+      "start": 207.314,
+      "end": 221.091
+    },
+    {
+      "id": 17,
+      "english": "Do you know what i mean?",
+      "russian": "Ты понимаешь, что я имею в виду?",
+      "start": 221.091,
+      "end": 235.803
+    },
+    {
+      "id": 18,
+      "english": "Do you know where he is?",
+      "russian": "Ты знаешь, где он?",
+      "start": 235.803,
+      "end": 250.333
+    },
+    {
+      "id": 19,
+      "english": "Do you know what?",
+      "russian": "Знаешь что?",
+      "start": 250.333,
+      "end": 264.305
+    },
+    {
+      "id": 20,
+      "english": "Do you know what that means?",
+      "russian": "Ты знаешь, что это значит?",
+      "start": 264.305,
+      "end": 279.306
+    },
+    {
+      "id": 21,
+      "english": "Do you know what this is?",
+      "russian": "Ты знаешь, что это такое?",
+      "start": 279.306,
+      "end": 293.764
+    },
+    {
+      "id": 22,
+      "english": "Do you know what time it is?",
+      "russian": "Ты знаешь, который час?",
+      "start": 293.764,
+      "end": 308.617
+    },
+    {
+      "id": 23,
+      "english": "Do you know me?",
+      "russian": "Ты меня знаешь?",
+      "start": 308.617,
+      "end": 322.29
+    },
+    {
+      "id": 24,
+      "english": "Do you know where you are?",
+      "russian": "Ты знаешь где ты?",
+      "start": 322.29,
+      "end": 336.843
+    },
+    {
+      "id": 25,
+      "english": "Do you know what you're doing?",
+      "russian": "Ты понимаешь, что делаешь?",
+      "start": 336.843,
+      "end": 351.507
+    },
+    {
+      "id": 26,
+      "english": "Do you remember?",
+      "russian": "Ты помнишь?",
+      "start": 351.507,
+      "end": 365.227
+    },
+    {
+      "id": 27,
+      "english": "Do you remember me?",
+      "russian": "Ты меня помнишь?",
+      "start": 365.227,
+      "end": 379.121
+    },
+    {
+      "id": 28,
+      "english": "Do you love me?",
+      "russian": "Ты меня любишь?",
+      "start": 379.121,
+      "end": 392.81
+    },
+    {
+      "id": 29,
+      "english": "Do you like it?",
+      "russian": "Тебе это нравится?",
+      "start": 392.81,
+      "end": 406.517
+    },
+    {
+      "id": 30,
+      "english": "Do you like me?",
+      "russian": "Я тебе нравлюсь?",
+      "start": 406.517,
+      "end": 420.078
+    },
+    {
+      "id": 31,
+      "english": "Do you feel that?",
+      "russian": "Ты это чувствуешь?",
+      "start": 420.078,
+      "end": 433.985
+    },
+    {
+      "id": 32,
+      "english": "Do you trust me?",
+      "russian": "Ты мне доверяешь?",
+      "start": 433.985,
+      "end": 447.833
+    },
+    {
+      "id": 33,
+      "english": "Do you believe me?",
+      "russian": "Ты мне веришь?",
+      "start": 447.833,
+      "end": 461.813
+    },
+    {
+      "id": 34,
+      "english": "Do you believe that?",
+      "russian": "Ты в это веришь?",
+      "start": 461.813,
+      "end": 475.9
+    },
+    {
+      "id": 35,
+      "english": "Do you believe in god?",
+      "russian": "Ты веришь в Бога?",
+      "start": 475.9,
+      "end": 490.18
+    },
+    {
+      "id": 36,
+      "english": "Do you think so?",
+      "russian": "Ты так думаешь?",
+      "start": 490.18,
+      "end": 504.078
+    },
+    {
+      "id": 37,
+      "english": "Do you agree?",
+      "russian": "Ты согласен?",
+      "start": 504.078,
+      "end": 517.791
+    },
+    {
+      "id": 38,
+      "english": "Do you mind?",
+      "russian": "Ты не против?",
+      "start": 517.791,
+      "end": 531.496
+    },
+    {
+      "id": 39,
+      "english": "Do you promise?",
+      "russian": "Ты обещаешь?",
+      "start": 531.496,
+      "end": 545.394
+    },
+    {
+      "id": 40,
+      "english": "Do you want to?",
+      "russian": "Ты хочешь?",
+      "start": 545.394,
+      "end": 559.128
+    },
+    {
+      "id": 41,
+      "english": "Do you want it?",
+      "russian": "Ты этого хочешь?",
+      "start": 559.128,
+      "end": 572.835
+    },
+    {
+      "id": 42,
+      "english": "Do you want some?",
+      "russian": "Хочешь немного?",
+      "start": 572.835,
+      "end": 586.73
+    },
+    {
+      "id": 43,
+      "english": "Do you want anything?",
+      "russian": "Ты что-нибудь хочешь?",
+      "start": 586.73,
+      "end": 600.82
+    },
+    {
+      "id": 44,
+      "english": "Do you want a drink?",
+      "russian": "Хочешь выпить? (алкоголь)",
+      "start": 600.82,
+      "end": 615.004
+    },
+    {
+      "id": 45,
+      "english": "Do you want to come?",
+      "russian": "Хочешь прийти?",
+      "start": 615.004,
+      "end": 629.056
+    },
+    {
+      "id": 46,
+      "english": "Do you want to go?",
+      "russian": "Хочешь уйти?",
+      "start": 629.056,
+      "end": 643.143
+    },
+    {
+      "id": 47,
+      "english": "Do you want to die?",
+      "russian": "Ты хочешь умереть?",
+      "start": 643.143,
+      "end": 657.313
+    },
+    {
+      "id": 48,
+      "english": "Do you want to talk about it?",
+      "russian": "Ты хочешь поговорить об этом?",
+      "start": 657.313,
+      "end": 672.183
+    },
+    {
+      "id": 49,
+      "english": "Do you need anything?",
+      "russian": "Тебе что-нибудь нужно?",
+      "start": 672.183,
+      "end": 686.322
+    },
+    {
+      "id": 50,
+      "english": "Do you need help?",
+      "russian": "Тебе нужна помощь?",
+      "start": 686.322,
+      "end": 700.362
+    },
+    {
+      "id": 51,
+      "english": "Do you have it?",
+      "russian": "Это у тебя?",
+      "start": 700.362,
+      "end": 713.922
+    },
+    {
+      "id": 52,
+      "english": "Do you have a minute?",
+      "russian": "У тебя есть минутка?",
+      "start": 713.922,
+      "end": 727.962
+    },
+    {
+      "id": 53,
+      "english": "Do you have children?",
+      "russian": "У тебя есть дети?",
+      "start": 727.962,
+      "end": 742.148
+    },
+    {
+      "id": 54,
+      "english": "Do you have an appointment?",
+      "russian": "У вас есть запись? (к врачу, например)",
+      "start": 742.148,
+      "end": 756.668
+    },
+    {
+      "id": 55,
+      "english": "Do you have a girlfriend?",
+      "russian": "У тебя есть девушка?",
+      "start": 756.668,
+      "end": 771.091
+    },
+    {
+      "id": 56,
+      "english": "Do you have a pen?",
+      "russian": "У тебя есть ручка?",
+      "start": 771.091,
+      "end": 785.116
+    },
+    {
+      "id": 57,
+      "english": "Do you live here?",
+      "russian": "Ты здесь живёшь?",
+      "start": 785.116,
+      "end": 799.011
+    },
+    {
+      "id": 58,
+      "english": "Do you work here?",
+      "russian": "Ты здесь работаешь?",
+      "start": 799.011,
+      "end": 813.161
+    },
+    {
+      "id": 59,
+      "english": "Do you smoke?",
+      "russian": "Ты куришь?",
+      "start": 813.161,
+      "end": 826.96
+    },
+    {
+      "id": 60,
+      "english": "Do you speak english?",
+      "russian": "Вы говорите по-английски?",
+      "start": 826.96,
+      "end": 841.29
+    },
+    {
+      "id": 61,
+      "english": "Do you really?",
+      "russian": "Неужели? Ты серьёзно?",
+      "start": 841.29,
+      "end": 854.464
+    }
+  ]
+}

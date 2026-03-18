@@ -1,0 +1,297 @@
+{
+  "id": "deck-82",
+  "deck_name": "questions_top451 9",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4519.mp3",
+  "group": "questions_top451",
+  "total_duration": 585.38,
+  "total_sentences": 41,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "What is your problem?",
+      "russian": "В чём ваша проблема?",
+      "start": 0.0,
+      "end": 14.419
+    },
+    {
+      "id": 2,
+      "english": "Is that correct?",
+      "russian": "Это правильно?",
+      "start": 14.419,
+      "end": 28.514
+    },
+    {
+      "id": 3,
+      "english": "What are you trying to say?",
+      "russian": "Что вы пытаетесь сказать?",
+      "start": 28.514,
+      "end": 43.155
+    },
+    {
+      "id": 4,
+      "english": "Can you imagine?",
+      "russian": "Вы можете себе это представить?",
+      "start": 43.155,
+      "end": 57.166
+    },
+    {
+      "id": 5,
+      "english": "Why would he do that?",
+      "russian": "Зачем бы он это сделал?",
+      "start": 57.166,
+      "end": 71.59
+    },
+    {
+      "id": 6,
+      "english": "How'd you know?",
+      "russian": "Откуда ты это знаешь?",
+      "start": 71.59,
+      "end": 85.292
+    },
+    {
+      "id": 7,
+      "english": "Who are you talking to?",
+      "russian": "С кем вы разговариваете?",
+      "start": 85.292,
+      "end": 99.725
+    },
+    {
+      "id": 8,
+      "english": "What happened to her?",
+      "russian": "Что с ней случилось?",
+      "start": 99.725,
+      "end": 113.843
+    },
+    {
+      "id": 9,
+      "english": "Don't you know?",
+      "russian": "Разве ты не знаешь?",
+      "start": 113.843,
+      "end": 127.516
+    },
+    {
+      "id": 10,
+      "english": "What is going on here?",
+      "russian": "Что здесь происходит?",
+      "start": 127.516,
+      "end": 142.206
+    },
+    {
+      "id": 11,
+      "english": "What's on your mind?",
+      "russian": "Что у тебя на уме?",
+      "start": 142.206,
+      "end": 156.549
+    },
+    {
+      "id": 12,
+      "english": "What are you doing there?",
+      "russian": "Что ты там делаешь?",
+      "start": 156.549,
+      "end": 170.939
+    },
+    {
+      "id": 13,
+      "english": "Is she all right?",
+      "russian": "С ней всё в порядке?",
+      "start": 170.939,
+      "end": 185.02
+    },
+    {
+      "id": 14,
+      "english": "What are you afraid of?",
+      "russian": "Чего ты боишься?",
+      "start": 185.02,
+      "end": 199.595
+    },
+    {
+      "id": 15,
+      "english": "What are you talkin' about?",
+      "russian": "О чём ты говоришь?",
+      "start": 199.595,
+      "end": 214.466
+    },
+    {
+      "id": 16,
+      "english": "What the fuck is going on?",
+      "russian": "Что, блять, происходит?",
+      "start": 214.466,
+      "end": 229.286
+    },
+    {
+      "id": 17,
+      "english": "Can i talk to you?",
+      "russian": "Могу я с вами поговорить?",
+      "start": 229.286,
+      "end": 243.32
+    },
+    {
+      "id": 18,
+      "english": "Are you sick?",
+      "russian": "Вы больны?",
+      "start": 243.32,
+      "end": 256.932
+    },
+    {
+      "id": 19,
+      "english": "Can't you see?",
+      "russian": "Разве ты не видишь?",
+      "start": 256.932,
+      "end": 270.885
+    },
+    {
+      "id": 20,
+      "english": "Who told you?",
+      "russian": "Кто вам это сказал?",
+      "start": 270.885,
+      "end": 284.493
+    },
+    {
+      "id": 21,
+      "english": "What's that smell?",
+      "russian": "Что это за запах?",
+      "start": 284.493,
+      "end": 298.634
+    },
+    {
+      "id": 22,
+      "english": "What the hell is going on here?",
+      "russian": "Что, чёрт возьми, здесь происходит?",
+      "start": 298.634,
+      "end": 313.983
+    },
+    {
+      "id": 23,
+      "english": "What are you thinking about?",
+      "russian": "О чём ты думаешь?",
+      "start": 313.983,
+      "end": 328.711
+    },
+    {
+      "id": 24,
+      "english": "Are you drunk?",
+      "russian": "Вы пьяны?",
+      "start": 328.711,
+      "end": 342.48
+    },
+    {
+      "id": 25,
+      "english": "What are you doing in here?",
+      "russian": "Что ты здесь делаешь?",
+      "start": 342.48,
+      "end": 357.334
+    },
+    {
+      "id": 26,
+      "english": "Why are you doing this to me?",
+      "russian": "Зачем ты это делаешь со мной?",
+      "start": 357.334,
+      "end": 372.291
+    },
+    {
+      "id": 27,
+      "english": "What are you staring at?",
+      "russian": "На что ты так пристально смотришь?",
+      "start": 372.291,
+      "end": 386.755
+    },
+    {
+      "id": 28,
+      "english": "Do you remember me?",
+      "russian": "Ты помнишь меня?",
+      "start": 386.755,
+      "end": 400.657
+    },
+    {
+      "id": 29,
+      "english": "What are you laughing at?",
+      "russian": "Над чем ты смеешься?",
+      "start": 400.657,
+      "end": 415.029
+    },
+    {
+      "id": 30,
+      "english": "What do you want to know?",
+      "russian": "Что вы хотите узнать?",
+      "start": 415.029,
+      "end": 429.305
+    },
+    {
+      "id": 31,
+      "english": "Where's that?",
+      "russian": "Где это?",
+      "start": 429.305,
+      "end": 442.923
+    },
+    {
+      "id": 32,
+      "english": "What did they say?",
+      "russian": "Что они сказали?",
+      "start": 442.923,
+      "end": 457.024
+    },
+    {
+      "id": 33,
+      "english": "What's this all about?",
+      "russian": "Что всё это значит?",
+      "start": 457.024,
+      "end": 471.475
+    },
+    {
+      "id": 34,
+      "english": "How would you know?",
+      "russian": "Откуда вам знать?",
+      "start": 471.475,
+      "end": 485.381
+    },
+    {
+      "id": 35,
+      "english": "Where's he going?",
+      "russian": "Куда он направляется?",
+      "start": 485.381,
+      "end": 499.214
+    },
+    {
+      "id": 36,
+      "english": "Why are you laughing?",
+      "russian": "Почему ты смеешься?",
+      "start": 499.214,
+      "end": 513.524
+    },
+    {
+      "id": 37,
+      "english": "What was that all about?",
+      "russian": "Что всё это значило?",
+      "start": 513.524,
+      "end": 528.071
+    },
+    {
+      "id": 38,
+      "english": "Why would you say that?",
+      "russian": "Зачем вы так сказали?",
+      "start": 528.071,
+      "end": 542.635
+    },
+    {
+      "id": 39,
+      "english": "Did something happen?",
+      "russian": "Что-то случилось?",
+      "start": 542.635,
+      "end": 556.916
+    },
+    {
+      "id": 40,
+      "english": "What was i supposed to do?",
+      "russian": "Что я должен был сделать?",
+      "start": 556.916,
+      "end": 571.915
+    },
+    {
+      "id": 41,
+      "english": "Did you hear?",
+      "russian": "Вы слышали?",
+      "start": 571.915,
+      "end": 585.375
+    }
+  ]
+}

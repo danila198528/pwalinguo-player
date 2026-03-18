@@ -1,0 +1,297 @@
+{
+  "id": "deck-74",
+  "deck_name": "questions_top451 1",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4511.mp3",
+  "group": "questions_top451",
+  "total_duration": 566.65,
+  "total_sentences": 41,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "What are you doing?",
+      "russian": "Что ты делаешь?",
+      "start": 0.0,
+      "end": 14.281
+    },
+    {
+      "id": 2,
+      "english": "What is it?",
+      "russian": "Что это такое?",
+      "start": 14.281,
+      "end": 27.655
+    },
+    {
+      "id": 3,
+      "english": "What happened?",
+      "russian": "Что случилось?",
+      "start": 27.655,
+      "end": 41.308
+    },
+    {
+      "id": 4,
+      "english": "What do you mean?",
+      "russian": "Что ты имеешь в виду?",
+      "start": 41.308,
+      "end": 55.317
+    },
+    {
+      "id": 5,
+      "english": "What's going on?",
+      "russian": "Что происходит?",
+      "start": 55.317,
+      "end": 69.159
+    },
+    {
+      "id": 6,
+      "english": "What are you talking about?",
+      "russian": "О чем ты говоришь?",
+      "start": 69.159,
+      "end": 83.732
+    },
+    {
+      "id": 7,
+      "english": "Who are you?",
+      "russian": "Кто ты?",
+      "start": 83.732,
+      "end": 97.172
+    },
+    {
+      "id": 8,
+      "english": "What are you doing here?",
+      "russian": "Что ты здесь делаешь?",
+      "start": 97.172,
+      "end": 111.792
+    },
+    {
+      "id": 9,
+      "english": "What's that?",
+      "russian": "Что это такое?",
+      "start": 111.792,
+      "end": 125.338
+    },
+    {
+      "id": 10,
+      "english": "How are you?",
+      "russian": "Как вы?",
+      "start": 125.338,
+      "end": 138.813
+    },
+    {
+      "id": 11,
+      "english": "What's wrong?",
+      "russian": "В чем дело? Что случилось?",
+      "start": 138.813,
+      "end": 152.522
+    },
+    {
+      "id": 12,
+      "english": "What do you want?",
+      "russian": "Что ты хочешь?",
+      "start": 152.522,
+      "end": 166.357
+    },
+    {
+      "id": 13,
+      "english": "Are you okay?",
+      "russian": "Ты в порядке?",
+      "start": 166.357,
+      "end": 180.363
+    },
+    {
+      "id": 14,
+      "english": "Where are you going?",
+      "russian": "Куда ты идешь?",
+      "start": 180.363,
+      "end": 194.468
+    },
+    {
+      "id": 15,
+      "english": "What do you think?",
+      "russian": "Что вы думаете?",
+      "start": 194.468,
+      "end": 208.292
+    },
+    {
+      "id": 16,
+      "english": "What's up?",
+      "russian": "Как дела?",
+      "start": 208.292,
+      "end": 221.664
+    },
+    {
+      "id": 17,
+      "english": "What's the matter?",
+      "russian": "Что случилось?",
+      "start": 221.664,
+      "end": 235.519
+    },
+    {
+      "id": 18,
+      "english": "What is this?",
+      "russian": "Что это?",
+      "start": 235.519,
+      "end": 249.262
+    },
+    {
+      "id": 19,
+      "english": "Are you sure?",
+      "russian": "Вы уверены?",
+      "start": 249.262,
+      "end": 262.825
+    },
+    {
+      "id": 20,
+      "english": "Where are you?",
+      "russian": "Где ты?",
+      "start": 262.825,
+      "end": 276.52
+    },
+    {
+      "id": 21,
+      "english": "What's this?",
+      "russian": "Что это?",
+      "start": 276.52,
+      "end": 290.086
+    },
+    {
+      "id": 22,
+      "english": "What is that?",
+      "russian": "Что это такое?",
+      "start": 290.086,
+      "end": 303.79
+    },
+    {
+      "id": 23,
+      "english": "Where is he?",
+      "russian": "Где он?",
+      "start": 303.79,
+      "end": 317.526
+    },
+    {
+      "id": 24,
+      "english": "Are you all right?",
+      "russian": "С вами всё в порядке?",
+      "start": 317.526,
+      "end": 331.635
+    },
+    {
+      "id": 25,
+      "english": "What's your name?",
+      "russian": "Как тебя зовут?",
+      "start": 331.635,
+      "end": 345.657
+    },
+    {
+      "id": 26,
+      "english": "Who is it?",
+      "russian": "Кто это?",
+      "start": 345.657,
+      "end": 359.075
+    },
+    {
+      "id": 27,
+      "english": "What was that?",
+      "russian": "Что это было?",
+      "start": 359.075,
+      "end": 372.791
+    },
+    {
+      "id": 28,
+      "english": "What did you say?",
+      "russian": "Что вы сказали?",
+      "start": 372.791,
+      "end": 386.888
+    },
+    {
+      "id": 29,
+      "english": "Where is she?",
+      "russian": "Где она?",
+      "start": 386.888,
+      "end": 400.683
+    },
+    {
+      "id": 30,
+      "english": "What's happening?",
+      "russian": "Что происходит?",
+      "start": 400.683,
+      "end": 414.363
+    },
+    {
+      "id": 31,
+      "english": "Do you understand?",
+      "russian": "Вы понимаете?",
+      "start": 414.363,
+      "end": 428.623
+    },
+    {
+      "id": 32,
+      "english": "What does that mean?",
+      "russian": "Что это значит?",
+      "start": 428.623,
+      "end": 442.83
+    },
+    {
+      "id": 33,
+      "english": "Are you crazy?",
+      "russian": "Вы с ума сошли?",
+      "start": 442.83,
+      "end": 456.588
+    },
+    {
+      "id": 34,
+      "english": "Where is it?",
+      "russian": "Где это?",
+      "start": 456.588,
+      "end": 470.112
+    },
+    {
+      "id": 35,
+      "english": "How do you know?",
+      "russian": "Откуда вы знаете?",
+      "start": 470.112,
+      "end": 483.952
+    },
+    {
+      "id": 36,
+      "english": "What are you saying?",
+      "russian": "Что вы говорите?",
+      "start": 483.952,
+      "end": 497.983
+    },
+    {
+      "id": 37,
+      "english": "Who's that?",
+      "russian": "Кто это?",
+      "start": 497.983,
+      "end": 511.493
+    },
+    {
+      "id": 38,
+      "english": "Can i help you?",
+      "russian": "Я могу вам помочь?",
+      "start": 511.493,
+      "end": 525.159
+    },
+    {
+      "id": 39,
+      "english": "Are you serious?",
+      "russian": "Ты серьезно?",
+      "start": 525.159,
+      "end": 539.212
+    },
+    {
+      "id": 40,
+      "english": "How do you do?",
+      "russian": "Как дела?",
+      "start": 539.212,
+      "end": 553.226
+    },
+    {
+      "id": 41,
+      "english": "Are you kidding me?",
+      "russian": "Ты шутишь, что ли?",
+      "start": 553.226,
+      "end": 566.655
+    }
+  ]
+}

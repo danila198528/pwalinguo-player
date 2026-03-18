@@ -1,0 +1,297 @@
+{
+  "id": "deck-81",
+  "deck_name": "questions_top451 8",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4518.mp3",
+  "group": "questions_top451",
+  "total_duration": 574.58,
+  "total_sentences": 41,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Is that him?",
+      "russian": "Это он?",
+      "start": 0.0,
+      "end": 13.874
+    },
+    {
+      "id": 2,
+      "english": "Do you understand that?",
+      "russian": "Вы это понимаете?",
+      "start": 13.874,
+      "end": 28.356
+    },
+    {
+      "id": 3,
+      "english": "Do you know why?",
+      "russian": "Вы знаете почему?",
+      "start": 28.356,
+      "end": 42.507
+    },
+    {
+      "id": 4,
+      "english": "What's yours?",
+      "russian": "А какой ваш?",
+      "start": 42.507,
+      "end": 56.211
+    },
+    {
+      "id": 5,
+      "english": "Who did this?",
+      "russian": "Кто это сделал?",
+      "start": 56.211,
+      "end": 69.888
+    },
+    {
+      "id": 6,
+      "english": "What would you do?",
+      "russian": "Что бы вы сделали?",
+      "start": 69.888,
+      "end": 83.904
+    },
+    {
+      "id": 7,
+      "english": "So what do you think?",
+      "russian": "Ну и что вы думаете?",
+      "start": 83.904,
+      "end": 98.174
+    },
+    {
+      "id": 8,
+      "english": "Why are you crying?",
+      "russian": "Почему ты плачешь?",
+      "start": 98.174,
+      "end": 112.406
+    },
+    {
+      "id": 9,
+      "english": "Why did you do it?",
+      "russian": "Зачем ты это сделал?",
+      "start": 112.406,
+      "end": 126.544
+    },
+    {
+      "id": 10,
+      "english": "That's all?",
+      "russian": "Вот и все?",
+      "start": 126.544,
+      "end": 139.95
+    },
+    {
+      "id": 11,
+      "english": "Are you listening to me?",
+      "russian": "Вы меня слышите?",
+      "start": 139.95,
+      "end": 154.082
+    },
+    {
+      "id": 12,
+      "english": "Can we talk?",
+      "russian": "Мы можем поговорить?",
+      "start": 154.082,
+      "end": 168.003
+    },
+    {
+      "id": 13,
+      "english": "What is that supposed to mean?",
+      "russian": "Что это должно означать?",
+      "start": 168.003,
+      "end": 183.243
+    },
+    {
+      "id": 14,
+      "english": "What does he want?",
+      "russian": "Чего он хочет?",
+      "start": 183.243,
+      "end": 197.214
+    },
+    {
+      "id": 15,
+      "english": "Can you help me?",
+      "russian": "Вы можете помочь мне?",
+      "start": 197.214,
+      "end": 210.93
+    },
+    {
+      "id": 16,
+      "english": "So what happened?",
+      "russian": "Что же произошло?",
+      "start": 210.93,
+      "end": 225.055
+    },
+    {
+      "id": 17,
+      "english": "Is this it?",
+      "russian": "И это всё?",
+      "start": 225.055,
+      "end": 238.521
+    },
+    {
+      "id": 18,
+      "english": "How have you been?",
+      "russian": "Как твои дела?",
+      "start": 238.521,
+      "end": 252.561
+    },
+    {
+      "id": 19,
+      "english": "What was that about?",
+      "russian": "Что это было?",
+      "start": 252.561,
+      "end": 266.756
+    },
+    {
+      "id": 20,
+      "english": "Have you lost your mind?",
+      "russian": "Ты что, с ума сошёл?",
+      "start": 266.756,
+      "end": 281.359
+    },
+    {
+      "id": 21,
+      "english": "What's your point?",
+      "russian": "В чём суть вашего вопроса?",
+      "start": 281.359,
+      "end": 295.477
+    },
+    {
+      "id": 22,
+      "english": "What is all this?",
+      "russian": "Что всё это значит?",
+      "start": 295.477,
+      "end": 309.434
+    },
+    {
+      "id": 23,
+      "english": "Are you done?",
+      "russian": "Вы закончили?",
+      "start": 309.434,
+      "end": 323.011
+    },
+    {
+      "id": 24,
+      "english": "How would i know?",
+      "russian": "Откуда мне знать?",
+      "start": 323.011,
+      "end": 336.873
+    },
+    {
+      "id": 25,
+      "english": "How was your day?",
+      "russian": "Как прошел день?",
+      "start": 336.873,
+      "end": 351.174
+    },
+    {
+      "id": 26,
+      "english": "Did you get it?",
+      "russian": "Вы поняли?",
+      "start": 351.174,
+      "end": 364.847
+    },
+    {
+      "id": 27,
+      "english": "Where were we?",
+      "russian": "На чём мы остановились?",
+      "start": 364.847,
+      "end": 378.498
+    },
+    {
+      "id": 28,
+      "english": "Do you read me?",
+      "russian": "Вы меня слышите?",
+      "start": 378.498,
+      "end": 392.135
+    },
+    {
+      "id": 29,
+      "english": "Can i help?",
+      "russian": "Могу я помочь?",
+      "start": 392.135,
+      "end": 405.777
+    },
+    {
+      "id": 30,
+      "english": "How much is it?",
+      "russian": "Сколько это стоит?",
+      "start": 405.777,
+      "end": 419.716
+    },
+    {
+      "id": 31,
+      "english": "Who is this guy?",
+      "russian": "Кто этот парень?",
+      "start": 419.716,
+      "end": 434.083
+    },
+    {
+      "id": 32,
+      "english": "What'd you do?",
+      "russian": "Что ты сделал?",
+      "start": 434.083,
+      "end": 448.121
+    },
+    {
+      "id": 33,
+      "english": "Is he here?",
+      "russian": "Он здесь?",
+      "start": 448.121,
+      "end": 461.677
+    },
+    {
+      "id": 34,
+      "english": "Are you alone?",
+      "russian": "Ты один?",
+      "start": 461.677,
+      "end": 475.539
+    },
+    {
+      "id": 35,
+      "english": "What was his name?",
+      "russian": "Как его звали?",
+      "start": 475.539,
+      "end": 489.869
+    },
+    {
+      "id": 36,
+      "english": "What does it matter?",
+      "russian": "Какая разница?",
+      "start": 489.869,
+      "end": 503.805
+    },
+    {
+      "id": 37,
+      "english": "What's wrong with her?",
+      "russian": "Что с ней не так?",
+      "start": 503.805,
+      "end": 518.177
+    },
+    {
+      "id": 38,
+      "english": "Where did you get it?",
+      "russian": "Где ты это взял?",
+      "start": 518.177,
+      "end": 532.222
+    },
+    {
+      "id": 39,
+      "english": "What am i doing here?",
+      "russian": "Что я здесь делаю?",
+      "start": 532.222,
+      "end": 546.765
+    },
+    {
+      "id": 40,
+      "english": "What were you doing?",
+      "russian": "Чем вы занимались?",
+      "start": 546.765,
+      "end": 560.781
+    },
+    {
+      "id": 41,
+      "english": "What can i get you?",
+      "russian": "Что я могу вам предложить?",
+      "start": 560.781,
+      "end": 574.576
+    }
+  ]
+}

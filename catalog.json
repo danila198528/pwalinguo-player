@@ -468,7 +468,126 @@
     "total_duration": 623.47,
     "total_sentences": 40,
     "deck_url": "./decks/deck-71.json"
+  },
+
+  {
+    "id": "deck-72",
+    "deck_name": "questions_pattern 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_pattern1.mp3",
+    "group": "questions_pattern",
+    "total_duration": 854.46,
+    "total_sentences": 61,
+    "deck_url": "./decks/deck-72.json"
+  },
+  {
+    "id": "deck-73",
+    "deck_name": "questions_pattern 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_pattern2.mp3",
+    "group": "questions_pattern",
+    "total_duration": 1022.97,
+    "total_sentences": 74,
+    "deck_url": "./decks/deck-73.json"
+  },
+  {
+    "id": "deck-74",
+    "deck_name": "questions_top451 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4511.mp3",
+    "group": "questions_top451",
+    "total_duration": 566.65,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-74.json"
+  },
+  {
+    "id": "deck-75",
+    "deck_name": "questions_top451 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4512.mp3",
+    "group": "questions_top451",
+    "total_duration": 567.66,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-75.json"
+  },
+  {
+    "id": "deck-76",
+    "deck_name": "questions_top451 3",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4513.mp3",
+    "group": "questions_top451",
+    "total_duration": 577.12,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-76.json"
+  },
+  {
+    "id": "deck-77",
+    "deck_name": "questions_top451 4",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4514.mp3",
+    "group": "questions_top451",
+    "total_duration": 574.82,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-77.json"
+  },
+  {
+    "id": "deck-78",
+    "deck_name": "questions_top451 5",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4515.mp3",
+    "group": "questions_top451",
+    "total_duration": 581.06,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-78.json"
+  },
+  {
+    "id": "deck-79",
+    "deck_name": "questions_top451 6",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4516.mp3",
+    "group": "questions_top451",
+    "total_duration": 573.09,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-79.json"
+  },
+  {
+    "id": "deck-80",
+    "deck_name": "questions_top451 7",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4517.mp3",
+    "group": "questions_top451",
+    "total_duration": 580.43,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-80.json"
+  },
+  {
+    "id": "deck-81",
+    "deck_name": "questions_top451 8",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4518.mp3",
+    "group": "questions_top451",
+    "total_duration": 574.58,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-81.json"
+  },
+  {
+    "id": "deck-82",
+    "deck_name": "questions_top451 9",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4519.mp3",
+    "group": "questions_top451",
+    "total_duration": 585.38,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-82.json"
+  },
+  {
+    "id": "deck-83",
+    "deck_name": "questions_top451 10",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top45110.mp3",
+    "group": "questions_top451",
+    "total_duration": 578.8,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-83.json"
+  },
+  {
+    "id": "deck-84",
+    "deck_name": "questions_top451 11",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top45111.mp3",
+    "group": "questions_top451",
+    "total_duration": 579.04,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-84.json"
   }
+
 ]
 
 
