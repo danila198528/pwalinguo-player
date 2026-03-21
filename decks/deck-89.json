@@ -1,0 +1,290 @@
+{
+  "id": "deck-89",
+  "deck_name": "phrase_top396 5",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3965.mp3",
+  "group": "phrase_top396",
+  "total_duration": 547.67,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "That's nice.",
+      "russian": "Это мило.",
+      "start": 0.0,
+      "end": 13.911
+    },
+    {
+      "id": 2,
+      "english": "I hope so.",
+      "russian": "Я надеюсь, что это так.",
+      "start": 13.911,
+      "end": 27.739
+    },
+    {
+      "id": 3,
+      "english": "Just a minute.",
+      "russian": "Минутку.",
+      "start": 27.739,
+      "end": 41.425
+    },
+    {
+      "id": 4,
+      "english": "I got you.",
+      "russian": "Понял тебя.",
+      "start": 41.425,
+      "end": 54.866
+    },
+    {
+      "id": 5,
+      "english": "He's gone.",
+      "russian": "Его больше нет.",
+      "start": 54.866,
+      "end": 68.413
+    },
+    {
+      "id": 6,
+      "english": "Open the door!",
+      "russian": "Откройте дверь!",
+      "start": 68.413,
+      "end": 82.306
+    },
+    {
+      "id": 7,
+      "english": "You'll see.",
+      "russian": "Вы увидите.",
+      "start": 82.306,
+      "end": 95.961
+    },
+    {
+      "id": 8,
+      "english": "Get off me!",
+      "russian": "Отстань от меня!",
+      "start": 95.961,
+      "end": 109.515
+    },
+    {
+      "id": 9,
+      "english": "Here we are.",
+      "russian": "Вот мы и здесь.",
+      "start": 109.515,
+      "end": 123.182
+    },
+    {
+      "id": 10,
+      "english": "Leave me alone.",
+      "russian": "Оставь меня в покое.",
+      "start": 123.182,
+      "end": 137.227
+    },
+    {
+      "id": 11,
+      "english": "Thanks a lot.",
+      "russian": "Большое спасибо.",
+      "start": 137.227,
+      "end": 151.083
+    },
+    {
+      "id": 12,
+      "english": "Good job.",
+      "russian": "Хорошая работа.",
+      "start": 151.083,
+      "end": 164.571
+    },
+    {
+      "id": 13,
+      "english": "Get off!",
+      "russian": "Отстань! / Отвали!",
+      "start": 164.571,
+      "end": 177.994
+    },
+    {
+      "id": 14,
+      "english": "Check it out.",
+      "russian": "Посмотрите.",
+      "start": 177.994,
+      "end": 191.748
+    },
+    {
+      "id": 15,
+      "english": "Right now.",
+      "russian": "Прямо сейчас.",
+      "start": 191.748,
+      "end": 205.446
+    },
+    {
+      "id": 16,
+      "english": "You can't.",
+      "russian": "Нельзя.",
+      "start": 205.446,
+      "end": 219.117
+    },
+    {
+      "id": 17,
+      "english": "Good afternoon.",
+      "russian": "Добрый день.",
+      "start": 219.117,
+      "end": 233.091
+    },
+    {
+      "id": 18,
+      "english": "I don't believe it.",
+      "russian": "Я в это не верю.",
+      "start": 233.091,
+      "end": 247.132
+    },
+    {
+      "id": 19,
+      "english": "Here you are.",
+      "russian": "Вот, пожалуйста.",
+      "start": 247.132,
+      "end": 260.787
+    },
+    {
+      "id": 20,
+      "english": "Over there.",
+      "russian": "Вон там.",
+      "start": 260.787,
+      "end": 274.169
+    },
+    {
+      "id": 21,
+      "english": "Absolutely not.",
+      "russian": "Категорически нет.",
+      "start": 274.169,
+      "end": 288.634
+    },
+    {
+      "id": 22,
+      "english": "Roger that.",
+      "russian": "Принято. (радиожаргон)",
+      "start": 288.634,
+      "end": 302.337
+    },
+    {
+      "id": 23,
+      "english": "I like that.",
+      "russian": "Мне это нравится.",
+      "start": 302.337,
+      "end": 316.138
+    },
+    {
+      "id": 24,
+      "english": "I need your help.",
+      "russian": "Мне нужна ваша помощь.",
+      "start": 316.138,
+      "end": 330.182
+    },
+    {
+      "id": 25,
+      "english": "Let go of me!",
+      "russian": "Отпусти меня!",
+      "start": 330.182,
+      "end": 343.976
+    },
+    {
+      "id": 26,
+      "english": "Good idea.",
+      "russian": "Хорошая идея.",
+      "start": 343.976,
+      "end": 357.581
+    },
+    {
+      "id": 27,
+      "english": "I'm in.",
+      "russian": "Я согласен.",
+      "start": 357.581,
+      "end": 370.806
+    },
+    {
+      "id": 28,
+      "english": "Keep going.",
+      "russian": "Продолжай.",
+      "start": 370.806,
+      "end": 384.462
+    },
+    {
+      "id": 29,
+      "english": "That's me.",
+      "russian": "Это я.",
+      "start": 384.462,
+      "end": 397.738
+    },
+    {
+      "id": 30,
+      "english": "You did.",
+      "russian": "Вы это сделали.",
+      "start": 397.738,
+      "end": 411.066
+    },
+    {
+      "id": 31,
+      "english": "Wait here.",
+      "russian": "Подождите здесь.",
+      "start": 411.066,
+      "end": 424.643
+    },
+    {
+      "id": 32,
+      "english": "That's impossible.",
+      "russian": "Это невозможно.",
+      "start": 424.643,
+      "end": 438.752
+    },
+    {
+      "id": 33,
+      "english": "That's funny.",
+      "russian": "Забавно.",
+      "start": 438.752,
+      "end": 452.171
+    },
+    {
+      "id": 34,
+      "english": "Go home.",
+      "russian": "Идите домой.",
+      "start": 452.171,
+      "end": 465.723
+    },
+    {
+      "id": 35,
+      "english": "I'll get it.",
+      "russian": "Я отвечу. (на звонок / дверь)",
+      "start": 465.723,
+      "end": 479.145
+    },
+    {
+      "id": 36,
+      "english": "Give me that.",
+      "russian": "Дайте мне это.",
+      "start": 479.145,
+      "end": 492.755
+    },
+    {
+      "id": 37,
+      "english": "I'm going.",
+      "russian": "Я ухожу.",
+      "start": 492.755,
+      "end": 506.222
+    },
+    {
+      "id": 38,
+      "english": "Sorry about that.",
+      "russian": "Прошу прощения за это.",
+      "start": 506.222,
+      "end": 520.547
+    },
+    {
+      "id": 39,
+      "english": "Take this.",
+      "russian": "Возьми это.",
+      "start": 520.547,
+      "end": 534.157
+    },
+    {
+      "id": 40,
+      "english": "Don't do that.",
+      "russian": "Не делайте этого.",
+      "start": 534.157,
+      "end": 547.672
+    }
+  ]
+}

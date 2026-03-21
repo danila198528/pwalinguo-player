@@ -1,0 +1,290 @@
+{
+  "id": "deck-88",
+  "deck_name": "phrase_top396 4",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3964.mp3",
+  "group": "phrase_top396",
+  "total_duration": 548.49,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I'll do it.",
+      "russian": "Я это сделаю.",
+      "start": 0.0,
+      "end": 13.697
+    },
+    {
+      "id": 2,
+      "english": "Thank god.",
+      "russian": "Слава Богу.",
+      "start": 13.697,
+      "end": 27.252
+    },
+    {
+      "id": 3,
+      "english": "Get in.",
+      "russian": "Залезай.",
+      "start": 27.252,
+      "end": 40.437
+    },
+    {
+      "id": 4,
+      "english": "Good to see you.",
+      "russian": "Рад вас видеть.",
+      "start": 40.437,
+      "end": 54.337
+    },
+    {
+      "id": 5,
+      "english": "Have a seat.",
+      "russian": "Садитесь.",
+      "start": 54.337,
+      "end": 67.973
+    },
+    {
+      "id": 6,
+      "english": "Go away.",
+      "russian": "Уходите.",
+      "start": 67.973,
+      "end": 81.484
+    },
+    {
+      "id": 7,
+      "english": "I won't.",
+      "russian": "Я этого не сделаю.",
+      "start": 81.484,
+      "end": 94.811
+    },
+    {
+      "id": 8,
+      "english": "That's fine.",
+      "russian": "Это нормально.",
+      "start": 94.811,
+      "end": 108.426
+    },
+    {
+      "id": 9,
+      "english": "That's not true.",
+      "russian": "Это неправда.",
+      "start": 108.426,
+      "end": 122.403
+    },
+    {
+      "id": 10,
+      "english": "I'm serious.",
+      "russian": "Я серьезно.",
+      "start": 122.403,
+      "end": 136.459
+    },
+    {
+      "id": 11,
+      "english": "Right there.",
+      "russian": "Прямо там.",
+      "start": 136.459,
+      "end": 149.92
+    },
+    {
+      "id": 12,
+      "english": "You don't understand.",
+      "russian": "Вы не понимаете.",
+      "start": 149.92,
+      "end": 164.539
+    },
+    {
+      "id": 13,
+      "english": "You too.",
+      "russian": "Ты тоже.",
+      "start": 164.539,
+      "end": 177.999
+    },
+    {
+      "id": 14,
+      "english": "Not now.",
+      "russian": "Не сейчас.",
+      "start": 177.999,
+      "end": 191.517
+    },
+    {
+      "id": 15,
+      "english": "Wake up!",
+      "russian": "Просыпайся!",
+      "start": 191.517,
+      "end": 205.112
+    },
+    {
+      "id": 16,
+      "english": "Forgive me.",
+      "russian": "Простите меня.",
+      "start": 205.112,
+      "end": 218.476
+    },
+    {
+      "id": 17,
+      "english": "I like it.",
+      "russian": "Мне это нравится.",
+      "start": 218.476,
+      "end": 232.103
+    },
+    {
+      "id": 18,
+      "english": "Watch out!",
+      "russian": "Осторожно!",
+      "start": 232.103,
+      "end": 245.79
+    },
+    {
+      "id": 19,
+      "english": "Take care.",
+      "russian": "Береги себя.",
+      "start": 245.79,
+      "end": 259.315
+    },
+    {
+      "id": 20,
+      "english": "Let's get out of here.",
+      "russian": "Давайте убираться отсюда.",
+      "start": 259.315,
+      "end": 273.628
+    },
+    {
+      "id": 21,
+      "english": "I agree.",
+      "russian": "Я согласен.",
+      "start": 273.628,
+      "end": 287.344
+    },
+    {
+      "id": 22,
+      "english": "You were right.",
+      "russian": "Вы были правы.",
+      "start": 287.344,
+      "end": 301.146
+    },
+    {
+      "id": 23,
+      "english": "Get him!",
+      "russian": "Схватите его!",
+      "start": 301.146,
+      "end": 314.446
+    },
+    {
+      "id": 24,
+      "english": "I guess.",
+      "russian": "Наверное.",
+      "start": 314.446,
+      "end": 327.968
+    },
+    {
+      "id": 25,
+      "english": "I swear.",
+      "russian": "Я клянусь.",
+      "start": 327.968,
+      "end": 341.452
+    },
+    {
+      "id": 26,
+      "english": "It's beautiful.",
+      "russian": "Это красиво.",
+      "start": 341.452,
+      "end": 355.28
+    },
+    {
+      "id": 27,
+      "english": "I love it.",
+      "russian": "Я люблю это.",
+      "start": 355.28,
+      "end": 368.859
+    },
+    {
+      "id": 28,
+      "english": "Not bad.",
+      "russian": "Неплохо.",
+      "start": 368.859,
+      "end": 382.602
+    },
+    {
+      "id": 29,
+      "english": "Get back!",
+      "russian": "Отойди!",
+      "start": 382.602,
+      "end": 396.15
+    },
+    {
+      "id": 30,
+      "english": "I don't know what you're talking about.",
+      "russian": "Я не понимаю, о чём вы говорите.",
+      "start": 396.15,
+      "end": 411.499
+    },
+    {
+      "id": 31,
+      "english": "Not anymore.",
+      "russian": "Уже нет.",
+      "start": 411.499,
+      "end": 425.186
+    },
+    {
+      "id": 32,
+      "english": "Turn around.",
+      "russian": "Повернись.",
+      "start": 425.186,
+      "end": 439.096
+    },
+    {
+      "id": 33,
+      "english": "It's good.",
+      "russian": "Это хорошо.",
+      "start": 439.096,
+      "end": 452.55
+    },
+    {
+      "id": 34,
+      "english": "Over here.",
+      "russian": "Сюда.",
+      "start": 452.55,
+      "end": 466.256
+    },
+    {
+      "id": 35,
+      "english": "Give it to me.",
+      "russian": "Отдай это мне.",
+      "start": 466.256,
+      "end": 479.889
+    },
+    {
+      "id": 36,
+      "english": "Think about it.",
+      "russian": "Подумайте об этом.",
+      "start": 479.889,
+      "end": 493.816
+    },
+    {
+      "id": 37,
+      "english": "He's right.",
+      "russian": "Он прав.",
+      "start": 493.816,
+      "end": 507.314
+    },
+    {
+      "id": 38,
+      "english": "I can't believe it.",
+      "russian": "Не могу в это поверить.",
+      "start": 507.314,
+      "end": 521.562
+    },
+    {
+      "id": 39,
+      "english": "Stay here.",
+      "russian": "Оставайтесь здесь.",
+      "start": 521.562,
+      "end": 535.306
+    },
+    {
+      "id": 40,
+      "english": "I'm coming.",
+      "russian": "Я иду.",
+      "start": 535.306,
+      "end": 548.488
+    }
+  ]
+}

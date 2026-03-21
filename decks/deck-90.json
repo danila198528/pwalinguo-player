@@ -1,0 +1,290 @@
+{
+  "id": "deck-90",
+  "deck_name": "phrase_top396 6",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3966.mp3",
+  "group": "phrase_top396",
+  "total_duration": 550.41,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I'm ready.",
+      "russian": "Я готов.",
+      "start": 0.0,
+      "end": 13.538
+    },
+    {
+      "id": 2,
+      "english": "That's him.",
+      "russian": "Это он.",
+      "start": 13.538,
+      "end": 26.866
+    },
+    {
+      "id": 3,
+      "english": "I'm really sorry.",
+      "russian": "Мне очень жаль.",
+      "start": 26.866,
+      "end": 40.9
+    },
+    {
+      "id": 4,
+      "english": "I know it.",
+      "russian": "Я знаю это.",
+      "start": 40.9,
+      "end": 54.367
+    },
+    {
+      "id": 5,
+      "english": "I'll be back.",
+      "russian": "Я вернусь.",
+      "start": 54.367,
+      "end": 67.982
+    },
+    {
+      "id": 6,
+      "english": "You tell me.",
+      "russian": "Я сам хотел бы знать. (я не знаю — это ты должен знать, не я)",
+      "start": 67.982,
+      "end": 81.45
+    },
+    {
+      "id": 7,
+      "english": "See ya.",
+      "russian": "До свидания.",
+      "start": 81.45,
+      "end": 95.67
+    },
+    {
+      "id": 8,
+      "english": "Oh, my gosh.",
+      "russian": "О боже мой.",
+      "start": 95.67,
+      "end": 110.381
+    },
+    {
+      "id": 9,
+      "english": "I'm leaving.",
+      "russian": "Я ухожу.",
+      "start": 110.381,
+      "end": 123.881
+    },
+    {
+      "id": 10,
+      "english": "I'll go.",
+      "russian": "Я пойду.",
+      "start": 123.881,
+      "end": 137.284
+    },
+    {
+      "id": 11,
+      "english": "See you tomorrow.",
+      "russian": "Увидимся завтра.",
+      "start": 137.284,
+      "end": 151.459
+    },
+    {
+      "id": 12,
+      "english": "Let me guess.",
+      "russian": "Позвольте угадать.",
+      "start": 151.459,
+      "end": 165.339
+    },
+    {
+      "id": 13,
+      "english": "Say it.",
+      "russian": "Скажи это.",
+      "start": 165.339,
+      "end": 178.628
+    },
+    {
+      "id": 14,
+      "english": "Good for you.",
+      "russian": "Повезло тебе.",
+      "start": 178.628,
+      "end": 192.082
+    },
+    {
+      "id": 15,
+      "english": "You're kidding.",
+      "russian": "Ты шутишь?",
+      "start": 192.082,
+      "end": 205.65
+    },
+    {
+      "id": 16,
+      "english": "Check this out.",
+      "russian": "Посмотрите.",
+      "start": 205.65,
+      "end": 219.56
+    },
+    {
+      "id": 17,
+      "english": "Good day.",
+      "russian": "Добрый день.",
+      "start": 219.56,
+      "end": 233.108
+    },
+    {
+      "id": 18,
+      "english": "Doesn't matter.",
+      "russian": "Это не имеет значения.",
+      "start": 233.108,
+      "end": 246.777
+    },
+    {
+      "id": 19,
+      "english": "We need to talk.",
+      "russian": "Нам нужно поговорить.",
+      "start": 246.777,
+      "end": 260.98
+    },
+    {
+      "id": 20,
+      "english": "I mean it.",
+      "russian": "Я серьезно.",
+      "start": 260.98,
+      "end": 274.542
+    },
+    {
+      "id": 21,
+      "english": "I'll see you later.",
+      "russian": "Увидимся позже.",
+      "start": 274.542,
+      "end": 288.771
+    },
+    {
+      "id": 22,
+      "english": "Talk to me.",
+      "russian": "Поговори со мной.",
+      "start": 288.771,
+      "end": 302.284
+    },
+    {
+      "id": 23,
+      "english": "Open up!",
+      "russian": "Откройте!",
+      "start": 302.284,
+      "end": 315.804
+    },
+    {
+      "id": 24,
+      "english": "Me neither.",
+      "russian": "Я тоже нет.",
+      "start": 315.804,
+      "end": 329.37
+    },
+    {
+      "id": 25,
+      "english": "Fair enough.",
+      "russian": "Справедливо.",
+      "start": 329.37,
+      "end": 343.076
+    },
+    {
+      "id": 26,
+      "english": "No idea.",
+      "russian": "Понятия не имею.",
+      "start": 343.076,
+      "end": 357.015
+    },
+    {
+      "id": 27,
+      "english": "Sorry i'm late.",
+      "russian": "Извините за опоздание.",
+      "start": 357.015,
+      "end": 371.19
+    },
+    {
+      "id": 28,
+      "english": "Open it.",
+      "russian": "Откройте его.",
+      "start": 371.19,
+      "end": 384.468
+    },
+    {
+      "id": 29,
+      "english": "I remember.",
+      "russian": "Я помню.",
+      "start": 384.468,
+      "end": 398.022
+    },
+    {
+      "id": 30,
+      "english": "I'll be right there.",
+      "russian": "Я сейчас же приду.",
+      "start": 398.022,
+      "end": 411.964
+    },
+    {
+      "id": 31,
+      "english": "I don't remember.",
+      "russian": "Я не помню.",
+      "start": 411.964,
+      "end": 425.819
+    },
+    {
+      "id": 32,
+      "english": "I'm scared.",
+      "russian": "Я боюсь.",
+      "start": 425.819,
+      "end": 439.599
+    },
+    {
+      "id": 33,
+      "english": "I guess so.",
+      "russian": "Полагаю, что так.",
+      "start": 439.599,
+      "end": 453.372
+    },
+    {
+      "id": 34,
+      "english": "Don't be afraid.",
+      "russian": "Не бойтесь.",
+      "start": 453.372,
+      "end": 467.553
+    },
+    {
+      "id": 35,
+      "english": "I can't do that.",
+      "russian": "Я не могу этого сделать.",
+      "start": 467.553,
+      "end": 481.738
+    },
+    {
+      "id": 36,
+      "english": "Not exactly.",
+      "russian": "Не совсем.",
+      "start": 481.738,
+      "end": 495.652
+    },
+    {
+      "id": 37,
+      "english": "Look at him.",
+      "russian": "Посмотрите на него.",
+      "start": 495.652,
+      "end": 509.285
+    },
+    {
+      "id": 38,
+      "english": "I'm done.",
+      "russian": "Я закончил. (нейтрально)",
+      "start": 509.285,
+      "end": 522.756
+    },
+    {
+      "id": 39,
+      "english": "Let him go.",
+      "russian": "Отпустите его.",
+      "start": 522.756,
+      "end": 536.449
+    },
+    {
+      "id": 40,
+      "english": "I don't believe you.",
+      "russian": "Я тебе не верю.",
+      "start": 536.449,
+      "end": 550.408
+    }
+  ]
+}

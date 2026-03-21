@@ -1,0 +1,290 @@
+{
+  "id": "deck-87",
+  "deck_name": "phrase_top396 3",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3963.mp3",
+  "group": "phrase_top396",
+  "total_duration": 549.06,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Don't move.",
+      "russian": "Не двигайтесь.",
+      "start": 0.0,
+      "end": 14.021
+    },
+    {
+      "id": 2,
+      "english": "I told you.",
+      "russian": "Я говорил тебе.",
+      "start": 14.021,
+      "end": 27.681
+    },
+    {
+      "id": 3,
+      "english": "It's true.",
+      "russian": "Это правда.",
+      "start": 27.681,
+      "end": 41.197
+    },
+    {
+      "id": 4,
+      "english": "Come on, man.",
+      "russian": "Да ладно, чувак.",
+      "start": 41.197,
+      "end": 55.762
+    },
+    {
+      "id": 5,
+      "english": "I'm good.",
+      "russian": "Я в порядке.",
+      "start": 55.762,
+      "end": 69.291
+    },
+    {
+      "id": 6,
+      "english": "Look out!",
+      "russian": "Осторожно!",
+      "start": 69.291,
+      "end": 82.87
+    },
+    {
+      "id": 7,
+      "english": "I'm here.",
+      "russian": "Я здесь.",
+      "start": 82.87,
+      "end": 96.249
+    },
+    {
+      "id": 8,
+      "english": "I gotta go.",
+      "russian": "Я должен идти.",
+      "start": 96.249,
+      "end": 110.139
+    },
+    {
+      "id": 9,
+      "english": "I have to go.",
+      "russian": "Я должен идти.",
+      "start": 110.139,
+      "end": 124.091
+    },
+    {
+      "id": 10,
+      "english": "Move it!",
+      "russian": "Двигайся!",
+      "start": 124.091,
+      "end": 137.51
+    },
+    {
+      "id": 11,
+      "english": "That's enough.",
+      "russian": "Достаточно.",
+      "start": 137.51,
+      "end": 151.213
+    },
+    {
+      "id": 12,
+      "english": "Right here.",
+      "russian": "Прямо здесь.",
+      "start": 151.213,
+      "end": 164.921
+    },
+    {
+      "id": 13,
+      "english": "Follow me.",
+      "russian": "Следуй(те) за мной.",
+      "start": 164.921,
+      "end": 178.39
+    },
+    {
+      "id": 14,
+      "english": "You know that.",
+      "russian": "Вы это знаете.",
+      "start": 178.39,
+      "end": 192.171
+    },
+    {
+      "id": 15,
+      "english": "Take it.",
+      "russian": "Возьми.",
+      "start": 192.171,
+      "end": 205.409
+    },
+    {
+      "id": 16,
+      "english": "He's dead.",
+      "russian": "Он мертв.",
+      "start": 205.409,
+      "end": 219.012
+    },
+    {
+      "id": 17,
+      "english": "Let me see.",
+      "russian": "Дайте-ка подумать.",
+      "start": 219.012,
+      "end": 232.741
+    },
+    {
+      "id": 18,
+      "english": "This is it.",
+      "russian": "Вот и всё.",
+      "start": 232.741,
+      "end": 246.126
+    },
+    {
+      "id": 19,
+      "english": "I knew it.",
+      "russian": "Я знал это.",
+      "start": 246.126,
+      "end": 259.644
+    },
+    {
+      "id": 20,
+      "english": "Get out of here.",
+      "russian": "Убирайся отсюда.",
+      "start": 259.644,
+      "end": 273.534
+    },
+    {
+      "id": 21,
+      "english": "I know that.",
+      "russian": "Я знаю это.",
+      "start": 273.534,
+      "end": 287.235
+    },
+    {
+      "id": 22,
+      "english": "Let's see.",
+      "russian": "Давайте посмотрим.",
+      "start": 287.235,
+      "end": 300.806
+    },
+    {
+      "id": 23,
+      "english": "Well done.",
+      "russian": "Отличная работа.",
+      "start": 300.806,
+      "end": 314.464
+    },
+    {
+      "id": 24,
+      "english": "All right, all right.",
+      "russian": "Ладно, ладно.",
+      "start": 314.464,
+      "end": 329.811
+    },
+    {
+      "id": 25,
+      "english": "Wait a second.",
+      "russian": "Подождите секунду.",
+      "start": 329.811,
+      "end": 343.936
+    },
+    {
+      "id": 26,
+      "english": "Let's do it.",
+      "russian": "Давай сделаем это.",
+      "start": 343.936,
+      "end": 357.589
+    },
+    {
+      "id": 27,
+      "english": "There it is.",
+      "russian": "Вот оно.",
+      "start": 357.589,
+      "end": 371.113
+    },
+    {
+      "id": 28,
+      "english": "Look at you.",
+      "russian": "Посмотри на себя.",
+      "start": 371.113,
+      "end": 384.619
+    },
+    {
+      "id": 29,
+      "english": "There we go.",
+      "russian": "Ну вот. (когда что-то наконец получилось)",
+      "start": 384.619,
+      "end": 398.272
+    },
+    {
+      "id": 30,
+      "english": "There he is.",
+      "russian": "Вот он.",
+      "start": 398.272,
+      "end": 411.913
+    },
+    {
+      "id": 31,
+      "english": "I don't get it.",
+      "russian": "Я этого не понимаю.",
+      "start": 411.913,
+      "end": 425.686
+    },
+    {
+      "id": 32,
+      "english": "It's nothing.",
+      "russian": "Ничего.",
+      "start": 425.686,
+      "end": 439.334
+    },
+    {
+      "id": 33,
+      "english": "I have no idea.",
+      "russian": "Не имею представления.",
+      "start": 439.334,
+      "end": 453.854
+    },
+    {
+      "id": 34,
+      "english": "Oh, dear.",
+      "russian": "Боже мой. / Господи.",
+      "start": 453.854,
+      "end": 468.042
+    },
+    {
+      "id": 35,
+      "english": "Copy that.",
+      "russian": "Понял.",
+      "start": 468.042,
+      "end": 481.785
+    },
+    {
+      "id": 36,
+      "english": "That's true.",
+      "russian": "Это правда.",
+      "start": 481.785,
+      "end": 495.291
+    },
+    {
+      "id": 37,
+      "english": "Let go!",
+      "russian": "Отпусти!",
+      "start": 495.291,
+      "end": 508.66
+    },
+    {
+      "id": 38,
+      "english": "Go away!",
+      "russian": "Уходите!",
+      "start": 508.66,
+      "end": 522.277
+    },
+    {
+      "id": 39,
+      "english": "I'm not sure.",
+      "russian": "Я не уверен.",
+      "start": 522.277,
+      "end": 536.073
+    },
+    {
+      "id": 40,
+      "english": "Hold it.",
+      "russian": "Подождите.",
+      "start": 536.073,
+      "end": 549.063
+    }
+  ]
+}

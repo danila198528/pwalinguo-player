@@ -1,49 +1,4 @@
 [
-    {
-    "id": "deck-20",
-    "deck_name": "phrase 1",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase1.mp3",
-    "group": "phrase",
-    "total_duration": 685.63,
-    "total_sentences": 50,
-    "deck_url": "./decks/deck-20.json"
-  },
-  {
-    "id": "deck-21",
-    "deck_name": "phrase 2",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase2.mp3",
-    "group": "phrase",
-    "total_duration": 689.13,
-    "total_sentences": 50,
-    "deck_url": "./decks/deck-21.json"
-  },
-  {
-    "id": "deck-22",
-    "deck_name": "phrase 3",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase3.mp3",
-    "group": "phrase",
-    "total_duration": 688.03,
-    "total_sentences": 50,
-    "deck_url": "./decks/deck-22.json"
-  },
-  {
-    "id": "deck-23",
-    "deck_name": "phrase 4",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase4.mp3",
-    "group": "phrase",
-    "total_duration": 685.82,
-    "total_sentences": 50,
-    "deck_url": "./decks/deck-23.json"
-  },
-  {
-    "id": "deck-24",
-    "deck_name": "phrase 5",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase5.mp3",
-    "group": "phrase",
-    "total_duration": 682.37,
-    "total_sentences": 50,
-    "deck_url": "./decks/deck-24.json"
-  },
   {
     "id": "deck-25",
     "deck_name": "collocation 1",
@@ -241,188 +196,7 @@
     "total_duration": 799.42,
     "total_sentences": 51,
     "deck_url": "./decks/deck-46.json"
-  },
-
-  {
-    "id": "deck-47",
-    "deck_name": "questions 1",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions1.mp3",
-    "group": "questions",
-    "total_duration": 574.51,
-    "total_sentences": 40,
-    "deck_url": "./decks/deck-47.json"
-  },
-  {
-    "id": "deck-48",
-    "deck_name": "questions 2",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions2.mp3",
-    "group": "questions",
-    "total_duration": 570.1,
-    "total_sentences": 40,
-    "deck_url": "./decks/deck-48.json"
-  },
-  {
-    "id": "deck-49",
-    "deck_name": "questions 3",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions3.mp3",
-    "group": "questions",
-    "total_duration": 573.36,
-    "total_sentences": 40,
-    "deck_url": "./decks/deck-49.json"
-  },
-  {
-    "id": "deck-50",
-    "deck_name": "questions 4",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions4.mp3",
-    "group": "questions",
-    "total_duration": 573.98,
-    "total_sentences": 40,
-    "deck_url": "./decks/deck-50.json"
-  },
-  {
-    "id": "deck-51",
-    "deck_name": "questions 5",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions5.mp3",
-    "group": "questions",
-    "total_duration": 572.54,
-    "total_sentences": 40,
-    "deck_url": "./decks/deck-51.json"
-  },
-  {
-    "id": "deck-52",
-    "deck_name": "questions 6",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions6.mp3",
-    "group": "questions",
-    "total_duration": 580.46,
-    "total_sentences": 40,
-    "deck_url": "./decks/deck-52.json"
-  },
-  {
-    "id": "deck-53",
-    "deck_name": "questions 7",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions7.mp3",
-    "group": "questions",
-    "total_duration": 585.26,
-    "total_sentences": 40,
-    "deck_url": "./decks/deck-53.json"
-  },
-  {
-    "id": "deck-54",
-    "deck_name": "questions 8",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions8.mp3",
-    "group": "questions",
-    "total_duration": 578.16,
-    "total_sentences": 40,
-    "deck_url": "./decks/deck-54.json"
-  },
-  {
-    "id": "deck-55",
-    "deck_name": "questions 9",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions9.mp3",
-    "group": "questions",
-    "total_duration": 570.86,
-    "total_sentences": 40,
-    "deck_url": "./decks/deck-55.json"
-  },
-
-  {
-    "id": "deck-56",
-    "deck_name": "grammar_questions 1",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions1.mp3",
-    "group": "grammar_questions",
-    "total_duration": 466.92,
-    "total_sentences": 33,
-    "deck_url": "./decks/deck-56.json"
-  },
-  {
-    "id": "deck-57",
-    "deck_name": "grammar_questions 2",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions2.mp3",
-    "group": "grammar_questions",
-    "total_duration": 469.42,
-    "total_sentences": 33,
-    "deck_url": "./decks/deck-57.json"
-  },
-  {
-    "id": "deck-58",
-    "deck_name": "grammar_questions 3",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions3.mp3",
-    "group": "grammar_questions",
-    "total_duration": 467.06,
-    "total_sentences": 33,
-    "deck_url": "./decks/deck-58.json"
-  },
-  {
-    "id": "deck-59",
-    "deck_name": "grammar_questions 4",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions4.mp3",
-    "group": "grammar_questions",
-    "total_duration": 477.24,
-    "total_sentences": 33,
-    "deck_url": "./decks/deck-59.json"
-  },
-  {
-    "id": "deck-60",
-    "deck_name": "grammar_questions 5",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions5.mp3",
-    "group": "grammar_questions",
-    "total_duration": 471.58,
-    "total_sentences": 33,
-    "deck_url": "./decks/deck-60.json"
-  },
-  {
-    "id": "deck-61",
-    "deck_name": "grammar_questions 6",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions6.mp3",
-    "group": "grammar_questions",
-    "total_duration": 466.68,
-    "total_sentences": 33,
-    "deck_url": "./decks/deck-61.json"
-  },
-  {
-    "id": "deck-62",
-    "deck_name": "grammar_questions 7",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions7.mp3",
-    "group": "grammar_questions",
-    "total_duration": 471.38,
-    "total_sentences": 33,
-    "deck_url": "./decks/deck-62.json"
-  },
-  {
-    "id": "deck-63",
-    "deck_name": "grammar_questions 8",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions8.mp3",
-    "group": "grammar_questions",
-    "total_duration": 471.43,
-    "total_sentences": 33,
-    "deck_url": "./decks/deck-63.json"
-  },
-  {
-    "id": "deck-64",
-    "deck_name": "grammar_questions 9",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions9.mp3",
-    "group": "grammar_questions",
-    "total_duration": 480.07,
-    "total_sentences": 33,
-    "deck_url": "./decks/deck-64.json"
-  },
-  {
-    "id": "deck-65",
-    "deck_name": "grammar_questions 10",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions10.mp3",
-    "group": "grammar_questions",
-    "total_duration": 481.03,
-    "total_sentences": 33,
-    "deck_url": "./decks/deck-65.json"
-  },
-  {
-    "id": "deck-66",
-    "deck_name": "grammar_questions 1.0",
-    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/grammar_questions11.mp3",
-    "group": "grammar_questions",
-    "total_duration": 581.42,
-    "total_sentences": 42,
-    "deck_url": "./decks/deck-66.json"
+  
   },
 {
     "id": "deck-67",
@@ -586,9 +360,99 @@
     "total_duration": 579.04,
     "total_sentences": 41,
     "deck_url": "./decks/deck-84.json"
+  },
+{
+    "id": "deck-85",
+    "deck_name": "phrase_top396 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3961.mp3",
+    "group": "phrase_top396",
+    "total_duration": 542.77,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-85.json"
+  },
+  {
+    "id": "deck-86",
+    "deck_name": "phrase_top396 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3962.mp3",
+    "group": "phrase_top396",
+    "total_duration": 545.32,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-86.json"
+  },
+  {
+    "id": "deck-87",
+    "deck_name": "phrase_top396 3",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3963.mp3",
+    "group": "phrase_top396",
+    "total_duration": 549.06,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-87.json"
+  },
+  {
+    "id": "deck-88",
+    "deck_name": "phrase_top396 4",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3964.mp3",
+    "group": "phrase_top396",
+    "total_duration": 548.49,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-88.json"
+  },
+  {
+    "id": "deck-89",
+    "deck_name": "phrase_top396 5",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3965.mp3",
+    "group": "phrase_top396",
+    "total_duration": 547.67,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-89.json"
+  },
+  {
+    "id": "deck-90",
+    "deck_name": "phrase_top396 6",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3966.mp3",
+    "group": "phrase_top396",
+    "total_duration": 550.41,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-90.json"
+  },
+  {
+    "id": "deck-91",
+    "deck_name": "phrase_top396 7",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3967.mp3",
+    "group": "phrase_top396",
+    "total_duration": 542.27,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-91.json"
+  },
+  {
+    "id": "deck-92",
+    "deck_name": "phrase_top396 8",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3968.mp3",
+    "group": "phrase_top396",
+    "total_duration": 554.87,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-92.json"
+  },
+  {
+    "id": "deck-93",
+    "deck_name": "phrase_top396 9",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3969.mp3",
+    "group": "phrase_top396",
+    "total_duration": 557.32,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-93.json"
+  },
+  {
+    "id": "deck-94",
+    "deck_name": "phrase_top396 10",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top39610.mp3",
+    "group": "phrase_top396",
+    "total_duration": 500.01,
+    "total_sentences": 36,
+    "deck_url": "./decks/deck-94.json"
   }
-
 ]
+
 
 
 

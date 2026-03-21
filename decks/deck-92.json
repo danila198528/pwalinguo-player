@@ -1,0 +1,290 @@
+{
+  "id": "deck-92",
+  "deck_name": "phrase_top396 8",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3968.mp3",
+  "group": "phrase_top396",
+  "total_duration": 554.87,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "That's cool.",
+      "russian": "Это круто.",
+      "start": 0.0,
+      "end": 13.801
+    },
+    {
+      "id": 2,
+      "english": "This is crazy.",
+      "russian": "Это безумие.",
+      "start": 13.801,
+      "end": 27.978
+    },
+    {
+      "id": 3,
+      "english": "Sounds good.",
+      "russian": "Звучит отлично.",
+      "start": 27.978,
+      "end": 41.875
+    },
+    {
+      "id": 4,
+      "english": "That's ridiculous.",
+      "russian": "Это нелепо.",
+      "start": 41.875,
+      "end": 56.148
+    },
+    {
+      "id": 5,
+      "english": "Don't be silly.",
+      "russian": "Не глупи.",
+      "start": 56.148,
+      "end": 69.859
+    },
+    {
+      "id": 6,
+      "english": "Don't do this.",
+      "russian": "Не делайте этого.",
+      "start": 69.859,
+      "end": 83.696
+    },
+    {
+      "id": 7,
+      "english": "I need to talk to you.",
+      "russian": "Мне нужно с тобой поговорить.",
+      "start": 83.696,
+      "end": 98.087
+    },
+    {
+      "id": 8,
+      "english": "I'll show you.",
+      "russian": "Я вам покажу.",
+      "start": 98.087,
+      "end": 111.783
+    },
+    {
+      "id": 9,
+      "english": "Take your time.",
+      "russian": "Не торопись.",
+      "start": 111.783,
+      "end": 125.976
+    },
+    {
+      "id": 10,
+      "english": "Let's go home.",
+      "russian": "Пойдём домой.",
+      "start": 125.976,
+      "end": 140.019
+    },
+    {
+      "id": 11,
+      "english": "You know what i mean.",
+      "russian": "Ты понимаешь, о чём я.",
+      "start": 140.019,
+      "end": 154.413
+    },
+    {
+      "id": 12,
+      "english": "Sort of.",
+      "russian": "В некотором смысле.",
+      "start": 154.413,
+      "end": 167.691
+    },
+    {
+      "id": 13,
+      "english": "Don't touch me!",
+      "russian": "Не трогай меня!",
+      "start": 167.691,
+      "end": 181.448
+    },
+    {
+      "id": 14,
+      "english": "I'm out.",
+      "russian": "Я пас. (выхожу из ситуации)",
+      "start": 181.448,
+      "end": 194.922
+    },
+    {
+      "id": 15,
+      "english": "Let me help you.",
+      "russian": "Позвольте мне помочь вам.",
+      "start": 194.922,
+      "end": 208.934
+    },
+    {
+      "id": 16,
+      "english": "Hold on a second.",
+      "russian": "Подождите секунду.",
+      "start": 208.934,
+      "end": 223.371
+    },
+    {
+      "id": 17,
+      "english": "I appreciate it.",
+      "russian": "Я ценю это.",
+      "start": 223.371,
+      "end": 237.701
+    },
+    {
+      "id": 18,
+      "english": "Come along.",
+      "russian": "Пойдемте.",
+      "start": 237.701,
+      "end": 251.324
+    },
+    {
+      "id": 19,
+      "english": "No kidding.",
+      "russian": "Без шуток.",
+      "start": 251.324,
+      "end": 264.985
+    },
+    {
+      "id": 20,
+      "english": "It's perfect.",
+      "russian": "Это идеально.",
+      "start": 264.985,
+      "end": 279.057
+    },
+    {
+      "id": 21,
+      "english": "I'll take it.",
+      "russian": "Я возьму это.",
+      "start": 279.057,
+      "end": 292.671
+    },
+    {
+      "id": 22,
+      "english": "It's my fault.",
+      "russian": "Это моя вина.",
+      "start": 292.671,
+      "end": 306.814
+    },
+    {
+      "id": 23,
+      "english": "It's important.",
+      "russian": "Это важно.",
+      "start": 306.814,
+      "end": 320.934
+    },
+    {
+      "id": 24,
+      "english": "I can't believe this.",
+      "russian": "Не могу в это поверить.",
+      "start": 320.934,
+      "end": 335.512
+    },
+    {
+      "id": 25,
+      "english": "As you wish.",
+      "russian": "Как хочешь.",
+      "start": 335.512,
+      "end": 349.341
+    },
+    {
+      "id": 26,
+      "english": "This is for you.",
+      "russian": "Это вам.",
+      "start": 349.341,
+      "end": 363.206
+    },
+    {
+      "id": 27,
+      "english": "I have an idea.",
+      "russian": "У меня есть идея.",
+      "start": 363.206,
+      "end": 377.38
+    },
+    {
+      "id": 28,
+      "english": "It's late.",
+      "russian": "Уже поздно.",
+      "start": 377.38,
+      "end": 390.986
+    },
+    {
+      "id": 29,
+      "english": "I doubt it.",
+      "russian": "Я сомневаюсь в этом.",
+      "start": 390.986,
+      "end": 404.651
+    },
+    {
+      "id": 30,
+      "english": "Have a nice day.",
+      "russian": "Хорошего дня.",
+      "start": 404.651,
+      "end": 418.886
+    },
+    {
+      "id": 31,
+      "english": "I'm trying.",
+      "russian": "Я пытаюсь.",
+      "start": 418.886,
+      "end": 432.542
+    },
+    {
+      "id": 32,
+      "english": "We're good.",
+      "russian": "У нас всё хорошо.",
+      "start": 432.542,
+      "end": 446.095
+    },
+    {
+      "id": 33,
+      "english": "I hate you!",
+      "russian": "Я тебя ненавижу!",
+      "start": 446.095,
+      "end": 459.702
+    },
+    {
+      "id": 34,
+      "english": "I miss you.",
+      "russian": "Я скучаю по тебе.",
+      "start": 459.702,
+      "end": 473.269
+    },
+    {
+      "id": 35,
+      "english": "I'm starving.",
+      "russian": "Я умираю с голоду.",
+      "start": 473.269,
+      "end": 487.063
+    },
+    {
+      "id": 36,
+      "english": "Let it go.",
+      "russian": "Отпусти ситуацию.",
+      "start": 487.063,
+      "end": 500.67
+    },
+    {
+      "id": 37,
+      "english": "After you.",
+      "russian": "После Вас.",
+      "start": 500.67,
+      "end": 514.184
+    },
+    {
+      "id": 38,
+      "english": "It's nice.",
+      "russian": "Это здорово.",
+      "start": 514.184,
+      "end": 527.883
+    },
+    {
+      "id": 39,
+      "english": "I tried.",
+      "russian": "Я пытался.",
+      "start": 527.883,
+      "end": 541.551
+    },
+    {
+      "id": 40,
+      "english": "It's mine.",
+      "russian": "Это моё.",
+      "start": 541.551,
+      "end": 554.871
+    }
+  ]
+}

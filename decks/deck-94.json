@@ -1,0 +1,262 @@
+{
+  "id": "deck-94",
+  "deck_name": "phrase_top396 10",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top39610.mp3",
+  "group": "phrase_top396",
+  "total_duration": 500.01,
+  "total_sentences": 36,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Help yourself.",
+      "russian": "Угощайтесь сами.",
+      "start": 0.0,
+      "end": 14.32
+    },
+    {
+      "id": 2,
+      "english": "It hurts.",
+      "russian": "Это больно.",
+      "start": 14.32,
+      "end": 28.013
+    },
+    {
+      "id": 3,
+      "english": "I should go.",
+      "russian": "Мне пора идти.",
+      "start": 28.013,
+      "end": 41.633
+    },
+    {
+      "id": 4,
+      "english": "We're done.",
+      "russian": "На этом всё.",
+      "start": 41.633,
+      "end": 55.188
+    },
+    {
+      "id": 5,
+      "english": "Give me a break.",
+      "russian": "Да ладно! (также: дай передохнуть)",
+      "start": 55.188,
+      "end": 69.171
+    },
+    {
+      "id": 6,
+      "english": "Carry on.",
+      "russian": "Продолжай(те).",
+      "start": 69.171,
+      "end": 82.842
+    },
+    {
+      "id": 7,
+      "english": "You can go.",
+      "russian": "Можете идти.",
+      "start": 82.842,
+      "end": 96.526
+    },
+    {
+      "id": 8,
+      "english": "It worked.",
+      "russian": "Это сработало.",
+      "start": 96.526,
+      "end": 110.153
+    },
+    {
+      "id": 9,
+      "english": "You're fired.",
+      "russian": "Вы уволены.",
+      "start": 110.153,
+      "end": 123.892
+    },
+    {
+      "id": 10,
+      "english": "Take a seat.",
+      "russian": "Садитесь.",
+      "start": 123.892,
+      "end": 137.651
+    },
+    {
+      "id": 11,
+      "english": "Go to sleep.",
+      "russian": "Иди спать.",
+      "start": 137.651,
+      "end": 151.421
+    },
+    {
+      "id": 12,
+      "english": "You have no idea.",
+      "russian": "Вы даже не представляете.",
+      "start": 151.421,
+      "end": 165.969
+    },
+    {
+      "id": 13,
+      "english": "That's amazing.",
+      "russian": "Это потрясающе.",
+      "start": 165.969,
+      "end": 179.813
+    },
+    {
+      "id": 14,
+      "english": "I'm not going.",
+      "russian": "Я не пойду.",
+      "start": 179.813,
+      "end": 193.669
+    },
+    {
+      "id": 15,
+      "english": "We're almost there.",
+      "russian": "Мы почти на месте.",
+      "start": 193.669,
+      "end": 207.812
+    },
+    {
+      "id": 16,
+      "english": "That's what i'm talking about.",
+      "russian": "Вот о чём я и говорю.",
+      "start": 207.812,
+      "end": 222.749
+    },
+    {
+      "id": 17,
+      "english": "I quit.",
+      "russian": "С меня хватит.",
+      "start": 222.749,
+      "end": 236.112
+    },
+    {
+      "id": 18,
+      "english": "That way.",
+      "russian": "Туда.",
+      "start": 236.112,
+      "end": 249.643
+    },
+    {
+      "id": 19,
+      "english": "Your turn.",
+      "russian": "Твоя очередь.",
+      "start": 249.643,
+      "end": 263.149
+    },
+    {
+      "id": 20,
+      "english": "Not a chance.",
+      "russian": "Ни за что.",
+      "start": 263.149,
+      "end": 277.241
+    },
+    {
+      "id": 21,
+      "english": "Let me ask you something.",
+      "russian": "Позвольте мне задать вам вопрос.",
+      "start": 277.241,
+      "end": 291.91
+    },
+    {
+      "id": 22,
+      "english": "Probably not.",
+      "russian": "Скорее всего, нет.",
+      "start": 291.91,
+      "end": 305.891
+    },
+    {
+      "id": 23,
+      "english": "I'll tell you.",
+      "russian": "Я вам расскажу.",
+      "start": 305.891,
+      "end": 319.442
+    },
+    {
+      "id": 24,
+      "english": "I'm impressed.",
+      "russian": "Я впечатлен.",
+      "start": 319.442,
+      "end": 333.167
+    },
+    {
+      "id": 25,
+      "english": "It's a long story.",
+      "russian": "Это долгая история.",
+      "start": 333.167,
+      "end": 347.492
+    },
+    {
+      "id": 26,
+      "english": "It's no big deal.",
+      "russian": "Ничего страшного.",
+      "start": 347.492,
+      "end": 361.853
+    },
+    {
+      "id": 27,
+      "english": "I dunno.",
+      "russian": "Я не знаю.",
+      "start": 361.853,
+      "end": 375.333
+    },
+    {
+      "id": 28,
+      "english": "Leave him alone.",
+      "russian": "Оставьте его в покое.",
+      "start": 375.333,
+      "end": 389.388
+    },
+    {
+      "id": 29,
+      "english": "It's possible.",
+      "russian": "Это возможно.",
+      "start": 389.388,
+      "end": 403.219
+    },
+    {
+      "id": 30,
+      "english": "That's not the point.",
+      "russian": "Дело не в этом.",
+      "start": 403.219,
+      "end": 417.533
+    },
+    {
+      "id": 31,
+      "english": "Do me a favor.",
+      "russian": "Окажите мне услугу.",
+      "start": 417.533,
+      "end": 431.634
+    },
+    {
+      "id": 32,
+      "english": "I'll help you.",
+      "russian": "Я вам помогу.",
+      "start": 431.634,
+      "end": 445.191
+    },
+    {
+      "id": 33,
+      "english": "Don't mention it.",
+      "russian": "Не за что.",
+      "start": 445.191,
+      "end": 459.101
+    },
+    {
+      "id": 34,
+      "english": "It happens.",
+      "russian": "Такое случается.",
+      "start": 459.101,
+      "end": 472.833
+    },
+    {
+      "id": 35,
+      "english": "Pretty good.",
+      "russian": "Довольно хорошо.",
+      "start": 472.833,
+      "end": 486.455
+    },
+    {
+      "id": 36,
+      "english": "You never know.",
+      "russian": "Никогда не знаешь наверняка.",
+      "start": 486.455,
+      "end": 500.007
+    }
+  ]
+}

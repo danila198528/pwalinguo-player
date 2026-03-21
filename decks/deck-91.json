@@ -1,0 +1,290 @@
+{
+  "id": "deck-91",
+  "deck_name": "phrase_top396 7",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3967.mp3",
+  "group": "phrase_top396",
+  "total_duration": 542.27,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "That's better.",
+      "russian": "Так лучше.",
+      "start": 0.0,
+      "end": 13.732
+    },
+    {
+      "id": 2,
+      "english": "I'm listening.",
+      "russian": "Я слушаю.",
+      "start": 13.732,
+      "end": 27.29
+    },
+    {
+      "id": 3,
+      "english": "A little.",
+      "russian": "Немного.",
+      "start": 27.29,
+      "end": 40.57
+    },
+    {
+      "id": 4,
+      "english": "I'll be fine.",
+      "russian": "Со мной всё будет в порядке.",
+      "start": 40.57,
+      "end": 54.382
+    },
+    {
+      "id": 5,
+      "english": "No, not at all.",
+      "russian": "Нет, совсем нет.",
+      "start": 54.382,
+      "end": 69.383
+    },
+    {
+      "id": 6,
+      "english": "It was an accident.",
+      "russian": "Это был несчастный случай.",
+      "start": 69.383,
+      "end": 83.558
+    },
+    {
+      "id": 7,
+      "english": "I'm on it.",
+      "russian": "Я этим займусь.",
+      "start": 83.558,
+      "end": 97.032
+    },
+    {
+      "id": 8,
+      "english": "Let's do this.",
+      "russian": "Давайте начнём.",
+      "start": 97.032,
+      "end": 111.012
+    },
+    {
+      "id": 9,
+      "english": "It's too late.",
+      "russian": "Уже слишком поздно.",
+      "start": 111.012,
+      "end": 125.093
+    },
+    {
+      "id": 10,
+      "english": "Don't say that.",
+      "russian": "Не говори так.",
+      "start": 125.093,
+      "end": 139.048
+    },
+    {
+      "id": 11,
+      "english": "Something like that.",
+      "russian": "Что-то вроде того.",
+      "start": 139.048,
+      "end": 153.273
+    },
+    {
+      "id": 12,
+      "english": "Have fun.",
+      "russian": "Веселись!",
+      "start": 153.273,
+      "end": 166.837
+    },
+    {
+      "id": 13,
+      "english": "You're late.",
+      "russian": "Вы опоздали.",
+      "start": 166.837,
+      "end": 181.113
+    },
+    {
+      "id": 14,
+      "english": "I'm on my way.",
+      "russian": "Я уже в пути.",
+      "start": 181.113,
+      "end": 195.015
+    },
+    {
+      "id": 15,
+      "english": "I can't do it.",
+      "russian": "Я не могу этого сделать.",
+      "start": 195.015,
+      "end": 208.762
+    },
+    {
+      "id": 16,
+      "english": "You're crazy.",
+      "russian": "Ты с ума сошёл.",
+      "start": 208.762,
+      "end": 222.109
+    },
+    {
+      "id": 17,
+      "english": "You bet.",
+      "russian": "Ещё бы.",
+      "start": 222.109,
+      "end": 235.952
+    },
+    {
+      "id": 18,
+      "english": "I didn't know.",
+      "russian": "Я не знал.",
+      "start": 235.952,
+      "end": 249.881
+    },
+    {
+      "id": 19,
+      "english": "Slow down.",
+      "russian": "Притормози. / Не торопись.",
+      "start": 249.881,
+      "end": 263.483
+    },
+    {
+      "id": 20,
+      "english": "I'm hungry.",
+      "russian": "Я голоден.",
+      "start": 263.483,
+      "end": 277.105
+    },
+    {
+      "id": 21,
+      "english": "It's great.",
+      "russian": "Это здорово.",
+      "start": 277.105,
+      "end": 291.657
+    },
+    {
+      "id": 22,
+      "english": "This is ridiculous.",
+      "russian": "Это нелепо.",
+      "start": 291.657,
+      "end": 305.467
+    },
+    {
+      "id": 23,
+      "english": "I'm tired.",
+      "russian": "Я устал.",
+      "start": 305.467,
+      "end": 319.357
+    },
+    {
+      "id": 24,
+      "english": "You look great.",
+      "russian": "Вы прекрасно выглядите.",
+      "start": 319.357,
+      "end": 332.965
+    },
+    {
+      "id": 25,
+      "english": "You're wrong.",
+      "russian": "Вы ошибаетесь.",
+      "start": 332.965,
+      "end": 348.231
+    },
+    {
+      "id": 26,
+      "english": "No, i don't think so.",
+      "russian": "Нет, я так не думаю.",
+      "start": 348.231,
+      "end": 362.971
+    },
+    {
+      "id": 27,
+      "english": "I don't know what to say.",
+      "russian": "Я даже не знаю, что сказать.",
+      "start": 362.971,
+      "end": 377.289
+    },
+    {
+      "id": 28,
+      "english": "Get out of the way!",
+      "russian": "Уступите дорогу!",
+      "start": 377.289,
+      "end": 390.842
+    },
+    {
+      "id": 29,
+      "english": "You're lying.",
+      "russian": "Вы лжете.",
+      "start": 390.842,
+      "end": 404.262
+    },
+    {
+      "id": 30,
+      "english": "Don't go.",
+      "russian": "Не уходи.",
+      "start": 404.262,
+      "end": 418.073
+    },
+    {
+      "id": 31,
+      "english": "I got this.",
+      "russian": "Я справлюсь.",
+      "start": 418.073,
+      "end": 431.73
+    },
+    {
+      "id": 32,
+      "english": "Not much.",
+      "russian": "Немного.",
+      "start": 431.73,
+      "end": 445.999
+    },
+    {
+      "id": 33,
+      "english": "I'll take care of it.",
+      "russian": "Я этим займусь.",
+      "start": 445.999,
+      "end": 459.509
+    },
+    {
+      "id": 34,
+      "english": "It's done.",
+      "russian": "Готово.",
+      "start": 459.509,
+      "end": 472.974
+    },
+    {
+      "id": 35,
+      "english": "I forgot.",
+      "russian": "Я забыл.",
+      "start": 472.974,
+      "end": 486.831
+    },
+    {
+      "id": 36,
+      "english": "I don't want to.",
+      "russian": "Я не хочу.",
+      "start": 486.831,
+      "end": 500.447
+    },
+    {
+      "id": 37,
+      "english": "Believe me.",
+      "russian": "Поверьте мне.",
+      "start": 500.447,
+      "end": 514.948
+    },
+    {
+      "id": 38,
+      "english": "It's not your fault.",
+      "russian": "Это не твоя вина.",
+      "start": 514.948,
+      "end": 528.554
+    },
+    {
+      "id": 39,
+      "english": "Too bad.",
+      "russian": "Очень жаль.",
+      "start": 528.554,
+      "end": 542.272
+    },
+    {
+      "id": 40,
+      "english": "Thanks for coming.",
+      "russian": "Спасибо за визит.",
+      "start": 542.272,
+      "end": 542.272
+    }
+  ]
+}

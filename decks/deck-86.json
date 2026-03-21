@@ -1,0 +1,290 @@
+{
+  "id": "deck-86",
+  "deck_name": "phrase_top396 2",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3962.mp3",
+  "group": "phrase_top396",
+  "total_duration": 545.32,
+  "total_sentences": 40,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Look at me.",
+      "russian": "Посмотри на меня.",
+      "start": 0.0,
+      "end": 13.782
+    },
+    {
+      "id": 2,
+      "english": "Forget it.",
+      "russian": "Забудь это.",
+      "start": 13.782,
+      "end": 27.243
+    },
+    {
+      "id": 3,
+      "english": "Tell me.",
+      "russian": "Скажи мне.",
+      "start": 27.243,
+      "end": 40.378
+    },
+    {
+      "id": 4,
+      "english": "Of course not.",
+      "russian": "Конечно, нет.",
+      "start": 40.378,
+      "end": 54.367
+    },
+    {
+      "id": 5,
+      "english": "It's me.",
+      "russian": "Это я.",
+      "start": 54.367,
+      "end": 67.651
+    },
+    {
+      "id": 6,
+      "english": "Good evening.",
+      "russian": "Добрый вечер.",
+      "start": 67.651,
+      "end": 81.157
+    },
+    {
+      "id": 7,
+      "english": "Damn it!",
+      "russian": "Блин!",
+      "start": 81.157,
+      "end": 94.342
+    },
+    {
+      "id": 8,
+      "english": "Not at all.",
+      "russian": "Нисколько.",
+      "start": 94.342,
+      "end": 108.126
+    },
+    {
+      "id": 9,
+      "english": "That's great.",
+      "russian": "Замечательно.",
+      "start": 108.126,
+      "end": 121.832
+    },
+    {
+      "id": 10,
+      "english": "I'll be right back.",
+      "russian": "Я сейчас вернусь.",
+      "start": 121.832,
+      "end": 136.021
+    },
+    {
+      "id": 11,
+      "english": "Oh, come on.",
+      "russian": "Да ладно.",
+      "start": 136.021,
+      "end": 150.354
+    },
+    {
+      "id": 12,
+      "english": "Calm down.",
+      "russian": "Успокойся.",
+      "start": 150.354,
+      "end": 164.139
+    },
+    {
+      "id": 13,
+      "english": "That's all.",
+      "russian": "Вот и все.",
+      "start": 164.139,
+      "end": 177.557
+    },
+    {
+      "id": 14,
+      "english": "I don't care.",
+      "russian": "Мне все равно.",
+      "start": 177.557,
+      "end": 191.178
+    },
+    {
+      "id": 15,
+      "english": "Trust me.",
+      "russian": "Поверьте мне.",
+      "start": 191.178,
+      "end": 204.741
+    },
+    {
+      "id": 16,
+      "english": "Not really.",
+      "russian": "Не совсем.",
+      "start": 204.741,
+      "end": 218.353
+    },
+    {
+      "id": 17,
+      "english": "Look at this.",
+      "russian": "Посмотрите на это.",
+      "start": 218.353,
+      "end": 232.151
+    },
+    {
+      "id": 18,
+      "english": "This way.",
+      "russian": "Сюда.",
+      "start": 232.151,
+      "end": 245.746
+    },
+    {
+      "id": 19,
+      "english": "Never mind.",
+      "russian": "Неважно.",
+      "start": 245.746,
+      "end": 259.635
+    },
+    {
+      "id": 20,
+      "english": "It's fine.",
+      "russian": "Всё в порядке.",
+      "start": 259.635,
+      "end": 273.259
+    },
+    {
+      "id": 21,
+      "english": "Get up!",
+      "russian": "Вставай!",
+      "start": 273.259,
+      "end": 286.531
+    },
+    {
+      "id": 22,
+      "english": "Get down!",
+      "russian": "Пригнись!",
+      "start": 286.531,
+      "end": 300.131
+    },
+    {
+      "id": 23,
+      "english": "Come on in.",
+      "russian": "Заходите.",
+      "start": 300.131,
+      "end": 313.689
+    },
+    {
+      "id": 24,
+      "english": "Come with me.",
+      "russian": "Пойдем со мной.",
+      "start": 313.689,
+      "end": 327.208
+    },
+    {
+      "id": 25,
+      "english": "Hang on.",
+      "russian": "Подожди.",
+      "start": 327.208,
+      "end": 340.569
+    },
+    {
+      "id": 26,
+      "english": "Hurry up!",
+      "russian": "Поторопись!",
+      "start": 340.569,
+      "end": 354.023
+    },
+    {
+      "id": 27,
+      "english": "I get it.",
+      "russian": "Я понял.",
+      "start": 354.023,
+      "end": 367.455
+    },
+    {
+      "id": 28,
+      "english": "You got it.",
+      "russian": "Понял.",
+      "start": 367.455,
+      "end": 380.998
+    },
+    {
+      "id": 29,
+      "english": "I'm not.",
+      "russian": "Я не такой.",
+      "start": 380.998,
+      "end": 394.438
+    },
+    {
+      "id": 30,
+      "english": "Look at that.",
+      "russian": "Посмотрите-ка.",
+      "start": 394.438,
+      "end": 408.196
+    },
+    {
+      "id": 31,
+      "english": "Be careful.",
+      "russian": "Будь осторожен.",
+      "start": 408.196,
+      "end": 421.99
+    },
+    {
+      "id": 32,
+      "english": "Do it.",
+      "russian": "Сделайте это.",
+      "start": 421.99,
+      "end": 435.147
+    },
+    {
+      "id": 33,
+      "english": "It's over.",
+      "russian": "Все кончено.",
+      "start": 435.147,
+      "end": 448.526
+    },
+    {
+      "id": 34,
+      "english": "Let me go!",
+      "russian": "Отпустите меня!",
+      "start": 448.526,
+      "end": 462.184
+    },
+    {
+      "id": 35,
+      "english": "There you are.",
+      "russian": "А вот и ты! (наконец нашёл / появился)",
+      "start": 462.184,
+      "end": 475.777
+    },
+    {
+      "id": 36,
+      "english": "I think so.",
+      "russian": "Я так думаю.",
+      "start": 475.777,
+      "end": 489.58
+    },
+    {
+      "id": 37,
+      "english": "Take it easy.",
+      "russian": "Не принимайте близко к сердцу.",
+      "start": 489.58,
+      "end": 503.329
+    },
+    {
+      "id": 38,
+      "english": "Don't worry about it.",
+      "russian": "Не беспокойтесь об этом.",
+      "start": 503.329,
+      "end": 517.649
+    },
+    {
+      "id": 39,
+      "english": "It doesn't matter.",
+      "russian": "Это не имеет значения.",
+      "start": 517.649,
+      "end": 531.618
+    },
+    {
+      "id": 40,
+      "english": "See you later.",
+      "russian": "Увидимся позже.",
+      "start": 531.618,
+      "end": 545.32
+    }
+  ]
+}
