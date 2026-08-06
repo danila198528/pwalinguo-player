@@ -1,9 +1,10 @@
-const CACHE_NAME = 'linguo-v10'; // Увеличиваем версию
+const CACHE_NAME = 'linguo-v11'; // Увеличиваем версию
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './catalog.json',      // Новый каталог
+  './catalog-danila.json', // Персональный каталог Данилы
+  './catalog-masha.json',  // Персональный каталог Маши
   './index.js',
   './styles.css',
   // Колоды (добавляйте новые сюда)

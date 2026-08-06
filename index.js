@@ -112,22 +112,22 @@ const getDeckMeta = async (deckId) => {
 };
 
 // Сохранить каталог
-const saveCatalogToDB = async (catalog) => {
+const saveCatalogToDB = async (catalog, catalogKey = 'main') => {
     const db = await openDB();
     return new Promise((resolve, reject) => {
         const transaction = db.transaction('catalog', 'readwrite');
-        transaction.objectStore('catalog').put({ key: 'main', data: catalog });
+        transaction.objectStore('catalog').put({ key: catalogKey, data: catalog });
         transaction.oncomplete = () => resolve();
         transaction.onerror = () => reject(transaction.error);
     });
 };
 
 // Загрузить каталог
-const getCatalogFromDB = async () => {
+const getCatalogFromDB = async (catalogKey = 'main') => {
     const db = await openDB();
     return new Promise((resolve) => {
         const transaction = db.transaction('catalog', 'readonly');
-        const request = transaction.objectStore('catalog').get('main');
+        const request = transaction.objectStore('catalog').get(catalogKey);
         request.onsuccess = () => resolve(request.result?.data || null);
         request.onerror = () => resolve(null);
     });
@@ -148,6 +148,12 @@ const loadDeckData = async (deckMeta) => {
         }
     }
     return deckMeta;
+};
+
+// --- Разрешённые пользователи и их персональные каталоги ---
+const ALLOWED_USERS = {
+    '6481000@gmail.com': 'catalog-danila.json',
+    'masja271282@gmail.com': 'catalog-masha.json'
 };
 
 // --- Firebase Sync ---
@@ -378,22 +384,31 @@ const App = () => {
     const [postponeOption, setPostponeOption] = useState('14days');
     const [allMeta, setAllMeta] = useState({}); // Все метаданные колод
     const [isGoogleAuthorized, setIsGoogleAuthorized] = useState(false);
+    const [userEmail, setUserEmail] = useState(null);
+    const [authChecked, setAuthChecked] = useState(false);
+    const [accessDenied, setAccessDenied] = useState(false);
     const [syncStatus, setSyncStatus] = useState('idle'); // idle, syncing, synced, offline, error
     const [syncKey, setSyncKey] = useState(0); // Счётчик для принудительного обновления UI
     const [lastSyncTime, setLastSyncTime] = useState(null); // Время последней синхронизации
 
-    const loadData = async () => {
+    const loadData = async (email) => {
         setIsLoading(true);
         let catalogData = null;
+        const catalogFile = ALLOWED_USERS[email] || null;
+        if (!catalogFile) {
+            console.error('Нет каталога для пользователя:', email);
+            setIsLoading(false);
+            return;
+        }
         
         try {
             // Пробуем загрузить с сервера
-            const response = await fetch('./catalog.json?t=' + Date.now());
+            const response = await fetch('./' + catalogFile + '?t=' + Date.now());
             if (response.ok) {
                 const data = await response.json();
                 catalogData = Array.isArray(data) ? data : [data];
-                // Сохраняем в IndexedDB
-                await saveCatalogToDB(catalogData);
+                // Сохраняем в IndexedDB под ключом этого каталога
+                await saveCatalogToDB(catalogData, catalogFile);
                 console.log('Каталог загружен с сервера');
             }
         } catch (e) {
@@ -402,7 +417,7 @@ const App = () => {
         
         // Если не удалось - берём из IndexedDB
         if (!catalogData) {
-            catalogData = await getCatalogFromDB();
+            catalogData = await getCatalogFromDB(catalogFile);
             if (catalogData) {
                 console.log('Каталог загружен из IndexedDB (оффлайн)');
             } else {
@@ -487,16 +502,25 @@ const App = () => {
         const initAuth = async () => {
             await loadFirebase();
             getAuth().onAuthStateChanged((user) => {
-                if (user) {
+                if (user && ALLOWED_USERS[user.email]) {
+                    // Email есть в списке разрешённых
                     setIsGoogleAuthorized(true);
+                    setUserEmail(user.email);
+                    setAccessDenied(false);
+                } else if (user) {
+                    // Пользователь вошёл, но его email не в списке — выкидываем
+                    signOutFirebase();
+                    setIsGoogleAuthorized(false);
+                    setUserEmail(null);
+                    setAccessDenied(true);
                 } else {
                     setIsGoogleAuthorized(false);
+                    setUserEmail(null);
                 }
+                setAuthChecked(true);
             });
         };
         initAuth();
-        
-        loadData();
         
         // Синхронизация при возврате на вкладку
         const handleVisibilityChange = () => {
@@ -516,13 +540,19 @@ const App = () => {
         };
     }, []);
 
+    // Грузим каталог, когда становится известен разрешённый email пользователя
+    useEffect(() => {
+        if (userEmail && ALLOWED_USERS[userEmail]) {
+            loadData(userEmail);
+        }
+    }, [userEmail]);
+
     // Авторизация Google
     const handleGoogleSignIn = async () => {
         try {
             await signInWithGoogle();
-            setIsGoogleAuthorized(true);
-            // Синхронизация после авторизации
-            await performSync();
+            // Дальше onAuthStateChanged сам проверит email и (если разрешён)
+            // выставит isGoogleAuthorized/userEmail, что запустит loadData
         } catch (err) {
             console.error('Firebase sign-in error:', err);
             setSyncStatus('error');
@@ -533,7 +563,9 @@ const App = () => {
     const handleGoogleSignOut = async () => {
         await signOutFirebase();
         setIsGoogleAuthorized(false);
+        setUserEmail(null);
         setSyncStatus('idle');
+        setCatalog([]);
     };
 
     // Перезагрузить метаданные из IndexedDB (для оффлайн обновления UI)
@@ -698,6 +730,27 @@ const App = () => {
         }));
     };
 
+    // Экран входа — показываем, пока пользователь не авторизован разрешённым email
+    if (authChecked && !isGoogleAuthorized) {
+        return React.createElement("div", { className: "h-full w-full bg-slate-950 text-slate-100 flex flex-col items-center justify-center p-6" },
+            React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic mb-8" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
+            accessDenied && React.createElement("p", { className: "text-red-400 text-sm font-bold mb-4 text-center" }, "⛔ Доступ закрыт: этот email не имеет доступа к приложению"),
+            React.createElement("button", {
+                onClick: handleGoogleSignIn,
+                className: "bg-slate-800 text-white px-6 py-4 rounded-2xl text-sm font-black uppercase tracking-wider active:scale-95 transition-all flex items-center justify-center gap-2"
+            },
+                React.createElement("span", null, "🔐"),
+                "ВОЙТИ ЧЕРЕЗ GOOGLE"
+            )
+        );
+    }
+
+    if (!authChecked) {
+        return React.createElement("div", { className: "h-full w-full bg-slate-950 flex items-center justify-center" },
+            React.createElement("div", { className: "w-14 h-14 border-t-4 border-blue-500 rounded-full animate-spin" })
+        );
+    }
+
     return React.createElement("div", { className: "h-full w-full bg-slate-950 text-slate-100 flex flex-col" },
         isOffline && React.createElement("div", { className: "bg-red-900/80 text-10 text-center py-1 font-black uppercase z-50" }, "Офлайн"),
         
@@ -730,14 +783,9 @@ const App = () => {
                 )
             ),
             
-            // Google Sign In / Sign Out
-            !isGoogleAuthorized ? React.createElement("button", {
-                onClick: handleGoogleSignIn,
-                className: "w-full bg-slate-800 text-white px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider active:scale-95 transition-all mb-3 flex items-center justify-center gap-2"
-            }, 
-                React.createElement("span", null, "🔐"),
-                "ВОЙТИ ЧЕРЕЗ GOOGLE"
-            ) : React.createElement("button", {
+            // Кнопка выхода + подпись, кто сейчас вошёл
+            React.createElement("p", { className: "text-slate-500 text-xs text-center mb-2" }, userEmail),
+            React.createElement("button", {
                 onClick: handleGoogleSignOut,
                 className: "w-full bg-slate-800 text-white px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider active:scale-95 transition-all mb-3"
             }, "☁️ ВЫЙТИ ИЗ GOOGLE"),
@@ -746,7 +794,7 @@ const App = () => {
             React.createElement("div", { className: "w-full my-4", style: { height: '1px', backgroundColor: 'rgba(100, 116, 139, 0.3)' } }),
             
             React.createElement("button", {
-                onClick: loadData,
+                onClick: () => loadData(userEmail),
                 disabled: isLoading,
                 className: "w-full bg-slate-800 text-white px-5 py-4 rounded-2xl text-sm font-black uppercase tracking-wider disabled:opacity-20 active:scale-95 transition-all mb-6"
             }, isLoading ? "ОБНОВЛЯЕМ..." : (() => {
