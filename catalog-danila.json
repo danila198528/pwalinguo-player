@@ -1,0 +1,462 @@
+[
+  {
+    "id": "deck-25",
+    "deck_name": "collocation 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation1.mp3",
+    "group": "collocation",
+    "total_duration": 779.69,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-25.json"
+  },
+  {
+    "id": "deck-26",
+    "deck_name": "collocation 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation2.mp3",
+    "group": "collocation",
+    "total_duration": 777.24,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-26.json"
+  },
+  {
+    "id": "deck-27",
+    "deck_name": "collocation 3",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation3.mp3",
+    "group": "collocation",
+    "total_duration": 784.63,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-27.json"
+  },
+  {
+    "id": "deck-28",
+    "deck_name": "collocation 4",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation4.mp3",
+    "group": "collocation",
+    "total_duration": 776.23,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-28.json"
+  },
+  {
+    "id": "deck-29",
+    "deck_name": "collocation 5",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation5.mp3",
+    "group": "collocation",
+    "total_duration": 772.63,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-29.json"
+  },
+  {
+    "id": "deck-30",
+    "deck_name": "collocation 6",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation6.mp3",
+    "group": "collocation",
+    "total_duration": 783.53,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-30.json"
+  },
+  {
+    "id": "deck-31",
+    "deck_name": "collocation 7",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation7.mp3",
+    "group": "collocation",
+    "total_duration": 779.16,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-31.json"
+  },
+  {
+    "id": "deck-32",
+    "deck_name": "collocation 8",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation8.mp3",
+    "group": "collocation",
+    "total_duration": 776.57,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-32.json"
+  },
+  {
+    "id": "deck-33",
+    "deck_name": "collocation 9",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation9.mp3",
+    "group": "collocation",
+    "total_duration": 787.32,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-33.json"
+  },
+  {
+    "id": "deck-34",
+    "deck_name": "collocation 10",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation10.mp3",
+    "group": "collocation",
+    "total_duration": 799.46,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-34.json"
+  },
+  {
+    "id": "deck-35",
+    "deck_name": "collocation 11",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation11.mp3",
+    "group": "collocation",
+    "total_duration": 797.21,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-35.json"
+  },
+  {
+    "id": "deck-36",
+    "deck_name": "collocation 12",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation12.mp3",
+    "group": "collocation",
+    "total_duration": 801.34,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-36.json"
+  },
+  {
+    "id": "deck-37",
+    "deck_name": "collocation 13",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation13.mp3",
+    "group": "collocation",
+    "total_duration": 811.99,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-37.json"
+  },
+  {
+    "id": "deck-38",
+    "deck_name": "collocation 14",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation14.mp3",
+    "group": "collocation",
+    "total_duration": 806.47,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-38.json"
+  },
+  {
+    "id": "deck-39",
+    "deck_name": "collocation 15",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation15.mp3",
+    "group": "collocation",
+    "total_duration": 803.74,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-39.json"
+  },
+  {
+    "id": "deck-40",
+    "deck_name": "collocation 16",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation16.mp3",
+    "group": "collocation",
+    "total_duration": 794.9,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-40.json"
+  },
+  {
+    "id": "deck-41",
+    "deck_name": "collocation 17",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation17.mp3",
+    "group": "collocation",
+    "total_duration": 788.42,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-41.json"
+  },
+  {
+    "id": "deck-42",
+    "deck_name": "collocation 18",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation18.mp3",
+    "group": "collocation",
+    "total_duration": 786.6,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-42.json"
+  },
+  {
+    "id": "deck-43",
+    "deck_name": "collocation 19",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation19.mp3",
+    "group": "collocation",
+    "total_duration": 789.24,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-43.json"
+  },
+  {
+    "id": "deck-44",
+    "deck_name": "collocation 20",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation20.mp3",
+    "group": "collocation",
+    "total_duration": 792.46,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-44.json"
+  },
+  {
+    "id": "deck-45",
+    "deck_name": "collocation 21",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation21.mp3",
+    "group": "collocation",
+    "total_duration": 787.8,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-45.json"
+  },
+  {
+    "id": "deck-46",
+    "deck_name": "collocation 22",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/collocation22.mp3",
+    "group": "collocation",
+    "total_duration": 799.42,
+    "total_sentences": 51,
+    "deck_url": "./decks/deck-46.json"
+  
+  },
+{
+    "id": "deck-67",
+    "deck_name": "phrasal_verbs 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs1.mp3",
+    "group": "phrasal verbs",
+    "total_duration": 614.54,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-67.json"
+  },
+  {
+    "id": "deck-68",
+    "deck_name": "phrasal_verbs 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs2.mp3",
+    "group": "phrasal verbs",
+    "total_duration": 615.36,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-68.json"
+  },
+  {
+    "id": "deck-69",
+    "deck_name": "phrasal_verbs 3",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs3.mp3",
+    "group": "phrasal verbs",
+    "total_duration": 619.25,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-69.json"
+  },
+  {
+    "id": "deck-70",
+    "deck_name": "phrasal_verbs 4",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs4.mp3",
+    "group": "phrasal verbs",
+    "total_duration": 620.93,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-70.json"
+  },
+  {
+    "id": "deck-71",
+    "deck_name": "phrasal_verbs 5",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs5.mp3",
+    "group": "phrasal verbs",
+    "total_duration": 623.47,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-71.json"
+  },
+
+  {
+    "id": "deck-72",
+    "deck_name": "questions_pattern 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_pattern1.mp3",
+    "group": "questions_pattern",
+    "total_duration": 854.46,
+    "total_sentences": 61,
+    "deck_url": "./decks/deck-72.json"
+  },
+  {
+    "id": "deck-73",
+    "deck_name": "questions_pattern 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_pattern2.mp3",
+    "group": "questions_pattern",
+    "total_duration": 1022.97,
+    "total_sentences": 74,
+    "deck_url": "./decks/deck-73.json"
+  },
+  {
+    "id": "deck-74",
+    "deck_name": "questions_top451 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4511.mp3",
+    "group": "questions_top451",
+    "total_duration": 566.65,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-74.json"
+  },
+  {
+    "id": "deck-75",
+    "deck_name": "questions_top451 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4512.mp3",
+    "group": "questions_top451",
+    "total_duration": 567.66,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-75.json"
+  },
+  {
+    "id": "deck-76",
+    "deck_name": "questions_top451 3",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4513.mp3",
+    "group": "questions_top451",
+    "total_duration": 577.12,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-76.json"
+  },
+  {
+    "id": "deck-77",
+    "deck_name": "questions_top451 4",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4514.mp3",
+    "group": "questions_top451",
+    "total_duration": 574.82,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-77.json"
+  },
+  {
+    "id": "deck-78",
+    "deck_name": "questions_top451 5",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4515.mp3",
+    "group": "questions_top451",
+    "total_duration": 581.06,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-78.json"
+  },
+  {
+    "id": "deck-79",
+    "deck_name": "questions_top451 6",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4516.mp3",
+    "group": "questions_top451",
+    "total_duration": 573.09,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-79.json"
+  },
+  {
+    "id": "deck-80",
+    "deck_name": "questions_top451 7",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4517.mp3",
+    "group": "questions_top451",
+    "total_duration": 580.43,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-80.json"
+  },
+  {
+    "id": "deck-81",
+    "deck_name": "questions_top451 8",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4518.mp3",
+    "group": "questions_top451",
+    "total_duration": 574.58,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-81.json"
+  },
+  {
+    "id": "deck-82",
+    "deck_name": "questions_top451 9",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top4519.mp3",
+    "group": "questions_top451",
+    "total_duration": 585.38,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-82.json"
+  },
+  {
+    "id": "deck-83",
+    "deck_name": "questions_top451 10",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top45110.mp3",
+    "group": "questions_top451",
+    "total_duration": 578.8,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-83.json"
+  },
+  {
+    "id": "deck-84",
+    "deck_name": "questions_top451 11",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/questions_top45111.mp3",
+    "group": "questions_top451",
+    "total_duration": 579.04,
+    "total_sentences": 41,
+    "deck_url": "./decks/deck-84.json"
+  },
+{
+    "id": "deck-85",
+    "deck_name": "phrase_top396 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3961.mp3",
+    "group": "phrase_top396",
+    "total_duration": 542.77,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-85.json"
+  },
+  {
+    "id": "deck-86",
+    "deck_name": "phrase_top396 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3962.mp3",
+    "group": "phrase_top396",
+    "total_duration": 545.32,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-86.json"
+  },
+  {
+    "id": "deck-87",
+    "deck_name": "phrase_top396 3",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3963.mp3",
+    "group": "phrase_top396",
+    "total_duration": 549.06,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-87.json"
+  },
+  {
+    "id": "deck-88",
+    "deck_name": "phrase_top396 4",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3964.mp3",
+    "group": "phrase_top396",
+    "total_duration": 548.49,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-88.json"
+  },
+  {
+    "id": "deck-89",
+    "deck_name": "phrase_top396 5",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3965.mp3",
+    "group": "phrase_top396",
+    "total_duration": 547.67,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-89.json"
+  },
+  {
+    "id": "deck-90",
+    "deck_name": "phrase_top396 6",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3966.mp3",
+    "group": "phrase_top396",
+    "total_duration": 550.41,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-90.json"
+  },
+  {
+    "id": "deck-91",
+    "deck_name": "phrase_top396 7",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3967.mp3",
+    "group": "phrase_top396",
+    "total_duration": 542.27,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-91.json"
+  },
+  {
+    "id": "deck-92",
+    "deck_name": "phrase_top396 8",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3968.mp3",
+    "group": "phrase_top396",
+    "total_duration": 554.87,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-92.json"
+  },
+  {
+    "id": "deck-93",
+    "deck_name": "phrase_top396 9",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3969.mp3",
+    "group": "phrase_top396",
+    "total_duration": 557.32,
+    "total_sentences": 40,
+    "deck_url": "./decks/deck-93.json"
+  },
+  {
+    "id": "deck-94",
+    "deck_name": "phrase_top396 10",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top39610.mp3",
+    "group": "phrase_top396",
+    "total_duration": 500.01,
+    "total_sentences": 36,
+    "deck_url": "./decks/deck-94.json"
+  }
+]
+
+
+
+
+
+
+
+
