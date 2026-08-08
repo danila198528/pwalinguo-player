@@ -810,7 +810,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v10.3 Split Debug"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v10.4 Watchdog Retry"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -1197,6 +1197,12 @@ const Player = ({ deck, audioBlob, onBack }) => {
     const wantAwakeRef = useRef(false);       // хотим ли мы сейчас не давать экрану спать
     const [apiLockStatus, setApiLockStatus] = useState('idle');   // 'idle' | 'active' | 'unsupported' | 'failed' | 'pending'
     const [videoLockStatus, setVideoLockStatus] = useState('idle'); // 'idle' | 'playing' | 'failed'
+    const apiLockStatusRef = useRef('idle');
+    const videoLockStatusRef = useRef('idle');
+
+    // Обёртки, которые обновляют и state (для бейджа), и ref (для watchdog без гонок)
+    const updateApiStatus = (val) => { apiLockStatusRef.current = val; setApiLockStatus(val); };
+    const updateVideoStatus = (val) => { videoLockStatusRef.current = val; setVideoLockStatus(val); };
 
     // Инициализация аудио
     useEffect(() => {
@@ -1208,14 +1214,14 @@ const Player = ({ deck, audioBlob, onBack }) => {
     // Запросить "настоящий" Wake Lock API (с автопереподпиской при release)
     const requestRealWakeLock = async () => {
         if (!('wakeLock' in navigator)) {
-            setApiLockStatus('unsupported');
+            updateApiStatus('unsupported');
             return;
         }
-        setApiLockStatus('pending');
+        updateApiStatus('pending');
         try {
             const sentinel = await navigator.wakeLock.request('screen');
             realWakeLockRef.current = sentinel;
-            setApiLockStatus('active');
+            updateApiStatus('active');
             sentinel.addEventListener('release', () => {
                 realWakeLockRef.current = null;
                 // Если воспроизведение всё ещё активно и страница видима — пробуем снова.
@@ -1224,13 +1230,13 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 if (wantAwakeRef.current && document.visibilityState === 'visible') {
                     requestRealWakeLock();
                 } else if (wantAwakeRef.current) {
-                    setApiLockStatus('idle');
+                    updateApiStatus('idle');
                 }
             });
             console.log('Wake Lock активирован');
         } catch (err) {
             console.log('Wake Lock не сработал:', err.name, err.message);
-            setApiLockStatus('failed');
+            updateApiStatus('failed');
         }
     };
 
@@ -1240,21 +1246,21 @@ const Player = ({ deck, audioBlob, onBack }) => {
         requestRealWakeLock();
         if (noSleepRef.current) {
             noSleepRef.current.enable()
-                .then(() => setVideoLockStatus('playing'))
+                .then(() => updateVideoStatus('playing'))
                 .catch(err => {
                     console.log('Video wakelock fallback ошибка:', err.name, err.message);
-                    setVideoLockStatus('failed');
+                    updateVideoStatus('failed');
                 });
         } else {
-            setVideoLockStatus('failed');
+            updateVideoStatus('failed');
         }
     };
 
     // Выключить оба механизма (когда пауза/уход со страницы плеера)
     const disableNoSleep = () => {
         wantAwakeRef.current = false;
-        setApiLockStatus('idle');
-        setVideoLockStatus('idle');
+        updateApiStatus('idle');
+        updateVideoStatus('idle');
         if (realWakeLockRef.current) {
             realWakeLockRef.current.release().catch(() => {});
             realWakeLockRef.current = null;
@@ -1263,6 +1269,22 @@ const Player = ({ deck, audioBlob, onBack }) => {
             noSleepRef.current.disable();
         }
     };
+
+    // Watchdog: если через 2с после старта воспроизведения ни API, ни видео так и не
+    // встали активно — автоматически повторяем попытку (то же самое, что раньше
+    // чинилось ручной паузой/повторным запуском — теперь делаем это сами).
+    useEffect(() => {
+        if (!isPlaying) return;
+        const watchdog = setInterval(() => {
+            const apiOk = apiLockStatusRef.current === 'active';
+            const videoOk = videoLockStatusRef.current === 'playing';
+            if (!apiOk && !videoOk) {
+                console.log('Wake lock watchdog: ни один механизм не встал, повторяю попытку');
+                enableNoSleep();
+            }
+        }, 2000);
+        return () => clearInterval(watchdog);
+    }, [isPlaying]);
 
     // Инициализация fallback-видео + переподписка Wake Lock при возврате видимости
     useEffect(() => {
