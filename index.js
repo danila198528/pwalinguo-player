@@ -810,7 +810,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v10.2 Wake Lock Debug"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v10.3 Split Debug"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -1195,7 +1195,8 @@ const Player = ({ deck, audioBlob, onBack }) => {
     const noSleepRef = useRef(null);          // fallback: зацикленное видео
     const realWakeLockRef = useRef(null);     // sentinel настоящего Wake Lock API
     const wantAwakeRef = useRef(false);       // хотим ли мы сейчас не давать экрану спать
-    const [wakeLockDebug, setWakeLockDebug] = useState('idle'); // 'idle' | 'active' | 'video-only' | 'failed'
+    const [apiLockStatus, setApiLockStatus] = useState('idle');   // 'idle' | 'active' | 'unsupported' | 'failed' | 'pending'
+    const [videoLockStatus, setVideoLockStatus] = useState('idle'); // 'idle' | 'playing' | 'failed'
 
     // Инициализация аудио
     useEffect(() => {
@@ -1207,13 +1208,14 @@ const Player = ({ deck, audioBlob, onBack }) => {
     // Запросить "настоящий" Wake Lock API (с автопереподпиской при release)
     const requestRealWakeLock = async () => {
         if (!('wakeLock' in navigator)) {
-            setWakeLockDebug(prev => prev === 'active' ? prev : 'video-only');
+            setApiLockStatus('unsupported');
             return;
         }
+        setApiLockStatus('pending');
         try {
             const sentinel = await navigator.wakeLock.request('screen');
             realWakeLockRef.current = sentinel;
-            setWakeLockDebug('active');
+            setApiLockStatus('active');
             sentinel.addEventListener('release', () => {
                 realWakeLockRef.current = null;
                 // Если воспроизведение всё ещё активно и страница видима — пробуем снова.
@@ -1222,13 +1224,13 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 if (wantAwakeRef.current && document.visibilityState === 'visible') {
                     requestRealWakeLock();
                 } else if (wantAwakeRef.current) {
-                    setWakeLockDebug('video-only');
+                    setApiLockStatus('idle');
                 }
             });
             console.log('Wake Lock активирован');
         } catch (err) {
             console.log('Wake Lock не сработал:', err.name, err.message);
-            setWakeLockDebug('failed');
+            setApiLockStatus('failed');
         }
     };
 
@@ -1237,16 +1239,22 @@ const Player = ({ deck, audioBlob, onBack }) => {
         wantAwakeRef.current = true;
         requestRealWakeLock();
         if (noSleepRef.current) {
-            noSleepRef.current.enable().catch(err => {
-                console.log('Video wakelock fallback ошибка:', err);
-            });
+            noSleepRef.current.enable()
+                .then(() => setVideoLockStatus('playing'))
+                .catch(err => {
+                    console.log('Video wakelock fallback ошибка:', err.name, err.message);
+                    setVideoLockStatus('failed');
+                });
+        } else {
+            setVideoLockStatus('failed');
         }
     };
 
     // Выключить оба механизма (когда пауза/уход со страницы плеера)
     const disableNoSleep = () => {
         wantAwakeRef.current = false;
-        setWakeLockDebug('idle');
+        setApiLockStatus('idle');
+        setVideoLockStatus('idle');
         if (realWakeLockRef.current) {
             realWakeLockRef.current.release().catch(() => {});
             realWakeLockRef.current = null;
@@ -1536,18 +1544,29 @@ const Player = ({ deck, audioBlob, onBack }) => {
         isPlaying && React.createElement("div", {
             style: {
                 position: 'fixed', top: '8px', right: '8px', zIndex: 9999,
-                fontSize: '10px', padding: '3px 8px', borderRadius: '10px',
-                fontWeight: 'bold', pointerEvents: 'none',
-                backgroundColor: wakeLockDebug === 'active' ? 'rgba(34,197,94,0.85)'
-                    : wakeLockDebug === 'video-only' ? 'rgba(234,179,8,0.85)'
-                    : wakeLockDebug === 'failed' ? 'rgba(239,68,68,0.85)'
-                    : 'rgba(148,163,184,0.85)',
-                color: '#fff'
+                display: 'flex', flexDirection: 'column', gap: '3px',
+                alignItems: 'flex-end', pointerEvents: 'none'
             }
-        }, wakeLockDebug === 'active' ? 'WL: API ✅'
-            : wakeLockDebug === 'video-only' ? 'WL: видео-фолбэк'
-            : wakeLockDebug === 'failed' ? 'WL: ОШИБКА ⚠️'
-            : 'WL: ...'),
+        },
+            React.createElement("div", {
+                style: {
+                    fontSize: '10px', padding: '3px 8px', borderRadius: '10px', fontWeight: 'bold', color: '#fff',
+                    backgroundColor: apiLockStatus === 'active' ? 'rgba(34,197,94,0.85)'
+                        : apiLockStatus === 'pending' ? 'rgba(234,179,8,0.85)'
+                        : apiLockStatus === 'unsupported' ? 'rgba(100,116,139,0.85)'
+                        : apiLockStatus === 'failed' ? 'rgba(239,68,68,0.85)'
+                        : 'rgba(148,163,184,0.85)'
+                }
+            }, "API: " + apiLockStatus),
+            React.createElement("div", {
+                style: {
+                    fontSize: '10px', padding: '3px 8px', borderRadius: '10px', fontWeight: 'bold', color: '#fff',
+                    backgroundColor: videoLockStatus === 'playing' ? 'rgba(34,197,94,0.85)'
+                        : videoLockStatus === 'failed' ? 'rgba(239,68,68,0.85)'
+                        : 'rgba(148,163,184,0.85)'
+                }
+            }, "Видео: " + videoLockStatus)
+        ),
         // Аудио элемент
         React.createElement("audio", {
             ref: audioRef,
