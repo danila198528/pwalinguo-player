@@ -810,7 +810,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v10.4 Watchdog Retry"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v10.5 Wake Lock Stable"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -1562,33 +1562,6 @@ const Player = ({ deck, audioBlob, onBack }) => {
         className: "fixed inset-0 bg-white flex flex-col z-60 overflow-hidden",
         onClick: handleScreenTouch
     },
-        // Диагностический бейдж Wake Lock — временный, для отладки засыпания экрана
-        isPlaying && React.createElement("div", {
-            style: {
-                position: 'fixed', top: '8px', right: '8px', zIndex: 9999,
-                display: 'flex', flexDirection: 'column', gap: '3px',
-                alignItems: 'flex-end', pointerEvents: 'none'
-            }
-        },
-            React.createElement("div", {
-                style: {
-                    fontSize: '10px', padding: '3px 8px', borderRadius: '10px', fontWeight: 'bold', color: '#fff',
-                    backgroundColor: apiLockStatus === 'active' ? 'rgba(34,197,94,0.85)'
-                        : apiLockStatus === 'pending' ? 'rgba(234,179,8,0.85)'
-                        : apiLockStatus === 'unsupported' ? 'rgba(100,116,139,0.85)'
-                        : apiLockStatus === 'failed' ? 'rgba(239,68,68,0.85)'
-                        : 'rgba(148,163,184,0.85)'
-                }
-            }, "API: " + apiLockStatus),
-            React.createElement("div", {
-                style: {
-                    fontSize: '10px', padding: '3px 8px', borderRadius: '10px', fontWeight: 'bold', color: '#fff',
-                    backgroundColor: videoLockStatus === 'playing' ? 'rgba(34,197,94,0.85)'
-                        : videoLockStatus === 'failed' ? 'rgba(239,68,68,0.85)'
-                        : 'rgba(148,163,184,0.85)'
-                }
-            }, "Видео: " + videoLockStatus)
-        ),
         // Аудио элемент
         React.createElement("audio", {
             ref: audioRef,
