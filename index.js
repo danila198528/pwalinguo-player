@@ -810,7 +810,7 @@ const App = () => {
         ) : !selectedDeck && !viewingDeckPage ? React.createElement("div", { className: "flex-1 overflow-y-auto p-4 pb-20" },
             React.createElement("header", { className: "my-8 text-center relative" },
                 React.createElement("h1", { className: "text-3xl font-black tracking-tighter italic" }, "LINGUO", React.createElement("span", { className: "text-blue-500" }, "PLAYER")),
-                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v10.1 Wake Lock Fix"),
+                React.createElement("p", { className: "text-slate-500 text-xs mt-1 font-medium uppercase tracking-widest" }, "v10.2 Wake Lock Debug"),
                 
                 // Индикатор синхронизации
                 React.createElement("div", { className: "absolute top-0 right-0" },
@@ -1195,6 +1195,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
     const noSleepRef = useRef(null);          // fallback: зацикленное видео
     const realWakeLockRef = useRef(null);     // sentinel настоящего Wake Lock API
     const wantAwakeRef = useRef(false);       // хотим ли мы сейчас не давать экрану спать
+    const [wakeLockDebug, setWakeLockDebug] = useState('idle'); // 'idle' | 'active' | 'video-only' | 'failed'
 
     // Инициализация аудио
     useEffect(() => {
@@ -1205,10 +1206,14 @@ const Player = ({ deck, audioBlob, onBack }) => {
 
     // Запросить "настоящий" Wake Lock API (с автопереподпиской при release)
     const requestRealWakeLock = async () => {
-        if (!('wakeLock' in navigator)) return;
+        if (!('wakeLock' in navigator)) {
+            setWakeLockDebug(prev => prev === 'active' ? prev : 'video-only');
+            return;
+        }
         try {
             const sentinel = await navigator.wakeLock.request('screen');
             realWakeLockRef.current = sentinel;
+            setWakeLockDebug('active');
             sentinel.addEventListener('release', () => {
                 realWakeLockRef.current = null;
                 // Если воспроизведение всё ещё активно и страница видима — пробуем снова.
@@ -1216,11 +1221,14 @@ const Player = ({ deck, audioBlob, onBack }) => {
                 // просто пропадала и больше не восстанавливалась.
                 if (wantAwakeRef.current && document.visibilityState === 'visible') {
                     requestRealWakeLock();
+                } else if (wantAwakeRef.current) {
+                    setWakeLockDebug('video-only');
                 }
             });
             console.log('Wake Lock активирован');
         } catch (err) {
-            console.log('Wake Lock не сработал:', err);
+            console.log('Wake Lock не сработал:', err.name, err.message);
+            setWakeLockDebug('failed');
         }
     };
 
@@ -1238,6 +1246,7 @@ const Player = ({ deck, audioBlob, onBack }) => {
     // Выключить оба механизма (когда пауза/уход со страницы плеера)
     const disableNoSleep = () => {
         wantAwakeRef.current = false;
+        setWakeLockDebug('idle');
         if (realWakeLockRef.current) {
             realWakeLockRef.current.release().catch(() => {});
             realWakeLockRef.current = null;
@@ -1523,6 +1532,22 @@ const Player = ({ deck, audioBlob, onBack }) => {
         className: "fixed inset-0 bg-white flex flex-col z-60 overflow-hidden",
         onClick: handleScreenTouch
     },
+        // Диагностический бейдж Wake Lock — временный, для отладки засыпания экрана
+        isPlaying && React.createElement("div", {
+            style: {
+                position: 'fixed', top: '8px', right: '8px', zIndex: 9999,
+                fontSize: '10px', padding: '3px 8px', borderRadius: '10px',
+                fontWeight: 'bold', pointerEvents: 'none',
+                backgroundColor: wakeLockDebug === 'active' ? 'rgba(34,197,94,0.85)'
+                    : wakeLockDebug === 'video-only' ? 'rgba(234,179,8,0.85)'
+                    : wakeLockDebug === 'failed' ? 'rgba(239,68,68,0.85)'
+                    : 'rgba(148,163,184,0.85)',
+                color: '#fff'
+            }
+        }, wakeLockDebug === 'active' ? 'WL: API ✅'
+            : wakeLockDebug === 'video-only' ? 'WL: видео-фолбэк'
+            : wakeLockDebug === 'failed' ? 'WL: ОШИБКА ⚠️'
+            : 'WL: ...'),
         // Аудио элемент
         React.createElement("audio", {
             ref: audioRef,
