@@ -1,0 +1,220 @@
+{
+  "id": "deck-96",
+  "deck_name": "A1_A2_M 2",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/A1_A2_M2.mp3",
+  "group": "A1/A2_M",
+  "total_duration": 462.14,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "His grandfather died from heart · disease.",
+      "russian": "Его дедушка умер от сердечной · болезни.",
+      "start": 0.0,
+      "end": 15.958
+    },
+    {
+      "id": 2,
+      "english": "The earthquake was a terrible · disaster.",
+      "russian": "Землетрясение было ужасной · катастрофой.",
+      "start": 15.958,
+      "end": 31.137
+    },
+    {
+      "id": 3,
+      "english": "He dropped to one · knee to tie his shoe.",
+      "russian": "Он опустился на одно · колено, чтобы завязать шнурок.",
+      "start": 31.137,
+      "end": 46.432
+    },
+    {
+      "id": 4,
+      "english": "The · roof collapsed under heavy snow.",
+      "russian": "· Крыша рухнула под тяжестью снега.",
+      "start": 46.432,
+      "end": 61.322
+    },
+    {
+      "id": 5,
+      "english": "I love the smell of freshly cut · grass.",
+      "russian": "Я люблю запах свежескошенной · травы.",
+      "start": 61.322,
+      "end": 76.952
+    },
+    {
+      "id": 6,
+      "english": "The dog escaped through the open · gate.",
+      "russian": "Собака сбежала через открытые · ворота.",
+      "start": 76.952,
+      "end": 92.023
+    },
+    {
+      "id": 7,
+      "english": "The new · employee asked for help.",
+      "russian": "Новый · сотрудник попросил о помощи.",
+      "start": 92.023,
+      "end": 107.053
+    },
+    {
+      "id": 8,
+      "english": "My · employer rejected my vacation request.",
+      "russian": "Мой · работодатель отклонил мою просьбу об отпуске.",
+      "start": 107.053,
+      "end": 123.447
+    },
+    {
+      "id": 9,
+      "english": "A · lorry blocked the narrow road.",
+      "russian": "· Грузовик заблокировал узкую дорогу.",
+      "start": 123.447,
+      "end": 138.026
+    },
+    {
+      "id": 10,
+      "english": "He stared at a blank page with no ideas.",
+      "russian": "Он уставился на · пустую страницу без идей.",
+      "start": 138.026,
+      "end": 154.125
+    },
+    {
+      "id": 11,
+      "english": "The team had an early · advantage after scoring first.",
+      "russian": "Команда получила раннее · преимущество после того, как забила первой.",
+      "start": 154.125,
+      "end": 171.093
+    },
+    {
+      "id": 12,
+      "english": "The small cafe raised its · advertising costs.",
+      "russian": "Маленькая кофейня увеличила свои расходы на · рекламу.",
+      "start": 171.093,
+      "end": 187.716
+    },
+    {
+      "id": 13,
+      "english": "She has a · gap between her front teeth.",
+      "russian": "У неё есть · промежуток между передними зубами.",
+      "start": 187.716,
+      "end": 202.956
+    },
+    {
+      "id": 14,
+      "english": "She burnt the pizza in the · oven.",
+      "russian": "Она сожгла пиццу в · духовке.",
+      "start": 202.956,
+      "end": 217.47
+    },
+    {
+      "id": 15,
+      "english": "I skipped the YouTube · advertisement.",
+      "russian": "Я пропустил · рекламу на YouTube.",
+      "start": 217.47,
+      "end": 232.286
+    },
+    {
+      "id": 16,
+      "english": "A strange · disease spread through the school.",
+      "russian": "Странная · болезнь распространилась по школе.",
+      "start": 232.286,
+      "end": 247.583
+    },
+    {
+      "id": 17,
+      "english": "Heavy rain turned the wedding into a · disaster.",
+      "russian": "Сильный дождь превратил свадьбу в · катастрофу.",
+      "start": 247.583,
+      "end": 263.45
+    },
+    {
+      "id": 18,
+      "english": "She scraped her · knee falling off her bike.",
+      "russian": "Она ободрала · колено, упав с велосипеда.",
+      "start": 263.45,
+      "end": 278.838
+    },
+    {
+      "id": 19,
+      "english": "Workers put solar panels on the · roof.",
+      "russian": "Рабочие установили солнечные панели на · крыше.",
+      "start": 278.838,
+      "end": 294.302
+    },
+    {
+      "id": 20,
+      "english": "The dog rolled happily in the · grass.",
+      "russian": "Собака радостно каталась по · траве.",
+      "start": 294.302,
+      "end": 309.194
+    },
+    {
+      "id": 21,
+      "english": "Our boarding · gate changed at the last minute.",
+      "russian": "Наш выход на посадку изменился в последнюю минуту.",
+      "start": 309.194,
+      "end": 324.631
+    },
+    {
+      "id": 22,
+      "english": "The tired · employee fell asleep at the desk.",
+      "russian": "Уставший · сотрудник уснул за столом.",
+      "start": 324.631,
+      "end": 340.297
+    },
+    {
+      "id": 23,
+      "english": "My · employer offered me more money.",
+      "russian": "Мой · работодатель предложил мне больше денег.",
+      "start": 340.297,
+      "end": 354.818
+    },
+    {
+      "id": 24,
+      "english": "A · lorry delivered our new sofa.",
+      "russian": "· Грузовик доставил наш новый диван.",
+      "start": 354.818,
+      "end": 369.685
+    },
+    {
+      "id": 25,
+      "english": "Her mind went · blank during the exam.",
+      "russian": "Её разум стал · пустым во время экзамена.",
+      "start": 369.685,
+      "end": 385.042
+    },
+    {
+      "id": 26,
+      "english": "His height gives him an · advantage in basketball.",
+      "russian": "Его рост даёт ему · преимущество в баскетболе.",
+      "start": 385.042,
+      "end": 401.085
+    },
+    {
+      "id": 27,
+      "english": "The company used · advertising to sell more cars.",
+      "russian": "Компания использовала · рекламу, чтобы продавать больше машин.",
+      "start": 401.085,
+      "end": 418.1
+    },
+    {
+      "id": 28,
+      "english": "The boy squeezed through a · gap in the fence.",
+      "russian": "Мальчик протиснулся через · щель в заборе.",
+      "start": 418.1,
+      "end": 433.535
+    },
+    {
+      "id": 29,
+      "english": "She put the cake in the · oven.",
+      "russian": "Она поставила пирог в · духовку.",
+      "start": 433.535,
+      "end": 447.428
+    },
+    {
+      "id": 30,
+      "english": "The · advertisement stopped my video.",
+      "russian": "· Реклама остановила моё видео.",
+      "start": 447.428,
+      "end": 462.144
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "deck-95",
+  "deck_name": "A1_A2_M 1",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/A1_A2_M1.mp3",
+  "group": "A1/A2_M",
+  "total_duration": 452.98,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The dog buried the · bone in the yard.",
+      "russian": "Собака закопала · кость во дворе.",
+      "start": 0.0,
+      "end": 14.95
+    },
+    {
+      "id": 2,
+      "english": "We grilled fresh · beef for the burgers.",
+      "russian": "Мы пожарили свежую · говядину для бургеров.",
+      "start": 14.95,
+      "end": 30.048
+    },
+    {
+      "id": 3,
+      "english": "The squirrel buried a · nut in the ground.",
+      "russian": "Белка закопала · орех в землю.",
+      "start": 30.048,
+      "end": 45.078
+    },
+    {
+      "id": 4,
+      "english": "She got a top · mark on her test.",
+      "russian": "Она получила высшую · оценку за тест.",
+      "start": 45.078,
+      "end": 59.864
+    },
+    {
+      "id": 5,
+      "english": "He cycled up the steep · hill.",
+      "russian": "Он поднялся на велосипеде на крутой · холм.",
+      "start": 59.864,
+      "end": 74.082
+    },
+    {
+      "id": 6,
+      "english": "She cried on her friend's · shoulder.",
+      "russian": "Она плакала на его · плече.",
+      "start": 74.082,
+      "end": 88.746
+    },
+    {
+      "id": 7,
+      "english": "She filled the · bowl with popcorn.",
+      "russian": "Она наполнила · миску попкорном.",
+      "start": 88.746,
+      "end": 103.15
+    },
+    {
+      "id": 8,
+      "english": "Air · pollution triggered his asthma.",
+      "russian": "Загрязнение воздуха вызвало приступ астмы.",
+      "start": 103.15,
+      "end": 117.668
+    },
+    {
+      "id": 9,
+      "english": "The zipper got stuck on his new · pants.",
+      "russian": "Молния застряла на его новых · брюках.",
+      "start": 117.668,
+      "end": 133.165
+    },
+    {
+      "id": 10,
+      "english": "She asked her parents for · permission.",
+      "russian": "Она попросила у родителей · разрешения.",
+      "start": 133.165,
+      "end": 147.74
+    },
+    {
+      "id": 11,
+      "english": "The wind blew · rubbish across the street.",
+      "russian": "Ветер разнёс · мусор по улице.",
+      "start": 147.74,
+      "end": 162.945
+    },
+    {
+      "id": 12,
+      "english": "He tightened his · belt after losing weight.",
+      "russian": "Он затянул свой · ремень после похудения.",
+      "start": 162.945,
+      "end": 178.654
+    },
+    {
+      "id": 13,
+      "english": "She twisted her · ankle during basketball.",
+      "russian": "Она подвернула · лодыжку во время баскетбола.",
+      "start": 178.654,
+      "end": 194.597
+    },
+    {
+      "id": 14,
+      "english": "The loud music gave me a · headache.",
+      "russian": "Громкая музыка вызвала у меня · головную боль.",
+      "start": 194.597,
+      "end": 209.365
+    },
+    {
+      "id": 15,
+      "english": "She checked her · appearance before the interview.",
+      "russian": "Она проверила свой · внешний вид перед собеседованием.",
+      "start": 209.365,
+      "end": 224.989
+    },
+    {
+      "id": 16,
+      "english": "A fish · bone got stuck in his throat.",
+      "russian": "Рыбная · кость застряла у него в горле.",
+      "start": 224.989,
+      "end": 239.949
+    },
+    {
+      "id": 17,
+      "english": "She ordered · beef stew at the diner.",
+      "russian": "Она заказала рагу из · говядины в закусочной.",
+      "start": 239.949,
+      "end": 254.695
+    },
+    {
+      "id": 18,
+      "english": "A · nut fell on the squirrel's head.",
+      "russian": "· Орех упал белке на голову.",
+      "start": 254.695,
+      "end": 269.112
+    },
+    {
+      "id": 19,
+      "english": "His low · mark disappointed his parents.",
+      "russian": "Его низкая · оценка расстроила родителей.",
+      "start": 269.112,
+      "end": 284.897
+    },
+    {
+      "id": 20,
+      "english": "Their small house stood on top of a · hill.",
+      "russian": "Их маленький дом стоял на вершине · холма.",
+      "start": 284.897,
+      "end": 300.133
+    },
+    {
+      "id": 21,
+      "english": "He dislocated his · shoulder playing rugby.",
+      "russian": "Он вывихнул · плечо, играя в регби.",
+      "start": 300.133,
+      "end": 315.861
+    },
+    {
+      "id": 22,
+      "english": "The dog looked at his empty food · bowl.",
+      "russian": "Собака смотрела на свою пустую · миску для еды.",
+      "start": 315.861,
+      "end": 331.097
+    },
+    {
+      "id": 23,
+      "english": "River · pollution made the water unsafe.",
+      "russian": "Загрязнение реки сделало воду опасной.",
+      "start": 331.097,
+      "end": 346.54
+    },
+    {
+      "id": 24,
+      "english": "He ripped his · pants on the fence",
+      "russian": "Он порвал · брюки о забор.",
+      "start": 346.54,
+      "end": 361.099
+    },
+    {
+      "id": 25,
+      "english": "He asked his boss for · permission to leave early.",
+      "russian": "Он попросил у начальника · разрешение уйти пораньше.",
+      "start": 361.099,
+      "end": 376.63
+    },
+    {
+      "id": 26,
+      "english": "We sorted the · rubbish for recycling.",
+      "russian": "Мы рассортировали · мусор для переработки.",
+      "start": 376.63,
+      "end": 391.73
+    },
+    {
+      "id": 27,
+      "english": "She fastened her seat · belt before driving.",
+      "russian": "Она пристегнула · ремень безопасности перед поездкой.",
+      "start": 391.73,
+      "end": 407.538
+    },
+    {
+      "id": 28,
+      "english": "He put an ice pack on his swollen · ankle.",
+      "russian": "Он положил пакет со льдом на опухшую · лодыжку.",
+      "start": 407.538,
+      "end": 423.075
+    },
+    {
+      "id": 29,
+      "english": "She woke up with a bad · headache.",
+      "russian": "Она проснулась с сильной · головной болью.",
+      "start": 423.075,
+      "end": 437.395
+    },
+    {
+      "id": 30,
+      "english": "He changed his · appearance with a new haircut.",
+      "russian": "Он изменил свою · внешность новой стрижкой.",
+      "start": 437.395,
+      "end": 452.975
+    }
+  ]
+}

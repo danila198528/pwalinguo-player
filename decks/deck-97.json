@@ -1,0 +1,220 @@
+{
+  "id": "deck-97",
+  "deck_name": "A1_A2_M 3",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/A1_A2_M3.mp3",
+  "group": "A1/A2_M",
+  "total_duration": 452.5,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "She is an expert in the medical · field.",
+      "russian": "Она специалист в медицинской · сфере.",
+      "start": 0.0,
+      "end": 15.643
+    },
+    {
+      "id": 2,
+      "english": "He opened the · cupboard and cans fell out.",
+      "russian": "Он открыл · шкафчик, и банки выпали.",
+      "start": 15.643,
+      "end": 30.619
+    },
+    {
+      "id": 3,
+      "english": "She recovered from a long · illness.",
+      "russian": "Она оправилась от долгой · болезни.",
+      "start": 30.619,
+      "end": 45.218
+    },
+    {
+      "id": 4,
+      "english": "I lost my friend in the concert · crowd.",
+      "russian": "Я потерял друга в · толпе на концерте.",
+      "start": 45.218,
+      "end": 60.49
+    },
+    {
+      "id": 5,
+      "english": "His · neck got sunburned at the beach.",
+      "russian": "Его · шея обгорела на пляже.",
+      "start": 60.49,
+      "end": 75.245
+    },
+    {
+      "id": 6,
+      "english": "He regained his · ability to walk after surgery.",
+      "russian": "Он восстановил свою · способность ходить после операции.",
+      "start": 75.245,
+      "end": 91.291
+    },
+    {
+      "id": 7,
+      "english": "The key broke in the · lock.",
+      "russian": "Ключ сломался в · замке.",
+      "start": 91.291,
+      "end": 104.899
+    },
+    {
+      "id": 8,
+      "english": "She twirled spaghetti with her · fork.",
+      "russian": "Она накручивала спагетти на · вилку.",
+      "start": 104.899,
+      "end": 119.906
+    },
+    {
+      "id": 9,
+      "english": "She forgot to turn off the · cooker.",
+      "russian": "Она забыла выключить · плиту.",
+      "start": 119.906,
+      "end": 134.289
+    },
+    {
+      "id": 10,
+      "english": "He couldn't · lift the heavy box.",
+      "russian": "Он не мог · поднять тяжёлую коробку.",
+      "start": 134.289,
+      "end": 148.771
+    },
+    {
+      "id": 11,
+      "english": "He patented his new · invention.",
+      "russian": "Он запатентовал своё новое · изобретение.",
+      "start": 148.771,
+      "end": 163.449
+    },
+    {
+      "id": 12,
+      "english": "The dog dug a deep · hole in the yard.",
+      "russian": "Собака вырыла глубокую · яму во дворе.",
+      "start": 163.449,
+      "end": 178.266
+    },
+    {
+      "id": 13,
+      "english": "She found an · insect in her salad.",
+      "russian": "Она нашла · насекомое в своём салате.",
+      "start": 178.266,
+      "end": 193.244
+    },
+    {
+      "id": 14,
+      "english": "He stayed in bed with the · flu.",
+      "russian": "Он лежал в постели с · гриппом.",
+      "start": 193.244,
+      "end": 207.614
+    },
+    {
+      "id": 15,
+      "english": "We stopped because we were out of · petrol.",
+      "russian": "Мы остановились, потому что у нас закончился · бензин.",
+      "start": 207.614,
+      "end": 222.679
+    },
+    {
+      "id": 16,
+      "english": "She left teaching for a new · field.",
+      "russian": "Она ушла из преподавания в новую · сферу..",
+      "start": 222.679,
+      "end": 237.832
+    },
+    {
+      "id": 17,
+      "english": "She couldn't reach the top · cupboard shelf.",
+      "russian": "Она не могла достать до верхней полки · шкафчика.",
+      "start": 237.832,
+      "end": 252.845
+    },
+    {
+      "id": 18,
+      "english": "He missed work due to his · illness.",
+      "russian": "Он пропустил работу из-за · болезни.",
+      "start": 252.845,
+      "end": 267.829
+    },
+    {
+      "id": 19,
+      "english": "The · crowd jumped up after the goal.",
+      "russian": "· Толпа вскочила после гола.",
+      "start": 267.829,
+      "end": 282.442
+    },
+    {
+      "id": 20,
+      "english": "She wrapped a warm scarf around her · neck.",
+      "russian": "Она обмотала тёплый шарф вокруг · шеи.",
+      "start": 282.442,
+      "end": 297.993
+    },
+    {
+      "id": 21,
+      "english": "His · ability to remember names amazed everyone.",
+      "russian": "Его · способность запоминать имена поразила всех.",
+      "start": 297.993,
+      "end": 313.98
+    },
+    {
+      "id": 22,
+      "english": "Someone broke the bike · lock during the night.",
+      "russian": "Кто-то сломал · замок велосипеда ночью.",
+      "start": 313.98,
+      "end": 329.417
+    },
+    {
+      "id": 23,
+      "english": "He used a · fork to see if the potato was soft.",
+      "russian": "Он использовал · вилку, чтобы проверить, мягкая ли картошка.",
+      "start": 329.417,
+      "end": 345.667
+    },
+    {
+      "id": 24,
+      "english": "He boiled water on the electric · cooker.",
+      "russian": "Он вскипятил воду на электрической · плите.",
+      "start": 345.667,
+      "end": 360.852
+    },
+    {
+      "id": 25,
+      "english": "She tried to · lift the baby from the bed.",
+      "russian": "Она попыталась · поднять ребёнка с кровати.",
+      "start": 360.852,
+      "end": 376.061
+    },
+    {
+      "id": 26,
+      "english": "His garage · invention later became a business.",
+      "russian": "Его гаражное · изобретение позже стало бизнесом.",
+      "start": 376.061,
+      "end": 392.29
+    },
+    {
+      "id": 27,
+      "english": "The golf ball fell into the · hole.",
+      "russian": "Мяч для гольфа упал в · лунку.",
+      "start": 392.29,
+      "end": 406.996
+    },
+    {
+      "id": 28,
+      "english": "Dead · insects covered the car window.",
+      "russian": "Мёртвые · насекомые покрывали окно машины.",
+      "start": 406.996,
+      "end": 422.06
+    },
+    {
+      "id": 29,
+      "english": "The whole family caught the · flu that week.",
+      "russian": "Вся семья подхватила · грипп на той неделе..",
+      "start": 422.06,
+      "end": 437.252
+    },
+    {
+      "id": 30,
+      "english": "· Petrol prices rose sharply this week.",
+      "russian": "Цены на · бензин резко выросли на этой неделе.",
+      "start": 437.252,
+      "end": 452.495
+    }
+  ]
+}
