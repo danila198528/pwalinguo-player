@@ -196,9 +196,8 @@
     "total_duration": 799.42,
     "total_sentences": 51,
     "deck_url": "./decks/deck-46.json"
-  
   },
-{
+  {
     "id": "deck-67",
     "deck_name": "phrasal_verbs 1",
     "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrasal_verbs1.mp3",
@@ -243,7 +242,6 @@
     "total_sentences": 40,
     "deck_url": "./decks/deck-71.json"
   },
-
   {
     "id": "deck-72",
     "deck_name": "questions_pattern 1",
@@ -361,7 +359,7 @@
     "total_sentences": 41,
     "deck_url": "./decks/deck-84.json"
   },
-{
+  {
     "id": "deck-85",
     "deck_name": "phrase_top396 1",
     "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/phrase_top3961.mp3",
@@ -451,7 +449,6 @@
     "total_sentences": 36,
     "deck_url": "./decks/deck-94.json"
   },
-[
   {
     "id": "deck-95",
     "deck_name": "A1_A2_M 1",
@@ -480,12 +477,3 @@
     "deck_url": "./decks/deck-97.json"
   }
 ]
-
-
-
-
-
-
-
-
-
