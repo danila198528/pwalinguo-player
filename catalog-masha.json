@@ -25,5 +25,32 @@
     "total_duration": 452.5,
     "total_sentences": 30,
     "deck_url": "./decks/deck-97.json"
+  },
+{
+    "id": "deck-98",
+    "deck_name": "B1_3000_M 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M1.mp3",
+    "group": "B1_3000_M",
+    "total_duration": 456.05,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-98.json"
+  },
+  {
+    "id": "deck-99",
+    "deck_name": "B1_3000_M 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M2.mp3",
+    "group": "B1_3000_M",
+    "total_duration": 458.25,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-99.json"
+  },
+  {
+    "id": "deck-100",
+    "deck_name": "B1_3000_M 3",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M3.mp3",
+    "group": "B1_3000_M",
+    "total_duration": 464.47,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-100.json"
   }
 ]

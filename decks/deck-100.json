@@ -1,0 +1,220 @@
+{
+  "id": "deck-100",
+  "deck_name": "B1_3000_M 3",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M3.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 464.47,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "He reached a · conclusion after studying facts.",
+      "russian": "Он пришёл к · выводу после изучения фактов.",
+      "start": 0.0,
+      "end": 16.243
+    },
+    {
+      "id": 2,
+      "english": "The boss gave a confusing · assignment.",
+      "russian": "Босс дал запутанное · задание.",
+      "start": 16.243,
+      "end": 31.391
+    },
+    {
+      "id": 3,
+      "english": "He · retired to spend time with his family.",
+      "russian": "Он · вышел на пенсию, чтобы быть с семьёй.",
+      "start": 31.391,
+      "end": 43.604
+    },
+    {
+      "id": 4,
+      "english": "The accident · occurred at the busy intersection.",
+      "russian": "Авария · произошла на оживлённом перекрёстке.",
+      "start": 43.604,
+      "end": 59.357
+    },
+    {
+      "id": 5,
+      "english": "The old song · reminded me of our summer.",
+      "russian": "Старая песня · напомнила мне о нашем лете.",
+      "start": 59.357,
+      "end": 74.395
+    },
+    {
+      "id": 6,
+      "english": "We · revised our travel plans after the storm.",
+      "russian": "Мы · пересмотрели планы поездки после шторма.",
+      "start": 74.395,
+      "end": 90.593
+    },
+    {
+      "id": 7,
+      "english": "The job · requires a driver's license.",
+      "russian": "Работа · требует водительских прав.",
+      "start": 90.593,
+      "end": 105.84
+    },
+    {
+      "id": 8,
+      "english": "The store had a wide · range of prices.",
+      "russian": "В магазине был широкий · диапазон цен.",
+      "start": 105.84,
+      "end": 121.401
+    },
+    {
+      "id": 9,
+      "english": "I can't · afford the rent this month.",
+      "russian": "Я не могу · позволить себе аренду в этом месяце.",
+      "start": 121.401,
+      "end": 136.132
+    },
+    {
+      "id": 10,
+      "english": "His main · aim is to travel the world.",
+      "russian": "Его главная · цель — объехать мир.",
+      "start": 136.132,
+      "end": 151.233
+    },
+    {
+      "id": 11,
+      "english": "He asked for a · receipt for a refund.",
+      "russian": "Он попросил · чек, чтобы получить возврат денег.",
+      "start": 151.233,
+      "end": 166.747
+    },
+    {
+      "id": 12,
+      "english": "The crowd went · mad after the goal.",
+      "russian": "Толпа сошла с · ума после гола.",
+      "start": 166.747,
+      "end": 181.399
+    },
+    {
+      "id": 13,
+      "english": "A DNA test can · determine the real father.",
+      "russian": "ДНК-тест может · определить настоящего отца.",
+      "start": 181.399,
+      "end": 197.647
+    },
+    {
+      "id": 14,
+      "english": "An old · sailor told us wild sea stories.",
+      "russian": "Старый · моряк рассказывал нам дикие морские истории.",
+      "start": 197.647,
+      "end": 213.788
+    },
+    {
+      "id": 15,
+      "english": "He found a · rare coin buried in the sand.",
+      "russian": "Он нашёл · редкую монету, зарытую в песке.",
+      "start": 213.788,
+      "end": 229.615
+    },
+    {
+      "id": 16,
+      "english": "Her grades showed clear · improvement this semester.",
+      "russian": "Её оценки показали явное · улучшение в этом семестре.",
+      "start": 229.615,
+      "end": 245.842
+    },
+    {
+      "id": 17,
+      "english": "The new phone · generation has better cameras.",
+      "russian": "Новое · поколение телефонов имеет лучшие камеры.",
+      "start": 245.842,
+      "end": 261.789
+    },
+    {
+      "id": 18,
+      "english": "The wet · curtain fell while she showered.",
+      "russian": "Мокрая · занавеска упала, пока она принимала душ.",
+      "start": 261.789,
+      "end": 276.832
+    },
+    {
+      "id": 19,
+      "english": "The team's · primary goal was winning gold.",
+      "russian": "· Главной целью команды было выиграть золото.",
+      "start": 276.832,
+      "end": 292.452
+    },
+    {
+      "id": 20,
+      "english": "Police broke up a · violent bar fight",
+      "russian": ".Полиция разняла · жестокую драку в баре.",
+      "start": 292.452,
+      "end": 307.757
+    },
+    {
+      "id": 21,
+      "english": "The report's · conclusion was clear to all.",
+      "russian": "· Вывод из отчёта был ясен всем.",
+      "start": 307.757,
+      "end": 323.13
+    },
+    {
+      "id": 22,
+      "english": "She forgot to submit her · assignment on time.",
+      "russian": "Она забыла сдать своё · задание вовремя.",
+      "start": 323.13,
+      "end": 338.845
+    },
+    {
+      "id": 23,
+      "english": "After 40 years, she · retired from teaching.",
+      "russian": "После 40 лет она · ушла из преподавания.",
+      "start": 338.845,
+      "end": 355.563
+    },
+    {
+      "id": 24,
+      "english": "An error · occurred during the final test.",
+      "russian": "Ошибка · произошла во время итогового теста.",
+      "start": 355.563,
+      "end": 370.967
+    },
+    {
+      "id": 25,
+      "english": "The photo · reminded him of their holiday.",
+      "russian": "Фотография · напомнила ему об их отпуске.",
+      "start": 370.967,
+      "end": 386.207
+    },
+    {
+      "id": 26,
+      "english": "She · revised her answer after checking facts.",
+      "russian": "Она · пересмотрела свой ответ после проверки фактов.",
+      "start": 386.207,
+      "end": 402.413
+    },
+    {
+      "id": 27,
+      "english": "Students are · required to wear uniforms.",
+      "russian": "Ученики · обязаны носить форму.",
+      "start": 402.413,
+      "end": 418.399
+    },
+    {
+      "id": 28,
+      "english": "Our class age · range is 18 to 22.",
+      "russian": "Возрастной · диапазон в нашем классе — от 18 до 22.",
+      "start": 418.399,
+      "end": 434.707
+    },
+    {
+      "id": 29,
+      "english": "They saved to · afford a new car.",
+      "russian": "Они копили, чтобы · позволить себе новую машину.",
+      "start": 434.707,
+      "end": 449.307
+    },
+    {
+      "id": 30,
+      "english": "She achieved her · aim by working hard.",
+      "russian": "Она достигла своей · цели упорным трудом.",
+      "start": 449.307,
+      "end": 464.471
+    }
+  ]
+}

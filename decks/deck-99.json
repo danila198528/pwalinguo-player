@@ -1,0 +1,220 @@
+{
+  "id": "deck-99",
+  "deck_name": "B1_3000_M 2",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M2.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 458.25,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "He put the · flat screen on the wall.",
+      "russian": "Он повесил · плоский экран на стену.",
+      "start": 0.0,
+      "end": 14.929
+    },
+    {
+      "id": 2,
+      "english": "She stirred coffee with a · spoon while waiting.",
+      "russian": "Она помешивала кофе · ложкой в ожидании.",
+      "start": 14.929,
+      "end": 30.763
+    },
+    {
+      "id": 3,
+      "english": "The · tool broke while he fixed his bike.",
+      "russian": "· Инструмент сломался, пока он чинил велосипед.",
+      "start": 30.763,
+      "end": 45.733
+    },
+    {
+      "id": 4,
+      "english": "They split the restaurant · bill.",
+      "russian": "Они разделили · счёт в ресторане.",
+      "start": 45.733,
+      "end": 59.706
+    },
+    {
+      "id": 5,
+      "english": "There was a · spelling mistake in my name.",
+      "russian": "В моём имени была ошибка в · написании.",
+      "start": 59.706,
+      "end": 74.852
+    },
+    {
+      "id": 6,
+      "english": "The wind blew his · tie sideways.",
+      "russian": "Ветер сдул его · галстук набок.",
+      "start": 74.852,
+      "end": 90.259
+    },
+    {
+      "id": 7,
+      "english": "He felt · sick and stayed in bed.",
+      "russian": "Он чувствовал себя · больным и остался в постели.",
+      "start": 90.259,
+      "end": 104.996
+    },
+    {
+      "id": 8,
+      "english": "They drove through a mountain · valley.",
+      "russian": "Они проехали через горную · долину.",
+      "start": 104.996,
+      "end": 119.459
+    },
+    {
+      "id": 9,
+      "english": "The salty food made him very · thirsty.",
+      "russian": "Солёная еда сделала его очень · жаждущим.",
+      "start": 119.459,
+      "end": 134.756
+    },
+    {
+      "id": 10,
+      "english": "The · vehicle broke down in heavy rain.",
+      "russian": "· Транспортное средство сломалось под сильным дождём.",
+      "start": 134.756,
+      "end": 149.853
+    },
+    {
+      "id": 11,
+      "english": "We walked across a · flat field.",
+      "russian": "Мы прошли через · плоское поле.",
+      "start": 149.853,
+      "end": 164.529
+    },
+    {
+      "id": 12,
+      "english": "She measured sugar with a · spoon.",
+      "russian": "Она отмерила сахар · ложкой.",
+      "start": 164.529,
+      "end": 179.01
+    },
+    {
+      "id": 13,
+      "english": "He borrowed his neighbor's · tool.",
+      "russian": "Он одолжил · инструмент у соседа.",
+      "start": 179.01,
+      "end": 193.462
+    },
+    {
+      "id": 14,
+      "english": "The electric · bill was much higher this month.",
+      "russian": "· Счёт за электричество в этом месяце был намного выше.",
+      "start": 193.462,
+      "end": 209.368
+    },
+    {
+      "id": 15,
+      "english": "She checked the · spelling before sending the email.",
+      "russian": "Она проверила · правописание перед отправкой письма.",
+      "start": 209.368,
+      "end": 225.196
+    },
+    {
+      "id": 16,
+      "english": "He bought a new · tie for his interview.",
+      "russian": "Он купил новый · галстук для собеседования.",
+      "start": 225.196,
+      "end": 240.266
+    },
+    {
+      "id": 17,
+      "english": "My friend stayed home because she was · sick.",
+      "russian": "Моя подруга осталась дома, потому что была · больна.",
+      "start": 240.266,
+      "end": 255.475
+    },
+    {
+      "id": 18,
+      "english": "We stopped to take photos in the · valley.",
+      "russian": "Мы остановились сфотографировать · долину.",
+      "start": 255.475,
+      "end": 270.345
+    },
+    {
+      "id": 19,
+      "english": "He felt · thirsty after walking in the sun.",
+      "russian": "Он почувствовал · жажду после прогулки на солнце.",
+      "start": 270.345,
+      "end": 286.055
+    },
+    {
+      "id": 20,
+      "english": "Their · vehicle got stuck in the mud.",
+      "russian": "Их · транспортное средство застряло в грязи.",
+      "start": 286.055,
+      "end": 300.522
+    },
+    {
+      "id": 21,
+      "english": "She lost her · receipt, so couldn't return the shoes.",
+      "russian": "Она потеряла · чек и не смогла вернуть туфли",
+      "start": 300.522,
+      "end": 317.251
+    },
+    {
+      "id": 22,
+      "english": "He seemed · mad, talking to himself loudly",
+      "russian": "Он казался · сумасшедшим, громко разговаривая сам с собой.",
+      "start": 317.251,
+      "end": 333.397
+    },
+    {
+      "id": 23,
+      "english": "Police examined clues to · determine the cause.",
+      "russian": "Полиция изучала улики, чтобы · определить причину.",
+      "start": 333.397,
+      "end": 349.557
+    },
+    {
+      "id": 24,
+      "english": "The · sailor jumped from the sinking ship.",
+      "russian": "· Моряк прыгнул с тонущего корабля.",
+      "start": 349.557,
+      "end": 364.516
+    },
+    {
+      "id": 25,
+      "english": "She saw a · rare bird in the garden.",
+      "russian": "Она увидела · редкую птицу в саду.",
+      "start": 364.516,
+      "end": 379.25
+    },
+    {
+      "id": 26,
+      "english": "After practice, his guitar skills showed real · improvement.",
+      "russian": "После тренировок его игра на гитаре показала настоящее · улучшение.",
+      "start": 379.25,
+      "end": 397.054
+    },
+    {
+      "id": 27,
+      "english": "My grandfather belongs to an older · generation.",
+      "russian": "Мой дедушка принадлежит к старшему · поколению.",
+      "start": 397.054,
+      "end": 413.312
+    },
+    {
+      "id": 28,
+      "english": "The · curtain caught fire near the candle.",
+      "russian": "· Занавеска загорелась рядом со свечой.",
+      "start": 413.312,
+      "end": 428.504
+    },
+    {
+      "id": 29,
+      "english": "He is the · primary suspect in the case.",
+      "russian": "Он · главный подозреваемый по делу.",
+      "start": 428.504,
+      "end": 443.924
+    },
+    {
+      "id": 30,
+      "english": "That movie had a · violent scene.",
+      "russian": "В том фильме была · жестокая сцена.",
+      "start": 443.924,
+      "end": 458.255
+    }
+  ]
+}

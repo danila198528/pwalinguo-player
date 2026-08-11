@@ -1,0 +1,220 @@
+{
+  "id": "deck-98",
+  "deck_name": "B1_3000_M 1",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M1.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 456.05,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The · fridge is covered with magnets.",
+      "russian": "· Холодильник обклеен магнитами.",
+      "start": 0.0,
+      "end": 14.848
+    },
+    {
+      "id": 2,
+      "english": "The wrong · quantity of shoes arrived.",
+      "russian": "Было доставлена неправильное · количество обуви.",
+      "start": 14.848,
+      "end": 29.898
+    },
+    {
+      "id": 3,
+      "english": "She lost the wedding · invitation.",
+      "russian": "Она потеряла свадебное · приглашение.",
+      "start": 29.898,
+      "end": 44.37
+    },
+    {
+      "id": 4,
+      "english": "He forgot to · introduce his friend to others.",
+      "russian": "Он забыл · представить своего друга остальным.",
+      "start": 44.37,
+      "end": 59.754
+    },
+    {
+      "id": 5,
+      "english": "The · wood caught fire in the fireplace.",
+      "russian": "· Древесина загорелась в камине.",
+      "start": 59.754,
+      "end": 74.81
+    },
+    {
+      "id": 6,
+      "english": "She covered her · mouth while yawning.",
+      "russian": "Она прикрыла · рот во время зевка.",
+      "start": 74.81,
+      "end": 89.45
+    },
+    {
+      "id": 7,
+      "english": "A bad · smell came from the fridge.",
+      "russian": "Из холодильника шёл плохой · запах.",
+      "start": 89.45,
+      "end": 104.305
+    },
+    {
+      "id": 8,
+      "english": "She washed her hands with · soap after lunch.",
+      "russian": "Она вымыла руки · мылом после обеда.",
+      "start": 104.305,
+      "end": 120.047
+    },
+    {
+      "id": 9,
+      "english": "The twins wore · similar jackets to school.",
+      "russian": "Близнецы носили · похожие куртки в школу.",
+      "start": 120.047,
+      "end": 135.547
+    },
+    {
+      "id": 10,
+      "english": "He forgot his · towel and walked back upstairs.",
+      "russian": "Он забыл · полотенце и вернулся наверх.",
+      "start": 135.547,
+      "end": 151.924
+    },
+    {
+      "id": 11,
+      "english": "Fans · shouted and jumped after the goal.",
+      "russian": "Фанаты · закричали и подпрыгнули после гола.",
+      "start": 151.924,
+      "end": 167.323
+    },
+    {
+      "id": 12,
+      "english": "His · boots were muddy after the hike.",
+      "russian": "Его · сапоги были грязными после похода.",
+      "start": 167.323,
+      "end": 182.212
+    },
+    {
+      "id": 13,
+      "english": "His language skills · improved after a month abroad.",
+      "russian": "Его языковые навыки · улучшились после месяца за границей.",
+      "start": 182.212,
+      "end": 199.127
+    },
+    {
+      "id": 14,
+      "english": "The wind blew off his · hat.",
+      "russian": "Ветер сдул его · шляпу.",
+      "start": 199.127,
+      "end": 213.338
+    },
+    {
+      "id": 15,
+      "english": "The · waiter brought us the menu and smiled.",
+      "russian": "· Официант принёс нам меню и улыбнулся.",
+      "start": 213.338,
+      "end": 228.93
+    },
+    {
+      "id": 16,
+      "english": "She found old milk in the · fridge.",
+      "russian": "Она нашла старое молоко в · холодильнике.",
+      "start": 228.93,
+      "end": 243.518
+    },
+    {
+      "id": 17,
+      "english": "The shop had a limited · quantity of milk.",
+      "russian": "В магазине было ограниченное · количество молока.",
+      "start": 243.518,
+      "end": 259.086
+    },
+    {
+      "id": 18,
+      "english": "He received an exclusive · invitation to the gala.",
+      "russian": "Он получил эксклюзивное · приглашение на гала-вечер.",
+      "start": 259.086,
+      "end": 275.322
+    },
+    {
+      "id": 19,
+      "english": "She · introduced the speaker to the audience.",
+      "russian": "Она · представила докладчика аудитории.",
+      "start": 275.322,
+      "end": 290.849
+    },
+    {
+      "id": 20,
+      "english": "We carried some dry · wood inside.",
+      "russian": "Мы занесли немного сухой · древесины внутрь.",
+      "start": 290.849,
+      "end": 305.789
+    },
+    {
+      "id": 21,
+      "english": "He tried to talk with his · mouth full.",
+      "russian": "Он попытался говорить с полным · ртом.",
+      "start": 305.789,
+      "end": 320.741
+    },
+    {
+      "id": 22,
+      "english": "The · smell of fresh coffee woke me.",
+      "russian": "· Запах свежего кофе разбудил меня.",
+      "start": 320.741,
+      "end": 335.506
+    },
+    {
+      "id": 23,
+      "english": "She dropped the · soap in the shower.",
+      "russian": "Она уронила · мыло в душе.",
+      "start": 335.506,
+      "end": 349.699
+    },
+    {
+      "id": 24,
+      "english": "Their houses looked · similar from the road.",
+      "russian": "Их дома выглядели · похожими с дороги.",
+      "start": 349.699,
+      "end": 364.777
+    },
+    {
+      "id": 25,
+      "english": "She dried her hands with a · towel.",
+      "russian": "Она вытерла руки · полотенцем.",
+      "start": 364.777,
+      "end": 379.558
+    },
+    {
+      "id": 26,
+      "english": "An angry driver · shouted out his window.",
+      "russian": "Злой водитель · закричал из своего окна.",
+      "start": 379.558,
+      "end": 395.13
+    },
+    {
+      "id": 27,
+      "english": "He wore cowboy · boots to the party.",
+      "russian": "Он надел ковбойские · сапоги на вечеринку.",
+      "start": 395.13,
+      "end": 410.043
+    },
+    {
+      "id": 28,
+      "english": "Her test scores · improved after she studied hard.",
+      "russian": "Её результаты тестов · улучшились, когда она усердно занималась.",
+      "start": 410.043,
+      "end": 426.809
+    },
+    {
+      "id": 29,
+      "english": "He took off his · hat before dinner.",
+      "russian": "Он снял · шляпу перед ужином.",
+      "start": 426.809,
+      "end": 441.382
+    },
+    {
+      "id": 30,
+      "english": "The · waiter spilled coffee on the table.",
+      "russian": "· Официант пролил кофе на стол.",
+      "start": 441.382,
+      "end": 456.048
+    }
+  ]
+}
