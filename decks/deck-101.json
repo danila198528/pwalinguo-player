@@ -1,0 +1,220 @@
+{
+  "id": "deck-101",
+  "deck_name": "B1_3000_M 4",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M4.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 463.63,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The · servant carried the heavy boxes upstairs.",
+      "russian": "· Слуга отнёс тяжёлые коробки наверх.",
+      "start": 0.0,
+      "end": 16.242
+    },
+    {
+      "id": 2,
+      "english": "She · hung her coat by the door.",
+      "russian": "Она · повесила пальто у двери.",
+      "start": 16.242,
+      "end": 30.734
+    },
+    {
+      "id": 3,
+      "english": "His boss put · pressure on him to hurry.",
+      "russian": "Начальник оказывал на него · давление, чтобы он спешил.",
+      "start": 30.734,
+      "end": 45.466
+    },
+    {
+      "id": 4,
+      "english": "The balloon · exploded when he touched it.",
+      "russian": "Шарик · взорвался, когда он его коснулся.",
+      "start": 45.466,
+      "end": 60.33
+    },
+    {
+      "id": 5,
+      "english": "She asked for a · favour: help with moving.",
+      "russian": "Она попросила об · услуге: помочь с переездом.",
+      "start": 60.33,
+      "end": 76.241
+    },
+    {
+      "id": 6,
+      "english": "He forgot to · attach the report to the email.",
+      "russian": "Он забыл · прикрепить отчёт к письму.",
+      "start": 76.241,
+      "end": 91.962
+    },
+    {
+      "id": 7,
+      "english": "The salesman · persuaded me to buy headphones.",
+      "russian": "Продавец · уговорил меня купить наушники.",
+      "start": 91.962,
+      "end": 108.255
+    },
+    {
+      "id": 8,
+      "english": "His · impact on the team was obvious when he left.",
+      "russian": "Его · влияние на команду стало очевидным, когда он ушёл.",
+      "start": 108.255,
+      "end": 124.423
+    },
+    {
+      "id": 9,
+      "english": "The · shiny coin reflected the sun.",
+      "russian": "· Блестящая монета отражала солнце.",
+      "start": 124.423,
+      "end": 139.317
+    },
+    {
+      "id": 10,
+      "english": "The lost match · upset the entire team.",
+      "russian": "Проигранный матч · расстроил всю команду.",
+      "start": 139.317,
+      "end": 154.89
+    },
+    {
+      "id": 11,
+      "english": "She said a · prayer for her sick grandma.",
+      "russian": "Она произнесла · молитву за больную бабушку.",
+      "start": 154.89,
+      "end": 170.086
+    },
+    {
+      "id": 12,
+      "english": "That · fascinating video made me forget the time.",
+      "russian": "Это · увлекательное видео заставило меня забыть о времени.",
+      "start": 170.086,
+      "end": 186.368
+    },
+    {
+      "id": 13,
+      "english": "She bought a guitar with the · intention to learn.",
+      "russian": "Она купила гитару с · намерением научиться.",
+      "start": 186.368,
+      "end": 202.039
+    },
+    {
+      "id": 14,
+      "english": "The detective found a · clue under the rug.",
+      "russian": "Детектив нашёл · подсказку под ковром.",
+      "start": 202.039,
+      "end": 217.202
+    },
+    {
+      "id": 15,
+      "english": "He · folded the camping chair after the party.",
+      "russian": "Он · сложил походный стул после вечеринки.",
+      "start": 217.202,
+      "end": 232.822
+    },
+    {
+      "id": 16,
+      "english": "The old · servant opened the door for us.",
+      "russian": "Старый · слуга открыл нам дверь.",
+      "start": 232.822,
+      "end": 247.734
+    },
+    {
+      "id": 17,
+      "english": "They · hung the picture in the living room.",
+      "russian": "Они · повесили картину в гостиной.",
+      "start": 247.734,
+      "end": 262.621
+    },
+    {
+      "id": 18,
+      "english": "The doctor checked his blood · pressure.",
+      "russian": "Врач проверил его кровяное · давление.",
+      "start": 262.621,
+      "end": 277.286
+    },
+    {
+      "id": 19,
+      "english": "A firework · exploded in the night sky.",
+      "russian": "Петарда · взорвалась в ночном небе.",
+      "start": 277.286,
+      "end": 292.832
+    },
+    {
+      "id": 20,
+      "english": "He did me a · favour with the bike repair.",
+      "russian": "Он оказал мне · услугу с ремонтом велосипеда.",
+      "start": 292.832,
+      "end": 307.866
+    },
+    {
+      "id": 21,
+      "english": "She · attached a photo to her message.",
+      "russian": "Она · прикрепила фото к своему сообщению.",
+      "start": 307.866,
+      "end": 322.959
+    },
+    {
+      "id": 22,
+      "english": "She · persuaded her parents to adopt a puppy.",
+      "russian": "Она · уговорила родителей взять щенка.",
+      "start": 322.959,
+      "end": 338.876
+    },
+    {
+      "id": 23,
+      "english": "That decision had a big · impact on my life.",
+      "russian": "Это решение оказало большое · влияние на мою жизнь.",
+      "start": 338.876,
+      "end": 354.606
+    },
+    {
+      "id": 24,
+      "english": "He wore · shiny new shoes to the party.",
+      "russian": "Он надел · блестящие новые туфли на вечеринку.",
+      "start": 354.606,
+      "end": 370.024
+    },
+    {
+      "id": 25,
+      "english": "Forgetting her birthday · upset my mom deeply.",
+      "russian": "То, что я забыл её день рождения, сильно · расстроило маму.",
+      "start": 370.024,
+      "end": 386.369
+    },
+    {
+      "id": 26,
+      "english": "We said a · prayer over dinner with family.",
+      "russian": "Мы произнесли · молитву за ужином с семьёй.",
+      "start": 386.369,
+      "end": 401.589
+    },
+    {
+      "id": 27,
+      "english": "That · fascinating story kept everyone quiet.",
+      "russian": "Эта · увлекательная история заставила всех замолчать",
+      "start": 401.589,
+      "end": 418.068
+    },
+    {
+      "id": 28,
+      "english": "He called her with the · intention to apologize.",
+      "russian": "Он позвонил ей с · намерением извиниться.",
+      "start": 418.068,
+      "end": 434.096
+    },
+    {
+      "id": 29,
+      "english": "The · clue led them to the hidden treasure.",
+      "russian": "· Подсказка привела их к спрятанному сокровищу.",
+      "start": 434.096,
+      "end": 448.674
+    },
+    {
+      "id": 30,
+      "english": "She · folded the map to fit in her pocket.",
+      "russian": "Она · сложила карту, чтобы та поместилась в карман.",
+      "start": 448.674,
+      "end": 463.632
+    }
+  ]
+}

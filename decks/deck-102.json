@@ -1,0 +1,220 @@
+{
+  "id": "deck-102",
+  "deck_name": "B1_3000_M 5",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M5.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 466.37,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "After the factory closed, he became · unemployed.",
+      "russian": "После закрытия завода он стал · безработным.",
+      "start": 0.0,
+      "end": 16.897
+    },
+    {
+      "id": 2,
+      "english": "A fallen tree blocked the hiking · path.",
+      "russian": "Упавшее дерево заблокировало пешеходную · тропу.",
+      "start": 16.897,
+      "end": 32.196
+    },
+    {
+      "id": 3,
+      "english": "· Keen to learn, he stayed after class.",
+      "russian": "· Желая учиться, он остался после урока.",
+      "start": 32.196,
+      "end": 47.918
+    },
+    {
+      "id": 4,
+      "english": "The · mess in his room made mom angry.",
+      "russian": "· Беспорядок в его комнате рассердил маму.",
+      "start": 47.918,
+      "end": 62.781
+    },
+    {
+      "id": 5,
+      "english": "The · tiny apartment had just one room.",
+      "russian": "В · крошечной квартире была всего одна комната.",
+      "start": 62.781,
+      "end": 78.199
+    },
+    {
+      "id": 6,
+      "english": "Her · indirect answer left everyone confused.",
+      "russian": "Её · косвенный ответ оставил всех смущёнными.",
+      "start": 78.199,
+      "end": 94.833
+    },
+    {
+      "id": 7,
+      "english": "The dog wagged its · tail when I came home.",
+      "russian": "Собака виляла · хвостом, когда я пришёл домой.",
+      "start": 94.833,
+      "end": 110.324
+    },
+    {
+      "id": 8,
+      "english": "The actor forgot his lines from the · script.",
+      "russian": "Актер забыл свои реплики из · сценария.",
+      "start": 110.324,
+      "end": 125.449
+    },
+    {
+      "id": 9,
+      "english": "Their · marriage ended after a big argument.",
+      "russian": "Их · брак закончился после большой ссоры.",
+      "start": 125.449,
+      "end": 140.748
+    },
+    {
+      "id": 10,
+      "english": "The witness · claimed he saw the thief.",
+      "russian": "Свидетель · утверждал, что видел вора.",
+      "start": 140.748,
+      "end": 155.568
+    },
+    {
+      "id": 11,
+      "english": "The · cheerful dog jumped on me at the door.",
+      "russian": "· Весёлая собака прыгнула на меня у двери.",
+      "start": 155.568,
+      "end": 170.932
+    },
+    {
+      "id": 12,
+      "english": "I bit my · lip during the intense movie scene.",
+      "russian": "Я прикусил · губу во время напряжённой сцены в фильме.",
+      "start": 170.932,
+      "end": 186.858
+    },
+    {
+      "id": 13,
+      "english": "The · ghost story scared the kids at camp.",
+      "russian": "История о · призраке напугала детей в лагере.",
+      "start": 186.858,
+      "end": 202.002
+    },
+    {
+      "id": 14,
+      "english": "The small tires were a · disadvantage in the mud.",
+      "russian": "Маленькие шины были · недостатком в грязи.",
+      "start": 202.002,
+      "end": 218.136
+    },
+    {
+      "id": 15,
+      "english": "The · rough sea made the passengers feel sick.",
+      "russian": "· Неспокойное море заставило пассажиров чувствовать тошноту.",
+      "start": 218.136,
+      "end": 233.675
+    },
+    {
+      "id": 16,
+      "english": "· Unemployed for months, I walked dogs for cash.",
+      "russian": "· Безработный несколько месяцев, я выгуливал собак за деньги.",
+      "start": 233.675,
+      "end": 250.43
+    },
+    {
+      "id": 17,
+      "english": "We walked down the narrow · path between houses.",
+      "russian": "Мы прошли по узкой · тропе между домами.",
+      "start": 250.43,
+      "end": 266.8
+    },
+    {
+      "id": 18,
+      "english": "· Keen to win, she trained hard every morning.",
+      "russian": "· Желая победить, она усердно тренировалась каждое утро.",
+      "start": 266.8,
+      "end": 282.7
+    },
+    {
+      "id": 19,
+      "english": "I cannot find my keys in this · mess.",
+      "russian": "Я не могу найти ключи в этом · беспорядке.",
+      "start": 282.7,
+      "end": 297.991
+    },
+    {
+      "id": 20,
+      "english": "A · tiny scratch ruined the new phone screen.",
+      "russian": "· Крошечная царапина испортила экран нового телефона.",
+      "start": 297.991,
+      "end": 313.855
+    },
+    {
+      "id": 21,
+      "english": "We took an · indirect route to avoid traffic.",
+      "russian": "Мы выбрали · косвенный маршрут, чтобы избежать пробок.",
+      "start": 313.855,
+      "end": 329.445
+    },
+    {
+      "id": 22,
+      "english": "The kitten chased its own · tail in the yard.",
+      "russian": "Котёнок гонялся за своим · хвостом во дворе.",
+      "start": 329.445,
+      "end": 344.922
+    },
+    {
+      "id": 23,
+      "english": "She wrote a · script for the movie.",
+      "russian": "Она написала · сценарий для фильма.",
+      "start": 344.922,
+      "end": 358.997
+    },
+    {
+      "id": 24,
+      "english": "Couples therapy saved our · marriage.",
+      "russian": "Терапия для пар спасла наш · брак.",
+      "start": 358.997,
+      "end": 374.059
+    },
+    {
+      "id": 25,
+      "english": "He · claimed he could run faster than me.",
+      "russian": "Он · утверждал, что может бежать быстрее меня.",
+      "start": 374.059,
+      "end": 389.109
+    },
+    {
+      "id": 26,
+      "english": "The · cheerful child laughed at the park.",
+      "russian": "· Весёлый ребёнок смеялся в парке.",
+      "start": 389.109,
+      "end": 404.251
+    },
+    {
+      "id": 27,
+      "english": "My · lip cracked while skiing in the cold.",
+      "russian": "Моя · губа потрескалась во время катания на лыжах на холоде.",
+      "start": 404.251,
+      "end": 419.819
+    },
+    {
+      "id": 28,
+      "english": "She wore a · ghost costume to the Halloween party.",
+      "russian": "Она надела костюм · призрака на вечеринку в честь Хэллоуина.",
+      "start": 419.819,
+      "end": 435.874
+    },
+    {
+      "id": 29,
+      "english": "Living far from the city is a · disadvantage.",
+      "russian": "Жить далеко от города — это · недостаток.",
+      "start": 435.874,
+      "end": 451.833
+    },
+    {
+      "id": 30,
+      "english": "The · rough wool sweater made me itch.",
+      "russian": "· Грубый шерстяной свитер заставлял меня чесаться.",
+      "start": 451.833,
+      "end": 466.367
+    }
+  ]
+}

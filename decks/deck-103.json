@@ -1,0 +1,220 @@
+{
+  "id": "deck-103",
+  "deck_name": "B1_3000_M 6",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M6.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 471.89,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The company was · involved in a big scandal.",
+      "russian": "Компания была · вовлечена в большой скандал.",
+      "start": 0.0,
+      "end": 15.753
+    },
+    {
+      "id": 2,
+      "english": "The · tent collapsed in the strong wind.",
+      "russian": "· Палатка рухнула при сильном ветре.",
+      "start": 15.753,
+      "end": 30.703
+    },
+    {
+      "id": 3,
+      "english": "The lake water was · smooth like a mirror.",
+      "russian": "Вода в озере была · гладкой, как зеркало.",
+      "start": 30.703,
+      "end": 45.852
+    },
+    {
+      "id": 4,
+      "english": "The prisoner tried to · escape from jail.",
+      "russian": "Заключённый попытался · сбежать из тюрьмы.",
+      "start": 45.852,
+      "end": 61.246
+    },
+    {
+      "id": 5,
+      "english": "The · hurricane blew the roof off the house.",
+      "russian": "· Ураган снёс крышу с дома.",
+      "start": 61.246,
+      "end": 76.53
+    },
+    {
+      "id": 6,
+      "english": "Someone stole the · package from my doorstep.",
+      "russian": "Кто-то украл · посылку с моего крыльца.",
+      "start": 76.53,
+      "end": 92.008
+    },
+    {
+      "id": 7,
+      "english": "She fell in front of everyone and felt · embarrassed.",
+      "russian": "Она упала перед всеми и почувствовала себя · смущённой.",
+      "start": 92.008,
+      "end": 108.102
+    },
+    {
+      "id": 8,
+      "english": "I ate a · poisonous mushroom by mistake.",
+      "russian": "Я по ошибке съел · ядовитый гриб.",
+      "start": 108.102,
+      "end": 123.544
+    },
+    {
+      "id": 9,
+      "english": "She planted flowers in the rich · soil.",
+      "russian": "Она посадила цветы в богатую · почву.",
+      "start": 123.544,
+      "end": 138.869
+    },
+    {
+      "id": 10,
+      "english": "I want to · convince my boss to give me a raise.",
+      "russian": "Я хочу · убедить моего босса повысить мне зарплату.",
+      "start": 138.869,
+      "end": 154.633
+    },
+    {
+      "id": 11,
+      "english": "I built a big castle from wet · sand.",
+      "russian": "Я построил большой замок из мокрого · песка.",
+      "start": 154.633,
+      "end": 169.973
+    },
+    {
+      "id": 12,
+      "english": "I got · dirt under my fingernails while gardening.",
+      "russian": "У меня под ногтями была  · грязь, когда я работал в саду.",
+      "start": 169.973,
+      "end": 186.121
+    },
+    {
+      "id": 13,
+      "english": "I reduced my monthly · spending after I lost my job.",
+      "russian": "Я сократил свои ежемесячные · расходы после того, как потерял работу.",
+      "start": 186.121,
+      "end": 203.266
+    },
+    {
+      "id": 14,
+      "english": "We built a · solid wall of red bricks.",
+      "russian": "Мы построили · надёжную стену из красного кирпича.",
+      "start": 203.266,
+      "end": 218.385
+    },
+    {
+      "id": 15,
+      "english": "The dog dug a deep hole in the · yard.",
+      "russian": "Собака вырыла глубокую яму во · дворе.",
+      "start": 218.385,
+      "end": 233.188
+    },
+    {
+      "id": 16,
+      "english": "He got · involved in a highway car crash.",
+      "russian": "Он оказался · вовлечён в аварию на шоссе.",
+      "start": 233.188,
+      "end": 248.785
+    },
+    {
+      "id": 17,
+      "english": "We set up the · tent in the pouring rain.",
+      "russian": "Мы поставили · палатку под проливным дождём.",
+      "start": 248.785,
+      "end": 263.988
+    },
+    {
+      "id": 18,
+      "english": "He had · smooth skin after he shaved.",
+      "russian": "У него была · гладкая кожа после бритья.",
+      "start": 263.988,
+      "end": 279.615
+    },
+    {
+      "id": 19,
+      "english": "He · escaped reality with a great adventure book.",
+      "russian": "Он · сбежал от реальности с отличной приключенческой книгой.",
+      "start": 279.615,
+      "end": 295.767
+    },
+    {
+      "id": 20,
+      "english": "We · evacuated before the hurricane hit.",
+      "russian": "Мы · эвакуировались до того, как ураган ударил.",
+      "start": 295.767,
+      "end": 311.16
+    },
+    {
+      "id": 21,
+      "english": "I tracked my · package but it never arrived.",
+      "russian": "Я отслеживал свою · посылку, но она так и не пришла.",
+      "start": 311.16,
+      "end": 326.948
+    },
+    {
+      "id": 22,
+      "english": "My parents showed baby photos and I felt · embarrassed.",
+      "russian": "Мои родители показали детские фото, и я почувствовал себя · смущённым.",
+      "start": 326.948,
+      "end": 344.186
+    },
+    {
+      "id": 23,
+      "english": "A · poisonous snake hid in the tall grass.",
+      "russian": "· Ядовитая змея спряталась в высокой траве.",
+      "start": 344.186,
+      "end": 359.634
+    },
+    {
+      "id": 24,
+      "english": "The dry · soil was too hard for planting.",
+      "russian": "Сухая · почва была слишком твёрдой для посадки.",
+      "start": 359.634,
+      "end": 375.246
+    },
+    {
+      "id": 25,
+      "english": "She · convinced her parents to get a dog.",
+      "russian": "Она · убедила родителей завести собаку.",
+      "start": 375.246,
+      "end": 390.534
+    },
+    {
+      "id": 26,
+      "english": "I found · sand inside my shoes after the beach.",
+      "russian": "Я нашёл · песок внутри своих туфель после пляжа.",
+      "start": 390.534,
+      "end": 406.986
+    },
+    {
+      "id": 27,
+      "english": "She washed the · dirt off her boots after the walk.",
+      "russian": "Она смыла · грязь с сапог после прогулки.",
+      "start": 406.986,
+      "end": 423.03
+    },
+    {
+      "id": 28,
+      "english": "I checked my bank account and saw my · spending was too high.",
+      "russian": "Я проверил свой банковский счёт и увидел, что мои · расходы слишком высоки.",
+      "start": 423.03,
+      "end": 440.527
+    },
+    {
+      "id": 29,
+      "english": "The house needs a · solid foundation to be safe.",
+      "russian": "Дому нужен · надёжный фундамент, чтобы быть безопасным.",
+      "start": 440.527,
+      "end": 456.636
+    },
+    {
+      "id": 30,
+      "english": "The children played tag in the sunny · yard.",
+      "russian": "Дети играли в салки на солнечном · дворе.",
+      "start": 456.636,
+      "end": 471.887
+    }
+  ]
+}

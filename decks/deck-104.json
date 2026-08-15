@@ -1,0 +1,220 @@
+{
+  "id": "deck-104",
+  "deck_name": "B1_3000_M 7",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M7.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 467.47,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I found a parking · spot near the entrance.",
+      "russian": "Я нашёл · место для парковки у входа.",
+      "start": 0.0,
+      "end": 15.764
+    },
+    {
+      "id": 2,
+      "english": "The hotel · staff were very friendly and helpful.",
+      "russian": "· Персонал отеля был очень дружелюбным и услужливым.",
+      "start": 15.764,
+      "end": 31.994
+    },
+    {
+      "id": 3,
+      "english": "I used a heavy · chain to lock the garden gate.",
+      "russian": "Я использовал тяжёлую · цепь, чтобы запереть садовую калитку.",
+      "start": 31.994,
+      "end": 47.71
+    },
+    {
+      "id": 4,
+      "english": "I polished the old car to make it · shine.",
+      "russian": "Я начистил старую машину, чтобы она · сияла.",
+      "start": 47.71,
+      "end": 63.11
+    },
+    {
+      "id": 5,
+      "english": "· Lack of sleep left me exhausted all day.",
+      "russian": "· Нехватка сна оставила меня истощённым на весь день.",
+      "start": 63.11,
+      "end": 78.825
+    },
+    {
+      "id": 6,
+      "english": "I returned the damaged · goods to the store.",
+      "russian": "Я вернул повреждённые · товары в магазин.",
+      "start": 78.825,
+      "end": 93.966
+    },
+    {
+      "id": 7,
+      "english": "I stirred the hot soup in a large · pot.",
+      "russian": "Я помешивал горячий суп в большой · кастрюле.",
+      "start": 93.966,
+      "end": 108.982
+    },
+    {
+      "id": 8,
+      "english": "The · virus spread quickly among the children.",
+      "russian": "· Вирус быстро распространился среди детей.",
+      "start": 108.982,
+      "end": 124.557
+    },
+    {
+      "id": 9,
+      "english": "The customer cried because of rude · treatment.",
+      "russian": "Клиент заплакал из-за грубого · обращения.",
+      "start": 124.557,
+      "end": 140.073
+    },
+    {
+      "id": 10,
+      "english": "I wore a soft · cotton shirt on the hot summer day.",
+      "russian": "Я надел мягкую · хлопковую рубашку в жаркий летний день.",
+      "start": 140.073,
+      "end": 156.326
+    },
+    {
+      "id": 11,
+      "english": "An · innocent man was released from prison.",
+      "russian": "· Невиновный человек был освобождён из тюрьмы.",
+      "start": 156.326,
+      "end": 171.578
+    },
+    {
+      "id": 12,
+      "english": "She finally · admitted she was wrong.",
+      "russian": "Она наконец · признала, что была неправа.",
+      "start": 171.578,
+      "end": 186.524
+    },
+    {
+      "id": 13,
+      "english": "The old ship began to · sink in the fierce storm.",
+      "russian": "Старый корабль начал · тонуть в сильном шторме.",
+      "start": 186.524,
+      "end": 202.338
+    },
+    {
+      "id": 14,
+      "english": "The · sharp knife cut my finger while I was cooking.",
+      "russian": "· Острый нож порезал мне палец, пока я готовил.",
+      "start": 202.338,
+      "end": 218.443
+    },
+    {
+      "id": 15,
+      "english": "He · committed a crime and went to prison.",
+      "russian": "Он · совершил преступление и попал в тюрьму.",
+      "start": 218.443,
+      "end": 233.49
+    },
+    {
+      "id": 16,
+      "english": "This is a great picnic · spot by the river.",
+      "russian": "Это отличное · место для пикника у реки.",
+      "start": 233.49,
+      "end": 248.863
+    },
+    {
+      "id": 17,
+      "english": "Rude · staff ignored the customers completely.",
+      "russian": "Грубый · персонал полностью игнорировал клиентов.",
+      "start": 248.863,
+      "end": 264.544
+    },
+    {
+      "id": 18,
+      "english": "She wore a thin gold · chain around her neck.",
+      "russian": "Она носила тонкую золотую · цепь на шее.",
+      "start": 264.544,
+      "end": 280.266
+    },
+    {
+      "id": 19,
+      "english": "Stars · shine brightly in the night sky.",
+      "russian": "Звёзды ярко · сияют в ночном небе.",
+      "start": 280.266,
+      "end": 295.652
+    },
+    {
+      "id": 20,
+      "english": "The · lack of water killed all my houseplants.",
+      "russian": "· Нехватка воды погубила все мои комнатные растения.",
+      "start": 295.652,
+      "end": 311.642
+    },
+    {
+      "id": 21,
+      "english": "I check the · goods before I pay.",
+      "russian": "Я проверяю · товары перед оплатой.",
+      "start": 311.642,
+      "end": 326.451
+    },
+    {
+      "id": 22,
+      "english": "She boiled water in the · pot for the pasta.",
+      "russian": "Она вскипятила воду в · кастрюле для пасты.",
+      "start": 326.451,
+      "end": 341.582
+    },
+    {
+      "id": 23,
+      "english": "He · spread  rumors about his boss.",
+      "russian": "Он · распространял слухи о своём боссе.",
+      "start": 341.582,
+      "end": 356.495
+    },
+    {
+      "id": 24,
+      "english": "She complained about unfair · treatment at work.",
+      "russian": "Она пожаловалась на несправедливое · отношение на работе.",
+      "start": 356.495,
+      "end": 372.573
+    },
+    {
+      "id": 25,
+      "english": "The label on the shirt said \"100% · cotton\".",
+      "russian": "На этикетке рубашки было написано \"100% · хлопок\".",
+      "start": 372.573,
+      "end": 388.912
+    },
+    {
+      "id": 26,
+      "english": "The child's · innocent question seemed rude.",
+      "russian": "· Невинный вопрос ребёнка показался грубым.",
+      "start": 388.912,
+      "end": 404.322
+    },
+    {
+      "id": 27,
+      "english": "He · admits defeat after losing the game.",
+      "russian": "Он · признаёт поражение после проигранной игры.",
+      "start": 404.322,
+      "end": 419.818
+    },
+    {
+      "id": 28,
+      "english": "The small boat began to · sink near the shore.",
+      "russian": "Маленькая лодка начала · тонуть возле берега.",
+      "start": 419.818,
+      "end": 435.296
+    },
+    {
+      "id": 29,
+      "english": "I felt a · sharp pain in my lower back.",
+      "russian": "Я почувствовал · острую боль в пояснице.",
+      "start": 435.296,
+      "end": 450.728
+    },
+    {
+      "id": 30,
+      "english": "Two teenagers · committed a crime near school yesterday.",
+      "russian": "Двое подростков · совершили преступление возле школы вчера.",
+      "start": 450.728,
+      "end": 467.471
+    }
+  ]
+}
