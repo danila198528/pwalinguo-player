@@ -1,0 +1,220 @@
+{
+  "id": "deck-105",
+  "deck_name": "B1_3000_M 5",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M5.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 416.57,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The strong wind · bent the old tree.",
+      "russian": "Сильный ветер · согнул старое дерево.",
+      "start": 0.0,
+      "end": 15.046
+    },
+    {
+      "id": 2,
+      "english": "Many people · suffer from back pain.",
+      "russian": "Многие люди · страдают от боли в спине.",
+      "start": 15.046,
+      "end": 30.175
+    },
+    {
+      "id": 3,
+      "english": "The · frozen lake is safe to walk on.",
+      "russian": "По · замёрзшему озеру безопасно ходить.",
+      "start": 30.175,
+      "end": 45.267
+    },
+    {
+      "id": 4,
+      "english": "I need · flour to bake a cake.",
+      "russian": "Мне нужна · мука, чтобы испечь торт.",
+      "start": 45.267,
+      "end": 59.509
+    },
+    {
+      "id": 5,
+      "english": "Don't · bother me with silly questions.",
+      "russian": "Не · беспокой меня глупыми вопросами.",
+      "start": 59.509,
+      "end": 74.261
+    },
+    {
+      "id": 6,
+      "english": "I wore a coat with fake · fur.",
+      "russian": "Я носил пальто с искусственным · мехом.",
+      "start": 74.261,
+      "end": 88.652
+    },
+    {
+      "id": 7,
+      "english": "Please · fasten your seatbelt before takeoff.",
+      "russian": "Пожалуйста, · пристегните ремень безопасности перед взлётом.",
+      "start": 88.652,
+      "end": 104.74
+    },
+    {
+      "id": 8,
+      "english": "I feel · proud when I finish a difficult task.",
+      "russian": "Я чувствую · гордость, когда завершаю сложную задачу.",
+      "start": 104.74,
+      "end": 120.953
+    },
+    {
+      "id": 9,
+      "english": "She is · aware of the dangers of smoking.",
+      "russian": "Она · осознаёт опасность курения.",
+      "start": 120.953,
+      "end": 143.986
+    },
+    {
+      "id": 10,
+      "english": "I fried eggs in the · pan.",
+      "russian": "Я жарил яйца на · сковороде.",
+      "start": 143.986,
+      "end": 158.549
+    },
+    {
+      "id": 11,
+      "english": "She was · unable to open the jar.",
+      "russian": "Она была · неспособна открыть банку.",
+      "start": 158.549,
+      "end": 173.711
+    },
+    {
+      "id": 12,
+      "english": "I · admire my mother for her patience.",
+      "russian": "Я · восхищаюсь моей матерью за её терпение.",
+      "start": 173.711,
+      "end": 188.134
+    },
+    {
+      "id": 13,
+      "english": "She · rejects his offer of help.",
+      "russian": "Она · отвергает его предложение помощи.",
+      "start": 188.134,
+      "end": 203.323
+    },
+    {
+      "id": 14,
+      "english": "The water · surface reflected the moon.",
+      "russian": "· Поверхность воды отражала луну.",
+      "start": 203.323,
+      "end": 218.142
+    },
+    {
+      "id": 15,
+      "english": "The news was a · pleasant surprise.",
+      "russian": "Новость была · приятным сюрпризом.",
+      "start": 218.142,
+      "end": 232.882
+    },
+    {
+      "id": 16,
+      "english": "He · bent the spoon with his hands.",
+      "russian": "Он · согнул ложку руками.",
+      "start": 232.882,
+      "end": 253.823
+    },
+    {
+      "id": 17,
+      "english": "My plants · suffer without enough water.",
+      "russian": "Мои растения · страдают без достаточного количества воды.",
+      "start": 253.823,
+      "end": 269.03
+    },
+    {
+      "id": 18,
+      "english": "I bought · frozen vegetables for dinner.",
+      "russian": "Я купил · замороженные овощи на ужин.",
+      "start": 269.03,
+      "end": 283.7
+    },
+    {
+      "id": 19,
+      "english": "She · mixed flour with water and eggs.",
+      "russian": "Она · смешала муку с водой и яйцами.",
+      "start": 283.7,
+      "end": 298.302
+    },
+    {
+      "id": 20,
+      "english": "Mosquitoes · bothered them all night.",
+      "russian": "Комары · беспокоили их всю ночь.",
+      "start": 298.302,
+      "end": 320.405
+    },
+    {
+      "id": 21,
+      "english": "The dog's · fur was wet from rain.",
+      "russian": "· Шерсть собаки была мокрой от дождя.",
+      "start": 320.405,
+      "end": 341.322
+    },
+    {
+      "id": 22,
+      "english": "I · fastened my seatbelt before driving.",
+      "russian": "Я · пристегнул ремень перед тем, как сесть за руль.",
+      "start": 341.322,
+      "end": 355.833
+    },
+    {
+      "id": 23,
+      "english": "My parents are · proud of my grades.",
+      "russian": "Мои родители · гордятся моими оценками.",
+      "start": 355.833,
+      "end": 370.989
+    },
+    {
+      "id": 24,
+      "english": "He is · aware of the risks involved.",
+      "russian": "Он · осознаёт связанные с этим риски.",
+      "start": 370.989,
+      "end": 386.356
+    },
+    {
+      "id": 25,
+      "english": "She scrubbed the stuck food off the · pan.",
+      "russian": "Она отскребла пригоревшую еду со · сковороды.",
+      "start": 386.356,
+      "end": 401.645
+    },
+    {
+      "id": 26,
+      "english": "He was · unable to move his leg.",
+      "russian": "Он был · неспособен пошевелить ногой.",
+      "start": 401.645,
+      "end": 416.567
+    },
+    {
+      "id": 27,
+      "english": "We all · admire his courage in the fire.",
+      "russian": "Мы все · восхищаемся его мужеством во время пожара.",
+      "start": 416.567,
+      "end": 416.567
+    },
+    {
+      "id": 28,
+      "english": "He · rejected the invitation to the party.",
+      "russian": "Он · отклонил приглашение на вечеринку.",
+      "start": 416.567,
+      "end": 416.567
+    },
+    {
+      "id": 29,
+      "english": "There was dust on the · surface of the shelf.",
+      "russian": "На · поверхности полки была пыль.",
+      "start": 416.567,
+      "end": 416.567
+    },
+    {
+      "id": 30,
+      "english": "We had a · pleasant conversation over coffee.",
+      "russian": "У нас был · приятный разговор за чашкой кофе.",
+      "start": 416.567,
+      "end": 416.567
+    }
+  ]
+}

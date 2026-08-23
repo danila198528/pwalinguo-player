@@ -1,0 +1,220 @@
+{
+  "id": "deck-106",
+  "deck_name": "B1_3000_M 6",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M6.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 425.88,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The doctor used an injection · needle.",
+      "russian": "Врач использовал · иглу для инъекции.",
+      "start": 0.0,
+      "end": 15.187
+    },
+    {
+      "id": 2,
+      "english": "The · editor corrected my article.",
+      "russian": "· Редактор исправил мою статью.",
+      "start": 15.187,
+      "end": 26.756
+    },
+    {
+      "id": 3,
+      "english": "Mosquitoes · bite me every summer.",
+      "russian": "Комары · кусают меня каждое лето.",
+      "start": 26.756,
+      "end": 41.515
+    },
+    {
+      "id": 4,
+      "english": "The chicken · wing was tasty.",
+      "russian": "Куриное · крылышко было вкусным.",
+      "start": 41.515,
+      "end": 60.929
+    },
+    {
+      "id": 5,
+      "english": "That face looks · familiar to me.",
+      "russian": "Это лицо кажется мне · знакомым.",
+      "start": 60.929,
+      "end": 75.831
+    },
+    {
+      "id": 6,
+      "english": "These shoes are too · tight for my feet.",
+      "russian": "Эти туфли слишком · узкие для моих ног.",
+      "start": 75.831,
+      "end": 90.634
+    },
+    {
+      "id": 7,
+      "english": "The bird sat on a high · branch.",
+      "russian": "Птица сидела на высокой · ветке.",
+      "start": 90.634,
+      "end": 105.696
+    },
+    {
+      "id": 8,
+      "english": "The · wool sweater kept him warm in winter.",
+      "russian": "· Шерстяной свитер согревал его зимой.",
+      "start": 105.696,
+      "end": 120.583
+    },
+    {
+      "id": 9,
+      "english": "The weather is very · mild this year.",
+      "russian": "Погода в этом году очень · мягкая.",
+      "start": 120.583,
+      "end": 134.966
+    },
+    {
+      "id": 10,
+      "english": "The · coal mine is closed now.",
+      "russian": "· Угольная шахта сейчас закрыта.",
+      "start": 134.966,
+      "end": 150.596
+    },
+    {
+      "id": 11,
+      "english": "I · switched the TV channel during ads.",
+      "russian": "Я · переключил канал телевизора во время рекламы.",
+      "start": 150.596,
+      "end": 166.851
+    },
+    {
+      "id": 12,
+      "english": "There is a diplomatic · relation between countries.",
+      "russian": "Между странами существуют дипломатические · отношения.",
+      "start": 166.851,
+      "end": 178.962
+    },
+    {
+      "id": 13,
+      "english": "The · engaged couple showed off their ring.",
+      "russian": "· Помолвленная пара показала кольцо.",
+      "start": 178.962,
+      "end": 194.982
+    },
+    {
+      "id": 14,
+      "english": "He was arrested for · cruel treatment of animals.",
+      "russian": "Его арестовали за · жестокое обращение с животными.",
+      "start": 194.982,
+      "end": 209.882
+    },
+    {
+      "id": 15,
+      "english": "I ate a · slice of pizza for lunch.",
+      "russian": "Я съел · кусок пиццы на обед.",
+      "start": 209.882,
+      "end": 224.661
+    },
+    {
+      "id": 16,
+      "english": "I broke the · needle while I was sewing.",
+      "russian": "Я сломала · иглу, когда шила.",
+      "start": 224.661,
+      "end": 239.217
+    },
+    {
+      "id": 17,
+      "english": "The movie · editor cut that scene.",
+      "russian": "Кино · редактор вырезал ту сцену.",
+      "start": 239.217,
+      "end": 253.955
+    },
+    {
+      "id": 18,
+      "english": "The dog tries to · bite the mailman.",
+      "russian": "Собака пытается · укусить почтальона.",
+      "start": 253.955,
+      "end": 267.675
+    },
+    {
+      "id": 19,
+      "english": "The bird hurt its · wing.",
+      "russian": "Птица повредила · крыло.",
+      "start": 267.675,
+      "end": 282.648
+    },
+    {
+      "id": 20,
+      "english": "I heard a · familiar voice on the phone.",
+      "russian": "Я услышал · знакомый голос по телефону.",
+      "start": 282.648,
+      "end": 294.483
+    },
+    {
+      "id": 21,
+      "english": "It's a very · tight parking space.",
+      "russian": "Это очень · узкое место для парковки.",
+      "start": 294.483,
+      "end": 310.263
+    },
+    {
+      "id": 22,
+      "english": "A · branch fell on my car during the storm.",
+      "russian": "· Ветка упала на мою машину во время шторма.",
+      "start": 310.263,
+      "end": 324.639
+    },
+    {
+      "id": 23,
+      "english": "The · wool scarf is very itchy.",
+      "russian": "· Шерстяной шарф очень колючий.",
+      "start": 324.639,
+      "end": 340.118
+    },
+    {
+      "id": 24,
+      "english": "The · mild climate is perfect for farming.",
+      "russian": "· Мягкий климат идеально подходит для фермерства.",
+      "start": 340.118,
+      "end": 354.388
+    },
+    {
+      "id": 25,
+      "english": "I put · coal in the barbecue.",
+      "russian": "Я положил · уголь в барбекю.",
+      "start": 354.388,
+      "end": 368.59
+    },
+    {
+      "id": 26,
+      "english": "We · switched seats on the plane.",
+      "russian": "Мы · поменялись местами в самолёте.",
+      "start": 368.59,
+      "end": 384.308
+    },
+    {
+      "id": 27,
+      "english": "There is a close · relation between the siblings.",
+      "russian": "Между братом и сестрой тесная · связь.",
+      "start": 384.308,
+      "end": 398.784
+    },
+    {
+      "id": 28,
+      "english": "They are a newly · engaged couple.",
+      "russian": "Они недавно · помолвленная пара.",
+      "start": 398.784,
+      "end": 411.126
+    },
+    {
+      "id": 29,
+      "english": "The people suffered under a · cruel dictator.",
+      "russian": "Люди страдали под властью · жестокого диктатора.",
+      "start": 411.126,
+      "end": 425.879
+    },
+    {
+      "id": 30,
+      "english": "She put a · slice of lemon in her tea.",
+      "russian": "Она положила · дольку лимона в чай.",
+      "start": 425.879,
+      "end": 425.879
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "deck-107",
+  "deck_name": "B1_3000_M 7",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M7.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 421.03,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "He · quit smoking forever.",
+      "russian": "Он навсегда · бросил курить.",
+      "start": 0.0,
+      "end": 14.307
+    },
+    {
+      "id": 2,
+      "english": "I · fry bacon for breakfast.",
+      "russian": "Я · жарю бекон на завтрак.",
+      "start": 14.307,
+      "end": 28.65
+    },
+    {
+      "id": 3,
+      "english": "She made a · sensible choice.",
+      "russian": "Она сделала · благоразумный выбор.",
+      "start": 28.65,
+      "end": 42.94
+    },
+    {
+      "id": 4,
+      "english": "He gave a · confident speech.",
+      "russian": "Он произнёс · уверенную речь.",
+      "start": 42.94,
+      "end": 57.118
+    },
+    {
+      "id": 5,
+      "english": "The oil spill was an · environmental disaster.",
+      "russian": "Разлив нефти был · экологической катастрофой.",
+      "start": 57.118,
+      "end": 79.732
+    },
+    {
+      "id": 6,
+      "english": "The discount · attracted many new customers.",
+      "russian": "Скидка · привлекла много новых клиентов.",
+      "start": 79.732,
+      "end": 94.783
+    },
+    {
+      "id": 7,
+      "english": "A chemical · substance spilled in the lab.",
+      "russian": "Химическое · вещество разлилось в лаборатории.",
+      "start": 94.783,
+      "end": 110.09
+    },
+    {
+      "id": 8,
+      "english": "A · careless driver caused the accident.",
+      "russian": "· Небрежный водитель стал причиной аварии.",
+      "start": 110.09,
+      "end": 125.07
+    },
+    {
+      "id": 9,
+      "english": "Her · strength of character is amazing.",
+      "russian": "Её · сила характера удивительна.",
+      "start": 125.07,
+      "end": 139.512
+    },
+    {
+      "id": 10,
+      "english": "His lie was · obvious to everyone.",
+      "russian": "Его ложь была · очевидна для всех.",
+      "start": 139.512,
+      "end": 154.69
+    },
+    {
+      "id": 11,
+      "english": "The weather · prediction says rain tomorrow.",
+      "russian": "Прогноз погоды · предсказывает дождь завтра.",
+      "start": 154.69,
+      "end": 168.983
+    },
+    {
+      "id": 12,
+      "english": "The · drum solo was amazing.",
+      "russian": "· Соло на барабане было потрясающим.",
+      "start": 168.983,
+      "end": 183.823
+    },
+    {
+      "id": 13,
+      "english": "The · worth of friendship is priceless.",
+      "russian": "· Ценность дружбы бесценна.",
+      "start": 183.823,
+      "end": 196.225
+    },
+    {
+      "id": 14,
+      "english": "I really · appreciate his sense of humor.",
+      "russian": "Я очень · ценю его чувство юмора.",
+      "start": 196.225,
+      "end": 210.593
+    },
+    {
+      "id": 15,
+      "english": "There are many books on the · shelf.",
+      "russian": "На · полке много книг.",
+      "start": 210.593,
+      "end": 224.782
+    },
+    {
+      "id": 16,
+      "english": "She · quit her stressful job.",
+      "russian": "Она · уволилась с напряжённой работы.",
+      "start": 224.782,
+      "end": 239.183
+    },
+    {
+      "id": 17,
+      "english": "The · fried fish smelled great.",
+      "russian": "· Жареная рыба пахла отлично.",
+      "start": 239.183,
+      "end": 254.771
+    },
+    {
+      "id": 18,
+      "english": "His · sensible decision saved a lot of money.",
+      "russian": "Его · разумное решение сэкономило много денег.",
+      "start": 254.771,
+      "end": 266.811
+    },
+    {
+      "id": 19,
+      "english": "I felt · confident before the interview.",
+      "russian": "Я чувствовал себя · уверенно перед собеседованием.",
+      "start": 266.811,
+      "end": 283.164
+    },
+    {
+      "id": 20,
+      "english": "There are · environmental concerns about the factory.",
+      "russian": "Есть · экологические опасения по поводу завода.",
+      "start": 283.164,
+      "end": 298.735
+    },
+    {
+      "id": 21,
+      "english": "Bright lights · attracted lots of insects.",
+      "russian": "Яркий свет · привлёк много насекомых.",
+      "start": 298.735,
+      "end": 313.709
+    },
+    {
+      "id": 22,
+      "english": "Police found an illegal · substance.",
+      "russian": "Полиция нашла незаконное · вещество.",
+      "start": 313.709,
+      "end": 329.224
+    },
+    {
+      "id": 23,
+      "english": "He made a · careless mistake on the contract.",
+      "russian": "Он допустил · небрежную ошибку в контракте.",
+      "start": 329.224,
+      "end": 343.699
+    },
+    {
+      "id": 24,
+      "english": "He has great physical · strength.",
+      "russian": "У него большая физическая · сила.",
+      "start": 343.699,
+      "end": 355.759
+    },
+    {
+      "id": 25,
+      "english": "The · obvious solution fixed the problem.",
+      "russian": "· Очевидное решение исправило проблему.",
+      "start": 355.759,
+      "end": 376.32
+    },
+    {
+      "id": 26,
+      "english": "His · prediction about the election was wrong.",
+      "russian": "Его · предсказание о результатах выборов было неверным.",
+      "start": 376.32,
+      "end": 392.086
+    },
+    {
+      "id": 27,
+      "english": "I heard the sound of · drums.",
+      "russian": "Я слышал звук · барабанов.",
+      "start": 392.086,
+      "end": 407.068
+    },
+    {
+      "id": 28,
+      "english": "This painting has great historical · worth.",
+      "russian": "Эта картина имеет большую историческую · ценность.",
+      "start": 407.068,
+      "end": 421.031
+    },
+    {
+      "id": 29,
+      "english": "She · appreciated the honest feedback.",
+      "russian": "Она · оценила честную обратную связь.",
+      "start": 421.031,
+      "end": 421.031
+    },
+    {
+      "id": 30,
+      "english": "I put my mug on the · shelf.",
+      "russian": "Я поставил кружку на · полку.",
+      "start": 421.031,
+      "end": 421.031
+    }
+  ]
+}

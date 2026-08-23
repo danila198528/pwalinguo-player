@@ -1,0 +1,220 @@
+{
+  "id": "deck-108",
+  "deck_name": "B1_3000_M 8",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M8.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 421.03,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The · bride wore a beautiful white dress.",
+      "russian": "· Невеста была в красивом белом платье.",
+      "start": 0.0,
+      "end": 15.56
+    },
+    {
+      "id": 2,
+      "english": "I spilled hot · liquid on my laptop.",
+      "russian": "Я пролил горячую · жидкость на ноутбук.",
+      "start": 15.56,
+      "end": 36.909
+    },
+    {
+      "id": 3,
+      "english": "I · conclude that the plan will not work.",
+      "russian": "Я · заключаю, что план не сработает.",
+      "start": 36.909,
+      "end": 56.889
+    },
+    {
+      "id": 4,
+      "english": "You · ought to have asked for permission.",
+      "russian": "Тебе · следовало попросить разрешения.",
+      "start": 56.889,
+      "end": 72.992
+    },
+    {
+      "id": 5,
+      "english": "This story · relates to real events.",
+      "russian": "Эта история · имеет отношение к реальным событиям.",
+      "start": 72.992,
+      "end": 87.362
+    },
+    {
+      "id": 6,
+      "english": "A serious · consequence of smoking is cancer.",
+      "russian": "Серьёзным · последствием курения является рак.",
+      "start": 87.362,
+      "end": 102.57
+    },
+    {
+      "id": 7,
+      "english": "The police · shoot at the suspect.",
+      "russian": "Полиция · стреляет в подозреваемого.",
+      "start": 102.57,
+      "end": 117.147
+    },
+    {
+      "id": 8,
+      "english": "A nuclear · weapon is a global risk.",
+      "russian": "Ядерное · оружие - глобальный риск.",
+      "start": 117.147,
+      "end": 132.976
+    },
+    {
+      "id": 9,
+      "english": "She was blowing a · bubble with gum.",
+      "russian": "Она надувала · пузырь из жвачки.",
+      "start": 132.976,
+      "end": 148.532
+    },
+    {
+      "id": 10,
+      "english": "His · underwear was visible above his jeans.",
+      "russian": "Его · нижнее бельё было видно над джинсами.",
+      "start": 148.532,
+      "end": 163.674
+    },
+    {
+      "id": 11,
+      "english": "The · unemployment rate hit a record high.",
+      "russian": "Уровень · безработицы достиг рекордного максимума.",
+      "start": 163.674,
+      "end": 178.723
+    },
+    {
+      "id": 12,
+      "english": "The river · flood destroyed the old bridge.",
+      "russian": "· Наводнение реки разрушило старый мост.",
+      "start": 178.723,
+      "end": 190.377
+    },
+    {
+      "id": 13,
+      "english": "She painted her · nails bright red.",
+      "russian": "Она покрасила · ногти ярко-красным.",
+      "start": 190.377,
+      "end": 205.58
+    },
+    {
+      "id": 14,
+      "english": "I sat in the back · row of the bus.",
+      "russian": "Я сидел в заднем · ряду автобуса.",
+      "start": 205.58,
+      "end": 220.388
+    },
+    {
+      "id": 15,
+      "english": "I felt a · sudden pain in my chest.",
+      "russian": "Я почувствовал · внезапную боль в груди.",
+      "start": 220.388,
+      "end": 234.925
+    },
+    {
+      "id": 16,
+      "english": "The nervous · bride waited at the altar.",
+      "russian": "Взволнованная · невеста ждала у алтаря.",
+      "start": 234.925,
+      "end": 250.344
+    },
+    {
+      "id": 17,
+      "english": "The hot · liquid burned my tongue.",
+      "russian": "Горячая · жидкость обожгла мне язык.",
+      "start": 250.344,
+      "end": 265.767
+    },
+    {
+      "id": 18,
+      "english": "The detective · concluded from the evidence.",
+      "russian": "Детектив · сделал вывод на основе улик.",
+      "start": 265.767,
+      "end": 277.864
+    },
+    {
+      "id": 19,
+      "english": "He · ought to apologize for his rudeness.",
+      "russian": "Ему · следует извиниться за грубость.",
+      "start": 277.864,
+      "end": 299.692
+    },
+    {
+      "id": 20,
+      "english": "Your question · relates to the main topic.",
+      "russian": "Ваш вопрос · относится к главной теме.",
+      "start": 299.692,
+      "end": 314.442
+    },
+    {
+      "id": 21,
+      "english": "There are severe · consequences for breaking the law.",
+      "russian": "Есть серьёзные · последствия за нарушение закона.",
+      "start": 314.442,
+      "end": 329.813
+    },
+    {
+      "id": 22,
+      "english": "He · shoots the target with a rifle.",
+      "russian": "Он · стреляет в мишень из винтовки.",
+      "start": 329.813,
+      "end": 343.625
+    },
+    {
+      "id": 23,
+      "english": "The robber used a · weapon in the crime.",
+      "russian": "Грабитель использовал · оружие при преступлении.",
+      "start": 343.625,
+      "end": 360.323
+    },
+    {
+      "id": 24,
+      "english": "Champagne · bubbles rose in the glass.",
+      "russian": "· Пузырьки шампанского поднимались в бокале.",
+      "start": 360.323,
+      "end": 375.633
+    },
+    {
+      "id": 25,
+      "english": "I need to buy new · underwear.",
+      "russian": "Мне нужно купить новое · нижнее бельё.",
+      "start": 375.633,
+      "end": 390.902
+    },
+    {
+      "id": 26,
+      "english": "He lost his job and faced · unemployment for months.",
+      "russian": "Он потерял работу и столкнулся с · безработицей на месяцы.",
+      "start": 390.902,
+      "end": 405.791
+    },
+    {
+      "id": 27,
+      "english": "We got a · flood warning and evacuated.",
+      "russian": "Мы получили · предупреждение о наводнении и эвакуировались.",
+      "start": 405.791,
+      "end": 421.031
+    },
+    {
+      "id": 28,
+      "english": "I broke a · nail while opening a can.",
+      "russian": "Я сломал · ноготь, открывая банку.",
+      "start": 421.031,
+      "end": 421.031
+    },
+    {
+      "id": 29,
+      "english": "We sat in the front · row of the theater.",
+      "russian": "Мы сидели в первом · ряду театра.",
+      "start": 421.031,
+      "end": 421.031
+    },
+    {
+      "id": 30,
+      "english": "The · sudden change of plans surprised us.",
+      "russian": "· Внезапное изменение планов удивило нас.",
+      "start": 421.031,
+      "end": 421.031
+    }
+  ]
+}
