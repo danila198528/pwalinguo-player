@@ -1,0 +1,220 @@
+{
+  "id": "deck-109",
+  "deck_name": "B1_3000_M 12",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M12.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 448.37,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "We have a · leather sofa in the living room.",
+      "russian": "У нас есть · кожаный диван в гостиной.",
+      "start": 0.0,
+      "end": 15.382
+    },
+    {
+      "id": 2,
+      "english": "The table was · covered with dust.",
+      "russian": "Стол был · покрыт пылью.",
+      "start": 15.382,
+      "end": 29.89
+    },
+    {
+      "id": 3,
+      "english": "My morning · mood improved after coffee.",
+      "russian": "Моё утреннее · настроение улучшилось после кофе.",
+      "start": 29.89,
+      "end": 44.932
+    },
+    {
+      "id": 4,
+      "english": "I felt · immediate relief after the news.",
+      "russian": "Я почувствовал · немедленное облегчение после новости.",
+      "start": 44.932,
+      "end": 60.551
+    },
+    {
+      "id": 5,
+      "english": "She · laid the blanket on the grass.",
+      "russian": "Она · положила одеяло на траву.",
+      "start": 60.551,
+      "end": 75.321
+    },
+    {
+      "id": 6,
+      "english": "The · length of the rope was too short.",
+      "russian": "· Длина верёвки была слишком короткой.",
+      "start": 75.321,
+      "end": 90.09
+    },
+    {
+      "id": 7,
+      "english": "The · indoor pool was heated.",
+      "russian": "· Бассейн в помещении был с подогревом.",
+      "start": 90.09,
+      "end": 104.36
+    },
+    {
+      "id": 8,
+      "english": "He · proved his innocence in court.",
+      "russian": "Он · доказал свою невиновность в суде.",
+      "start": 104.36,
+      "end": 119.228
+    },
+    {
+      "id": 9,
+      "english": "There is no · doubt about his honesty.",
+      "russian": "Нет никаких · сомнений в его честности.",
+      "start": 119.228,
+      "end": 133.986
+    },
+    {
+      "id": 10,
+      "english": "She is · shy about singing in public.",
+      "russian": "Она · застенчива, когда поёт на публике.",
+      "start": 133.986,
+      "end": 148.984
+    },
+    {
+      "id": 11,
+      "english": "The · outdoor pool is closed in winter.",
+      "russian": "Бассейн ·  на открытом воздухе закрыт зимой.",
+      "start": 148.984,
+      "end": 163.996
+    },
+    {
+      "id": 12,
+      "english": "He · pretended to be asleep.",
+      "russian": "Он · притворился спящим.",
+      "start": 163.996,
+      "end": 178.173
+    },
+    {
+      "id": 13,
+      "english": "My · reliable car never broke down.",
+      "russian": "Моя · надёжная машина никогда не ломалась.",
+      "start": 178.173,
+      "end": 193.54
+    },
+    {
+      "id": 14,
+      "english": "He was badly · injured in the crash.",
+      "russian": "Он был тяжело · ранен в аварии.",
+      "start": 193.54,
+      "end": 208.351
+    },
+    {
+      "id": 15,
+      "english": "A large crowd · gathered at the square.",
+      "russian": "Большая толпа · собралась на площади.",
+      "start": 208.351,
+      "end": 223.269
+    },
+    {
+      "id": 16,
+      "english": "The car has · leather seats.",
+      "russian": "В машине · кожаные сиденья.",
+      "start": 223.269,
+      "end": 237.274
+    },
+    {
+      "id": 17,
+      "english": "His face was · covered with mud.",
+      "russian": "Его лицо было · покрыто грязью.",
+      "start": 237.274,
+      "end": 251.658
+    },
+    {
+      "id": 18,
+      "english": "He was in a sad · mood after the bad news.",
+      "russian": "У него было грустное · настроение после плохих новостей.",
+      "start": 251.658,
+      "end": 267.257
+    },
+    {
+      "id": 19,
+      "english": "His · immediate response was to call for help.",
+      "russian": "Его · немедленной реакцией было позвать на помощь.",
+      "start": 267.257,
+      "end": 283.027
+    },
+    {
+      "id": 20,
+      "english": "Please · lay the book on the table.",
+      "russian": "Пожалуйста, · положи книгу на стол.",
+      "start": 283.027,
+      "end": 297.204
+    },
+    {
+      "id": 21,
+      "english": "The movie's · length was three hours.",
+      "russian": "· Длина фильма была три часа.",
+      "start": 297.204,
+      "end": 312.11
+    },
+    {
+      "id": 22,
+      "english": "We use the · indoor gym for winter workouts.",
+      "russian": "Мы используем · спортзал в помещении для зимних тренировок.",
+      "start": 312.11,
+      "end": 328.109
+    },
+    {
+      "id": 23,
+      "english": "I can · prove that I can run a mile.",
+      "russian": "Я могу · доказать, что могу пробежать милю.",
+      "start": 328.109,
+      "end": 342.918
+    },
+    {
+      "id": 24,
+      "english": "I had · doubts about the plan working.",
+      "russian": "У меня были · сомнения, что план сработает.",
+      "start": 342.918,
+      "end": 357.695
+    },
+    {
+      "id": 25,
+      "english": "The · shy child hid behind his mother.",
+      "russian": "· Застенчивый ребёнок спрятался за матерью.",
+      "start": 357.695,
+      "end": 372.781
+    },
+    {
+      "id": 26,
+      "english": "We went to an · outdoor concert in the park.",
+      "russian": "Мы сходили на · концерт на открытом воздухе в парке.",
+      "start": 372.781,
+      "end": 388.306
+    },
+    {
+      "id": 27,
+      "english": "She · pretended not to hear the question.",
+      "russian": "Она · притворилась, что не слышит вопроса.",
+      "start": 388.306,
+      "end": 403.365
+    },
+    {
+      "id": 28,
+      "english": "We need · reliable internet for work.",
+      "russian": "Нам нужен · надёжный интернет для работы.",
+      "start": 403.365,
+      "end": 418.679
+    },
+    {
+      "id": 29,
+      "english": "We found an · injured bird in the garden.",
+      "russian": "Мы нашли · раненую птицу в саду.",
+      "start": 418.679,
+      "end": 433.797
+    },
+    {
+      "id": 30,
+      "english": "The family · gathered for Sunday lunch.",
+      "russian": "Семья · собралась на воскресный обед.",
+      "start": 433.797,
+      "end": 448.367
+    }
+  ]
+}

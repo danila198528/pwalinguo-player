@@ -1,0 +1,220 @@
+{
+  "id": "deck-112",
+  "deck_name": "B1_3000_M 15",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M15.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 452.45,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "He · treated everyone with respect.",
+      "russian": "Он · относился ко всем с уважением.",
+      "start": 0.0,
+      "end": 14.847
+    },
+    {
+      "id": 2,
+      "english": "This is a · convenient payment method.",
+      "russian": "Это · удобный способ оплаты.",
+      "start": 14.847,
+      "end": 29.85
+    },
+    {
+      "id": 3,
+      "english": "· Consumer rights are protected by law.",
+      "russian": "· Права потребителей защищены законом.",
+      "start": 29.85,
+      "end": 45.18
+    },
+    {
+      "id": 4,
+      "english": "The movie had an unexpected · plot twist.",
+      "russian": "В фильме был неожиданный · поворот сюжета.",
+      "start": 45.18,
+      "end": 60.81
+    },
+    {
+      "id": 5,
+      "english": "English is an · essential skill for this job.",
+      "russian": "Английский - · необходимый навык для этой работы.",
+      "start": 60.81,
+      "end": 76.63
+    },
+    {
+      "id": 6,
+      "english": "We ran out of · fuel on the highway.",
+      "russian": "У нас закончилось · топливо на трассе.",
+      "start": 76.63,
+      "end": 91.619
+    },
+    {
+      "id": 7,
+      "english": "· Pour the milk into the glass.",
+      "russian": "· Налей молоко в стакан.",
+      "start": 91.619,
+      "end": 105.863
+    },
+    {
+      "id": 8,
+      "english": "She squeezed toothpaste from the ·  tube.",
+      "russian": "Она  выдавила зубную пасту из · тюбика.",
+      "start": 105.863,
+      "end": 120.91
+    },
+    {
+      "id": 9,
+      "english": "The movie had a · disappointing ending.",
+      "russian": "У фильма был · разочаровывающий конец.",
+      "start": 120.91,
+      "end": 135.68
+    },
+    {
+      "id": 10,
+      "english": "The neighbor made a · complaint about the noise.",
+      "russian": "Сосед подал · жалобу на шум.",
+      "start": 135.68,
+      "end": 151.087
+    },
+    {
+      "id": 11,
+      "english": "The basement has a low · ceiling.",
+      "russian": "В подвале низкий · потолок.",
+      "start": 151.087,
+      "end": 165.524
+    },
+    {
+      "id": 12,
+      "english": "They plan to · expand the business abroad.",
+      "russian": "Они планируют · расширить бизнес за границу.",
+      "start": 165.524,
+      "end": 180.941
+    },
+    {
+      "id": 13,
+      "english": "I felt · excitement before the concert.",
+      "russian": "Я чувствовал · волнение перед концертом.",
+      "start": 180.941,
+      "end": 196.116
+    },
+    {
+      "id": 14,
+      "english": "His glasses · frame was bent.",
+      "russian": "· Оправа его очков была погнута.",
+      "start": 196.116,
+      "end": 210.479
+    },
+    {
+      "id": 15,
+      "english": "The traffic · flow was blocked by the accident.",
+      "russian": "· Поток машин был заблокирован аварией.",
+      "start": 210.479,
+      "end": 226.186
+    },
+    {
+      "id": 16,
+      "english": "She was · treated unfairly at work.",
+      "russian": "С ней · относились несправедливо на работе.",
+      "start": 226.186,
+      "end": 241.197
+    },
+    {
+      "id": 17,
+      "english": "Is this a · convenient time for a meeting?",
+      "russian": "Это · удобное время для встречи?",
+      "start": 241.197,
+      "end": 256.283
+    },
+    {
+      "id": 18,
+      "english": "We read · consumer feedback on the site.",
+      "russian": "Мы читали · отзывы потребителей на сайте.",
+      "start": 256.283,
+      "end": 271.774
+    },
+    {
+      "id": 19,
+      "english": "The movie's · plot was predictable and boring.",
+      "russian": "Сюжет фильма был предсказуемым и скучным.",
+      "start": 271.774,
+      "end": 287.443
+    },
+    {
+      "id": 20,
+      "english": "Water is · essential for survival.",
+      "russian": "Вода · необходима для выживания.",
+      "start": 287.443,
+      "end": 302.433
+    },
+    {
+      "id": 21,
+      "english": "The · fuel price increased again.",
+      "russian": "Цена на · топливо снова выросла.",
+      "start": 302.433,
+      "end": 317.05
+    },
+    {
+      "id": 22,
+      "english": "· Pour the juice carefully, don't spill.",
+      "russian": "· Налей сок аккуратно, не разлей.",
+      "start": 317.05,
+      "end": 332.24
+    },
+    {
+      "id": 23,
+      "english": "I need a · tube of glue for my craft.",
+      "russian": "Мне нужен · тюбик клея для поделки.",
+      "start": 332.24,
+      "end": 347.245
+    },
+    {
+      "id": 24,
+      "english": "The doctor gave · disappointing news.",
+      "russian": "Врач сообщил · разочаровывающие новости.",
+      "start": 347.245,
+      "end": 362.224
+    },
+    {
+      "id": 25,
+      "english": "He ignored her constant · complaints.",
+      "russian": "Он игнорировал её постоянные · жалобы.",
+      "start": 362.224,
+      "end": 377.358
+    },
+    {
+      "id": 26,
+      "english": "The · ceiling collapsed because of a leak.",
+      "russian": "· Потолок обрушился из-за протечки.",
+      "start": 377.358,
+      "end": 392.094
+    },
+    {
+      "id": 27,
+      "english": "I · expanded my vocabulary daily.",
+      "russian": "Я ежедневно · расширял свой словарный запас.",
+      "start": 392.094,
+      "end": 407.298
+    },
+    {
+      "id": 28,
+      "english": "The · excitement of winning was great.",
+      "russian": "· Волнение от победы было огромным.",
+      "start": 407.298,
+      "end": 422.154
+    },
+    {
+      "id": 29,
+      "english": "The bicycle · frame cracked.",
+      "russian": "· Рама велосипеда треснула.",
+      "start": 422.154,
+      "end": 436.285
+    },
+    {
+      "id": 30,
+      "english": "Lava · flow from the volcano destroyed houses.",
+      "russian": "· Поток лавы из вулкана разрушил дома.",
+      "start": 436.285,
+      "end": 452.447
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "deck-110",
+  "deck_name": "B1_3000_M 13",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M13.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 458.83,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The · silent forest had no sound.",
+      "russian": "· Безмолвный лес был беззвучным.",
+      "start": 0.0,
+      "end": 15.334
+    },
+    {
+      "id": 2,
+      "english": "She shared an inspirational · quotation.",
+      "russian": "Она поделилась вдохновляющей · цитатой.",
+      "start": 15.334,
+      "end": 30.76
+    },
+    {
+      "id": 3,
+      "english": "She bought · fashionable shoes from Paris.",
+      "russian": "Она купила · модные туфли из Парижа.",
+      "start": 30.76,
+      "end": 46.055
+    },
+    {
+      "id": 4,
+      "english": "We · hired a new assistant for the office.",
+      "russian": "Мы · наняли нового помощника в офис.",
+      "start": 46.055,
+      "end": 61.383
+    },
+    {
+      "id": 5,
+      "english": "There is a strong · similarity between the twins.",
+      "russian": "Между близнецами большое · сходство.",
+      "start": 61.383,
+      "end": 77.683
+    },
+    {
+      "id": 6,
+      "english": "He is a recent · graduate seeking a job.",
+      "russian": "Он недавний · выпускник, ищущий работу.",
+      "start": 77.683,
+      "end": 93.114
+    },
+    {
+      "id": 7,
+      "english": "It was a rare · occasion to see them.",
+      "russian": "Это был редкий · случай увидеть их.",
+      "start": 93.114,
+      "end": 107.862
+    },
+    {
+      "id": 8,
+      "english": "She wore rubber · gloves for cleaning.",
+      "russian": "Она надела резиновые · перчатки для уборки.",
+      "start": 107.862,
+      "end": 122.426
+    },
+    {
+      "id": 9,
+      "english": "Our · competitor stole an important client.",
+      "russian": "Наш · конкурент переманил важного клиента.",
+      "start": 122.426,
+      "end": 138.021
+    },
+    {
+      "id": 10,
+      "english": "She felt · guilty after telling a lie.",
+      "russian": "Она чувствовала себя · виноватой после лжи.",
+      "start": 138.021,
+      "end": 153.331
+    },
+    {
+      "id": 11,
+      "english": "The · unnecessary paperwork wasted our time.",
+      "russian": "· Ненужная бумажная волокита отняла наше время.",
+      "start": 153.331,
+      "end": 169.798
+    },
+    {
+      "id": 12,
+      "english": "The loud music · annoyed the neighbours.",
+      "russian": "Громкая музыка · раздражала соседей.",
+      "start": 169.798,
+      "end": 184.491
+    },
+    {
+      "id": 13,
+      "english": "I got a flat · tyre on the highway.",
+      "russian": "У меня спустила · шина на трассе.",
+      "start": 184.491,
+      "end": 199.556
+    },
+    {
+      "id": 14,
+      "english": "She had an · imaginary friend in childhood.",
+      "russian": "У неё был · воображаемый друг в детстве.",
+      "start": 199.556,
+      "end": 215.128
+    },
+    {
+      "id": 15,
+      "english": "She stood at the cliff · edge.",
+      "russian": "Она стояла на ·  краю  обрыва.",
+      "start": 215.128,
+      "end": 228.919
+    },
+    {
+      "id": 16,
+      "english": "The library has a · silent atmosphere.",
+      "russian": "В библиотеке · тихая атмосфера.",
+      "start": 228.919,
+      "end": 244.113
+    },
+    {
+      "id": 17,
+      "english": "I used a · quotation in my essay.",
+      "russian": "Я использовал · цитату в своём эссе.",
+      "start": 244.113,
+      "end": 259.015
+    },
+    {
+      "id": 18,
+      "english": "These sunglasses are very · fashionable this summer.",
+      "russian": "Эти солнечные очки очень · модные этим летом.",
+      "start": 259.015,
+      "end": 275.186
+    },
+    {
+      "id": 19,
+      "english": "She · hired a lawyer for her case.",
+      "russian": "Она · наняла адвоката для своего дела.",
+      "start": 275.186,
+      "end": 289.925
+    },
+    {
+      "id": 20,
+      "english": "I noticed the · similarity of the two paintings.",
+      "russian": "Я заметил · сходство двух картин.",
+      "start": 289.925,
+      "end": 306.236
+    },
+    {
+      "id": 21,
+      "english": "The · graduate received his diploma.",
+      "russian": "· Выпускник получил свой диплом.",
+      "start": 306.236,
+      "end": 321.037
+    },
+    {
+      "id": 22,
+      "english": "We bought a gift for a special · occasion.",
+      "russian": "Мы купили подарок для особого · случая.",
+      "start": 321.037,
+      "end": 336.126
+    },
+    {
+      "id": 23,
+      "english": "I need warm winter · gloves for the snow.",
+      "russian": "Мне нужны тёплые зимние · перчатки.",
+      "start": 336.126,
+      "end": 351.143
+    },
+    {
+      "id": 24,
+      "english": "My · competitor won the race.",
+      "russian": "Мой · соперник выиграл гонку.",
+      "start": 351.143,
+      "end": 365.568
+    },
+    {
+      "id": 25,
+      "english": "The jury found him · guilty of the crime.",
+      "russian": "Присяжные признали его · виновным в преступлении.",
+      "start": 365.568,
+      "end": 380.975
+    },
+    {
+      "id": 26,
+      "english": "I removed all · unnecessary files from my computer.",
+      "russian": "Я удалил все · ненужные файлы с компьютера.",
+      "start": 380.975,
+      "end": 398.137
+    },
+    {
+      "id": 27,
+      "english": "I was · annoyed by the slow internet connection.",
+      "russian": "Я был · раздражён медленным интернетом.",
+      "start": 398.137,
+      "end": 413.935
+    },
+    {
+      "id": 28,
+      "english": "The · tyre blew out at high speed.",
+      "russian": "· Шина лопнула на высокой скорости.",
+      "start": 413.935,
+      "end": 428.928
+    },
+    {
+      "id": 29,
+      "english": "The child saw an · imaginary monster under the bed.",
+      "russian": "Ребёнок увидел · воображаемого монстра под кроватью.",
+      "start": 428.928,
+      "end": 445.11
+    },
+    {
+      "id": 30,
+      "english": "I sat on the · edge of the bed.",
+      "russian": "Я сел на · край кровати.",
+      "start": 445.11,
+      "end": 458.831
+    }
+  ]
+}

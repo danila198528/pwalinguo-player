@@ -1,0 +1,220 @@
+{
+  "id": "deck-111",
+  "deck_name": "B1_3000_M 14",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M14.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 450.67,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The · headline on the front page was shocking.",
+      "russian": "· Заголовок на первой странице был шокирующим.",
+      "start": 0.0,
+      "end": 15.468
+    },
+    {
+      "id": 2,
+      "english": "The water · pipe froze in winter.",
+      "russian": "Водопроводная · труба замёрзла зимой.",
+      "start": 15.468,
+      "end": 29.902
+    },
+    {
+      "id": 3,
+      "english": "The coach · encouraged the team before the game.",
+      "russian": "Тренер · воодушевил команду перед игрой.",
+      "start": 29.902,
+      "end": 45.638
+    },
+    {
+      "id": 4,
+      "english": "It took great · effort to lift the heavy box.",
+      "russian": "Потребовалось большое · усилие, чтобы поднять тяжёлую коробку.",
+      "start": 45.638,
+      "end": 61.406
+    },
+    {
+      "id": 5,
+      "english": "His habit of interrupting is · annoying.",
+      "russian": "Его привычка перебивать · раздражает.",
+      "start": 61.406,
+      "end": 76.451
+    },
+    {
+      "id": 6,
+      "english": "He was the · victim of a robbery.",
+      "russian": "Он стал · жертвой ограбления.",
+      "start": 76.451,
+      "end": 90.602
+    },
+    {
+      "id": 7,
+      "english": "A · stranger asked me for directions.",
+      "russian": "· Незнакомец спросил у меня дорогу.",
+      "start": 90.602,
+      "end": 105.746
+    },
+    {
+      "id": 8,
+      "english": "We live in a · remote mountain village.",
+      "russian": "Мы живём в · удалённой горной деревне.",
+      "start": 105.746,
+      "end": 120.51
+    },
+    {
+      "id": 9,
+      "english": "The · sight from the mountain was beautiful.",
+      "russian": "· Вид с горы был прекрасным.",
+      "start": 120.51,
+      "end": 135.381
+    },
+    {
+      "id": 10,
+      "english": "The gas · explosion destroyed the house.",
+      "russian": "· Взрыв газа разрушил дом.",
+      "start": 135.381,
+      "end": 150.619
+    },
+    {
+      "id": 11,
+      "english": "He wrote a · poem for his girlfriend.",
+      "russian": "Он  написал ·  стихотворение для своей девушки.",
+      "start": 150.619,
+      "end": 165.56
+    },
+    {
+      "id": 12,
+      "english": "He gave an · honest answer to the question.",
+      "russian": "Он дал · честный ответ на вопрос.",
+      "start": 165.56,
+      "end": 180.414
+    },
+    {
+      "id": 13,
+      "english": "I got a good · grade on my math exam.",
+      "russian": "Я получил хорошую · оценку на экзамене по математике.",
+      "start": 180.414,
+      "end": 195.703
+    },
+    {
+      "id": 14,
+      "english": "I am · grateful for your help.",
+      "russian": "Я · благодарен за вашу помощь.",
+      "start": 195.703,
+      "end": 209.748
+    },
+    {
+      "id": 15,
+      "english": "There was a long · queue at the supermarket.",
+      "russian": "В супермаркете была длинная · очередь.",
+      "start": 209.748,
+      "end": 224.996
+    },
+    {
+      "id": 16,
+      "english": "The clickbait · headline tricked me into reading.",
+      "russian": "Кликбейтный · заголовок заставил меня прочитать.",
+      "start": 224.996,
+      "end": 240.62
+    },
+    {
+      "id": 17,
+      "english": "There is a leaky · pipe under the kitchen sink.",
+      "russian": "Под кухонной мойкой протекает · труба.",
+      "start": 240.62,
+      "end": 256.197
+    },
+    {
+      "id": 18,
+      "english": "We were · encouraged by the crowd's cheers.",
+      "russian": "Нас · воодушевили крики толпы.",
+      "start": 256.197,
+      "end": 271.64
+    },
+    {
+      "id": 19,
+      "english": "He puts extra · effort into his training.",
+      "russian": "Он прилагает дополнительные · усилия в тренировках.",
+      "start": 271.64,
+      "end": 287.029
+    },
+    {
+      "id": 20,
+      "english": "The constant buzzing of mosquitoes was · annoying.",
+      "russian": "Постоянное жужжание комаров было · раздражающим.",
+      "start": 287.029,
+      "end": 302.972
+    },
+    {
+      "id": 21,
+      "english": "The · victim testified in court.",
+      "russian": "· Жертва дала показания в суде.",
+      "start": 302.972,
+      "end": 317.875
+    },
+    {
+      "id": 22,
+      "english": "Don't talk to · strangers.",
+      "russian": "Не разговаривай с · незнакомцами.",
+      "start": 317.875,
+      "end": 331.722
+    },
+    {
+      "id": 23,
+      "english": "She works · remotely from home.",
+      "russian": "Она  работает · удалённо из дома.",
+      "start": 331.722,
+      "end": 346.283
+    },
+    {
+      "id": 24,
+      "english": "The · sight of the ocean amazed me.",
+      "russian": "· Вид океана поразил меня.",
+      "start": 346.283,
+      "end": 360.737
+    },
+    {
+      "id": 25,
+      "english": "The · explosion of fireworks lit the sky.",
+      "russian": "· Взрыв фейерверков осветил небо.",
+      "start": 360.737,
+      "end": 376.437
+    },
+    {
+      "id": 26,
+      "english": "She  memorized a famous ·  poem.",
+      "russian": "Она · выучила наизусть известное стихотворение.",
+      "start": 376.437,
+      "end": 390.987
+    },
+    {
+      "id": 27,
+      "english": "An · honest person never tells lies.",
+      "russian": "· Честный человек никогда не лжёт.",
+      "start": 390.987,
+      "end": 406.239
+    },
+    {
+      "id": 28,
+      "english": "The bad · grade disappointed him.",
+      "russian": "Плохая · оценка разочаровала его.",
+      "start": 406.239,
+      "end": 420.799
+    },
+    {
+      "id": 29,
+      "english": "She is · grateful for this opportunity.",
+      "russian": "Она · благодарна за эту возможность.",
+      "start": 420.799,
+      "end": 435.758
+    },
+    {
+      "id": 30,
+      "english": "We stood in a · queue for movie tickets.",
+      "russian": "Мы стояли в · очереди за билетами в кино.",
+      "start": 435.758,
+      "end": 450.672
+    }
+  ]
+}
