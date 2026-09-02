@@ -1,0 +1,220 @@
+{
+  "id": "deck-113",
+  "deck_name": "B1_3000_M 16",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M16.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 432.6,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "She spoke with real · passion.",
+      "russian": "Она говорила с настоящей · страстью.",
+      "start": 0.0,
+      "end": 14.468
+    },
+    {
+      "id": 2,
+      "english": "The · priest blessed the young couple.",
+      "russian": "· Священник благословил молодую пару.",
+      "start": 14.468,
+      "end": 28.768
+    },
+    {
+      "id": 3,
+      "english": "He · cheated during the board game.",
+      "russian": "Он · жульничал во время настольной игры.",
+      "start": 28.768,
+      "end": 43.494
+    },
+    {
+      "id": 4,
+      "english": "The · brave firefighter saved lives.",
+      "russian": "· Смелый пожарный спас жизни.",
+      "start": 43.494,
+      "end": 58.756
+    },
+    {
+      "id": 5,
+      "english": "We made a · comparison between the two phones.",
+      "russian": "Мы провели · сравнение двух телефонов.",
+      "start": 58.756,
+      "end": 80.66
+    },
+    {
+      "id": 6,
+      "english": "I have a distant · relative in Europe.",
+      "russian": "У меня есть дальний · родственник в Европе.",
+      "start": 80.66,
+      "end": 95.561
+    },
+    {
+      "id": 7,
+      "english": "The dog · buried its bone in the yard.",
+      "russian": "Собака · закопала кость во дворе.",
+      "start": 95.561,
+      "end": 110.524
+    },
+    {
+      "id": 8,
+      "english": "He · entertained the crowd with jokes.",
+      "russian": "Он · развлекал толпу шутками.",
+      "start": 110.524,
+      "end": 125.756
+    },
+    {
+      "id": 9,
+      "english": "She · injured her back lifting boxes.",
+      "russian": "Она · повредила спину, поднимая коробки.",
+      "start": 125.756,
+      "end": 140.502
+    },
+    {
+      "id": 10,
+      "english": "There was a · layer of dust on the shelf.",
+      "russian": "На полке был · слой пыли.",
+      "start": 140.502,
+      "end": 155.014
+    },
+    {
+      "id": 11,
+      "english": "I · confirmed the hotel booking.",
+      "russian": "Я · подтвердил бронирование отеля.",
+      "start": 155.014,
+      "end": 169.616
+    },
+    {
+      "id": 12,
+      "english": "I burned my · tongue on hot soup.",
+      "russian": "Я обжёг · язык горячим супом.",
+      "start": 169.616,
+      "end": 184.226
+    },
+    {
+      "id": 13,
+      "english": "He made a great first · impression.",
+      "russian": "Он произвёл отличное первое · впечатление.",
+      "start": 184.226,
+      "end": 200.42
+    },
+    {
+      "id": 14,
+      "english": "She · assisted the elderly lady across the street.",
+      "russian": "Она · помогла пожилой женщине перейти улицу.",
+      "start": 200.42,
+      "end": 212.049
+    },
+    {
+      "id": 15,
+      "english": "He · released the bird from its cage.",
+      "russian": "Он · выпустил птицу из клетки.",
+      "start": 212.049,
+      "end": 226.898
+    },
+    {
+      "id": 16,
+      "english": "He followed his · passion for music.",
+      "russian": "Он следовал своей · страсти к музыке.",
+      "start": 226.898,
+      "end": 240.834
+    },
+    {
+      "id": 17,
+      "english": "He confessed to the · priest.",
+      "russian": "Он исповедался · священнику.",
+      "start": 240.834,
+      "end": 255.441
+    },
+    {
+      "id": 18,
+      "english": "She was caught · cheating at cards.",
+      "russian": "Её поймали на · жульничестве в карты.",
+      "start": 255.441,
+      "end": 270.337
+    },
+    {
+      "id": 19,
+      "english": "The · brave dog protected the family.",
+      "russian": "· Смелая собака защитила семью.",
+      "start": 270.337,
+      "end": 285.655
+    },
+    {
+      "id": 20,
+      "english": "I did a · comparison of prices online.",
+      "russian": "Я сделал · сравнение цен в интернете.",
+      "start": 285.655,
+      "end": 301.033
+    },
+    {
+      "id": 21,
+      "english": "All my · relatives gathered for the funeral.",
+      "russian": "Все мои · родственники собрались на похороны.",
+      "start": 301.033,
+      "end": 315.502
+    },
+    {
+      "id": 22,
+      "english": "They · buried treasure on the island.",
+      "russian": "Они · закопали сокровище на острове.",
+      "start": 315.502,
+      "end": 327.499
+    },
+    {
+      "id": 23,
+      "english": "She · entertained children with games.",
+      "russian": "Она · развлекала детей играми.",
+      "start": 327.499,
+      "end": 342.295
+    },
+    {
+      "id": 24,
+      "english": "He · injured his knee during soccer.",
+      "russian": "Он · повредил колено во время футбола.",
+      "start": 342.295,
+      "end": 356.637
+    },
+    {
+      "id": 25,
+      "english": "An onion has many · layers.",
+      "russian": "У лука много · слоёв.",
+      "start": 356.637,
+      "end": 371.448
+    },
+    {
+      "id": 26,
+      "english": "Please · confirm the time of the meeting.",
+      "russian": "Пожалуйста, · подтвердите время встречи.",
+      "start": 371.448,
+      "end": 386.338
+    },
+    {
+      "id": 27,
+      "english": "She stuck out her · tongue at the photo.",
+      "russian": "Она высунула · язык на фото.",
+      "start": 386.338,
+      "end": 401.83
+    },
+    {
+      "id": 28,
+      "english": "I had a bad · impression of the new restaurant.",
+      "russian": "У меня сложилось плохое · впечатление о новом ресторане.",
+      "start": 401.83,
+      "end": 417.631
+    },
+    {
+      "id": 29,
+      "english": "The nurse · assisted the doctor during surgery.",
+      "russian": "Медсестра · помогала врачу во время операции.",
+      "start": 417.631,
+      "end": 432.6
+    },
+    {
+      "id": 30,
+      "english": "The court · released the prisoner from jail.",
+      "russian": "Суд · освободил заключённого из тюрьмы.",
+      "start": 432.6,
+      "end": 432.6
+    }
+  ]
+}

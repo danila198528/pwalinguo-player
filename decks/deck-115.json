@@ -1,0 +1,220 @@
+{
+  "id": "deck-115",
+  "deck_name": "B1_3000_M 18",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M18.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 454.08,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "I have · muscle pain after my workout.",
+      "russian": "У меня · боль в мышцах после тренировки.",
+      "start": 0.0,
+      "end": 15.68
+    },
+    {
+      "id": 2,
+      "english": "He climbed the wall using a · rope.",
+      "russian": "Он залез на стену с помощью · верёвки.",
+      "start": 15.68,
+      "end": 30.532
+    },
+    {
+      "id": 3,
+      "english": "· Proper behavior is expected in the library.",
+      "russian": "В библиотеке ожидается · надлежащее поведение.",
+      "start": 30.532,
+      "end": 46.245
+    },
+    {
+      "id": 4,
+      "english": "The coach · defined the rules of the game.",
+      "russian": "Тренер · определил правила игры.",
+      "start": 46.245,
+      "end": 61.299
+    },
+    {
+      "id": 5,
+      "english": "It is our · duty to pay taxes.",
+      "russian": "Наша · обязанность — платить налоги.",
+      "start": 61.299,
+      "end": 76.33
+    },
+    {
+      "id": 6,
+      "english": "She was · disappointed about the canceled concert.",
+      "russian": "Она была · разочарована отменой концерта.",
+      "start": 76.33,
+      "end": 92.004
+    },
+    {
+      "id": 7,
+      "english": "She · consumed too much sugar.",
+      "russian": "Она · потребляла слишком много сахара.",
+      "start": 92.004,
+      "end": 106.538
+    },
+    {
+      "id": 8,
+      "english": "She packed her · stuff into boxes for the move.",
+      "russian": "Она упаковала свои · вещи в коробки для переезда.",
+      "start": 106.538,
+      "end": 122.353
+    },
+    {
+      "id": 9,
+      "english": "We need to · weigh the package before shipping.",
+      "russian": "Нам нужно · взвесить посылку перед отправкой.",
+      "start": 122.353,
+      "end": 137.682
+    },
+    {
+      "id": 10,
+      "english": "She asked an · embarrassing question at dinner.",
+      "russian": "Она задала · неловкий вопрос за ужином.",
+      "start": 137.682,
+      "end": 153.159
+    },
+    {
+      "id": 11,
+      "english": "The old bookshelf was covered in · dust.",
+      "russian": "Старый книжный шкаф был покрыт · пылью.",
+      "start": 153.159,
+      "end": 168.257
+    },
+    {
+      "id": 12,
+      "english": "Birds ate the · seeds from the ground.",
+      "russian": "Птицы съели · семена с земли.",
+      "start": 168.257,
+      "end": 182.933
+    },
+    {
+      "id": 13,
+      "english": "He · kicked the ball across the field.",
+      "russian": "Он · пнул мяч через поле.",
+      "start": 182.933,
+      "end": 197.685
+    },
+    {
+      "id": 14,
+      "english": "The cat jumped over the wooden · fence.",
+      "russian": "Кошка перепрыгнула через деревянный · забор.",
+      "start": 197.685,
+      "end": 212.551
+    },
+    {
+      "id": 15,
+      "english": "The car got stuck in the thick · mud.",
+      "russian": "Машина застряла в густой · грязи.",
+      "start": 212.551,
+      "end": 227.371
+    },
+    {
+      "id": 16,
+      "english": "He strained a · muscle during exercise.",
+      "russian": "Он растянул · мышцу во время упражнений.",
+      "start": 227.371,
+      "end": 243.022
+    },
+    {
+      "id": 17,
+      "english": "We need a · rope to tie the boat.",
+      "russian": "Нам нужна · верёвка, чтобы привязать лодку.",
+      "start": 243.022,
+      "end": 257.33
+    },
+    {
+      "id": 18,
+      "english": "A · proper uniform is required for the job.",
+      "russian": "Для этой работы требуется · правильная униформа.",
+      "start": 257.33,
+      "end": 273.108
+    },
+    {
+      "id": 19,
+      "english": "We need to · define the goal before starting.",
+      "russian": "Нам нужно · определить цель перед началом.",
+      "start": 273.108,
+      "end": 288.631
+    },
+    {
+      "id": 20,
+      "english": "It is their · duty to protect the country.",
+      "russian": "Их · долг — защищать страну.",
+      "start": 288.631,
+      "end": 303.695
+    },
+    {
+      "id": 21,
+      "english": "The · disappointed customer asked for a refund.",
+      "russian": "· Разочарованный клиент попросил возврат денег.",
+      "start": 303.695,
+      "end": 320.073
+    },
+    {
+      "id": 22,
+      "english": "This car · consumes a lot of fuel.",
+      "russian": "Эта машина · потребляет много топлива.",
+      "start": 320.073,
+      "end": 335.394
+    },
+    {
+      "id": 23,
+      "english": "He left his · stuff at a friend's house.",
+      "russian": "Он оставил свои · вещи у друга.",
+      "start": 335.394,
+      "end": 350.652
+    },
+    {
+      "id": 24,
+      "english": "She · weighed the fruit at the store.",
+      "russian": "Она · взвесила фрукты в магазине.",
+      "start": 350.652,
+      "end": 364.849
+    },
+    {
+      "id": 25,
+      "english": "It was an · embarrassing moment for everyone.",
+      "russian": "Это был · неловкий момент для всех.",
+      "start": 364.849,
+      "end": 380.07
+    },
+    {
+      "id": 26,
+      "english": "I wiped the · dust off the old piano.",
+      "russian": "Я стёр · пыль со старого пианино.",
+      "start": 380.07,
+      "end": 394.99
+    },
+    {
+      "id": 27,
+      "english": "She planted · seeds in the garden.",
+      "russian": "Она посадила · семена в саду.",
+      "start": 394.99,
+      "end": 409.616
+    },
+    {
+      "id": 28,
+      "english": "He · kicked the door open.",
+      "russian": "Он · пнул дверь, и она открылась.",
+      "start": 409.616,
+      "end": 423.403
+    },
+    {
+      "id": 29,
+      "english": "The dog barked loudly behind the · fence.",
+      "russian": "Собака громко лаяла за · забором.",
+      "start": 423.403,
+      "end": 438.889
+    },
+    {
+      "id": 30,
+      "english": "There was thick · mud everywhere after the rain.",
+      "russian": "После дождя везде была густая · грязь.",
+      "start": 438.889,
+      "end": 454.079
+    }
+  ]
+}

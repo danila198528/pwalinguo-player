@@ -1,0 +1,220 @@
+{
+  "id": "deck-114",
+  "deck_name": "B1_3000_M 17",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M17.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 440.88,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The team · consists of five members.",
+      "russian": "Команда · состоит из пяти человек.",
+      "start": 0.0,
+      "end": 12.45
+    },
+    {
+      "id": 2,
+      "english": "His · silly joke made her laugh.",
+      "russian": "Его · глупая шутка рассмешила её.",
+      "start": 12.45,
+      "end": 27.108
+    },
+    {
+      "id": 3,
+      "english": "He stubbed his · toe on the table.",
+      "russian": "Он ударился · пальцем ноги о стол.",
+      "start": 27.108,
+      "end": 41.564
+    },
+    {
+      "id": 4,
+      "english": "He cleared his · throat before speaking.",
+      "russian": "Он прочистил · горло перед тем, как заговорить.",
+      "start": 41.564,
+      "end": 62.42
+    },
+    {
+      "id": 5,
+      "english": "He left a · generous tip for the waiter.",
+      "russian": "Он оставил · щедрые чаевые официанту.",
+      "start": 62.42,
+      "end": 77.594
+    },
+    {
+      "id": 6,
+      "english": "He escaped · poverty through hard work.",
+      "russian": "Он выбрался из · бедности благодаря упорному труду.",
+      "start": 77.594,
+      "end": 92.03
+    },
+    {
+      "id": 7,
+      "english": "I · wonder if it will rain today.",
+      "russian": "Мне · интересно, будет ли дождь сегодня.",
+      "start": 92.03,
+      "end": 107.083
+    },
+    {
+      "id": 8,
+      "english": "This is a safe · neighbourhood for children.",
+      "russian": "Это безопасный · район для детей.",
+      "start": 107.083,
+      "end": 122.611
+    },
+    {
+      "id": 9,
+      "english": "We · decorate the Christmas tree every year.",
+      "russian": "Мы · украшаем ёлку каждый год.",
+      "start": 122.611,
+      "end": 137.766
+    },
+    {
+      "id": 10,
+      "english": "He looked · pale after his long illness.",
+      "russian": "Он выглядел · бледным после долгой болезни.",
+      "start": 137.766,
+      "end": 153.573
+    },
+    {
+      "id": 11,
+      "english": "She has a positive · attitude towards life.",
+      "russian": "У неё позитивное · отношение к жизни.",
+      "start": 153.573,
+      "end": 168.378
+    },
+    {
+      "id": 12,
+      "english": "These shoes are · suitable for hiking.",
+      "russian": "Эти туфли · подходят для походов.",
+      "start": 168.378,
+      "end": 183.797
+    },
+    {
+      "id": 13,
+      "english": "She · divided the cake into slices.",
+      "russian": "Она · разделила торт на куски.",
+      "start": 183.797,
+      "end": 198.833
+    },
+    {
+      "id": 14,
+      "english": "I want to · participate in the marathon.",
+      "russian": "Я хочу · участвовать в марафоне.",
+      "start": 198.833,
+      "end": 214.007
+    },
+    {
+      "id": 15,
+      "english": "The referee made an · unfair decision.",
+      "russian": "Судья принял · несправедливое решение.",
+      "start": 214.007,
+      "end": 230.006
+    },
+    {
+      "id": 16,
+      "english": "The recipe · consists of simple ingredients.",
+      "russian": "Рецепт · состоит из простых ингредиентов.",
+      "start": 230.006,
+      "end": 244.804
+    },
+    {
+      "id": 17,
+      "english": "A · silly mistake cost them the game.",
+      "russian": "· Глупая ошибка стоила им победы в игре.",
+      "start": 244.804,
+      "end": 259.758
+    },
+    {
+      "id": 18,
+      "english": "I felt sand between my · toes.",
+      "russian": "Я чувствовал песок между · пальцами ног.",
+      "start": 259.758,
+      "end": 274.777
+    },
+    {
+      "id": 19,
+      "english": "I have a sore · throat from the cold weather.",
+      "russian": "У меня болит · горло из-за холодной погоды.",
+      "start": 274.777,
+      "end": 289.433
+    },
+    {
+      "id": 20,
+      "english": "They gave a · generous gift for the wedding.",
+      "russian": "Они сделали · щедрый подарок на свадьбу.",
+      "start": 289.433,
+      "end": 303.093
+    },
+    {
+      "id": 21,
+      "english": "She grew up in · poverty.",
+      "russian": "Она выросла в · бедности.",
+      "start": 303.093,
+      "end": 317.376
+    },
+    {
+      "id": 22,
+      "english": "She · wondered what happened next.",
+      "russian": "Она · задавалась вопросом, что случилось дальше.",
+      "start": 317.376,
+      "end": 332.284
+    },
+    {
+      "id": 23,
+      "english": "There is a new café in the · neighbourhood.",
+      "russian": "В · районе открылось новое кафе.",
+      "start": 332.284,
+      "end": 347.125
+    },
+    {
+      "id": 24,
+      "english": "They · decorate the house for Halloween.",
+      "russian": "Они · украшают дом к Хэллоуину.",
+      "start": 347.125,
+      "end": 361.905
+    },
+    {
+      "id": 25,
+      "english": "Her skin was · pale after the winter.",
+      "russian": "Её кожа была · бледной после зимы.",
+      "start": 361.905,
+      "end": 377.318
+    },
+    {
+      "id": 26,
+      "english": "His · attitude changed after the apology.",
+      "russian": "Его · отношение изменилось после извинений.",
+      "start": 377.318,
+      "end": 392.759
+    },
+    {
+      "id": 27,
+      "english": "She wore a · suitable outfit for the interview.",
+      "russian": "Она надела · подходящий наряд для собеседования.",
+      "start": 392.759,
+      "end": 409.194
+    },
+    {
+      "id": 28,
+      "english": "The class · divided into three groups for the project.",
+      "russian": "Класс · разделился на три группы для проекта.",
+      "start": 409.194,
+      "end": 424.691
+    },
+    {
+      "id": 29,
+      "english": "She · participated in the class discussion.",
+      "russian": "Она · участвовала в обсуждении на уроке.",
+      "start": 424.691,
+      "end": 440.879
+    },
+    {
+      "id": 30,
+      "english": "He received · unfair criticism from his boss.",
+      "russian": "Он получил · несправедливую критику от начальника.",
+      "start": 440.879,
+      "end": 440.879
+    }
+  ]
+}

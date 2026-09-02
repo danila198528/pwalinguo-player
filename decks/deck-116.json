@@ -1,0 +1,220 @@
+{
+  "id": "deck-116",
+  "deck_name": "B1_3000_M 19",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B1_3000_M19.mp3",
+  "group": "B1_3000_M",
+  "total_duration": 466.75,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "We have an emergency food · supply.",
+      "russian": "У нас есть аварийный запас · продовольствия.",
+      "start": 0.0,
+      "end": 15.14
+    },
+    {
+      "id": 2,
+      "english": "They · pray before every meal.",
+      "russian": "Они · молятся перед каждой едой.",
+      "start": 15.14,
+      "end": 29.466
+    },
+    {
+      "id": 3,
+      "english": "She spent her · childhood in the countryside.",
+      "russian": "Она провела своё · детство в деревне.",
+      "start": 29.466,
+      "end": 45.138
+    },
+    {
+      "id": 4,
+      "english": "She · remained calm during the crisis.",
+      "russian": "Она · оставалась спокойной во время кризиса.",
+      "start": 45.138,
+      "end": 60.355
+    },
+    {
+      "id": 5,
+      "english": "There is no need to · hurry; we have time.",
+      "russian": "Нет нужды · спешить; у нас есть время.",
+      "start": 60.355,
+      "end": 76.388
+    },
+    {
+      "id": 6,
+      "english": "There was an · odd smell coming from the kitchen.",
+      "russian": "Из кухни исходил · странный запах.",
+      "start": 76.388,
+      "end": 91.954
+    },
+    {
+      "id": 7,
+      "english": "I · intend to study abroad next year.",
+      "russian": "Я · намереваюсь учиться за границей в следующем году.",
+      "start": 91.954,
+      "end": 107.041
+    },
+    {
+      "id": 8,
+      "english": "An · unpleasant smell came from the garbage.",
+      "russian": "· Неприятный запах шёл от мусора.",
+      "start": 107.041,
+      "end": 122.49
+    },
+    {
+      "id": 9,
+      "english": "She went through a · painful breakup with her partner.",
+      "russian": "Она пережила · болезненный разрыв со своим партнёром.",
+      "start": 122.49,
+      "end": 138.704
+    },
+    {
+      "id": 10,
+      "english": "He felt a sharp pain in his · chest.",
+      "russian": "Он почувствовал острую боль в · груди.",
+      "start": 138.704,
+      "end": 153.882
+    },
+    {
+      "id": 11,
+      "english": "She felt · lonely after moving to a new city.",
+      "russian": "Она чувствовала себя · одинокой после переезда в новый город.",
+      "start": 153.882,
+      "end": 169.929
+    },
+    {
+      "id": 12,
+      "english": "I want to · bake a cake for her birthday.",
+      "russian": "Я хочу · испечь торт на её день рождения.",
+      "start": 169.929,
+      "end": 184.832
+    },
+    {
+      "id": 13,
+      "english": "There was · continuous rain for three days.",
+      "russian": "· Непрерывный дождь шёл три дня.",
+      "start": 184.832,
+      "end": 200.502
+    },
+    {
+      "id": 14,
+      "english": "He gave her a · gentle touch on the shoulder.",
+      "russian": "Он нежно · коснулся её плеча.",
+      "start": 200.502,
+      "end": 215.657
+    },
+    {
+      "id": 15,
+      "english": "Emotional · intelligence is very important.",
+      "russian": "Эмоциональный · интеллект очень важен.",
+      "start": 215.657,
+      "end": 231.485
+    },
+    {
+      "id": 16,
+      "english": "The emergency water · supply saved the town.",
+      "russian": "Аварийный запас · воды спас город.",
+      "start": 231.485,
+      "end": 247.338
+    },
+    {
+      "id": 17,
+      "english": "She · prayed for her sick relative every night.",
+      "russian": "Она · молилась за больного родственника каждую ночь.",
+      "start": 247.338,
+      "end": 262.948
+    },
+    {
+      "id": 18,
+      "english": "He is my · childhood best friend.",
+      "russian": "Он мой лучший друг с · детства.",
+      "start": 262.948,
+      "end": 277.901
+    },
+    {
+      "id": 19,
+      "english": "He · remained silent throughout the whole meeting.",
+      "russian": "Он · оставался молчаливым на протяжении всего собрания.",
+      "start": 277.901,
+      "end": 293.614
+    },
+    {
+      "id": 20,
+      "english": "We had to · hurry to catch the last train.",
+      "russian": "Нам пришлось · спешить, чтобы успеть на последний поезд.",
+      "start": 293.614,
+      "end": 308.874
+    },
+    {
+      "id": 21,
+      "english": "He asked an · odd question during the meeting.",
+      "russian": "Он задал · странный вопрос во время собрания.",
+      "start": 308.874,
+      "end": 324.261
+    },
+    {
+      "id": 22,
+      "english": "She never · intended to hurt anyone's feelings.",
+      "russian": "Она никогда не · намеревалась задеть чьи-либо чувства.",
+      "start": 324.261,
+      "end": 340.496
+    },
+    {
+      "id": 23,
+      "english": "An · unpleasant surprise was waiting for us at home.",
+      "russian": "Дома нас ждал · неприятный сюрприз.",
+      "start": 340.496,
+      "end": 356.841
+    },
+    {
+      "id": 24,
+      "english": "The · painful injection left a red mark.",
+      "russian": "· Болезненный укол оставил красное пятно.",
+      "start": 356.841,
+      "end": 372.527
+    },
+    {
+      "id": 25,
+      "english": "She has a broad · chest from swimming.",
+      "russian": "У неё широкая · грудь от плавания.",
+      "start": 372.527,
+      "end": 387.318
+    },
+    {
+      "id": 26,
+      "english": "A · lonely old man sat on the park bench.",
+      "russian": "· Одинокий старик сидел на скамейке в парке.",
+      "start": 387.318,
+      "end": 403.146
+    },
+    {
+      "id": 27,
+      "english": "She · baked fresh bread every morning.",
+      "russian": "Она · пекла свежий хлеб каждое утро.",
+      "start": 403.146,
+      "end": 418.1
+    },
+    {
+      "id": 28,
+      "english": "The company focuses on · continuous improvement.",
+      "russian": "Компания делает упор на · непрерывное улучшение.",
+      "start": 418.1,
+      "end": 434.394
+    },
+    {
+      "id": 29,
+      "english": "Her · gentle voice calmed the crying baby.",
+      "russian": "Её · нежный голос успокоил плачущего ребёнка.",
+      "start": 434.394,
+      "end": 449.72
+    },
+    {
+      "id": 30,
+      "english": "The scientist's high · intelligence helped him solve the problem.",
+      "russian": "Высокий · интеллект учёного помог ему решить проблему.",
+      "start": 449.72,
+      "end": 466.752
+    }
+  ]
+}
