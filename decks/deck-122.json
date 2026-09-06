@@ -1,0 +1,220 @@
+{
+  "id": "deck-122",
+  "deck_name": "B2_3000_M 6",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M6.mp3",
+  "group": "B2_3000_M",
+  "total_duration": 473.14,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "We watched the live · broadcast of the sports event.",
+      "russian": "Мы смотрели прямую · трансляцию спортивного события.",
+      "start": 0.0,
+      "end": 16.47
+    },
+    {
+      "id": 2,
+      "english": "The skiers went down the steep · slope.",
+      "russian": "Лыжники спустились по крутому · склону.",
+      "start": 16.47,
+      "end": 31.472
+    },
+    {
+      "id": 3,
+      "english": "The manual · labour required to build the fence was hard.",
+      "russian": "Ручной · труд, необходимый для постройки забора, был тяжёлым.",
+      "start": 31.472,
+      "end": 48.17
+    },
+    {
+      "id": 4,
+      "english": "It was a great · honor to meet the president.",
+      "russian": "Было большой · честью встретиться с президентом.",
+      "start": 48.17,
+      "end": 63.407
+    },
+    {
+      "id": 5,
+      "english": "He declared his annual · income on the tax form.",
+      "russian": "Он указал свой годовой · доход в налоговой декларации.",
+      "start": 63.407,
+      "end": 79.703
+    },
+    {
+      "id": 6,
+      "english": "She bought a large · bunch of red roses.",
+      "russian": "Она купила большой · пучок красных роз.",
+      "start": 79.703,
+      "end": 95.132
+    },
+    {
+      "id": 7,
+      "english": "The car has four rubber · tires.",
+      "russian": "У машины четыре резиновые · шины.",
+      "start": 95.132,
+      "end": 109.697
+    },
+    {
+      "id": 8,
+      "english": "It took · courage to admit his mistake publicly.",
+      "russian": "Потребовалось · мужество, чтобы публично признать свою ошибку.",
+      "start": 109.697,
+      "end": 125.516
+    },
+    {
+      "id": 9,
+      "english": "The small · creature hid under the bed.",
+      "russian": "Маленькое · существо спряталось под кроватью.",
+      "start": 125.516,
+      "end": 140.336
+    },
+    {
+      "id": 10,
+      "english": "he label shows the · origin of the product.",
+      "russian": "На этикетке указано · происхождение товара.",
+      "start": 140.336,
+      "end": 155.619
+    },
+    {
+      "id": 11,
+      "english": "They chose a beautiful · venue for the wedding.",
+      "russian": "Они выбрали красивое · место для свадьбы.",
+      "start": 155.619,
+      "end": 170.89
+    },
+    {
+      "id": 12,
+      "english": "The team accepted their · defeat with good sportsmanship.",
+      "russian": "Команда приняла своё · поражение с достоинством.",
+      "start": 170.89,
+      "end": 187.324
+    },
+    {
+      "id": 13,
+      "english": "I feel a moral · obligation to help the neighbor.",
+      "russian": "Я чувствую моральную · обязанность помочь соседу.",
+      "start": 187.324,
+      "end": 203.054
+    },
+    {
+      "id": 14,
+      "english": "The builder gave us an · estimate for the repair cost.",
+      "russian": "Строитель дал нам · оценку стоимости ремонта.",
+      "start": 203.054,
+      "end": 219.209
+    },
+    {
+      "id": 15,
+      "english": "The speaker showed great · confidence on stage.",
+      "russian": "Оратор проявил большую · уверенность на сцене.",
+      "start": 219.209,
+      "end": 235.233
+    },
+    {
+      "id": 16,
+      "english": "The news · broadcast was interrupted by breaking news.",
+      "russian": "Новостная · трансляция была прервана экстренными новостями.",
+      "start": 235.233,
+      "end": 252.415
+    },
+    {
+      "id": 17,
+      "english": "We walked up the gentle · slope of the hill.",
+      "russian": "Мы поднялись по пологому · склону холма.",
+      "start": 252.415,
+      "end": 267.585
+    },
+    {
+      "id": 18,
+      "english": "He saved money by doing the · labour himself.",
+      "russian": "Он сэкономил деньги, выполнив · работу самостоятельно.",
+      "start": 267.585,
+      "end": 283.4
+    },
+    {
+      "id": 19,
+      "english": "He promised to defend his family's · honor.",
+      "russian": "Он пообещал защищать · честь своей семьи.",
+      "start": 283.4,
+      "end": 298.828
+    },
+    {
+      "id": 20,
+      "english": "Her only · income comes from a part-time job.",
+      "russian": "Её единственный · доход поступает с работы на полставки.",
+      "start": 298.828,
+      "end": 314.856
+    },
+    {
+      "id": 21,
+      "english": "He jingled a · bunch of keys in his hand.",
+      "russian": "Он позвякивал · связкой ключей в руке.",
+      "start": 314.856,
+      "end": 330.44
+    },
+    {
+      "id": 22,
+      "english": "She wore rubber · gloves to wash the dishes.",
+      "russian": "Она надела резиновые · перчатки, чтобы мыть посуду.",
+      "start": 330.44,
+      "end": 345.691
+    },
+    {
+      "id": 23,
+      "english": "She found the · courage to speak up in the meeting.",
+      "russian": "Она нашла в себе · смелость высказаться на собрании.",
+      "start": 345.691,
+      "end": 361.266
+    },
+    {
+      "id": 24,
+      "english": "She treats every living · creature with kindness.",
+      "russian": "Она относится к каждому живому · существу с добротой.",
+      "start": 361.266,
+      "end": 377.117
+    },
+    {
+      "id": 25,
+      "english": "He traced his family's · origin back to Ireland.",
+      "russian": "Он проследил · происхождение своей семьи до Ирландии.",
+      "start": 377.117,
+      "end": 393.237
+    },
+    {
+      "id": 26,
+      "english": "The concert · venue was full of fans.",
+      "russian": "· Место концерта было полно фанатов.",
+      "start": 393.237,
+      "end": 408.418
+    },
+    {
+      "id": 27,
+      "english": "After a long game, the chess player admitted · defeat.",
+      "russian": "После долгой игры шахматист признал · поражение.",
+      "start": 408.418,
+      "end": 425.645
+    },
+    {
+      "id": 28,
+      "english": "You have a legal · obligation to pay taxes.",
+      "russian": "У вас есть юридическая · обязанность платить налоги.",
+      "start": 425.645,
+      "end": 441.628
+    },
+    {
+      "id": 29,
+      "english": "Can you give me a quick · estimate of the travel time?",
+      "russian": "Можешь сделать быстрый · расчёт времени в пути?",
+      "start": 441.628,
+      "end": 457.504
+    },
+    {
+      "id": 30,
+      "english": "The coach tried to boost the player's · confidence.",
+      "russian": "Тренер пытался поднять · уверенность игрока.",
+      "start": 457.504,
+      "end": 473.136
+    }
+  ]
+}

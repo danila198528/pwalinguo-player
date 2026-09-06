@@ -1,0 +1,213 @@
+{
+  "id": "deck-125",
+  "deck_name": "B2_3000_M 9",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M9.mp3",
+  "group": "B2_3000_M",
+  "total_duration": 433.27,
+  "total_sentences": 29,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Let's look at this problem from another · angle.",
+      "russian": "Давай посмотрим на эту проблему под другим · углом.",
+      "start": 0.0,
+      "end": 15.597
+    },
+    {
+      "id": 2,
+      "english": "He felt sudden · anger when someone cut in line.",
+      "russian": "Он почувствовал внезапный · гнев, когда кто-то пролез без очереди.",
+      "start": 15.597,
+      "end": 38.782
+    },
+    {
+      "id": 3,
+      "english": "The farmer harvested his wheat · crop last week.",
+      "russian": "Фермер собрал ·  урожай пшеницы на прошлой неделе.",
+      "start": 38.782,
+      "end": 54.021
+    },
+    {
+      "id": 4,
+      "english": "The · depth of the pool is marked on the wall.",
+      "russian": "· Глубина бассейна отмечена на стене.",
+      "start": 54.021,
+      "end": 69.681
+    },
+    {
+      "id": 5,
+      "english": "The · flame from the campfire kept us warm.",
+      "russian": "· Пламя костра согревало нас.",
+      "start": 69.681,
+      "end": 84.849
+    },
+    {
+      "id": 6,
+      "english": "I heard a single · shot in the distance.",
+      "russian": "Я услышал одинокий · выстрел вдалеке.",
+      "start": 84.849,
+      "end": 99.741
+    },
+    {
+      "id": 7,
+      "english": "The dark · passage led to the basement.",
+      "russian": "Тёмный · проход вёл в подвал.",
+      "start": 99.741,
+      "end": 122.658
+    },
+    {
+      "id": 8,
+      "english": "He lives in the historic · district of the old city.",
+      "russian": "Он живёт в историческом · районе старого города.",
+      "start": 122.658,
+      "end": 138.317
+    },
+    {
+      "id": 9,
+      "english": "She had a routine check-up for her · breast health.",
+      "russian": "Она прошла плановую проверку здоровья · груди.",
+      "start": 138.317,
+      "end": 153.555
+    },
+    {
+      "id": 10,
+      "english": "She made an impulse · purchase at the checkout.",
+      "russian": "Она совершила импульсивную · покупку на кассе.",
+      "start": 153.555,
+      "end": 168.667
+    },
+    {
+      "id": 11,
+      "english": "The fence is made of thick steel · wire.",
+      "russian": "Забор сделан из толстой стальной · проволоки.",
+      "start": 168.667,
+      "end": 184.622
+    },
+    {
+      "id": 12,
+      "english": "I heard a · scream and ran outside.",
+      "russian": "Я услышал · крик и выбежал на улицу.",
+      "start": 184.622,
+      "end": 201.438
+    },
+    {
+      "id": 13,
+      "english": "He felt pain in his · lung after heavy coughing.",
+      "russian": "Он почувствовал боль в · лёгком после сильного кашля.",
+      "start": 201.438,
+      "end": 217.606
+    },
+    {
+      "id": 14,
+      "english": "We are waiting for official · approval to start the project.",
+      "russian": "Мы ждём официального · одобрения для запуска проекта.",
+      "start": 217.606,
+      "end": 233.171
+    },
+    {
+      "id": 15,
+      "english": "The book tells the story of a · slave who escaped.",
+      "russian": "Книга рассказывает историю · раба, который сбежал.",
+      "start": 233.171,
+      "end": 246.496
+    },
+    {
+      "id": 16,
+      "english": "The journalist had a different · angle on the story.",
+      "russian": "У журналиста был другой · угол зрения на эту историю.",
+      "start": 246.496,
+      "end": 262.232
+    },
+    {
+      "id": 17,
+      "english": "She tried to control her · anger during the argument.",
+      "russian": "Она пыталась сдерживать свой · гнев во время спора.",
+      "start": 262.232,
+      "end": 278.157
+    },
+    {
+      "id": 18,
+      "english": "Dry weather destroyed half of the corn · crop.",
+      "russian": "Засуха уничтожила половину · урожая кукурузы.",
+      "start": 278.157,
+      "end": 293.096
+    },
+    {
+      "id": 19,
+      "english": "Check the water · depth before jumping in safely.",
+      "russian": "Проверь · глубину воды, прежде чем безопасно прыгать.",
+      "start": 293.096,
+      "end": 307.681
+    },
+    {
+      "id": 20,
+      "english": "The candle · flame flickered in the wind.",
+      "russian": "· Пламя свечи мерцало на ветру.",
+      "start": 307.681,
+      "end": 324.099
+    },
+    {
+      "id": 21,
+      "english": "The hunter's · shot missed the target.",
+      "russian": "· Выстрел охотника не попал в цель.",
+      "start": 324.099,
+      "end": 341.316
+    },
+    {
+      "id": 22,
+      "english": "We found a secret · passage behind the bookshelf.",
+      "russian": "Мы нашли тайный · проход за книжным шкафом.",
+      "start": 341.316,
+      "end": 358.105
+    },
+    {
+      "id": 23,
+      "english": "Tourists love walking around the shopping · district of the city.",
+      "russian": "Туристы любят гулять по торговому · району города.",
+      "start": 358.105,
+      "end": 370.629
+    },
+    {
+      "id": 24,
+      "english": "The doctor discussed · breast cancer screening options.",
+      "russian": "Врач обсудил варианты скрининга · рака груди.",
+      "start": 370.629,
+      "end": 385.525
+    },
+    {
+      "id": 25,
+      "english": "The online · purchase arrived the next day.",
+      "russian": "Онлайн-· покупка пришла на следующий день.",
+      "start": 385.525,
+      "end": 401.388
+    },
+    {
+      "id": 26,
+      "english": "My headphones have a broken · wire.",
+      "russian": "У моих наушников сломанный · провод.",
+      "start": 401.388,
+      "end": 416.871
+    },
+    {
+      "id": 27,
+      "english": "A loud · scream came from the haunted house.",
+      "russian": "Громкий · крик раздался из дома с привидениями.",
+      "start": 416.871,
+      "end": 433.271
+    },
+    {
+      "id": 28,
+      "english": "Protect your · lungs from smoke and pollution.",
+      "russian": "Защищайте свои · лёгкие от дыма и загрязнения.",
+      "start": 433.271,
+      "end": 433.271
+    },
+    {
+      "id": 29,
+      "english": "The manager gave her · approval for the vacation request.",
+      "russian": "Менеджер дал своё · одобрение на запрос об отпуске.",
+      "start": 433.271,
+      "end": 433.271
+    }
+  ]
+}

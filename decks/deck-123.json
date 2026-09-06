@@ -1,0 +1,220 @@
+{
+  "id": "deck-123",
+  "deck_name": "B2_3000_M 7",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M7.mp3",
+  "group": "B2_3000_M",
+  "total_duration": 475.22,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "She receives a monthly · pension from the state.",
+      "russian": "Она получает ежемесячную · пенсию от государства.",
+      "start": 0.0,
+      "end": 15.804
+    },
+    {
+      "id": 2,
+      "english": "She prayed for peace in · heaven for her grandmother.",
+      "russian": "Она молилась о покое на · небесах для своей бабушки.",
+      "start": 15.804,
+      "end": 31.593
+    },
+    {
+      "id": 3,
+      "english": "The police are investigating a · shooting in the city.",
+      "russian": "Полиция расследует · стрельбу в городе.",
+      "start": 31.593,
+      "end": 47.743
+    },
+    {
+      "id": 4,
+      "english": "The mother held her sleeping baby in her · arms.",
+      "russian": "Мать держала спящего ребёнка на · руках.",
+      "start": 47.743,
+      "end": 63.971
+    },
+    {
+      "id": 5,
+      "english": "The student was praised for excellent classroom · conduct.",
+      "russian": "Ученика похвалили за отличное · поведение в классе.",
+      "start": 63.971,
+      "end": 80.838
+    },
+    {
+      "id": 6,
+      "english": "She discovered her husband was having an · affair.",
+      "russian": "Она обнаружила, что у её мужа · роман на стороне.",
+      "start": 80.838,
+      "end": 96.606
+    },
+    {
+      "id": 7,
+      "english": "The theater was filled to its full · capacity.",
+      "russian": "Театр был заполнен до полной · вместимости.",
+      "start": 96.606,
+      "end": 112.171
+    },
+    {
+      "id": 8,
+      "english": "He was fined for a parking · offence.",
+      "russian": "Его оштрафовали за · нарушение правил парковки.",
+      "start": 112.171,
+      "end": 127.23
+    },
+    {
+      "id": 9,
+      "english": "The lightning · strike caused a power outage.",
+      "russian": "· Удар молнии вызвал отключение электричества.",
+      "start": 127.23,
+      "end": 142.665
+    },
+    {
+      "id": 10,
+      "english": "The treatment had a positive · outcome.",
+      "russian": "Лечение дало положительный · результат.",
+      "start": 142.665,
+      "end": 157.425
+    },
+    {
+      "id": 11,
+      "english": "It was a huge · relief to hear the good news.",
+      "russian": "Было огромным · облегчением услышать хорошие новости.",
+      "start": 157.425,
+      "end": 173.315
+    },
+    {
+      "id": 12,
+      "english": "His rude · remark offended everyone at the table.",
+      "russian": "Его грубое · замечание оскорбило всех за столом.",
+      "start": 173.315,
+      "end": 189.296
+    },
+    {
+      "id": 13,
+      "english": "Doctors are still looking for a · cure for cancer.",
+      "russian": "Врачи всё ещё ищут · лекарство от рака.",
+      "start": 189.296,
+      "end": 205.252
+    },
+    {
+      "id": 14,
+      "english": "I woke up sweating from a terrible · nightmare.",
+      "russian": "Я проснулся в поту от ужасного · кошмара.",
+      "start": 205.252,
+      "end": 220.86
+    },
+    {
+      "id": 15,
+      "english": "The sports · facility includes a gym and a swimming pool.",
+      "russian": "Спортивный · объект включает тренажёрный зал и бассейн.",
+      "start": 220.86,
+      "end": 237.813
+    },
+    {
+      "id": 16,
+      "english": "He started a private · pension plan for retirement.",
+      "russian": "Он завёл частный · пенсионный план для выхода на пенсию.",
+      "start": 237.813,
+      "end": 254.201
+    },
+    {
+      "id": 17,
+      "english": "He felt like he was in · heaven while listening to music.",
+      "russian": "Он чувствовал себя на · седьмом небе, слушая музыку.",
+      "start": 254.201,
+      "end": 270.607
+    },
+    {
+      "id": 18,
+      "english": "The · shooting at the park shocked the community.",
+      "russian": "· Стрельба в парке потрясла местных жителей.",
+      "start": 270.607,
+      "end": 285.979
+    },
+    {
+      "id": 19,
+      "english": "He crossed his · arms and listened to the lecture.",
+      "russian": "Он скрестил · руки и слушал лекцию.",
+      "start": 285.979,
+      "end": 301.256
+    },
+    {
+      "id": 20,
+      "english": "The company has a strict code of · conduct.",
+      "russian": "У компании строгий кодекс · поведения.",
+      "start": 301.256,
+      "end": 316.733
+    },
+    {
+      "id": 21,
+      "english": "His secret · affair with a coworker destroyed his marriage.",
+      "russian": "Его тайный · роман с коллегой разрушил его брак.",
+      "start": 316.733,
+      "end": 330.432
+    },
+    {
+      "id": 22,
+      "english": "The factory is running at maximum production · capacity.",
+      "russian": "Фабрика работает на максимальной производственной · мощности.",
+      "start": 330.432,
+      "end": 347.442
+    },
+    {
+      "id": 23,
+      "english": "She was charged with a serious criminal · offence.",
+      "russian": "Её обвинили в серьёзном уголовном · преступлении.",
+      "start": 347.442,
+      "end": 363.726
+    },
+    {
+      "id": 24,
+      "english": "The boxer landed a powerful · strike.",
+      "russian": "Боксёр нанёс мощный · удар.",
+      "start": 363.726,
+      "end": 378.785
+    },
+    {
+      "id": 25,
+      "english": "We are waiting for the · outcome of the meeting.",
+      "russian": "Мы ждём · результатов встречи.",
+      "start": 378.785,
+      "end": 393.92
+    },
+    {
+      "id": 26,
+      "english": "The pain · relief medication helped him sleep.",
+      "russian": "Лекарство для · облегчения боли помогло ему уснуть.",
+      "start": 393.92,
+      "end": 409.693
+    },
+    {
+      "id": 27,
+      "english": "She made a witty · remark that made everyone laugh.",
+      "russian": "Она сделала остроумное · замечание, которое всех рассмешило.",
+      "start": 409.693,
+      "end": 425.885
+    },
+    {
+      "id": 28,
+      "english": "This tea is a great · cure for a sore throat.",
+      "russian": "Этот чай — отличное · лекарство от боли в горле.",
+      "start": 425.885,
+      "end": 441.613
+    },
+    {
+      "id": 29,
+      "english": "She often has · nightmares about being late for school.",
+      "russian": "Ей часто снятся · кошмары о том, что она опаздывает в школу.",
+      "start": 441.613,
+      "end": 458.168
+    },
+    {
+      "id": 30,
+      "english": "The new medical · facility will open next month in town.",
+      "russian": "Новое медицинское · учреждение откроется в городе в следующем месяце.",
+      "start": 458.168,
+      "end": 475.223
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "deck-119",
+  "deck_name": "B2_3000_M 3",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M3.mp3",
+  "group": "B2_3000_M",
+  "total_duration": 469.54,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The police found a · bullet hole in the wall.",
+      "russian": "Полиция нашла · пулевое отверстие в стене.",
+      "start": 0.0,
+      "end": 15.486
+    },
+    {
+      "id": 2,
+      "english": "He is recovering at home after · surgery.",
+      "russian": "Он восстанавливается дома после · операции.",
+      "start": 15.486,
+      "end": 30.908
+    },
+    {
+      "id": 3,
+      "english": "She · struggles with math and needs a tutor.",
+      "russian": "Она · испытывает трудности с математикой и нуждается в репетиторе.",
+      "start": 30.908,
+      "end": 56.397
+    },
+    {
+      "id": 4,
+      "english": "They are preparing for the · launch of the new website.",
+      "russian": "Они готовятся к · запуску нового веб-сайта.",
+      "start": 56.397,
+      "end": 73.024
+    },
+    {
+      "id": 5,
+      "english": "The police asked the · witness to describe the accident.",
+      "russian": "Полиция попросила · свидетеля описать аварию.",
+      "start": 73.024,
+      "end": 88.838
+    },
+    {
+      "id": 6,
+      "english": "He is trying to pay off his credit card · debt.",
+      "russian": "Он пытается погасить · долг по кредитной карте.",
+      "start": 88.838,
+      "end": 103.4
+    },
+    {
+      "id": 7,
+      "english": "The · heel of his boot was worn out.",
+      "russian": "· Каблук его сапога стёрся.",
+      "start": 103.4,
+      "end": 119.119
+    },
+    {
+      "id": 8,
+      "english": "The movie has too many scenes of · violence.",
+      "russian": "В фильме слишком много сцен · насилия.",
+      "start": 119.119,
+      "end": 134.363
+    },
+    {
+      "id": 9,
+      "english": "You need a building · permit for the renovation.",
+      "russian": "Для ремонта нужно · разрешение на строительство.",
+      "start": 134.363,
+      "end": 150.561
+    },
+    {
+      "id": 10,
+      "english": "The student looked at a plant · cell under the microscope.",
+      "russian": "Студент посмотрел на растительную · клетку под микроскопом.",
+      "start": 150.561,
+      "end": 167.072
+    },
+    {
+      "id": 11,
+      "english": "I made a key · observation about the patient's symptoms.",
+      "russian": "Я сделал важное · наблюдение о симптомах пациента.",
+      "start": 167.072,
+      "end": 183.247
+    },
+    {
+      "id": 12,
+      "english": "There was a sharp · decline in sales last month.",
+      "russian": "В прошлом месяце произошло резкое · падение продаж.",
+      "start": 183.247,
+      "end": 200.023
+    },
+    {
+      "id": 13,
+      "english": "The teacher used a practical · approach to teaching math.",
+      "russian": "Учитель использовал практический · подход к преподаванию математики.",
+      "start": 200.023,
+      "end": 216.361
+    },
+    {
+      "id": 14,
+      "english": "We are worried about causing · harm to the environment.",
+      "russian": "Мы беспокоимся о том, чтобы не нанести · вреда окружающей среде.",
+      "start": 216.361,
+      "end": 232.29
+    },
+    {
+      "id": 15,
+      "english": "No one knows the full · extent of the damage yet.",
+      "russian": "Никто ещё не знает полного · масштаба ущерба.",
+      "start": 232.29,
+      "end": 248.159
+    },
+    {
+      "id": 16,
+      "english": "The soldier fired a single · bullet at the target.",
+      "russian": "Солдат выпустил одну · пулю в цель.",
+      "start": 248.159,
+      "end": 263.68
+    },
+    {
+      "id": 17,
+      "english": "The doctor explained the risks of the · surgery.",
+      "russian": "Врач объяснил риски · операции.",
+      "start": 263.68,
+      "end": 279.352
+    },
+    {
+      "id": 18,
+      "english": "She is · struggling to pay her bills this month.",
+      "russian": "В этом месяце она · испытывает трудности с оплатой счетов.",
+      "start": 279.352,
+      "end": 296.169
+    },
+    {
+      "id": 19,
+      "english": "The product · launch was delayed due to technical issues.",
+      "russian": "· Запуск продукта был отложен из-за технических проблем.",
+      "start": 296.169,
+      "end": 311.325
+    },
+    {
+      "id": 20,
+      "english": "The · witness gave testimony in court.",
+      "russian": "· Свидетель дал показания в суде.",
+      "start": 311.325,
+      "end": 327.962
+    },
+    {
+      "id": 21,
+      "english": "She finally cleared her student loan · debt last year.",
+      "russian": "В прошлом году она наконец погасила · долг за обучение.",
+      "start": 327.962,
+      "end": 342.163
+    },
+    {
+      "id": 22,
+      "english": "She broke the · heel of her shoe.",
+      "russian": "Она сломала · каблук своей туфли.",
+      "start": 342.163,
+      "end": 357.512
+    },
+    {
+      "id": 23,
+      "english": "He was arrested for domestic · violence.",
+      "russian": "Его арестовали за домашнее · насилие.",
+      "start": 357.512,
+      "end": 373.431
+    },
+    {
+      "id": 24,
+      "english": "He applied for a work · permit in the new country.",
+      "russian": "Он подал заявление на · разрешение на работу в новой стране.",
+      "start": 373.431,
+      "end": 389.798
+    },
+    {
+      "id": 25,
+      "english": "The virus enters a healthy · cell and multiplies.",
+      "russian": "Вирус проникает в здоровую · клетку и размножается.",
+      "start": 389.798,
+      "end": 405.457
+    },
+    {
+      "id": 26,
+      "english": "He spent hours in · observation of the birds.",
+      "russian": "Он провёл часы за · наблюдением за птицами.",
+      "start": 405.457,
+      "end": 421.842
+    },
+    {
+      "id": 27,
+      "english": "The · decline in his health worried all his friends.",
+      "russian": "· Ухудшение его здоровья беспокоило всех его друзей.",
+      "start": 421.842,
+      "end": 437.615
+    },
+    {
+      "id": 28,
+      "english": "She has a cautious · approach to investing money.",
+      "russian": "У неё осторожный · подход к инвестированию денег.",
+      "start": 437.615,
+      "end": 453.276
+    },
+    {
+      "id": 29,
+      "english": "The medicine should do no · harm to patients.",
+      "russian": "Лекарство не должно причинять · вреда пациентам.",
+      "start": 453.276,
+      "end": 469.536
+    },
+    {
+      "id": 30,
+      "english": "To some · extent, I agree with your point of view.",
+      "russian": "В некоторой · степени я согласен с твоей точкой зрения.",
+      "start": 469.536,
+      "end": 469.536
+    }
+  ]
+}

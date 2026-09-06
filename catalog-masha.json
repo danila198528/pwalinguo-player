@@ -196,5 +196,86 @@
     "total_duration": 466.75,
     "total_sentences": 30,
     "deck_url": "./decks/deck-116.json"
+  },
+{
+    "id": "deck-117",
+    "deck_name": "B2_3000_M 1",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M1.mp3",
+    "group": "B2_3000_M",
+    "total_duration": 476.4,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-117.json"
+  },
+  {
+    "id": "deck-118",
+    "deck_name": "B2_3000_M 2",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M2.mp3",
+    "group": "B2_3000_M",
+    "total_duration": 474.72,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-118.json"
+  },
+  {
+    "id": "deck-119",
+    "deck_name": "B2_3000_M 3",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M3.mp3",
+    "group": "B2_3000_M",
+    "total_duration": 469.54,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-119.json"
+  },
+  {
+    "id": "deck-120",
+    "deck_name": "B2_3000_M 4",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M4.mp3",
+    "group": "B2_3000_M",
+    "total_duration": 473.76,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-120.json"
+  },
+  {
+    "id": "deck-121",
+    "deck_name": "B2_3000_M 5",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M5.mp3",
+    "group": "B2_3000_M",
+    "total_duration": 476.88,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-121.json"
+  },
+  {
+    "id": "deck-122",
+    "deck_name": "B2_3000_M 6",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M6.mp3",
+    "group": "B2_3000_M",
+    "total_duration": 473.14,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-122.json"
+  },
+  {
+    "id": "deck-123",
+    "deck_name": "B2_3000_M 7",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M7.mp3",
+    "group": "B2_3000_M",
+    "total_duration": 475.22,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-123.json"
+  },
+  {
+    "id": "deck-124",
+    "deck_name": "B2_3000_M 8",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M8.mp3",
+    "group": "B2_3000_M",
+    "total_duration": 467.02,
+    "total_sentences": 30,
+    "deck_url": "./decks/deck-124.json"
+  },
+  {
+    "id": "deck-125",
+    "deck_name": "B2_3000_M 9",
+    "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M9.mp3",
+    "group": "B2_3000_M",
+    "total_duration": 433.27,
+    "total_sentences": 29,
+    "deck_url": "./decks/deck-125.json"
   }
 ]

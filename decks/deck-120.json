@@ -1,0 +1,220 @@
+{
+  "id": "deck-120",
+  "deck_name": "B2_3000_M 4",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M4.mp3",
+  "group": "B2_3000_M",
+  "total_duration": 473.76,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "She leaned close to · whisper in his ear.",
+      "russian": "Она наклонилась, чтобы · шепнуть ему на ухо.",
+      "start": 0.0,
+      "end": 15.426
+    },
+    {
+      "id": 2,
+      "english": "The scientist found · proof to support his theory.",
+      "russian": "Учёный нашёл · доказательства в поддержку своей теории.",
+      "start": 15.426,
+      "end": 31.52
+    },
+    {
+      "id": 3,
+      "english": "The company offered a cash · reward for information.",
+      "russian": "Компания предложила денежное · вознаграждение за информацию.",
+      "start": 31.52,
+      "end": 47.679
+    },
+    {
+      "id": 4,
+      "english": "The road has a sharp · curve near the old bridge.",
+      "russian": "Дорога имеет крутой · изгиб возле старого моста.",
+      "start": 47.679,
+      "end": 63.642
+    },
+    {
+      "id": 5,
+      "english": "She earns the minimum · wage at the local cafe.",
+      "russian": "Она получает минимальную · зарплату в местном кафе.",
+      "start": 63.642,
+      "end": 79.449
+    },
+    {
+      "id": 6,
+      "english": "She took the · blame for the mistake at work.",
+      "russian": "Она взяла на себя · вину за ошибку на работе.",
+      "start": 79.449,
+      "end": 94.543
+    },
+    {
+      "id": 7,
+      "english": "The fast · pace of city life is exhausting.",
+      "russian": "Быстрый · темп городской жизни утомляет.",
+      "start": 94.543,
+      "end": 110.117
+    },
+    {
+      "id": 8,
+      "english": "She spent the whole week in · preparation for the exam.",
+      "russian": "Она потратила целую неделю на · подготовку к экзамену.",
+      "start": 110.117,
+      "end": 126.632
+    },
+    {
+      "id": 9,
+      "english": "He felt · shame after lying to his friend.",
+      "russian": "Он почувствовал · стыд после того, как солгал другу.",
+      "start": 126.632,
+      "end": 142.132
+    },
+    {
+      "id": 10,
+      "english": "I like to · stretch my legs after a long drive.",
+      "russian": "Я люблю · размять ноги после долгой поездки.",
+      "start": 142.132,
+      "end": 158.44
+    },
+    {
+      "id": 11,
+      "english": "The hospital raised money for · cancer research.",
+      "russian": "Больница собирала деньги на исследования · рака.",
+      "start": 158.44,
+      "end": 174.585
+    },
+    {
+      "id": 12,
+      "english": "She felt deep · regret for missing the family reunion.",
+      "russian": "Она почувствовала глубокое · сожаление о пропуске семейной встречи.",
+      "start": 174.585,
+      "end": 191.468
+    },
+    {
+      "id": 13,
+      "english": "She applied sun · protection before going to the beach.",
+      "russian": "Она нанесла · защиту от солнца перед походом на пляж.",
+      "start": 191.468,
+      "end": 207.994
+    },
+    {
+      "id": 14,
+      "english": "She applied for a student · loan to pay for college.",
+      "russian": "Она подала заявку на студенческий · кредит для оплаты колледжа.",
+      "start": 207.994,
+      "end": 224.172
+    },
+    {
+      "id": 15,
+      "english": "The teacher's · praise boosted the student's confidence.",
+      "russian": "· Похвала учителя повысила уверенность ученика.",
+      "start": 224.172,
+      "end": 240.437
+    },
+    {
+      "id": 16,
+      "english": "I heard a faint · whisper in the dark.",
+      "russian": "Я услышал тихий · шёпот в темноте.",
+      "start": 240.437,
+      "end": 255.261
+    },
+    {
+      "id": 17,
+      "english": "The police needed more · proof of his guilt.",
+      "russian": "Полиции нужны были дополнительные · доказательства его вины.",
+      "start": 255.261,
+      "end": 270.786
+    },
+    {
+      "id": 18,
+      "english": "She received an employee · reward for her performance.",
+      "russian": "Она получила · награду для сотрудников за свою работу.",
+      "start": 270.786,
+      "end": 287.182
+    },
+    {
+      "id": 19,
+      "english": "Follow the · curve of the river to find the town.",
+      "russian": "Следуй по · изгибу реки, чтобы найти город.",
+      "start": 287.182,
+      "end": 302.481
+    },
+    {
+      "id": 20,
+      "english": "He is negotiating a higher · wage.",
+      "russian": "Он ведёт переговоры о более высокой · зарплате.",
+      "start": 302.481,
+      "end": 317.657
+    },
+    {
+      "id": 21,
+      "english": "He refused to take the · blame for the broken window.",
+      "russian": "Он отказался брать на себя · вину за разбитое окно.",
+      "start": 317.657,
+      "end": 333.969
+    },
+    {
+      "id": 22,
+      "english": "He walked at a steady · pace during the hike.",
+      "russian": "Он шёл в устойчивом · темпе во время похода.",
+      "start": 333.969,
+      "end": 349.581
+    },
+    {
+      "id": 23,
+      "english": "The · preparation for the party took all day.",
+      "russian": "· Подготовка к вечеринке заняла целый день.",
+      "start": 349.581,
+      "end": 365.122
+    },
+    {
+      "id": 24,
+      "english": "She hid her face in · shame.",
+      "russian": "Она спрятала лицо от · стыда.",
+      "start": 365.122,
+      "end": 379.328
+    },
+    {
+      "id": 25,
+      "english": "The cat · stretched on the warm floor.",
+      "russian": "Кот · потянулся на тёплом полу.",
+      "start": 379.328,
+      "end": 394.149
+    },
+    {
+      "id": 26,
+      "english": "The family supported their relative fighting · cancer.",
+      "russian": "Семья поддерживала родственника, борющегося с · раком.",
+      "start": 394.149,
+      "end": 410.489
+    },
+    {
+      "id": 27,
+      "english": "He expressed public · regret for his mistake.",
+      "russian": "Он выразил публичное · сожаление о своей ошибке.",
+      "start": 410.489,
+      "end": 426.308
+    },
+    {
+      "id": 28,
+      "english": "The law provides consumer · protection against fraud.",
+      "russian": "Закон обеспечивает · защиту потребителей от мошенничества.",
+      "start": 426.308,
+      "end": 443.042
+    },
+    {
+      "id": 29,
+      "english": "He took out a · loan to buy a new car.",
+      "russian": "Он взял · кредит, чтобы купить новую машину.",
+      "start": 443.042,
+      "end": 458.266
+    },
+    {
+      "id": 30,
+      "english": "She received sincere · praise from her manager.",
+      "russian": "Она получила искреннюю · похвалу от своего менеджера.",
+      "start": 458.266,
+      "end": 473.759
+    }
+  ]
+}

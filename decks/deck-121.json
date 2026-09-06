@@ -1,0 +1,220 @@
+{
+  "id": "deck-121",
+  "deck_name": "B2_3000_M 5",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M5.mp3",
+  "group": "B2_3000_M",
+  "total_duration": 476.88,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "There was a messy · pile of clothes on the floor.",
+      "russian": "На полу была грязная · куча одежды.",
+      "start": 0.0,
+      "end": 15.762
+    },
+    {
+      "id": 2,
+      "english": "The business · proposal was rejected by investors.",
+      "russian": "Бизнес-· предложение было отклонено инвесторами.",
+      "start": 15.762,
+      "end": 32.244
+    },
+    {
+      "id": 3,
+      "english": "The camera · flash went off during the photo.",
+      "russian": "· Вспышка камеры сработала во время фото.",
+      "start": 32.244,
+      "end": 47.888
+    },
+    {
+      "id": 4,
+      "english": "He used an axe to · split the log.",
+      "russian": "Он использовал топор, чтобы · расколоть бревно.",
+      "start": 47.888,
+      "end": 62.504
+    },
+    {
+      "id": 5,
+      "english": "He had the good · fortune to find a wallet on the street.",
+      "russian": "Ему сопутствовала · удача найти бумажник на улице.",
+      "start": 62.504,
+      "end": 78.822
+    },
+    {
+      "id": 6,
+      "english": "A rabbit hid in the thick green · bush.",
+      "russian": "Кролик спрятался в густом зелёном · кусте.",
+      "start": 78.822,
+      "end": 93.774
+    },
+    {
+      "id": 7,
+      "english": "She made a huge · contribution to our success.",
+      "russian": "Она внесла огромный · вклад в наш успех.",
+      "start": 93.774,
+      "end": 110.376
+    },
+    {
+      "id": 8,
+      "english": "The · frequency of buses is low on weekends.",
+      "russian": "· Частота движения автобусов низкая по выходным.",
+      "start": 110.376,
+      "end": 126.61
+    },
+    {
+      "id": 9,
+      "english": "She cleaned the · wound with an antiseptic.",
+      "russian": "Она обработала · рану антисептиком.",
+      "start": 126.61,
+      "end": 141.868
+    },
+    {
+      "id": 10,
+      "english": "She found a bird's · feather on the ground.",
+      "russian": "Она нашла птичье · перо на земле.",
+      "start": 141.868,
+      "end": 157.102
+    },
+    {
+      "id": 11,
+      "english": "The new movie failed to meet audience · expectations.",
+      "russian": "Новый фильм не оправдал · ожиданий зрителей.",
+      "start": 157.102,
+      "end": 174.165
+    },
+    {
+      "id": 12,
+      "english": "She was an active · participant in the workshop.",
+      "russian": "Она была активной · участницей семинара.",
+      "start": 174.165,
+      "end": 190.124
+    },
+    {
+      "id": 13,
+      "english": "The company paid for all my travel · expenses.",
+      "russian": "Компания оплатила все мои командировочные · расходы.",
+      "start": 190.124,
+      "end": 206.514
+    },
+    {
+      "id": 14,
+      "english": "She made a · commitment to exercise three times a week.",
+      "russian": "Она приняла · обязательство заниматься спортом три раза в неделю.",
+      "start": 206.514,
+      "end": 223.185
+    },
+    {
+      "id": 15,
+      "english": "I · suspect he is hiding something from us.",
+      "russian": "Я · подозреваю, что он что-то скрывает от нас.",
+      "start": 223.185,
+      "end": 238.722
+    },
+    {
+      "id": 16,
+      "english": "She had a huge · pile of paperwork on her desk.",
+      "russian": "У неё на столе была огромная · груда бумаг.",
+      "start": 238.722,
+      "end": 255.172
+    },
+    {
+      "id": 17,
+      "english": "He made a romantic · proposal under the stars.",
+      "russian": "Он сделал романтическое · предложение под звёздами.",
+      "start": 255.172,
+      "end": 271.208
+    },
+    {
+      "id": 18,
+      "english": "A lightning · flash lit up the dark sky.",
+      "russian": "· Вспышка молнии осветила тёмное небо.",
+      "start": 271.208,
+      "end": 286.902
+    },
+    {
+      "id": 19,
+      "english": "They decided to · split the bill equally.",
+      "russian": "Они решили · разделить счёт поровну.",
+      "start": 286.902,
+      "end": 301.876
+    },
+    {
+      "id": 20,
+      "english": "They believed that · fortune favors the brave.",
+      "russian": "Они верили, что · удача сопутствует смелым.",
+      "start": 301.876,
+      "end": 317.556
+    },
+    {
+      "id": 21,
+      "english": "The gardener trimmed the rose · bush in the yard.",
+      "russian": "Садовник подстриг · куст роз во дворе.",
+      "start": 317.556,
+      "end": 333.074
+    },
+    {
+      "id": 22,
+      "english": "Every team member's · contribution is important.",
+      "russian": "· Вклад каждого члена команды важен.",
+      "start": 333.074,
+      "end": 349.045
+    },
+    {
+      "id": 23,
+      "english": "We need to reduce the · frequency of our meetings.",
+      "russian": "Нам нужно сократить · частоту наших встреч.",
+      "start": 349.045,
+      "end": 365.484
+    },
+    {
+      "id": 24,
+      "english": "The soldier had a gunshot · wound in his leg.",
+      "russian": "У солдата было огнестрельное · ранение в ноге.",
+      "start": 365.484,
+      "end": 380.964
+    },
+    {
+      "id": 25,
+      "english": "The parrot dropped a colorful · feather.",
+      "russian": "Попугай обронил разноцветное · перо.",
+      "start": 380.964,
+      "end": 395.634
+    },
+    {
+      "id": 26,
+      "english": "The test results were better than our · expectations.",
+      "russian": "Результаты теста были лучше наших · ожиданий.",
+      "start": 395.634,
+      "end": 412.395
+    },
+    {
+      "id": 27,
+      "english": "All · participants received a certificate.",
+      "russian": "Все · участники получили сертификат.",
+      "start": 412.395,
+      "end": 428.072
+    },
+    {
+      "id": 28,
+      "english": "We need to reduce our monthly · expenses to save money.",
+      "russian": "Нам нужно сократить ежемесячные · расходы, чтобы копить деньги.",
+      "start": 428.072,
+      "end": 445.223
+    },
+    {
+      "id": 29,
+      "english": "The company made a · commitment to reduce plastic waste.",
+      "russian": "Компания приняла · обязательство сократить пластиковые отходы.",
+      "start": 445.223,
+      "end": 461.732
+    },
+    {
+      "id": 30,
+      "english": "The police · suspect him of stealing the car.",
+      "russian": "Полиция · подозревает его в краже машины.",
+      "start": 461.732,
+      "end": 476.879
+    }
+  ]
+}

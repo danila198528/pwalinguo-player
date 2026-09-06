@@ -1,0 +1,220 @@
+{
+  "id": "deck-117",
+  "deck_name": "B2_3000_M 1",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M1.mp3",
+  "group": "B2_3000_M",
+  "total_duration": 476.4,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "The bridge is made of strong · steel.",
+      "russian": "Мост сделан из прочной · стали.",
+      "start": 0.0,
+      "end": 15.079
+    },
+    {
+      "id": 2,
+      "english": "The car · crash blocked the main highway for hours.",
+      "russian": "· Авария на дороге заблокировала трассу на несколько часов.",
+      "start": 15.079,
+      "end": 31.133
+    },
+    {
+      "id": 3,
+      "english": "Our brief · encounter at the cafe was very pleasant.",
+      "russian": "Наша короткая · встреча в кафе была очень приятной.",
+      "start": 31.133,
+      "end": 47.821
+    },
+    {
+      "id": 4,
+      "english": "We set clear · objectives for the next quarter.",
+      "russian": "Мы поставили чёткие · цели на следующий квартал.",
+      "start": 47.821,
+      "end": 63.645
+    },
+    {
+      "id": 5,
+      "english": "The hero defeated the · evil wizard and saved the kingdom.",
+      "russian": "Герой победил · злого волшебника и спас королевство.",
+      "start": 63.645,
+      "end": 80.368
+    },
+    {
+      "id": 6,
+      "english": "She wore a smooth · silk scarf around her neck.",
+      "russian": "Она надела гладкий · шёлковый шарф на шею.",
+      "start": 80.368,
+      "end": 96.402
+    },
+    {
+      "id": 7,
+      "english": "He inherited a vast · wealth from his uncle.",
+      "russian": "Он унаследовал огромное · состояние от дяди.",
+      "start": 96.402,
+      "end": 112.093
+    },
+    {
+      "id": 8,
+      "english": "Chocolate ice cream is my only · weakness.",
+      "russian": "Шоколадное мороженое - моя единственная · слабость.",
+      "start": 112.093,
+      "end": 137.732
+    },
+    {
+      "id": 9,
+      "english": "The · decrease in temperature made us wear coats.",
+      "russian": "· Снижение температуры заставило нас надеть пальто.",
+      "start": 137.732,
+      "end": 154.055
+    },
+    {
+      "id": 10,
+      "english": "They are fighting for · justice for the victims of the crime.",
+      "russian": "Они борются за · справедливость для жертв преступления.",
+      "start": 154.055,
+      "end": 169.694
+    },
+    {
+      "id": 11,
+      "english": "I pay a monthly · fee for my gym membership.",
+      "russian": "Я плачу ежемесячную · плату за абонемент в спортзал.",
+      "start": 169.694,
+      "end": 187.828
+    },
+    {
+      "id": 12,
+      "english": "We had to change our plans due to unexpected · circumstances.",
+      "russian": "Нам пришлось изменить планы из-за непредвиденных · обстоятельств.",
+      "start": 187.828,
+      "end": 203.153
+    },
+    {
+      "id": 13,
+      "english": "He grabbed the door · handle to pull it open.",
+      "russian": "Он схватился за дверную · ручку, чтобы открыть её.",
+      "start": 203.153,
+      "end": 218.192
+    },
+    {
+      "id": 14,
+      "english": "This · species of bird is endangered.",
+      "russian": "Этот · вид птиц находится под угрозой исчезновения.",
+      "start": 218.192,
+      "end": 234.404
+    },
+    {
+      "id": 15,
+      "english": "The bright poster was designed to · capture attention.",
+      "russian": "Яркий плакат был создан, чтобы · привлечь внимание.",
+      "start": 234.404,
+      "end": 249.211
+    },
+    {
+      "id": 16,
+      "english": "The bicycle has a · steel frame.",
+      "russian": "У велосипеда  · стальная рама.",
+      "start": 249.211,
+      "end": 266.265
+    },
+    {
+      "id": 17,
+      "english": "He survived the plane · crash without serious injuries.",
+      "russian": "Он выжил в · авиакатастрофе без серьёзных травм.",
+      "start": 266.265,
+      "end": 282.704
+    },
+    {
+      "id": 18,
+      "english": "He had a frightening · encounter with a bear in the woods.",
+      "russian": "У него была страшная · встреча с медведем в лесу.",
+      "start": 282.704,
+      "end": 298.471
+    },
+    {
+      "id": 19,
+      "english": "He achieved his main · objective for the project.",
+      "russian": "Он достиг своей главной · цели по проекту.",
+      "start": 298.471,
+      "end": 314.909
+    },
+    {
+      "id": 20,
+      "english": "The movie portrays the struggle between good and · evil.",
+      "russian": "Фильм показывает борьбу между добром и · злом.",
+      "start": 314.909,
+      "end": 330.735
+    },
+    {
+      "id": 21,
+      "english": "She bought a beautiful · silk dress for the party.",
+      "russian": "Она купила красивое · шёлковое платье для вечеринки.",
+      "start": 330.735,
+      "end": 346.579
+    },
+    {
+      "id": 22,
+      "english": "The country's natural · wealth includes oil.",
+      "russian": "Природное · богатство страны включает нефть.",
+      "start": 346.579,
+      "end": 362.073
+    },
+    {
+      "id": 23,
+      "english": "He felt a sudden · weakness in his legs.",
+      "russian": "Он почувствовал внезапную · слабость в ногах.",
+      "start": 362.073,
+      "end": 378.276
+    },
+    {
+      "id": 24,
+      "english": "We saw a significant · decrease in energy usage.",
+      "russian": "Мы заметили значительное · снижение потребления энергии.",
+      "start": 378.276,
+      "end": 394.485
+    },
+    {
+      "id": 25,
+      "english": "She believes that · justice will eventually prevail.",
+      "russian": "Она верит, что · справедливость в конечном счёте восторжествует.",
+      "start": 394.485,
+      "end": 411.333
+    },
+    {
+      "id": 26,
+      "english": "The bank charges a · fee for international transfers.",
+      "russian": "Банк взимает · плату за международные переводы.",
+      "start": 411.333,
+      "end": 429.134
+    },
+    {
+      "id": 27,
+      "english": "Due to difficult · circumstances, she had to sell her car.",
+      "russian": "Из-за тяжёлых · обстоятельств ей пришлось продать машину.",
+      "start": 429.134,
+      "end": 444.66
+    },
+    {
+      "id": 28,
+      "english": "The · handle on the old suitcase was broken.",
+      "russian": "· Ручка на старом чемодане была сломана.",
+      "start": 444.66,
+      "end": 460.379
+    },
+    {
+      "id": 29,
+      "english": "They discovered a new · species of butterfly.",
+      "russian": "Они обнаружили новый · вид бабочек.",
+      "start": 460.379,
+      "end": 476.399
+    },
+    {
+      "id": 30,
+      "english": "The sunset photo · captured the beauty of the ocean.",
+      "russian": "Фото заката · захватило красоту океана.",
+      "start": 476.399,
+      "end": 476.399
+    }
+  ]
+}

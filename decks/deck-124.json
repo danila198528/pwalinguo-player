@@ -1,0 +1,220 @@
+{
+  "id": "deck-124",
+  "deck_name": "B2_3000_M 8",
+  "audio_url": "https://pub-4a08ca19d0134faf8f92c38fab357861.r2.dev/B2_3000_M8.mp3",
+  "group": "B2_3000_M",
+  "total_duration": 467.02,
+  "total_sentences": 30,
+  "sentences": [
+    {
+      "id": 1,
+      "english": "It was my · fault that we missed the morning bus.",
+      "russian": "Это была моя · вина, что мы опоздали на утренний автобус.",
+      "start": 0.0,
+      "end": 15.958
+    },
+    {
+      "id": 2,
+      "english": "The tree cast a long · shadow in the evening.",
+      "russian": "Дерево отбрасывало длинную · тень вечером.",
+      "start": 15.958,
+      "end": 31.616
+    },
+    {
+      "id": 3,
+      "english": "He made a brave · attempt to climb the steep mountain.",
+      "russian": "Он совершил смелую · попытку взобраться на крутую гору.",
+      "start": 31.616,
+      "end": 47.581
+    },
+    {
+      "id": 4,
+      "english": "Grandpa told a · tale about his childhood.",
+      "russian": "Дедушка рассказал · историю о своём детстве.",
+      "start": 47.581,
+      "end": 63.343
+    },
+    {
+      "id": 5,
+      "english": "The tall building is under · construction.",
+      "russian": "Высокое здание находится на · реконструкции.",
+      "start": 63.343,
+      "end": 75.315
+    },
+    {
+      "id": 6,
+      "english": "Her calm · presence eased the tense situation.",
+      "russian": "Её спокойное · присутствие разрядило напряжённую обстановку.",
+      "start": 75.315,
+      "end": 91.158
+    },
+    {
+      "id": 7,
+      "english": "The flight · crew prepared the plane for takeoff.",
+      "russian": "Лётный · экипаж подготовил самолёт к взлёту.",
+      "start": 91.158,
+      "end": 106.994
+    },
+    {
+      "id": 8,
+      "english": "Be careful not to · tear the thin paper.",
+      "russian": "Будь осторожен, не · порви тонкую бумагу.",
+      "start": 106.994,
+      "end": 122.08
+    },
+    {
+      "id": 9,
+      "english": "She felt pure · joy when she saw the gift.",
+      "russian": "Она почувствовала чистую · радость, когда увидела подарок.",
+      "start": 122.08,
+      "end": 137.756
+    },
+    {
+      "id": 10,
+      "english": "There is growing · concern about climate change.",
+      "russian": "Растёт · беспокойство по поводу изменения климата.",
+      "start": 137.756,
+      "end": 153.93
+    },
+    {
+      "id": 11,
+      "english": "We have a large · stock of canned food.",
+      "russian": "У нас большой · запас консервов.",
+      "start": 153.93,
+      "end": 168.836
+    },
+    {
+      "id": 12,
+      "english": "Follow the correct · sequence of steps in the recipe.",
+      "russian": "Следуй правильной · последовательности шагов в рецепте.",
+      "start": 168.836,
+      "end": 182.072
+    },
+    {
+      "id": 13,
+      "english": "He placed a small · bet on the horse race.",
+      "russian": "Он сделал небольшую · ставку на скачки.",
+      "start": 182.072,
+      "end": 197.547
+    },
+    {
+      "id": 14,
+      "english": "There is a close · bond between the two childhood friends.",
+      "russian": "Между двумя друзьями детства существует тесная · связь.",
+      "start": 197.547,
+      "end": 214.462
+    },
+    {
+      "id": 15,
+      "english": "The store announced a price · reduction on winter coats.",
+      "russian": "Магазин объявил о · снижении цен на зимние пальто.",
+      "start": 214.462,
+      "end": 231.102
+    },
+    {
+      "id": 16,
+      "english": "He apologized and accepted full · fault for the error.",
+      "russian": "Он извинился и взял на себя полную · ответственность за ошибку.",
+      "start": 231.102,
+      "end": 247.821
+    },
+    {
+      "id": 17,
+      "english": "The cat chased its own · shadow on the wall.",
+      "russian": "Кот гонялся за собственной · тенью на стене.",
+      "start": 247.821,
+      "end": 263.191
+    },
+    {
+      "id": 18,
+      "english": "Her · attempt to fix the computer was unsuccessful.",
+      "russian": "Её · попытка починить компьютер была неудачной.",
+      "start": 263.191,
+      "end": 279.604
+    },
+    {
+      "id": 19,
+      "english": "She read a fairy · tale to the children.",
+      "russian": "Она прочитала детям  ·  сказку.",
+      "start": 279.604,
+      "end": 294.486
+    },
+    {
+      "id": 20,
+      "english": "Traffic delays were caused by road · construction.",
+      "russian": "Задержки движения были вызваны дорожным · строительством.",
+      "start": 294.486,
+      "end": 311.003
+    },
+    {
+      "id": 21,
+      "english": "He has a strong online · presence through social media.",
+      "russian": "У него сильное онлайн-· присутствие через социальные сети.",
+      "start": 311.003,
+      "end": 327.965
+    },
+    {
+      "id": 22,
+      "english": "The rescue · crew arrived just in time to help.",
+      "russian": "Спасательная · команда прибыла как раз вовремя, чтобы помочь.",
+      "start": 327.965,
+      "end": 344.066
+    },
+    {
+      "id": 23,
+      "english": "The dog is · tearing up the sofa cushion.",
+      "russian": "Собака · рвёт подушку дивана.",
+      "start": 344.066,
+      "end": 359.25
+    },
+    {
+      "id": 24,
+      "english": "The · joy of winning the competition was great.",
+      "russian": "· Радость победы в соревновании была огромной.",
+      "start": 359.25,
+      "end": 374.87
+    },
+    {
+      "id": 25,
+      "english": "We keep extra · stock of paper for the printer.",
+      "russian": "Мы держим дополнительный · запас бумаги для принтера.",
+      "start": 374.87,
+      "end": 390.454
+    },
+    {
+      "id": 26,
+      "english": "The movie had a strange · sequence of scenes.",
+      "russian": "В фильме была странная · последовательность сцен.",
+      "start": 390.454,
+      "end": 406.398
+    },
+    {
+      "id": 27,
+      "english": "I lost a · bet on the game and bought dinner for my friends.",
+      "russian": "Я проиграл · ставку на игру и купил ужин для друзей.",
+      "start": 406.398,
+      "end": 422.701
+    },
+    {
+      "id": 28,
+      "english": "A strong · bond formed between the mother and her baby.",
+      "russian": "Между матерью и ребёнком образовалась крепкая · связь.",
+      "start": 422.701,
+      "end": 439.101
+    },
+    {
+      "id": 29,
+      "english": "The company set a carbon · reduction target.",
+      "russian": "Компания поставила цель по · сокращению выбросов углерода.",
+      "start": 439.101,
+      "end": 454.832
+    },
+    {
+      "id": 30,
+      "english": "He worked like a · slave to finish the project.",
+      "russian": "Он работал как · раб, чтобы закончить проект.",
+      "start": 454.832,
+      "end": 467.016
+    }
+  ]
+}
